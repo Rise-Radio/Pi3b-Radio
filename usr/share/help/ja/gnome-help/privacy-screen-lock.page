@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-screen-lock" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+    <link type="seealso" xref="session-screenlocks"/>
+    <link type="seealso" xref="shell-exit#lock-screen"/>
+
+    <revision pkgversion="3.8" date="2013-05-21" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit>
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>席を外している間に、他の人がデスクトップを使用できないようにします。</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>松澤 二郎</mal:name>
+      <mal:email>jmatsuzawa@gnome.org</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>赤星 柔充</mal:name>
+      <mal:email>yasumichi@vinelinux.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kentaro KAZUHAMA</mal:name>
+      <mal:email>kazken3@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shushi Kurose</mal:name>
+      <mal:email>md81bird@hitaki.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Noriko Mizumoto</mal:name>
+      <mal:email>noriko@fedoraproject.org</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>坂本 貴史</mal:name>
+      <mal:email>o-takashi@sakamocchi.jp</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>日本GNOMEユーザー会</mal:name>
+      <mal:email>http://www.gnome.gr.jp/</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>画面を自動的にロックする</title>
+  
+  <p>コンピューターから離れるときは、<link xref="shell-exit#lock-screen">画面をロックして</link>、誰か他の人があなたのデスクトップやファイルを使用できないようにすることを推奨します。ときどき画面をロックし忘れることがある場合は、一定の時間が経過すると画面が自動的にロックされるようにするとよいでしょう。そうすることで、コンピューターを使用していない場合にも安全に保つことができます。</p>
+
+  <note><p>画面がロックされている間も、アプリケーションやシステムのプロセスは処理を続けます。しかし、あらためてプロセスに操作を行うには、パスワードを入力してロックを解除する必要があります。</p></note>
+  
+  <steps>
+    <title>自動的に画面ロックがかかるまでの時間を設定する手順は次のとおりです。</title>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Privacy</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Privacy</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Select <gui>Screen Lock</gui>.</p>
+    </item>
+    <item>
+      <p>Make sure <gui>Automatic Screen Lock</gui> is switched <gui>ON</gui>,
+      then select a length of time from the drop-down list.</p>
+    </item>
+    <item>
+      <p>To allow notifications to be displayed on the lock screen, switch
+      <gui>Show Notifications</gui> to <gui>ON</gui>.</p>
+    </item>
+    <item>
+      <p>Click the <gui>X</gui> to close.</p>
+    </item>
+  </steps>
+
+  <p>When your screen is locked, and you want to unlock it, press
+  <key>Esc</key>, or swipe up from the bottom of the screen with your mouse.
+  Then enter your password, and press <key>Enter</key> or click
+  <gui>Unlock</gui>. Alternatively, just start typing your password and the
+  lock curtain will be automatically raised as you type.</p>
+
+</page>

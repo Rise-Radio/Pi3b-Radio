@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="disk-format" xml:lang="el">
+  <info>
+    <link type="guide" xref="disk"/>
+
+
+    <credit type="author">
+      <name>Έργο Τεκμηρίωσης GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision pkgversion="3.13.91" date="2014-09-05" status="review"/>
+
+    <desc>Αφαιρέστε όλα τα αρχεία και τους φακέλους από έναν εξωτερικό σκληρό δίσκο ή οδηγό USB διαμορφώνοντας τον.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Εξαλείψτε τα πάντα σε έναν αφαιρούμενο δίσκο</title>
+
+  <p>Εάν έχετε έναν αφαιρέσιμο δίσκο, όπως μια μνήμη USB ή έναν εξωτερικό σκληρό δίσκο, μπορεί μερικές φορές να θέλετε να αφαιρέσετε πλήρως όλα τα αρχεία και τους φακέλους του. Μπορείτε να το κάνετε <em>διαμορφώνοντας</em> τον δίσκο - αυτό διαγράφει όλα τα αρχεία στον δίσκο και τον αφήνει κενό.</p>
+
+<steps>
+  <title>Μορφοποιήστε έναν αφαιρούμενο δίσκο</title>
+  <item>
+    <p>Open <app>Disks</app> from the <gui>Activities</gui> overview.</p>
+  </item>
+  <item>
+    <p>Select the disk you want to wipe from the list of storage devices on the
+    left.</p>
+
+    <note style="warning">
+      <p>Βεβαιωθείτε ότι έχετε επιλέξει τον σωστό δίσκο! Εάν διαλέξετε λάθος δίσκο, όλα τα αρχεία στον άλλο δίσκο θα διαγραφούν!</p>
+    </note>
+  </item>
+  <item>
+    <p>In the toolbar underneath the <gui>Volumes</gui> section, click the
+    gear icon. Then click <gui>Format…</gui>.</p>
+  </item>
+  <item>
+    <p>In the window that pops up, choose a file system <gui>Type</gui> for the
+    disk.</p>
+   <p>Εάν χρησιμοποιείτε τον δίσκο σε Windows και υπολογιστές Mac OS πέρα από υπολογιστές Λίνουξ, επιλέξτε <gui>FAT</gui>. Εάν τον χρησιμοποιείτε μόνο σε Windows, <gui>NTFS</gui> μπορεί να είναι μια καλύτερη επιλογή. Μια σύντομη περιγραφή του <gui>τύπου συστήματος αρχείου</gui> θα παρουσιαστεί ως ετικέτα.</p>
+  </item>
+  <item>
+    <p>Give the disk a name and click <gui>Format…</gui> to continue and show a
+    confirmation window. Check the details carefully, and click
+    <gui>Format</gui> to wipe the disk.</p>
+  </item>
+  <item>
+    <p>Once the formatting has finished, click the eject icon to safely remove
+    the disk. It should now be blank and ready to use again.</p>
+  </item>
+</steps>
+
+<note style="warning">
+ <title>Η διαμόρφωση ενός δίσκου δεν διαγράφει ασφαλώς τα αρχεία σας</title>
+  <p>Η διαμόρφωση ενός δίσκου δεν είναι ένας πλήρως ασφαλής τρόπος διαγραφής όλων των δεδομένων του. Ένας διαμορφωμένος δίσκος δεν φαίνεται να έχει αρχεία πάνω του, αλλά είναι δυνατό λογισμικό ειδικής ανάκτησης να ανακτήσει τα αρχεία. Εάν χρειάζεστε να διαγράψετε με ασφάλεια τα αρχεία, θα χρειαστείτε να χρησιμοποιήσετε ένα εργαλείο γραμμής εντολών, όπως το <app>shred</app>.</p>
+</note>
+
+</page>

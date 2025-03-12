@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="user-add" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="user-accounts#manage" group="#first"/>
+    <!--<link type="seealso" xref="user-addguest"/>-->
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+    <revision pkgversion="3.13.92" date="2013-11-01" status="review"/>
+
+    <credit type="author">
+      <name>Le projet de documentation GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ajouter de nouveaux utilisateurs pour que d'autres personnes puissent se connecter à l'ordinateur.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ajout d'un nouveau compte utilisateur</title>
+
+  <p>Vous pouvez ajouter plusieurs comptes d'utilisateurs à votre ordinateur.Créez un compte pour chaque membre de votre famille ou de votre entreprise. Chaque utilisateur possède son dossier personnel, ses documents et ses paramètres.</p>
+
+  <p>Vous devez avoir les <link xref="user-admin-explain">privilèges administrateur</link> pour ajouter des comptes utilisateur.</p>
+
+  <steps>
+    <item>
+      <p>Ouvrez la vue d'ensemble des <gui xref="shell-terminology">Activités</gui> et commencez à saisir <gui>Utilisateurs</gui>.</p>
+    </item>
+    <item>
+      <p>Cliquez sur <gui>Utilisateurs</gui> pour ouvrir le panneau.</p>
+    </item>
+    <item>
+      <p>Cliquez sur le bouton <gui style="button">Déverrouiller</gui> en haut à droite et saisissez votre mot de passe.</p>
+    </item>
+    <item>
+      <p>Dans la liste de comptes à gauche, cliquez sur le bouton <gui style="button">+</gui> pour ajouter un nouveau compte utilisateur.</p>
+    </item>
+    <item>
+      <p>Si vous souhaitez donner un <link xref="user-admin-explain">accès administrateur</link> au nouvel utilisateur, sélectionnez <gui>Administrateur</gui>comme type de compte. Les administrateurs peuvent par exemple ajouter et supprimer des utilisateurs, installer des logiciels et des pilotes, ou encore modifier la date et l'heure.</p>
+    </item>
+    <item>
+      <p>Saisissez le nom complet de l'utilisateur. Le champ du nom d'utilisateur est rempli automatiquement d'après le nom complet. Si le nom par défaut ne vous convient pas, vous pouvez le modifier.</p>
+    </item>
+    <item>
+      <p>You can choose to set a password for the new user, or let them set it
+      themselves on their first login. You can press on the
+      <gui style="button"><media its:translate="no" type="image" src="figures/system-run-symbolic.svg" width="16" height="16"><span its:translate="yes">generate
+      password</span></media></gui> icon to automatically generate a random
+      password.</p>
+    </item>
+    <item>
+      <p>Cliquez sur <gui>Ajouter</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Si vous voulez modifier le mot de passe après avoir créé le compte, sélectionnez le compte, <gui style="button">Déverrouillez</gui> le panneau et cliquez sur l'état du mot de passe actuel.</p>
+
+  <note>
+    <p>Dans le panneau <gui>Utilisateurs</gui>, cliquez sur l'image à droite du nom d'utilisateur pour définir une image pour le compte. Cette image s'affichera dans la fenêtre de connexion. GNOME fournit des échantillons d'images, mais vous pouvez aussi sélectionner une de vos photos ou en prendre une nouvelle avec votre Webcam.</p>
+  </note>
+
+</page>

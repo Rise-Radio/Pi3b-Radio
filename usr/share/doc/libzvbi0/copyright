@@ -1,0 +1,250 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: zvbi
+Source: http://zapping.sourceforge.net/
+
+Files: *
+Copyright: 2000-2013 Michael H. Schimek
+License: GPL-2+
+
+Files: 
+ src/format.h
+ src/xds_demux.c
+ src/event.h
+ src/hamm-tables.h
+ src/sliced_filter.c
+ src/tables.h
+ src/dlist.h
+ src/conv.h
+ src/exp-gfx.h
+ src/idl_demux.c
+ src/decoder.h
+ src/io-v4l.c
+ src/dvb_demux.c
+ src/trigger.c
+ src/decoder.c
+ src/lang.h
+ src/search.c
+ src/event.c
+ src/hamm.c
+ src/event-priv.h
+ src/sliced_filter.h
+ src/bit_slicer.h
+ src/sliced.h
+ src/intl-priv.h
+ src/io-bktr.c
+ src/macros.h
+ src/io-dvb.c
+ src/cc608_decoder.c
+ src/dvb_mux.h
+ src/cache-priv.h
+ src/teletext.c
+ src/io.h
+ src/raw_decoder.h
+ src/misc.c
+ src/wss.h
+ src/dvb_demux.h
+ src/vbi.c
+ src/io-v4l2k.c
+ src/vps.h
+ src/libzvbi.h
+ src/exp-txt.c
+ src/teletext_decoder.h
+ src/xds_demux.h
+ src/lang.c
+ src/export.c
+ src/sampling_par.h
+ src/bcd.h
+ src/cache.h
+ src/hamm.h
+ src/pfc_demux.h
+ src/network.h
+ src/page_table.c
+ src/idl_demux.h
+ src/proxy-client.c
+ src/dvb_mux.c
+ src/cc.h
+ src/search.h
+ src/trigger.h
+ src/packet.c
+ src/tables.c
+ src/sampling_par.c
+ src/raw_decoder.c
+ src/vbi.h
+ src/io.c
+ src/exp-gfx.c
+ src/io-sim.h
+ src/bit_slicer.c
+ src/caption.c
+ src/vt.h
+ src/chains.c
+ src/proxy-msg.c
+ src/cache.c
+ src/export.h
+ src/io-sim.c
+ src/proxy-msg.h
+ src/vps.c
+ src/page_table.h
+ src/misc.h
+ src/proxy-client.h
+ src/conv.c
+ src/dvb.h
+ src/cc608_decoder.h
+ src/pfc_demux.c
+ src/io-v4l2.c
+ src/wss.c
+ src/exp-txt.h
+ src/exp-html.c
+Copyright: 2000-2013 Michael H. Schimek
+License: LGPL-2+
+
+Files:
+ src/ure.h
+ src/ure.c
+Copyright: 1997-1999, Computing Research Labs
+ Iñaki García Etxebarrria <garetxe@users.sourceforge.net>
+ 2000-2013, Michael H. Schimek <mschimek@users.sf.net>
+License: MIT/X11 (BSD like)
+
+Files: src/videodev2k.h
+Copyright: 1999-2007, Bill Dirks <bill@thedirks.org>
+ 1999-2007, Justin Schoeman
+ 1999-2007, Hans Verkuil <hverkuil@xs4all.nl>
+License: BSD (2 clause), GPL (v2 or later)
+
+Files:
+ examples/pdc2.c
+ examples/rawout.c
+ examples/network.c
+ examples/pdc1.c
+ examples/wss.c
+Copyright: 2000-2013 Michael H. Schimek
+License: BSD (2 clause)
+
+Files:
+ src/dvb/frontend.h: LGPL
+ src/dvb/dmx.h
+Copyright: 2000 Marcus Metzler <marcus@convergence.de>
+ Ralph  Metzler <ralph@convergence.de>
+ Holger Waechtler <holger@convergence.de>
+ Andre Draszik <ad@convergence.de>
+License: LGPL-2.1+
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, 
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ On Debian systems the full text of the LGPL 2.1 can be found
+ in the `/usr/share/common-licenses/LGPL-2.1' file.
+
+License: LGPL-2+
+ On Debian systems the full text of the LGPL 2 can be found
+ in the `/usr/share/common-licenses/LGPL-2' file.
+
+License: GPL-2+
+ This program is free software; you can redistribute it
+ and/or modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later
+ version.
+ .
+ This program is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied
+ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE.  See the GNU General Public License for more
+ details.
+ .
+ You should have received a copy of the GNU General Public
+ License along with this package; if not, write to the Free
+ Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+ Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the full text of the GNU General Public
+ License version 2 can be found in the file
+ `/usr/share/common-licenses/GPL-2'.
+
+License: BSD (2 clause), GPL (v2 or later)
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ Alternatively you can redistribute this file under the terms of the
+ BSD license as stated below:
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+ 3. The names of its contributors may not be used to endorse or promote
+    products derived from this software without specific prior written
+    permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+ TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: MIT/X11 (BSD like)
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+ THE COMPUTING RESEARCH LAB OR NEW MEXICO STATE UNIVERSITY BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
+ OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+ THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: BSD (2 clause)
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="files-browse" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="files" group="#first"/>
+    <link type="seealso" xref="files-copy"/>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-16" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>फाइल व्यवस्थापकासोबत फाइल्स व्यस्थापित आणि क्रमवारीत लावा.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>फाइल्स आणि फोल्डर्स चाळा</title>
+
+<p>संगणकावरील फाइल्सची चाळणी आणि संघटनकरिता <app>फाइल्स</app> फाइल व्यवस्थापकाचा वापर करा. स्टोरेज साधनांवरील, <link xref="nautilus-connect">फाइल सर्व्हर्स</link>, आणि नेटवर्क शेअर्सवरील फाइल्सच्या व्यवस्थापनकरिता (जसे कि एक्सटर्नल हार्ड डिस्क्स) याचा वापर शक्य आहे.</p>
+
+<p>To start the file manager, open <app>Files</app> in the
+<gui xref="shell-terminology">Activities</gui> overview. You can also search
+for files and folders through the overview in the same way you would
+<link xref="shell-apps-open">search for applications</link>.
+</p>
+
+<section id="files-view-folder-contents">
+  <title>फोल्डर्सचा आशय शोधा</title>
+
+<p>फाइल व्यवस्थापकामध्ये, अंतर्भुत माहितीच्या अवलोकनकरिता कोणत्याही फोल्डरवर दोनवेळा-क्लिक करा, आणि फाइलला पूर्वनिर्धारित ॲप्लिकेशनसह उघडण्याकरिता  दोनवेळा-क्लिक करा. फोल्डवर उजवी-क्लिक देऊन तुम्ही नविन टॅब किंवा नविन पटलात देखील उघडू शकता.</p>
+
+<p>फोल्डरपासून फाइल्सची तपासणी करताना, स्पेसबार दाबून तुम्ही पटकन <link xref="files-preview">प्रत्येक फाइलचे पूर्वावलोकन</link> करू शकाल आणि फाइल उघडण्यापूर्वी, प्रत बनवण्यापूर्वी, किंवा नष्ट करताना योग्य फाइलची खात्री करू शकता.</p>
+
+<p>फाइल्स आणि फोल्डर्सच्या सूचीवरील <em>मार्ग पट्टी</em> अवलोकनजोगी फोल्डर दाखवते, सध्याचे फोल्डरचे मुख्य फोल्डर्स समाविष्टीत. फोल्डरकरिता जाण्याकरिता मार्ग पट्टीवरील मुख्य फोल्डरवर क्लिक करा. मार्ग पट्टीवरील कोणत्याही फोल्डरवर उजवी-क्लिक देऊन नवीन टॅब किंवा पटलात फोल्डर उघडा, प्रत बनवा किंवा स्थानांतरीत करा किंवा त्याच्या गुणधर्मकरिता प्रवेश प्राप्त करा.</p>
+
+<p>If you want to quickly <link xref="files-search">search for a file</link>,
+in or below the folder you are viewing, start typing its name. A <em>search
+bar</em> will appear at the top of the window and only files which match your
+search will be shown. Press <key>Esc</key> to cancel the search.</p>
+
+<p>You can quickly access common places from the <em>sidebar</em>. If you do
+not see the sidebar, click the
+<gui><media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media></gui>
+button in the toolbar and pick <gui>Show Sidebar</gui>. You can add bookmarks
+to folders that you use often and they will appear in the sidebar. Click
+<gui>Files</gui> in the top bar and then <gui style="menuitem">Bookmarks</gui>
+to do this, or simply drag a folder into the sidebar.</p>
+
+</section>
+
+</page>

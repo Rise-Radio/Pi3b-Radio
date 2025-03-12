@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-display" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-display"/>
+
+    <desc>Upravljajte natpisima ikonica korišćenim u upravniku datoteka.</desc>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-19" status="review"/>
+
+    <credit type="author">
+      <name>Šon Mek Kens</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Majkl Hil</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  </info>
+
+<title>Postavke prikaza upravnika datoteka</title>
+
+<p>Možete da odredite na koji način će upravnik datoteka da prikazuje natpise ispod ikonica. Kliknite <gui>Datoteke</gui> na gornjoj traci, izaberite <gui>Postavke</gui> a zatim jezičak <gui>Prikaz</gui>.</p>
+
+<section id="icon-captions">
+  <title>Natpisi ikonice</title>
+  <media type="image" src="figures/nautilus-icons.png" width="250" height="110" style="floatend floatright">
+    <p>Ikonice upravnika datoteka sa natpisima</p>
+  </media>
+  <p>Kada koristite pregled ikonicama, možete da izaberete prikaz dodatnih podataka o datotekama i fasciklama u natpisu ispod svake ikonice. Ovo je korisno, na primer, ako često imate potrebu da vidite ko je vlasnik datoteke ili kada je poslednji put izmenjena.</p>
+  <p>Možete da uvećate prikaz fascikle tako što ćete kliknuti na dugme <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">dole</span></media> na traci alata i izabrati jednu od mogućnosti opcije <gui>Uvećaj</gui>. Kako budete uvećavali, upravnik datoteka će prikazivati više i više podataka u natpisu. Možete da izaberete do tri stvari za prikazivanje u natpisu. Prva će biti prikazana na većini nivoa uvećavanja. Poslednja će biti prikazana pri vrlo velikim veličinama.</p>
+  <p>Podaci koje možete da prikažete u natpisu ikonice su isti kao i kolone koje možete da koristite u pregledu spiskom. Pogledajte <link xref="nautilus-list"/> za više podataka.</p>
+  <note><p>Ako vam je otvoren prozor upravnika datoteka, moraćete ponovo da učitate da bi izmene natpisa ikonice stupile na snagu. Kliknite <guiseq><gui>Pregled</gui><gui>Osveži</gui></guiseq> ili pritisnite <keyseq><key>Ktrl</key><key>R</key></keyseq>.</p></note>
+</section>
+
+</page>

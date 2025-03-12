@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="look-background" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="prefs-display"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-07" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Έργο Τεκμηρίωσης GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>April Gonzales</name>
+      <email its:translate="no">loonycookie@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Natalia Ruz Leiva</name>
+      <email its:translate="no">nruz@alumnos.inf.utfsm.cl </email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email its:translate="no">tyagishobha@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ορίστε μιας εικόνα, ένα χρώμα ή μια διαβάθμιση ως παρασκήνιο της επιφάνειας εργασίας σας ή το παρασκήνιο κλειδώματος οθόνης.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Αλλάξτε την επιφάνεια εργασίας και τα παρασκήνια κλειδώματος οθόνης</title>
+
+  <p>Μπορείτε να αλλάξετε την χρησιμοποιούμενη εικόνα για τα παρασκήνια σας, ή να την ορίσετε ως συμπαγές χρώμα.</p>
+
+  <steps>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Παρασκήνιο</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε <gui>Παρασκήνιο</gui> για να ανοίξετε το φάτνωμα.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε <gui>Παρασκήνιο</gui> ή <gui>Κλείδωμα οθόνης</gui>.</p>
+    </item>
+    <item>
+      <p>Υπάρχουν τρεις εμφανιζόμενες επιλογές στην κορυφή:</p>
+      <list>
+        <item>
+          <p>Επιλέξτε <gui>Ταπετσαρίες</gui> για να χρησιμοποιήσετε μία από τις πολλές επαγγελματικές εικόνες παρασκηνίου που έρχονται με το GNOME. Μερικές ταπετσαρίες αλλάζουν κατά τη διάρκεια της ημέρας. Αυτές οι ταπετσαρίες έχουν ένα μικρό εικονίδιο ρολογιού στην κάτω δεξιά γωνία.</p>
+        </item>
+        <item>
+          <p>Επιλέξτε <gui>Εικόνες</gui> για να χρησιμοποιήσετε μία από τις δικές σας φωτογραφίες από τον φάκελο <file>Εικόνες</file>. Οι περισσότερες εφαρμογές διαχείρισης φωτογραφιών αποθηκεύουν τις φωτογραφίες εκεί. Εάν θα θέλατε να χρησιμοποιήσετε μια εικόνα που δεν είναι στον φάκελο εικόνων, είτε χρησιμοποιήστε <app>Αρχεία</app> δεξιοπατώντας στο αρχείο εικόνας και επιλέγοντας <gui>Ορισμός ως ταπετσαρίας</gui>, ή <app>Προβολή εικόνων</app> ανοίγοντας το αρχείο εικόνων και επιλέγοντας <guiseq><gui>Εικόνα</gui><gui>Ορισμός ως παρασκηνίου επιφάνειας εργασίας</gui></guiseq>.</p>
+        </item>
+        <item>
+          <p>Επιλέξτε <gui>Χρώματα</gui> για να χρησιμοποιήσετε μόνο ένα ομοιόμορφο χρώμα.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Οι ρυθμίσεις εφαρμόζονται αμέσως.</p>
+    </item>
+    <item>
+      <p><link xref="shell-workspaces-switch">Εναλλαγή σε έναν κενό χώρο εργασίας</link> για να δείτε όλη την επιφάνεια εργασίας.</p>
+    </item>
+  </steps>
+
+</page>

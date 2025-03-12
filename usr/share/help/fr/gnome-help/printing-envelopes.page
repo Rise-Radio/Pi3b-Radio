@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="printing-envelopes" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="printing#paper"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Assurez-vous d'avoir bien positionné l'enveloppe ou l'étiquette dans le bon sens et d'avoir sélectionné la bonne taille de papier.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Impression d'enveloppes et d'étiquettes</title>
+
+  <p>La plupart des imprimantes vous permettent d'imprimer directement sur une enveloppe ou sur une feuille d'étiquettes. C'est particulièrement intéressant si vous avez notamment beaucoup de lettres à expédier.</p>
+
+  <section id="envelope">
+    <title>Impression sur des enveloppes</title>
+
+  <p>There are two things you need to check when trying to print onto an
+  envelope. The first is that your printer knows what size the envelope is.
+  After you click <gui>Print</gui> and the Print window appears, go to the
+  <gui>Page Setup</gui> tab and choose the <gui>Paper type</gui> as "Envelope"
+  if you can. If you cannot do this, see if you can change the <gui>Paper
+  size</gui> to an envelope size (for example, <gui>C5</gui>). The pack of
+  envelopes will say what size they are; most envelopes come in standard
+  sizes.</p>
+
+  <p>Ensuite, vérifiez que les enveloppes sont chargées dans le bon sens dans le bac de l'imprimante. Consultez le manuel de l'imprimante, ou faites un essai sur une seule enveloppe pour être sûr du sens dans lequel il faut les mettre.</p>
+
+  <note style="warning">
+    <p>Quelques imprimantes ne sont pas faites pour imprimer des enveloppes, notamment les imprimantes laser. Consultez le manuel de la vôtre pour en être sûr ; sinon, vous risquez de l'endommager en y chargeant des enveloppes.</p>
+  </note>
+
+  </section>
+
+<!--
+INCOMPLETE: Please write this section!
+
+<section id="labels">
+ <title>Printing labels</title>
+
+</section>
+-->
+
+</page>

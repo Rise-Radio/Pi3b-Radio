@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="sharing-bluetooth" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="bluetooth"/>
+    <link type="guide" xref="sharing"/>
+    <link type="guide" xref="prefs-sharing"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-13" status="draft"/>
+    <revision pkgversion="3.10" date="2013-11-09" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-08" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-13" status="candidate"/>
+
+    <credit type="author">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2014</years>
+    </credit>
+    <credit type="author">
+      <name>David King</name>
+      <email its:translate="no">davidk@gnome.org</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Permitir subir archivos al equipo mediante Bluetooth</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Controlar la compartición por Bluetooth</title>
+
+  <p>You can configure <gui>Bluetooth Sharing</gui> to control access to your
+  <file>Downloads</file> folder for Bluetooth file sharing, and also restrict
+  that access to only <em>trusted devices</em>.  Trusted devices are ones which
+  you have <link xref="bluetooth-connect-device">paired</link> to your computer
+  before.</p>
+
+  <note style="info package">
+    <p>You must have the <app>GNOME User Share</app> package installed for
+    <gui>Bluetooth Sharing</gui> to be visible.</p>
+
+    <if:choose xmlns:if="http://projectmallard.org/if/1.0/">
+      <if:when test="action:install">
+        <p><link action="install:gnome-user-share" style="button">Install GNOME
+        User Share</link></p>
+      </if:when>
+    </if:choose>
+  </note>
+
+  <steps>
+    <title>Permitir que se compartan los archivos de su carpeta <file>Descargas</file></title>
+    <item>
+      <p>Abra la vista de <gui xref="shell-terminology">Actividades</gui> y empiece a escribir <gui>Compartición</gui>.</p>
+    </item>
+    <item>
+      <p>Pulse en <gui>Compartición</gui> para abrir el panel.</p>
+    </item>
+    <item>
+      <p>Si la<gui>Compartición</gui> está <gui>Apagada</gui>, <gui>Actívela</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccione <gui>Compartición por Bluetooth</gui>.</p>
+    </item>
+    <item>
+      <p>Active la opción <gui>Guardar los archivos recibidos en la carpeta Descargas</gui> (<gui>Encendido</gui>).</p>
+    </item>
+    <item>
+      <p>Si quiere que sólo los dispositivos de confianza accedan a su carpeta <file>Descargas</file> <gui>Active</gui> la opción <gui>Recibir archivos sólo de dispositivos de confianza</gui>.</p>
+
+      <note style="tip">
+        <p>Esta opción está desactivada de manera predeterminada. Debe activarla si quiere evitar el acceso a sus archivos compartidos por parte de cualquiera que tenga un teléfono o un dispositivo Bluetooth cerca activado.</p>
+      </note>
+
+    </item>
+    <item>
+      <p>Pulse <gui style="button">Cerrar</gui>. Los dispositivos Bluetooth activados no podrán enviar archivos a su carpeta <file>Descargas</file>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Puede <link xref="sharing-displayname">cambiar</link> el nombre que el equipo muestra a otros dispositivos.</p>
+  </note>
+
+  <p><app>Files</app> allows you to launch the <gui>Sharing</gui> panel
+  directly by clicking the <gui>Preferences</gui> button when you visit the
+  <file>Downloads</file> folder.</p>
+
+</page>

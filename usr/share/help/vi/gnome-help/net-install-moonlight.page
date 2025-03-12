@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="vi">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Một số trang web dùng công nghệ Silverlight để hiển thị. Phẩn bổ sung Moonlight cho phép bạn xem những trang web này.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nguyễn Thái Ngọc Duy</mal:name>
+      <mal:email>pclouds@gmail.com</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Cài đặt phần bổ sung Silverlight</title>
+
+  <p><app>Silverlight</app> là một <em>phần bổ sung</em> cho trình duyệt web, cho phép bạn xem phim hoặc tương tác trên trang web. Một số trang web sẽ không hoạt động nếu không có Silverlight.</p>
+
+  <p>Nếu bạn xem những trang web dùng Silverlight nhưng chưa cài phần mở rộng này, bạn sẽ thấy thông báo đề nghị cài. Thông báo này có chỉ dẫn để lấy phần mở rộng, nhưng những chỉ dẫn này có thể không phù hợp với trình duyệt web của bạn hoặc với phiên bản Linux bạn đang dùng.</p>
+
+  <p>Nếu bạn muốn xem các trang web dùng Silverlight, bạn nên cài phần mở rộng <em>Moonlight</em>. Đây là phiên bản tự do, mã nguồn mở của Silverlight, chạy trên Linux.</p>
+
+  <p>Một số bản phân phối Linux có Moonlight trong trình cài đặt phần mềm; chỉ cần mở trình cài đặt và tìm <input>Silverlight</input> hoặc <input>Moonlight</input>.</p>
+
+  <p>Nếu bản phân phối của bạn không có Moonlight, xem <link href="http://www.go-mono.com/moonlight/">trang web Moonlight</link> để biết thêm chi và chỉ dẫn cài đặt.</p>
+
+</page>

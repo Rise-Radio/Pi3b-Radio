@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-dwellclick" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="mouse"/>
+    <link type="guide" xref="a11y#mobility" group="clicking"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-13" status="candidate"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="final"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <desc>Το γνώρισμα <gui>κλικ με αιώρηση</gui> (κράτημα πατήματος) σας επιτρέπει να πατήσετε κρατώντας το ποντίκι ακίνητο.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Προσομοίωση πατήματος με αιώρηση</title>
+
+  <p>Μπορείτε να πατήσετε ή να μεταφέρετε απλά με αιώρηση τον δείκτη ποντικιού σας πάνω από ένα στοιχείο ελέγχου ή αντικείμενο στην οθόνη. Αυτό είναι χρήσιμο αν δυσκολεύεστε να μετακινήσετε το ποντίκι και να πατήσετε ταυτόχρονα. Αυτό το γνώρισμα λέγεται <gui>κλικ με αιώρηση</gui> ή κράτημα πατήματος.</p>
+
+  <p>Όταν ενεργοποιηθεί το <gui>κλικ με αιώρηση</gui>, μπορείτε να μετακινήσετε τον δείκτη ποντικιού σας πάνω από ένα στοιχείο ελέγχου, να αφήσετε το ποντίκι και έπειτα να περιμένετε για κάμποσο πριν να πατηθεί το κουμπί για σας.</p>
+
+  <steps>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Γενική πρόσβαση</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui>Γενική πρόσβαση</gui> για να ανοίξετε τον πίνακα.</p>
+    </item>
+    <item>
+      <p>Press <gui>Click Assist</gui> in the <gui>Pointing &amp;
+      Clicking</gui> section.</p>
+    </item>
+    <item>
+      <p>Switch <gui>Hover Click</gui> to <gui>ON</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Το παράθυρο <gui>αιώρηση με κλικ</gui> θα ανοίξει και θα παραμείνει πάνω από όλα τα άλλα σας παράθυρα. Μπορείτε να το χρησιμοποιήσετε για να επιλέξετε τι είδος πατήματος πρέπει να συμβεί όταν αιωρείστε. Για παράδειγμα, εάν επιλέξετε <gui>δευτερεύον κλικ</gui>, θα δεξιοπατήσετε όταν αιωρείστε. Μετά το διπλοπάτημα, δεξιοπάτημα ή μεταφορά θα επιστρέψετε αυτόματα στο πάτημα.</p>
+
+  <p>Όταν αιωρείτε τον δείκτη του ποντικιού σας πάνω από ένα κουμπί και δεν τον μετακινείτε, θα αλλάξει σταδιακά χρώμα. Όταν έχει πλήρως αλλαγμένο χρώμα, το κουμπί θα πατηθεί.</p>
+
+  <p>Προσαρμόστε τη ρύθμιση <gui>καθυστέρηση</gui> για να αλλάξετε το χρόνο κρατήματος του δείκτη ποντικιού πριν το πάτημα.</p>
+
+  <p>Δεν χρειάζεστε να κρατάτε το ποντίκι ολότελα ακίνητο κατά την αιώρηση για πάτημα. Ο δείκτης επιτρέπεται να μετακινηθεί λίγο και θα πατηθεί μετά από λίγο. Εάν μετακινηθεί υπερβολικά, όμως, το πάτημα δεν θα συμβεί.</p>
+
+  <p>Προσαρμόστε τη ρύθμιση <gui>κατώφλι κίνησης</gui> για να αλλάξετε πόσο μπορεί να μετακινηθεί ο δείκτης και να θεωρείται ακόμα ότι αιωρείται.</p>
+
+</page>

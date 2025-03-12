@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="ui" id="nautilus-file-properties-basic" xml:lang="fi">
+
+  <info>
+    <link type="guide" xref="files" group="more"/>
+
+   <desc>Tarkista tiedoston perusominaisuudet, aseta oikeudet ja valitse oletussovellukset.</desc>
+
+   <revision pkgversion="3.5.92" version="0.2" date="2012-09-19" status="review"/>
+
+   <credit type="author">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany@antopolski.com</email>
+   </credit>
+   <credit type="author">
+     <name>Shaun McCance</name>
+     <email>shaunm@gnome.org</email>
+   </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:its="http://www.w3.org/2005/11/its" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Timo Jyrinki</mal:name>
+      <mal:email>timo.jyrinki@iki.fi</mal:email>
+      <mal:years>2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jiri Grönroos</mal:name>
+      <mal:email>jiri.gronroos+l10n@iki.fi</mal:email>
+      <mal:years>2012, 2013.</mal:years>
+    </mal:credit>
+  </info>
+  <title>Tiedostojen ominaisuudet</title>
+
+  <p>Saat tiedoston tai kansion ominaisuudet näkyviin napsauttamalla tiedostoa hiiren oikealla painikkeella ja valitsemalla <gui>Ominaisuudet</gui>. Sama onnistuu valitsemalla tiedosto napsauttamalla sitä kerran ja sitten painamalla näppäinyhdistelmää <keyseq><key>Alt</key><key>Enter</key></keyseq>.</p>
+
+  <p>Tiedoston ominaisuudet -ikkuna kertoo tiedostosta muun muassa sen tyypin, koon ja viimeisimmän muokkausajankohdan. Jos tarvitset näitä tietoja usein, ne saadaan näkyviin <link xref="nautilus-list">luettelonäkymän sarakkeisiin</link> tai <link xref="nautilus-display#icon-captions">kuvakkeiden teksteihin</link>.</p>
+
+  <p><gui>Perustiedot</gui>-välilehden sisältämät osiot on eritelty alempana. Tämän lisäksi näkyvissä on myös <gui><link xref="nautilus-file-properties-permissions">Oikeudet</link></gui>- ja <gui><link xref="files-open#default">Avaa sovelluksella</link></gui> -välilehdet. Joillain tiedostotyypeillä, kuten kuvilla ja videoilla, on vielä ylimääräinen välilehti, joka näyttää tiedostotyypille ominaisia tietoja, kuten mitat, keston ja pakkaamiseen käytetyn koodekin.</p>
+
+<section id="basic">
+ <title>Perusominaisuudet</title>
+ <terms>
+  <item>
+    <title><gui>Nimi</gui></title>
+    <p>Voit nimetä tiedoston uudelleen käyttäen tätä kenttää. Voit nimetä tiedoston uudelleen myös Ominaisuudet-ikkunan ulkopuolella. Lue lisää kappaleesta <link xref="files-rename"/>.</p>
+  </item>
+  <item>
+    <title><gui>Tyyppi</gui></title>
+    <p>Tiedostotyyppi, kuten PDF-asiakirja, OpenDocument-tekstitiedosto tai JPEG-kuva, auttaa tiedoston muodon tunnistamisessa. Tiedostotyyppi määrittää muun muassa tiedoston avaamiseen käytettävän sovelluksen. Et voi esimerkiksi avata kuvatiedostoja musiikkisoittimella. Lue <link xref="files-open"/> saadaksesi lisätietoja tästä aiheesta.</p>
+  <p>Suluissa näkyvä <em>MIME-tyyppi</em> on tietokoneiden käyttämä standardi tiedoston tyypin tunnistamiseen.</p>
+  </item>
+
+  <item>
+    <title>Sisältö</title>
+    <p>Sisältö kertoo kansiossa olevien tiedostojen ja alikansioiden määrän. Tähän lukuun sisältyy kansion ja sen alikansioiden sisältämät tiedostot. Jos kansio on tyhjä, näytetään teksti <gui>ei mitään</gui>.</p>
+  </item>
+
+  <item>
+    <title>Koko</title>
+    <p>Tämä kenttä näkyy vain tiedostoilla - ei kansioilla. Tiedostokoko kertoo, kuinka paljon levytilaa tiedosto vaatii. Se auttaa myös arvioimaan tiedoston lataamiseen tai lähettämiseen kuluvaa aikaa (suurien tiedostojen siirtäminen on hitaampaa kuin pienten tiedostojen).</p>
+    <p>Koot annetaan tavuina, kilotavuina (Kt), megatavuina (Mt) tai gigatavuina (Gt). Jos tiedoston koko näytetään kolmessa viimeisessä muodossa, koko tavuina näytetään suluissa. Yksi kilotavu vastaa 1024 tavua, yksi megatavu vastaa 1024 kilotavua jne.</p>
+  </item>
+
+  <item>
+    <title>Sijainti</title>
+    <p>Jokaisella tiedostolla on <em>absoluuttisen polun</em> määrittelemä sijainti tiedostojärjestelmässä. Tähän ainutlaatuiseen "osoitteeseen" sisältyy kansiot, joiden läpi täytyy kulkea tiedoston saavuttamiseksi. Jos Jussilla on esimerkiksi kotikansiossaan tiedosto nimeltään <file>hakemus.pdf</file>, sen sijainti olisi <file>/home/jussi/hakemus.pdf</file></p>
+  </item>
+
+  <item>
+    <title>Asema</title>
+    <p>Tiedostojärjestelmä tai asema, jossa tiedosto sijaitsee. Tämä kertoo tiedoston fyysisen sijainnin eli onko se esimerkiksi kiintolevyllä, CD-levyllä vai <link xref="nautilus-connect">verkkokansiossa tai tiedostopalvelimella</link>. Kiintolevyt voidaan jakaa useisiin <link xref="disk-partitions">osioihin</link>; osion nimi näytetään myös <gui>Asema</gui>-kentässä.</p>
+  </item>
+
+  <item>
+    <title>Vapaa tila</title>
+    <p>Näytetään vain kansioille. Tästä näkyy vapaa tila levyllä jolla kansio sijaitsee. Tämä on hyödyllistä tarkistaessa onko kovalevy täynnä.</p>
+  </item>
+
+
+  <item>
+    <title>Avattu</title>
+    <p>Päivä ja kellonaika, jolloin tiedosto viimeksi avattiin.</p>
+  </item>
+
+  <item>
+    <title>Muokattu</title>
+    <p>Päivä ja kellonaika, jolloin tiedostoa viimeksi muokattiin ja tallennettiin.</p>
+  </item>
+ </terms>
+</section>
+
+</page>

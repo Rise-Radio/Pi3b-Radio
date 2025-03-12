@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-add" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="draft"/>
+    <revision pkgversion="3.9.92" date="2012-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2013-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Джим Кэмпбелл (Jim Campbell)</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <desc>Connect to an online account.</desc>
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Добавление учётной записи</title>
+
+  <p>Добавление учётной записи поможет связать ваши сетевые учётные записи с рабочей средой GNOME. Как результат, вы получите автоматически настроенный почтовый клиент, чат и другие соответствующие приложения.</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Click the <gui>+</gui> button in the lower-left corner of the
+      window.</p>
+    </item>
+    <item>
+      <p>Выберите тип учётной записи, который нужно добавить.</p>
+      <p>Если нужно добавить более одного типа учётных записей, это можно будет сделать позже.</p>
+    </item>
+    <item>
+      <p>A small website window or dialog will open where you can enter your
+      online account credentials. For example, if you are setting up a Google
+      account, enter your Google username and password.</p>
+    </item>
+    <item>
+      <p>Если идентификационная информация введена правильно, вам будет предложено разрешить GNOME доступ к сетевой учётной записи. Разрешите доступ, чтобы продолжить.</p>
+    </item>
+    <item>
+      <p>All services that are offered by an account provider will be enabled
+      by default. <link xref="accounts-disable-service">Switch</link>
+      individual services to <gui>OFF</gui> to disable them.</p>
+    </item>
+  </steps>
+
+  <p>После добавления учётной записи каждое из приложений, которые вы выбрали, будет при запуске автоматически использовать эти учётные данные.</p>
+
+  <note style="tip">
+    <p>В целях безопасности GNOME не хранит пароль на вашем компьютере. Вместо этого он хранит маркер доступа, предоставленный сетевым сервисом. Если вы хотите полностью разорвать связь между средой рабочего стола и сетевым сервисом, <link xref="accounts-remove">удалите</link> его.</p>
+  </note>
+
+</page>

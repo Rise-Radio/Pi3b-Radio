@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="question" version="1.0 if/1.0" id="power-hibernate" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="power"/>
+
+    <desc>La hibernación está desactivada de manera predeterminada, ya que no está bien soportada.</desc>
+    <revision pkgversion="3.6.0" date="2012-08-14" status="review"/>
+
+    <credit type="author">
+      <name>Proyecto de documentación de GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>¿Cómo hiberno mi equipo?</title>
+
+<p>Cuando el equipo <em>hiberna</em>, se guardan todas las aplicaciones y los documentos y el equipo se apaga por completo, por lo que no utiliza ningún tipo de energía, pero sus aplicaciones y documentos seguirán estando abiertos al encender el equipo de nuevo.</p>
+
+<p>Desafortunadamente, la hibernación <link xref="power-suspendfail">no funciona</link> en muchos casos, lo que puede causar pérdida de datos si espera que sus documentos y aplicaciones se vuelvan a abrir cuando vuelva a encender su equipo. Por lo tanto, la hibernación está desactivada de manera predeterminada.</p>
+
+<section id="test-hibernate">
+<title>Compruebe que la hibernación funciona</title>
+
+<note style="important">
+  <title>Guarde siempre su trabajo antes de hibernar</title>
+  <p>Debe guardar todo su trabajo antes de hibernar el equipo, solo por si algo fuera mal y sus aplicaciones y documentos abiertos no se pudieran recuperar al encender el equipo de nuevo.</p>
+</note>
+
+<p>Puede usar la línea de comandos para probar si la hibernación funciona en su equipo.</p>
+
+<steps>
+  <item>
+    <if:choose>
+      <if:when test="platform:unity">
+        <p>Abra la <app>Terminal</app> pulsando <keyseq><key>Ctrl</key> <key>Alt</key><key>t</key></keyseq> o buscando <input>terminal</input> en el <gui>tablero</gui>.</p>
+     </if:when>
+     <p>Abra la <app>Terminal</app> buscando <input>terminal</input> en la <gui>Vista de actividades</gui>.</p>
+  </if:choose>
+  </item>
+  <item>
+    <p>Como administrador, abra una terminal y escriba <cmd>pm-hibernate</cmd> y pulse <key>Intro</key>.</p>
+    <p>Introduzca su contraseña cuando se le pida.</p>
+  </item>
+  <item>
+    <p>Después de apagar su equipo, vuelva a encenderlo. ¿Se volvieron a abrir sus aplicaciones abiertas?</p>
+    <p>Si la hibernación no funciona, verifique si su partición de intercambio es al menos tan grande como su RAM disponible.</p>
+  </item>
+</steps>
+
+</section>
+
+<section id="enable-hibernate">
+<title>Activar la hibernación</title>
+
+  <p>Si la prueba de hibernación funciona, puede continuar usando el comando <cmd>pm-hibernate</cmd> cuando quiera hibernar.</p>
+
+  <p>También puede instalar la extensión <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/"> <app>Hibernate Status Button</app></link> desde la <link href="https://extensions.gnome.org">página de extensiones de GNOME</link>:</p>
+
+  <steps>
+    <item>
+      <p><gui style="button">Active</gui> el <app>Hibernate Status Button</app> en <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/"> su página</link> pulsando el botón de estado en la parte superior izquierda.</p>
+    </item>
+    <item>
+      <p>Se le pedirá que confirme si quiere instalar la extensión. Pulse <gui style="button">Instalar</gui>.</p>
+    </item>
+  </steps>
+
+  <p>El botón se añadirá al menú del sistema en la parte derecha de la barra superior, y se puede usar para hibernar el equipo.</p>
+
+  <note style="tip">
+    <p>Puede mantener pulsada la tecla <key>Alt</key> mientras pulsa el botón <em>hibernar</em> para usar la característica de <em>suspensión híbrida</em>. el modo de suspensión híbrida es una mezcla de hibernación y suspensión. Esto significa que el equipo permanece encendido, por lo que puede despertarlo pulsando una teclado y todas sus aplicaciones y documentos se guardan en el mismo estado en el que estaban antes de pulsar el botón.</p>
+  </note>
+
+</section>
+
+</page>

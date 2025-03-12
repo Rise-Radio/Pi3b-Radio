@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-disable-service" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.13.92" date="2013-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    
+    <desc>Einige Online-Konten sind in der Lage, auf mehrere Dienste zuzugreifen, wie Kalender und E-Mail. Sie können festlegen, welche dieser Dienste von Anwendungen verwendet werden dürfen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Festlegungen zum Zugriff eines Kontos auf bestimmte Dienste</title>
+
+  <p>Einige Arten von Online-Konten erlauben den Zugriff auf verschiedene Dienste eines Benutzerkontos. Beispielsweise ermöglichen Google-Konten den Zugriff auf Kalender, E-Mail, Kontakte und Sofortnachrichten. Vielleicht wollen Sie Ihr Konto für einige der Dienste nutzen, für andere dagegen eher nicht. Zum Beispiel könnten Sie Ihr Google-Konto zwar für E-Mail nutzen wollen, aber nicht für Sofortnachrichten, weil Sie ein anderes Online-Konto dafür verwenden.</p>
+
+  <p>Sie können einige der von einem Online-Konto bereitgestellten Dienste deaktivieren:</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Select the account which you want to change from the list on the
+      left.</p>
+    </item>
+    <item>
+      <p>A list of services that are available with this account will be
+      shown under <gui>Use for</gui>.</p>
+    </item>
+    <item>
+      <p>Switch off any of the services that you do not want to use.</p>
+    </item>
+  </steps>
+
+  <p>Once a service has been disabled for an account, applications on your
+  computer will not be able to use the account to connect to that service any
+  more.</p>
+
+  <p>Um einen zuvor deaktivierten Dienst wieder einzuschalten, gehen Sie zurück zum Fenster der <gui>Online-Konten</gui> und schalten Sie ihn ein.</p>
+
+</page>

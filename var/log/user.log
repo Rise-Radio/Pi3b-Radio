@@ -1,0 +1,27 @@
+Mar 10 01:11:30 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[857]: Volume monitor alive
+Mar 10 10:03:14 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[855]: Volume monitor alive
+Mar 10 10:09:15 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[853]: Volume monitor alive
+Mar 10 10:30:13 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[854]: Volume monitor alive
+Mar 10 10:33:07 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[855]: Volume monitor alive
+Mar 10 10:35:33 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[854]: Volume monitor alive
+Mar 10 10:37:46 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[856]: Volume monitor alive
+Mar 10 10:39:35 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[854]: Volume monitor alive
+Mar 10 14:59:39 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[850]: Volume monitor alive
+Mar 10 15:12:21 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[845]: Volume monitor alive
+Mar 11 14:44:36 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[874]: Volume monitor alive
+Mar 11 14:45:02 DIBTVTest1A1 org.gtk.vfs.Daemon[874]: A connection to the bus can't be made
+Mar 11 14:45:02 DIBTVTest1A1 org.gtk.vfs.Daemon[874]: g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+Mar 11 14:45:19 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[876]: Volume monitor alive
+Mar 11 16:40:26 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[848]: Volume monitor alive
+Mar 11 16:41:49 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[847]: Volume monitor alive
+Mar 11 16:44:28 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[848]: Volume monitor alive
+Mar 11 16:50:03 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[846]: Volume monitor alive
+Mar 11 16:54:39 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[856]: Volume monitor alive
+Mar 11 16:58:11 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[852]: Volume monitor alive
+Mar 11 17:08:54 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[853]: Volume monitor alive
+Mar 11 17:12:17 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[858]: Volume monitor alive
+Mar 12 01:13:46 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[854]: Volume monitor alive
+Mar 12 10:01:46 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[852]: Volume monitor alive
+Mar 12 10:26:00 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[853]: Volume monitor alive
+Mar 12 10:29:52 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[854]: Volume monitor alive
+Mar 12 10:40:45 DIBTVTest1A1 org.gtk.Private.AfcVolumeMonitor[856]: Volume monitor alive

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-purge" xml:lang="sr">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+
+    <revision pkgversion="3.10" date="2013-09-29" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>Џим Кембел</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Мајкл Хил</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Подесите колико често ће ваше привремене и датотеке из смећа бити очишћене са вашег рачунара.</desc>
+  </info>
+
+  <title>Очистите смеће и привремене датотеке</title>
+
+  <p>Чистећи ваше привремене и датотеке из смећа уклањате нежељене и непотребне датотеке са вашег рачунара, и такође ослобађате више простора на вашем чврстом диску. Можете ручно да испразните смеће и да очистите ваше привремене датотеке, али можете такође да подесите ваш рачунар да самостално обавља ове задатке уместо вас.</p>
+
+  <steps>
+    <title>Независно испразните ваше смеће и очистите ваше привремене датотеке након одређеног временског раздобља:</title>
+    <item>
+      <p>Отворите преглед <gui xref="shell-terminology">Активности</gui> и почните да куцате <gui>Приватност</gui>.</p>
+    </item>
+    <item>
+      <p>Кликните на <gui>Приватност</gui> да отворите панел.</p>
+    </item>
+    <item>
+      <p>Изаберите <gui>Очисти смеће и привремене датотеке</gui>.</p>
+    </item>
+    <item>
+      <p>Set one or both of the <gui>Automatically empty Trash</gui> or
+      <gui>Automatically purge Temporary Files</gui> switches to
+      <gui>ON</gui>.</p>
+    </item>
+    <item>
+      <p>Подесите колико често бисте желели да ваше <em>Смеће</em> и <em>Привремене датотеке</em> буду прочишћене променивши вредност <gui>Прочисти након</gui>.</p>
+    </item>
+    <item>
+      <p>Користите дугмад <gui>Избаци смеће</gui> или <gui>Прочисти привремене датотеке</gui> да одмах обавите ове радње.</p>
+    </item>
+    <item>
+      <p>Click the <gui>X</gui> to close.</p>
+    </item>
+  </steps>
+
+  <note style="warning">
+    <p>Подешавање <em>Прочисти након: Одмах</em> користите уз опрез. Када подесите да ваше смеће буде избачено одмах тада ће све датотеке које обришете заобићи смеће и биће трајно обрисане. Обрисане датотеке је теже повратити него оне које су у вашем смећу.</p>
+
+    <p>Осим ако имате посебну потребу да одмах обришете датотеке из вашег смећа, вероватно је безбедније да поставите већу вредност за <gui>Прочисти након</gui>.</p>
+  </note>
+
+</page>

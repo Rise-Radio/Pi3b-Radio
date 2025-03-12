@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="problem" id="printing-paperjam" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="printing#problems"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jcampbell@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Πώς αφαιρείτε ένα κολλημένο χαρτί εξαρτάται από την κατασκευή και τον τύπο του εκτυπωτή που έχετε.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Αφαίρεση κολλημένου χαρτιού</title>
+
+  <p>Μερικές φορές οι εκτυπωτές τροφοδοτούν λαθεμένα φύλλα χαρτί και κολλάνε.</p>
+
+  <p>Το εγχειρίδιο του εκτυπωτή σας παρέχει συνήθως λεπτομερείς οδηγίες πώς να αφαιρέσετε κολλημένα χαρτιά. Συνήθως, θα χρειαστείτε να ανοίξετε ένα από τα πλαίσια του εκτυπωτή για να βρείτε το κολλημένο μέσα και έπειτα σταθερά (αλλά προσεκτικά!) θα αφαιρέσετε το κολλημένο χαρτί από τον μηχανισμό τροφοδοσίας του εκτυπωτή.</p>
+
+  <p>Once the jam has been cleared you may need to press the printer's
+  <em>resume</em> button to start printing again. With some printers, you may
+  even need to turn the printer off and then on again, and then start the print
+  job again.</p>
+
+</page>

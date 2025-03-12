@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>બાપટીસ્ટે મીલ્લે-મૅથીયાસ</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>માઇકલ હીલ</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>એન્ડ્રે ક્લેપર</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc>કાર્યક્રમો <app>ઓનલાઇન ખાતા</app> માં બનાવેલ ખાતાને વાપરી શકે છે અને સેવાઓ કે તેઓ બગાડે છે.</desc>
+
+  </info>
+
+<title>ક્યાં કાર્યક્રમોને ઓનલાઇન ખાતાનો ફાયદો લે છે?</title>
+
+  <p>તેઓને આપમેળે રૂપરેખાંકિત કરવા માટે બહારનાં કાર્યક્રમો દ્દારા <app>ઓનલાઇન ખાતા</app> ને વાપરી શકાય છે.</p>
+
+<section id="accounts-google-services">
+  <title>Google ખાતા સાથે</title>
+
+  <list>
+    <item>
+      <p><app>ઇવોલ્યુશન</app>, ઇમેઇલ કાર્યક્રમ. તમારું ઇમેઇલ ખાતુ એ આપમેળે <app>ઇવોલ્યુશન</app> માં ઉમેરાશે, તેથી તે તમારા મેઇલને પ્રાપ્ત કરશે, તમારા ખાતાને તમારો પ્રવેશ આપો, તમારાં Google એજન્ડમાં તમારી કેલેન્ડર વસ્તુઓને દર્શાવો.</p>
+    </item>
+    <item>
+      <p><app>Empathy</app>, ઇન્સ્ટન્ટ મેસેજીંગ કાર્યક્રમ. તમારું ઓનલાઇન ખાતુ એ ઉમેરાશે અને તમે તમારા મિત્રો સાથે વાર્તાલાપ કરવા માટે સક્ષમ હશો.</p>
+    </item>
+    <item>
+      <p><app>સંપર્કો</app>, કે જે તમારા ખાતામાં ફેરફાર અને જોવા માટે પરવાનગી આપશે.</p>
+    </item>
+    <item>
+      <p><app>દસ્તાવેજો</app> તમારી ઓનલાઇન દસ્તાવેજોને વાપરી શકે છે અને તેઓને દર્શાવો.</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>Windows Live, Facebook અથવા Twitter ખાતાઓ સાથે</title>
+
+  <p><app>Empathy</app> એ તમારા સંપર્કો, મિત્રો, અને અનુયાયીઓ સાથે તમને ઓનલાઇન અને વાર્તાલાપ કરવા માટે આ ખાતાને વાપરી શકે છે.</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>With a OneDrive account</title>
+
+  <p><app>Documents</app> can access your online documents in Microsoft
+  OneDrive and display them.</p>
+</section>
+
+<section id="account-exchange">
+  <title>Exchange ખાતા સાથે</title>
+
+  <p>એકવાર તમે ઍક્સચેન્જ ખાતાને બનાવેલ હોય, <app>Evolution</app> આ ખાતામાંથી મેઇલને પ્રાપ્ત કરવાનું શરૂ કરશે.</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>ownCloud ખાતા સાથે</title>
+
+  <p>જ્યારે ownCloud ખાતુ સુયોજિત હોય તો, <app>ઇવોલ્યુશન</app> એ સંપર્કો અને કેલેન્ડર મંત્રણાને વાપરવા માટે સક્ષમ છે.</p>
+
+  <p><app>ફાઇલો</app> અને બીજા કાર્યક્રમો યાદી માટે સક્ષમ હશે અને ownCloud સ્થાપનમાં સંગ્રહેલ બીજા ઓનલાઇન ખાતાને વાપરો.</p>
+</section>
+
+</page>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="power-closelid" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="power"/>
+    <link type="seealso" xref="power-suspendfail"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-08" status="review"/>
+
+    <credit type="author">
+      <name>GNOME ஆவணமாக்கத் திட்டப்பணி</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author editor">
+      <name>எக்காட்டெரினா ஜெராசிமோவா</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>நீங்கள் மடிக்கணினி மூடியை மூடும் போது, மின் சக்தியை சேமிப்பதற்காக மடிக்கணினி உறக்க முறைக்குச் செல்லும்.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>நான், மூடியை மூடும் போது என் கணினி ஏன் அணைகிறது?</title>
+
+  <p>உங்கள் மடிக்கணினி மூடியை நீங்கள் மூடும் போது, கணினி மின் சக்தியை சேமிப்பதற்காக <link xref="power-suspend"><em>இடைநிறுத்தப்படும்</em></link>. அதாவது கணினி முழுதும் அணைக்கப்படுவதில்லை, உறக்க நிலைக்கு மட்டுமே செல்கிறது. மூடியை திறந்தால் மீண்டும் விழித்துக்கொள்ளும். மூடியைத் திறந்தும் விழிக்காவிட்டால்  சொடுக்கியை சொடுக்கவும் அல்லது ஒரு விசையை அழுத்தவும். அப்போதும் இயங்காவிட்டால் பவர் பொத்தானை அழுத்தவும்.</p>
+
+  <p>சில கணினிகள் சரியாக இடைநிறுத்தப்பட முடியாமல் இருக்கலாம், அவற்றின் வன்பொருளை அவற்றின் இயக்க முறைமை முழுமையாக ஆதரிக்காதது இதற்குக் காரணமாக இருக்கலாம் (உதாரணம் Linux இயக்கிகள் முழுமையாக இல்லாமலிருக்கலாம்). இச்சூழ்நிலையில் மூடியை மூடிய பிறகு மீண்டும் கணினியை இயக்க முடியாமல் போகலாம். அப்போது நீங்கள் <link xref="power-suspendfail">இடைநிறுத்துதல் தொடர்பான சிக்கலை சரி செய்ய</link> முயற்சிக்கலாம் அல்லது மூடியை மூடும் போது கணினி இடைநிறுத்த முயற்சிக்காமல் தடுக்கலாம்.</p>
+
+<section id="nosuspend">
+  <title>மூடியை மூடும் போது கணினி இடைநிறுத்தப்படாமல் தடுத்தல்</title>
+
+  <note style="important">
+    <p>These instructions will only work if you are using <app>systemd</app>.
+    Contact your distribution for more information.</p>
+  </note>
+
+  <p>If you do not want the computer to suspend when you close the lid, you can
+  change the settings for that behavior. You will need to have an
+  <link xref="user-admin-change">administrator password</link> to change the
+  setting.</p>
+
+  <note style="warning">
+    <p>இந்த அமைவை மாற்றினால் கவனமாக இருக்கவும். சில மடிக்கணினிகள் மூடி மூடியபடி இயங்கினால் அதிக வெப்பமாகலாம், குறிப்பாக அவை முதுகுப்பை போன்ற அடைபட்ட இடத்தில் இருந்தால் இதற்கு வாய்ப்பு அதிகம்.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p><gui>செயல்பாடுகள்</gui> மேலோட்டத்தில் இருந்து <app>முனைய்ம்</app> ஐ திறக்கவும்.</p>
+    </item>
+    <item>
+      <p>Run the following command:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudoedit /etc/systemd/logind.conf</input></screen>
+    </item>
+    <item>
+      <p>You will now see the contents of the file. Look for
+      <code>HandleLidSwitch=</code> in the file. The line may be quoted out
+      with a <code>#</code> at the start and may be followed by an argument. If
+      the line already exists, unquote it. Otherwise, add the line.</p>
+      <code>
+[Login]
+HandleLidSwitch=<input>lock</input>
+      </code>
+      <p>You can use <input>lock</input> for the screen to lock,
+      <input>ignore</input> for nothing to happen, <input>poweroff</input> for
+      the computer to switch off or <input>suspend</input> to suspend. For more
+      information, see <link href="man:logind.conf">logind.conf help</link>.</p>
+    </item>
+    <item>
+      <p>Once you finish editing the file, save your changes and quit the
+      editor.</p>
+    </item>
+    <item>
+      <p>Run the following command to make your change work:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudo systemctl restart systemd-logind.service</input></screen>
+      <p>If you do not run that command, the change will only work after your
+      computer is restarted.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

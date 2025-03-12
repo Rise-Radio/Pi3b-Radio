@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-create" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Create a new account using <app>Online Accounts</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>松澤 二郎</mal:name>
+      <mal:email>jmatsuzawa@gnome.org</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>赤星 柔充</mal:name>
+      <mal:email>yasumichi@vinelinux.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kentaro KAZUHAMA</mal:name>
+      <mal:email>kazken3@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shushi Kurose</mal:name>
+      <mal:email>md81bird@hitaki.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Noriko Mizumoto</mal:name>
+      <mal:email>noriko@fedoraproject.org</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>坂本 貴史</mal:name>
+      <mal:email>o-takashi@sakamocchi.jp</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>日本GNOMEユーザー会</mal:name>
+      <mal:email>http://www.gnome.gr.jp/</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>オンラインアカウントの作成</title>
+
+  <p>アカウントサービスプロバイダーによっては、<app>オンラインアカウント</app> にアカウントを追加する際にアカウントの作成もできることがあります。この場合、ひとつのアプリケーションから、オンラインアカウントの管理をすべて行うことができます。</p>
+
+  <!-- Tested with Google -->
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p><gui style="button">+</gui> ボタンをクリックします。</p>
+    </item>
+    <item>
+      <p>Select the type of account which you want to add. Some account types
+      may <link xref="accounts-provider-not-available">not be
+      available</link>.</p>
+    </item>
+    <item>
+      <p>If the service allows you to create an account, you should see more
+      information on how to do this.</p>
+      <note>
+        <p>すべてのオンラインアカウントプロバイダーが、この段階でのアカウント作成を許可しているわけではありません。登録を希望するサービスがこれに該当する場合、別の手段でアカウントを作成する必要があります。</p>
+      </note>
+    </item>
+    <item>
+      <p>登録フォームを記入します。たいていユーザー名やパスワードなど個人情報を記入する必要があります。</p>
+    </item>
+    <item>
+      <p>新規に作成したアカウントを<app>オンラインアカウント</app>で使用できるように、GNOME にアカウントへのアクセスを許可する必要があります。</p>
+    </item>
+    <item>
+      <p>All services that are offered by an account provider will be enabled
+      by default. <link xref="accounts-disable-service">Switch</link>
+      individual services to <gui>OFF</gui> to disable them.</p>
+    </item>
+  </steps>
+
+</page>

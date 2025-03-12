@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="mouse-wakeup" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="mouse#problems"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+
+    <desc>Если вам приходится шевелить и нажимать мышкой для того, чтобы она заработала.</desc>
+    <credit type="author">
+      <name>Проект документирования GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Мышь реагирует с опозданием</title>
+
+  <p>Беспроводным и оптическим мышам, как и сенсорным панелям на ноутбуках, может быть необходимо «проснуться», чтобы начать работать. При бездействии они автоматически переходят в спящий режим для экономии заряда аккумулятора. Чтобы «разбудить» мышь или сенсорную панель, можно переместить мышь или нажать её кнопку.</p>
+  <p>Сенсорные панели ноутбуков начинают работать с небольшой задержкой после окончания набора на клавиатуре. Это защита от случайных касаний сенсорной панели ладонью при наборе. Подробнее смотрите <link xref="mouse-disabletouchpad"/>.</p>
+</page>

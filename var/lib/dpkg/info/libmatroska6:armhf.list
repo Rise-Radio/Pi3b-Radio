@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libmatroska.so.6
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmatroska6
+/usr/share/doc/libmatroska6/copyright
+/usr/share/doc/libmatroska6/changelog.Debian.gz
+/usr/share/doc/libmatroska6/changelog.gz

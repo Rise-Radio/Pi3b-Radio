@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="color-notspecifiededid" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="color#problems"/>
+    <link type="guide" xref="color-gettingprofiles"/>
+    <link type="guide" xref="color-why-calibrate"/>
+    <desc>Privzeti profili zaslona nimajo datuma umerjanja.</desc>
+    <credit type="author">
+      <name>Richard Hughes</name>
+      <email>richard@hughsie.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Zakaj privzetim profilom zaslona umeritev ne poteče?</title>
+  <p>Privzeti barvni profil za vsak zaslon je samodejno ustvarjen na osnovi EDID zaslona, ki je shranjen v čipu pomnilnika v zaslonu. EDID poda le posnetek razpoložljivih barv, ki jih je zaslon lahko prikazal ob času proizvodnje in ne vsebuje veliko drugih podatkov o popravilu barv.</p>
+
+  <figure>
+    <desc>EDID ni mogoče posodobiti zato nikoli ne poteče.</desc>
+    <media type="image" mime="image/png" src="figures/color-profile-default.png"/>
+  </figure>
+
+  <note style="tip">
+    <p>Pridobitev profila od proizvajalca zaslona ali ustvaritev lastnega profila pomaga pri natančnejšemu popravljanju barve.</p>
+  </note>
+
+</page>

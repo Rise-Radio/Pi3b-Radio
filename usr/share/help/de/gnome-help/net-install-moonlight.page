@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Einige Webseiten verwenden Silverlight für die Anzeige. Das Moonlight-Plugin ermöglicht Ihnen, diese Webseiten zu betrachten.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Das Silverlight-Plugin installieren</title>
+
+  <p><app>Silverlight</app> ist ein <em>Plugin</em> für Ihren Webbrowser zum Betrachten von Videos und zur Nutzung bestimmter interaktiver Webseiten. Einige Webseiten würden ohne Silverlight nicht funktionieren.</p>
+
+  <p>Falls Sie eine Webseite betrachten, die Silverlight benötigt, aber das Plugin nicht installiert ist, wird sehr wahrscheinlich eine Meldung angezeigt, die über diesen Umstand informiert. Sie werden in dieser Meldung auch Anweisungen finden, wie Sie dieses Plugin erhalten können, aber diese Anweisungen werden möglicherweise für Ihren Webbrowser oder Ihre Linux-Version nicht geeignet sein.</p>
+
+  <p>Falls Sie Webseiten betrachten wollen, die Silverlight erfordern, sollten Sie das <em>Moonlight</em>-Plugin installieren. Das ist eine freie und quelloffene Version von Silverlight, die unter Linux nutzbar ist.</p>
+
+  <p>Einige Linux-Distributionen liefern ein Moonlight-Paket mit, welches Sie über die Softwareverwaltung installieren können. Öffnen Sie hierzu die Softwareverwaltung und suchen Sie nach <input>Silverlight</input> oder <input>Moonlight</input>.</p>
+
+  <p>Falls Ihre Distribution kein Moonlight-Softwarepaket bereitstellt, finden Sie auf der <link href="http://www.go-mono.com/moonlight">Moonlight-Webseite</link> weitere Informationen und Installationsanweisungen.</p>
+
+</page>

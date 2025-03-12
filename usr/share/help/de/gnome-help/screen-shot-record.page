@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="screen-shot-record" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="tips"/>
+
+    <revision pkgversion="3.6.1" date="2012-11-10" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author copyright">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+      <years>2012</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Take a picture or record a video of what is happening on your
+    screen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Bildschirmfotos und Bildschirmaufzeichnungen</title>
+
+  <p>You can take a picture of your screen (a <em>screenshot</em>) or record a
+  video of what is happening on the screen (a <em>screencast</em>). This is
+  useful if you want to show someone how to do something on the computer, for
+  example. Screenshots and screencasts are just normal picture and video files,
+  so you can email them and share them on the web.</p>
+
+<section id="screenshot">
+  <title>Ein Bildschirmfoto aufnehmen</title>
+
+  <steps>
+    <item>
+      <p>Open <app>Screenshot</app> from the
+      <gui xref="shell-terminology">Activities</gui> overview.</p>
+    </item>
+    <item>
+      <p>In the <app>Screenshot</app> window, select whether to grab the whole
+      screen, the current window, or an area of the screen. Set a delay if you
+      need to select a window or otherwise set up your desktop for the
+      screenshot. Then choose any effects you want.</p>
+    </item>
+    <item>
+       <p>Klicken Sie auf <gui>Bildschirmfoto aufnehmen</gui>.</p>
+       <p>Wenn Sie <gui>Aufnahmebereich auswählen</gui> angeklickt haben, wird der Mauszeiger zu einem Kreuz. Klicken Sie an eine Stelle in der Nähe des gewünschten Aufnahmebereichs für das Bildschirmfoto und ziehen Sie einen Kasten darum.</p>
+    </item>
+    <item>
+      <p>Das <gui>Bildschirmfoto speichern</gui>-Fenster erscheint. Geben Sie einen Dateinamen ein und wählen Sie aus, wo das Bildschirmfoto gespeichert werden soll und bestätigen Sie mit <gui>Speichern</gui>.</p>
+      <p>Alternativ können Sie das Bildschirmfoto direkt in eine Bildbearbeitungs-Anwendung importieren, ohne es zuvor zu speichern. Klicken Sie auf <gui>In die Zwischenablage kopieren</gui> und fügen das Bild anschließend in eine andere Anwendung ein oder ziehen Sie das Vorschaubild des Bildschirmfotos in die Anwendung.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <title>Tastenkombinationen</title>
+
+    <p>Nehmen Sie schnell ein Foto Ihrer Arbeitsfläche, eines Fensters oder eines Bereiches auf, indem Sie diese globalen Tastenkombinationen verwenden:</p>
+
+    <list style="compact">
+      <item>
+        <p>Drücken Sie <key>Druck</key>, um ein Foto der Arbeitsfläche aufzunehmen.</p>
+      </item>
+      <item>
+        <p><keyseq><key>Alt</key><key>Druck</key></keyseq> zum Aufnehmen eines Bildschirmfotos eines Fensters.</p>
+      </item>
+      <item>
+        <p><keyseq><key>Umschalttaste</key><key>Druck</key></keyseq> zum Aufnehmen eines Bildschirmfotos eines gewählten Bereiches.</p>
+      </item>
+    </list>
+
+    <p>When you use a keyboard shortcut, the image is automatically saved in
+    your <file>Pictures</file> folder in your home folder with a file name that
+    begins with <file>Screenshot</file> and includes the date and time it was
+    taken.</p>
+    <p>Sie können auch die <key>Strg</key>-Taste in Verbindung mit einer der oben genannten Tastenkombinationen drücken, um das Bildschirmfoto in die Zwischenablage zu kopieren, anstatt es zu speichern.</p>
+  </note>
+
+</section>
+
+<section id="screencast">
+  <title>Eine Bildschirmaufzeichnung erstellen</title>
+
+  <p>Sie können ein Foto oder Video Ihres Bildschirms aufnehmen, um zu zeigen, was dort passiert:</p>
+
+  <steps>
+    <item>
+      <p>Press
+      <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>R</key></keyseq>
+      to start recording what is on your screen.</p>
+      <p>A red circle is displayed in the bottom right corner of the screen
+      when the recording is in progress.</p>
+    </item>
+    <item>
+      <p>Once you have finished, press
+      <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>R</key></keyseq>
+      again to stop the recording.</p>
+    </item>
+    <item>
+      <p>The video is automatically saved in your <file>Videos</file> folder
+      in your home folder, with a file name that starts with
+      <file>Screencast</file> and includes the date and time it was taken.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

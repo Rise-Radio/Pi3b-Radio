@@ -1,0 +1,19 @@
+TARGETS = rsyslog dhcpcd triggerhappy killprocs bootlogs motd apache2 single dbus vsftpd listen-for-shutdown.sh rng-tools cron dphys-swapfile ntp rsync ssh lightdm bluetooth avahi-daemon raspi-config plymouth rmnologin rc.local
+INTERACTIVE = apache2
+apache2: rsyslog
+single: killprocs bootlogs motd
+dbus: rsyslog
+vsftpd: rsyslog
+listen-for-shutdown.sh: rsyslog
+rng-tools: rsyslog
+cron: rsyslog
+dphys-swapfile: rsyslog
+ntp: rsyslog
+rsync: rsyslog
+ssh: rsyslog
+lightdm: dbus
+bluetooth: rsyslog dbus
+avahi-daemon: dbus rsyslog
+plymouth: rsyslog dhcpcd lightdm dbus vsftpd listen-for-shutdown.sh apache2 triggerhappy rng-tools bluetooth avahi-daemon bootlogs motd cron dphys-swapfile raspi-config ntp rsync ssh
+rmnologin: rsyslog dhcpcd lightdm dbus vsftpd listen-for-shutdown.sh apache2 triggerhappy rng-tools bluetooth avahi-daemon bootlogs motd cron dphys-swapfile raspi-config ntp rsync ssh
+rc.local: rsyslog dhcpcd lightdm dbus vsftpd listen-for-shutdown.sh apache2 triggerhappy rng-tools bluetooth avahi-daemon bootlogs motd cron dphys-swapfile raspi-config ntp rsync ssh

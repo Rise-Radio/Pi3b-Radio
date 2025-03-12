@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-remove" xml:lang="sr">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-15" status="draft"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="draft"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Мајкл Хил</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Екатерина Герасимова</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <desc>Обришите налог на мрежи.</desc>
+  </info>
+
+<title>Уклоните налог</title>
+
+  <p>Можете да уклоните налог на мрежи који не желите више да користите.</p>
+
+  <steps>
+    <item>
+      <p>Отворите преглед <gui xref="shell-terminology">Активности</gui> и почните да куцате <gui>Налози на мрежи</gui>.</p>
+    </item>
+    <item>
+      <p>Кликните на <gui>налоге на мрежи</gui> да отворите панел.</p>
+    </item>
+    <item>
+      <p>Изаберите налог који желите да уклоните.</p>
+    </item>
+    <item>
+      <p>Click the <gui>-</gui> button in the lower-left corner of the
+      window.</p>
+    </item>
+    <item>
+      <p>Кликните <gui>Уклони</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Уместо потпуног брисања налога, можете да <link xref="accounts-disable-service">ограничите услуге</link> којима може да приступи ваша радна површ.</p>
+  </note>
+
+  <p>Да не дозволите Гному да приступи налогу на мрежи, треба да опозовете приступ путем веб странице налога или сличном услугом.</p>
+</page>

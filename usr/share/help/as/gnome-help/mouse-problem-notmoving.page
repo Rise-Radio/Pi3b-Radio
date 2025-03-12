@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="mouse-problem-notmoving" xml:lang="as">
+<info>
+    <link type="guide" xref="mouse#problems"/>
+
+    <desc>আপোনাৰ মাউছ কাম কৰিছে নে নাই কেনেকৈ নিৰীক্ষণ কৰিব।</desc>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+
+    <credit type="author">
+        <name>ফিল বুল</name>
+        <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>শ্বণ মেকেন্স</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+</info>
+
+<title>মাউছ পোইন্টাৰ গতি কৰা নাই</title>
+
+<links type="section"/>
+
+<section id="plugged-in">
+ <title>মাউছ প্লাগ্গড্ আছে নে নিৰীক্ষণ কৰক</title>
+ <p>যদি আপোনাৰ এটা কেবুলৰ সৈতে মাউছ আছে, ই আপোনাৰ কমপিউটাৰৰ সৈতে ভালকৈ প্লাগ্গড্ আছে নে পৰিক্ষা কৰি চাওক।</p>
+ <p>
+ If it is a USB mouse (with a rectangular connector), try plugging it in to a
+ different USB port. If it is a PS/2 mouse (with a small, round connector with
+ six pins), make sure that it is plugged in to the green mouse port rather
+ than the purple keyboard port. You may need to restart the computer if it was
+ not plugged in.
+ </p>
+</section>
+
+<section id="connected">
+ <title>মাউছটো আপোনাৰ কমপিউটাৰ দ্বাৰা চিনাক্ত কৰা হৈছে নে পৰিক্ষা কৰি চাওক।</title>
+ <steps>
+  <item><p><gui>কাৰ্য্যসমূহ</gui> অভাৰভিউৰ পৰা <app>টাৰ্মিনেল</app> এপ্লিকেচন খোলক।</p></item>
+  <item>
+   <p>টাৰ্মিনেল উইন্ডোত, ইয়াত উপস্থিত হোৱা ধৰণে <cmd>xsetpointer -l | grep Pointer</cmd> টাইপ কৰক, আৰু <key>Enter</key> টিপক।</p>
+  </item>
+  <item>
+   <p>মাউচ ডিভাইচসমূহৰ এটা সৰু তালিকা উপস্থিত হব। চাওক যে অন্তত এটা বস্তু তাৰ কাষত <sys>[XExtensionPointer]</sys> কয়, আৰু এটা <sys>[XExtensionPointer]</sys> বস্তুৰ বাওঁফালে মাউছৰ নাম আছে।</p>
+  </item>
+  <item>
+   <p>If there is no entry that has the name of the mouse followed by
+   <sys>[XExtensionPointer]</sys>, then the mouse was not recognized by your
+   computer. If the entry exists, your mouse was recognized by your computer.
+   In this case you should check that the mouse is
+   <link xref="mouse-problem-notmoving#plugged-in">plugged in</link> and in
+   <link xref="mouse-problem-notmoving#broken">working condition</link>.</p>
+  </item>
+ </steps>
+
+ <p>যদি আপোনাৰ মাউছৰ এটা ক্ৰমিক (RS-232) সংযুক্তক আছে, ইয়াক কাৰ্য্যকৰী কৰাবলৈ আপুনি কিছুমান অতিৰিক্ত স্তৰ পৰিৱেশন কৰিব লাগিব। স্তৰসমূহ আপোনাৰ মাউছৰ নিৰ্মাণ অথবা আৰ্হিৰ ওপৰত নিৰ্ভৰ কৰিব পাৰে।</p>
+
+ <p>মাউছ চিনাক্তকৰণৰ সৈতে সমস্যাবোৰ ঠিক কৰাটো জটিল হব পাৰে। যদি আপুনি উপলব্ধ কৰিছে যে আপোনাৰ মাউছ সঠিকভাৱে চিনাক্ত কৰা হোৱা নাই আপোনাৰ বিতৰণ অথবা বিক্ৰেতাৰ পৰা সমৰ্থন বিচাৰক।</p>
+</section>
+
+<section id="broken">
+ <title>মাউছ সঁচাকৈ কাৰ্য্য কৰে নে পৰিক্ষা কৰক</title>
+ <p>মাউছক এটা ভিন্ন কমপিউটাৰত প্লাগ কৰক আৰু চাওক সঁচাকৈ ই কাৰ্য্য কৰে নে।</p>
+
+ <p>If the mouse is an optical or laser mouse, a light should be shining out
+ of the bottom of the mouse if it is turned on.  If there is no light, check
+ that it is turned on.  If it is and there is still no light, the mouse may be
+ broken.</p>
+</section>
+
+<section id="wireless-mice">
+ <title>বেতাঁৰ মাউছসমূহ পৰিক্ষা কৰা</title>
+
+ <list>
+   <item><p>মাউছ অন থকাটো সুনিশ্চিত কৰক। সাধাৰণৰ মাউছৰ তলত মাউছক সম্পূৰ্ণ বন্ধ কৰিবলৈ এটা চুইচ থাকে, ই সকলো সময় অন নথাকৈ আপুনি ইয়াক এঠাইৰ পৰা আন ঠাইলৈ লৰাব পাৰিব।</p></item>
+   <item><p>যদি আপুনি এটা ব্লুটুথ মাউছ ব্যৱহাৰ কৰি আছে, আপুনি সেই মাউছক আপোনাৰ কমপিউটাৰৰ সৈতে যোৰ কৰাটো সুনিশ্চিত কৰক। <link xref="bluetooth-connect-device"/> চাওক।</p></item>
+  <item>
+   <p>এটা বুটাম ক্লিক কৰক আৰু মাউচ এতিয়া লৰিছে নে চাওক। কিছুমান বেতাঁৰ মাউছে শক্তি সংৰক্ষণ কৰিবলৈ, নিদ্ৰাত যায়, সেয়েহে আপুনি এটা বুটাম ক্লিক নকৰালৈকে প্ৰতিক্ৰিয়া নকৰিব। <link xref="mouse-wakeup"/> চাওক।</p>
+  </item>
+  <item>
+   <p>মাউছৰ বেটাৰি চাৰ্জ্ড আছে নে পৰিক্ষা কৰক।</p>
+  </item>
+  <item>
+   <p>সুনিশ্চিত কৰক যে গ্ৰাহক (ডঙল) কমপিউটাৰৰ সৈতে সঠিকভাৱে প্লাগ ইন কৰা আছে।</p>
+  </item>
+  <item>
+   <p>যদি আপোনাৰ মাউছ আৰু গ্ৰাহকে ভিন্ন ৰেডিঅ' চেনেলত কাৰ্য্য কৰিব পাৰে, সিহতে দুয়োটাই একেটা চেনেল সংহতি কৰাটো সুনিশ্চিত কৰক।</p>
+  </item>
+  <item>
+   <p>আপুনি এটা সংযোগ স্থাপন কৰিবলৈ মাউছ, গ্ৰাহক অথবা দুয়োটাতে এটা বুটাম টিপিব লগা হব পাৰে। এনে ক্ষেত্ৰত আপোনাৰ মাউছৰ নিৰ্দেশ হাতপুথিত অধিক বিৱৰণ থাকিব।</p>
+  </item>
+ </list>
+
+ <p>
+ Most RF (radio) wireless mice should work automatically when you plug them
+ into your computer. If you have a Bluetooth or IR (infrared) wireless mouse,
+ you may need to perform some extra steps to get it working. The steps might
+ depend on the make or model of your mouse.
+ </p>
+</section>
+
+</page>

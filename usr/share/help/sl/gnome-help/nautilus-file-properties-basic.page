@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="ui" id="nautilus-file-properties-basic" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="files" group="more"/>
+
+   <desc>Ogled osnovnih podatkov, nastavitev dovoljenj in izbira privzetih programov.</desc>
+
+   <revision pkgversion="3.5.92" version="0.2" date="2012-09-19" status="review"/>
+
+   <credit type="author">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany@antopolski.com</email>
+   </credit>
+   <credit type="author">
+     <name>Shaun McCance</name>
+     <email>shaunm@gnome.org</email>
+   </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:its="http://www.w3.org/2005/11/its" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  </info>
+  <title>Lastnosti datoteke</title>
+
+  <p>Za ogled podatkov o datoteki ali mapi desno kliknite in izberite <gui>Lastnosti</gui>. Namesto tega lahko tudi izberete datoteko in pritisnite <guiseq><gui>Alt</gui><gui>Enter</gui></guiseq>.</p>
+
+  <p>Okno lastnosti datoteke prikazuje podrobnosti kot so vrsta datoteke, velikost datoteke in kdaj ste jo nazadnje spremenili. Če te podatke potrebujete pogosto, jih lahko imate prikazane v <link xref="nautilus-list">pogledu seznama stolpcev</link> ali <link xref="nautilus-zaslon#icon-captions">ikon</link>.</p>
+
+  <p>Podatki v zavihku <gui>Osnovno</gui> so razloženi spodaj. Na voljo so tudi zavihka <gui><link xref="nautilus-file-properties-permissions">Dovoljenja</link></gui> in <gui><link xref="files-open#default">Odpri z</link></gui>. Za določene vrste datoteke kot so slike in videi bo na voljo dodaten zavihek, ki vsebuje podatke o merah, trajanju in kodeku.</p>
+
+<section id="basic">
+ <title>Osnovne lastnosti</title>
+ <terms>
+  <item>
+    <title><gui>Ime</gui></title>
+    <p>Datoteko lahko preimenujete s spremembo tega polja. Datoteko lahko preimenujete tudi izven okna lastnosti. Oglejte <link xref="files-rename"/>.</p>
+  </item>
+  <item>
+    <title><gui>Vrsta</gui></title>
+    <p>To vam pomaga določiti vrste datotek kot so dokument PDF, besedilo OpenDocument ali slika JPEG. Vrsta datoteke med drugim določa kateri programi lahko odprejo datoteko. Slike na primer ne morete odpreti s predvajalnikom glasbe. Za več podrobnosti o tem si oglejte <link xref="files-open"/> .</p>
+  <p><em>Vrsta MIME</em> je datoteka prikazana v oklepaju; vrsta MIME je standardni način, ki ga računalniki uporabljajo za sklicevanje na vrsto datoteke.</p>
+  </item>
+
+  <item>
+    <title>Vsebina</title>
+    <p>To polje se prikaže, če gledate lastnosti mape ne datoteke. Pomaga vam videti število predetov v mapi. Če mapa vsebuje druge mape, se posamezne notranje mape štejejo kot ena predmet, tudi če vsebujejo več predmetov. Vsaka datoteka se prav tako šteje kot en predmet. Če je mapa prazna, bo vsebina prikazala <gui>ničesar</gui>.</p>
+  </item>
+
+  <item>
+    <title>Velikost</title>
+    <p>To polje se prikaže, če gledate datotekao (ne mapo). Velikost datoteke vam pove, koliko prostora na disku zaseda. To je tudi pokazatelj, kako dolgo bo trajalo, da prenesete datoteko ali jo pošljete preko e-pošte (velike datoteke za pošiljanje/prejemanje zahtevajo več časa).</p>
+    <p>Velikosti so lahko v bajtih, KB, MB, or GB; v primeru zadnjih treh bo velikost v bajtih podana tudi v oklepaju. 1 KB je 1024 bajtov, 1 MB je 1024 KB in tako dalje.</p>
+  </item>
+
+  <item>
+    <title>Mesto</title>
+    <p>Mesto vsake datoteke na računalniku je podano z <em>absolutno potjo</em>. To je edinstven "naslov" datoteke na računalniku, sestavljen iz seznama map, ki je potreben za najdbo datoteke. Na primer, če ima Jure datoteko z imenom <file>Naloga.pdf</file> v svoji domači mapi, bo njeno mesto <file>/home/jure/Naloga.pdf</file>.</p>
+  </item>
+
+  <item>
+    <title>Glasnost</title>
+    <p>Datotečni sistem ali naprava na katerem je datoteka shranjena. To vam pokaže, kje je datoteka fizično shranjena, na primer, če je na trdem disku ali na CD-ju, ali <link xref="nautilus-connect">omrežni souporabi ali datotečnem strežniku</link>. Trde diske lahko razdelite na več <link xref="disk partitions">razdelkov</link>. Razdelek bo prikazan tudi pod odsekom <gui>Nosilec</gui>.</p>
+  </item>
+
+  <item>
+    <title>Nezaseden prostor</title>
+    <p>To je prikazano samo za mape. Podaja količino prostora, ki je na voljo na disku, na katerem je mapa. To je uporabno za preverjanje, če je trdi disk poln.</p>
+  </item>
+
+
+  <item>
+    <title>Dostopano</title>
+    <p>Datum in čas, ko je bila datoteka zadnjič odprta.</p>
+  </item>
+
+  <item>
+    <title>Spremenjeno</title>
+    <p>Datum in čas zadnje spremembe in shranjevanja datoteke.</p>
+  </item>
+ </terms>
+</section>
+
+</page>

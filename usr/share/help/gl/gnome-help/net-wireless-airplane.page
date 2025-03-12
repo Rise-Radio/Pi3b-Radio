@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wireless-airplane" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="net-wireless"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+    <revision pkgversion="3.10" date="2013-11-10" status="review"/>
+
+    <credit type="author">
+      <name>Proxecto de documentación de GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <desc>Abra a configuración de rede e cambie o modo avión a ACENDIDO.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Apagar o modo sen fíos (modo avión)</title>
+
+<p>Se ten o seu computador en modo avión (ou nalgunha outra área onde non estean permitidas as conexións sen fíos), debe apagar o seu sistema sen fíos. Tamén debería apagalo por outras razóns: (para aforrar batería, por exemplo). Para facer isto:</p>
+
+<steps>
+ <item><p>Click the system status area on the top bar and select
+  <gui>Wi-Fi</gui>.</p>
+ </item>
+ <item><p>Select <gui>Wi-Fi Settings</gui>.</p>
+ </item>
+ <item>
+  <p>Switch <gui>Airplane Mode</gui> to <gui>ON</gui>. This will turn off your
+ wireless connection until you switch airplane mode off again.</p>
+ </item>
+</steps>
+
+<note><p>Usar o <em>Modo avión</em> desactivará completamente tanto a conexión sen fíos como a conexión Bluetooth.</p></note>
+
+</page>

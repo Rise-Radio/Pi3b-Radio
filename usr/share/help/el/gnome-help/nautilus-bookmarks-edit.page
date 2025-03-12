@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="nautilus-bookmarks-edit" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="files#faq"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-09-30" status="review"/>
+
+    <desc>Προσθήκη, διαγραφή και μετονομασία σελιδοδεικτών στον διαχειριστή αρχείων.</desc>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Επεξεργασία φακέλων σελιδοδεικτών</title>
+<p>Οι σελιδοδείκτες σας καταχωρίζονται στην πλευρική στήλη του διαχειριστή αρχείων.</p>
+
+    <steps>
+    <title>Προσθήκη σελιδοδείκτη:</title>
+    <item><p>Επιλέξτε τον φάκελο (ή τη θέση) που επιθυμείτε να επισημάνετε.</p></item>
+    <item><p>Πατήστε το κουμπί του γραναζιού στην εργαλειοθήκη και επιλέξτε <gui>σελιδοδείκτης σε αυτήν τη θέση</gui>.</p></item>
+    </steps>
+
+  <steps>
+  <title>Διαγραφή ενός σελιδοδείκτη:</title>
+   <item><p>Πατήστε <gui>αρχεία</gui> στην πάνω γραμμή και επιλέξτε <gui>σελιδοδείκτες</gui> από το μενού εφαρμογών.</p></item>
+   <item><p>In the <gui>Bookmarks</gui> window, select the bookmark you wish to
+   delete and click the <gui>-</gui> button.</p></item>
+  </steps>
+
+    <steps>
+    <title>Μετονομασία σελιδοδείκτη:</title>
+    <item><p>Πατήστε <gui>αρχεία</gui> στην πάνω γραμμή και επιλέξτε <gui>σελιδοδείκτες</gui> από το μενού εφαρμογών.</p></item>
+    <item><p>Στο παράθυρο <gui>σελιδοδείκτες</gui>, επιλέξτε τον σελιδοδείκτη που επιθυμείτε να μετονομάσετε.</p></item>
+    <item><p>Στο πλαίσιο κειμένου <gui>όνομα</gui>, πληκτρολογήστε το νέο όνομα για τον σελιδοδείκτη.</p>
+    <note>
+     <p>Η μετονομασία ενός σελιδοδείκτη δεν μετονομάζει τον φάκελο. Εάν έχετε σελιδοδείκτες σε δύο διαφορετικούς φακέλους σε δύο διαφορετικές θέσεις, αλλά που ο καθένας τους έχει το ίδιο όνομα, οι σελιδοδείκτες θα έχουν το ίδιο όνομα και δεν θα μπορείτε να τους ξεχωρίσετε. Σε αυτές τις περιπτώσεις, είναι χρήσιμο να δώσετε σε έναν σελιδοδείκτη άλλο όνομα από το όνομα του φακέλου στον οποίον κατευθύνεται.</p>
+    </note>
+</item>
+    </steps>
+
+</page>

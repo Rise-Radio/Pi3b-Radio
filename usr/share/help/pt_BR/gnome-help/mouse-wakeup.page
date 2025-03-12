@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="mouse-wakeup" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="mouse#problems"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+
+    <desc>Se você tiver que mexer ou clicar o mouse antes que ele responda.</desc>
+    <credit type="author">
+      <name>Projeto de documentação do GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodolfo Ribeiro Gomes</mal:name>
+      <mal:email>rodolforg@gmail.com</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>João Santana</mal:name>
+      <mal:email>joaosantana@outlook.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>O mouse reage com um atraso antes que ele comece a funcionar</title>
+
+  <p>Mouses sem fio e óptico, assim como touchpads em notebooks, podem precisar "acordar" antes que eles comecem a funcionar. Eles vão dormir quando automaticamente não estão em uso, para economizar energia. Para acordar seu mouse ou touchpad, você pode clicar em um botão do mouse ou mexer o mouse.</p>
+  <p>Touchpads de notebooks algumas vezes reagem com atraso após você parar de digitar, antes que eles possam começar a funcionar. Isso é para prevenir você de acidentalmente tocar no touchpad com sua palma enquanto digita. Veja <link xref="mouse-disabletouchpad"/> para mais detalhes.</p>
+</page>

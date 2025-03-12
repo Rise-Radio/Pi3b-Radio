@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="bluetooth-visibility" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="bluetooth" group="#last"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-11-09" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-04" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>Šon Mek Kens</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Majkl Hil</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2014</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Whether other devices can discover your computer.</desc>
+  </info>
+
+  <title>Šta je vidljivost blututa?</title>
+
+  <p>Bluetooth visibility refers to whether other devices can discover
+  your computer when searching for Bluetooth devices. When Bluetooth is turned
+  on and the <gui>Bluetooth</gui> panel is open, your computer will advertise
+  itself to all other devices within range, allowing them to attempt to connect
+  to your computer.</p>
+
+  <note style="tip">
+    <p>Možete da <link xref="sharing-displayname">izmenite</link> naziv pod kojim se vaš računar prikazuje drugim uređajima.</p>
+  </note>
+
+  <p>Nakon što ste se <link xref="bluetooth-connect-device">povezali na uređaj</link>, ni vaš računar ni uređaj ne moraju biti vidljivi da bi međusobno komunicirali.</p>
+
+</page>

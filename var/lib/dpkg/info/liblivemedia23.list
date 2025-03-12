@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libliveMedia.so.23.1.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/liblivemedia23
+/usr/share/doc/liblivemedia23/copyright
+/usr/share/doc/liblivemedia23/changelog.Debian.gz
+/usr/share/doc/liblivemedia23/NEWS.Debian.gz
+/usr/share/doc/liblivemedia23/changelog.gz
+/usr/lib/arm-linux-gnueabihf/libliveMedia.so.23

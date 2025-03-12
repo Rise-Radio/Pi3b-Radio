@@ -1,0 +1,41 @@
+#!/bin/bash
+
+REPORTBUG_VERSION=$(dpkg-query -f '${source:Version}' -W reportbug)
+LOG_FILE='/var/log/vsftpd.log'
+CONF_FILE='/etc/vsftpd.conf'
+
+# Depending on whether reportbug is new enough, we either write the output of
+# our various commands to a file and attach them to the report (this needs
+# reportbug ≥ 6.5.0) or just write them to the body of the bug report.
+if dpkg --compare-versions "$REPORTBUG_VERSION" ge "6.5.0"; then
+
+    # We don’t clean up this directory because there is no way to know when
+    # reportbug finished running, and reportbug needs the files around.
+    # Given that those are just a couple of kilobytes in size and people
+    # generally don’t file a lot of bugs, I don’t think it’s a big deal.
+    DIR=$(mktemp -d)
+
+    echo "-- BEGIN ATTACHMENTS --" >&3
+
+    #
+    # attach conf & log
+    #
+    if [ -f ${CONF_FILE} ] ; then
+	dialog --yesno "The contents of your /etc/vsftpd.conf file \
+and your logs from /var/log/vsftpd.log \
+may help developers diagnose your bug more \
+quickly.  However, it may contain sensitive \
+information.\n\n \
+Do you want to include it in your bug report?" 0 0
+	if [ $? = 0 ] ; then
+	    echo " conf-file attached" >&3
+	    ${CONF_FILE}    
+	    echo " log-file attached" >&3
+	    ${LOG_FILE}
+	fi
+	clear
+    fi
+
+
+    echo "-- END ATTACHMENTS --" >&3
+fi

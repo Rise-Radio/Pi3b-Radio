@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/ui/1.0/" type="topic" style="task" version="1.0 ui/1.0" id="keyboard-shortcuts-set" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="keyboard"/>
+    <link type="seealso" xref="shell-keyboard-shortcuts"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-23" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-10-11" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author">
+       <name>Julita Inca</name>
+       <email>yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Juanjo Marín</name>
+      <email>juanj.marin@juntadeandalucia.es</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+
+    <desc><gui>キーボード</gui>の設定でキーボードショートカットの割り当て、変更を行います。</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>松澤 二郎</mal:name>
+      <mal:email>jmatsuzawa@gnome.org</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>赤星 柔充</mal:name>
+      <mal:email>yasumichi@vinelinux.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kentaro KAZUHAMA</mal:name>
+      <mal:email>kazken3@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shushi Kurose</mal:name>
+      <mal:email>md81bird@hitaki.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Noriko Mizumoto</mal:name>
+      <mal:email>noriko@fedoraproject.org</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>坂本 貴史</mal:name>
+      <mal:email>o-takashi@sakamocchi.jp</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>日本GNOMEユーザー会</mal:name>
+      <mal:email>http://www.gnome.gr.jp/</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>キーボードショートカットを設定する</title>
+
+<p>キーボードショートカットに割り当てるキーを変更する方法は次のとおりです。</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Keyboard</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Keyboard</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Select the <gui>Shortcuts</gui> tab.</p>
+    </item>
+    <item>
+      <p>左側のペインでカテゴリーを選択し、次に右側のペインで対象のアクションを選択します。現在のショートカット定義が、<gui>新しいアクセラレータ…</gui>という表示に変わります。</p>
+    </item>
+    <item>
+      <p>割り当てるキーコンビネーションを入力するか、<key>Backspace</key> を押して設定をクリアします。</p>
+    </item>
+  </steps>
+
+
+<section id="defined">
+<title>事前に定義されたショートカット</title>
+  <p>事前に設定された多くのショートカットがあり、それらは変更できます。以下のカテゴリーに分類されます。</p>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>ランチャー</title>
+  <tr>
+	<td><p>ヘルプブラウザーを起動</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>電卓を起動</p></td>
+	<td><p>Calculator</p></td>
+  </tr>
+  <tr>
+	<td><p>メールクライアントを起動</p></td>
+	<td><p>Mail</p></td>
+  </tr>
+  <tr>
+	<td><p>ウェブブラウザーを起動</p></td>
+	<td><p>WWW</p></td>
+  </tr>
+  <tr>
+	<td><p>ホームフォルダー</p></td>
+	<td><p>Explorer</p></td>
+  </tr>
+  <tr>
+	<td><p>検索</p></td>
+	<td><p>検索</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>ナビゲーション</title>
+  <tr>
+	<td><p>ウィンドウをワークスペース 1 へ移動する</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウをワークスペース 2 へ移動する</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウをワークスペース 3 へ移動する</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウをワークスペース 4 へ移動する</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウを左側のワークスペースへ移動する</p></td>
+	<td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>←</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウを右側のワークスペースへ移動する</p></td>
+	<td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>→</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウを上側のワークスペースへ移動する</p></td>
+	<td><p><keyseq><key>Shift</key><key xref="keyboard-key-super">Super</key> <key>Page Up</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウを下側のワークスペースへ移動する</p></td>
+	<td><p><keyseq><key>Shift</key><key>Super</key><key>Page Down</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>アプリケーションを切り替える</p></td>
+	<td><p><keyseq><key>Super</key><key>Tab</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>ウィンドウを切り替える</p></td>
+  <td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>ひとつのアプリケーション内のウィンドウを切り替える</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>システムコントロールを切り替える</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Tab</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウを直接切り替える</p></td>
+	<td><p><keyseq><key>Alt</key><key>Esc</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ひとつのアプリケーション内のウィンドウを直接切り替える</p></td>
+	<td><p><keyseq><key>Alt</key><key>F6</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>システムコントロールを直接切り替える</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Esc</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>すべての通常のウィンドウを隠す</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>ワークスペース 1 へ切り替える</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>ワークスペース 2 へ切り替える</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>ワークスペース 3 へ切り替える</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>ワークスペース 4 へ切り替える</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>左側のワークスペースへ移動する。</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>←</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>右側のワークスペースへ移動する。</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>→</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>上側のワークスペースへ移動する。</p></td>
+	<td><p><keyseq><key>Super</key><key>Page Up</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>下側のワークスペースへ移動する。</p></td>
+	<td><p><keyseq><key>Super</key><key>Page Down</key></keyseq></p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>スクリーンショット</title>
+  <tr>
+	<td><p>スクリーンショットを撮る</p></td>
+	<td><p><key>Print</key></p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウのスクリーンショットを撮る</p></td>
+	<td><p><keyseq><key>Alt</key><key>Print</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>選択領域のスクリーンショットを撮る</p></td>
+	<td><p><keyseq><key>Shift</key><key>Print</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>スクリーンショットをクリップボードにコピーする</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Print</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウのスクリーンショットをクリップボードにコピーする</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Print</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>選択領域のスクリーンショットをクリップボードにコピーする</p></td>
+	<td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Print</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>スクリーンキャストを撮る</p></td>
+  <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>R</key></keyseq></p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>音とメディア</title>
+  <tr>
+	<td><p>ミュートにする</p></td>
+	<td><p>Audio mute</p></td>
+  </tr>
+  <tr>
+	<td><p>音量を下げる</p></td>
+	<td><p>Audio lower volume</p></td>
+  </tr>
+  <tr>
+	<td><p>音量を上げる</p></td>
+	<td><p>Audio raise volume</p></td>
+  </tr>
+  <tr>
+	<td><p>メディアプレイヤーを起動</p></td>
+	<td><p>Audio media</p></td>
+  </tr>
+  <tr>
+	<td><p>再生 (あるいは再生/一時停止)</p></td>
+	<td><p>Audio play</p></td>
+  </tr>
+  <tr>
+	<td><p>再生を一時停止</p></td>
+	<td><p>Audio pause</p></td>
+  </tr>
+  <tr>
+	<td><p>再生を停止</p></td>
+	<td><p>Audio stop</p></td>
+  </tr>
+  <tr>
+	<td><p>前のトラック</p></td>
+	<td><p>Audio previous</p></td>
+  </tr>
+  <tr>
+	<td><p>次のトラック</p></td>
+	<td><p>Audio next</p></td>
+  </tr>
+  <tr>
+	<td><p>取り出し</p></td>
+	<td><p>取り出し</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>システム</title>
+  <tr>
+	<td><p>コマンド実行プロンプトを表示する</p></td>
+	<td><p><keyseq><key>Alt</key><key>F2</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>アクティビティ画面を表示する</p></td>
+	<td><p><keyseq><key>Alt</key><key>F1</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ログアウト</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>画面をロック</p></td>
+	<td><p><keyseq><key>Super</key><key>L</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>メッセージトレイを表示する</p></td>
+  <td><p><keyseq><key>Super</key><key>M</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>アクティブな通知にフォーカスを当てる</p></td>
+  <td><p><keyseq><key>Super</key><key>N</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>すべてのアプリケーションを表示する</p></td>
+  <td><p><keyseq><key>Super</key><key>A</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>トップバーのアプリケーションメニューを開く</p></td>
+  <td><p><keyseq><key>Super</key><key>F10</key></keyseq></p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>タイピング</title>
+  <tr>
+  <td><p>次の入力ソースへ切り替える</p></td>
+  <td><p><keyseq><key>Super</key><key>Space</key></keyseq></p></td>
+  </tr>
+
+  <tr>
+  <td><p>前の入力ソースへ切り替える</p></td>
+  <td><p>無効</p></td>
+  </tr>
+  <tr>
+  <td><p>次の入力ソースへ切り替える (修飾キーのみ)</p></td>
+  <td><p>無効</p></td>
+  </tr>
+  <tr>
+  <td><p>Compose キー</p></td>
+  <td><p>無効</p></td>
+  </tr>
+  <tr>
+  <td><p>代替文字キー</p></td>
+  <td><p>無効</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>ユニバーサルアクセス</title>
+  <tr>
+	<td><p>ズームのオン/オフを切り替える</p></td>
+	<td><p><keyseq><key>Alt</key><key>Super</key><key>8</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ズームイン</p></td>
+  <td><p><keyseq><key>Alt</key><key>Super</key><key>=</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ズームアウト</p></td>
+  <td><p><keyseq><key>Alt</key><key>Super</key><key>-</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>スクリーンリーダーのオン/オフを切り替える</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>オンスクリーンキーボードのオン/オフを切り替える</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>文字サイズを拡大</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>文字サイズを縮小</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>ハイコントラストのオン/オフを切り替える</p></td>
+	<td><p>無効</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>ウィンドウ</title>
+  <tr>
+	<td><p>ウィンドウメニューをアクティブにする。</p></td>
+	<td><p><keyseq><key>Alt</key><key>Space</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>フルスクリーンモードを切り替える</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>最大化/最小化の状態を切り替える</p></td>
+	<td><p><keyseq><key>Alt</key><key>F10</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウを最大化する</p></td>
+	<td><p><keyseq><key>Super</key><key>↑</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウを元のサイズに戻す</p></td>
+  <td><p><keyseq><key>Super</key><key>↓</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>シェードの状態を切り替える</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウを閉じる</p></td>
+	<td><p><keyseq><key>Alt</key><key>F4</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>ウィンドウを非表示にする</p></td>
+  <td><p><keyseq><key>Super</key><key>H</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウを移動する</p></td>
+	<td><p><keyseq><key>Alt</key><key>F7</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウサイズを変更する</p></td>
+	<td><p><keyseq><key>Alt</key><key>F8</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウをすべてのワークスペースに固定するかどうかを切り替える</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウが覆われていれば最前面に、そうでなければ最背面に移動する</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウを最前面に移動する</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウを最背面に移動する</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウを垂直方向に最大化する</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+	<td><p>ウィンドウを水平方向に最大化する</p></td>
+	<td><p>無効</p></td>
+  </tr>
+  <tr>
+  <td><p>画面左半分に表示する</p></td>
+  <td><p><keyseq><key>Super</key><key>←</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>画面右半分に表示する</p></td>
+  <td><p><keyseq><key>Super</key><key>→</key></keyseq></p></td>
+  </tr>
+</table>
+
+</section>
+
+<section id="changing-shorcuts">
+  <title>キーボードショートカットを変更する</title>
+  <p>このセクションでは、アプリケーションで使用されているキーボードショートカットを変更する方法を説明します。</p>
+
+  <steps>
+    <item>
+	<p>端末アプリケーションを起動します。</p>
+     </item>
+    <item><p><cmd>gsettings set org.gnome.desktop.interface can-change-accels true</cmd> を実行します。</p>
+    </item>
+       <item>
+      <p>キーボードショートカットを変更するアプリケーションを起動します。</p>
+    </item>
+  <item>
+      <p>キーボードショートカットを変更するメニューアイテムにフォーカスを当てます。</p>
+    </item>
+<item>
+      <p>割りてたいショートカットをキーボードから入力します。</p>
+    </item>
+  </steps>
+
+<note style="note style">
+  <p>この設定はデスクトップワイドで有効となることに注意してください。ショートカットを変更したあとで、<cmd>gsettings set org.gnome.desktop.interface can-change-accels false</cmd> を実行すると、変更する機能を無効化できます。<app>dconf-editor</app> でも同じ設定ができます。</p>
+</note>
+</section>
+
+<section id="custom">
+<title>独自のショートカット</title>
+
+<p>独自のキーボードショートカットを定義する方法は次のとおりです。</p>
+
+  <steps>
+    <item>
+      <p>左側のペインで<gui>独自のショートカット</gui>を選択し、<gui style="button">+</gui> ボタンを押します (あるいは、任意のカテゴリーを選択し、<gui style="button">+</gui> ボタンを押します)。<gui>独自のショートカット</gui>ウィンドウが表示されます。</p>
+    </item>
+    <item>
+      <p>ショートカットを識別する<gui>名前</gui>および、アプリケーションを起動する<gui>コマンド</gui>を入力し、<gui>適用</gui>を押します。たとえば、Rhythmbox を開くショートカットを定義する場合、名前を<input>音楽</input>とし、コマンドに <input>rhythmbox</input> と指定するとよいでしょう。</p>
+    </item>
+    <item>
+      <p>いま登録したショートカット項目が追加されるので、その右端の<gui>無効</gui>と書かれた箇所をクリックします。<gui>新しいアクセラレータ…</gui>というラベルが表示されたら、割り当てるキーコンビネーションを入力します。</p>
+    </item>
+  </steps>
+ <p>コマンド欄には、システムコマンドとして有効なものを指定してください。端末を起動してそのコマンドを入力することで、コマンドが機能するか確認できます。アプリケーションを起動するコマンド名は、アプリケーションの名前とは異なることがあります。</p>
+
+ <p>独自のキーボードショートカットに関連付けたコマンドを変更する場合は、ショートカットの<em>名前</em>をダブルクリックします。<gui>独自のショートカット</gui>ウィンドウが表示されるので、コマンドを編集してください。</p>
+</section>
+
+</page>

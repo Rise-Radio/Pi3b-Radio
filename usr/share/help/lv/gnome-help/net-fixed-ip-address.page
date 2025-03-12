@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-fixed-ip-address" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="seealso" xref="net-findip"/>
+
+    <revision pkgversion="3.4.0" date="2012-03-13" status="final"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Statiskas IP adreses izmantošana var atvieglot dažu tīkla pakalpojumu sniegšanu no jūsu datora.</desc>
+  </info>
+
+  <title>Veidot savienojumu ar fiksēto IP adresi.</title>
+
+  <p>Pārsvarā tīkli automātiski piešķirs <link xref="net-what-is-ip-address">IP adresi</link> un citu informāciju jūsu datoram, kad tas pieslēgsies tīklam. Šīs detaļas var periodiski mainīties, bet jūs varat vēlēties fiksēto IP adresi savam datoram, lai vienmēr zinātu, kāda tā ir (piemēram, ja dators ir datņu serveris).</p> <p>Lai jūsu datoram iedotu fiksēto (statisko) IP adresi:</p>
+
+  <steps>
+    <item>
+      <p>Spiediet <gui>tīkla ikonu</gui> uz <gui>augšējās joslas</gui> un izvēlieties <gui>Tīkla iestatījumi</gui>.</p>
+    </item>
+    <item>
+      <p>Izvēlieties tīkla savienojumus no saraksta (<gui>Vadu</gui> vai <gui>Bezvadu</gui>) un spiediet <gui>Konfigurēt</gui>.</p>
+    </item>
+    <item>
+      <p>Spiediet uz <gui>IPv4 iestatījumi</gui> cilnes un izmainiet <gui>Metode</gui> uz <em>Pašrocīgs</em>.</p>
+    </item>
+    <item>
+      <p>Ja nav nekādas savienojumu informācijas <gui>Adreses</gui> sarakstā, vai ja vēlaties iestatīt jaunu savienojumu, spiediet <gui>Pievienot</gui>.</p>
+    </item>
+    <item>
+      <p>Ievadiet <em>IP adresi</em>, <em>Tīkla masku</em> un <em>Vārteja</em> informāciju atbilstošajās ailē. Kādus jūs izvēlēsities, ir atkarīgs no jūsu tīkla iestatījumiem. Ir īpaši noteikumi, kas regulē, kādas IP adreses un tīkla maskas ir derīgas attiecīgajā tīklā.</p>
+    </item>
+    <item>
+      <p>Ja nepieciešams, ievadiet <em>domēnu vārdu servera</em> adresi iekš <gui>DNS serveri</gui> ailes. Šī ir IP adrese serverim, kurā glabājas domēnu nosaukumi; lielākajai daļai korporatīvo tīklu un interneta sniedzēju ir savi DNS serveri.</p>
+    </item>
+    <item>
+      <p>Spiediet <gui>Saglabāt</gui>. Tīkla savienojumiem tagad vajadzētu būt fiksētajai IP adresei.</p>
+    </item>
+  </steps>
+
+</page>

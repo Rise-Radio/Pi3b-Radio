@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="2column task" id="power" xml:lang="sr">
+<info>
+    <link type="guide" xref="prefs"/>
+    <link type="guide" xref="hardware"/>
+
+    <revision pkgversion="3.8" date="2013-02-26" status="review"/>
+
+    <credit type="author">
+      <name>Наталија Руз</name>
+      <email>nruz@alumnos.inf.utfsm.cl</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><link xref="power-suspend">Обустављање</link>, <link xref="shell-exit#shutdown">гашење</link>, <link xref="power-whydim">затамњивање екрана</link>…</desc>
+
+</info>
+
+<title>Напајање и батерија</title>
+
+<section id="battery" style="2column">
+  <title>Подешавања батерије</title>
+</section>
+
+<section id="problems" style="2column">
+  <info>
+    <title type="link">Проблеми са напајањем</title>
+    <link type="guide" xref="hardware#problems"/>
+    <desc>Решите проблеме са напајањем и батеријама.</desc>
+  </info>
+  <title>Проблеми</title>
+</section>
+
+</page>

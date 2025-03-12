@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="printing-streaks" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="printing#problems"/>
+    <link type="seealso" xref="printing-inklevel"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2012-02-19" status="candidate"/>
+
+    <credit type="author">
+      <name>Progetto documentazione di GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Se i fogli stampati sono striati, sbiaditi o mancano alcuni colori, controllare i livelli dell'inchiostro o pulire la testina di stampa.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luca Ferretti</mal:name>
+      <mal:email>lferrett@gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Flavia Weisghizzi</mal:name>
+      <mal:email>flavia.weisghizzi@ubuntu.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Perché ci sono striature, linee o colori sbagliati sui fogli stampati?</title>
+
+  <p>Se i fogli stampati risultano striati, sbiaditi, presentano linee che non ci dovrebbero essere o sono altrimenti di cattiva qualità, ci potrebbe essere un problema con la stampante o un'insufficiente livello d'inchiostro o toner.</p>
+
+  <list>
+     <item>
+       <p>Testo o immagini sbiaditi</p>
+       <p>L'inchiostro o il toner stanno per finire: controllarne il livello e se necessario comprare una nuova cartuccia.</p>
+     </item>
+     <item>
+       <p>Striature e linee</p>
+       <p>Nel caso di una stampante a getto d'inchiostro, può darsi che la testina di stampa sia sporca o parzialmente ostruita: provare a pulirla (consultare il manuale della stampante per istruzioni).</p>
+     </item>
+     <item>
+       <p>Colori errati</p>
+       <p>Potrebbe essere finito uno dei colori dell'inchiostro o del toner: controllarne il livello e se necessario comprare una nuova cartuccia.</p>
+     </item>
+     <item>
+       <p>Linee frastagliate o che non risultano rette</p>
+       <p>Se sui fogli stampati le linee che dovrebbero essere rette sono frastagliate, può essere necessario allineare la testina di stampa: consultare il manuale della stampante per le istruzioni.</p>
+     </item>
+  </list>
+
+</page>

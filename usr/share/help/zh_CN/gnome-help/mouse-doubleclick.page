@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task a11y" id="mouse-doubleclick" xml:lang="zh-CN">
+<info>
+    <link type="guide" xref="mouse"/>
+    <link type="guide" xref="a11y#mobility" group="clicking"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+    <revision pkgversion="3.9.92" date="2013-10-16" status="candidate"/>
+
+    <desc>控制双击时，两次点击的最小时间间隔。</desc>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>调整双击速度</title>
+
+<p>仅当连续按鼠标键两次的动作足够快时，才能执行双击操作。如果按第二次与按第一次的时间差过大，则仅会分别执行两次单击操作，而不是一次双击操作。如果您难以将鼠标键按得很快，则应该延长超时时间。</p>
+
+<steps>
+  <item><p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+  start typing <gui>Mouse &amp; Touchpad</gui>.</p></item>
+  <item><p>Click on <gui>Mouse &amp; Touchpad</gui> to open the panel.</p></item>
+  <item><p>在<gui>常规</gui>中，调整<gui>双击</gui>滑块的位置，找出最适合您的速度。</p></item>
+  <item><p>点击<gui>测试设置</gui>按钮测试一下效果，单击会高亮显示外边的圆，双击会高亮显示里边的圆。</p></item>
+</steps>
+
+<p>如果您想单击结果变成了双击，甚至您增大超时还这样，可能您的鼠标有问题了。试着接个别的鼠标到机子上，看看是否工作正常。另外，也可以把您的鼠标接到其他机子上，看看是否还存在这个问题。</p>
+
+<note><p>这一设置将同时影响您的鼠标、触控板和其他指点装置。</p></note>
+
+</page>

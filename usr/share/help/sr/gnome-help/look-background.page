@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="look-background" xml:lang="sr">
+
+  <info>
+    <link type="guide" xref="prefs-display"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-07" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Гномов пројекат документације</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Ејприл Гонзалес</name>
+      <email its:translate="no">loonycookie@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Наталија Руз Лејва</name>
+      <email its:translate="no">nruz@alumnos.inf.utfsm.cl </email>
+    </credit>
+    <credit type="author">
+      <name>Шон Мек Кенс</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Андре Клапер</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <credit type="editor">
+      <name>Мајкл Хил</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Шоба Тјаги</name>
+      <email its:translate="no">tyagishobha@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Екатерина Герасимова</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Поставите слику, боју, или прелив као позадину ваше радне површи или закључајте позадину екрана.</desc>
+  </info>
+
+  <title>Измените радну површ и закључајте позадине екрана</title>
+
+  <p>Можете да измените слику коришћену за ваше позадине или да је подесите на једноставну боју.</p>
+
+  <steps>
+    <item>
+      <p>Отворите преглед <gui xref="shell-terminology">Активности</gui> и почните да куцате <gui>Позадина</gui>.</p>
+    </item>
+    <item>
+      <p>Кликните <gui>Позадина</gui> да отворите панел.</p>
+    </item>
+    <item>
+      <p>Изаберите <gui>Позадина</gui> или <gui>Закључај екран</gui>.</p>
+    </item>
+    <item>
+      <p>Постоје приказана три избора на врху:</p>
+      <list>
+        <item>
+          <p>Изаберите <gui>Позадине</gui> да употребите једну од многих професионалних слика позадине које се испоручују уз Гном. Неке позадине се мењају у току дана. Ове позадине имају малу иконицу сата у доњем десном углу.</p>
+        </item>
+        <item>
+          <p>Изаберите <gui>Слике</gui> да користите неку од ваших фотографија из ваше фасцикле <file>Слике</file>. Већина програма за управљање фотографијама ту чува фотографије. Уколико желите да користите слику која није у фасцикли са сликама, или користите програм <app>Датотекар</app> десним кликом на датотеку слике и изаберите <gui>Постави као позадину</gui>, или <app>Прегледника слика</app> отварањем датотеке слике и избором <guiseq><gui>Слика</gui><gui>Постави као позадину радне површи</gui></guiseq>.</p>
+        </item>
+        <item>
+          <p>Изаберите <gui>Боје</gui> да користите чисту боју.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Подешавања се примењују истог тренутка.</p>
+    </item>
+    <item>
+      <p><link xref="shell-workspaces-switch">Пребаците се на празан радни простор</link> да видите читаву радну површ.</p>
+    </item>
+  </steps>
+
+</page>

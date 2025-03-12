@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-fixed-ip-address" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="seealso" xref="net-findip"/>
+
+    <revision pkgversion="3.4.0" date="2012-03-13" status="final"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Usar un enderezo IP estático pode facer máis doado fornecer servizos de rede desde o seu computador.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Crear unha conexión cunha enderezo IP fixo</title>
+
+  <p>A maioría das redes asignan automaticamente un <link xref="net-what-is-ip-address">enderezo IP</link> e outra información que o seu computador precisa para conectarse á rede. Esta información pode cambiar de forma periódica, porén vostede querer ter un enderezo IP fixo para un computador para que sempre saiba en que enderezo está (por exemplo, un servidor de ficheiros).</p> <p>Buscar o seu enderezo IP externo de Internet:</p>
+
+  <steps>
+    <item>
+      <p>Prema co botón dereito sobre o nome do ficheiro e seleccione <gui>Mover ao lixo</gui>.</p>
+    </item>
+    <item>
+      <p>Prema co botón dereito sobre o nome do ficheiro e seleccione <gui>Mover ao lixo</gui>.</p>
+    </item>
+    <item>
+      <p>Prema na lapela <gui>Preferencias IPv4</gui> e cambie o <gui>Método</gui> a <em>Manual</em>.</p>
+    </item>
+    <item>
+      <p>Se non se mostra información da conexión na lista de <gui>Enderezos</gui>, ou se quere configurar unha nova conexión, prema <gui>Engadir</gui>.</p>
+    </item>
+    <item>
+      <p>Escriba a información do <em>Enderezo IP</em>, <em>Máscara de rede</em> e <em>Pasarela</em> nas caixas axeitadas. Cal escoller depende da súa configuración de rede; hai regras específicas para que os enderezos IP e máscaras de rede sexan válidos para unha rede en particular.</p>
+    </item>
+    <item>
+      <p>Se é necesario, escriba os enderezos dos <em>Servidores de nomes de dominio</em> na caixa <gui>servidores DNS</gui>. Estes son os enderezos de servidores que buscan nomes de dominio; a maioría das redes corporativas e fornecedores de internet teñen servidores de DNS adicados.</p>
+    </item>
+    <item>
+      <p>Prema <gui>Gardar</gui>. A conexión de rede debería ter agora un enderezo IP fixo.</p>
+    </item>
+  </steps>
+
+</page>

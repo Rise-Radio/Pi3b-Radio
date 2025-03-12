@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-purge" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+
+    <revision pkgversion="3.10" date="2013-09-29" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>ஜிம் காம்ப்பெல்</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>மைக்கேல் ஹில்</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>உங்கள் குப்பைத் தொட்டியும் தற்காலிகக் கோப்புகளும் உங்கள் கணினியில் இருந்து எப்படி அழிக்கப்படுகின்றன என அமைத்தல்.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>குப்பைத் தொட்டி &amp; தற்காலிகக் கோப்புகளை அழி</title>
+
+  <p>உங்கள் குப்பைத் தொட்டியை அழித்தால், உங்கள் கணினியிலிருந்து தேவையற்ற கோப்புகள் அகற்றப்படும், வன் வட்டில் அதிக காலி இடம் உருவாகும். நீங்கள் கைமுறையாக உங்கள் குப்பைத் தொட்டி மற்றும் உங்கள் தற்காலிகக் கோப்புகளை அழிக்கலாம், ஆனால் இதை தானாக கணினியே செய்யும் படியும் அமைக்க முடியும்.</p>
+
+  <steps>
+    <title>அமைக்கப்பட்ட குறிப்பிட்ட கால அளவில் உங்கள் குப்பைத் தொட்டியையும் தற்காலிகக் கோப்புகளையும் தானாக அழித்தல்:</title>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Privacy</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Privacy</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p><gui>குப்பைத் தொட்டி &amp; தற்காலிகக் கோப்புகளை அழி</gui> ஐ தேர்ந்தெடுக்கவும்.</p>
+    </item>
+    <item>
+      <p>Set one or both of the <gui>Automatically empty Trash</gui> or
+      <gui>Automatically purge Temporary Files</gui> switches to
+      <gui>ON</gui>.</p>
+    </item>
+    <item>
+      <p><gui>இவ்வளவு காலத்திற்குப் பிறகு அழி</gui> மதிப்பை அமைப்பதன் மூலம், உங்கள் <em>குப்பைத் தொட்டி</em> மற்றும் <em>தற்காலிகக் கோப்புகள்</em> எவ்வளவு காலத்திற்கு ஒரு முறை அழிக்கப்பட வேண்டும் என்பதை அமைக்கலாம்.</p>
+    </item>
+    <item>
+      <p>Use the <gui>Empty Trash</gui> or <gui>Purge Temporary Files</gui>
+      buttons to perform these actions immediately.</p>
+    </item>
+    <item>
+      <p>Click the <gui>X</gui> to close.</p>
+    </item>
+  </steps>
+
+  <note style="warning">
+    <p><em>இவ்வளவு காலத்திற்குப் பிறகு அழி: உடனடியாக</em> அமைவை எச்சரிக்கையாகப் பயன்படுத்தவும். உங்கள் குப்பைத் தொட்டியை உடனடியாக அழிக்கும்படி அமைத்தால், நீங்கள் எந்தக் கோப்பை அழித்தாலும் அது குப்பைத் தொட்டிக்குச் செல்லாமல் நிரந்தரமாக அழிக்கப்படும். குப்பைத் தொட்டியில் உள்ள கோப்புகளை மீட்க முடியும், ஆனால் இப்படி நிரந்தரமாக அழிக்கும் கோப்புகளை மீட்பது மிகக் கடினம்.</p>
+
+    <p>குப்பைத் தொட்டியிலிருந்து உடனடியாக அழிக்கும் அவசியம் நிச்சயம் இருந்தால் மட்டுமே இதைப் பயன்படுத்தவும், இல்லாவிட்டால்  <gui>இவ்வளவு காலத்திற்குப் பிறகு அழி</gui> க்கு ஒரு நீண்ட மதிப்பை அமைப்பதே நல்லது.</p>
+  </note>
+
+</page>

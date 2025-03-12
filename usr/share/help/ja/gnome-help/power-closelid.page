@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="power-closelid" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="power"/>
+    <link type="seealso" xref="power-suspendfail"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-08" status="review"/>
+
+    <credit type="author">
+      <name>GNOME ドキュメンテーションプロジェクト</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>ラップトップは蓋を閉めると節電のためスリープ状態に入ります。</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>松澤 二郎</mal:name>
+      <mal:email>jmatsuzawa@gnome.org</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>赤星 柔充</mal:name>
+      <mal:email>yasumichi@vinelinux.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kentaro KAZUHAMA</mal:name>
+      <mal:email>kazken3@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shushi Kurose</mal:name>
+      <mal:email>md81bird@hitaki.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Noriko Mizumoto</mal:name>
+      <mal:email>noriko@fedoraproject.org</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>坂本 貴史</mal:name>
+      <mal:email>o-takashi@sakamocchi.jp</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>日本GNOMEユーザー会</mal:name>
+      <mal:email>http://www.gnome.gr.jp/</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>コンピューターの蓋を閉めるとオフになるのはなぜですか?</title>
+
+  <p>ラップトップの蓋を閉めると節電のため<link xref="power-suspend"><em>サスペンド</em></link>します。これは、実際に電源オフになったわけではなく、スリープ状態に入っただけです。蓋を開けると再開します。再開しない場合はマウスをクリックするか何かのキーを押してみてください。それでも再開しない場合は電源ボタンを押してください。</p>
+
+  <p>コンピューターによっては、サスペンドが正しく動作しない場合があります。一般的には、オペレーティングシステムがそのハードウェアを完全にサポートしていないことが原因です (Linux ドライバーが不完全など)。このような場合、蓋を閉めたあとコンピューターを再開できないという問題に遭遇する可能性があります。<link xref="power-suspendfail">サスペンドに関する問題を修正する</link>か、蓋を閉じた場合にサスペンドしないようにします。</p>
+
+<section id="nosuspend">
+  <title>Stop the computer from suspending when the lid is closed</title>
+
+  <note style="important">
+    <p>These instructions will only work if you are using <app>systemd</app>.
+    Contact your distribution for more information.</p>
+  </note>
+
+  <p>If you do not want the computer to suspend when you close the lid, you can
+  change the settings for that behavior. You will need to have an
+  <link xref="user-admin-change">administrator password</link> to change the
+  setting.</p>
+
+  <note style="warning">
+    <p>Be very careful if you change this setting. Some laptops can overheat
+    if they are left running with the lid closed, especially if they are in
+    a confined place like a backpack.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>Open the <app>Terminal</app> application from the
+      <gui>Activities</gui> overview.</p>
+    </item>
+    <item>
+      <p>Run the following command:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudoedit /etc/systemd/logind.conf</input></screen>
+    </item>
+    <item>
+      <p>You will now see the contents of the file. Look for
+      <code>HandleLidSwitch=</code> in the file. The line may be quoted out
+      with a <code>#</code> at the start and may be followed by an argument. If
+      the line already exists, unquote it. Otherwise, add the line.</p>
+      <code>
+[Login]
+HandleLidSwitch=<input>lock</input>
+      </code>
+      <p>You can use <input>lock</input> for the screen to lock,
+      <input>ignore</input> for nothing to happen, <input>poweroff</input> for
+      the computer to switch off or <input>suspend</input> to suspend. For more
+      information, see <link href="man:logind.conf">logind.conf help</link>.</p>
+    </item>
+    <item>
+      <p>Once you finish editing the file, save your changes and quit the
+      editor.</p>
+    </item>
+    <item>
+      <p>Run the following command to make your change work:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudo systemctl restart systemd-logind.service</input></screen>
+      <p>If you do not run that command, the change will only work after your
+      computer is restarted.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

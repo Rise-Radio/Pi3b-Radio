@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="wacom-stylus" xml:lang="mr">
+  <info>
+
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <link type="guide" xref="wacom"/>
+
+    <credit type="author copyright">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>२०१२</years>
+    </credit>
+
+    <desc>Wacom स्टायलसचे बटण कार्ये आणि भार स्पर्श ठरवा.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>स्टायलस मांडणी करा</title>
+
+<steps>
+  <item>
+    <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+    start typing <gui>Wacom Tablet</gui>.</p>
+  </item>
+  <item>
+    <p>Click on <gui>Wacom Tablet</gui> to open the panel.</p>
+
+    <note style="tip"><p>If no tablet is detected, you'll be asked to
+    <gui>Please plug in or turn on your Wacom tablet</gui>. Click the
+    <gui>Bluetooth Settings</gui> link to connect a wireless tablet.</p></note>
+  </item>
+  <item><p>पॅनलच्या खालच्या भागात स्टायलसशी निगडित तपशील आणि सेटिंग आहे, उपकरण नावासोबत (स्टायलस वर्ग) आणि डावीकडे आकृती. ह्या सेटिंग बदलता येतात:</p>
+    <list>
+      <item><p><gui>खोडरबर भार जाणवणे:</gui> स्लायडरचा उपयोग "स्पर्श" (कसं भौतिक भाराचं डिजिटल किमतीत भाषांतर होतं) <gui>कोमल</gui> आणि <gui>कडक</gui> मधे बदलण्यासाठी करा.</p></item>
+      <item><p><gui>बटण/स्क्रोल चाक</gui> मांडणी (हे बदल स्टायलसचे काम दाखवण्यासाठी). ह्यापैकी एक कार्य निवडण्यासाठी प्रत्येक लेबलच्या पुढे मेनुवर क्लिक करा: कुठलीही कृती नाही, डावा माउस बटण क्लिक, मधलं माउस बटण क्लिक, उजवा माउस बटण क्लिक, स्क्रोल वर, स्क्रोल खाली, स्क्रोल डावीकडे, स्क्रोल उजवीकडे, मागे, पुढे.</p></item>
+      <item><p><gui>टोकाचा भार जाणवणे:</gui> स्लायडरचा उपयोग "स्पर्श" <gui>कोमल</gui> आणि <gui>कडक</gui> मधे बदलण्यासाठी करा.</p></item>
+    </list>
+  </item>
+</steps>
+
+<note style="info"><p>जर तुमच्याकडे एकापेक्षा जास्त स्टायलस असेल, जेव्हा अतिरिक्त स्टायलस टॅबलेटच्या जास्त जवळ येतो, स्टायलस उपकरण नावाच्या बाजुला पेजर दाखवलं जाइल. कुठला स्टायलस मांडायचा हे निवडण्यासाठी पेजर वापरा.</p>
+</note>
+
+</page>

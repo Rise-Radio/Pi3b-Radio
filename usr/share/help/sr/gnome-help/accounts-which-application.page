@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="sr">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Батиста Миј-Матиас</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Мајкл Хил</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Андре Клапер</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc>Програми могу да користе налоге направљене у <app>Налозима на мрежи</app> и услуге које искоришћавају.</desc>
+
+  </info>
+
+<title>Који програми имају корист од налога на мрежи?</title>
+
+  <p><app>Налоге на мрежи</app> могу да користе спољни програми да би се самостално подесили.</p>
+
+<section id="accounts-google-services">
+  <title>Са Гугловим налогом</title>
+
+  <list>
+    <item>
+      <p><app>Еволуција</app>, програм за ел. пошту. Ваш налог ел. поште ће бити самостално додат у <app>Еволуцију</app>, тако да ће покупити вашу пошту, дати вам приступ вашим контактима, и приказаће ставке вашег календара у вашем Гугл подсетнику.</p>
+    </item>
+    <item>
+      <p><app>Интернет писмоноша</app>, програм за тренутне поруке. Ваш налог на мрежи ће бити додат и бићете у могућности да комуницирате са вашим пријатељима.</p>
+    </item>
+    <item>
+      <p><app>Контакти</app>, који ће вам омогућити да видите и да уређујете ваше налоге.</p>
+    </item>
+    <item>
+      <p><app>Документи</app> може да приступи вашим документима на мрежи и да их прикаже.</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>Са налозима Виндоуза уживо, Фејсбука и Твитера</title>
+
+  <p><app>Интернет писмоноша</app> може да користи ове налоге да вас повеже на мрежу и да ћаска са вашим контактима, пријатељима и следбеницима.</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>Са налогом Једног диска</title>
+
+  <p><app>Документи</app> може да приступи вашим документима на мрежи у Мајкрософтовом једном диску и да их прикаже.</p>
+</section>
+
+<section id="account-exchange">
+  <title>Са налогом Размене</title>
+
+  <p>Када направите налог Размене, <app>Еволуција</app> ће започети довлачење поште са тог налога.</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>Са налогом Властитог облака</title>
+
+  <p>Када је подешен налог Властитог облака, <app>Еволуција</app> је у могућности да приступи и да уређује контакте и састанке календара.</p>
+
+  <p><app>Датотеке</app> и други програми ће бити у могућности да исписују и приступају вашим датотекама на мрежи ускладиштеним на инсталацији Властитог облака.</p>
+</section>
+
+</page>

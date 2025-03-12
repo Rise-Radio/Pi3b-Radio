@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>பேப்டிஸ்ட் மில்-மேத்தியாஸ்</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>மைக்கேல் ஹில்</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>ஆன்ட்ரி க்ளாப்பர்</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc><app>ஆன்லைன் கணக்குகளில்</app> உருவாக்கிய கணக்குகளையும் அவை வழங்கும் சேவைகளையும் பயன்பாடுகளால் பயன்படுத்த முடியும்.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+<title>ஆன்லைன் கணக்குகளின் அனுகூலத்தை எந்த பயன்பாடுகள் பயன்படுத்திக்கொள்ளலாம்?</title>
+
+  <p>வெளிப்புறப் பயன்பாடுகள் தங்களை அமைவாக்கம் செய்துகொள்ள <app>ஆன்லைன் கணக்குகளைப்</app> பயன்படுத்திக் கொள்ளலாம்.</p>
+
+<section id="accounts-google-services">
+  <title>Google கணக்கைக் கொண்டு</title>
+
+  <list>
+    <item>
+      <p>மின்னஞ்சல் பயன்பாடான <app>Evolution</app>. உங்கள் மின்னஞ்சல் கணக்கு தானாகவே <app>Evolution</app> இல் சேர்க்கப்படும். ஆகவே அது உங்கள் அஞ்சல்களை மீட்டெடுப்பதுடன், உங்கள் தொடர்புகளுக்கான அணுகலையும் வழங்கி உங்கள் Google நிகழ்ச்சி நிரலில் உள்ள நாள்காட்டி உருப்படிகளையும் காண்பிக்கும்.</p>
+    </item>
+    <item>
+      <p>உடனடி செய்தியனுப்பல் பயன்பாடான <app>Empathy</app>. உங்கள் ஆன்லைன் கணக்கு சேர்க்கப்படும், அதன் பின் நீங்கள் உங்கள் நண்பர்களுடன் செய்தி பரிமாறிக்கொள்ள முடியும்.</p>
+    </item>
+    <item>
+      <p><app>Contacts</app>, பயன்பாட்டைக் கொண்டு உங்கள் தொடர்புகளைக் காணவும் திருத்தவும் முடியும்.</p>
+    </item>
+    <item>
+      <p><app>Documents</app> பயன்பாட்டைக் கொண்டு உங்கள் ஆன்லைன் ஆவணங்களை அணுகவும் காணவும் முடியும்.</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>Windows Live, Facebook அல்லது Twitter கணக்குகளைக் கொண்டு</title>
+
+  <p><app>Empathy</app> இந்தக் கணக்குகளைப் பயன்படுத்தி உங்கள் ஆன்லைனில் இணைப்பதன் மூலம் உங்கள் தொடர்புகள், நண்பர்கள் மற்றும் பின் தொடர்பவர்களுடன் அரட்டையடிக்க் உதவும்.</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>With a OneDrive account</title>
+
+  <p><app>Documents</app> can access your online documents in Microsoft
+  OneDrive and display them.</p>
+</section>
+
+<section id="account-exchange">
+  <title>Exchange கணக்கைக் கொண்டு</title>
+
+  <p>நீங்கள் ஒரு Exchange கணக்கை உருவாக்கியதும், <app>Evolution</app> அந்தக் கணக்கிலிருந்து மின்னஞ்சல்களை மீட்டுப்பெறத் தொடங்கும்.</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>ownCloud கணக்கைக் கொண்டு</title>
+
+  <p>ownCloud கணக்கை அமைக்கும் போது, <app>Evolution</app> பயன்பாட்டால் தொடர்புகள் மற்றும் நாள்காட்டி சந்திப்புத் திட்டங்களை அணுகவும் திருத்தவும் முடியும்.</p>
+
+  <p><app>Files</app> மற்றும் பிற பயன்பாடுகளால் ownCloud நிறுவலில் சேமிக்கப்பட்டுள்ள ஆன்லைன் கோப்புகளைப் பட்டியலிடவும் அணுகவும் முடியும்.</p>
+</section>
+
+</page>

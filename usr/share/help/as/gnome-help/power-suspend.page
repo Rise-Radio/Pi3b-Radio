@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="power-suspend" xml:lang="as">
+
+  <info>
+    <link type="guide" xref="power"/>
+
+    <desc>স্থগিত অৱস্থাত আপোনাৰ কমপিউটাৰ নিদ্ৰাত যায়, সেয়েহে ই কম শক্তি ব্যৱহাৰ কৰে।</desc>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <credit type="author">
+      <name>GNOME তথ্যচিত্ৰ প্ৰকল্প</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>একাটেৰিনা গেৰাচিমভা</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>মই কমপিউটাৰ স্থগিত কৰোতে কি হয়?</title>
+
+<p>When you <em>suspend</em> the computer, you send it to sleep. All of your
+applications and documents remain open, but the screen and other parts of the
+computer switch off to save power. The computer is still switched on though,
+and it will still be using a small amount of power. You can wake it up by
+pressing a key or clicking the mouse. If that does not work, try pressing the
+power button.</p>
+
+<p>কিছুমান কমপিউটাৰৰ হাৰ্ডৱেৰ সমৰ্থনৰ সৈতে সমস্যা থাকে যাৰ অৰ্থ এই যে সিহত <link xref="power-suspendfail">সঠিকভাৱে স্থগিত অথবা হাইবাৰনেট হব নোৱাৰিব পাৰে</link>। আপোনাৰ কমপিউটাৰৰ স্থগিত ফলনৰ ওপৰত সম্পূৰ্ণভাৱে বিশ্বাস কৰাৰ আগত পৰিক্ষণৰ বাবে স্থগিত কৰি চোৱাটো এটা ভাল বুদ্ধি।</p>
+
+<note style="important">
+  <title>স্থগিত কৰাৰ আগত সদায় আপোনাৰ কাম সংৰক্ষণ কৰিব</title>
+  <p>আপুনি কমপিউটাৰ স্থগিত কৰাৰ আগত আপোনাৰ সকলো কাম সংৰক্ষণ কৰিব লাগে, কিয়নো কিবা সমস্যা হলে আপোনাৰ খোলা এপ্লিকেচনসমূহ আৰু দস্তাবেজসমূহক কমপিউটাৰ অব্যাহত কৰোতে পুনৰুদ্ধাৰ কৰা নাযাব।</p>
+</note>
+
+</page>

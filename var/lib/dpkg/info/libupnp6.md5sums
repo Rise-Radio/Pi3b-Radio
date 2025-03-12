@@ -1,0 +1,7 @@
+1426ead2be7374367409f44305e371b8  usr/lib/arm-linux-gnueabihf/libixml.so.2.0.8
+2729cb72ce1dcbde5e959ff144ff467b  usr/lib/arm-linux-gnueabihf/libthreadutil.so.6.0.4
+b216d9d181df738817e01434b3ff0a1c  usr/lib/arm-linux-gnueabihf/libupnp.so.6.3.3
+06e8bfdd7f33ae78ec599de871b9d433  usr/share/doc/libupnp6/changelog.Debian.gz
+35855c81ba4e81bfca1aa2236bcfaa9a  usr/share/doc/libupnp6/changelog.gz
+adb9d0f9e442af7ef5494b50e54bde99  usr/share/doc/libupnp6/copyright
+9fd052bc94f0778df6464dadfa6410c8  usr/share/lintian/overrides/libupnp6

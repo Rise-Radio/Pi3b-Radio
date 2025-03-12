@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="color-notspecifiededid" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="color#problems"/>
+    <link type="guide" xref="color-gettingprofiles"/>
+    <link type="guide" xref="color-why-calibrate"/>
+    <desc>Os perfiles de monitor predeterminados non teñen unha data de calibración.</desc>
+    <credit type="author">
+      <name>Richard Hughes</name>
+      <email>richard@hughsie.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Por que os perfiles de monitor predeterminados non teñen unha data de expiración de calibración?</title>
+  <p>O perfil de cor predeterminado para cada monitor xérase automaticamente baseándose nos datos EDID na pantalla, almacenados no chip de memoria dentro do monitor. Os datos EDID só lle dan unha instantánea das cores dispoñíbeis que o monitor é capaz de mostrar no momento da súa fabricación e non contén moita máis información de corrección de cor.</p>
+
+  <figure>
+    <desc>Xa que os EDID non poden ser actualizados, non teñen unha data de expiración.</desc>
+    <media type="image" mime="image/png" src="figures/color-profile-default.png"/>
+  </figure>
+
+  <note style="tip">
+    <p>Obter un perfil do fabricante do monitor ou crear un perfil vostede mesmo fará que obteña unha corección de cor máis precisa.</p>
+  </note>
+
+</page>

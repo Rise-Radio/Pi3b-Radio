@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="power-closelid" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="power"/>
+    <link type="seealso" xref="power-suspendfail"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-08" status="review"/>
+
+    <credit type="author">
+      <name>Proxecto de documentación de GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Os portátiles suspéndense cando se pecha a tapa para aforrar enerxía.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Porque se apaga o meu computador cando pecha a tapa?</title>
+
+  <p>Cando pecha a tapa do seu portátil, o seu computador <link xref="power-suspend"><em>suspenderase</em></link> para aforrar enerxía. Isto significa que o computador non está realmente apagado - simplemente está durmindo. Pode espertalo de novo simplemente abrindo a tapa. Se non se esperta, tente premendo algunha tecla do rato ou do teclado. Se aínda así non funciona, prema o botón de arrinque.</p>
+
+  <p>Algúns portátiles non so capaces de suspender correctamente, normalmente porque o seu hardware non é completamente compatíbel co sistema operativo (por exemplo, os controladores de Linux están incompletos). Neste caso, pode atopar que non é capaz de espertar o seu portátil despois de pechar a tapa. Pode probar a <link xref="power-suspendfail">arranxar o problema coa suspension</link>, ou previr que o computador tente suspenderse cando peche a tapa.</p>
+
+<section id="nosuspend">
+  <title>Stop the computer from suspending when the lid is closed</title>
+
+  <note style="important">
+    <p>These instructions will only work if you are using <app>systemd</app>.
+    Contact your distribution for more information.</p>
+  </note>
+
+  <p>If you do not want the computer to suspend when you close the lid, you can
+  change the settings for that behavior. You will need to have an
+  <link xref="user-admin-change">administrator password</link> to change the
+  setting.</p>
+
+  <note style="warning">
+    <p>Be very careful if you change this setting. Some laptops can overheat
+    if they are left running with the lid closed, especially if they are in
+    a confined place like a backpack.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>Abra o aplicativo <app>Terminal</app> desde a vista xeral de <gui>Actividades</gui>.</p>
+    </item>
+    <item>
+      <p>Run the following command:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudoedit /etc/systemd/logind.conf</input></screen>
+    </item>
+    <item>
+      <p>You will now see the contents of the file. Look for
+      <code>HandleLidSwitch=</code> in the file. The line may be quoted out
+      with a <code>#</code> at the start and may be followed by an argument. If
+      the line already exists, unquote it. Otherwise, add the line.</p>
+      <code>
+[Login]
+HandleLidSwitch=<input>lock</input>
+      </code>
+      <p>You can use <input>lock</input> for the screen to lock,
+      <input>ignore</input> for nothing to happen, <input>poweroff</input> for
+      the computer to switch off or <input>suspend</input> to suspend. For more
+      information, see <link href="man:logind.conf">logind.conf help</link>.</p>
+    </item>
+    <item>
+      <p>Once you finish editing the file, save your changes and quit the
+      editor.</p>
+    </item>
+    <item>
+      <p>Run the following command to make your change work:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudo systemctl restart systemd-logind.service</input></screen>
+      <p>If you do not run that command, the change will only work after your
+      computer is restarted.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

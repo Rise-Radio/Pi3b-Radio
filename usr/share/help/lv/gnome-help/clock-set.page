@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="clock-set" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="clock"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+
+    <credit type="author">
+      <name>GNOME dokumentācijas projekts</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Klikšķiniet uz pulksteņa augšējā joslā un izvēlieties <gui>Datuma un laika iestatījumi</gui>, lai mainītu datumu/laiku.</desc>
+  </info>
+
+<title>Mainīt datumu un laiku</title>
+
+  <p>Ja datums un laiks, kas attēloti augšējā joslā, ir nepareizi, vai arī ir nepareizā formātā, jūs tos varat mainīt:</p>
+
+  <steps>
+    <item>
+      <p>Spiediet uz pulksteņa augšējās joslas vidū un izvēlieties <gui>Datuma un laika iestatījumi</gui>.</p>
+    </item>
+    <item>
+      <p>Ja jums ir standarta konts, jums būs jāspiež poga <gui>Atslēgt</gui> un jāievada <link xref="user-admin-explain">administratora parole</link>.</p>
+    </item>
+    <item>
+      <p>If you have an internet connection, you can set your date, time and
+      time zone to update automatically by switching <gui>Automatic Date &amp;
+      Time</gui> and <gui>Automatic Time Zone</gui> to <gui>ON</gui>.</p>
+      <p>If you do not have an internet connection, you can update these
+      manually by switching them to <gui>OFF</gui>, then clicking <gui>Date
+      &amp; Time</gui> and <gui>Time Zone</gui> to update.</p>
+    </item>
+    <item>
+      <p>Jūs arī varat iestatīt, kā stunda ir attēlota, izvēloties <gui>24 stundu</gui> vai <gui>AM/PM</gui> formātu.</p>
+    </item>
+  </steps>
+
+</page>

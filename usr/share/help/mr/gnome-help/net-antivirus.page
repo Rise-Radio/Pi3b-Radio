@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="net-antivirus" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="net-security"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>GNOME डॉक्युमेंटेशन प्रकल्प</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>काही Linux वायरसेस आहे, जेणेकरून तुम्हाला अँटि-वायरस सॉफ्टवेअरची कदाचित आवश्यकता पडणार नाही.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>मला अँटि-वायरस सॉफ्टवेअरची पाहिजे?</title>
+
+  <p>Windows किंवा Mac OSचा वापर करत असल्यास, तुम्ही कदाचित पूर्णवेळ अँटि-वायरस सॉफ्टवेअर चालवत असाल. अँटि-वायरस सॉफ्टवेअर पार्श्वभूमीत कार्य करते, सतत संगणकावरील वायरसकरिता तपासणी करतात जे संगणकाकरिता मार्ग सोधतात आणि अडचणी निर्माण करतात.</p>
+
+  <p>Linux करिता अँटि-वायरस सॉफ्टवेअर अस्तित्वात आहे, परंतु तुम्हाला कदाचित वापर करायची आवश्यकता पडणार नाही. Linux ला प्रभावित करणारे वायरस अजूनही दुर्मिळ आहेत. काही मतभेद व्यक्त करतात कि हे Linux चा वापर इतर कार्यप्रणालीतर्फे अतिरीक्त प्रमाणात होत नाही, म्हणून कोणिही त्याकरिता वायरस लिहत नाही. इतरांचे मत असे आहे कि Linux मूळतया अधिक सुरक्षित आहे, आणि वायररसतर्फे वापरले जाणारे सुरक्षासंबंधीत अडचणींचे फार लवकर निवारण केले जाते.</p>
+
+  <p>काहीही कारण असू द्या, Linux वायरसेस एवढ्या दुर्मिळ आहेत कि यावेळी त्याची काळजी करायची आवश्यकता नाही.</p>
+
+  <p>तुम्हाला जास्त-सुरक्षित राहचे असल्यास, किंवा स्वतः तसेच Windows आणि Mac OS अंतर्गत वापर होणाऱ्या फाइल्समधील वायरसकरिता तपासणी करायची असल्यास, तुम्ही अजूनही अँटि-वायरस सॉफ्टवेअर इंस्टॉल करू शकता. सॉफ्टवेअर इंस्टॉलरची तपासणी करा किंवा ऑनलाइन शोधा; अनेक ॲप्लिकेशन्स उपलब्ध आहेत.</p>
+
+</page>

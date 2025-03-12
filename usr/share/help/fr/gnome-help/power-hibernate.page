@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="question" version="1.0 if/1.0" id="power-hibernate" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="power"/>
+
+    <desc>L'hibernation est désactivée par défaut car elle n'est pas bien prise en charge.</desc>
+    <revision pkgversion="3.6.0" date="2012-08-14" status="review"/>
+
+    <credit type="author">
+      <name>Le projet de documentation GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Hibernation de mon ordinateur</title>
+
+<p>Quand vous <em>hibernez</em> l'ordinateur, toutes vos applications et documents sont enregistrés en l'état sur le disque dur et l'ordinateur s'éteint complètement et ne consomme plus d'énergie, mais quand vous le rallumez, vous retrouvez toutes vos applications et documents ouverts en l'état.</p>
+
+<p>Malheureusement, l'hibernation <link xref="power-suspendfail">ne fonctionne pas</link> dans de nombreux cas, ce qui peut vous faire perdre des données si vous vous attendez à ce que vos documents et applications s'ouvrent à nouveau lorsque votre ordinateur se rallume. C'est pourquoi l'hibernation est désactivée par défaut.</p>
+
+<section id="test-hibernate">
+<title>Test du bon fonctionnement de l'hibernation</title>
+
+<note style="important">
+  <title>Enregistrement de votre travail avant une hibernation</title>
+  <p>Enregistrez tout votre travail avant l'hibernation de l'ordinateur pour éviter toute mauvaise surprise au redémarrage.</p>
+</note>
+
+<p>Vous pouvez utiliser la ligne de commande pour vérifier si l'hibernation fonctionne sur votre ordinateur.</p>
+
+<steps>
+  <item>
+    <if:choose>
+      <if:when test="platform:unity">
+        <p>Ouvrez le <app>Terminal</app> en appuyant sur <keyseq><key>Ctrl</key> <key>Alt</key><key>t</key></keyseq> ou en recherchant le <input>terminal</input> dans le <gui>lanceur (dash)</gui>.</p>
+     </if:when>
+     <p>Ouvrez l'application <app>Terminal</app> à partir de la <gui>vue d'ensemble des activités</gui>.</p>
+  </if:choose>
+  </item>
+  <item>
+    <p>Sauvegarder votre travail en cours et, en tant que root, saisissez la commande <cmd>pm-hibernate</cmd> dans le terminal puis appuyez sur <key>Entrée</key>.</p>
+    <p>Saisissez votre mot de passe lorsque vous y êtes invité.</p>
+  </item>
+  <item>
+    <p>Après l'extinction de votre ordinateur, rallumez-le. Est-ce que vos applications sont ouvertes à nouveau ?</p>
+    <p>Si l'hibernation ne fonctionne pas, vérifiez si votre partition swap est au moins aussi grande que la RAM disponible.</p>
+  </item>
+</steps>
+
+</section>
+
+<section id="enable-hibernate">
+<title>Autorisation de l'hibernation</title>
+
+  <p>Si le test d'hibernation fonctionne, vous pouvez continuer à utiliser la commande <cmd>pm-hibernate</cmd> quand vous voulez hiberner.</p>
+
+  <p>Vous pouvez aussi installer l'extension <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/"><app>Bouton de statut d'hibernation</app></link> à partir du <link href="https://extensions.gnome.org">site Web Extensions GNOME</link>.</p>
+
+  <steps>
+    <item>
+      <p>Basculez le <app>Bouton de statut d'hibernation</app> sur <gui style="button">Activé</gui> sur la <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/">page de l'extension</link> en appuyant sur le bouton d'état situé en haut à gauche.</p>
+    </item>
+    <item>
+      <p>Il vous est demandé de confirmer que vous souhaitez installer l'extension. Appuyez sur <gui style="button">Installer</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Le bouton est maintenant ajouté au menu système en haut à droite dans la barre supérieure et peut être manœuvré pour mettre votre ordinateur en hibernation.</p>
+
+  <note style="tip">
+    <p>Appuyez sur <key>Alt</key> en même temps que vous manœuvrez le bouton pour utiliser la fonction <em>hybride</em>. Cette méthode hybride combine les modes hibernation et veille. Cela signifie que votre ordinateur reste sous tension, et que le moindre appui sur une touche le réveille et le fait revenir au même état qu'avant la manœuvre hybride.</p>
+  </note>
+
+</section>
+
+</page>

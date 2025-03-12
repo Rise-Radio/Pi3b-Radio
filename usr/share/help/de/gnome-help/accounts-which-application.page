@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc>Anwendungen können die in <app>Online-Konten</app> erstellten Konten und deren angebotene Dienste nutzen.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Welche Anwendungen machen von Online-Konten Gebrauch?</title>
+
+  <p><app>Online-Konten</app> können von externen Anwendungen für deren automatische Konfiguration verwendet werden.</p>
+
+<section id="accounts-google-services">
+  <title>Mit einem Google-Konto</title>
+
+  <list>
+    <item>
+      <p>In der E-Mail-Anwendung <app>Evolution</app> wird Ihr E-Mail-Konto automatisch hinzugefügt, so dass Ihre E-Mail-Nachrichten abgerufen werden, Ihre Kontakte verfügbar werden und der Kalender die Einträge des Google-Kalenders anzeigt.</p>
+    </item>
+    <item>
+      <p>Die Sofortnachrichten-Anwendung <app>Empathy</app>. Ihr Online-Konto wird automatisch hinzugefügt, so dass Sie mit Ihren Freunden kommunizieren können.</p>
+    </item>
+    <item>
+      <p>In <app>Kontakte</app> sehen Sie Ihre Kontakte und können sie bearbeiten.</p>
+    </item>
+    <item>
+      <p>In <app>Dokumente</app> können Sie auf Ihre Online-Dokumente zugreifen und diese anzeigen.</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>Mit Windows-Live-, Facebook- oder Twitter-Konten</title>
+
+  <p><app>Empathy</app> kann diese Konten nutzen, um Sie online zu halten und Sofortnachrichtenverbindungen mit Ihren Kontakten und Freunden herzustellen.</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>With a OneDrive account</title>
+
+  <p><app>Documents</app> can access your online documents in Microsoft
+  OneDrive and display them.</p>
+</section>
+
+<section id="account-exchange">
+  <title>Mit einem Exchange-Konto</title>
+
+  <p>Sobald Sie ein Exchange-Konto erstellt haben, wird <app>Evolution</app> beginnen Ihre E-Mails von diesem Konto zu empfangen.</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>Mit einem ownCloud-Konto</title>
+
+  <p>Wenn ein ownCloud-Konto eingerichtet ist, kann <app>Evolution</app> auf Kontakte und Termine zugreifen und editieren.</p>
+
+  <p><app>Dateien</app> und andere Anwendungen werden Ihre Online-Dateien in der »ownCloud«-Installation auflisten und darauf zugreifen können.</p>
+</section>
+
+</page>

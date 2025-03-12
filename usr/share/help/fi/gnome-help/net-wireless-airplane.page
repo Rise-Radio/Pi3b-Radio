@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wireless-airplane" xml:lang="fi">
+
+  <info>
+    <link type="guide" xref="net-wireless"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+    <revision pkgversion="3.10" date="2013-11-10" status="review"/>
+
+    <credit type="author">
+      <name>Gnomen dokumentointiprojekti</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <desc>Open Network Settings and switch Airplane Mode to ON.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Timo Jyrinki</mal:name>
+      <mal:email>timo.jyrinki@iki.fi</mal:email>
+      <mal:years>2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jiri Grönroos</mal:name>
+      <mal:email>jiri.gronroos+l10n@iki.fi</mal:email>
+      <mal:years>2012, 2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Katkaise langaton yhteys (lentokonetila)</title>
+
+<p>Kun käytät tietokonetta lentokoneessa (tai jollain muulla alueella, jossa langattomien yhteyksien käyttäminen ei ole sallittua), sinun tulisi sammuttaa kaikki langattomat laitteesi, mukaan lukien tietokoneesi langaton verkkokortti. Langattoman yhteyden katkaiseminen säästää myös virtaa, joten jos et tarvitse Internet-yhteyttä (tai sitä ei ole saatavilla) se kannattaa etenkin akkukäytössä kytkeä pois päältä.</p>
+
+<steps>
+ <item><p>Click the system status area on the top bar and select
+  <gui>Wi-Fi</gui>.</p>
+ </item>
+ <item><p>Select <gui>Wi-Fi Settings</gui>.</p>
+ </item>
+ <item>
+  <p>Switch <gui>Airplane Mode</gui> to <gui>ON</gui>. This will turn off your
+ wireless connection until you switch airplane mode off again.</p>
+ </item>
+</steps>
+
+<note><p>Using <em>Airplane Mode</em> will completely turn off both wireless
+ and Bluetooth connections.</p></note>
+
+</page>

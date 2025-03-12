@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wired-connect" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Proxecto de documentación de GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Para configurar a maioría das conexións a redes con fíos, todo o que precisa é conectar un cabo de rede.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Conectar a unha rede cableada (Ethernet)</title>
+
+  <p>Para configurar a maioría das conexións a redes cableadas, todo o que precisa é conectar un cabo de rede. A icona de rede na barra superior dará voltas ou parpadeará durante varios segundos e despois cambiará á icona dun «zócalo» cando estea conectado.</p>
+
+  <p>Se isto non se produce, primeiro debería asegurarse de que o seu cable de rede está conectado. Un final do cable debe estar conectado no porto rectangular de Ethernet (rede) no seu computador, e o outro extremo debería estar conectado nun «switch», enrutador, porto de rede na parede ou algo similar (dependendo na configuración de rede que teña). A veces, unha luz embaixo do porto Ethernet indica que está conectado e activo.</p>
+
+  <note>
+    <p>Non pode conectar directamente dous computadores con un cabo de rede (cando menos, non sen certa configuración adicional). Para conectar dous computadores, deberá enchufar ambos a un concentrador, enrutador ou conmutador.</p>
+  </note>
+
+  <p>Se aínda non está conectado, pode que a súa rede non admita a configuración automática (DHCP). Neste caso que terá que <link xref="net-manual">configurala manualmente</link>.</p>
+
+</page>

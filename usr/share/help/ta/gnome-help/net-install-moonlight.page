@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>ஃபில் புல்</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>சில வலைத்தளங்கள் வலைப் பக்கங்களை காட்ட Silverlight ஐப் பயன்படுத்துகின்றன. நீங்கள் இந்த பக்கங்களைக் காண Moonlight செருகுநிரலைப் பயன்படுத்தலாம்.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Silverlight செருகுநிரலை நிறுவுதல்</title>
+
+  <p><app>Silverlight</app> என்பது உங்கள் வலை உலாவிக்கான ஒரு <em>செருகுநிரல்</em> ஆகும், இது வீடியோக்களை பார்க்கவும் சில வலைத்தளங்களின் ஊடாடும் வலைப் பக்கங்கள் பயன்படுத்தவும் அனுமதிக்கும். சில வலைத்தளங்கள் Silverlight இல்லாமல் வேலை செய்யாது.</p>
+
+  <p>நீங்கள் ஒரு Silverlight செயல்படுத்தப்பட்ட வலைத்தளத்தைப் பார்த்து, ஆனால் அந்த செருகுநிரல் உங்கள் கணினியில் நிறுவப்படவில்லை என  அறிந்தால், அதைக் கூறும் ஒரு செய்தியை பார்ப்பீர்கள். இந்த செய்தியில், எப்படி செருகுநிரலைப் பெற வேண்டும் எனும் வழிமுறைகளும் இருக்கலாம், ஆனால் இந்த வழிமுறைகள் உங்கள் வலை உலாவி அல்லது Linux பதிப்புக்கு பொருத்தமானதாக இல்லாமல் இருக்கலாம்.</p>
+
+  <p>நீங்கள் Silverlight செயல்படுத்தப்பட்ட வலைத்தளங்களைக் காண வேண்டும் என்றால், அதற்கு பதிலாக நீங்கள் <em>Moonlight</em> செருகுநிரலை நிறுவ வேண்டும். இது சில்வர்லைட் இன், Linux இல் இயங்கும் ஒரு இலவச திற மூல பதிப்பு.</p>
+
+  <p>சில Linux விநியோகங்களில் அவற்றின் மென்பொருள் நிறுவியைப் பயன்படுத்தி நிறுவக்கூடிய Moonlight நகல் இருக்கும்; நிறுவியைத் திறந்து <input>Silverlight</input> அல்லது <input>Moonlight</input> என தேடவும்.</p>
+
+  <p>உங்கள் விநியோகத்தில் Moonlight தொகுப்பு மென்பொருள் தொகுப்பு இல்லை என்றால், மேலும் தகவல் மற்றும் நிறுவல் வழிமுறைகளைப் பெற <link href="http://www.go-mono.com/moonlight/">Moonlight வலைத்தளத்தைப்</link> பார்க்கவும்.</p>
+
+</page>

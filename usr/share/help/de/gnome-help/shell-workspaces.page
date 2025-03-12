@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="ui" version="1.0 if/1.0" id="shell-workspaces" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="shell-windows#working-with-workspaces" group="#first"/>
+
+    <revision pkgversion="3.8.0" date="2013-04-23" status="review"/>
+    <revision pkgversion="3.10.3" date="2014-01-26" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>GNOME-Dokumentationsprojekt</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Arbeitsflächen sind eine Möglichkeit zum Gruppieren von Fenstern in Ihrer Arbeitsumgebung.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Was ist eine Arbeitsfläche, und was habe ich davon?</title>
+
+    <media type="image" src="figures/shell-workspaces.png" width="162" height="434" style="floatend floatright">
+        <p>Arbeitsflächenumschalter</p>
+    </media>
+
+  <p if:test="!platform:gnome-classic">Workspaces refer to the grouping of
+  windows on your desktop. You can create multiple workspaces, which act like
+  virtual desktops. Workspaces are meant to reduce clutter and make the desktop
+  easier to navigate.</p>
+
+  <p if:test="platform:gnome-classic">Workspaces refer to the grouping of
+  windows on your desktop. You can use multiple workspaces, which act like
+  virtual desktops. Workspaces are meant to reduce clutter and make the desktop
+  easier to navigate.</p>
+
+  <p>Sie können Arbeitsflächen dazu verwenden, um Ihre Arbeit besser zu organisieren. Beispielsweise könnten alle Fenster von Kommunikationsanwendungen, wie E-Mail- und Sofortnachrichten, auf einer Arbeitsfläche liegen und alle sonstigen Anwendungen auf einer anderen Arbeitsfläche. Ihre Musikverwaltung könnte dann eine weitere Arbeitsfläche belegen.</p>
+
+<p>Arbeiten mit Arbeitsflächen:</p>
+
+<list>
+  <item>
+    <p if:test="!platform:gnome-classic">In the
+    <gui xref="shell-terminology">&gt;Activities</gui> overview, move your cursor
+    to the right-most side of the screen.</p>
+    <p if:test="platform:gnome-classic">Press the
+    <key xref="keyboard-key-super">Super</key> key to open the
+    <gui>Activities</gui> overview and then move your cursor to the right-most
+    side of the screen.</p>
+  </item>
+  <item>
+    <p if:test="!platform:gnome-classic">A vertical panel will appear showing
+    workspaces in use, plus an empty workspace. This is the
+    <link xref="shell-terminology">workspace selector</link>.</p>
+    <p if:test="platform:gnome-classic">A vertical panel will appear showing
+    available workspaces. This is the <link xref="shell-terminology">workspace
+    selector</link>.</p>
+  </item>
+  <item if:test="!platform:gnome-classic">
+    <p>To add a workspace, drag and drop a window from an existing workspace
+    onto the empty workspace in the <link xref="shell-terminology">workspace
+    selector</link>. This workspace now contains the window you have dropped,
+    and a new empty workspace will appear below it.</p>
+  </item>
+  <item if:test="!platform:gnome-classic">
+    <p>Um eine Arbeitsfläche zu entfernen, schließen Sie einfach alle darin befindlichen Fenster, oder verschieben Sie die Fenster in eine andere Arbeitsfläche.</p>
+  </item>
+</list>
+
+<p if:test="!platform:gnome-classic">Es ist immer mindestens eine Arbeitsfläche vorhanden.</p>
+
+</page>

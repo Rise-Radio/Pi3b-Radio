@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="power-lowpower" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="power#battery"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <desc>完全に放電させてしまうのはバッテリーによくありません。</desc>
+    <credit type="author">
+      <name>GNOME ドキュメンテーションプロジェクト</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>松澤 二郎</mal:name>
+      <mal:email>jmatsuzawa@gnome.org</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>赤星 柔充</mal:name>
+      <mal:email>yasumichi@vinelinux.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kentaro KAZUHAMA</mal:name>
+      <mal:email>kazken3@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shushi Kurose</mal:name>
+      <mal:email>md81bird@hitaki.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Noriko Mizumoto</mal:name>
+      <mal:email>noriko@fedoraproject.org</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>坂本 貴史</mal:name>
+      <mal:email>o-takashi@sakamocchi.jp</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>日本GNOMEユーザー会</mal:name>
+      <mal:email>http://www.gnome.gr.jp/</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>バッテリー残量が 10% になったらコンピューターが電源オフまたはハイバネートしました。なぜですか?</title>
+
+<p>バッテリー残量が低くなりすぎると、コンピューターは自動的に<link xref="power-hibernate">ハイバネート</link>します。完全放電してしまうとバッテリーに悪影響を与えるため、バッテリーが完全放電する前にハイバネートします。 バッテリーが切れると正常なシャットダウンを行う時間がなくなってしまうためです。</p>
+
+<p>You can change what happens when the battery level gets too low by opening
+<app>Power</app> from the <gui xref="shell-terminology">Activities</gui>
+overview. Look at the <gui>When battery power is critical</gui> setting. You
+can choose for the computer to hibernate or shut down. If you choose shut down,
+your applications and documents <em>will not</em> be saved before the computer
+turns off.</p>
+
+<p>一部のコンピューターでは、ハイバネートが正常に動作せず、コンピューターをオンにし直したときに以前開いていたアプリケーションやドキュメントを復元できない可能性があります。その場合、ハイバネートする前に保存していなかった作業の一部が失われてしまうおそれがあります。<link xref="power-suspendfail">ハイバネートに関する問題は修正できる</link>場合もあります。</p>
+
+</page>

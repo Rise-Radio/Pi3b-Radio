@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="task" version="1.0 if/1.0" id="shell-apps-favorites" xml:lang="ta">
+
+  <info>
+    <link type="seealso" xref="shell-apps-open"/>
+    <link type="guide" xref="shell-overview#apps"/>
+
+    <revision pkgversion="3.6.0" date="2012-10-14" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>GNOME ஆவணமாக்கத் திட்டப்பணி</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>மைக்கேல் ஹில்</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>ஜனா ஸ்வரோவா</name>
+      <email>jana.svarova@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>அடிக்கடி பயன்படுத்தும் பயன்பாட்டை டேஷில் சேர்த்தல் (அல்லது நீக்குதல்).</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>உங்களுக்கு பிடித்த பயன்பாடுகளை டேஷில் இணைத்தல்</title>
+
+  <p>ஒரு பயன்பாட்டை எளிதாக அணுகுவதற்காக, <link xref="shell-terminology">டேஷில்</link> பொருத்த:</p>
+
+  <steps>
+    <item>
+      <p if:test="!platform:gnome-classic">திரையின் மேல் இடது மூலையில் உள்ள <gui>செயல்பாடுகள்</gui> ஐ சொடுக்கி <link xref="shell-terminology"><gui>செயல்பாடுகள் மேலோட்டம்</gui></link> ஐ திறக்கவும்</p>
+      <p if:test="platform:gnome-classic">திரையின் மேல் இடது புறம் உள்ள <link xref="shell-terminology"><gui>பயன்பாடுகள்</gui> மெனு</link> ஐ சொடுக்கி, மெனுவிலிருந்து <gui>செயல்பாடுகள் மேலோட்டம்</gui> ஐ தேர்வு செய்யவும்.</p></item>
+    <item>
+      <p>டேஷில் உள்ள கிரிட் பொத்தானை சொடுக்கி நீங்கள் சேர்க்க விரும்பும் பயன்பாட்டைக் கண்டறியவும்.</p>
+    </item>
+    <item>
+      <p>பயன்பாடு சின்னத்தை வலது சொடுக்கி <gui>பிடித்தவையில் சேர்</gui> ஐ தேர்ந்தெடுக்கவும்.</p>
+      <p>மாறாக, நீங்கள் சின்னத்தை சொடுக்கி இழுத்து வந்து டேஷில் சேர்க்கலாம்.</p>
+    </item>
+  </steps>
+
+  <p>ஒரு பயன்பாடு சின்னத்தை டேஷில் இருந்து நீக்க, பயன்பாட்டு சின்னத்தை வலது சொடுக்கி <gui>பிடித்தவையில் இருந்து நீக்கு</gui> ஐ தேர்ந்தெடுக்கவும்.</p>
+
+  <note style="tip" if:test="platform:gnome-classic"><p>பிடித்தமான பயன்பாடுகள் <gui>பிடித்தவை</gui> <link xref="shell-terminology"><gui>பயன்பாடுகள்</gui> மெனுவின்</link> <gui>பிடித்தவை</gui> பிரிவிலும் இடம்பெறும்.</p>
+  </note>
+
+</page>

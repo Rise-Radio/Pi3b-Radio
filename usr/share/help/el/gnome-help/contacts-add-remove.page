@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="contacts-add-remove" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="contacts"/>
+    <revision pkgversion="3.5.5" date="2012-08-13" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-27" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-26" status="review"/>
+
+    <credit type="author">
+      <name>Lucie Hankey</name>
+      <email its:translate="no">ldhankey@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Προσθήκη ή αφαίρεση μιας επαφής από το τοπικό βιβλίο διευθύνσεων.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Προσθήκη ή αφαίρεση μιας επαφής</title>
+
+  <p>Για να προσθέσετε μια επαφή:</p>
+
+  <steps>
+    <item>
+      <p>Πατήστε το πλήκτρο <gui style="button">+</gui>.</p>
+    </item>
+    <item>
+      <p>Στον διάλογο <gui>Νέα επαφή</gui>, εισάγετε το όνομα επαφής και τις πληροφορίες του. Πατήστε στο πτυσσόμενο πλαίσιο δίπλα σε κάθε πεδίο για να επιλέξετε τον τύπο της λεπτομέρειας.</p>
+    </item>
+    <item>
+      <p>Πατήστε <gui style="button">Δημιουργία επαφής</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Για να αφαιρέσετε μια επαφή:</p>
+
+  <steps>
+    <item>
+      <p>Επιλέξτε την επαφή από τη λίστα επαφών.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui style="button">Επεξεργασία</gui> στην πάνω δεξιά γωνία του <app>Επαφές</app>.</p>
+    </item>
+    <item>
+      <p>Πατήστε <gui style="button">Διαγραφή επαφής</gui>.</p>
+    </item>
+  </steps>
+
+</page>

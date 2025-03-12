@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="power-lowpower" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="power#battery"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <desc>Omogočitev popolne izpraznitve baterije je zanjo slaba.</desc>
+    <credit type="author">
+      <name>Dokumentacijski projekt GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Zakaj se je moj računalnik izklopil/je prešel v stanje pripravljenosti/mirovanje, ko je vrednost baterije dosegla 10%?</title>
+
+<p>Ko se raven polnosti baterije preveč zniža, bo vaš računalnik samodejno prešel v <link xref="power-hibernate">mirovanje</link>. To povzroči, da se baterija ne izprazni popolnoma, saj je to slabo za baterijo. Poleg tega v primeru da bi baterije nenadoma zmanjkalo, računalnik ne bi imel časa za pravilen izklop.</p>
+
+<p>You can change what happens when the battery level gets too low by opening
+<app>Power</app> from the <gui xref="shell-terminology">Activities</gui>
+overview. Look at the <gui>When battery power is critical</gui> setting. You
+can choose for the computer to hibernate or shut down. If you choose shut down,
+your applications and documents <em>will not</em> be saved before the computer
+turns off.</p>
+
+<p>Nekateri računalniki imajo s prehodom v mirovanje težave in morda ob ponovnem vklopu računalnika ne bodo mogli obnoviti odprtih programov in dokumentov. V tem primeru lahko izgubite nekaj svojega dela, če ga ob prehodu v mirovanje niste shranili. Morda boste lahko <link xref="power-suspendfail">težave z mirovanjem popravili</link>.</p>
+
+</page>

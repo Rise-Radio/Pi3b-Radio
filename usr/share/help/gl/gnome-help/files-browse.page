@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="files-browse" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="files" group="#first"/>
+    <link type="seealso" xref="files-copy"/>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-16" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Xestione e organice ficheiros co xestor de ficheiros.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Explorar ficheiros e cartafoles</title>
+
+<p>Use o aplicativo <app>Ficheiros</app> para navegar polos ficheiros do seu cartafol persoal, en dispositivos externos, en <link xref="nautilus-connect">servidores de ficheiros</link> e no sistema de ficheiros do seu computador.</p>
+
+<p>To start the file manager, open <app>Files</app> in the
+<gui xref="shell-terminology">Activities</gui> overview. You can also search
+for files and folders through the overview in the same way you would
+<link xref="shell-apps-open">search for applications</link>.
+</p>
+
+<section id="files-view-folder-contents">
+  <title>Explorar o contido dos carafoles</title>
+
+<p>No xestor de ficheiros, prema dúas veces sobre calquera cartafol para ver os seus contidos e prema dúas veces sobre calquera ficheiro para abrilo co aplicativo predeterminado para dito ficheiro. Tamén pode premer co botón dereito sobre el para abrilo nunha nova lapela ou nunha nova xanela.</p>
+
+<p>Ao examinar os ficheiros nun cartafol pode <link xref="files-preview">previsualizar rapidamente cada ficheiro</link> rapidamente premendo a barra espaciadora para asegurarse de que ten o ficheiro correcto antes de abrilo, copialo ou eliminalo.</p>
+
+<p>A barra de ruta sobre a lista de ficheiros e cartafoles móstralle o cartafol que está vendo, incluíndo os cartafoles superiores até o seu cartafol persoal, a raíz do dispositivo extraíbel ou a raíz do seu sistema de ficheiros. Prema no cartafol superior na barra de ruta para ir a dito cartafol. Prema co botón dereito sobre a barra de ruta para abrilo nunha lapela ou xanela nova, copialo ou movelo ou acceder ás súas propiedades.</p>
+
+<p>If you want to quickly <link xref="files-search">search for a file</link>,
+in or below the folder you are viewing, start typing its name. A <em>search
+bar</em> will appear at the top of the window and only files which match your
+search will be shown. Press <key>Esc</key> to cancel the search.</p>
+
+<p>You can quickly access common places from the <em>sidebar</em>. If you do
+not see the sidebar, click the
+<gui><media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media></gui>
+button in the toolbar and pick <gui>Show Sidebar</gui>. You can add bookmarks
+to folders that you use often and they will appear in the sidebar. Click
+<gui>Files</gui> in the top bar and then <gui style="menuitem">Bookmarks</gui>
+to do this, or simply drag a folder into the sidebar.</p>
+
+</section>
+
+</page>

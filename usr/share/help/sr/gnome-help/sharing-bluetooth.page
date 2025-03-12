@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="sharing-bluetooth" xml:lang="sr">
+
+  <info>
+    <link type="guide" xref="bluetooth"/>
+    <link type="guide" xref="sharing"/>
+    <link type="guide" xref="prefs-sharing"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-13" status="draft"/>
+    <revision pkgversion="3.10" date="2013-11-09" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-08" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-13" status="candidate"/>
+
+    <credit type="author">
+      <name>Мајкл Хил</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2014</years>
+    </credit>
+    <credit type="author">
+      <name>Дејвид Кинг</name>
+      <email its:translate="no">davidk@gnome.org</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Омогућите утовар датотека на ваш рачунар путем блутута.</desc>
+  </info>
+
+  <title>Управљајте дељењем преко блутута</title>
+
+  <p>Можете да подесите <gui>Дељење блутута</gui> да управљате приступом фасцикли <file>Преузимања</file> за дељење датотека блутутом, и такође да ограничите тај приступ само <em>поверљивим уређајима</em>. Поверљиви уређаји су они које сте раније <link xref="bluetooth-connect-device">упарили</link> са вашим рачунаром.</p>
+
+  <note style="info package">
+    <p>Морате имати инсталран пакет <app>Гномово корисничко дељење</app> да би <gui>Дељење блутутом</gui> било видљиво.</p>
+
+    <if:choose xmlns:if="http://projectmallard.org/if/1.0/">
+      <if:when test="action:install">
+        <p><link action="install:gnome-user-share" style="button">Инсталирајте Гномово корисничко дељење</link></p>
+      </if:when>
+    </if:choose>
+  </note>
+
+  <steps>
+    <title>Дозволите дељење датотека у вашој фасцикли <file>Преузимања</file></title>
+    <item>
+      <p>Отворите преглед <gui xref="shell-terminology">Активности</gui> и почните да куцате <gui>Дељење</gui>.</p>
+    </item>
+    <item>
+      <p>Кликните на <gui>Дељење</gui> да отворите панел.</p>
+    </item>
+    <item>
+      <p>Ако је <gui>Дељење</gui> <gui>ИСКЉ.</gui>, пребаците га на <gui>УКЉ.</gui>.</p>
+    </item>
+    <item>
+      <p>Изаберите <gui>Дељење блутутом</gui>.</p>
+    </item>
+    <item>
+      <p>Пребаците <gui>Сачувај примљене датотеке у фасцикли преузимања</gui> на <gui>УКЉ.</gui>.</p>
+    </item>
+    <item>
+      <p>Ако желите да дозволите само поверљивим уређајима да приступе вашој фасцикли <file>Преузимања</file>, пребаците <gui>Само примај са поверљивих уређаја</gui> на <gui>УКЉ.</gui>.</p>
+
+      <note style="tip">
+        <p>Ова могућност је унапред искључена. Треба да је укључите ако желите да спречите приступ вашим дељеним фасциклама било коме у близини са укљученим блутутом на мобилном телефону.</p>
+      </note>
+
+    </item>
+    <item>
+      <p>Притисните <gui style="button">Затвори</gui>. Уређаји са укљученим блутутом ће сада моћи да шаљу датотеке у вашу фасциклу <file>Преузимања</file>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Можете да <link xref="sharing-displayname">измените</link> назив под којим се ваш рачунар приказује другим уређајима.</p>
+  </note>
+
+  <p><app>Датотеке</app> вам омогућава да покренете панел <gui>Дељење</gui> непосредно кликом на дугме <gui>Поставке</gui> када посетите фасциклу <file>Преузимања</file>.</p>
+
+</page>

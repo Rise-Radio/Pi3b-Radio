@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="power-lowpower" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="power#battery"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <desc>Επιτρέποντας στην μπαταρία την πλήρη αποφόρτιση είναι κακό για τον υπολογιστή.</desc>
+    <credit type="author">
+      <name>Έργο Τεκμηρίωσης GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Γιατί ο υπολογιστής μου απενεργοποιήθηκε/αδρανοποιήθηκε όταν η μπαταρία έφτασε στο 10%;</title>
+
+<p>Όταν η στάθμη φόρτισης της μπαταρίας χαμηλώνει υπερβολικά, ο υπολογιστής σας θα <link xref="power-hibernate">αδρανοποιηθεί</link> αυτόματα. Το κάνει για να εξασφαλίσει ότι η μπαταρία δεν θα αποφορτιστεί πλήρως, αφού αυτό είναι κακό για την μπαταρία. Εάν η μπαταρία άδειαζε, ο υπολογιστής δεν θα είχε τον χρόνο να τερματιστεί σωστά.</p>
+
+<p>You can change what happens when the battery level gets too low by opening
+<app>Power</app> from the <gui xref="shell-terminology">Activities</gui>
+overview. Look at the <gui>When battery power is critical</gui> setting. You
+can choose for the computer to hibernate or shut down. If you choose shut down,
+your applications and documents <em>will not</em> be saved before the computer
+turns off.</p>
+
+<p>Μερικοί υπολογιστές έχουν προβλήματα με την αδρανοποίηση και ενδέχεται να μην μπορούν να ανακτήσουν τις εφαρμογές και τα έγγραφα που είχατε ανοίξει όταν επανεργοποιήσετε τον υπολογιστή σας. Σε αυτήν την περίπτωση, είναι ενδεχόμενο ότι μπορείτε να χάσετε μερική από την εργασία σας, εάν δεν την αποθηκεύσατε πριν την αδρανοποίηση του υπολογιστή. Ίσως μπορέσετε να <link xref="power-suspendfail">διορθώσετε προβλήματα με την αδρανοποίηση</link> όμως.</p>
+
+</page>

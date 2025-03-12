@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="user-admin-change" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="user-accounts#privileges"/>
+    <link type="seealso" xref="user-admin-explain"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Έργο Τεκμηρίωσης GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Μπορείτε να αλλάξετε τους χρήστες που επιτρέπεται να κάνουν αλλαγές στο σύστημα δίνοντας τους διαχειριστικά δικαιώματα.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Αλλαγή των διαχειριστικών δικαιωμάτων</title>
+
+  <p>Administrative privileges are a way of deciding who can make changes to
+  important parts of the system. You can change which users have administrative
+  privileges and which ones do not. They are a good way of keeping your system
+  secure and preventing potentially damaging unauthorized changes.</p>
+
+  <p>Χρειάζεστε <link xref="user-admin-explain">δικαιώματα διαχειριστή</link> για να αλλάξετε τους τύπους λογαριασμών.</p>
+
+  <steps>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Χρήστες</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui>Χρήστες</gui> για να ανοίξετε το φάτνωμα.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui style="button">Ξεκλείδωμα</gui> στην πάνω δεξιά γωνία και πληκτρολογήστε τον κωδικό πρόσβασής σας όταν σας ζητηθεί.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε τον χρήστη του οποίου θέλετε να αλλάξετε τα δικαιώματα.</p>
+    </item>
+    <item>
+      <p>Πατήστε την ετικέτα <gui>τυπικά</gui> δίπλα στο <gui>τύπος λογαριασμού</gui> και επιλέξτε <gui>διαχειριστής</gui>.</p>
+    </item>
+    <item>
+      <p>Τα δικαιώματα του χρήστη θα αλλαχθούν όταν ξανασυνδεθεί.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>Ο πρώτος λογαριασμός χρήστη στο σύστημα είναι συνήθως αυτός που έχει δικαιώματα διαχειριστή. Αυτός είναι ο λογαριασμός χρήστη που δημιουργήθηκε όταν πρωτοεγκαταστήσατε το σύστημα.</p>
+    <p>Δεν είναι σωστό να έχετε πολλούς χρήστες με δικαιώματα <gui>διαχειριστή</gui> σε ένα σύστημα.</p>
+  </note>
+
+</page>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="question" version="1.0 if/1.0" id="power-hibernate" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="power"/>
+
+    <desc>હાઇબરનેટ મૂળભૂત રીતે નિષ્ક્રિય થયેલ છે જ્યાં સુધી તે આધારભૂત ન હોય.</desc>
+    <revision pkgversion="3.6.0" date="2012-08-14" status="review"/>
+
+    <credit type="author">
+      <name>GNOME દસ્તાવેજીકરણ પ્રોજેક્ટ</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>ઍકાટેરીના ગેરાસીમોવા</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>જેરેમી બીચા</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>કેવી રીતે મારાં કમ્પ્યૂટરને હાઇબરનેટ કરવું?</title>
+
+<p>જ્યારે કમ્પ્યૂટર <em>હાઇબરનેટ</em> માં હોય તો, બધા તમારાં કાર્યક્રમો અને દસ્તાવેજો સંગ્રહેલ છે અને કમ્પ્યૂટર સંપૂર્ણપણે બંધ થાય છે તેથી તે કોઇપણ પાવરને વાપરતુ નથી, પરંતુ કાર્યક્રમો અને દસ્તાવેજો હજુ ખુલ્લા છે જ્યારે તમે ફરી કમ્પ્યૂટરને ચાલુ કરો.</p>
+
+<p>કમનસીબે, હાઇબરનેટ એ ઘણી સ્થિતિમાં <link xref="power-suspendfail">કામ કરતુ નથી</link>, કે જેને કારણે તમે માહિતીને ગુમાવી શકો છો જો તમે ફરી ખોલવા માટે તમારાં દસ્તાવેજો અને કાર્યક્રમોની ઇચ્છા રાખો છો જ્યારે તમે તમારાં કમ્પ્યૂટરને પાછુ ચાલુ કરો. માટે, હાઇબરનેટ મૂળભૂત દ્દારા નિષ્ક્રિય થયેલ છે.</p>
+
+<section id="test-hibernate">
+<title>ચકાસો જો હાઇબરનેટ કામ કરે તો</title>
+
+<note style="important">
+  <title>હાઇબરનેટીંગ કરતા પહેલાં તમારા કામને સંગ્રહો</title>
+  <p>તમે કમ્પ્યૂટરને હાઇબરનેટ કરતા પહેલાં તમારાં બધા કામને સંગ્રહવા જોઇએ, આ સ્થિતિમાં કંઇક ખોટુ થાય અને તમારી ખુલ્લાં કાર્યક્રમો અને દસ્તાવેજોને પ્રાપ્ત કરી શકાતા નથી જ્યારે તમે ફરી કમ્પ્યૂટરને ચાલુ કરો.</p>
+</note>
+
+<p>ચકાસવા માટે તમે આદેશ વાક્યને વાપરી શકો છો જો હાઇબરનેટ તમારાં કમ્પ્યૂટર પર કામ કરે તો.</p>
+
+<steps>
+  <item>
+    <if:choose>
+      <if:when test="platform:unity">
+        <p><gui>ડૅશ</gui> માં <input>ટર્મિનલ</input> માટે શોધીને અથવા <keyseq><key>Ctrl</key> <key>Alt</key><key>t</key></keyseq> દબાવીને <app>ટર્મિનલ</app> ને ખોલો.</p>
+     </if:when>
+     <p><gui>પ્રવૃત્તિ ઝાંખી</gui> માં <input>ટર્મિનલ</input> માટે શોધીને <app>ટર્મિનલ</app> ને ખોલો.</p>
+  </if:choose>
+  </item>
+  <item>
+    <p>રુટ તરીકે, ટર્મિનલમાં <cmd>pm-hibernate</cmd> ને ટાઇપ કરો અને <key>Enter</key> દબાવો.</p>
+    <p>તમારાં પાસવર્ડને દાખલ કરો જ્યારે પૂછે ત્યારે.</p>
+  </item>
+  <item>
+    <p>તમારું કમ્પ્યૂટર બંધ થાય પછી, તેને પાછુ ચાલુ કરો. શું તમારાં કાર્યક્રમો ખોલેલ હતા?</p>
+    <p>જો હાઇબરનેટ કામ કરતુ ન હોય તો, ચકાસો જો તમારું સ્વેપ પાર્ટીશન એ ઓછામાં ઓછુ જેટલી વધારે ઉપલબ્ધ તમારી RAM હોય તો.</p>
+  </item>
+</steps>
+
+</section>
+
+<section id="enable-hibernate">
+<title>હાઇબરનેટ સક્રિય કરો</title>
+
+  <p>જો હાઇબરનેટ ચકાસણી કામ કરે તો, તમે <cmd>pm-hibernate</cmd> આદેશને વાપરવા માટે ચાલુ કરી શકો છો જ્યારે તમે હાઇબરનેટ કરવા માંગો તો.</p>
+
+  <p>You could also install the
+  <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/">
+  <app>Hibernate Status Button</app></link> extension from the
+  <link href="https://extensions.gnome.org">GNOME Extensions website</link>:</p>
+
+  <steps>
+    <item>
+      <p>Switch <gui style="button">ON</gui> the
+      <app>Hibernate Status Button</app> on
+      <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/">
+      its extension page</link> by pressing the status button at the top
+      left.</p>
+    </item>
+    <item>
+      <p>You will be asked to confirm that you want to install the extension.
+      Press <gui style="button">Install</gui>.</p>
+    </item>
+  </steps>
+
+  <p>The button will now be added to the system menu on the right side of the
+  top bar and can be pressed to hibernate your computer.</p>
+
+  <note style="tip">
+    <p>You can also hold down <key>Alt</key> while pressing the
+    <em>hibernate</em> button to use the <em>hybrid-sleep</em> feature. The
+    hybrid-sleep mode is a mix of the hibernate and sleep modes. This means
+    that your computer remains powered on, so you can wake it up by pressing a
+    key on the keyboard and all your open applications and documents are saved
+    in the same state as before pressing the hybrid-sleep button.</p>
+  </note>
+
+</section>
+
+</page>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="net-antivirus" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="net-security"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Έργο Τεκμηρίωσης GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Υπάρχουν λίγοι ιοί στο Λίνουξ, έτσι προφανώς δεν χρειαζόσαστε αντιικό λογισμικό.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Χρειάζομαι αντιικό λογισμικό;</title>
+
+  <p>Εάν έχετε χρησιμοποιήσει Windows ή Mac OS, θα χρησιμοποιούσατε επίσης αντιικό λογισμικό που έτρεχε συνέχεια. Το αντιικό λογισμικό τρέχει στο παρασκήνιο, ελέγχοντας διαρκώς για ιούς του υπολογιστή που μπορεί να βρουν τον δρόμο τους στον υπολογιστή σας και να προκαλέσουν προβλήματα.</p>
+
+  <p>Αντιικό λογισμικό υπάρχει για Λίνουξ, αλλά προφανώς δεν χρειάζεται να το χρησιμοποιήσετε. Οι ιοί που επηρεάζουν το Λίνουξ είναι ακόμα πολύ σπάνιοι. Μερικοί υποστηρίζουν ότι αυτό συμβαίνει επειδή το Λίνουξ δεν είναι τόσο πλατιά χρησιμοποιούμενο όσο άλλα λειτουργικά συστήματα, έτσι κανένας δεν ιούς για αυτό. Άλλοι υποστηρίζουν ότι το Λίνουξ είναι εγγενώς πιο ασφαλές και τα προβλήματα ασφάλειας που οι ιοί μπορούν να χρησιμοποιήσουν διορθώνονται πολύ γρήγορα.</p>
+
+  <p>Όποιος κι αν είναι ο λόγος, οι ιοί του Λίνουξ είναι τόσο σπάνιοι που δεν χρειάζεστε πράγματι να ανησυχείτε για αυτούς προς το παρόν.</p>
+
+  <p>Εάν θέλετε να είσαστε υπερασφαλείς, ή εάν θέλετε να ελέγξετε για ιούς σε αρχεία που περνάτε μεταξύ του εαυτού σας και ατόμων που χρησιμοποιούν Windows και Mac OS, μπορείτε να εγκαταστήσετε αντιικό λογισμικό. Ελέγξτε τον εγκαταστάτη λογισμικού ή αναζήτησης με σύνδεση· ένας αριθμός από εφαρμογές είναι διαθέσιμος.</p>
+
+</page>

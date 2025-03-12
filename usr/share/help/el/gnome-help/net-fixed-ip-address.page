@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-fixed-ip-address" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="seealso" xref="net-findip"/>
+
+    <revision pkgversion="3.4.0" date="2012-03-13" status="final"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Η χρήση στατικής διεύθυνσης IP μπορεί να διευκολύνει την παροχή κάποιων υπηρεσιών δικτύου από τον υπολογιστή σας.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Δημιουργία σύνδεσης με σταθερή διεύθυνση IP</title>
+
+  <p>Τα περισσότερα δίκτυα θα εκχωρήσουν αυτόματα μια <link xref="net-what-is-ip-address">διεύθυνση IP</link> και άλλες λεπτομέρειες στον υπολογιστή σας όταν συνδέστε στο δίκτυο. Αυτές οι λεπτομέρειες μπορούν να αλλάζουν περιοδικά, αλλά μπορεί να θέλετε να έχετε μια σταθερή διεύθυνση IP για τον υπολογιστή έτσι ώστε να ξέρετε πάντα ποια είναι η διεύθυνσή του (για παράδειγμα, εάν είναι ένας εξυπηρετητής αρχείου).</p> <p>Για να δώσετε στον υπολογιστή σας μια σταθερή (στατική) διεύθυνση IP:</p>
+
+  <steps>
+    <item>
+      <p>Πατήστε στο <gui>εικονίδιο δικτύου</gui> στην <gui>πάνω γραμμή</gui> και επιλέξτε <gui>Ρυθμίσεις δικτύου</gui>.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε τη σύνδεση δικτύου από τη λίστα (<gui>ενσύρματη</gui> ή <gui>ασύρματη</gui>) και πατήστε <gui>διαμόρφωση</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε στην καρτέλα <gui>ρυθμίσεις IPv4</gui> και αλλάξτε τη <gui>μέθοδο</gui> σε <em>χειροκίνητη</em>.</p>
+    </item>
+    <item>
+      <p>Εάν έχει καταχωριστεί καμιά πληροφορία σύνδεσης στην λίστα <gui>διευθύνσεις</gui>, ή εάν θέλετε να ρυθμίσετε μια νέα σύνδεση, πατήστε <gui>προσθήκη</gui>.</p>
+    </item>
+    <item>
+      <p>Εισάγετε τις πληροφορίες <em>διεύθυνσης IP</em>, <em>μάσκας δικτύου</em> και <em>πύλης δικτύου</em> στα κατάλληλα πλαίσια. Πώς θα τα επιλέξετε εξαρτάται από τη διαμόρφωση δικτύου· υπάρχουν ειδικοί κανόνες που ελέγχουν ποιες διευθύνσεις IP και ποιες μάσκες δικτύου είναι έγκυρες για ένα δεδομένο δίκτυο.</p>
+    </item>
+    <item>
+      <p>Εάν είναι απαραίτητο, εισάγετε μια διεύθυνση <em>εξυπηρετητή ονόματος τομέα</em> στο πλαίσιο <gui>εξυπηρετητές DNS</gui>. Αυτή είναι η διεύθυνση IP ενός εξυπηρετητή που αναζητά ονόματα τομέων· τα περισσότερα εταιρικά δίκτυα και οι πάροχοι διαδικτύου έχουν αποκλειστικούς εξυπηρετητές DNS.</p>
+    </item>
+    <item>
+      <p>Πατήστε <gui>αποθήκευση</gui>. Η δικτυακή σύνδεση πρέπει τώρα να έχει μια σταθερή διεύθυνση IP.</p>
+    </item>
+  </steps>
+
+</page>

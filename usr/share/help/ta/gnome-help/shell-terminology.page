@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="reference" version="1.0 if/1.0" id="shell-terminology" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="shell-overview#desktop"/>
+
+    <revision pkgversion="3.8.0" version="0.4" date="2013-04-23" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>GNOME ஆவணமாக்கத் திட்டப்பணி</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>மைக்கேல் ஹில்</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>எக்காட்டெரினா ஜெராசிமோவா</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>பணிமேசையின் பல்வேறு பகுதிகளை விவரிக்கப் பயன்படும் சொற்களின் மேலோட்டப் பார்வை.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>செயல்பாடுகள், டேஷ், மேல் பட்டி… இதெல்லாம் என்ன?</title>
+
+<!-- THIS SHOULD BE ALPHABETICALLY SORTED… -->
+
+  <terms>
+    <item>
+      <title><gui>செயல்பாடுகள்</gui> மேலோட்டம்</title>
+      <p if:test="!platform:gnome-classic"><em><gui>செயல்பாடுகள்</gui> மேலோட்டம்</em> என்பது திரையின் மேல் இடது பக்கம் உள்ள <gui>செயல்பாடுகள்</gui> ஐ சொடுக்கும் போது காட்டப்படும் திரையாகும்.</p>
+      <p if:test="platform:gnome-classic"><em><gui>செயல்பாடுகள்</gui> மேலோட்டம்</em> என்பது நீங்கள் திரையின் மேல் இடது பக்கம் உள்ள <gui>பயன்பாடுகள்</gui> மெனுவில் <gui>செயல்பாடுகள் மேலோட்டம்</gui> ஐ சொடுக்கும் போது காட்டப்படும் திரையாகும்.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>பயன்பாடுகள் மெனு</title>
+      <p><gui>பயன்பாடுகள்</gui> மெனு திரையின் மேல் இடது புறம் இருக்கும். இதன் மூலம் நீங்கள் பகுப்புகளாக ஒழுங்கமைக்கப்பட்ட பயன்பாடுகளை அணுகலாம். மெனுவில் இருந்து <gui>செயல்பாடுகள் மேலோட்டம்</gui> உருப்படியை தேர்ந்தெடுப்பதன் மூலம் <em>செயல்பாடுகள் மேலோட்டம்</em> கிடைக்கிறது.</p>
+    </item>
+    <item>
+      <title>டேஷ்</title>
+      <p><em>டேஷ்</em> என்பது <gui>செயல்பாடுகள்</gui> மேலோட்டத்தின் இடப்புறம் காண்பிக்கப்படும் உங்கள் பிடித்தமான பயன்பாடுகளின் பட்டியலாகும். தற்போது இயங்கிக்கொண்டிருக்கும் பயன்பாடுகளும் அதில் காண்பிக்கப்படுகின்றன. டேஷை <em>டாக்</em> என்றும் அழைப்பர்.</p>
+    </item>
+    <item>
+      <title>செயல் மூலை</title>
+      <p><em>செயல் மூலை</em> என்பது திரையின் மேல் இடது மூலையாகும். நீங்கள் சுட்டியை இங்கு கொண்டு செல்லும் போது <gui>செயல்பாடுகள்</gui> மேலோட்டம் திறக்கும்.</p>
+    </item>
+    <item>
+      <title>திரையை பூட்டு</title>
+      <p><em>பூட்டுத் திரை</em>, உங்கள் கணினி பூட்டியிருக்கும் போது திரையில் ஒரு படத்தைக் காண்பிக்கும். அது நீங்கள் விலகி இருந்த போது என்னென்ன நடந்தன என்பது பற்றிய பயனுள்ள தகவல்களையும் வழங்கும். இதிலிருந்து நீங்கள் பூட்டு நீக்காமலே மீடியா இயக்கத்தையும் கட்டுப்படுத்த முடியும்.</p>
+    </item>
+    <item>
+      <title>அறிவிப்புகள்</title>
+      <p><em>Notifications</em> are messages that pop up at the bottom of the
+      screen, telling you that something just happened. For example, when
+      someone chatting with you sends a message, a notification will pop up to
+      tell you. If you don't want to deal with a message right now, it is
+      hidden in your <em>message tray</em>. Move your mouse to the bottom of
+      the screen (or press
+      <keyseq><key xref="keyboard-key-super">Super</key><key>M</key></keyseq>)
+      to see your message tray.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>இடங்கள் மெனு</title>
+      <p>நீங்கள் <gui>மேல் பட்டி</gui> இல் <gui>இடங்கள்</gui> ஐ சொடுக்கினால் <em>இடங்கள் மெனு</em> திறக்கும். இதைக் கொண்டு நீங்கள் <gui>Downloads</gui> அல்லது <gui>Pictures</gui> போன்ற முக்கியக் கோப்புறைகளுக்கு விரைவாக செல்லலாம்.</p>
+    </item>
+    <item>
+      <title>அமைவுகள்</title>
+      <p>The <em>settings</em> are where you can change preferences and so on,
+      similar to the Control Panel in Windows or the System Preferences in Mac
+      OS. Click the system menu on the right side of the top bar and press the
+      <gui>Settings</gui> button to access them. Alternatively, you can open
+      the <gui>Activities</gui> overview and start typing <gui>Settings</gui>,
+      then select the <gui>Settings</gui> panel.</p>
+    </item>
+    <item>
+      <title>Super-Tab சாளர மாற்றி</title>
+      <p>When you hold down the <key xref="keyboard-key-super">Super</key> key
+      and then press <key>Tab</key>, a <em>window switcher</em> appears. This
+      shows the applications that are currently open.</p>
+    </item>
+    <item>
+      <title>System menu</title>
+      <p>The <em>system menu</em> is on the right side of the top bar. You can
+      update some of your settings, find information about your
+      <gui>Wi-Fi</gui> connection, switch user, log out and turn off your
+      computer from this menu.</p>
+    </item>
+    <item>
+      <title>மேல் பட்டி</title>
+      <p if:test="!platform:gnome-classic">The <em>top bar</em> is the bar that
+      runs along the very top of the screen. The <gui>Activities</gui> link is
+      on one end of the top bar and the system menu is on the other.</p>
+      <p if:test="platform:gnome-classic">The <em>top bar</em> is the bar that
+      runs along the very top of the screen. The <gui>Applications</gui> menu
+      is on one end of the top bar and the system menu is on the other.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>சாளர பட்டியல்</title>
+      <p><em>சாளர பட்டியல்</em> என்பது திரையின் அடிப்பகுதியில் உள்ள பட்டியாகும், இது திறந்துள்ள உங்கள் சாளரங்கள் அனைத்துக்குமான பொத்தான்களைக் காண்பிக்கும்.</p>
+    </item>
+    <item>
+      <title>பணியிடம்</title>
+      <p>நீங்கள் சாளரங்களை வெவ்வேறு <em>பணியிடங்களில்</em> வைத்துக்கொள்ளலாம். இது சாளரங்களைப் பிரிக்கவும் குழுப்படுத்துவதற்கும் சௌகரியமான அம்சமாகும்.</p>
+    </item>
+    <item>
+      <title>பணியிடப் தேர்வி</title>
+      <p><em>பணியிடத் தேர்வி</em> என்பது <gui>செயல்பாடுகள்</gui> மேலோட்டத்தில் <gui>சாளரங்கள்</gui> இன் வலப்புறம் காட்டப்படும் பணியிடங்களின் பட்டியலாகும்.</p>
+    </item>
+  </terms>
+
+</page>

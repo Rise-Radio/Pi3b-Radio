@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="files-search" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="files"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-09-25" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author">
+      <name>GNOME-Dokumentationsprojekt</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Finden Sie Dateien anhand Ihres Namens und Typs. Speichern Sie Ihre Suche zur späteren Verwendung.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Nach Dateien suchen</title>
+
+  <p>Sie können nach Dateien anhand ihres Namens oder Dateityps direkt in der Dateiverwaltung suchen. Sie können sogar alltägliche Suchen speichern; sie erscheinen dann als spezielle Ordner in Ihrem persönlichen Ordner.</p>
+
+  <links type="topic" style="linklist">
+    <title>Weitere Suchanwendungen</title>
+    <!-- This is an extension point where search apps can add
+    their own topics. It's empty by default. -->
+  </links>
+
+  <steps>
+    <title>Suchen</title>
+    <item>
+      <p>Open the <app>Files</app> application from the
+      <gui xref="shell-terminology">Activities</gui> overview.</p>
+    </item>
+    <item>
+      <p>Wenn Sie wissen, dass die Dateien in einem bestimmten Ordner oder seinen Unterordnern sind, gehen Sie zu diesem Ordner.</p>
+    </item>
+    <item>
+      <p>Type a word or words that you know appear in the file name, and they
+      will be shown in the search bar. For example, if you name all your
+      invoices with the word "Invoice", type <input>invoice</input>. Words are
+      matched regardless of case.</p>
+      <note>
+        <p>Instead of typing words directly to bring up the search bar, you can
+	click the magnifying glass in the toolbar, or press
+        <keyseq><key>Ctrl</key><key>F</key></keyseq>.</p>
+      </note>
+    </item>
+    <item>
+      <p>Sie können Ihre Suche nach Ort und Dateityp eingrenzen.</p>
+      <list>
+        <item>
+          <p>Klicken Sie auf <gui>Persönlicher Ordner</gui>, um die Suche auf Ihren <file>Persönlicher Ordner</file> einzugrenzen. Klicken Sie auf <gui>Alle Dateien</gui>, um überall zu suchen.</p>
+        </item>
+        <item>
+          <p>Click the <gui>+</gui> button and pick a <gui>File Type</gui> from
+	  the drop-down list to narrow the search results based on file type.
+	  Click the <gui>x</gui> button to remove this option and widen the
+	  search results.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Sie können die Dateien des Suchergebnisses öffnen, kopieren, löschen oder auf andere Weise damit arbeiten, so wie Sie es mit jedem anderen Ordner in der Dateiverwaltung auch machen würden.</p>
+    </item>
+    <item>
+      <p>Klicken Sie erneut auf die Lupe in der Werkzeugleiste, um die Suche zu beenden und zum Ordner zurückzukehren.</p>
+    </item>
+  </steps>
+
+  <p>Wenn Sie bestimmte Suchen häufig ausführen, können Sie sie speichern, um schnell auf sie zugreifen zu können.</p>
+
+  <steps>
+    <title>Eine Suche speichern</title>
+    <item><p>Starten Sie eine Suche, wie vorstehend beschrieben.</p></item>
+    <item><p>When you are happy with the search parameters, click the menu
+    button and select <gui>Save Search As</gui>.</p></item>
+    <item><p>Geben Sie der Suche einen Namen und klicken Sie auf <gui>Speichern</gui>. Wenn Sie wollen, wählen Sie einen anderen Ordner, um die Suche darin zu speichern. Wenn Sie diesen Ordner betrachten, sehen Sie Ihre gespeicherte Suche als ein orangefarbenes Ordnersymbol mit einem Vergrößerungsglas darauf.</p></item>
+  </steps>
+
+  <p>Um die Suchdatei zu entfernen, wenn Sie mit ihr fertig sind, <link xref="files-delete">löschen</link> Sie einfach die Suche, wie Sie es mit jeder anderen Datei tun würden. Wenn Sie eine gespeicherte Suche löschen, werden die damit gefundenen Dateien nicht gelöscht.</p>
+
+</page>

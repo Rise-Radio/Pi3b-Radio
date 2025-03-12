@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-create" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Crie uma nova conta usando <app>Contas on-line</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodolfo Ribeiro Gomes</mal:name>
+      <mal:email>rodolforg@gmail.com</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>João Santana</mal:name>
+      <mal:email>joaosantana@outlook.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Criando uma conta on-line</title>
+
+  <p>Alguns provedores de serviço de contas on-line permitem a você criar uma conta enquanto adiciona-a ao <app>Contas on-line</app>. Isso permite que você controle todas suas contas on-line a partir de um só aplicativo.</p>
+
+  <!-- Tested with Google -->
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Clique em <gui style="button">+</gui>.</p>
+    </item>
+    <item>
+      <p>Selecione um tipo de conta que você deseja adicionar. Alguns tipos de contas podem <link xref="accounts-provider-not-available">não estar disponíveis</link>.</p>
+    </item>
+    <item>
+      <p>Se o serviço permitir que você crie uma conta, você deveria ver mais informações sobre como fazer isso.</p>
+      <note>
+        <p>Não são todos os provedores de contas on-line fornecem a opção de criar uma conta neste estágio. Se isso é verdade para o serviço que você deseja registrar, você precisará usar um método alternativo para criar uma conta.</p>
+      </note>
+    </item>
+    <item>
+      <p>Preencha o formulário de registro. Você basicamente será perguntado por alguns detalhes pessoais, como usuário e senha.</p>
+    </item>
+    <item>
+      <p>Você precisa conceder acesso ao GNOME para acessar sua nova conta para que esta seja usada no <app>Contas on-line</app>.</p>
+    </item>
+    <item>
+      <p>All services that are offered by an account provider will be enabled
+      by default. <link xref="accounts-disable-service">Switch</link>
+      individual services to <gui>OFF</gui> to disable them.</p>
+    </item>
+  </steps>
+
+</page>

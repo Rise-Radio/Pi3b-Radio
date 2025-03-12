@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-fixed-ip-address" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="seealso" xref="net-findip"/>
+
+    <revision pkgversion="3.4.0" date="2012-03-13" status="final"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Utiliser une adresse IP statique peut simplifier la gestion de certains services réseau à partir de votre ordinateur.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Création d'une connexion avec une adresse IP fixe</title>
+
+  <p>La plupart des réseaux attribuent automatiquement une <link xref="net-what-is-ip-address">adresse IP</link> et d'autres détails à votre ordinateur quand vous vous connectez au réseau. Ces détails sont susceptibles de changer de temps en temps mais il est possible que vous vouliez conserver une adresse IP fixe que vous connaissez (par exemple, pour identifier un serveur de fichiers).</p> <p>Pour attribuer à votre ordinateur une adresse IP fixe (statique) :</p>
+
+  <steps>
+    <item>
+      <p>Cliquez sur l'<gui>icône réseau</gui> dans la barre supérieure et ouvrez <gui>Paramètres du réseau</gui>.</p>
+    </item>
+    <item>
+      <p>Sélectionnez la connexion réseau dans la liste (<gui>Filaire</gui> ou <gui>Sans fil</gui>) et cliquez sur <gui>Configuration</gui>.</p>
+    </item>
+    <item>
+      <p>Ouvrez l'onglet <gui>Paramètres IPv4</gui> et modifiez la <gui>Méthode</gui> à <em>Manuel</em>.</p>
+    </item>
+    <item>
+      <p>S'il n'y a pas d'informations de connexion dans la liste des <gui>Adresses</gui> et si vous souhaitez configurer une nouvelle connexion, cliquez sur <gui>Ajouter</gui>.</p>
+    </item>
+    <item>
+      <p>Saisissez les informations sur l'<em>adresse IP</em>, le <em>masque de réseau</em> et la <em>passerelle</em> dans les champs adéquats. Votre choix déterminera le paramétrage de votre réseau ; il existe des règles spécifiques à appliquer pour le choix d'une adresse IP et d'un masque réseau valides en fonction du réseau.</p>
+    </item>
+    <item>
+      <p>Si nécessaire, saisissez l'adresse d'un <em>Serveur de nom de domaine (DNS)</em> dans la case <gui>Serveurs DNS</gui>. C'est l'adresse IP d'un serveur qui recherche les noms de domaine ; beaucoup de réseaux professionnels et de fournisseurs internet possèdent des serveurs DNS dédiés.</p>
+    </item>
+    <item>
+      <p>Cliquez sur <gui>Enregistrer</gui>. Le réseau doit maintenant avoir une adresse IP fixe.</p>
+    </item>
+  </steps>
+
+</page>

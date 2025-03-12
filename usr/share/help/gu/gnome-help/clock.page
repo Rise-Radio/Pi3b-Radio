@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="clock" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="prefs"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-11-04" status="candidate"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><link xref="clock-set">તારીખ અને સમયને સુયોજિત કરો</link>, <link xref="clock-timezone">ટાઇમઝોન</link>, <link xref="clock-calendar">કૅલેન્ડર અને મુલાકાતો</link>…</desc>
+  </info>
+
+<title>તારીખ અને સમય</title>
+
+</page>

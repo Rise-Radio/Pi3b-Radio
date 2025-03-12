@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="files-browse" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="files" group="#first"/>
+    <link type="seealso" xref="files-copy"/>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-16" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Gestione y organice archivos con el gestor de archivos.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Examinar archivos y carpetas</title>
+
+<p>Use la aplicación <app>Archivos</app> para navegar y gestionar los archivos en su equipo. También puede usarlo para gestionar archivos en dispositivos de almacenamiento (como discos externos), en <link xref="nautilus-connect">servidores de archivos</link> y en recursos compartidos de la red.</p>
+
+<p>To start the file manager, open <app>Files</app> in the
+<gui xref="shell-terminology">Activities</gui> overview. You can also search
+for files and folders through the overview in the same way you would
+<link xref="shell-apps-open">search for applications</link>.
+</p>
+
+<section id="files-view-folder-contents">
+  <title>Explorar el contenido de carpetas</title>
+
+<p>En el gestor de archivos, pulse dos veces sobre una carpeta para ver su contenido, o sobre un archivo para abrirlo con la aplicación predeterminada para ese archivo. También puede pulsar con el botón derecho sobre una carpeta para abrirla en una pestaña o una ventana nueva.</p>
+
+<p>Al examinar los archivos en una carpeta puede <link xref="files-preview">previsualizar rápidamente cada archivo</link> rápidamente pulsando la barra espaciadora para asegurarse de que tiene el archivo correcto antes de abrirlo, copiarlo o eliminarlo.</p>
+
+<p>La <em>barra de rutas</em> situada encima de la lista de archivos y carpetas muestra qué carpeta está visualizando, incluyendo sus carpetas padre hasta su carpeta personal. Pulse en una carpeta padre de la barra de rutas para moverse a esa carpeta. Pulse con el botón derecho sobre cualquier carpeta de la barra de rutas para abrirla en una pestaña o ventana nueva, copiarla, moverla o acceder a sus propiedades.</p>
+
+<p>If you want to quickly <link xref="files-search">search for a file</link>,
+in or below the folder you are viewing, start typing its name. A <em>search
+bar</em> will appear at the top of the window and only files which match your
+search will be shown. Press <key>Esc</key> to cancel the search.</p>
+
+<p>You can quickly access common places from the <em>sidebar</em>. If you do
+not see the sidebar, click the
+<gui><media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media></gui>
+button in the toolbar and pick <gui>Show Sidebar</gui>. You can add bookmarks
+to folders that you use often and they will appear in the sidebar. Click
+<gui>Files</gui> in the top bar and then <gui style="menuitem">Bookmarks</gui>
+to do this, or simply drag a folder into the sidebar.</p>
+
+</section>
+
+</page>

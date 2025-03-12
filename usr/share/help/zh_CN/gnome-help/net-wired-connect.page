@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wired-connect" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>GNOME 文档项目</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>要设置有线网络连接，通常您只需插入网线。</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>连接到有线网络(以太网)</title>
+
+  <p>要设置绝大多数有线网络连接，您只需做的是把网线接上。顶部面板上的网络图标应该转动一会然后变成“插座”图标，指示已连接上。</p>
+
+  <p>如果未出现此现象，您应首先确保网线已插入。网线的一端应插入计算机上的矩形以太网(网络)端口，另一端应插入交换机、路由器、壁装插座或类似设备(具体取决于您的网络设置)。</p>
+
+  <note>
+    <p>您不能用网线直接将一台计算机连接到另一台计算机(至少没有经过设置前是这样)，要连接两台计算机，您需要把它们都接入到一个网络集线器、路由器或交换机。</p>
+  </note>
+
+  <p>如果您仍然不能连接，您的网络可能不支持自动配置(DHCP)。果真如此，您就需要<link xref="net-manual">手动配置</link>。</p>
+
+</page>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-right-click" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="mouse"/>
+    <link type="guide" xref="a11y#mobility" group="clicking"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-13" status="candidate"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="final"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author copyright">
+      <name>ஷான் மெக்கேன்ஸ்</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+      <years>2012</years>
+    </credit>
+    <credit type="author">
+      <name>ஃபில் புல்</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>மைக்கேல் ஹில்</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>எக்காட்டெரினா ஜெராசிமோவா</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <desc>சொடுக்கியின் இடது பொத்தானை அழுத்திப் பிடித்தபடி இருந்தால் வலது சொடுக்கம் செய்யவும்.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>சொடுக்கி வலது சொடுக்க ஏற்பாடு</title>
+
+  <p>நீங்கள் சொடுக்கியின் இடது பொத்தானை சற்று நேரம் அழுத்திப் பிடித்துக்கொண்டிருப்பதன் மூலம் வலது சொடுக்க முடியும். உங்கள் ஒரு கையில் உள்ள விரல்களை தனித்தனியாக அசைப்பதில் உங்களுக்கு சிரமம் இருந்தால் அல்லது உங்கள் சுட்டு சாதனத்தில் ஒரே ஒரு பொத்தான் மட்டுமே இருந்தால் இந்த அம்சம் பயனுள்ளது.</p>
+
+  <steps>
+    <item>
+      <p><gui xref="shell-terminology">செயல்பாடுகள்</gui> மேலோட்டத்தைத் திறந்து <gui>அனைவருக்குமான அணுகல்</gui> எனத் தட்டச்சு செய்யத் தொடங்கவும்.</p>
+    </item>
+    <item>
+      <p><gui>அனைவருக்குமான அணுகல்</gui> ஐத் திறந்து <gui>தட்டச்சு</gui> கீற்றைத் தேர்ந்தெடுக்கவும்.</p>
+    </item>
+    <item>
+      <p>Press <gui>Click Assist</gui> in the <gui>Pointing &amp; Clicking</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Switch <gui>Simulated Secondary Click</gui> to <gui>ON</gui>.</p>
+    </item>
+  </steps>
+
+  <p>இப்போது சொடுக்கியின் இடது பொத்தானை அழுத்திப் பிடித்திருக்கையில் அது வலது சொடுக்கமாக மாற எவ்வளவு நேரம் காத்திருக்க வேண்டும் என்பதை நீங்கள் மாற்றலாம். <gui>சுட்டுதலும் சொடுக்குதலும்</gui> கீற்றில், <gui>இரண்டாம் சொடுக்க ஏற்பாடு</gui> என்பதன் கீழ் <gui>ஏற்றலில் தாமதம்</gui> என்பதை மாற்றவும்.</p>
+
+  <p>இரண்டாம் சொடுக்க ஏற்பாட்டின் மூலம் வலது சொடுக்க, நீங்கள் வழக்கமாக வலது சொடுக்கும் சூழ்நிலையில், சொடுக்கியின் இடது பொத்தானை சற்று நேரம் அழுத்திப் பிடித்திருந்து, பிறகு விடவும். நீங்கள் இடது பொத்தானை அழுத்திப் பிடித்திருக்கும் போது சுட்டி நீல நிறத்தால் நிரப்பப்படும். வலது சொடுக்க, அது முழுதும் நீலமான பிறகு, சொடுக்கி பொத்தானை விடுவிக்கவும்.</p>
+
+  <p>மறுஅளவீடு செய்யும் சுட்டி போன்ற சில சுட்டிகள் நிறம் மாறாது. சுட்டி நிறம் மாறி காட்சி ரீதியாக உங்களுக்கு சொடுக்கத்தைப் பற்றித் தெரிவிக்காவிட்டாலும் நீங்கள் இரண்டாம் சொடுக்க ஏற்பாட்டை வழக்கம் போல் பயன்படுத்தலாம்.</p>
+
+  <p>நீங்கள் <link xref="mouse-mousekeys">சொடுக்கி விசைகளைப்</link> பயன்படுத்தினால், இது உங்கள் விசையட்டையிலுள்ள <key>5</key> விசையை கீழே அழுத்திப் பிடித்தும் வலது சொடுக்க அனுமதிக்கும்.</p>
+
+  <note>
+    <p>இந்த அம்சம் முடக்கப்பட்டிருந்தாலும், நீங்கள் <gui>செயல்பாடுகள்</gui> மேலோட்டத்தில் நீண்ட நேரம் பொத்தானை அழுத்தி வலது சொடுக்கலாம். மேலோட்டத்தில் இந்த நீண்ட நேர அழுத்துதல் சற்று வேறு வகையில் செயல்படும், அதாவது வலது சொடுக்க நீங்கள் பொத்தானை விடுவிக்க வேண்டியதில்லை.</p>
+  </note>
+
+</page>

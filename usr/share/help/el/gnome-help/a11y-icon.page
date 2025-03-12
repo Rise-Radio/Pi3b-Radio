@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-icon" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="a11y"/>
+
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="final"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <desc>Το μενού γενικής πρόσβασης είναι το εικονίδιο στην πάνω γραμμή που φαίνεται σαν άτομο.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Εύρεση του μενού γενικής πρόσβασης</title>
+
+  <p>Το <em>γενικό μενού πρόσβασης</em> είναι εκεί όπου μπορείτε να ενεργοποιήσετε μερικές από τις ρυθμίσεις πρόσβασης. Μπορείτε να βρείτε αυτό το μενού πατώντας το εικονίδιο που φαίνεται σαν ένα άτομο που περιβάλλεται από έναν κύκλο στην πάνω γραμμή.</p>
+
+  <figure>
+    <desc>Το γενικό μενού πρόσβασης μπορεί να βρεθεί στην πάνω γραμμή.</desc>
+    <media its:translate="no" type="image" mime="image/png" src="figures/universal-access-menu.png"/>
+  </figure>
+
+  <p>Αν δεν βλέπετε το μενού γενικής πρόσβασης, μπορείτε να το ενεργοποιήσετε από τον φάτνωμα ρυθμίσεων <gui>Γενική πρόσβαση</gui>:</p>
+
+  <steps>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Γενική πρόσβαση</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui>Γενική πρόσβαση</gui> για να ανοίξετε τον πίνακα.</p>
+    </item>
+    <item>
+      <p>Switch <gui>Always Show Universal Access Menu</gui> to
+      <gui>ON</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Για πρόσβαση αυτού του μενού χρησιμοποιώντας το πληκτρολόγιο αντί για το ποντίκι, πατήστε <keyseq><key>Ctrl</key><key>Alt</key><key>Tab</key></keyseq> για να μετακινήσετε την εστίαση πληκτρολογίου στην πάνω γραμμή. Μια λευκή γραμμή θα εμφανιστεί κάτω από το κουμπί <gui>ενέργειες</gui> _ αυτό σας λέει ποιο στοιχείο στην πάνω γραμμή επιλέχτηκε. Χρησιμοποιήστε τα πλήκτρα βέλους στο πληκτρολόγιο για να μετακινήσετε την λευκή γραμμή κάτω από το εικονίδιο μενού γενικής πρόσβασης και έπειτα πατήστε <key>εισαγωγή</key> για να το ανοίξετε. Μπορείτε να χρησιμοποιήσετε τα πλήκτρα πάνω και κάτω βέλους για την επιλογή στοιχείων στο μενού. Πατήστε <key>εισαγωγή</key> για εναλλαγή του επιλεγμένου στοιχείου.</p>
+
+</page>

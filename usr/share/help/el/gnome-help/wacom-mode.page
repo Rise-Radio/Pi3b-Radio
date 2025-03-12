@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="wacom-mode" xml:lang="el">
+  <info>
+
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <link type="guide" xref="wacom"/>
+
+    <credit type="author copyright">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc>Αλλάξτε την πινακίδα μεταξύ κατάστασης πινακίδας και ποντικιού.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ορίστε την κατάσταση ανίχνευσης της πινακίδας Wacom</title>
+
+<p><gui>Η κατάσταση ανίχνευσης</gui> καθορίζει πώς ο δείκτης απεικονίζεται στην οθόνη.</p>
+
+<steps>
+  <item>
+    <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Πινακίδες Wacom</gui>.</p>
+  </item>
+  <item>
+    <p>Πατήστε στο <gui>Πινακίδες Wacom</gui> για να ανοίξετε το φάτνωμα.</p>
+
+    <note style="tip"><p>Εάν δεν ανιχνευτεί καμιά πινακίδα, θα σας ζητηθεί <gui>Παρακαλώ, συνδεθείτε ή ανοίξτε την πινακίδα σας Wacom</gui>. Πατήστε το σύνδεσμο <gui>Ρυθμίσεις μπλουτούθ</gui> για να συνδέσετε μια ασύρματη πινακίδα.</p></note>
+  </item>
+  <item><p>Δίπλα στην <gui>κατάσταση ανίχνευσης</gui>, Επιλέξτε <gui>πινακίδα (απόλυτη)</gui> ή <gui>πινακίδα αφής (σχετική)</gui>.</p></item>
+</steps>
+
+<note style="info"><p>Στην <em>απόλυτη</em> κατάσταση, κάθε σημείο στην πινακίδα απεικονίζει ένα σημείο στην οθόνη. Η πάνω αριστερή γωνία της οθόνης, για παράδειγμα, αντιστοιχεί πάντα στο ίδιο σημείο στην πινακίδα.</p>
+ <p>Στη <em>σχετική</em> κατάσταση, εάν σηκώσετε τον δείκτη εκτός πινακίδας και τον αφήσετε σε διαφορετική θέση, ο δρομέας στην οθόνη δεν μετακινείται. Έτσι λειτουργεί ένα ποντίκι, επιτρέποντας σας να καλύψετε αποστάσεις στην οθόνη με λιγότερη μετακίνηση της παλάμης.</p></note>
+
+</page>

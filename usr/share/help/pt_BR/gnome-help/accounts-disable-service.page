@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-disable-service" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.13.92" date="2013-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    
+    <desc>Algumas contas on-line podem ser usadas para acessar múltiplos serviços (como calendário e e-mail). Você pode controlar quais desses serviços podem ser usados por aplicativos.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodolfo Ribeiro Gomes</mal:name>
+      <mal:email>rodolforg@gmail.com</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>João Santana</mal:name>
+      <mal:email>joaosantana@outlook.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Controlando quais serviços on-line uma conta pode ser usada para acessar</title>
+
+  <p>Alguns tipos de conta on-line permitem que você acesse diversos serviços com a mesma conta de usuário. Por exemplo, contas Google fornecem acesso a calendário, e-mail, contatos e bate-papo. Talvez você queira usar sua conta para alguns serviços, mas não para outros. Por exemplo, talvez você queira usar sua conta Google para e-mail, mas não para bate-papo, por ter uma conta online diferente para usar para bate-papo.</p>
+
+  <p>Você pode desabilitar alguns dos serviços que são fornecidos por cada conta on-line:</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Select the account which you want to change from the list on the
+      left.</p>
+    </item>
+    <item>
+      <p>A list of services that are available with this account will be
+      shown under <gui>Use for</gui>.</p>
+    </item>
+    <item>
+      <p>Switch off any of the services that you do not want to use.</p>
+    </item>
+  </steps>
+
+  <p>Once a service has been disabled for an account, applications on your
+  computer will not be able to use the account to connect to that service any
+  more.</p>
+
+  <p>Para habilitar o serviço que você desativou, basta voltar na janela de <gui>Contas on-line</gui> e alterne-o para ON.</p>
+
+</page>

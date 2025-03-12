@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="sharing-bluetooth" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="bluetooth"/>
+    <link type="guide" xref="sharing"/>
+    <link type="guide" xref="prefs-sharing"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-13" status="draft"/>
+    <revision pkgversion="3.10" date="2013-11-09" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-08" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-13" status="candidate"/>
+
+    <credit type="author">
+      <name>માઇકલ હીલ</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2014</years>
+    </credit>
+    <credit type="author">
+      <name>David King</name>
+      <email its:translate="no">davidk@gnome.org</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Allow files to be uploaded to your computer over Bluetooth.</desc>
+  </info>
+
+  <title>બ્લુટુથ પર વહેંચણીનુ નિયંત્રણ કરો</title>
+
+  <p>You can configure <gui>Bluetooth Sharing</gui> to control access to your
+  <file>Downloads</file> folder for Bluetooth file sharing, and also restrict
+  that access to only <em>trusted devices</em>.  Trusted devices are ones which
+  you have <link xref="bluetooth-connect-device">paired</link> to your computer
+  before.</p>
+
+  <note style="info package">
+    <p>You must have the <app>GNOME User Share</app> package installed for
+    <gui>Bluetooth Sharing</gui> to be visible.</p>
+
+    <if:choose xmlns:if="http://projectmallard.org/if/1.0/">
+      <if:when test="action:install">
+        <p><link action="install:gnome-user-share" style="button">Install GNOME
+        User Share</link></p>
+      </if:when>
+    </if:choose>
+  </note>
+
+  <steps>
+    <title>તમારાં <file>ડાઉનલોડ</file> ફોલ્ડરમાં વહેંચવા માટે ફાઇલોને પરવાનગી આપો</title>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Sharing</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Sharing</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>જો <gui>વહેંચણી</gui> એ <gui>બંધ</gui> હોય તો, તેને <gui>ચાલુ</gui> કરો.</p>
+    </item>
+    <item>
+      <p><gui>બ્લુટુથ વહેંચણી</gui> પસંદ કરો.</p>
+    </item>
+    <item>
+      <p><gui>ડાઉનલોડ ફોલ્ડરમાં પ્રાપ્ત થયેલ ફાઇલોને સંગ્રહો</gui> ને <gui>ચાલુ</gui> કરો.</p>
+    </item>
+    <item>
+      <p>જો તમે ફક્ત તમારાં <file>ડાઉનલોડ</file> ફોલ્ડરને વાપરવા માટે વિશ્ર્વાસપાત્ર ઉપકરણોને પરવાનગી આપવા માંગતા હોય તો, <gui>ફક્ત વિશ્ર્વાસપાત્ર ઉપકરણોમાંથી પ્રાપ્ત કરો</gui> ને <gui>ચાલુ</gui> ચાલુ કરો.</p>
+
+      <note style="tip">
+        <p>આ વિકલ્પ મૂળભૂત રીતે નિષ્ક્રિય થયેલ છે. તમારે તેને સક્રિય કરવુ જોઇએ જો તમે બ્લુટુથ-સક્રિય થયેલ સેલ ફોન અથવા તેનાં જેવા જ ઉપકરણો સાથે કોઇપણ દ્દારા ફાઇલોને વહેંચવા માટે પ્રવેશને અટકાવવા માંગતા હોય તો.</p>
+      </note>
+
+    </item>
+    <item>
+      <p><gui style="button">બંધ કરો</gui> પર ક્લિક કરો. બ્લુટુથ-સક્રિય થયેલ ઉપકરણો તમારાં <file>ડાઉનલોડ</file> ફોલ્ડરમાં ફાઇલોને મોકલવા માટે હવે સક્ષમ હશે.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>You can <link xref="sharing-displayname">change</link> the name your
+    computer displays to other devices.</p>
+  </note>
+
+  <p><app>Files</app> allows you to launch the <gui>Sharing</gui> panel
+  directly by clicking the <gui>Preferences</gui> button when you visit the
+  <file>Downloads</file> folder.</p>
+
+</page>

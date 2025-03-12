@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-screen-lock" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+    <link type="seealso" xref="session-screenlocks"/>
+    <link type="seealso" xref="shell-exit#lock-screen"/>
+
+    <revision pkgversion="3.8" date="2013-05-21" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit>
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Neļaut citām personām izmantot jūsu datoru, kad dodaties prom.</desc>
+  </info>
+
+  <title>Automātiski bloķēt ekrānu</title>
+  
+  <p>Kad atstājiet savu datoru, jums vajadzētu <link xref="shell-exit#lock-screen">bloķēt ekrānu</link>, lai neļautu citiem cilvēkiem strādāt ar jūsu datoru un piekļūt jūsu datnēm. Ja dažkārt aizmirstat bloķēt savu ekrānu, jūs varētu vēlēties automātiski bloķēt sava datora ekrānu pēc noteikta laika. Tas palīdz turēt datoru drošībā arī tad, kad to neizmantojat.</p>
+
+  <note><p>Kad ekrāns ir bloķēts, jūsu lietotnes un sistēmas procesi turpinās darboties, bet jums vajadzēs ievadīt paroli, lai to turpinātu izmantot.</p></note>
+  
+  <steps>
+    <title>Lai iestatītu laiku, pirms ekrāns tiek bloķēts:</title>
+    <item>
+      <p>Atveriet <link xref="shell-terminology">aktivitāšu</link> pārskatu un sāciet rakstīt <gui>Privātums</gui>.</p>
+    </item>
+    <item>
+      <p>Spiediet <gui>Privātums</gui>, lai atvērtu paneli.</p>
+    </item>
+    <item>
+      <p>Izvēlieties <gui>Ekrāna bloķēšana</gui>.</p>
+    </item>
+    <item>
+      <p>Make sure <gui>Automatic Screen Lock</gui> is switched <gui>ON</gui>,
+      then select a length of time from the drop-down list.</p>
+    </item>
+    <item>
+      <p>Lai bloķēšanas ekrāns drīkstētu rādīt paziņojumus, pārslēdziet <gui>Rādīt paziņojumus</gui> uz <gui>|</gui>.</p>
+    </item>
+    <item>
+      <p>Click the <gui>X</gui> to close.</p>
+    </item>
+  </steps>
+
+  <p>When your screen is locked, and you want to unlock it, press
+  <key>Esc</key>, or swipe up from the bottom of the screen with your mouse.
+  Then enter your password, and press <key>Enter</key> or click
+  <gui>Unlock</gui>. Alternatively, just start typing your password and the
+  lock curtain will be automatically raised as you type.</p>
+
+</page>

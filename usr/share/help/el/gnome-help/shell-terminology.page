@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="reference" version="1.0 if/1.0" id="shell-terminology" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="shell-overview#desktop"/>
+
+    <revision pkgversion="3.8.0" version="0.4" date="2013-04-23" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Έργο Τεκμηρίωσης GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Μια επισκόπηση των όρων που χρησιμοποιούνται για να περιγραφούν διαφορετικά μέρη της επιφάνειας εργασίας.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ενέργειες, αρχικό πλαίσιο, πάνω γραμμή… Τι είναι;</title>
+
+<!-- THIS SHOULD BE ALPHABETICALLY SORTED… -->
+
+  <terms>
+    <item>
+      <title>Η επισκόπηση <gui>Ενέργειες</gui></title>
+      <p if:test="!platform:gnome-classic">Η <em>επισκόπηση <gui>Ενέργειες</gui></em> είναι η οθόνη που εμφανίζεται όταν πατάτε στις <gui>Ενέργειες</gui> στα πάνω αριστερά της οθόνης.</p>
+      <p if:test="platform:gnome-classic">Η <em>επισκόπηση <gui>Ενέργειες</gui></em> είναι η οθόνη που εμφανίζεται όταν επιλέγετε <gui>Επισκόπηση ενεργειών</gui> στο μενού <gui>Εφαρμογές</gui> πάνω αριστερά στην οθόνη.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>Μενού εφαρμογών</title>
+      <p>Μπορείτε να βρείτε το μενού <gui>Εφαρμογές</gui> στα πάνω αριστερά της οθόνης. Σας δίνει πρόσβαση σε εφαρμογές οργανωμένες σε κατηγορίες. Η <em>επισκόπηση ενεργειών</em> είναι διαθέσιμη επιλέγοντας το στοιχείο <gui>Επισκόπηση ενεργειών</gui> από το μενού.</p>
+    </item>
+    <item>
+      <title>Αρχικό πλαίσιο</title>
+      <p>Το <em>αρχικό πλαίσιο</em> είναι μια λίστα των αγαπημένων σας εφαρμογών που προβάλλεται στα αριστερά της επισκόπησης <gui>Ενέργειες</gui>. Οι εφαρμογές που εκτελούνται προς το παρόν εμφανίζονται επίσης εκεί. Το αρχικό πλαίσιο μερικές φορές αναφέρεται ως η <em>προσάρτηση</em>.</p>
+    </item>
+    <item>
+      <title>Καυτή γωνία</title>
+      <p>Η <em>καυτή γωνία</em> είναι η γωνία στα πάνω αριστερά της οθόνης. Όταν μετακινείτε τον δείκτη σε αυτήν τη γωνία, η επισκόπηση <gui>Ενέργειες</gui> ανοίγει.</p>
+    </item>
+    <item>
+      <title>Κλείδωμα οθόνης</title>
+      <p>Το <em>κλείδωμα οθόνης</em> εμφανίζει μια εικόνα στην οθόνη, ενώ ο υπολογιστής σας είναι κλειδωμένος. Δίνει χρήσιμες πληροφορίες για το τι έχει συμβεί, ενώ είσαστε μακριά και επιτρέπει τον έλεγχο της αναπαραγωγής μέσων χωρίς να πρέπει να ξεκλειδωθεί.</p>
+    </item>
+    <item>
+      <title>Ειδοποιήσεις</title>
+      <p><em>Notifications</em> are messages that pop up at the bottom of the
+      screen, telling you that something just happened. For example, when
+      someone chatting with you sends a message, a notification will pop up to
+      tell you. If you don't want to deal with a message right now, it is
+      hidden in your <em>message tray</em>. Move your mouse to the bottom of
+      the screen (or press
+      <keyseq><key xref="keyboard-key-super">Super</key><key>M</key></keyseq>)
+      to see your message tray.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>Μενού θέσεων</title>
+      <p>Το <em>Μενού θέσεων</em> ανοίγει όταν πατάτε <gui>θέσεις</gui> στην <gui>πάνω γραμμή</gui>. Δίνει γρήγορη πρόσβαση σε σημαντικούς φακέλους, για παράδειγμα <gui>Λήψεις</gui> ή <gui>Εικόνες</gui>.</p>
+    </item>
+    <item>
+      <title>Ρυθμίσεις</title>
+      <p>Οι <em>Ρυθμίσεις</em> είναι εκεί που μπορείτε να αλλάξετε τις προτιμήσεις κ.ο.κ., παρόμοια με το πίνακα ελέγχου στα Windows ή το σύστημα προτιμήσεων στα Mac OS. Πατήστε το μενού συστήματος στα δεξιά της πάνω γραμμής και πατήστε το κουμπί <gui>Ρυθμίσεις</gui> για να τις προσπελάσετε. Εναλλακτικά, μπορείτε να ανοίξετε την επισκόπηση <gui>Ενέργειες</gui> και να αρχίσετε να πληκτρολογείτε <gui>Ρυθμίσεις</gui>, έπειτα επιλέξτε το φάτνωμα <gui>Ρυθμίσεις</gui>.</p>
+    </item>
+    <item>
+      <title>Εναλλαγή παραθύρου με λογότυπο-στηλοθέτη</title>
+      <p>Όταν κρατάτε πατημένο το πλήκτρο <key xref="keyboard-key-super">λογότυπου</key> και έπειτα πατάτε <key>στηλοθέτης</key>, εμφανίζεται ένας <em>εναλλάκτης παραθύρου</em>. Αυτό εμφανίζει τα εικονίδια των εφαρμογών που έχετε προς το παρόν ανοίξει.</p>
+    </item>
+    <item>
+      <title>Μενού συστήματος</title>
+      <p>Το <em>μενού συστήματος</em> είναι στα δεξιά της πάνω γραμμής. Μπορείτε να ενημερώσετε κάποιες από τις ρυθμίσεις σας, να βρείτε πληροφορίες για την <gui>ασύρματη</gui> σύνδεση, να αλλάξετε χρήστη, να αποσυνδεθείτε και να τερματίσετε τον υπολογιστή σας από αυτό το μενού.</p>
+    </item>
+    <item>
+      <title>Πάνω γραμμή</title>
+      <p if:test="!platform:gnome-classic">Η <em>πάνω γραμμή</em> είναι η γραμμή που εκτελείται μαζί με το ακραίο πάνω μέρος της οθόνης. Ο σύνδεσμος <gui>Ενέργειες</gui> είναι στο ένα άκρο της πάνω γραμμής και το μενού συστήματος είναι στο άλλο.</p>
+      <p if:test="platform:gnome-classic">Η <em>πάνω γραμμή</em> είναι η γραμμή που εκτελείται μαζί με το ακραίο πάνω μέρος της οθόνης. Το μενού <gui>Εφαρμογές</gui> είναι στο ένα άκρο της πάνω γραμμής και το μενού συστήματος είναι στην άλλη.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>Λίστα παραθύρων</title>
+      <p>Η <em>λίστα παραθύρων</em> είναι η γραμμή τέρμα κάτω στην οθόνη, που εμφανίζει κουμπιά για όλα τα ανοικτά παράθυρα.</p>
+    </item>
+    <item>
+      <title>Χώρος εργασίας</title>
+      <p>Μπορείτε να βάλετε παράθυρα σε διαφορετικούς <em>χώρους εργασίας</em>. Είναι ένας βολικός τρόπος ομαδοποίησης και διαχωρισμού παραθύρων.</p>
+    </item>
+    <item>
+      <title>Επιλογέας χώρου εργασίας</title>
+      <p>Ο <em>επιλογέας χώρου εργασίας</em> είναι ο κατάλογος των χώρων εργασίας που προβάλλονται στα δεξιά της προβολής των <gui>παραθύρων</gui> στην επισκόπηση <gui>Ενέργειες</gui>.</p>
+    </item>
+  </terms>
+
+</page>

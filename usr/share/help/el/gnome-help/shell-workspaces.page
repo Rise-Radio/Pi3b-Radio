@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="ui" version="1.0 if/1.0" id="shell-workspaces" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="shell-windows#working-with-workspaces" group="#first"/>
+
+    <revision pkgversion="3.8.0" date="2013-04-23" status="review"/>
+    <revision pkgversion="3.10.3" date="2014-01-26" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Έργο Τεκμηρίωσης GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Οι χώροι εργασίας είναι ένας τρόπος ομαδοποίησης παραθύρων στην επιφάνεια εργασίας σας.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Τι είναι ένας χώρος εργασίας και πώς θα με βοηθήσει;</title>
+
+    <media type="image" src="figures/shell-workspaces.png" width="162" height="434" style="floatend floatright">
+        <p>Επιλογέας χώρου εργασίας</p>
+    </media>
+
+  <p if:test="!platform:gnome-classic">Οι χώροι εργασίας αναφέρονται στην ομαδοποίηση παραθύρων της επιφάνειας εργασίας σας. Μπορείτε να δημιουργήσετε πολλούς χώρους εργασίας, που δρουν ως εικονικές επιφάνειες εργασίας. Οι χώροι εργασίας σκοπεύουν να μειώσουν την αταξία και να κάνουν την επιφάνεια εργασίας πιο εύκολη στην περιήγηση.</p>
+
+  <p if:test="platform:gnome-classic">Οι χώροι εργασίας αναφέρονται στην ομαδοποίηση παραθύρων της επιφάνειας εργασίας σας. Μπορείτε να δημιουργήσετε πολλούς χώρους εργασίας, που δρουν ως εικονικές επιφάνειες εργασίας. Οι χώροι εργασίας σκοπεύουν να μειώσουν την αταξία και να κάνουν την επιφάνεια εργασίας πιο εύκολη στην περιήγηση.</p>
+
+  <p>Οι χώροι εργασίας μπορούν να χρησιμοποιηθούν για την οργάνωση της εργασίας σας. Για παράδειγμα, μπορείτε να έχετε όλα τα παράθυρα επικοινωνίας, όπως αλληλογραφία και το πρόγραμμά σας συνομιλίας, στην επιφάνεια εργασίας και την εργασία που κάνετε σε έναν διαφορετικό χώρο εργασίας. Ο διαχειριστής μουσικής σας μπορεί να είναι ένας τρίτος χώρος εργασίας.</p>
+
+<p>Χρησιμοποιώντας χώρους εργασίας:</p>
+
+<list>
+  <item>
+    <p if:test="!platform:gnome-classic">In the
+    <gui xref="shell-terminology">&gt;Activities</gui> overview, move your cursor
+    to the right-most side of the screen.</p>
+    <p if:test="platform:gnome-classic">Πατήστε το πλήκτρο <key xref="keyboard-key-super">λογότυπου</key> για να ανοίξετε την επισκόπηση <gui>Ενέργειες</gui> και έπειτα μετακινήστε τον δρομέα σας στη πιο δεξιά πλευρά της οθόνης.</p>
+  </item>
+  <item>
+    <p if:test="!platform:gnome-classic">Ένα κάθετο πλαίσιο θα εμφανιστεί προβάλλοντας τους χώρους εργασίας σε χρήση, συν έναν κενό χώρο εργασίας. Αυτό είναι ο <link xref="shell-terminology">επιλογέας χώρου εργασίας</link>.</p>
+    <p if:test="platform:gnome-classic">Ένα κάθετο πλαίσιο θα εμφανιστεί προβάλλοντας τους διαθέσιμους χώρους εργασίας. Αυτός είναι ο <link xref="shell-terminology">επιλογέας χώρου εργασίας</link>.</p>
+  </item>
+  <item if:test="!platform:gnome-classic">
+    <p>Για να προσθέσετε έναν χώρο εργασίας, μεταφέρτε και αποθέστε ένα παράθυρο από έναν υπάρχοντα χώρο εργασίας σε έναν κενό χώρο εργασίας στον <link xref="shell-terminology">επιλογέα χώρου εργασίας</link>. Αυτός ο χώρος εργασίας τώρα περιέχει το παράθυρο που αποθέσατε και ένας νέος χώρος εργασίας θα εμφανιστεί από κάτω του.</p>
+  </item>
+  <item if:test="!platform:gnome-classic">
+    <p>Για να αφαιρέσετε έναν χώρο εργασίας, απλά κλείστε όλα τα παράθυρά του ή μετακινήστε τα σε άλλους χώρους εργασίας.</p>
+  </item>
+</list>
+
+<p if:test="!platform:gnome-classic">Υπάρχει πάντα τουλάχιστον ένας χώρος εργασίας.</p>
+
+</page>

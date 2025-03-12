@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libdvbpsi.so.9.0.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libdvbpsi9
+/usr/share/doc/libdvbpsi9/copyright
+/usr/share/doc/libdvbpsi9/changelog.Debian.gz
+/usr/share/doc/libdvbpsi9/changelog.gz
+/usr/lib/arm-linux-gnueabihf/libdvbpsi.so.9

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="power-lowpower" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="power#battery"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <desc>બેટરીને સંપૂર્ણપણે ડિસ્ચાર્જ કરવાની પરવાનગી આપવાનું તેની માટે ખરાબ છે.</desc>
+    <credit type="author">
+      <name>GNOME દસ્તાવેજીકરણ પ્રોજેક્ટ</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>ઍકાટેરીના ગેરાસીમોવા</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>શા માટે મારું કમ્પ્યૂટર બંધ/હાઇબનેટમાં ગયુ જ્યારે બેટરી એ 10% થઇ ગઇ?</title>
+
+<p>જ્યારે બેટરીનું ચાર્જ લેવલ ઘણો ઓછો હોય તો, તમારું કમ્પ્યૂટર આપમેળે <link xref="power-hibernate">હાઇબરનેટ</link> થઇ જશે. તેની ખાતરી કરો કે બેટરી સંપૂર્ણપણે ડિસ્ચાર્જ થતી નથી, જ્યાં સુધી આ બેટરી માટે ખરાબ હોય. જો બેટરી સંપૂર્ણપણે જતી રહે તો, કમ્પ્યૂટરને યોગ્ય રીતે બંધ કરવા માટે પૂરતો સમય હશે નહિં.</p>
+
+<p>You can change what happens when the battery level gets too low by opening
+<app>Power</app> from the <gui xref="shell-terminology">Activities</gui>
+overview. Look at the <gui>When battery power is critical</gui> setting. You
+can choose for the computer to hibernate or shut down. If you choose shut down,
+your applications and documents <em>will not</em> be saved before the computer
+turns off.</p>
+
+<p>અમુક કમ્પ્યૂટરો પાસે હાઇબરનેટીંગમાં સમસ્યા હોય તો, અને કાર્યક્રમોને પ્રાપ્ત કરવા સક્ષમ હશો નહિં અને દસ્તાવેજો જે તમે ખોલેલ છે જ્યારે તમે ફરી કમ્પ્યૂટરને ચાલુ કરો. આ સ્થિતિમાં, તે શક્ય છે કે તમે તમારાં અમુક કામને ગુમાવી શકો છો જો તમે કમ્પ્યૂટરને હાઇબરનેટ કરતા પહેલાં તેને સંગ્રહો નહિં તો. તમે <link xref="power-suspendfail">હાઇબરનેશન સાથે સમસ્યાઓને સુધારવા</link> સક્ષમ હોઇ શકો છો.</p>
+
+</page>

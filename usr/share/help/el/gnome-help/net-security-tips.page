@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="net-security-tips" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="net-general"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-21" status="final"/>
+
+    <credit type="author">
+      <name>Steven Richards</name>
+      <email its:translate="no">steven.richardspc@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Γενικές συμβουλές που πρέπει να θυμόσαστε όταν χρησιμοποιείτε το διαδίκτυο.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Μένοντας ασφαλής στο διαδίκτυο</title>
+
+  <p>Ένας πιθανός λόγος χρήσης του Λίνουξ είναι η σφριγηλή ασφάλεια του. Ένας λόγος που το Λίνουξ είναι σχετικά ασφαλές από κακόβουλο λογισμικό και ιούς οφείλεται στον μικρό αριθμό των ατόμων που το χρησιμοποιούν. Οι ιοί σκοπεύουν σε δημοφιλή λειτουργικά συστήματα, όπως Windows, που έχουν μια πολύ μεγάλη βάση χρηστών. Το Λίνουξ είναι επίσης πολύ ασφαλές λόγω της φύσης του ανοικτού λογισμικού, που επιτρέπει σε ειδικούς να τροποποιούν και να βελτιώνουν τα γνωρίσματα ασφάλειας που περιέχονται με κάθε διανομή.</p>
+
+  <p>Παρά τα μέτρα που πάρθηκαν για να επιβεβαιωθεί ότι η εγκατάσταση του Λίνουξ είναι ασφαλής, υπάρχουν πάντα τρωτότητες. Ως μέσος χρήστης στο διαδίκτυο μπορείτε ακόμα να είσαστε τρωτός σε:</p>
+
+  <list>
+    <item>
+      <p>Απάτες ψαρέματος (ιστοτόπους και μηνύματα που προσπαθούν να αποκτήσουν ευαίσθητες πληροφορίες μέσα από εξαπάτηση)</p>
+    </item>
+    <item>
+      <p><link xref="net-email-virus">Προώθηση κακόβουλων μηνυμάτων</link></p>
+    </item>
+    <item>
+      <p><link xref="net-antivirus">Εφαρμογές με κακόβουλο στόχο (ιούς)</link></p>
+    </item>
+    <item>
+      <p><link xref="net-wireless-wepwpa">Πρόσβαση απομακρυσμένου/τοπικού δικτύου χωρίς εξουσιοδότηση</link></p>
+    </item>
+  </list>
+
+  <p>Για να παραμείνετε ασφαλής με σύνδεση, να θυμόσαστε τις παρακάτω συμβουλές:</p>
+
+  <list>
+    <item>
+      <p>Να είσαστε προσεκτικοί με μηνύματα, συνημμένα ή συνδέσμους που στάλθηκαν από άτομα που δεν ξέρετε.</p>
+    </item>
+    <item>
+      <p>Εάν η προσφορά ενός ιστοτόπου είναι υπερβολικά καλή για να είναι αληθινή, ή ζητά ευαίσθητες πληροφορίες που φαίνονται περιττές, τότε σκεφτείτε δυο φορές για το ποιες πληροφορίες υποβάλετε και τις ενδεχόμενες συνέπειες εάν αυτή η πληροφορία εκτίθεται σε κλέφτες ή άλλους εγκληματίες.</p>
+    </item>
+    <item>
+      <p>Να προσέχετε στην παροχή οποιασδήποτε εφαρμογής με <link xref="user-admin-explain">άδειες επιπέδου υπερχρήστη</link>, ειδικά αυτές που δεν έχετε χρησιμοποιήσει πριν ή εφαρμογές που δεν είναι γνωστές. Δίνοντας σε οποιονδήποτε άδειες επιπέδου υπερχρήστη βάζει τον υπολογιστή σας σε υψηλό κίνδυνο εκμετάλλευσης.</p>
+    </item>
+    <item>
+      <p>Βεβαιωθείτε ότι εκτελείτε μόνο τις απαραίτητες υπηρεσίες απομακρυσμένης πρόσβασης. Έχοντας τα SSH ή VNC μπορεί να είναι χρήσιμο, αλλά αφήνει επίσης τον υπολογιστή σας ανοικτό σε παρείσφρηση εάν δεν είναι ασφαλισμένο κατάλληλα. Σκεφτείτε τη χρήση ενός <link xref="net-firewall-on-off">τείχους προστασίας</link> για να βοηθήσει την προστασία του υπολογιστή σας από παρείσφρηση.</p>
+    </item>
+  </list>
+
+</page>

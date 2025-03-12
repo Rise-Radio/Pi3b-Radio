@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="wacom-stylus" xml:lang="ru">
+  <info>
+
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <link type="guide" xref="wacom"/>
+
+    <credit type="author copyright">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc>Настройка функций кнопок и чувствительности нажатия для пера Wacom.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Настройка пера</title>
+
+<steps>
+  <item>
+    <p>Откройте режим <gui xref="shell-terminology">Обзора</gui> и начинайте вводить<gui>Планшет Wacom</gui>.</p>
+  </item>
+  <item>
+    <p>Нажмите <gui>Планшет Wacom</gui> чтобы открыть этот раздел настроек.</p>
+
+    <note style="tip"><p>Если планшет не обнаружен, вы увидите сообщение <gui>Подключите или включите планшет Wacom</gui>. Нажмите <gui>Настройки Bluetooth</gui> чтобы подключить беспроводной планшет.</p></note>
+  </item>
+  <item><p>В нижней части панели находятся подробности и настройки пера, включающие в себя имя устройства (класс пера) и диаграмму слева. Эти настройки можно изменять:</p>
+    <list>
+      <item><p><gui>Чувствительность нажатия ластика:</gui> используйте ползунок для настройки чувствительности (того, как сила нажатия преобразуется в цифровые значения) в диапазоне от <gui>Высокая</gui> до <gui>Низкая</gui>.</p></item>
+      <item><p>Настройка <gui>Клавиши/колесо прокрутки</gui> (они изменяются для отражения действий пера). Нажмите на меню рядом с каждым обозначением, чтобы выбрать одно из этих действий: Ничего, Нажатие левой клавиши мышки, Нажатие средней клавиши мышки, Нажатие правой клавиши мышки, Прокрутка вверх, Прокрутка вниз, Прокрутка влево, Прокрутка вправо, Назад, Вперёд.</p></item>
+      <item><p><gui>Чувствительность нажатия пера:</gui> используйте ползунок для настройки чувствительности в диапазоне от <gui>Высокая</gui> до <gui>Низкая</gui>.</p></item>
+    </list>
+  </item>
+</steps>
+
+<note style="info"><p>Если у вас более одного пера, то при приближении дополнительного пера к планшету рядом с названием пера появится переключатель страниц. Используйте его для выбора, какое из перьев вы будете настраивать.</p>
+</note>
+
+</page>

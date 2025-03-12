@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="files-sort" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="files"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-09-25" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ordenar archivos por nombre, tamaño, tipo, o por cuando se modificaron.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Ordenar archivos y carpetas</title>
+
+<p>Puede ordenar los archivos de una carpeta de diferentes formas; por ejemplo, por fecha o tamaño. Consulte la <link xref="#ways"/>para ver una lista de formas habituales de ordenar archivos. Consulte la <link xref="nautilus-views"/> para obtener información sobre cómo cambiar la ordenación predeterminada.</p>
+
+<p>La forma en la que ordene los archivos dependerá de la <em>vista de carpeta</em> que esté usando. Puede cambiar la vista actual usando los botones de lista o de icono en la barra de herramientas.</p>
+
+<section id="icon-view">
+  <title>Vista de icono</title>
+
+  <p>To sort files in a different order, click the
+  <gui><media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media></gui>
+  button in the toolbar and choose <gui>By Name</gui>, <gui>By Size</gui>,
+  <gui>By Type</gui>, <gui>By Modification Date</gui>, or <gui>By Access
+  Date</gui>.</p>
+
+  <p>Por ejemplo, si selecciona <gui>Por nombre</gui>, los archivos se ordenarán según sus nombres, en orden alfabético. Consulte otras opciones en la <link xref="#ways"/>.</p>
+
+  <p>You can sort in the reverse order by selecting <gui>Reversed Order</gui>
+  from the menu.</p>
+
+</section>
+
+<section id="list-view">
+  <title>Vista de lista</title>
+
+  <p>Para ordenar los archivos de forma diferente, pulse en una de las cabeceras de las columnas en el gestor de archivos. Por ejemplo, pulse en <gui>Tipo</gui> para ordenar por tipo de archivo. Pulse de nuevo en la cabecera de la columna para ordenar en orden inverso.</p>
+  <p>In list view, you can show columns with more attributes and sort on those
+  columns. Click the
+  <gui><media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media></gui>
+  button in the toolbar, pick <gui>Visible Columns</gui> and select the columns
+  that you want to be visible. You will then be able to sort by those columns.
+  See <link xref="nautilus-list"/> for descriptions of available columns.</p>
+
+</section>
+
+<section id="ways">
+  <title>Maneras de ordenar archivos</title>
+
+  <terms>
+    <item>
+      <title>Por nombre</title>
+      <p>Ordena alfabéticamente por el nombre del archivo.</p>
+    </item>
+    <item>
+      <title>Por tamaño</title>
+      <p>Ordena por el tamaño del archivo (cuánto espacio ocupa). Ordena de menor a mayor de manera predeterminada.</p>
+    </item>
+    <item>
+      <title>Por tipo</title>
+      <p>Ordena alfabéticamente por el tipo de archivo. Los archivos del mismo tipo se agrupan, a continuación, ordenados por nombre.</p>
+    </item>
+    <item>
+      <title>Por fecha de modificación</title>
+      <p>Ordena por la fecha y hora en las que se modificó un archivo por última vez. Ordena de la más antigua a la más reciente de manera predeterminada.</p>
+    </item>
+    <item>
+      <title>By Access Date</title>
+      <p>Sorts by the date and time that a file was last read. Sorts from
+      oldest to newest by default.</p>
+    </item>
+  </terms>
+
+</section>
+
+</page>

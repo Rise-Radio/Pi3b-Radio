@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="printing-order" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="printing#paper"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>逐份打印和反向顺序打印。</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>用相反的顺序打印。</title>
+
+  <section id="reverse">
+    <title>逆序</title>
+
+    <p>通常打印是从第一页开始一直到最后一页，因此打完最后一张放在了上面，如果需要您可以按相反顺序来打印。</p>
+
+    <p>要反转顺序：</p>
+
+    <steps>
+      <item>
+        <p>点菜单<guiseq><gui>文件</gui><gui>打印</gui></guiseq>。</p>
+      </item>
+      <item>
+        <p>在打印对话框的<gui>常规</gui>标签中，打勾选中<em>副本</em>下面的<gui>逆序</gui>。这样就会从最后一张开始打印。</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="collate">
+    <title>逐份打印</title>
+
+  <p>If you are printing more than one copy of the document, the print-outs
+  will be grouped by page number by default (that is, all of the copies of page
+  one come out, then the copies of page two, and so on). <em>Collating</em>
+  will make each copy come out with its pages grouped together in the right
+  order instead.</p>
+
+  <p>要逐份打印：</p>
+
+  <steps>
+    <item>
+      <p>点菜单<guiseq><gui>文件</gui><gui>打印</gui></guiseq>。</p>
+    </item>
+    <item>
+      <p>在打印对话框的<gui>常规</gui>标签中，打勾选中<em>副本</em>下面的<gui>要逐份打印</gui>。</p>
+    </item>
+  </steps>
+ <!-- Need to add this image <media type="image" src="figures/reverse-collate.png"/> -->
+</section>
+
+</page>

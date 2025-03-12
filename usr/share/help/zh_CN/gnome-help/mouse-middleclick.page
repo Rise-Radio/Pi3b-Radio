@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="mouse-middleclick" xml:lang="zh-CN">
+
+<info>
+ <desc>使用鼠标中键来打开程序、粘贴文本、打开标签等等。</desc>
+
+ <link type="guide" xref="tips"/>
+ <link type="guide" xref="mouse#tips"/>
+
+ <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+
+ <credit type="author">
+  <name>Tiffany Antopolski</name>
+  <email>tiffany.antopolski@gmail.com</email>
+ </credit>
+ <credit type="author">
+   <name>Shaun McCance</name>
+   <email>shaunm@gnome.org</email>
+ </credit>
+ <credit type="editor">
+   <name>Michael Hill</name>
+   <email>mdhillca@gmail.com</email>
+ </credit>
+ <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>单击中键</title>
+
+<p>许多鼠标和触摸板都有一个中键，在鼠标的滚轮上，您可以直接按滚轮来完成中键点击，如果您没有中键可以同时按下左键和右键来完成中键点击。</p>
+
+<p>如果触摸板支持多指点按，您可以同时按三个手指来完成中键点击。您要在触摸板的设置中<link xref="mouse-touchpad-click">启用鼠标点击</link>。</p>
+
+<p>许多程序用中键作为高级的快捷键。</p>
+
+<list>
+  <item><p>最常用的是用来粘贴选中的文本(这有时也称作选择即粘贴)。选中您想粘贴的文本，然后定位到粘贴位置，按一下中键，选中的文本就粘贴到了鼠标位置。</p>
+  <p>中键粘贴文本跟通常的剪贴板是完全分开的，选中的文本并不复制到剪贴板中，这种快速方法仅用于鼠标中键。</p></item>
+
+  <item><p>使用滚动条和滑块时，在空白区域单击一下将向对应的方向滚动一定的距离(例如向下滚动一页)。您也可以中键单击空白部分来将滚动条或滑块移动到您按下的位置。</p></item>
+
+  <item><p>在<gui>活动</gui>概览中，您可以通过中键点击，在新工作区快速打开一个应用程序窗口。在应用程序图标上点击鼠标中键，可以在左侧的快速启动栏中，也可以在应用程序视图中。应用程序视图在快速启动栏中使用风格按钮。</p></item>
+
+  <item><p>绝大多数浏览器都允许使用中键在新标签打开链接，只需用中键点击一个链接，它就会在新标签页打开，但是在<app>火狐</app>中要特别小心，在<app>火狐</app>中，如果您中键点击到别的地方而不是链接上，它会试图将选中的文本作为链接打开，就像是用中键粘贴文本到地址栏，然后按了<key>回车键</key>。</p></item>
+
+  <item><p>在文件管理器中，中键有两种用法：如果您点击一个文件夹，它将在新标签打开，这类似于浏览器的行为，如果您点击的是文件，将会打开它就像双击一样。</p></item>
+</list>
+
+<p>一些程序允许您使用中键按钮执行其他功能。搜索程序帮助，查找<em>中键点击</em>或<em>鼠标中键</em>的相关说明。</p>
+</page>

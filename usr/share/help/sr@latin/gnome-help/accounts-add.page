@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-add" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="draft"/>
+    <revision pkgversion="3.9.92" date="2012-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2013-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Džim Kembel</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Majkl Hil</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <desc>Povežite se na nalog na mreži.</desc>
+</info>
+
+  <title>Dodajte nalog</title>
+
+  <p>Dodavanje naloga će pomoći u povezivanju vaših naloga na mreži sa vašom Gnomovom radnom površi. Zato će vam, vaš program za poštu, program za ćaskanje i ostali odnosni programi biti podešeni.</p>
+
+  <steps>
+    <item>
+      <p>Otvorite pregled <gui xref="shell-terminology">Aktivnosti</gui> i počnite da kucate <gui>Nalozi na mreži</gui>.</p>
+    </item>
+    <item>
+      <p>Kliknite na <gui>naloge na mreži</gui> da otvorite panel.</p>
+    </item>
+    <item>
+      <p>Click the <gui>+</gui> button in the lower-left corner of the
+      window.</p>
+    </item>
+    <item>
+      <p>Izaberite vrstu naloga koji želite da dodate.</p>
+      <p>Ako želite da dodate više od jedne vrste naloga, možete to da uradite kasnije.</p>
+    </item>
+    <item>
+      <p>Otvoriće se prozorče veb sajta u kome ćete moći da unesete podatke vašeg naloga na mreži. Na primer, ako podešavate Guglov nalog, unesite vaše korisničko ime i lozinku za Gugl.</p>
+    </item>
+    <item>
+      <p>Ako ste ispravno uneli vaše podatke, biće vam zatraženo da dozvolite Gnomov pristup vašem nalogu na mreži. Ovlastite pristup da nastavite.</p>
+    </item>
+    <item>
+      <p>Sve usluge koje nudi dostavljač naloga biće unapred uključene. <link xref="accounts-disable-service">Prebacite</link> pojedinačne usluge na <gui>ISKLJ.</gui> da ih isključite.</p>
+    </item>
+  </steps>
+
+  <p>Nakon što ste dodali naloge, svi programi koje ste izabrali samostalno će upotrebiti ove podatke kada ih budete pokrenuli.</p>
+
+  <note style="tip">
+    <p>Iz bezbednosnih razloga, Gnom neće uskladištiti vašu lozinku na vašem računaru. Umesto toga, uskladištiće prsten koji obezbeđuje usluga na mreži. Ako želite da u potpunosti opozovete vezu između vaše radne površi i usluge na mreži, <link xref="accounts-remove">uklonite</link> je.</p>
+  </note>
+
+</page>

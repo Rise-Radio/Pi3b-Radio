@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-create" xml:lang="as">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author editor">
+      <name>একাটেৰিনা গেৰাচিমভা</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>জুলিটা ইনকা</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>মাইকেল হিল</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc><app>অনলাইন একাওন্টসমূহ</app> ব্যৱহাৰ কৰি এটা নতুন একাওন্ট সৃষ্টি কৰক।</desc>
+  </info>
+
+  <title>এটা অনলাইন একাওন্ট সৃষ্টি কৰক</title>
+
+  <p>কিছুমান অনলাইন একাওন্ট সেৱা প্ৰদানকাৰীসকলে <app>Online Accounts</app> লৈ যোগ কৰাকৈ এটা একাওন্ট সৃষ্টি কৰাৰ অনুমতি দিয়ে। ই আপোনাক এটা এপ্লিকেচনৰ পৰা আপোনাৰ সকলো অনলাইন একাওন্ট ব্যৱস্থাপনা কৰাৰ অনুমতি দিয়ে।</p>
+
+  <!-- Tested with Google -->
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p><gui style="button">+</gui> ক্লিক কৰক।</p>
+    </item>
+    <item>
+      <p>Select the type of account which you want to add. Some account types
+      may <link xref="accounts-provider-not-available">not be
+      available</link>.</p>
+    </item>
+    <item>
+      <p>If the service allows you to create an account, you should see more
+      information on how to do this.</p>
+      <note>
+        <p>সকলো অনলাইন একাওন্ট প্ৰদানকাৰীয়ে এই স্তৰত এটা একাওন্ট সৃষ্টি কৰাৰ অনুমতি নিদিয়ে। যদি আপুনি ৰেজিস্টাৰ কৰিব খোজা সেৱাৰ বাবে ই সত্য হয়, আপুনি এটা একাওন্ট সৃষ্টি কৰিবলৈ এটা বিকল্প পদ্ধতি ব্যৱহাৰ কৰিব লাগিব।</p>
+      </note>
+    </item>
+    <item>
+      <p>ৰেজিস্ট্ৰেষণ ফৰ্ম পূৰন কৰক। আপোনাক কিছুমান বিৱৰণ যেনে ব্যৱহাৰকাৰীনাম আৰু পাছৱাৰ্ড খোজা হব।</p>
+    </item>
+    <item>
+      <p>আপোনাৰ নতুন একাওন্টক <app>অনলাইন একাওন্টসমূহ</app> ৰ সৈতে ব্যৱহাৰ কৰিবলৈ আপুনি ইয়াক GNOME অভিগম প্ৰদান কৰিব লাগিব।</p>
+    </item>
+    <item>
+      <p>All services that are offered by an account provider will be enabled
+      by default. <link xref="accounts-disable-service">Switch</link>
+      individual services to <gui>OFF</gui> to disable them.</p>
+    </item>
+  </steps>
+
+</page>

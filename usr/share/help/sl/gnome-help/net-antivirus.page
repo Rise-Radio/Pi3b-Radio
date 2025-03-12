@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="net-antivirus" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="net-security"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Dokumentacijski projekt GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Za Linux obstaja zelo malo virusov, zato verjetno protivirusnega programa ne potrebujete.</desc>
+  </info>
+
+  <title>Ali potrebujem protivirusni program?</title>
+
+  <p>Če ste navajeni uporabljati Windows ali Mac OS, ste verjetno navajeni, da protivirusni se program izvaja ves čas. Protivirusni program se izvaja v ozadju ter nenehno preverja za obstoj računalniških virusov, ki bi lahko našli svojo pot na vaš računalnik in povzročili težave.</p>
+
+  <p>Za Linux obstajajo protivirusni programi, vendar pa vam jih verjetno ni treba uporabljati. Virusi, ki vplivajo na Linux, so še vedno zelo redki. Nekateri trdijo, da je to zato, ker je Linux ni tako razširjen kot drugi operacijski sistemi, zato zanj nihče ne piše virusov. Drugi trdijo, da je Linux bolj varen in da so varnostni problemi, ki bi jih lahko virusi zlorabili, popravljeni zelo hitro.</p>
+
+  <p>Ne glede na razlog, so virusi za Linux tako redki, da vam trenutno glede njih ni treba skrbeti.</p>
+
+  <p>V primeru da želite biti dodatno varni ali želite preveriti za obstoj virusov v datotekah, ki jih pošiljate ljudem, ki uporabljajo Windows in Mac OS, lahko še vedno namestite protivirusni program. Preverite namestilnik programov ali iščite na spletu - na voljo so številni programi.</p>
+
+</page>

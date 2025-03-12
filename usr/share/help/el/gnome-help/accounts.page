@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="accounts" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="prefs"/>
+
+    <revision pkgversion="3.5.5" version="0.1" date="2012-08-14" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <desc><link xref="accounts-create">Δημιουργία ενός νέου λογαριασμού</link>, <link xref="accounts-add">Προσθήκη ενός υπάρχοντος λογαριασμού</link>, <link xref="accounts-remove">Αφαίρεση ενός λογαριασμού</link>…</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Διαδικτυακοί λογαριασμοί</title>
+
+  <p>Μπορείτε να εισάγετε τις λεπτομέρειες σύνδεσης σας για κάποιες δικτυακές υπηρεσίες (όπως Google και Facebook) στο παράθυρο <app>Δικτυακοί λογαριασμοί</app>. Αυτό θα σας επιτρέψει την εύκολη πρόσβαση του ημερολογίου σας, της αλληλογραφίας σας, των λογαριασμών συνομιλιών σας και παρόμοιων, από αυτές τις εφαρμογές χωρίς να πρέπει να εισάγετε τις λεπτομέρειες του λογαριασμού σας ξανά.</p>
+
+</page>

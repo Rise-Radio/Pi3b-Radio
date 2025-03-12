@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-braille" xml:lang="as">
+
+  <info>
+    <link type="guide" xref="a11y#vision" group="blind"/>
+    <link type="seealso" xref="a11y-screen-reader"/>
+
+    <revision pkgversion="3.9.92" date="2013-09-18" status="incomplete"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>শ্বণ মেকেন্স</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+
+    <desc>এটা সতেজ কৰিব পৰা ব্ৰেইল প্ৰদৰ্শনৰ সৈতে <app>Orca</app> পৰ্দা পঢ়োতা ব্যৱহাৰ কৰক।</desc>
+  </info>
+
+  <title>ব্ৰেইলত পৰ্দা পঢ়ক</title>
+
+  <p>GNOME এ এটা সতেজ কৰিব পৰা ব্ৰেইল প্ৰদৰ্শনত ব্যৱহাৰকাৰী আন্তঃপৃষ্ঠ প্ৰদৰ্শন কৰিবলৈ <app>Orca</app> পৰ্দা ৰিডাৰ প্ৰদান কৰে। আপুনি GNOME কেনেকৈ ইনস্টল কৰিছে, তাৰ ওপৰত নিৰ্ভৰ কৰি, আপোনাৰ Orca ইনস্টল নাথাকিব পাৰে। <link href="install:orca">Orca ইনস্টল কৰক</link>, তাৰ পিছত অধিক তথ্যৰ বাবে <link href="help:orca">Orca সহায়</link> চাওক।</p>
+
+</page>

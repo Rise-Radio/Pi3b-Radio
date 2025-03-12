@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="files-share" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="files" group="more"/>
+    <link type="guide" xref="sharing"/>
+    <link type="seealso" xref="nautilus-connect"/>
+
+    <revision pkgversion="3.8.2" version="0.3" date="2013-05-11" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Transfira arquivos facilmente para os seus contatos de e-mail a partir do gerenciador de arquivos.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodolfo Ribeiro Gomes</mal:name>
+      <mal:email>rodolforg@gmail.com</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>João Santana</mal:name>
+      <mal:email>joaosantana@outlook.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Compartilhando arquivos por e-mail</title>
+
+<p>Você pode compartilhar arquivos facilmente com seus contatos diretamente por e-mail do gerenciador de arquivos.</p>
+
+  <note style="important">
+    <p>Antes de começar, certifique-se de que o <app>Evolution</app> ou o <app>Geary</app> estejam instalados no seu computador e que sua conta de e-mail esteja configurada.</p>
+  </note>
+
+<steps>
+  <title>Para compartilhar um arquivo por e-mail:</title>
+    <item>
+      <p>Open the <app>Files</app> application from the
+      <gui xref="shell-terminology">Activities</gui> overview.</p>
+    </item>
+  <item><p>Localize o arquivo que queira transferir.</p></item>
+    <item>
+      <p>Right-click the file and select <gui>Email…</gui>. An email compose
+      window will appear with the file attached.</p>
+    </item>
+  <item><p>Clique em <gui>Para</gui> para escolher um contato ou para digitar um endereço de e-mail para o qual você desejar enviar o arquivo. Preencha no <gui>Assunto</gui> e no corpo da mensagem como solicitado e clique <gui>Enviar</gui>.</p></item>
+</steps>
+
+<note style="tip">
+  <p>Você pode enviar mais de um arquivo de uma vez. Selecione múltiplos arquivos mantendo pressionada a tecla <key>Ctrl</key> enquanto clica com botão direito em qualquer dos arquivos selecionados.</p>
+</note>
+
+</page>

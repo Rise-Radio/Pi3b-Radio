@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="printing-envelopes" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="printing#paper"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Фил Булл (Phil Bull)</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Джим Кэмпбелл (Jim Campbell)</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Убедитесь, что конверт расположен в правильной ориентации и выберите правильный размер бумаги.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Печать на конвертах и этикетках</title>
+
+  <p>Большинство принтеров позволяет печатать непосредственно на конвертах или листах с этикетками. Это особенно полезно, например, если вам надо отправить много писем.</p>
+
+  <section id="envelope">
+    <title>Печать на конвертах</title>
+
+  <p>There are two things you need to check when trying to print onto an
+  envelope. The first is that your printer knows what size the envelope is.
+  After you click <gui>Print</gui> and the Print window appears, go to the
+  <gui>Page Setup</gui> tab and choose the <gui>Paper type</gui> as "Envelope"
+  if you can. If you cannot do this, see if you can change the <gui>Paper
+  size</gui> to an envelope size (for example, <gui>C5</gui>). The pack of
+  envelopes will say what size they are; most envelopes come in standard
+  sizes.</p>
+
+  <p>Во-вторых, нужно убедиться, что конверты загружены в лоток принтера правильно. Прочтите об этом в руководстве по эксплуатации принтера или попробуйте выполнить печать на одном конверте и проверьте, на той ли стороне конверта распечатан текст.</p>
+
+  <note style="warning">
+    <p>Некоторые принтеры не приспособлены для печати на конвертах, особенно некоторые лазерные принтеры. Проверьте в руководстве по эксплуатации принтера, поддерживает ли он печать на конвертах. В противном случае вы можете повредить принтер, попытавшись загрузить в него конверт.</p>
+  </note>
+
+  </section>
+
+<!--
+INCOMPLETE: Please write this section!
+
+<section id="labels">
+ <title>Printing labels</title>
+
+</section>
+-->
+
+</page>

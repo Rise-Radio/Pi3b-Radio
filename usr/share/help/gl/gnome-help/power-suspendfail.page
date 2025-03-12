@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="power-suspendfail" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="power#problems"/>
+    <link type="guide" xref="hardware-problems-graphics"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <desc>Algún hardware de computador poden causar problemas coa suspensión ou hibernación.</desc>
+
+    <credit type="author">
+      <name>Proxecto de documentación de GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Porque o meu computador non se acende logo de ir suspendelo?</title>
+
+<p>Se <link xref="power-suspend">suspende</link> ou <link xref="power-hibernate">hiberna</link> o seu computador e logo trata de espertalo ou de volver a acendelo, é posíbel que non funcione como esperaba. Isto podería ser debido a que o seu hardware non permite suspender/hibernar.</p>
+
+<section id="resume">
+  <title>O meu computador está durmindo e non se esperta</title>
+  <p>Se suspende o seu computador e logo preme unha tecla ou preme co seu rato, debería espertarse e mostrar unha pantalla que lle pregunta polo seu contrasinal. Se isto non ocorre, tente presinando o botón de acendido (non o manteña premido, prémao só unha vez).</p>
+  <p>Se isto non funciona, asegúrese de que o monitor do seu computador está acendido e tente premer unha tecla novamente.</p>
+  <p>Como último recurso, apague o computador mantendo premido o botón de acendido de 5 a 10 segundos. Ao facelo perderá os seus traballos sen gardar. Logo poderá acender o equipo novamente.</p>
+  <p>Se isto ocorre sempre que pon o seu computador a durmir, pode que a suspensión non funcione co seu hardware.</p>
+  <note style="warning">
+    <p>Se o seu computador gasta enerxía e non ten unha fonte de alimentación alternativa (como unha batería), apagarase.</p>
+  </note>
+</section>
+
+<section id="hibernate">
+  <title>Ningún dos meus programas/documentos está aberto cando acendo o meu computador de novo</title>
+  <p>Se hibernou o seu computador e acendeuno de novo, e ningún dos seus documentos ou aplicativos están abertos probabelmente fallara na hibernación. Algunhas veces isto prodúcese por un problema menor, e o computador poderá hibernarse correctamente a próxima vez que o faga. Tamén pode suceder porque ten instalou unha actualización de software que require que o computador se reinicie. Neste caso, debe apagar o computador no lugar de hibernalo.</p>
+  <p>Tamén é posíbel que o computador non poida hibernarse porque o hardware non é compatíbel. Isto pode producirse por un problema dos controladores de Linux para o seu hardware, por exemplo. Pode probar isto hibernando de novo e vendo se funciona a segunda vez. Se non é así, probabelmente é un problema cos controladores do seu computador.</p>
+</section>
+
+<section id="hardware">
+  <title>Non teño conexión sen fíos á rede cando desperto o meu computador</title>
+  <p>Se suspende ou hiberna o seu computador e logo o desperta de novo, é posíbel que atope que a súa conexión a Internet, o rato, ou algún outro dispositivo non funcionan correctamente, Isto podería deberse a que o controlador do dispositivo non admite correctamente suspender/hibernar. Isto é un <link xref="hardware-driver">problema co controlador</link> e non co propio dispositivo.</p>
+  <p>Se o dispositivo ten algún interruptor de acendido, probe a apagalo e volver a acendelo. En moitas ocasións, o dispositivo volverá a funcionar de novo. Se se conecta mediante un cabo USB ou similar, desconécteo e vólvao a conectar, a ver se funciona.</p>
+  <p>Se non pode apagar ou desenchufar o dispositivo, ou se isto non funciona, e posíbel que deba reiniciar o computador para que o dispositivo volva a funcionar.</p>
+</section>
+
+</page>

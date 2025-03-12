@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="mouse-sensitivity" xml:lang="sr">
+
+  <info>
+    <link type="guide" xref="mouse"/>
+    <link type="guide" xref="a11y#mobility" group="pointing"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-10-29" status="review"/>
+
+    <credit type="author">
+      <name>Фил Бул</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit>
+      <name>Тифани Антополоски</name>
+      <email its:translate="no">tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit>
+      <name>Шон Мек Кенс</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Мајкл Хил</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Измените колико брзо ће се померати показивач када користите миша или додирну таблу.</desc>
+  </info>
+
+  <title>Подесите брзину миша и додирне табле</title>
+
+  <p>Ако се показивач помера превише брзо или споро када померате миша или користите додирну таблу, можете да дотерате брзину за ове уређаје.</p>
+
+  <steps>
+    <item>
+      <p>Отворите преглед <gui xref="shell-terminology">Активности</gui> и почните да куцате <gui>Миш и додирна табла</gui>.</p>
+    </item>
+    <item>
+      <p>Кликните на <gui>Миш и додирна табла</gui> да отворите панел.</p>
+    </item>
+    <item>
+      <p>Дотерајте клизач <gui>Брзина показивача</gui> све док не будете били задовољни померањем показивача. Видећете један клизач за сваки показивачки уређај, као што је миш или додирна табла.</p>
+    </item>
+  </steps>
+
+<!--
+<p>Sensitivity is how much your pointer initially moves when you move your mouse.</p>
+
+<p>The farther you move your mouse, the faster and faster the pointer moves
+relative to your movement. This helps you get the pointer across the screen
+without lifting your hand, while still letting you point and click accurately.
+Acceleration controls this behavior.</p>
+-->
+
+  <p>Можете да подесите различите брзине показивача за сваку врсту уређаја. На пример, можете да имате једну брзину клизања за додирну таблу преносног рачунара и другу за миша. Понекад најпригоднија подешавања за једну врсту уређаја нису најпригоднија за другу врсту. Једноставно подесите клизаче у оба одељка и за <gui>Миша</gui> и за <gui>Додирну таблу</gui>.</p>
+
+  <note>
+    <p>Одељак <gui>Додирна табла</gui> је приказан само ако ваш систем има додирну таблу, док је одељак <gui>Миш</gui> приказан само када је исти прикључен.</p>
+  </note>
+
+</page>

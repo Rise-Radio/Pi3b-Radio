@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-manual" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="guide" xref="net-wireless"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+    <revision pkgversion="3.10" date="2013-11-11" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Sie müssen die Netzwerkeinstellungen angeben, falls diese nicht automatisch zugeordnet werden.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Netzwerkeinstellungen manuell festlegen</title>
+
+  <p>Falls Ihr Netzwerk Ihrem Rechner keine Einstellungen automatisch zuweist, müssen Sie die Einstellungen manuell eingeben. Dieses Thema setzt voraus, dass Sie die korrekten Einstellungen bereits kennen. Falls nicht, fragen Sie Ihren Systemverwalter oder schauen Sie nach den Einstellungen Ihres Routers oder Switches.</p>
+
+  <steps>
+    <title>So richten Sie Ihre Netzwerkeinstellungen manuell ein:</title>
+    <item>
+      <p>Öffnen Sie die <gui xref="shell-terminology">Aktivitäten</gui>-Übersicht und tippen Sie <gui>Einstellungen</gui> ein.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui>Einstellungen</gui>, um das Panel zu öffnen.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui>Netzwerk</gui>, um das Panel zu öffnen.</p>
+    </item>
+    <item>
+      <p>Wählen Sie im linken Teilfenster die Netzwerkverbindung, die Sie manuell einrichten wollen, und klicken Sie auf den Knopf <media its:translate="no" type="image" src="figures/emblem-system.png"><span its:translate="yes">Einstellungen</span></media>. Wenn Sie beispielsweise ein kabelgebundenes Netzwerk anschließen, klicken Sie in <gui>Kabelgebunden</gui>. Im Falle einer <gui>WLAN</gui>-Verbindung befindet sich der Knopf <media its:translate="no" type="image" src="figures/emblem-system.png"><span its:translate="yes">Einstellungen</span></media> neben dem aktiven Netzwerk.</p>
+      <p>Stellen Sie sicher, dass Ihr Funknetzwerkadapter eingeschaltet oder das Netzwerkkabel eingesteckt ist.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui>IPv4</gui> und ändern Sie die <gui>Adressen</gui> auf <gui>Manuell</gui>.</p>
+    </item>
+    <item>
+      <p>Geben Sie die <gui>Adresse</gui> und <gui>Gateway</gui>-Adresse sowie die entsprechende <gui>Netzmaske</gui> ein.</p>
+      <p>Diese Adressen müssen <em>IP-Adressen</em> sein. Das heißt, sie müssen aus vier Zahlen bestehen, durch Punkte getrennt, beispielsweise »123.45.6.78«.</p>
+    </item>
+    <item>
+      <p>In the <gui>DNS</gui> section, switch <gui>Automatic</gui> to
+      <gui>OFF</gui>. Enter the IP address of a DNS server you want to use.
+      Enter additional DNS server addresses using the <gui>+</gui> button.</p>
+    </item>
+    <item>
+      <p>In the <gui>Routes</gui> section, switch <gui>Automatic</gui> to
+      <gui>OFF</gui>. Enter the <gui>Address</gui>, <gui>Netmask</gui>,
+      <gui>Gateway</gui> and <gui>Metric</gui> for a route you want to use.
+      Enter additional routes using the <gui>+</gui> button.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui>Anwenden</gui>. Falls Sie nicht mit dem Netzwerk verbunden sind, verwenden Sie das Netzwerksymbol im oberen Panel und stellen Sie eine Verbindung her. Überprüfen Sie die Netzwerkeinstellungen, indem Sie beispielsweise eine Internet-Seite aufrufen oder nach im Netzwerk freigegebenen Dateien suchen.</p>
+    </item>
+  </steps>
+
+</page>

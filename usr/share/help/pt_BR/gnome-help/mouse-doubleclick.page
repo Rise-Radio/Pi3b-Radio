@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task a11y" id="mouse-doubleclick" xml:lang="pt-BR">
+<info>
+    <link type="guide" xref="mouse"/>
+    <link type="guide" xref="a11y#mobility" group="clicking"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+    <revision pkgversion="3.9.92" date="2013-10-16" status="candidate"/>
+
+    <desc>Controle quão rapidamente você tem que pressionar o botão do mouse uma segunda vez para efetuar um clique duplo.</desc>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodolfo Ribeiro Gomes</mal:name>
+      <mal:email>rodolforg@gmail.com</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>João Santana</mal:name>
+      <mal:email>joaosantana@outlook.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Ajustando a velocidade do clique duplo</title>
+
+<p>Clique duplo acontece apenas quando você pressiona o botão do mouse duas vezes rápido suficiente. Se o segundo pressionamento ocorrer muito depois do primeiro, você terá apenas dois cliques separados, e não um clique duplo. Se você tiver dificuldade em pressionar o botão do mouse rapidamente, você deveria aumentar o tempo de espera.</p>
+
+<steps>
+  <item><p>Abra o panorama de <gui xref="shell-terminology">Atividades</gui> e comece a digitar <gui>Mouse &amp; touchpad</gui>.</p></item>
+  <item><p>Clique em <gui>Mouse &amp; touchpad</gui> para abrir o painel.</p></item>
+  <item><p>Em <gui>Geral</gui>, ajuste a barra deslizante de <gui>Duplo clique</gui> para um valor que lhe seja confortável.</p></item>
+  <item><p>Clique no botão <gui>Testar suas configurações</gui> para testar. Um clique singular na janela vai destacar o círculo externo. Um clique duplo via destacar o círculo interno.</p></item>
+</steps>
+
+<p>Se você consegue um clique duplo quando queria um clique singular apesar de ter aumentado o tempo de espera para clique duplo, o seu mouse pode estar com defeito. Tente conectar um mouse diferente no seu computador e veja se ele funciona corretamente. Alternativamente, conecte seu mouse em um computador diferente e veja se ele ainda apresenta o mesmo problema.</p>
+
+<note><p>Esta configuração vai afetar o mouse, o touchpad e qualquer outro dispositivo de apontamento.</p></note>
+
+</page>

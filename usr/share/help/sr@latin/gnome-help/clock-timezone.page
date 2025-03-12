@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="clock-timezone" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="clock"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+
+    <credit type="author">
+      <name>Gnomov projekat dokumentacije</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Majkl Hil</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ažurirajte vašu vremensku zonu na vaše trenutno mesto tako da vam vreme bude tačno.</desc>
+  </info>
+
+  <title>Izmenite vremensku zonu</title>
+
+  <steps>
+    <item>
+      <p>Kliknite na sat na sredini gornje trake i izaberite <gui>Podešavanja datuma i vremena</gui>.</p>
+    </item>
+    <item>
+      <p>Ako imate standardni nalog, moraćete da kliknete na <gui>Otključaj</gui> i da upišete <link xref="user-admin-explain">administratorsku lozinku</link>.</p>
+    </item>
+    <item>
+      <p>Ako ste <gui>Samostalnu vremensku zonu</gui> podesili na <gui>UKLJ.</gui>, vaša vremenska zona bi trebala samostalno da se osveži ako ste povezani na internet. Da ručno osvežite vašu vremensku zonu, postavite ovo na <gui>ISKLJ.</gui>.</p>
+    </item>
+    <item>
+      <p>Kliknite na <gui>Vremensku zonu</gui>, zatim izaberite vaše mesto na karti ili potražite vaš trenutni grad.</p>
+    </item>
+  </steps>
+
+  <p>Vreme će samo biti osveženo kada izaberete drugo mesto. Možete takođe poželeti da <link xref="clock-set">ručno podesite sat</link>.</p>
+
+</page>

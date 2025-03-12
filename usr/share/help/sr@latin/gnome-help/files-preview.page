@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="files-preview" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="files"/>
+    <link type="seealso" xref="nautilus-preview"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-10-06" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Šon Mek Kens</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Na brzinu prikažite i sakrijte preglede dokumenata, slika, video zapisa, i ostalog.</desc>
+  </info>
+
+<title>Pogledajte datoteke i fascikle</title>
+
+<p>Možete brzo da pregledate datoteke bez otvaranja u programu za tu namenu. Izaberite bilo koju datoteku i pritisnite razmaknicu. Datoteka će se otvoriti u jednostavnom prozoru pregleda. Ponovo pritisnite razmaknicu da odbacite pregled.</p>
+
+<p>Ugrađeni pregled podržava većinu formata datoteka za dokumente, slike, snimke, i zvuk. U pregledu, možete da prelistavate dokumente ili da premotavate vaše snimke i zvuk.</p>
+
+<p>Da prikažete pregled preko celog ekrana, kliknite na dugme <media its:translate="no" type="image" src="figures/view-fullscreen-16.png"><span its:translate="yes">preko celog ekrana</span></media> pri dnu, ili pritisnite <key>f</key>. Kliknite na <media its:translate="no" type="image" src="figures/view-fullscreen-16.png"><span its:translate="yes">preko celog ekrana</span></media> ili pritisnite <key>f</key> da napustite prikaz preko celog ekrana, ili pritisnite razmaknicu da zatvorite pregled.</p>
+
+</page>

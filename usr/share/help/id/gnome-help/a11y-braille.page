@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-braille" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="a11y#vision" group="blind"/>
+    <link type="seealso" xref="a11y-screen-reader"/>
+
+    <revision pkgversion="3.9.92" date="2013-09-18" status="incomplete"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+
+    <desc>Pakai pembaca layar <app>Orca</app> dengan tampilan Braille yang dapat disegarkan.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2011, 2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Baca layar dalam Braille</title>
+
+  <p>GNOME menyediakan pembaca layar <app>Orca</app> untuk menampilkan antar muka pengguna pada suatu tampilan Braille yang dapat disegarkan. Bergantung kepada bagaimana Anda memasang GNOME, mungkin Anda belum memasang Orca. <link href="install:orca">Pasang Orca</link>, lalu lihatlah <link href="help:orca">Bantuan Orca</link> untuk informasi lebih lanjut.</p>
+
+</page>

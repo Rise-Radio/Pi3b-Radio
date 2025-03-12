@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-vpn-connect" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="net-wireless"/>
+    <link type="guide" xref="net-wired"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision pkgversion="3.10" date="2013-12-05" status="review"/>
+
+    <credit type="author">
+      <name>Проект документирования GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <desc>Настройка VPN-соединения до локальной сети через интернет.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Подключение к VPN</title>
+
+<p>VPN (<em>Virtual Private Network</em> — виртуальная частная сеть) — это способ подключения к локальной сети через Интернет. Предположим, вы хотите подключиться к локальной сети на своём рабочем месте, когда находитесь в командировке. Вам нужно найти где-нибудь соединение с Интернетом (например, в гостинице), а затем подключиться к своей сети VPN. Вы сможете работать, как будто подключены непосредственно к сети у себя на работе, хотя на самом деле соединение с сетью будет осуществляться через интернет-соединение гостиницы. VPN-соединения обычно <em>шифруются</em>, чтобы предотвратить неавторизованный доступ к вашей локальной сети.</p>
+
+<p>Существуют различные типы VPN. В зависимости от используемого вами типа VPN может понадобиться установить некоторые дополнительные программы. Узнайте подробности о соединении у ответственного за VPN и посмотрите, какой <em>клиент VPN</em> нужно использовать. Затем зайдите в приложение для установки программного обеспечения, найдите пакет <app>NetworkManager</app>, работающий с вашим VPN (если он есть) и установите его.</p>
+
+<note>
+ <p>Если пакет NetworkManager для вашего типа VPN отсутствует, то вам, возможно, придётся загрузить и установить клиентскую программу с сайта компании, предоставляющей программное обеспечение для VPN. Вероятно, действия по её установке будут отличаться от изложенных здесь.</p>
+</note>
+
+<p>После этого можно настроить VPN-соединение:</p>
+
+  <steps>
+    <item>
+      <p>Откройте режим <gui xref="shell-terminology">Обзора</gui> и начните вводить<gui>Сеть</gui>.</p>
+    </item>
+    <item>
+      <p>Нажмите <gui>Сеть</gui> чтобы открыть центр управления.</p>
+    </item>
+    <item>
+      <p>At the bottom of the list on the left, click the <gui>+</gui> button
+      to add a new connection.</p>
+    </item>
+    <item>
+      <p>Выберите <gui>VPN</gui> в списке интерфейсов.</p>
+    </item>
+    <item>
+      <p>Выберите используемый вами тип VPN-соединения.</p>
+    </item>
+    <item>
+      <p>Введите параметры VPN-соединения. Закончив, нажмите <gui>Добавить</gui>.</p>
+    </item>
+    <item>
+      <p>Закончив настраивать VPN, нажмите область системного статуса на верхней панели, нажмите <gui>VPN</gui> и выберите только что созданное соединение. Возможно, вам понадобится ввести пароль для подключения. Как только соединение будет установлено, на верхней панели появится значок в виде замка.</p>
+    </item>
+    <item>
+      <p>Надеемся, что вы успешно подключились к VPN. В противном случае, тщательно проверьте введённые параметры соединения. Это можно сделать из раздела <gui>Network</gui>, где вы создавали соединение. Выберите VPN-соединение из списка, затем нажмите на кнопку в правом нижнем углу раздела.</p>
+    </item>
+    <item>
+      <p>Чтобы отключиться от VPN, нажмите на область системного статуса на верхней панели и затем на пункт <gui>Выключить</gui> под названием VPN подключения.</p>
+    </item>
+  </steps>
+
+</page>

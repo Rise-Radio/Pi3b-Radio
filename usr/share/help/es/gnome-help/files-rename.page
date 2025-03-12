@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="files-rename" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="files"/>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-19" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Proyecto de documentación de GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Cambiar el nombre de un archivo o de una carpeta</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Renombrar un archivo o una carpeta</title>
+
+  <p>As with other file managers, you can use <app>Files</app> to change the
+  name of a file or folder.</p>
+
+  <steps>
+    <title>Para renombrar un archivo o una carpeta:</title>
+    <item><p>Pulse con el botón derecho sobre un archivo o carpeta y seleccione <gui>Renombrar</gui>, o seleccione el archivo y pulse <key>F2</key>.</p></item>
+    <item><p>Escriba el nombre nuevo y pulse <key>Intro</key>.</p></item>
+  </steps>
+
+  <p>También puede renombrar un archivo desde la ventana de <link xref="nautilus-file-properties-basic">propiedades</link>.</p>
+
+  <p>When you rename a file, only the first part of the name of the file is
+  selected, not the file extension (the part after the <file>.</file>). The
+  extension normally denotes what type of file it is (for example,
+  <file>file.pdf</file> is a PDF document), and you usually do not want to
+  change that. If you need to change the extension as well, select the entire
+  file name and change it.</p>
+
+  <note style="tip">
+    <p>If you renamed the wrong file, or named your file improperly, you can
+    undo the rename. To revert the action, immediately click the menu button in
+    the toolbar and select <gui>Undo</gui>, or press
+    <keyseq><key>Ctrl</key><key>Z</key></keyseq>, to restore the former
+    name.</p>
+  </note>
+
+  <section id="valid-chars">
+    <title>Caracteres válidos para nombres de archivo</title>
+
+    <p>You can use any character except the <file>/</file> (slash) character in
+    file names. Some devices, however, use a <em>file system</em> that has more
+    restrictions on file names. Therefore, it is a best practice to avoid the
+    following characters in your file names: <file>|</file>, <file>\</file>,
+    <file>?</file>, <file>*</file>, <file>&lt;</file>, <file>"</file>,
+    <file>:</file>, <file>&gt;</file>, <file>/</file>.</p>
+
+    <note style="warning">
+    <p>Si nombra a un archivo con un <file>.</file> como primer carácter, el archivo estará <link xref="files-hidden">oculto</link> cuando intente verlo en el gestor de archivos.</p>
+    </note>
+
+  </section>
+
+  <section id="common-probs">
+    <title>Problemas comunes</title>
+
+    <terms>
+      <item>
+        <title>El nombre del archivo ya está en uso</title>
+        <p>You cannot have two files or folders with the same name in the same
+        folder. If you try to rename a file to a name that already exists in
+        the folder you are working in, the file manager will not allow it.</p>
+        <p>Los nombres de archivos y carpetas son sensibles a mayúsculas, por lo que el nombre <file>Archivo.txt</file> no es lo mismo que <file>ARCHIVO.txt</file>. Usar nombres diferentes como estos está permitido, pero no es recomendable.</p>
+      </item>
+      <item>
+        <title>El nombre de archivo demasiado largo</title>
+        <p>On some file systems, file names can have no more than 255
+        characters in their names.  This 255 character limit includes both the
+        file name and the path to the file (for example,
+        <file>/home/wanda/Documents/work/business-proposals/…</file>), so you
+        should avoid long file and folder names where possible.</p>
+      </item>
+      <item>
+        <title>La opción para renombrar está en gris</title>
+        <p>Si la opción <gui>Renombrar</gui> aparece en color gris, es que no tiene los permisos necesarios para renombrar el archivo. Debe tener cuidado al tratar de renombrar estos archivos, ya que cambiar el nombre a archivos protegidos puede causar problemas o hacer que su sistema se vuelva inestable. Consulte la <link xref="nautilus-file-properties-permissions"/> para obtener más información.</p>
+      </item>
+    </terms>
+
+  </section>
+
+</page>

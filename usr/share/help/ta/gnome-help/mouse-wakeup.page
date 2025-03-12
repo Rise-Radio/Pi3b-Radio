@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="mouse-wakeup" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="mouse#problems"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+
+    <desc>உங்கள் சொடுக்கியை வேலை செய்யத் தொடங்க வைக்க, நீங்கள் சொடுக்கியை சொடுக்கவோ அல்லது முன் பின் நகர்த்தவோ வேண்டி இருந்தால்.</desc>
+    <credit type="author">
+      <name>GNOME ஆவணமாக்கத் திட்டப்பணி</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>சொடுக்கி வேலை செய்யத் தொடங்கும் முன் சற்று தாமதிக்கும்</title>
+
+  <p>வயர்லெஸ் மற்றும் ஆப்டிக்கல் சொடுக்கிகளும் மடிக்கணினிகளின் தொடுதிட்டுகளும் வேலை செய்யத் தொடங்கும் முன் அவற்றை "எழுப்ப" வேண்டி இருக்கலாம். அவை பயன்பாட்டில் இல்லாத போது பேட்டரி சக்தியை சேமிக்க உறக்க முறைக்குச் சென்றுவிடும். உங்கள் சொடுக்கி அல்லது தொடுதிட்டை எழுப்ப, நீங்கள் சொடுக்கி பொத்தானை சொடுக்கலாம் அல்லது சொடுக்கியை முன்பின் நகர்த்தலாம்.</p>
+  <p>நீங்கள் தட்டச்சு செய்தலை நிறுத்திய பிறகு சற்று நேரம் கழித்து மீண்டும் உங்கள் மடிக்கணினி தொடுதிட்டுகள் வேலை செய்யும் போது, சில நேரங்களில் அவை தாமதமாக பதில் செயல் புரியலாம். நீங்கள் தட்டச்சு செய்யும் போது தற்செயலாக உங்கள் உள்ளங்கையால் தொடுதிட்டைத் தொடுவதைத் தடுப்பதற்காக உள்ள ஒரு அம்சம். விவரங்களுக்கு <link xref="mouse-disabletouchpad"/> ஐப் பார்க்கவும்.</p>
+</page>

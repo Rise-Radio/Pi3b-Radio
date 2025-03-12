@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="mouse-wakeup" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="mouse#problems"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+
+    <desc>Ja tev vajag pakustināt vai nospiest peli, pirms tā sāk reaģēt.</desc>
+    <credit type="author">
+      <name>GNOME dokumentācijas projekts</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Pelei ir aizture, pirms tā sāk strādāt</title>
+
+  <p>Bezvadu un optiskajām pelēm, tā pat kā skārienpaliktņiem uz klēpjdatoriem, var būt nepieciešams "pamosties", pirms tās sāk strādāt. Tās automātiski ieies gulēšanas režīmā, kad netiks izmantotas, lai taupītu enerģiju. Lai pamodinātu peli vai skārienpaliktni, tu vari to nospiest pogu vai pakustināt peli.</p>
+  <p>Klēpjdatoru skārienpaliktņi dažreiz reaģē ar aizkavi pēc rakstīšanas beigšanas, pirms tie sāk strādāt. Tas ir paredzēts tāpēc, lai nejauši nepiespiestu kādu skārienpaliktņa pogu ar plaukstu, rakstīšanas laikā. Skaties <link xref="mouse-disabletouchpad"/>, lai uzzinātu vairāk.</p>
+</page>

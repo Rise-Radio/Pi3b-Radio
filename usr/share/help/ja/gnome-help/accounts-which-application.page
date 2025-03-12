@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc>アプリケーションは、<app>オンラインアカウント</app>で作成したアカウントや、そのアカウントで利用するサービスをアクセスできます。</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>松澤 二郎</mal:name>
+      <mal:email>jmatsuzawa@gnome.org</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>赤星 柔充</mal:name>
+      <mal:email>yasumichi@vinelinux.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kentaro KAZUHAMA</mal:name>
+      <mal:email>kazken3@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shushi Kurose</mal:name>
+      <mal:email>md81bird@hitaki.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Noriko Mizumoto</mal:name>
+      <mal:email>noriko@fedoraproject.org</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>坂本 貴史</mal:name>
+      <mal:email>o-takashi@sakamocchi.jp</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>日本GNOMEユーザー会</mal:name>
+      <mal:email>http://www.gnome.gr.jp/</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>どのアプリケーションがオンラインアカウントを利用できますか?</title>
+
+  <p><app>Online Accounts</app> は他のアプリケーションから使用でき、アプリケーションの設定が自動的に行われます。</p>
+
+<section id="accounts-google-services">
+  <title>Google アカウントの場合</title>
+
+  <list>
+    <item>
+      <p><app>Evolution</app>、メールクライアント。メールアカウントが<app>Evolution</app>に自動的に追加されます。それにより、メールの取得や、連絡先へアクセス、また Google カレンダーの予定リスト項目の表示ができるようになります。</p>
+    </item>
+    <item>
+      <p><app>Empathy</app>, the instant messaging application. Your online
+      account will be added and you will be able to communicate with your
+      friends.</p>
+    </item>
+    <item>
+      <p><app>連絡先</app>から、連絡先の参照や編集ができるようになります。</p>
+    </item>
+    <item>
+      <p><app>ドキュメント</app>から、オンラインドキュメントにアクセスしたり、表示したりできるようになります。</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>Windows Live、Facebook、あるいは Twitter アカウントの場合</title>
+
+  <p><app>Empathy</app> がアウントを使用し、オンラインへの接続や、相手先や友達、フォロワーとのコミュニケーションができるようになります。</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>With a OneDrive account</title>
+
+  <p><app>Documents</app> can access your online documents in Microsoft
+  OneDrive and display them.</p>
+</section>
+
+<section id="account-exchange">
+  <title>With a Exchange account</title>
+
+  <p>Once you have created an Exchange account, <app>Evolution</app> will start
+  retrieving mails from this account.</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>With a ownCloud account</title>
+
+  <p>When an ownCloud account is set up, <app>Evolution</app> is able to
+  access and edit contacts and calendar appointments.</p>
+
+  <p><app>Files</app> and other applications will be able to list and access
+  your online files stored in the ownCloud installation.</p>
+</section>
+
+</page>

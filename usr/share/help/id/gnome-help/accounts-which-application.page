@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc>Aplikasi dapat memakai akun yang dibuat dalam <app>Akun Daring</app> dan layanan yang mereka ekploitasi.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2011, 2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Aplikasi mana yang memanfaatkan akun daring?</title>
+
+  <p><app>Akun Daring</app> dapat digunakan oleh aplikasi eksternal untuk secara otomatis mengkonfigurasi dirinya sendiri.</p>
+
+<section id="accounts-google-services">
+  <title>Dengan akun Google</title>
+
+  <list>
+    <item>
+      <p><app>Evolution</app>, aplikasi surel. Akun surel Anda akan otomatis ditambahkan ke <app>Evolution</app>, sehingga itu akan mengambil surel Anda, Anda akan punya akses ke kontak Anda, dan kalender akan menyajikan butir-butir dalam agenda Google Anda.</p>
+    </item>
+    <item>
+      <p><app>Empathy</app>, aplikasi perpesanan instan. Akun daring Anda akan ditambahkan dan Anda akan dapat berkomunikasi dengan teman Anda.</p>
+    </item>
+    <item>
+      <p><app>Kontak</app>, yang akan mengijinkan melihat dan menyunting kontak-kontak Anda.</p>
+    </item>
+    <item>
+      <p><app>Dokumen</app> dapat mengakses dokumen daring Anda dan menampilkannya.</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>Dengan akun Windows Live, Facebook, atau Twitter</title>
+
+  <p><app>Empathy</app> dapat menggunakan akun-akun ini untuk menghubungkan Anda daring dan mengobrol dengan para kontak, teman, dan pengikut Anda.</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>With a OneDrive account</title>
+
+  <p><app>Documents</app> can access your online documents in Microsoft
+  OneDrive and display them.</p>
+</section>
+
+<section id="account-exchange">
+  <title>Dengan akun Exchange</title>
+
+  <p>Setelah Anda membuat suatu akun Exchange, <app>Evolution</app> akan mulai mengambil surat dari akun ini.</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>Dengan akun ownCloud</title>
+
+  <p>Ketika suatu akun ownCloud telah disiapkan, <app>Evolution</app> dapat mengakses dan menyunting kontak serta janji temu kalender.</p>
+
+  <p><app>Berkas</app> dan aplikasi lain akan dapat membuat daftar dan mengakses berkas daring Anda yang tersimpan dalam instalasi ownCloud.</p>
+</section>
+
+</page>

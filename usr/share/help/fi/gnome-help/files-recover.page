@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="files-recover" xml:lang="fi">
+
+  <info>
+    <link type="guide" xref="files" group="more"/>
+    <link type="seealso" xref="files-lost"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-09-28" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Gnomen dokumentointiprojekti</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Kun poistat tiedoston, se siirretään yleensä roskakoriin. Voit palauttaa tiedostoja roskakorista.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Timo Jyrinki</mal:name>
+      <mal:email>timo.jyrinki@iki.fi</mal:email>
+      <mal:years>2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jiri Grönroos</mal:name>
+      <mal:email>jiri.gronroos+l10n@iki.fi</mal:email>
+      <mal:years>2012, 2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Palauta roskakoriin siirretty tiedosto</title>
+
+  <p>Jos poistat tiedoston tiedostonhallinnassa, se siirretään normaalisti <gui>roskakoriin</gui>, josta sen palautus on mahdollista.</p>
+
+  <steps>
+    <title>Palauta tiedosto roskakorista:</title>
+    <item>
+      <p>Open the <app>Files</app> application from the
+      <gui xref="shell-terminology">Activities</gui> overview.</p>
+    </item>
+    <item>
+      <p>Click <gui>Trash</gui> in the sidebar. If you do not see the sidebar,
+      click the
+      <gui><media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media></gui>
+      button in the toolbar and pick <gui>Show Sidebar</gui></p>
+    </item>
+    <item>
+      <p>If your deleted file is there, click on it and select
+      <gui>Restore</gui>. It will be restored to the folder from where it was
+      deleted.</p>
+    </item>
+  </steps>
+
+  <p>Jos poistit tiedoston näppäinyhdistelmällä <keyseq><key>Shift</key><key>Delete</key></keyseq>, tai päätteestä, tiedostoa ei voi palauttaa tällä tavalla <gui>roskakorista</gui>, vaan se on poistettu pysyvästi.</p>
+
+  <p>Jos tiedosto on kokonaan poistettu, sen palauttamista varten on saatavilla useita palautusohjelmia. Ne eivät normaalisti kuitenkaan ole kovin helppokäyttöisiä. Jos poistit vahingossa tiedoston kokonaan, lienee parasta kysyä neuvoa sen palauttamisesta keskustelupalstalla.</p>
+
+</page>

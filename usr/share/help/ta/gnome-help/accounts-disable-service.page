@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-disable-service" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.13.92" date="2013-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>ஃபில் புல்</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    
+    <desc>சில ஆன்லைன் கணக்குகளைப் பயன்படுத்தி ஒன்றுக்கு மேற்பட்ட சேவைகளை (நாள்காட்டி மின்னஞ்சல் போன்று) அணுகப் பயன்படுத்த முடியும். பயன்பாடுகள் எந்தெந்த சேவைகளைப் பயன்படுத்த முடிய வேண்டும் என்பதை நீங்கள் கட்டுப்படுத்தலாம்.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>ஒரு கணக்கை எந்தெந்த ஆன்லைன் சேவைகளை அணுக பயன்படுத்தலாம் என்பதைக் கட்டுப்படுத்துதல்</title>
+
+  <p>சில வகை ஆன்லைன் கணக்குகளில் அதே பயனர் கணக்கைக் கொண்டு நீங்கள் பல சேவைகளை அணுக முடியும். எடுத்துக்காட்டாக, Google கணக்குகளைக் கொண்டு நாள்காட்டி, மின்னஞ்சல், தொடர்புகள் மற்றும் அரட்டை ஆகிய சேவைகளை அணுகலாம். ஆனால் நீங்கள் உங்கள் கணக்கை சில சேவைகளுக்குப் பயன்படுத்த விரும்புவீர்கள் ஆனால் சில சேவைகளுக்குப் பயன்படுத்த வேண்டாம் என விரும்புவீர்கள். எடுத்துக்காட்டாக, நீங்கள் அரட்டைக்கு வேறொரு ஆன்லைன் கணக்கைப் பயன்படுத்துவதால், உங்கள் Google கணக்கை நீங்கள் அரட்டைக்குப் பயன்படுத்தாமல் வெறும் மின்னஞ்சலுக்கு மட்டும் பயன்படுத்த விரும்பலாம்.</p>
+
+  <p>ஒவ்வொரு ஆன்லைன் கணக்கும் வழங்கும் சேவைகளில் நீங்கள் விரும்புபவற்றை முடக்க முடியும்:</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Select the account which you want to change from the list on the
+      left.</p>
+    </item>
+    <item>
+      <p>இந்தக் கணக்கில் கிடைக்கும் சேவைகளின் பட்டியல் <gui>இதற்குப் பயன்படுத்து</gui> என்பதன் கீழ் இருக்கும்.</p>
+    </item>
+    <item>
+      <p>Switch off any of the services that you do not want to use.</p>
+    </item>
+  </steps>
+
+  <p>Once a service has been disabled for an account, applications on your
+  computer will not be able to use the account to connect to that service any
+  more.</p>
+
+  <p>நீங்கள் முடக்கிய ஒரு சேவையை மீண்டும் இயக்க, <gui>ஆன்லைன் கணக்குகள்</gui> சாளரத்திற்குச் சென்று இயக்கலாம்.</p>
+
+</page>

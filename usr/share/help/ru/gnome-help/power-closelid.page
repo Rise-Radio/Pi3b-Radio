@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="power-closelid" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="power"/>
+    <link type="seealso" xref="power-suspendfail"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-08" status="review"/>
+
+    <credit type="author">
+      <name>Проект документирования GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ноутбуки переходят в ждущий режим при закрытии крышки для экономии электроэнергии.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Почему мой компьютер отключается, когда я закрываю его крышку?</title>
+
+  <p>Когда вы закрываете крышку ноутбука, он переходит в <link xref="power-suspend"><em>ждущий режим</em></link> для сохранения электроэнергии. Это означает, что компьютер не выключается — он просто «засыпает». Можно вернуть его в рабочий режим, открыв крышку. Если компьютер не «просыпается», попробуйте нажать клавишу мышки или клавиатуры. Если это тоже не помогает, нажмите кнопку питания.</p>
+
+  <p>Некоторые компьютеры не способны правильно переходить в ждущий режим, обычно из-за того, что их компоненты не полностью поддерживаются операционной системой (например, вследствие несовершенства драйверов для Linux). В таком случае вы можете обнаружить, что компьютер не возвращается в рабочий режим после закрытия крышки. Можно попробовать <link xref="power-suspendfail">устранить эту проблему</link> или предотвратить переход компьютера в ждущий режим при закрытии крышки.</p>
+
+<section id="nosuspend">
+  <title>Запрет перевода компьютера в ждущий режим при закрытии крышки</title>
+
+  <note style="important">
+    <p>Эти инструкции сработают только если в системе используется <app>systemd</app>. Свяжитесь с разработчиками вашего дистрибутива для получения дополнительной информации.</p>
+  </note>
+
+  <p>Если вы не хотите, чтобы ноутбук переходил в ждущий режим при закрытии крышки, можно изменить соответствующие настройки. Для этого понадобится <link xref="user-admin-change">пароль администратора</link>.</p>
+
+  <note style="warning">
+    <p>Будьте осторожны при изменении этого параметра. Некоторые ноутбуки могут перегреваться, если оставить их включёнными с закрытой крышкой, особенно если они находятся в замкнутом пространстве, например, в рюкзаке.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>Откройте приложение <app>Терминал</app> из <gui>Обзора</gui>.</p>
+    </item>
+    <item>
+      <p>Запустите следующую команду:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudoedit /etc/systemd/logind.conf</input></screen>
+    </item>
+    <item>
+      <p>Теперь вам доступно содержимое файла. Вам нужно найти параметр <code>HandleLidSwitch=</code>, он может быть закомментирован с помощью символа <code>#</code> в начале соответствующей строки, а после него могут также располагаться дополнительные аргументы. Если этот параметр существует в файле, раскомментируйте его, убрав символ <code>#</code>. В противном случае, добавьте эту строчку в файл.</p>
+      <code>
+[Login]
+HandleLidSwitch=<input>lock</input>
+      </code>
+      <p>Для блокировки экрана используйте <input>заблокировать</input>, <input>игнорировать</input> чтобы ничего не происходило, <input>выключить</input> для выключения компьютера или <input>спящий режим</input> для активации спящего режима. Подробности см. в <link href="man:logind.conf">справке по logind.conf</link>.</p>
+    </item>
+    <item>
+      <p>Закончив редактирование файла, сохраните изменения и закройте редактор.</p>
+    </item>
+    <item>
+      <p>Запустите следующую команду чтобы применить изменения:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudo systemctl restart systemd-logind.service</input></screen>
+      <p>Если вы не запускаете эту команду, изменения войдут в силу только после перезагрузки машины.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

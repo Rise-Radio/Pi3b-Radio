@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="2column task" id="power" xml:lang="as">
+<info>
+    <link type="guide" xref="prefs"/>
+    <link type="guide" xref="hardware"/>
+
+    <revision pkgversion="3.8" date="2013-02-26" status="review"/>
+
+    <credit type="author">
+      <name>নাটালিয়া ৰুজ</name>
+      <email>nruz@alumnos.inf.utfsm.cl</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><link xref="power-suspend">স্থগিত কৰক</link>, <link xref="shell-exit#shutdown">বন্ধ কৰক</link>, <link xref="power-whydim">পৰ্দা স্লান হৈ আছে</link>…</desc>
+
+</info>
+
+<title>শক্তি &amp; বেটাৰি</title>
+
+<section id="battery" style="2column">
+  <title>বেটাৰি সংহতিসমূহ</title>
+</section>
+
+<section id="problems" style="2column">
+  <info>
+    <title type="link">শক্তিৰ সমস্যাবোৰ</title>
+    <link type="guide" xref="hardware#problems"/>
+    <desc>শক্তি আৰু বেটাৰিবোৰৰ সৈতে সমস্যাৰ সমাধান কৰক।</desc>
+  </info>
+  <title>সমস্যাবোৰ</title>
+</section>
+
+</page>

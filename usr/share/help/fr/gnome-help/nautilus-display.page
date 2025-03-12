@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-display" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-display"/>
+
+    <desc>Définir les libellés des icônes utilisés par le gestionnaire de fichiers.</desc>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-19" status="review"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Préférences d'affichage du gestionnaire de fichiers</title>
+
+<p>Il est possible de contrôler la façon dont le gestionnaire de fichiers affiche les légendes sous les icônes. Cliquez sur <gui>Fichiers</gui> dans la barre supérieure, puis sur <gui>Préférences</gui> et ouvrez l'onglet <gui>Affichage</gui>.</p>
+
+<section id="icon-captions">
+  <title>Libellés des icônes</title>
+  <media type="image" src="figures/nautilus-icons.png" width="250" height="110" style="floatend floatright">
+    <p>Icônes du gestionnaire de fichiers avec des libellés</p>
+  </media>
+  <p>Dans la vue en icônes, vous pouvez décider d'avoir plus d'informations affichées dans les libellés sous les icônes des dossiers et fichiers. C'est utile par exemple, si vous vérifiez souvent à qui appartient un fichier ou quelle est sa dernière date de modification.</p>
+  <p>Vous pouvez zoomer, en avant ou en arrière dans un dossier en cliquant sur le bouton <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">bas</span></media> dans la barre d'outils et en choisissant l'une des options de <gui>Zoom</gui>. Lors d'un zoom avant, le gestionnaire de fichiers va afficher de plus en plus d'informations dans le libellé. Vous pouvez y insérer jusqu'à trois chaînes de caractères. La première est affichée à presque tous les niveaux de zoom et la dernière seulement à des niveaux de zoom très élevés.</p>
+  <p>Les informations affichées dans les libellés des icônes sont les mêmes que dans les colonnes en mode affichage par liste. Consultez <link xref="nautilus-list"/> pour de plus amples informations.</p>
+  <note><p>Si une fenêtre de votre gestionnaire de fichiers était ouverte, vous devez l'actualiser pour prendre en compte les modifications des libellés. Cliquez sur <guiseq><gui>Affichage</gui><gui>Actualiser</gui></guiseq> ou utilisez le raccourci <keyseq><key>Ctrl</key><key>R</key></keyseq>.</p></note>
+</section>
+
+</page>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="power-lowpower" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="power#battery"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <desc>Baterijām ir kaitīga izlādēšana līdz galam.</desc>
+    <credit type="author">
+      <name>GNOME dokumentācijas projekts</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Kāpēc dators izslēdzās vai iemiga, kad baterijā atlika 10%?</title>
+
+<p>Kad baterijas lādiņš sasniedz pārāk zemu līmeni, dators automātiski <link xref="power-hibernate">iemieg</link>. Tas novērš pārmērīgu baterijas izlādēšanos, kas būtu tai kaitīga. Turklāt, ja baterija iztukšotos, datoram arī neatliktu laika pareizi izslēgties.</p>
+
+<p>You can change what happens when the battery level gets too low by opening
+<app>Power</app> from the <gui xref="shell-terminology">Activities</gui>
+overview. Look at the <gui>When battery power is critical</gui> setting. You
+can choose for the computer to hibernate or shut down. If you choose shut down,
+your applications and documents <em>will not</em> be saved before the computer
+turns off.</p>
+
+<p>Dažiem datoriem ir iemigšanas grūtības, kas neļauj tiem sekmīgi atgūt jūsu atvērtās lietotnes un dokumentus pēc ieslēgšanas. Šajā gadījumā var gadīties, ka pirms iemigšanas nesaglabātie dokumenti būs zaudēti. Tomēr ir iespējams arī <link xref="power-suspendfail">atrisināt iemigšanas problēmas</link>.</p>
+
+</page>

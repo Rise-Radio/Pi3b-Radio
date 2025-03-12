@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="hardware-driver" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="hardware" group="more"/>
+
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Proyecto de documentación de GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Un controlador de hardware/dispositivo es aquello que permite a su equipo usar dispositivos que están conectados a él.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>¿Qué es un controlador?</title>
+
+<p>Los dispositivos son «partes» físicas de su equipo. Puede ser <em>externos</em>, como impresoras y pantallas, o <em>internos</em>, como tarjetas gráficas y de sonido.</p>
+
+<p>Para que su equipo pueda usar estos dispositivos, necesita saber cómo comunicarse con ellos. Esto lo hace un elemento software denominado <em>controlador del dispositivo</em>.</p>
+
+<p>When you attach a device to your computer, you must have the correct driver
+installed for that device to work. For example, if you plug in a printer but
+the correct driver is not available, you will not be able to use the printer.
+Normally, each model of device uses a driver that is not compatible with any
+other model.</p>
+
+<p>En GNU/Linux, los controladores para la mayoría de los dispositivos se instalan de manera predeterminada, así que todo debería funcionar nada más conectarlo. Es posible que necesite instalar el controlador manualmente, o puede que ni siquiera esté disponible.</p>
+
+<p>In addition, some existing drivers are incomplete or partially
+non-functional. For example, you might find that your printer cannot do
+double-sided printing, but is otherwise completely functional.</p>
+
+</page>

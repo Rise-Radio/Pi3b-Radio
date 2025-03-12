@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-fixed-ip-address" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="seealso" xref="net-findip"/>
+
+    <revision pkgversion="3.4.0" date="2012-03-13" status="final"/>
+
+    <credit type="author">
+      <name>Джим Кэмпбелл (Jim Campbell)</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Использование статического IP-адреса может упростить предоставление компьютером некоторых сетевых услуг.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Создание соединения с фиксированным IP-адресом</title>
+
+  <p>Большинство сетей автоматически назначает <link xref="net-what-is-ip-address">IP-адрес</link> и другие настройки вашему компьютеру при подключении к сети. Эти настройки могут периодически изменяться, но в некоторых случаях вам может понадобиться постоянный IP-адрес компьютера, чтобы вы всегда его знали (например, если компьютер используется в качестве файлового сервера).</p> <p>Чтобы присвоить компьютеру постоянный (статический) IP-адрес:</p>
+
+  <steps>
+    <item>
+      <p>Нажмите значок <gui>сетевого соединения</gui> на <gui>верхней панели</gui> и выберите<gui>Настроить сеть</gui>.</p>
+    </item>
+    <item>
+      <p>Выберите сетевое соединение из списка (<gui>Проводные</gui> или <gui>Беспроводные</gui>) и нажмите <gui>Настроить</gui>.</p>
+    </item>
+    <item>
+      <p>Откройте вкладку <gui>Параметры IPv4</gui> и измените <gui>Метод</gui> на <em>Вручную</em>.</p>
+    </item>
+    <item>
+      <p>Если в списке <gui>Адреса</gui> отсутствует информация о соединении, или вы хотите настроить новое соединение, нажмите <gui>Добавить</gui>.</p>
+    </item>
+    <item>
+      <p>Введите информацию <em>IP-адрес</em>, <em>Сетевая маска</em> и <em>Шлюз</em> в соответствующие поля. Как выбрать их значения, будет зависеть от вашей сети; существуют определённые правила, определяющие, какие IP-адреса и сетевые маски допустимы в данной сети.</p>
+    </item>
+    <item>
+      <p>Если необходимо, укажите адрес <em>сервера доменных имён</em> в поле <gui>Серверы DNS</gui>. Это IP-адрес сервера, выполняющего поиск доменных имён. Большинство корпоративных сетей и интернет провайдеров имеют выделенные серверы DNS.</p>
+    </item>
+    <item>
+      <p>Нажмите <gui>Сохранить</gui>. Теперь сетевое соединение будет иметь постоянный IP-адрес.</p>
+    </item>
+  </steps>
+
+</page>

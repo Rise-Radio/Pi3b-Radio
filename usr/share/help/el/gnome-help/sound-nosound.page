@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="sound-nosound" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="sound-broken"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Έργο Τεκμηρίωσης GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Check that it is not muted, that cables are plugged in properly, and
+    that the sound card is detected.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Δε μπορώ να ακούσω κανέναν ήχο στον υπολογιστή</title>
+
+  <p>If you cannot hear any sounds on your computer, for example when you try
+  to play music, try these troubleshooting steps to see if you can fix the
+  problem.</p>
+
+<section id="mute">
+  <title>Βεβαιωθείτε ότι η ο ήχος δεν έχει σιγήσει</title>
+
+  <p>Open the <gui xref="shell-terminology">system menu</gui> from the right
+  side of the top bar and make sure that the sound is not muted or turned right
+  down.</p>
+
+  <p>Μερικοί φορητοί υπολογιστές έχουν διακόπτες σίγασης ή πλήκτρα στα πληκτρολόγιά τους - δοκιμάστε να πατήσετε αυτό το πλήκτρο για να δείτε εάν ενεργοποιεί τον ήχο.</p>
+
+  <p>You should also check that you have not muted the application that you are
+  using to play sound (for example, your music player or movie player). The
+  application may have a mute or volume button in its main window, so check
+  that. Also, open <app>Settings</app> from the <gui>Activities</gui> overview
+  and click <gui>Sound</gui>. Go to the <gui>Applications</gui> tab and check
+  that your application is not muted.</p>
+
+</section>
+
+<section id="speakers">
+ <title>Ελέγξετε ότι τα ηχεία είναι ανοικτά και συνδεμένα σωστά</title>
+ <p>Αν ο υπολογιστής σας έχει εξωτερικά ηχεία, βεβαιωθείτε ότι είναι ανοικτά και ότι η ένταση είναι ανοικτή. Βεβαιωθείτε ότι το καλώδιο του ηχείου είναι συνδεμένο με ασφάλεια στην "έξοδο" υποδοχής ήχου στον υπολογιστή σας. Αυτή η υποδοχή έχει συνήθως ανοικτό πράσινο χρώμα.</p>
+
+ <p>Μερικές κάρτες ήχου μπορούν να αλλάξουν ποια υποδοχή χρησιμοποιούν για έξοδο (προς τα ηχεία) και είσοδο (από ένα μικρόφωνο, για παράδειγμα). Η υποδοχή εξόδου μπορεί να είναι διαφορετική όταν τρέχει το Λίνουξ από ότι σε Windows ή Mac OS. Δοκιμάστε να συνδέσετε το καλώδιο ηχείου σε διαφορετικές υποδοχές ήχου στον υπολογιστή με τη σειρά για να δείτε εάν αυτό δουλεύει.</p>
+
+ <p>Ένα τελευταίο πράγμα για έλεγχο είναι το καλώδιο ήχου να είναι συνδεμένο με ασφάλεια στο πίσω μέρος των ηχείων. Μερικά ηχεία έχουν περισσότερες από μία εισόδους επίσης.</p>
+</section>
+
+<section id="device">
+  <title>Ελέγξετε ότι η σωστή συσκευή ήχου έχει επιλεγεί</title>
+
+  <p>Μερικοί υπολογιστές έχουν πολλαπλές "συσκευές ήχου" εγκατεστημένες. Μερικές από αυτές μπορούν να εξάγουν ήχο και μερικές όχι, έτσι θα πρέπει να ελέγξετε ότι έχετε επιλέξει τη σωστή. Αυτό μπορεί να περιλαμβάνει μερικές δοκιμές για να επιλέξτε τη σωστή.</p>
+
+  <steps>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Ήχος</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui>Ήχος</gui> για να ανοίξετε το φάτνωμα.</p>
+    </item>
+    <item>
+      <p>In the <gui>Output</gui> tab. Make a note of which device and which
+      profile are selected (so you can return to the default selections if
+      changing them does not work).</p>
+    </item>
+    <item>
+      <p>Για την επιλεγμένη συσκευή, δοκιμάστε να αλλάξετε την κατατομή - παίξτε έναν ήχο μετά την αλλαγή της κατατομής για να δείτε εάν δουλεύει. Μπορεί να χρειαστείτε να περιηγηθείτε στη λίστα και να δοκιμάσετε κάθε κατατομή.</p>
+    </item>
+    <item>
+      <p>If that does not work, you might want to try doing the same for any
+      other devices that are listed.</p>
+    </item>
+  </steps>
+
+</section>
+
+<section id="hardware-detected">
+
+ <title>Ελέγξετε ότι η κάρτα ήχου ανιχνεύτηκε σωστά</title>
+
+  <p>Your sound card may not have been detected properly. If this has happened,
+  your computer will think that it is not able to play sound. A possible reason
+  for the card not being detected properly is that the drivers for the card are
+  not installed. You may need to manually install the drivers for the card.
+  How you do this will depend on the card you have.</p>
+
+  <p>You can see what sound card you have by using the <cmd>lspci</cmd> command
+  in the Terminal. Go to the <gui>Activities</gui> overview and open a Terminal.
+  You may have to run <cmd>lspci</cmd> as
+  <link xref="user-admin-explain">superuser</link>; either type
+  <cmd>sudo lspci</cmd> and type your password, or type <cmd>su</cmd>, enter
+  the <em>root</em> (administrative) password, then type <cmd>lspci</cmd>. See
+  if an <em>audio controller</em> or <em>audio device</em> is listed—it should
+  have the make and model number of the sound card. <cmd>lspci -v</cmd> will
+  show a list with more detailed information.</p>
+
+  <p>You may be able to find and install drivers for your card. It is best to
+  ask on support forums (or otherwise) for your Linux distribution for
+  instructions.</p>
+
+  <p>If you cannot get drivers for your sound card, you might prefer to buy a
+  new sound card. You can get sound cards that can be installed inside the
+  computer and external USB sound cards.</p>
+
+</section>
+
+</page>

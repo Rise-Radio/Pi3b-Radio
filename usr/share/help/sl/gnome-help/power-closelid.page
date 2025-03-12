@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="power-closelid" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="power"/>
+    <link type="seealso" xref="power-suspendfail"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-08" status="review"/>
+
+    <credit type="author">
+      <name>Dokumentacijski projekt GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Prenosniki gredo ob zaprtju pokrova v stanje pripravljenosti za varčevanje z energijo.</desc>
+  </info>
+
+  <title>Zakaj se moj računalnik ob zaprtju pokrova izklopi?</title>
+
+  <p>Ko pokrov svojega prenosnika zaprete, bo vaš računalnik prešel <link xref="power-suspend"><em>v pripravljenost</em></link> za varčevanje z energijo. To pomeni, da vaš računalnik ni izklopljen, je le prešel v stanje pripravljenosti. Iz stanja pripravljenosti ga lahko povrnete z odprtjem pokrova. V primeru da se računalnik ne povrne, poskusite s klikom na miško ali s pritiskom na tipko. Če to še vedno ne deluje, pritisnite na gumb za vklop.</p>
+
+  <p>Nekateri računalniki ne morejo preiti v stanje pripravljenosti. Običajno se to zgodi, ker njihove strojne opreme operacijski sistem ne podpira popolnoma (na primer gonilniki Linux so nepopolni). V tem primeru boste morda ugotovili, da svojega računalnika po zaprtju pokrova ne morete povrniti iz stanja pripravljenosti. Poskusite lahko <link xref="power-suspendfail">popraviti težavo s stanjem pripravljenosti</link> ali pa računalniku preprečite poizkus prehoda v stanje pripravljenosti ob zaprtju pokrova.</p>
+
+<section id="nosuspend">
+  <title>Preprečitev prehoda v stanje pripravljenosti ob zaprtju pokrova</title>
+
+  <note style="important">
+    <p>These instructions will only work if you are using <app>systemd</app>.
+    Contact your distribution for more information.</p>
+  </note>
+
+  <p>If you do not want the computer to suspend when you close the lid, you can
+  change the settings for that behavior. You will need to have an
+  <link xref="user-admin-change">administrator password</link> to change the
+  setting.</p>
+
+  <note style="warning">
+    <p>Pri spreminjanju te nastavitve bodite previdni. Nekateri prenosniki se lahko pregrejejo, če delujejo z zaprtim pokrovom, še posebno, če so v omejenem prostoru kot je nahrbtnik.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>Odprite program <app>Terminal</app> iz pregleda <gui>Dejavnosti</gui>.</p>
+    </item>
+    <item>
+      <p>Run the following command:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudoedit /etc/systemd/logind.conf</input></screen>
+    </item>
+    <item>
+      <p>You will now see the contents of the file. Look for
+      <code>HandleLidSwitch=</code> in the file. The line may be quoted out
+      with a <code>#</code> at the start and may be followed by an argument. If
+      the line already exists, unquote it. Otherwise, add the line.</p>
+      <code>
+[Login]
+HandleLidSwitch=<input>lock</input>
+      </code>
+      <p>You can use <input>lock</input> for the screen to lock,
+      <input>ignore</input> for nothing to happen, <input>poweroff</input> for
+      the computer to switch off or <input>suspend</input> to suspend. For more
+      information, see <link href="man:logind.conf">logind.conf help</link>.</p>
+    </item>
+    <item>
+      <p>Once you finish editing the file, save your changes and quit the
+      editor.</p>
+    </item>
+    <item>
+      <p>Run the following command to make your change work:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudo systemctl restart systemd-logind.service</input></screen>
+      <p>If you do not run that command, the change will only work after your
+      computer is restarted.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

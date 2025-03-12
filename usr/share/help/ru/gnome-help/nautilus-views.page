@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-views" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-views"/>
+
+    <desc>Управление видом по умолчанию, порядком сортировки и масштабом в менеджере файлов.</desc>
+
+    <revision pkgversion="3.8" version="0.2" date="2013-04-03" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Шон МакКенс (Shaun McCance)</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Параметры просмотра файлов и папок в <app>Nautilus</app></title>
+
+<p>Чтобы изменить вид по умолчанию для новых папок, порядок сортировки по умолчанию, масштаб при просмотре в виде значков и компактном виде, а также включить или отключить показ файлов при просмотре в виде дерева в боковой панели, при запущенном <app>Nautilus</app> выберите на верхней панели <guiseq><gui style="menu">Nautilus</gui> <gui style="menuitem">Параметры</gui></guiseq> и далее вкладку <gui style="tab">Вид</gui>.</p>
+
+<section id="default-view">
+<title>Вид по умолчанию</title>
+<terms>
+  <item>
+    <title><gui>Просматривать новые папки, используя</gui></title>
+    <p>По умолчанию, новые папки показываются в режиме просмотра в виде значков. Если вы предпочитаете режим списка по умолчанию, этот параметр можно выставить здесь. Как вариант, можно выбрать различные режимы просмотра для каждой папки, нажав на кнопку <gui style="button">Показывать объекты в виде списка</gui> или <gui style="button">Показывать объекты в виде сетки значков</gui> на панели инструментов.</p>
+  </item>
+  <item>
+    <title><gui>Выстраивать элементы</gui></title>
+    <p>Порядок сортировки по умолчанию можно изменить с помощью выпадающего списка <gui>Выстраивать элементы</gui> в «параметрах». Возможна сортировка по имени, размеру файла, типу файла, времени последнего изменения, времени последнего доступа или времени помещения в корзину.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can change how <link xref="files-sort">files
+    are sorted</link> in an individual folder by clicking the
+    <media its:translate="no" type="image" src="figures/go-down.png">
+    <span its:translate="yes">View options</span></media> button
+    in the toolbar and choosing <gui>By Name</gui>, <gui>By Size</gui>, <gui>By
+    Type</gui> or <gui>By Modification Date</gui>, or by clicking the list
+    column headers in list view. This menu only affects the current folder.</p>
+  </item>
+  <item>
+    <title><gui>Помещать папки перед файлами</gui></title>
+    <p>По умолчанию, менеджер файлов теперь не придерживается порядка сортировки «сначала папки, потом файлы». Включите этот параметр, чтобы папки шли перед файлами.</p>
+  </item>
+  <item>
+    <title><gui>Показывать скрытые файлы и резервные копии</gui></title>
+    <p>Менеджер файлов по умолчанию не показывает <link xref="files-hidden">скрытые файлы</link> и папки. Всегда видеть скрытые файлы можно, выбрав этот параметр.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can also show hidden files in an individual
+    window by selecting <gui>Show Hidden Files</gui>, from the
+    <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media> menu in
+    the toolbar.</p>
+  </item>
+</terms>
+</section>
+
+<section id="icon-view-defaults">
+<title>Просмотр в виде значков</title>
+<terms>
+  <item>
+    <title><gui>Исходный масштаб</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can make the icons and text larger or
+    smaller by default in icon view using this option. You can also change this
+    setting in an individual folder by clicking the
+    <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media> button
+    in the toolbar and selecting <gui>Zoom In</gui>, <gui>Zoom Out</gui> or
+    <gui>Normal Size</gui>. If you frequently use a larger or smaller zoom
+    level, you can set the default with this option.</p>
+    <p>При просмотре в виде значков в зависимости от масштаба в <link xref="nautilus-display#icon-captions">подписях</link> отображается больше или меньше информации.</p>
+   </item>
+  </terms>
+</section>
+
+<section id="list-view-defaults">
+<title>Просмотр в виде списка</title>
+<terms>
+  <item>
+    <title><gui>Исходный масштаб</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can make the icons and text larger or
+    smaller in list view using this option. You can also do this in an
+    individual folder by clicking the
+    <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media> button
+    in the toolbar and selecting <gui>Zoom In</gui>, <gui>Zoom Out</gui> or
+    <gui>Normal Size</gui>.</p>
+  </item>
+</terms>
+</section>
+
+</page>

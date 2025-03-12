@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-findip" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="net-general"/>
+    <link type="seealso" xref="net-what-is-ip-address"/>
+
+    <revision pkgversion="3.7.1" version="0.2" date="2012-11-16" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-10-30" status="review"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Die Kenntnis Ihrer IP-Adresse kann Ihnen bei der Lösung von Netzwerkproblemen helfen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ihre IP-Adresse ermitteln</title>
+
+  <p>Die Kenntnis Ihrer IP-Adresse kann Ihnen bei der Lösung von Problemen mit Ihrer Internetverbindung helfen. Sie könnten überrascht sein, dass Sie <em>zwei</em> IP-Adressen haben: eine IP-Adresse für Ihren Rechner im internen Netzwerk und eine im Internet.</p>
+
+  <steps>
+    <title>Ihre interne (Netzwerk-)IP-Adresse herausfinden</title>
+    <item>
+      <p>Öffnen Sie die <gui xref="shell-terminology">Aktivitäten</gui>-Übersicht und tippen Sie <gui>Netzwerk</gui>.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui>Netzwerk</gui>, um das Panel zu öffnen.</p>
+    </item>
+    <item>
+      <p>Wählen Sie <gui>Kabelgebunden</gui> oder <gui>Kabellos</gui> aus der Liste auf der linken Seite, je nach dem, für welche Netzwerkverbindung Sie die IP-Adresse ermitteln wollen.</p>
+    </item>
+    <item>
+      <p>Sie sehen die IP-Adresse für eine drahtgebundene Verbindung auf der rechten Seite. Um die <gui>Details</gui> eines Drahtlosnetzwerkes anzusehen, öffnen Sie die Verbindungsdetails durch Klicken auf den Knopf <gui style="button"><media its:translate="no" type="image" src="figures/emblem-system-symbolic.svg" width="16" height="16"><span its:translate="yes">Details</span></media></gui>.</p>
+    </item>
+  </steps>
+
+  <steps>
+  	<title>Ihre externe (Internet-)IP-Adresse herausfinden</title>
+    <item>
+      <p>Besuchen Sie <link href="http://whatismyipaddress.com/">whatismyipaddress.com</link>.</p>
+    </item>
+    <item>
+      <p>Diese Seite zeigt Ihnen Ihre externen IP-Adressen an.</p>
+    </item>
+  </steps>
+
+  <p>Abhängig von der Art, wie sich Ihr Rechner mit dem Internet verbindet, könnten beide Adressen gleich sein.</p>
+
+</page>

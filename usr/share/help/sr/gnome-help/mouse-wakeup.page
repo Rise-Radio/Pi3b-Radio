@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="mouse-wakeup" xml:lang="sr">
+
+  <info>
+    <link type="guide" xref="mouse#problems"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+
+    <desc>Ако морате да продрмате или да кликнете мишем да би одговорио.</desc>
+    <credit type="author">
+      <name>Гномов пројекат документације</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Миш реагује са кашњењем пре него што почне са радом</title>
+
+  <p>Може бити потребно „пробудити“ бежичне и оптичке мишеве, као и додирне табле на преносним рачунарима, пре него почну да раде. Они сами прелазе у стање мировања када нису у употреби да би сачували енергију. Да пробудите миша или додирну таблу, можете кликнути тастером миша или га мало продрмати.</p>
+  <p>Додирне табле преносних рачунара реагују са закашњењем када престанете да куцате пре него што почну да раде. Ово вас штити од случајног додира додирне табле дланом за време куцања. Погледајте <link xref="mouse-disabletouchpad"/> за појединости.</p>
+</page>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="task" version="1.0 if/1.0" id="shell-apps-favorites" xml:lang="fr">
+
+  <info>
+    <link type="seealso" xref="shell-apps-open"/>
+    <link type="guide" xref="shell-overview#apps"/>
+
+    <revision pkgversion="3.6.0" date="2012-10-14" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Le projet de documentation GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Jana Svarova</name>
+      <email>jana.svarova@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ajouter (ou enlever) du lanceur (le dash) les icônes d'applications fréquemment utilisées.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ajout de vos applications préférées au lanceur</title>
+
+  <p>Pour ajouter une application au <link xref="shell-terminology">lanceur (dash)</link> afin de pouvoir y accéder facilement :</p>
+
+  <steps>
+    <item>
+      <p if:test="!platform:gnome-classic">Ouvrez la vue d'ensemble des <link xref="shell-terminology"><gui>Activités</gui></link> en cliquant sur <gui>Activités</gui> en haut à gauche de l'écran.</p>
+      <p if:test="platform:gnome-classic">Cliquez sur le <link xref="shell-terminology"> menu <gui>Applications</gui></link> en haut à gauche de l'écran et choisissez <gui>Vue d'ensemble des activités</gui> dans ce menu.</p></item>
+    <item>
+      <p>Cliquez sur l'icône en forme de grille dans le lanceur pour trouver l'application à ajouter.</p>
+    </item>
+    <item>
+      <p>Faites un clic droit sur l'icône de l'application et sélectionnez <gui>Ajouter aux favoris</gui>.</p>
+      <p>Vous pouvez aussi faire glisser l'icône sur le dash.</p>
+    </item>
+  </steps>
+
+  <p>Pour supprimer du dash l'icône d'une application, cliquez avec le bouton droit sur l'icône de l'application et sélectionnez <gui>Enlever des favoris</gui>.</p>
+
+  <note style="tip" if:test="platform:gnome-classic"><p>Les applications favorites apparaissent aussi dans la section <gui>Favoris</gui> du menu <link xref="shell-terminology"><gui>Applications</gui> menu</link>.</p>
+  </note>
+
+</page>

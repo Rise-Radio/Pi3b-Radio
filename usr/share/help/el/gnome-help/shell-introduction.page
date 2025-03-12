@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" version="1.0 if/1.0" id="shell-introduction" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="shell-overview" group="#first"/>
+    <link type="guide" xref="index" group="#first"/>
+
+    <revision pkgversion="3.6.0" date="2012-10-13" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Μια οπτική εισαγωγή στην επιφάνεια εργασίας σας, η πάνω γραμμή και η επισκόπηση <gui>Ενέργειες</gui>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Εισαγωγή στο GNOME</title>
+
+  <p>Το GNOME 3 χαρακτηρίζεται από μια πλήρως νέα εικόνα σχεδίασης της διεπαφής χρήστη για να μένει έξω από τον δρόμο σας, να ελαχιστοποιεί τις αφαιρέσεις και να σας βοηθά να κάνετε τη δουλειά σας. Όταν πρωτοσυνδέεστε, θα δείτε μια κενή επιφάνεια εργασίας και την πάνω γραμμή.</p>
+
+<if:choose>
+  <if:when test="!platform:gnome-classic">
+    <media type="image" src="figures/shell-top-bar.png" width="600" if:test="!target:mobile">
+      <p>Η πάνω γραμμή του κελύφους GNOME</p>
+    </media>
+  </if:when>
+  <if:when test="platform:gnome-classic">
+    <media type="image" src="figures/shell-top-bar-classic.png" width="500" height="40" if:test="!target:mobile">
+      <p>Η πάνω γραμμή του κελύφους GNOME</p>
+    </media>
+  </if:when>
+</if:choose>
+
+  <p>Η πάνω γραμμή παρέχει πρόσβαση στα παράθυρά σας και τις εφαρμογές, στα ημερολόγια και τις συναντήσεις και στις <link xref="status-icons">ιδιότητες του συστήματος</link> όπως ήχο, δικτύωση και ισχύ. Στο μενού κατάστασης στην πάνω γραμμή, μπορείτε να αλλάξετε την ένταση ή την φωτεινότητα της οθόνης, να επεξεργαστείτε τις λεπτομέρειες σύνδεσης του <gui>ασύρματου</gui>, να ελέγξετε την κατάσταση της μπαταρία σας, να αποσυνδεθείτε ή να αλλάξετε χρήστες, ή να τερματίσετε τον υπολογιστή σας.</p>
+
+<links type="section"/>
+
+<section id="activities">
+  <title>Η επισκόπηση <gui>Ενέργειες</gui></title>
+
+<if:choose>
+  <if:when test="!platform:gnome-classic">
+    <media type="image" src="figures/shell-activities.png" width="123" height="82" style="floatend floatright" if:test="!target:mobile">
+      <p>Κουμπί ενεργειών</p>
+    </media>
+  </if:when>
+  <if:when test="platform:gnome-classic">
+    <media type="image" src="figures/shell-activities-classic.png" width="108" height="69" style="floatend floatright" if:test="!target:mobile">
+      <p>Κουμπί ενεργειών</p>
+    </media>
+  </if:when>
+</if:choose>
+
+  <p if:test="!platform:gnome-classic">Για να προσπελάσετε τα παράθυρά σας και τις εφαρμογές, πατήστε το κουμπί <gui>Ενέργειες</gui>, ή απλά μετακινήστε τον δείκτη του ποντικιού σας στην πάνω αριστερή θερμή γωνία. Μπορείτε επίσης να πατήσετε το πλήκτρο <key xref="keyboard-key-super">λογότυπου</key> στο πληκτρολόγιο σας. Μπορείτε να δείτε τα παράθυρά σας και τις εφαρμογές στην επισκόπηση. Μπορείτε επίσης απλά να αρχίσετε την πληκτρολόγηση για να αναζητήσετε τις εφαρμογές σας, τα αρχεία και τους φακέλους στον ιστό.</p>
+
+  <p if:test="platform:gnome-classic">Για να προσπελάσετε τα παράθυρά σας και τις εφαρμογές, πατήστε το κουμπί μενού <link xref="shell-terminology"><gui>Εφαρμογές</gui></link> στα πάνω αριστερά της οθόνης και επιλέξτε το στοιχείο <gui>Επισκόπηση ενεργειών</gui>. Μπορείτε επίσης να πατήσετε το πλήκτρο <key xref="keyboard-key-super">λογότυπου</key> για να δείτε τα παράθυρά σας και τις εφαρμογές στην επισκόπηση <gui>Ενεργειών</gui>. Απλά αρχίσετε την πληκτρολόγηση για να αναζητήσετε τις εφαρμογές σας, τα αρχεία και τους φακέλους.</p>
+
+  <media type="image" src="figures/shell-dash.png" width="49" height="300" style="floatstart floatleft" if:test="!target:mobile">
+    <p>Το αρχικό πλαίσιο</p>
+  </media>
+
+  <p>Στα αριστερά της επισκόπησης, θα βρείτε το <em>αρχικό πλαίσιο</em>. Το αρχικό πλαίσιο σας εμφανίζει τις αγαπημένες και εκτελούμενες εφαρμογές. Πατήστε οποιοδήποτε εικονίδιο στο αρχικό πλαίσιο για να ανοίξετε την αντίστοιχη εφαρμογή· εάν η εφαρμογή εκτελείται ήδη, θα επισημανθεί. Πατώντας το εικονίδιο της θα εμφανίσει το πιο πρόσφατα χρησιμοποιούμενο παράθυρο. Μπορείτε επίσης να μεταφέρετε το εικονίδιο στην επισκόπηση, ή σε οποιονδήποτε χώρο εργασίας στα δεξιά.</p>
+
+  <p>Δεξιοπατώντας το εικονίδιο εμφανίζεται ένα μενού που επιτρέπει να επιλέξετε οποιοδήποτε παράθυρο σε μια εκτελούμενη εφαρμογή, ή να ανοίξετε ένα νέο παράθυρο. Μπορείτε επίσης να πατήσετε το εικονίδιο ενώ κρατάτε πατημένο το <key>Ctrl</key> για να ανοίξετε ένα νέο παράθυρο.</p>
+
+  <p>Όταν μπαίνετε στην επισκόπηση, θα είσαστε αρχικά στην επισκόπηση παραθύρων. Αυτό εμφανίζει ζωντανές μικρογραφίες όλων των παραθύρων στον τρέχοντα χώρο εργασίας.</p>
+
+  <p>Πατήστε το κουμπί πλέγματος στον πάτο του αρχικού πλαισίου για να εμφανίσετε την επισκόπηση εφαρμογών. Αυτό εμφανίζει όλες τις εγκατεστημένες εφαρμογές στον υπολογιστή σας. Πατήστε οποιαδήποτε εφαρμογή για να την εκτελέσετε, ή μεταφέρτε μια εφαρμογή στην επισκόπηση ή σε μια μικρογραφία χώρου εργασίας. Μπορείτε επίσης να σύρετε μια εφαρμογή στο αρχικό πλαίσιο για να το κάνετε αγαπημένο. Οι αγαπημένες σας εφαρμογές μένουν στο αρχικό πλαίσιο ακόμα κι όταν δεν εκτελούνται, έτσι μπορείτε να τις προσπελάσετε γρήγορα.</p>
+
+  <list style="compact">
+    <item>
+      <p><link xref="shell-apps-open">Μάθετε περισσότερα για την εκκίνηση εφαρμογών.</link></p>
+    </item>
+    <item>
+      <p><link xref="shell-windows">Μάθετε περισσότερα για τα παράθυρα και τους χώρους εργασίας.</link></p>
+    </item>
+  </list>
+
+</section>
+
+<section id="appmenu">
+  <title>Μενού εφαρμογών</title>
+  <if:choose>
+    <if:when test="!platform:gnome-classic">
+      <media type="image" src="figures/shell-appmenu-shell.png" width="250" style="floatend floatright" if:test="!target:mobile">
+        <p>Μενού εφαρμογών του <app>Τερματικού</app></p>
+      </media>
+      <p>Το μενού εφαρμογών, τοποθετημένο δίπλα στο πλήκτρο <gui>Ενέργειες</gui>, εμφανίζει το όνομα της ενεργής εφαρμογής μαζί με το εικονίδιό της και παρέχει γρήγορη πρόσβαση στις προτιμήσεις εφαρμογής ή βοήθειας. Τα στοιχεία που είναι διαθέσιμα στο μενού εφαρμογών ποικίλουν ανάλογα με την εφαρμογή.</p>
+    </if:when>
+    <if:when test="platform:gnome-classic">
+      <media type="image" src="figures/shell-appmenu-classic.png" width="154" height="133" style="floatend floatright" if:test="!target:mobile">
+        <p>Μενού εφαρμογών του <app>Τερματικού</app></p>
+      </media>
+      <p>Το μενού εφαρμογών, τοποθετημένο δίπλα στα μενού <gui>Εφαρμογές</gui> και <gui>Θέσεις</gui> , εμφανίζει το όνομα της ενεργής εφαρμογής μαζί με το εικονίδιό της και παρέχει γρήγορη πρόσβαση στις προτιμήσεις εφαρμογής ή βοήθειας. Τα στοιχεία που είναι διαθέσιμα στο μενού εφαρμογών ποικίλουν ανάλογα με την εφαρμογή.</p>
+    </if:when>
+  </if:choose>
+
+</section>
+
+<section id="clock">
+  <title>Ρολόι, ημερολόγιο &amp; συναντήσεις</title>
+
+<if:choose>
+  <if:when test="!platform:gnome-classic">
+    <media type="image" src="figures/shell-appts.png" width="250" style="floatend floatright" if:test="!target:mobile">
+      <p>Ρολόι,ημερολόγιο και συναντήσεις</p>
+    </media>
+  </if:when>
+  <if:when test="platform:gnome-classic">
+    <media type="image" src="figures/shell-appts-classic.png" width="373" height="250" style="floatend floatright" if:test="!target:mobile">
+      <p>Ρολόι,ημερολόγιο και συναντήσεις</p>
+    </media>
+  </if:when>
+</if:choose>
+
+  <p>Πατήστε το ρολόι στην πάνω γραμμή για να δείτε την τρέχουσα ημερομηνία, ένα ημερολόγιο ανά μήνα και μια λίστα των επερχόμενων συναντήσεων σας. Μπορείτε επίσης να προσπελάσετε τις ρυθμίσεις ημερομηνίας και χρόνου και να ανοίξετε το πλήρες ημερολόγιο του <app>Evolution</app> άμεσα από το μενού.</p>
+
+  <list style="compact">
+    <item>
+      <p><link xref="clock-calendar">Μάθετε περισσότερα για το ημερολόγιο και τις συναντήσεις.</link></p>
+    </item>
+  </list>
+
+</section>
+
+<section id="yourname">
+  <title>Εσείς και ο υπολογιστή σας</title>
+
+<if:choose>
+  <if:when test="!platform:gnome-classic">
+    <media type="image" src="figures/shell-exit.png" width="250" style="floatend floatright" if:test="!target:mobile">
+      <p>Μενού χρήστη</p>
+    </media>
+  </if:when>
+  <if:when test="platform:gnome-classic">
+    <media type="image" src="figures/shell-exit-classic.png" width="250" height="200" style="floatend floatright" if:test="!target:mobile">
+      <p>Μενού χρήστη</p>
+    </media>
+  </if:when>
+</if:choose>
+
+  <p>Πατήστε στο μενού συστήματος στην πάνω δεξιά γωνία για να διαχειριστείτε τις ρυθμίσεις του συστήματός σας και του υπολογιστή σας.</p>
+
+<!-- Apparently not anymore. TODO: figure out how to update status.
+  <p>You can quickly set your availability directly from the menu. This will set
+  your status for your contacts to see in instant messaging applications such as
+  <app>Empathy</app>.</p>-->
+
+<!--
+<p>If you set yourself to Unavailable, you won't be bothered by message popups
+at the bottom of your screen. Messages will still be available in the message
+tray when you move your mouse to the bottom-right corner. But only urgent
+messages will be presented, such as when your battery is critically low.</p>
+
+<list style="compact">
+  <item><p><link xref="shell-session-status">Learn more about changing
+  your availability.</link></p></item>
+</list>
+-->
+
+  <p>Όταν αφήνετε τον υπολογιστή σας, μπορείτε να κλειδώσετε την οθόνη σας για να αποτρέψετε άλλα άτομα να τον χρησιμοποιήσουν. Μπορείτε γρήγορα να αλλάξετε χρήστες χωρίς να αποσυνδεθείτε πλήρως για να δώσετε σε κάποιον άλλον την πρόσβαση στον υπολογιστή, ή μπορείτε να αναστείλετε ή να τερματίσετε τον υπολογιστή από το μενού.</p>
+
+  <list style="compact">
+    <item>
+      <p><link xref="shell-exit">Μάθετε περισσότερα για αλλαγή χρηστών, αποσύνδεση και τερματισμό του υπολογιστή σας.</link></p>
+    </item>
+  </list>
+
+</section>
+
+<section id="lockscreen">
+  <title>Κλείδωμα οθόνης</title>
+
+  <media type="image" src="figures/shell-lock.png" width="250" style="floatend floatright" if:test="!target:mobile">
+    <p>Κλείδωμα οθόνης</p>
+  </media>
+
+  <p>Όταν κλειδώνετε την οθόνη σας, ή κλειδώνει αυτόματα, το κλείδωμα της οθόνης εμφανίζεται. Πέρα από την προστασία της επιφάνειας εργασίας σας ενώ είσαστε μακριά από τον υπολογιστή σας, το κλείδωμα της οθόνης εμφανίζει την ημερομηνία και την ώρα. Επίσης εμφανίζει πληροφορίες για τη μπαταρία σας και την κατάσταση δικτύου και σας επιτρέπει να ελέγξτε την αναπαραγωγή πολυμέσων.</p>
+
+  <list style="compact">
+    <item>
+      <p><link xref="shell-lockscreen">Μάθετε περισσότερα για το κλείδωμα της οθόνης.</link></p>
+    </item>
+  </list>
+
+</section>
+
+<section id="message-tray">
+  <title>Περιοχή ειδοποιήσεων</title>
+
+  <media its:translate="no" type="image" src="figures/shell-message-tray.png" width="600">
+    <p its:translate="yes">Περιοχή ειδοποιήσεων</p>
+  </media>
+
+  <p>Η περιοχή ειδοποιήσεων μπορεί να εμφανιστεί μετακινώντας τον δείκτη του ποντικιού σας στο τέλος της οθόνης, ή πατώντας <keyseq><key>Λογότυπος</key><key>M</key></keyseq>. Εκεί αποθηκεύονται οι ειδοποιήσεις σας μέχρι να είσαστε έτοιμοι να τις προβάλετε.</p>
+
+  <list style="compact">
+    <item>
+      <p><link xref="shell-notifications">Μάθετε περισσότερα για τις ειδοποιήσεις και την περιοχή ειδοποιήσεων.</link></p>
+    </item>
+  </list>
+
+</section>
+
+<section id="window-list">
+  <title>Λίστα παραθύρων</title>
+
+<if:choose>
+  <if:when test="!platform:gnome-classic">
+    <p>Το GNOME χαρακτηρίζεται από μια διαφορετική προσέγγιση για εναλλαγή παραθύρων από μια μόνιμα ορατή λίστα παραθύρων που βρίσκεται σε άλλα περιβάλλοντα επιφάνειας εργασίας. Αυτό επιτρέπει την εστίαση στην εργασία κοντά χωρίς αφαιρέσεις.</p>
+    <list style="compact">
+      <item>
+        <p><link xref="shell-windows-switching">Μάθετε περισσότερα για την αλλαγή παραθύρων.</link></p>
+      </item>
+    </list>
+  </if:when>
+  <if:when test="platform:gnome-classic">
+    <media type="image" src="figures/shell-window-list-classic.png" width="500" height="34" style="floatend floatright" if:test="!target:mobile">
+      <p>Λίστα παραθύρων</p>
+    </media>
+    <p>Η λίστα παραθύρων στο τέλος της οθόνης δίνει πρόσβαση σε όλα τα ανοικτά σας παράθυρα και εφαρμογές και επιτρέπει τη γρήγορη ελαχιστοποίηση και επαναφορά τους.</p>
+    <p>Στη δεξιά πλευρά της λίστας παραθύρων, το GNOME εμφανίζει έναν σύντομο ταυτοποιητή για τον τρέχοντα χώρο εργασίας, όπως <gui>1</gui> για τον πρώτο (κορυφαίο) χώρο εργασίας. Επιπλέον, ο ταυτοποιητής εμφανίζει επίσης τον συνολικό αριθμό των διαθέσιμων χώρων εργασίας. Για εναλλαγή σε διαφορετικό χώρο έργασίας, μπορείτε να πατήσετε τον ταυτοποιητή και να επιλέξετε τον επιθυμητό χώρο εργασίας που θα χρησιμοποιήσετε από το μενού.</p>
+    <p>Εάν μια εφαρμογή ή ένα συστατικό συστήματος θέλει να τραβήξει την προσοχή σας, θα εμφανιστεί ένα γαλάζιο εικονίδιο στα δεξιά της λίστας παραθύρων. Πατώντας το γαλάζιο εικονίδιο εμφανίζεται η περιοχή ειδοποιήσεων.</p>
+  </if:when>
+</if:choose>
+
+</section>
+
+</page>

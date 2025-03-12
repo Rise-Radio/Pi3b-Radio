@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="files-autorun" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="media#photos"/>
+    <link type="guide" xref="media#videos"/>
+    <link type="guide" xref="media#music"/>
+    <link type="guide" xref="files#removable"/>
+
+    <revision pkgversion="3.7.1" version="0.2" date="2012-11-16" status="outdated"/>
+    <revision pkgversion="3.9.92" date="2013-10-04" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Proyecto de documentación de GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email its:translate="no">tyagishobha@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ejecutar aplicaciones automáticamente para CD y DVD, cámaras, reproductores de sonido y otros dispositivos y soportes.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <!-- TODO: fix bad UI strings, then update help -->
+  <title>Abrir aplicaciones para dispositivos o discos</title>
+
+  <p>Puede hacer que se inicie una aplicación automáticamente cuando conecte un dispositivo, cuando se introduzca un disco o una tarjeta de memoria. Por ejemplo, puede que quiera que se inicie su gestor de fotografías cuando conecte una cámara digital. También puede desactivar esta opción, para que no ocurra nada cuando conecte algo.</p>
+
+  <p>Para decidir qué aplicaciones deberían iniciarse cuando se conecte a varios dispositivos:</p>
+
+<steps>
+  <item>
+    <p>Abra la vista de <gui xref="shell-terminology">Actividades</gui> y empiece a escribir <gui>Detalles</gui>.</p>
+  </item>
+  <item>
+    <p>Pulse en <gui>Detalles</gui> para abrir el panel.</p>
+  </item>
+  <item>
+    <p>Pulse en <gui>Soportes extraíbles</gui>.</p>
+  </item>
+  <item>
+    <p>Elija una aplicación o acción para el dispositivo multimedia que quiere. Consulte a continuación para obtener una descripción de los diferentes tipos de dispositivos multimedia.</p>
+    <p>Instead of starting an application, you can also set it so that the
+    device will be shown in the file manager, with the <gui>Open folder</gui>
+    option. When that happens, you will be asked what to do, or nothing will
+    happen automatically.</p>
+  </item>
+  <item>
+    <p>If you do not see the device or media type that you want to change in
+    the list (such as Blu-ray discs or E-book readers), click <gui>Other
+    Media…</gui> to see a more detailed list of devices. Select the type of
+    device or media from the <gui>Type</gui> drop-down and the application or
+    action from the <gui>Action</gui> drop-down.</p>
+  </item>
+</steps>
+
+  <note style="tip">
+    <p>If you do not want any applications to be opened automatically, whatever
+    you plug in, select <gui>Never prompt or start programs on media
+    insertion</gui> at the bottom of the <gui>Details</gui> window.</p>
+  </note>
+
+<section id="files-types-of-devices">
+  <title>Tipos de dispositivos y de medios</title>
+<terms>
+  <item>
+    <title>Discos de sonido</title>
+    <p>Choose your favorite music application or CD audio extractor to handle
+    audio CDs. If you use audio DVDs (DVD-A), select how to open them under
+    <gui>Other Media…</gui>. If you open an audio disc with the file manager,
+    the tracks will appear as WAV files that you can play in any audio player
+    application.</p>
+  </item>
+  <item>
+    <title>Discos de vídeo</title>
+    <p>Choose your favorite video application to handle video DVDs. Use the
+    <gui>Other Media…</gui> button to set an application for Blu-ray, HD DVD,
+    video CD (VCD), and super video CD (SVCD). If DVDs or other video discs
+    do not work correctly when you insert them, see <link xref="video-dvd"/>.
+    </p>
+  </item>
+  <item>
+    <title>Discos vírgenes</title>
+    <p>Use the <gui>Other Media…</gui> button to select a disc-writing
+    application for blank CDs, blank DVDs, blank Blu-ray discs, and blank HD
+    DVDs.</p>
+  </item>
+  <item>
+    <title>Cámaras y fotos</title>
+    <p>Use el desplegable <gui>Fotos</gui> para elegir una aplicación de gestión de fotos para ejecutar al conectar su cámara digital o al insertar una tarjeta multimedia de una cámara, tales como tarjetas CF, SD, MMC o MS. También puede simplemente examinar sus fotos usando el gestor de archivos.</p>
+    <p>Under <gui>Other Media…</gui>, you can select an application to open
+    Kodak picture CDs, such as those you might have made in a store. These are
+    regular data CDs with JPEG images in a folder called
+    <file>PICTURES</file>.</p>
+  </item>
+  <item>
+    <title>Reproductores de música</title>
+    <p>Elija una aplicación para gestionar la biblioteca de música para su reproductor de música portátil o gestione los archivos usted mismo usando el gestor de archivos.</p>
+    </item>
+    <item>
+      <title>Lectores de libros electrónicos</title>
+      <p>Use the <gui>Other Media…</gui> button to choose an application to
+      manage the books on your e-book reader, or manage the files yourself
+      using the file manager.</p>
+    </item>
+    <item>
+      <title>Software</title>
+      <p>Algunos discos extraíbles contienen software que se supone se debe ejecutar automáticamente al introducir el soporte. Use la opción <gui>Software</gui> para controlar lo que hacer al introducir un soporte con un software de ejecución automática. Siempre se le pedirá confirmación antes de ejecutar el software.</p>
+      <note style="warning">
+        <p>No ejecute nunca software procedente de soportes en los que no confía.</p>
+      </note>
+   </item>
+</terms>
+
+</section>
+
+</page>

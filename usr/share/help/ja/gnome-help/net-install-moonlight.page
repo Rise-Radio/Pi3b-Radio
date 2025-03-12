@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Silverlight を使ってウェブページを表示するウェブサイトがあります。Moonlight プラグインがあれば、こうしたページを閲覧できます。</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>松澤 二郎</mal:name>
+      <mal:email>jmatsuzawa@gnome.org</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>赤星 柔充</mal:name>
+      <mal:email>yasumichi@vinelinux.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kentaro KAZUHAMA</mal:name>
+      <mal:email>kazken3@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shushi Kurose</mal:name>
+      <mal:email>md81bird@hitaki.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Noriko Mizumoto</mal:name>
+      <mal:email>noriko@fedoraproject.org</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>坂本 貴史</mal:name>
+      <mal:email>o-takashi@sakamocchi.jp</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>日本GNOMEユーザー会</mal:name>
+      <mal:email>http://www.gnome.gr.jp/</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Silverlight プラグインのインストール</title>
+
+  <p><app>Silverlight</app> は、ウェブブラウザーの<em>プラグイン</em>で、一部のウェブサイトの動画を試聴したり、インタラクティブなページを操作したりできるようになります。Silverlight がなければ表示できないウェブサイトがあります。</p>
+
+  <p>Silverlight が必要になるページを閲覧したときにプラグインがインストールされていない場合、おそらくその旨のメッセージが表示されます。そのメッセージにはプラグインの入手方法に関する説明が載っているでしょうが、その説明は、お使いのウェブブラウザーや Linux 向けウェブブラウザーには対応していないでしょう。</p>
+
+  <p>Silverlight が必要になるウェブサイトを閲覧したい場合は、代わりに、<em>Moonlight</em> プラグインをインストールするとよいでしょう。これは、Linux で動作する Silverlight のフリーなオープンソース実装です。</p>
+
+  <p>Linux ディストリビューションによっては、パッケージマネージャーを使って Moonlight をインストールできるものがあります。パッケージマネージャーを開き、<input>Silverlight</input> あるいは <input>Moonlight</input> で検索するだけです。</p>
+
+  <p>お使いのディストリビューションが Moonlight のパッケージを提供していない場合は、<link href="http://www.go-mono.com/moonlight/">Moonlight のウェブサイト</link>を参照し、詳細な情報とインストール手順を確認してください。</p>
+
+</page>

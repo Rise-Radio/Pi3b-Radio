@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wireless-connect" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="net-wireless" group="#first"/>
+    <link type="seealso" xref="net-wireless-troubleshooting"/>
+    <link type="seealso" xref="net-wireless-disconnecting"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-12-05" status="final"/>
+
+    <credit type="author">
+      <name>GNOME डॉक्युमेंटेशन प्रकल्प</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>इंटरनेटवर चला - वायरलेसने.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>वायरलेस नेटवर्कशी जोडा</title>
+
+<p>वायरलेस सक्रीय असलेले संगणक असल्यास, तुम्ही इंटरनेटकरिता प्रवेश प्राप्त करण्यासाठी वायरलेस नेटवर्कशी जोडणी करू शकता, नेटवर्कवरील शेअर्ड फाइल्स पाहू शकता, आणि पुढे.</p>
+
+<steps>
+  <item><p>Click the system status area on the top bar, select <gui>Wi-Fi</gui>,
+ then click <gui>Select Network</gui>.</p></item>
+  <item><p>Click the name of the network you want to connect to, then click
+ <gui>Connect</gui>.</p>
+   <p>नेटवर्कचे नाव सूचीमध्ये नसल्यास, <gui>आणखी</gui> क्लिक करून नेटवर्कचे नाव सूचीमध्ये तळास दिसते किंवा नाही हे पहा. नेटवर्क न दिसल्यास, व्याप्तिच्या बाहेर असाल किंवा नेटवर्क <link xref="net-wireless-hidden"> छुपे असेल</link>.</p>
+  </item>
+  <item><p>नेटवर्क पासवर्डसह (<link xref="net-wireless-wepwpa">एंक्रिप्शन कि</link>) सुरक्षित असल्यास, विनंती केल्यास पासवर्ड द्या आणि <gui>जोडणी करा</gui> क्लिक करा.</p>
+  <p>कि माहिती नसल्यास, त्यास वायरलेस राउटर किंवा बेस स्टेशनच्या खालच्या बाजूला लिहले जाईल, इंस्ट्रक्शन मॅन्युअलमध्ये, किंवा वायरलेस नेटवर्कचे प्रशासकास विचारा.</p></item>
+  <item><p>नेटवर्कशी जोडणी करण्याचा प्रयत्न करताना नेटवर्क चिन्ह अवतार बदलेल.</p></item>
+  <item>
+   <p>जोडणी यशस्वी ठरल्यास, चिन्ह अनेक बार्सह डॉट करिता बदलेल. जास्त बार्स म्हणजे नेटवर्ककरिता मजबूत जोडणी निर्देशीत करते. जास्त बार्स नसल्यास, जोडणी कमजोर आहे आणि जास्त विश्वासर्ह रहात नाही.</p>
+  </item>
+</steps>
+
+  <p>If the connection is not successful, you may be asked for your password
+  again or it might just tell you that the connection has been disconnected.
+  There are a number of things that could have caused this to happen. You could
+  have entered the wrong password, the wireless signal could be too weak, or
+  your computer's wireless card might have a problem, for example. See
+  <link xref="net-wireless-troubleshooting"/> for more help.</p>
+
+<p>वायरलेस नेटवर्कची मजबूत जोडणीचा अर्थ तुमच्याकडे वेगवान इंटरनेट जोडणी आहे, किंवा तुमच्याकडे वेगवान डाउनलोड गती आहे असे नाही. वायरेस जोडणी संगणकाला  <em>साधनाशी जोडणी करतो जे इंटरनेट जोडणी पुरवते</em> (जसे कि राउटर किंवा मोडेम), परंतु दोन जोडणी प्रत्यक्षरित्या वेगळे आहेत, म्हणून वेगळ्या गतींवर चालेल.</p>
+
+</page>

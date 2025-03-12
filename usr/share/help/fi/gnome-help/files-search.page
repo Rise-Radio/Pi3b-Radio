@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="files-search" xml:lang="fi">
+
+  <info>
+    <link type="guide" xref="files"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-09-25" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author">
+      <name>Gnomen dokumentointiprojekti</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Etsi tiedostoja tiedostonimen ja tyypin perusteella. Tallenna hakusi myöhempää käyttöä varten.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Timo Jyrinki</mal:name>
+      <mal:email>timo.jyrinki@iki.fi</mal:email>
+      <mal:years>2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jiri Grönroos</mal:name>
+      <mal:email>jiri.gronroos+l10n@iki.fi</mal:email>
+      <mal:years>2012, 2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Etsi tiedostoista</title>
+
+  <p>Voit etsiä tiedostoja niiden nimellä tai tiedostotyyppiä käyttäen suoraan tiedostonhallinasta. Voit halutessasi tallentaa usein käytettyjä hakuehtoja, jolloin ne näkyvät erikoiskansioina kotikansiossasi.</p>
+
+  <links type="topic" style="linklist">
+    <title>Muut etsintäohjelmat</title>
+    <!-- This is an extension point where search apps can add
+    their own topics. It's empty by default. -->
+  </links>
+
+  <steps>
+    <title>Etsi</title>
+    <item>
+      <p>Open the <app>Files</app> application from the
+      <gui xref="shell-terminology">Activities</gui> overview.</p>
+    </item>
+    <item>
+      <p>Jos tiedät tiedostojen sijaitsevan tietyssä kansiossa, siirry kyseiseen kansioon.</p>
+    </item>
+    <item>
+      <p>Type a word or words that you know appear in the file name, and they
+      will be shown in the search bar. For example, if you name all your
+      invoices with the word "Invoice", type <input>invoice</input>. Words are
+      matched regardless of case.</p>
+      <note>
+        <p>Instead of typing words directly to bring up the search bar, you can
+	click the magnifying glass in the toolbar, or press
+        <keyseq><key>Ctrl</key><key>F</key></keyseq>.</p>
+      </note>
+    </item>
+    <item>
+      <p>You can narrow your results by location and file type.</p>
+      <list>
+        <item>
+          <p>Click <gui>Home</gui> to restrict the search results to your
+          <file>Home</file> folder, or <gui>All Files</gui> to search
+          everywhere.</p>
+        </item>
+        <item>
+          <p>Click the <gui>+</gui> button and pick a <gui>File Type</gui> from
+	  the drop-down list to narrow the search results based on file type.
+	  Click the <gui>x</gui> button to remove this option and widen the
+	  search results.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Voit avata, kopioida, poistaa tai työskennellä hakutuloksina näkyvien tiedostojen kanssa aivan kuten minkä tahansa muun tiedostonhallinnassa näkyvän kansion tapauksessa.</p>
+    </item>
+    <item>
+      <p>Click the magnifying glass in the toolbar again to exit the search and
+      return to the folder.</p>
+    </item>
+  </steps>
+
+  <p>Jos suoritat tiettyjä hakuja usein, voit tallentaa ne nopeuttaaksesi kyseisten hakujen tuloksiin pääsyä.</p>
+
+  <steps>
+    <title>Tallenna haku</title>
+    <item><p>Käynnistä haku kuten yllä.</p></item>
+    <item><p>When you are happy with the search parameters, click the menu
+    button and select <gui>Save Search As</gui>.</p></item>
+    <item><p>Anna haulle nimi ja paina <gui>Tallenna</gui>. Jos haluat, voit valita tallennuskansioksi jonkun muun sijainnin. Kun selaat kansiota, näet tallennetun haun kansiona, jonka kuvakkeessa on suurennuslasi.</p></item>
+  </steps>
+
+  <p>Tallennetun haun poistaminen onnistuu samalla tavalla kuin muidenkin tiedostojen <link xref="files-delete">poistaminen</link>. Tallennettua hakua poistettaessa ei poisteta hakutuloksina olevia tiedostoja.</p>
+
+</page>

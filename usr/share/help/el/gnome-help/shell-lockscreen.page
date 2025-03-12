@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="shell-lockscreen" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="shell-overview#desktop"/>
+
+    <revision pkgversion="3.6.1" version="0.1" date="2012-11-11" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author copyright">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc>Το διακοσμητικό και λειτουργικό κλείδωμα της οθόνης μεταφέρει χρήσιμες πληροφορίες.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Κλείδωμα της οθόνης</title>
+
+  <p>Το κλείδωμα της οθόνης σημαίνει ότι μπορείτε να δείτε τι συμβαίνει ενώ ο υπολογιστής σας είναι κλειδωμένος και επιτρέπει να πάρετε μια περίληψη του τι έχει συμβεί, ενώ ήσασταν μακριά. Η κουρτίνα κλειδώματος της οθόνης εμφανίζει μια ελκυστική εικόνα στην οθόνη, ενώ ο υπολογιστής σας είναι κλειδωμένος και δίνει χρήσιμες πληροφορίες:</p>
+
+  <list>
+    <item><p>το όνομα του συνδεμένου χρήστη</p></item>
+    <item><p>ημερομηνία και ώρα καθώς και συγκεκριμένες ειδοποιήσεις</p></item>
+    <item><p>κατάσταση μπαταρίας και δικτύου</p></item>
+    <item><p>η δυνατότητα ελέγχου της αναπαραγωγής μέσων - αλλαγή της έντασης, παράλειψη ενός κομματιού ή παύσης της μουσικής σας χωρίς να πρέπει να εισάγετε έναν κωδικό.</p></item>
+  </list>
+
+  <p>To unlock your computer, raise the lock screen curtain by dragging it
+  upward with the cursor, or by pressing <key>Esc</key> or <key>Enter</key>.
+  This will reveal the login screen, where you can enter your password to
+  unlock. Alternatively, just start typing your password and the curtain will
+  be automatically raised as you type. You can also switch users if your
+  computer is configured for more than one.</p>
+
+</page>

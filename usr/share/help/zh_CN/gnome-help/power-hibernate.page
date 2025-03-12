@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="question" version="1.0 if/1.0" id="power-hibernate" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="power"/>
+
+    <desc>由于休眠功能尚不完善，Ubuntu 默认将其禁用。</desc>
+    <revision pkgversion="3.6.0" date="2012-08-14" status="review"/>
+
+    <credit type="author">
+      <name>GNOME 文档项目</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>如何让我的电脑休眠？</title>
+
+<p>当计算机处于<em>休眠</em>状态时，您的所有应用程序和文档都将保持打开状态，而计算机则将完全关闭几乎不再耗电。当您再次打开计算机时，应用程序和文档将仍处于开启状态。</p>
+
+<p>不幸的是，休眠<link xref="power-suspendfail">问题</link>可能有多种原因，您打开的文档和程序，可能会发生数据丢失，因而默认情况下休眠是禁用的。</p>
+
+<section id="test-hibernate">
+<title>测试休眠是否工作</title>
+
+<note style="important">
+  <title>务必在休眠之前保存您的工作</title>
+  <p>您应该在挂起计算机或将计算机置于休眠之前保存所有工作，以防出现错误导致再次打开计算机时不能恢复所打开的应用程序和文档。</p>
+</note>
+
+<p>您可以使用以下命令测试休眠是否在您的电脑上正常工作。</p>
+
+<steps>
+  <item>
+    <if:choose>
+      <if:when test="platform:unity">
+        <p>按组合键<keyseq><key>Ctrl</key> <key>Alt</key><key>t</key></keyseq>打开<app>终端</app>，或者在 <gui>dash</gui> 主面板里，搜索<input>terminal</input>。</p>
+     </if:when>
+     <p>在<gui>活动</gui>视图中，通过搜索<input>terminal</input>打开<app>终端</app>程序。</p>
+  </if:choose>
+  </item>
+  <item>
+    <p>以管理员身份，输入 <cmd>pm-hibernate</cmd>，然后按<key>回车键</key>。</p>
+    <p>按提示输入密码。</p>
+  </item>
+  <item>
+    <p>当电脑关闭后，重新将其打开，您原来打开的程序是否重新打开了？</p>
+    <p>如果休眠不能正常工作，请检查您的 SWAP 分区的大小是否大于或等于您物理内存的大小。</p>
+  </item>
+</steps>
+
+</section>
+
+<section id="enable-hibernate">
+<title>启用休眠</title>
+
+  <p>如果休眠正常工作，您可以可以输入 <cmd>pm-hibernate</cmd> 命令来进行休眠。</p>
+
+  <p>You could also install the
+  <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/">
+  <app>Hibernate Status Button</app></link> extension from the
+  <link href="https://extensions.gnome.org">GNOME Extensions website</link>:</p>
+
+  <steps>
+    <item>
+      <p>Switch <gui style="button">ON</gui> the
+      <app>Hibernate Status Button</app> on
+      <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/">
+      its extension page</link> by pressing the status button at the top
+      left.</p>
+    </item>
+    <item>
+      <p>You will be asked to confirm that you want to install the extension.
+      Press <gui style="button">Install</gui>.</p>
+    </item>
+  </steps>
+
+  <p>The button will now be added to the system menu on the right side of the
+  top bar and can be pressed to hibernate your computer.</p>
+
+  <note style="tip">
+    <p>You can also hold down <key>Alt</key> while pressing the
+    <em>hibernate</em> button to use the <em>hybrid-sleep</em> feature. The
+    hybrid-sleep mode is a mix of the hibernate and sleep modes. This means
+    that your computer remains powered on, so you can wake it up by pressing a
+    key on the keyboard and all your open applications and documents are saved
+    in the same state as before pressing the hybrid-sleep button.</p>
+  </note>
+
+</section>
+
+</page>

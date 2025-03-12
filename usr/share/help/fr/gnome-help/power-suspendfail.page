@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="power-suspendfail" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="power#problems"/>
+    <link type="guide" xref="hardware-problems-graphics"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <desc>Problèmes de veille ou d'hibernation de certains périphériques.</desc>
+
+    <credit type="author">
+      <name>Le projet de documentation GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Pourquoi mon ordinateur ne sort-il pas de veille après une suspension ?</title>
+
+<p>Si vous mettez votre ordinateur <link xref="power-suspend">en veille</link> ou en <link xref="power-hibernate">hibernation</link>, qu'ensuite vous le réveillez ou le rallumez et qu'il ne fonctionne pas comme il devrait, c'est sans doute que les fonctions suspendre/hiberner ne sont pas très bien prises en charge par votre matériel.</p>
+
+<section id="resume">
+  <title>Mon ordinateur est mis en veille et ne se réveille pas</title>
+  <p>Quand votre ordinateur est en veille (suspendu) et que vous appuyez sur une touche ou que vous bougez la souris, il doit se réveiller et afficher un message à l'écran demandant la saisie de votre mot de passe. Si ce n'est pas le cas, essayez d'appuyer sur le bouton de mise en marche (ne le maintenez pas enfoncé, appuyez juste une fois).</p>
+  <p>Si cela ne change rien, vérifiez que votre moniteur est allumé et appuyez une nouvelle fois sur une touche du clavier.</p>
+  <p>En dernier ressort, éteignez l'ordinateur en maintenant le bouton de mise en marche enfoncé pendant 5 à 10 secondes. Par cette action, vous perdrez tout travail non enregistré. Vous pouvez cependant rallumer ensuite votre ordinateur.</p>
+  <p>Si cela se produit à chaque fois que votre ordinateur se met en veille, c'est que cette fonction n'est pas compatible avec votre matériel.</p>
+  <note style="warning">
+    <p>Si votre ordinateur perd de l'énergie et n'a pas de source d'énergie alternative (comme une batterie fonctionnelle), il s'éteindra.</p>
+  </note>
+</section>
+
+<section id="hibernate">
+  <title>Pas d'application/document ouvert au redémarrage de l'ordinateur</title>
+  <p>Si l'hibernation se passe mal, aucun document ni application ne s'ouvre quand vous rallumez l'ordinateur. Parfois, ceci est dû à un petit problème passager et à la prochaine hibernation tout peut se passer correctement. Cela peut aussi se produire quand une mise à jour que vous venez d'installer nécessite un redémarrage de l'ordinateur ; dans ce cas, l'ordinateur s'est peut-être éteint au lieu d'hiberner.</p>
+  <p>Il se peut aussi que l'ordinateur ne puisse pas hiberner car son équipement ne supporte pas cette fonction correctement. Vérifiez ce point en recommençant la procédure d'hibernation pour voir si le problème réapparaît. Si c'est le cas, alors il y a sans doute un problème lié aux pilotes de votre ordinateur.</p>
+</section>
+
+<section id="hardware">
+  <title>Connexion sans fil (ou autre périphérique) non fonctionnelle à la sortie de veille</title>
+  <p>S'il arrive qu'en sortie de veille ou d'hibernation, votre connexion internet, votre souris ou tout autre périphérique ne fonctionne plus normalement, ceci est sans doute dû à une mauvaise prise en charge de la fonction veille ou hibernation des pilotes du périphérique. Ceci est un <link xref="hardware-driver">problème du pilote</link>, pas du périphérique lui-même.</p>
+  <p>S'il y a un commutateur sur le périphérique, éteignez et rallumez-le. Dans la majorité des cas, il recommence à fonctionner. S'il est connecté par une liaison USB ou autre, débranchez-le puis rebranchez pour voir s'il fonctionne.</p>
+  <p>S'il n'est pas possible d'éteindre ou de débrancher le périphérique, ou s'il ne fonctionne toujours pas, redémarrez l'ordinateur.</p>
+</section>
+
+</page>

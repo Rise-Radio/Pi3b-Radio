@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="session-formats" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="prefs-language"/>
+    <link type="seealso" xref="session-language"/>
+
+    <revision pkgversion="3.10" version="0.4" date="2013-11-03" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Eine Region für Datum und Zeit, Zahlen, Währung und Maßeinheiten wählen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Datumsformat und Maßeinheiten ändern</title>
+
+  <p>Sie können die Formate und Einheiten, die für das Datum, die Zeit, Zahlen, Währung und Maßeinheiten verwendet werden, so einstellen, wie es in Ihrer Region üblich ist.</p>
+
+  <steps>
+    <item>
+      <p>Öffnen Sie die <gui xref="shell-terminology">Aktivitäten</gui>-Übersicht und tippen Sie <gui>Region und Sprache</gui> ein.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui>Region &amp; Sprache</gui>, um das Panel zu öffnen.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui>Formate</gui>.</p>
+    </item>
+    <item>
+      <p>Select the region and language that most closely matches the formats
+      you would like to use. If your region and language are not listed, click
+      <gui><media its:translate="no" type="image" mime="image/svg" src="figures/view-more-symbolic.svg"><span its:translate="yes">...</span></media></gui>
+      at the bottom of the list to select from all available regions and
+      languages.</p>
+    </item>
+    <item>
+      <p>Click <gui style="button">Done</gui> to save.</p>
+    </item>
+    <item>
+      <p>Respond to the prompt, <gui>Your session needs to be restarted for
+      changes to take effect</gui> by clicking
+      <gui style="button">Restart Now</gui>, or click
+      <gui style="button">X</gui> to restart later.</p>
+    </item>
+  </steps>
+
+  <p>After you have selected a region, the area to the right of the list shows
+  various examples of how dates and other values are shown. Although not shown
+  in the examples, your region also controls the starting day of the week in
+  calendars.</p>
+
+</page>

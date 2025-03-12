@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-views" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-views"/>
+
+    <desc>फाइल व्यवस्थापककरिता पूर्वनिर्धारित अवलोकन, क्रमवारि, आणि झूम स्तर निर्देशीत करा.</desc>
+
+    <revision pkgversion="3.8" version="0.2" date="2013-04-03" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+<title><app>फाइल्स</app>मध्ये पसंती बघा</title>
+
+<p>नविन फोल्डर्सकरिता पूर्वनिर्धारित अवलोकन बदलणे, फाइल्स आणि फोल्डर्स पूर्वनिर्धारितपणे कसे क्रमवारित लावले जातात, चिन्ह आणि संक्षिप्त अवलोकनकरिता झूम स्तर, आणि फाइल्सला ट्री बाजूच्यापट्टीमध्ये दाखवले जाते किंवा नाही, असे शक्य आहे. तसेच <app>फाइल्स</app> खुले असताना आणि <gui style="tab">अवलोकन</gui> टॅब निवडताना, शीर्ष पट्टीत <guiseq><gui style="menu">फाइल्स</gui> <gui style="menuitem">प्राधान्यता</gui></guiseq> निवडा.</p>
+
+<section id="default-view">
+<title>पुर्वनिर्धारित दृश्य</title>
+<terms>
+  <item>
+    <title><gui>वापरात असलेले नवीन फोल्डर्स बघा</gui></title>
+    <p>पूर्वनिर्धारितपणे, नविन फोल्डर्सला चिन्ह अवलोकनमध्ये दाखवले जातात. सूची अवलोकन पसंत असल्यास, येथे तुम्ही पूर्वनिर्धारित म्हणून सेट करा. वैकल्पिकरित्या, चाळताना प्रत्येक फोल्डरकरिता तुम्ही वेगळे अवलोकन निवडू शकता आणि त्याकरिता साधनपट्टीतील <gui style="button">घटकांचे सूचीप्रमाणे अवलोकन</gui> किंवा <gui style="button">घटकांचे चिन्हांचे ग्रिड म्हणून अवलोकन</gui> बटनांवर क्लिक करा.</p>
+  </item>
+  <item>
+    <title><gui>घटक आवरा</gui></title>
+    <p>नाव, फाइल आकार, शेवटच्यावेळी संपादित केले, शेवटच्यावेळी प्रवेश प्राप्ति किंवा कचरापेटीत स्थानांतरित केल्यानुरूप पसंतीमधील <gui>घटकांना सुस्थीत करा</gui> ड्रॉप-डाउन सूचीचा वापर करून फोल्डर्समध्ये वापरण्याजोगी पूर्वनिर्धारित क्रमवारिला बदलणे शक्य आहे.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can change how <link xref="files-sort">files
+    are sorted</link> in an individual folder by clicking the
+    <media its:translate="no" type="image" src="figures/go-down.png">
+    <span its:translate="yes">View options</span></media> button
+    in the toolbar and choosing <gui>By Name</gui>, <gui>By Size</gui>, <gui>By
+    Type</gui> or <gui>By Modification Date</gui>, or by clicking the list
+    column headers in list view. This menu only affects the current folder.</p>
+  </item>
+  <item>
+    <title><gui>फाइल्सच्या आधी फोल्डर चाळा</gui></title>
+    <p>पूर्वनिर्धारितपणे, फाइल व्यवस्थापक यापुढे फाइलच्या अगोदर सर्व फोल्डर्स दाखवतात नाही. फाइल्स अगोदर सर्व फोल्डर्सची सूची पहाण्याकरिता, हा पर्याय सुरू करा.</p>
+  </item>
+  <item>
+    <title><gui>छुपे आणि बॅकअप फाइल्स दाखवा</gui></title>
+    <p>पूर्वनिर्धारितपणे फाइल व्यवस्थापक <link xref="files-hidden">छुपे फाइल्स</link> आणि फोल्डर्स दाखवत नाही. ह्या पर्यायचा वापर करून तुम्ही नेहमी छुप्या फाइल्स दाखवू शकता.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can also show hidden files in an individual
+    window by selecting <gui>Show Hidden Files</gui>, from the
+    <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media> menu in
+    the toolbar.</p>
+  </item>
+</terms>
+</section>
+
+<section id="icon-view-defaults">
+<title>पुर्वनिर्धरित चिन्ह दृश्य</title>
+<terms>
+  <item>
+    <title><gui>पुर्वनिर्धरित झुम स्थिती</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can make the icons and text larger or
+    smaller by default in icon view using this option. You can also change this
+    setting in an individual folder by clicking the
+    <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media> button
+    in the toolbar and selecting <gui>Zoom In</gui>, <gui>Zoom Out</gui> or
+    <gui>Normal Size</gui>. If you frequently use a larger or smaller zoom
+    level, you can set the default with this option.</p>
+    <p>चिन्ह अवलोकनमध्ये, लहान/मोठे करा स्तरावर आधारित जास्त किंवा कमी <link xref="nautilus-display#icon-captions">कॅपशन्स</link> दाखवले जातात.</p>
+   </item>
+  </terms>
+</section>
+
+<section id="list-view-defaults">
+<title>पुर्वनिर्धरित यादी दृश्य</title>
+<terms>
+  <item>
+    <title><gui>पुर्वनिर्धरित झुम स्थिती</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can make the icons and text larger or
+    smaller in list view using this option. You can also do this in an
+    individual folder by clicking the
+    <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media> button
+    in the toolbar and selecting <gui>Zoom In</gui>, <gui>Zoom Out</gui> or
+    <gui>Normal Size</gui>.</p>
+  </item>
+</terms>
+</section>
+
+</page>

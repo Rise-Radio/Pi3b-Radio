@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="color-notspecifiededid" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="color#problems"/>
+    <link type="guide" xref="color-gettingprofiles"/>
+    <link type="guide" xref="color-why-calibrate"/>
+    <desc>મૂળભૂત મોનિટર રૂપરેખાઓ પાસે માપાંકિત તારીખ નથી હોતી.</desc>
+    <credit type="author">
+      <name>Richard Hughes</name>
+      <email>richard@hughsie.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>શા માટે મૂળભૂત મોનિટર રૂપરેખા પાસે માપાંકન નિવૃત્તિ હોતી નથી?</title>
+  <p>દરેક મોનિટર માટે મૂળભૂત રંગ રૂપરેખા દર્શાવ EDID પર આધારિત આપમેળે પેદા થયેલ છે કે જે મોનિટરની અંદર મેમરી ચીપમાં સંગ્રહેલ છે. EDID એ ઉપલબ્ધ રંગોનાં સ્નેપશોટને આપણને આપે છે મોનિટર દર્શાવવાનાં સક્ષમ હતુ જ્યારે તે બનેલ હતુ, અને રંગ ચકાસણી માટે બીજી જાણકારીને સમાવતુ નથી.</p>
+
+  <figure>
+    <desc>EDID ને સુધારી શકાતુ નથી, તેની કોઇ નિવૃત્ત તારીખ નથી.</desc>
+    <media type="image" mime="image/png" src="figures/color-profile-default.png"/>
+  </figure>
+
+  <note style="tip">
+    <p>મોનિટર વિક્રેતામાંથી રૂપરેખાને મેળવવી અથવા તમારી જાતે રૂપરેખાને બનાવવાનું એ રંગ ચકાસણીને વધારે યોગ્ય રાખવા આગળ વધારશે.</p>
+  </note>
+
+</page>

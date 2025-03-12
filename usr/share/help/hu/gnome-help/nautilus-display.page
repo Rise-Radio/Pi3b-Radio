@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-display" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-display"/>
+
+    <desc>A fájlkezelőben használt ikonfeliratok befolyásolása.</desc>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-19" status="review"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Griechisch Erika</mal:name>
+      <mal:email>griechisch.erika at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kucsebár Dávid</mal:name>
+      <mal:email>kucsdavid at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lakatos 'Whisperity' Richárd</mal:name>
+      <mal:email>whisperity at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lukács Bence</mal:name>
+      <mal:email>lukacs.bence1 at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nagy Zoltán</mal:name>
+      <mal:email>dzodzie at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Fájlkezelő megjelenítési beállításai</title>
+
+<p>Befolyásolhatja az ikonok alatti feliratok megjelenítését a fájlkezelőben. Válassza a <gui>Fájlok</gui> ikont a felső sávon, majd a <gui>Beállítások</gui> menüpontot, végül a <gui>Megjelenítés</gui> lapot.</p>
+
+<section id="icon-captions">
+  <title>Ikonfeliratok</title>
+  <media type="image" src="figures/nautilus-icons.png" width="250" height="110" style="floatend floatright">
+    <p>Ikonok a fájlkezelőben feliratokkal</p>
+  </media>
+  <p>Az ikonnézet használatakor extra információkat jeleníttethet meg a fájlokról és mappákról az ikonok alatti feliratokban. Ez akkor hasznos, ha például gyakran kell megjelenítenie a fájl tulajdonosát, vagy utolsó módosítási dátumát.</p>
+  <p>Kinagyíthat egy mappát az eszköztár <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">lefelé</span></media> gombjára kattintva, és az egyik <gui>Nagyítás</gui> lehetőséget kiválasztva. A nagyítás során a fájlkezelő egyre több és több információt jelenít meg a feliratokban. Legfeljebb három fajta információt választhat a feliratokban történő megjelenítéshez. Az első a legtöbb nagyítási szinten megjelenik, az utolsó csak a nagyon nagy méreteknél.</p>
+  <p>Az ikonfeliratokban megjeleníthető információk megegyeznek a listanézet oszlopaiban megjeleníthetőkkel. További részletekért lásd: <link xref="nautilus-list"/>.</p>
+  <note><p>Ha a fájlkezelő ablak nyitva van, az ikonfelirat módosításainak életbe lépéséhez szükség lehet az újratöltésre. Válassza a <guiseq><gui>Nézet</gui><gui>Újratöltés</gui></guiseq> menüpontot, vagy nyomja meg a <keyseq><key>Ctrl</key><key>R</key></keyseq> kombinációt.</p></note>
+</section>
+
+</page>

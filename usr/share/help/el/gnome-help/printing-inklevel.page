@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="printing-inklevel" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="printing"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Anita Reitere</name>
+      <email>nitalynx@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ελέγξετε την ποσότητα του μελανιού ή γραφίτη που υπάρχει στα φυσίγγια του εκτυπωτή.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Πώς μπορώ να ελέγξω τις στάθμες μελανιού/γραφίτη του εκτυπωτή;</title>
+
+  <p>Πώς ελέγχετε πόσο μελάνι ή γραφίτης απομένει στον εκτυπωτή σας εξαρτάται από τον τύπο και τον κατασκευαστή του εκτυπωτή σας και τους εγκατεστημένους οδηγούς και εφαρμογές στον υπολογιστή σας.</p>
+
+  <p>Μερικοί εκτυπωτές έχουν μια ενσωματωμένη οθόνη που εμφανίζει τις στάθμες μελανιού και άλλες πληροφορίες.</p>
+
+  <p>Some printers report toner or ink levels to the computer, which can be
+  found in the <gui>Printers</gui> panel in <app>Settings</app></p>
+
+  <p>Οι οδηγοί και τα εργαλεία κατάστασης για τους περισσότερους εκτυπωτές HP παρέχονται από το έργο εικόνες και εκτύπωση HP Λίνουξ (HPLIP). Άλλοι κατασκευαστές μπορεί να παρέχουν ιδιοταγείς οδηγούς με παρόμοια γνωρίσματα.</p>
+
+  <p>Εναλλακτικά, μπορείτε να εγκαταστήσετε μια εφαρμογή για να ελέγχει ή να παρακολουθεί τις στάθμες του μελανιού. Το <app>Inkblot</app> εμφανίζει την κατάσταση μελανιού για πολλούς εκτυπωτές HP, Epson και Canon. Δείτε εάν ο υπολογιστής σας είναι στο <link href="http://libinklevel.sourceforge.net/#supported">κατάλογος των υποστηριζόμενων μοντέλων</link>. Μια άλλη εφαρμογή σταθμών μελανιού για Epson και μερικούς άλλους εκτυπωτές είναι η <app>mktink</app>.</p>
+
+  <p>Μερικοί εκτυπωτές δεν υποστηρίζονται ακόμα καλά στο Λίνουξ και άλλοι δεν είναι σχεδιασμένοι να αναφέρουν τις στάθμες μελανιού τους.</p>
+
+</page>

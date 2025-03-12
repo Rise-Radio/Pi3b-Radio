@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-fixed-ip-address" xml:lang="fi">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="seealso" xref="net-findip"/>
+
+    <revision pkgversion="3.4.0" date="2012-03-13" status="final"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Kiinteän IP-osoitteen käyttö saattaa helpottaa joidenkin verkkopalvelujen hallintaa.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Timo Jyrinki</mal:name>
+      <mal:email>timo.jyrinki@iki.fi</mal:email>
+      <mal:years>2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jiri Grönroos</mal:name>
+      <mal:email>jiri.gronroos+l10n@iki.fi</mal:email>
+      <mal:years>2012, 2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Luo yhteys käyttämällä kiinteää IP-osoitetta</title>
+
+  <p>Useimmat langalliset verkot osaavat antaa tietokoneelle yhteyden muodostamiseen tarvittavat  <link xref="net-what-is-ip-address">tiedot (kuten IP-osoitteen)</link> automaattisesti. Nämä tiedot voivat muuttua silloin tällöin, mutta haluat mahdollisesti käyttää kiinteää IP-osoitetta, jolloin se on aina tiedossasi (tämä voi olla hyödyllistä esimerkiksi tiedostopalvelinta käytettäessä).</p> <p>Määritä tietokoneellesi kiinteä (staattinen) IP-osoite:</p>
+
+  <steps>
+    <item>
+      <p>Click the <gui>network icon</gui> on the <gui>top bar</gui> and select
+      <gui>Network Settings</gui>.</p>
+    </item>
+    <item>
+      <p>Select the network connection from the list (<gui>Wired</gui> or
+      <gui>Wireless</gui>) and click <gui>Configure</gui>.</p>
+    </item>
+    <item>
+      <p>Vaihda <gui>IPv4-asetukset</gui>-välilehdelle ja vaihda <gui>Menetelmä</gui>-kohtaan <em>Manuaalinen</em>.</p>
+    </item>
+    <item>
+      <p>Jos yhteyden tietoja ei <gui>Osoitteet</gui>-listalla tai haluat määrittää uuden yhteyden, napsauta <gui>Lisää</gui>.</p>
+    </item>
+    <item>
+      <p>Anna <em>IP-osoite</em>, <em>Verkkopeite</em> ja <em>Yhdyskäytävä</em> niille tarkoitettuihin kenttiin. Näihin kenttiin tarkoitetut tiedot riippuvat verkkosi asetuksista. Tietyt säännöt määrittävät, minkälaiset asetukset ovat kelvollisia arvoja IP-osoitteeksi ja verkkopeitteeksi.</p>
+    </item>
+    <item>
+      <p>Anna tarvittaessa <em>nimipalvelimen</em> osoite <gui>DNS-palvelimet</gui> -kenttään. Kyseessä on verkkonimiä selvittävän palvelimen IP-osoite. Useimmat yritysverkot ja palveluntarjoajat käyttävät omia nimipalvelimia.</p>
+    </item>
+    <item>
+      <p>Napsauta <gui>Tallenna</gui>. Verkkoyhteydellä pitäisi nyt olla kiinteä IP-osoite.</p>
+    </item>
+  </steps>
+
+</page>

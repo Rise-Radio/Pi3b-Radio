@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="sharing-bluetooth" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="bluetooth"/>
+    <link type="guide" xref="sharing"/>
+    <link type="guide" xref="prefs-sharing"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-13" status="draft"/>
+    <revision pkgversion="3.10" date="2013-11-09" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-08" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-13" status="candidate"/>
+
+    <credit type="author">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2014</years>
+    </credit>
+    <credit type="author">
+      <name>David King</name>
+      <email its:translate="no">davidk@gnome.org</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Fájlok feltöltésének engedélyezése a számítógépre Bluetooth használatával.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Griechisch Erika</mal:name>
+      <mal:email>griechisch.erika at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kucsebár Dávid</mal:name>
+      <mal:email>kucsdavid at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lakatos 'Whisperity' Richárd</mal:name>
+      <mal:email>whisperity at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lukács Bence</mal:name>
+      <mal:email>lukacs.bence1 at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nagy Zoltán</mal:name>
+      <mal:email>dzodzie at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Bluetooth megosztás szabályozása</title>
+
+  <p>A <gui>Bluetooth megosztás</gui> beállítható a <file>Letöltések</file> mappa elérésének felügyeletére a  Bluetooth fájlmegosztáshoz, és korlátozhatja ezt a hozzáférést a <em>megbízható eszközökre</em>. A megbízható eszközök azok, amelyek korábban <link xref="bluetooth-connect-device">párosítva</link> lettek a számítógéppel.</p>
+
+  <note style="info package">
+    <p>A <gui>Bluetooth megosztás</gui> csak akkor látható, ha a <app>GNOME User Share</app> csomag telepítve van.</p>
+
+    <if:choose xmlns:if="http://projectmallard.org/if/1.0/">
+      <if:when test="action:install">
+        <p><link action="install:gnome-user-share" style="button">A GNOME UserShare telepítése</link></p>
+      </if:when>
+    </if:choose>
+  </note>
+
+  <steps>
+    <title>Fájlok megosztásának engedélyezése a <file>Letöltések</file> mappába</title>
+    <item>
+      <p>Nyissa meg a <gui xref="shell-terminology">Tevékenységek</gui> áttekintést, és kezdje el begépelni a <gui>Megosztás</gui> szót.</p>
+    </item>
+    <item>
+      <p>Kattintson a <gui>Megosztás</gui> ikonra a panel megnyitásához.</p>
+    </item>
+    <item>
+      <p>Ha a <gui>Megosztás</gui> <gui>KI</gui> van kapcsolva, akkor kapcsolja <gui>BE</gui> állásba a kapcsolót.</p>
+    </item>
+    <item>
+      <p>Válassza a <gui>Bluetooth megosztás</gui> lehetőséget.</p>
+    </item>
+    <item>
+      <p>Kapcsolja <gui>BE</gui> a <gui>Fogadott fájlok mentése a Letöltések mappába</gui> kapcsolót.</p>
+    </item>
+    <item>
+      <p>Ha csak megbízható eszközöknek szeretné engedélyezni a <file>Letöltések</file> mappa elérését, akkor kapcsolja <gui>BE</gui> a <gui>Fogadás csak megbízható eszközökről</gui> kapcsolót.</p>
+
+      <note style="tip">
+        <p>Ez a beállítás alapesetben ki van kapcsolva. Akkor kapcsolja be, ha meg szeretné akadályozni a megosztott fájljainak elérését bárki által, akinek a közelében Bluetooth-képes mobiltelefonja vagy hasonló eszköze van.</p>
+      </note>
+
+    </item>
+    <item>
+      <p>Nyomja meg a <gui style="button">Bezárás</gui> gombot. A Bluetooth-képes eszközök mostantól fájlokat küldhetnek a <file>Letöltések</file> mappába.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p><link xref="sharing-displayname">Megváltoztathatja</link> a számítógép által más eszközök felé megjelenített nevet.</p>
+  </note>
+
+  <p>A <app>Fájlok</app> lehetővé teszi a <gui>Megosztás</gui> panel közvetlen elindítását a <gui>Beállítások</gui> gomb megnyomásakor, vagy a <file>Letöltések</file> mappa megnyitásakor.</p>
+
+</page>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-screen-lock" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+    <link type="seealso" xref="session-screenlocks"/>
+    <link type="seealso" xref="shell-exit#lock-screen"/>
+
+    <revision pkgversion="3.8" date="2013-05-21" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit>
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Impedir que otras personas puedan usar su escritorio cuando se aleje de su equipo.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Bloquear automáticamente su pantalla</title>
+  
+  <p>Cuando se aleje de su equipo, debería <link xref="shell-exit#lock-screen">bloquear la pantalla</link> para impedir que otras personas puedan usar su escritorio y acceder a sus archivos. Si alguna vez olvida bloquear su pantalla, puede querer que el equipo la bloquee automáticamente tras cierto periodo de tiempo establecido. Esto le ayudará a securizar su equipo cuando no lo esté usando.</p>
+
+  <note><p>Cuando su pantalla está bloqueada, sus aplicaciones y los procesos del sistema seguirán en ejecución, pero necesitará introducir su contraseña para volver a usarlo.</p></note>
+  
+  <steps>
+    <title>Para configurar el tiempo que tarda su pantalla en bloquearse automáticamente:</title>
+    <item>
+      <p>Abra la vista de <gui xref="shell-terminology">Actividades</gui> empiece a escribir <gui>Privacidad</gui>.</p>
+    </item>
+    <item>
+      <p>Pulse en <gui>Privacidad</gui> para abrir el panel.</p>
+    </item>
+    <item>
+      <p>Seleccione <gui>Pantalla de bloqueo</gui>.</p>
+    </item>
+    <item>
+      <p>Make sure <gui>Automatic Screen Lock</gui> is switched <gui>ON</gui>,
+      then select a length of time from the drop-down list.</p>
+    </item>
+    <item>
+      <p>Para permitir que las notificaciones se muestren en la pantalla de bloqueo, <gui>Active</gui> la opción <gui>Mostrar notificaciones</gui>.</p>
+    </item>
+    <item>
+      <p>Click the <gui>X</gui> to close.</p>
+    </item>
+  </steps>
+
+  <p>When your screen is locked, and you want to unlock it, press
+  <key>Esc</key>, or swipe up from the bottom of the screen with your mouse.
+  Then enter your password, and press <key>Enter</key> or click
+  <gui>Unlock</gui>. Alternatively, just start typing your password and the
+  lock curtain will be automatically raised as you type.</p>
+
+</page>

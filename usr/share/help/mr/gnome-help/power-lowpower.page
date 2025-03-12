@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="power-lowpower" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="power#battery"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <desc>बॅटरी पूर्णपणे डिसचार्ज करण्याची परवानगी देणे खराब बाब आहे.</desc>
+    <credit type="author">
+      <name>GNOME डॉक्युमेंटेशन प्रकल्प</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>१०% पर्यंत पोहचल्यानंतर माझे संगणक बंद किंवा हायबरनेट का झाले?</title>
+
+<p>बॅटरीचे चार्ज स्तर खूप खाली गेल्यानंतर, तुमचे संगणक स्वतःहून <link xref="power-hibernate">हायबरनेट</link> होईल. असे, बॅटरी पूर्णपणे डिसचार्ज होणार नाही याची खात्री करण्यासाठी केले जाते, कारण हे बॅटरीकरिता खराब आहे. बॅटरी फक्त संपली असल्यास, संगणक एकतर योग्यरित्या बंद झाले नसावे.</p>
+
+<p>You can change what happens when the battery level gets too low by opening
+<app>Power</app> from the <gui xref="shell-terminology">Activities</gui>
+overview. Look at the <gui>When battery power is critical</gui> setting. You
+can choose for the computer to hibernate or shut down. If you choose shut down,
+your applications and documents <em>will not</em> be saved before the computer
+turns off.</p>
+
+<p>काही संगणकांमध्ये हायबरनेट अडचणी असतात, आणि संगणक पुन्हा सुरू केल्यानंतर ॲप्लिकेशन्स आणि दस्तऐवजांची पुन्ह प्राप्ति शक्य होणार नाही. ह्या घटनामध्ये, संगणक हायबरनेट होण्यापूर्वी केलेले काम न साठवल्यास त्यास गमवण्याची शक्यता आहे. तरी, <link xref="power-suspendfail">हायबरनेशनसह अडचणींचे निवारण करणे</link> शक्य आहे.</p>
+
+</page>

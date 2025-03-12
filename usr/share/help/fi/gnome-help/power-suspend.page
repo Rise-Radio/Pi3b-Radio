@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="power-suspend" xml:lang="fi">
+
+  <info>
+    <link type="guide" xref="power"/>
+
+    <desc>Valmiustila asettaa tietokoneen virtaa säästävään tilaan.</desc>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <credit type="author">
+      <name>Gnomen dokumentointiprojekti</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Timo Jyrinki</mal:name>
+      <mal:email>timo.jyrinki@iki.fi</mal:email>
+      <mal:years>2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jiri Grönroos</mal:name>
+      <mal:email>jiri.gronroos+l10n@iki.fi</mal:email>
+      <mal:years>2012, 2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Mitä tapahtuu, kun asetan tietokoneeni valmius- tai lepotilaan?</title>
+
+<p><em>Valmiustilaan</em> asetettu tietokone käyttää erittäin vähän virtaa. Kaikki avoinna olevat sovellukset ja asiakirjat pysyvät avoinna, mutta näyttö ja mahdollisimman monet tietokoneen osat kytketään pois päältä. Tietokonetta ei kuitenkaan sammuteta, ja se käyttää jonkin verran virtaa. Voit palata valmiustilasta liikuttamalla hiirtä tai painamalla tietokoneen virtapainiketta.</p>
+
+<p>Joidenkin tietokoneiden laitteisto-ongelmista johtuen <link xref="power-suspendfail">valmius- tai lepotila ei välttämättä toimi oikein</link>.  Kannattaa siis kokeilla, miten oma tietokone toimii valmius- ja lepotiloissa.</p>
+
+<note style="important">
+  <title>Tallenna aina työsi, ennen kuin siirryt valmiustilaan</title>
+  <p>Tallenna kaikki työsi varmuuden varalta, ennen kuin asetat tietokoneen valmiustilaan. Näin työsi säilyvät, vaikka tietokone ei syystä tai toisesta käynnistyisi oikein.</p>
+</note>
+
+</page>

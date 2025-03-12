@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="fi">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jotkut sivustot käyttävät Silverlightia sivujen tiettyjen osien näyttämiseen. Moonlight-lisäosan avulla voit katsella näitä sivuja.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Timo Jyrinki</mal:name>
+      <mal:email>timo.jyrinki@iki.fi</mal:email>
+      <mal:years>2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jiri Grönroos</mal:name>
+      <mal:email>jiri.gronroos+l10n@iki.fi</mal:email>
+      <mal:years>2012, 2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Asenna Silverlight-lisäosa</title>
+
+  <p><app>Silverlight</app> on <em>liitännäinen</em> jonka avulla selaimesi osaa näyttää sen avulla toimivia videoita sekä joidenkin sivustojen interaktiivisia osia. Jotkin sivustot eivät toimi ilman Silverlightia.</p>
+
+  <p>Jos yrität avata Silverlightilla toimivaa sivustoa, mutta lisäosaa ei ole asennettu, saat todennäköisesti ilmoituksen asiasta. Näissä ilmoituksissa on ohjeet Silverlightin asentamiseen, mutta ne eivät yleensä toimi joko selaimesi tai Linuxin kanssa.</p>
+
+  <p>Jos haluat katsella Silverlightia käyttäviä sivustoja, sinun pitää asentaa sen sijasta <em>Moonlight</em> niminen liitännäinen. Se on ilmainen, avoimen lähdekoodin versio Silverlightista joka toimii myös Linuxissa. Moonlightia ei ole oletuksena asennettu Ubuntuun.</p>
+
+  <p>Some Linux distributions have a copy of Moonlight that you can install
+  using their software installer; just open the installer and search for
+  <input>Silverlight</input> or <input>Moonlight</input>.</p>
+
+  <p>If your distribution doesn't have a Moonlight software package, see the
+  <link href="http://www.go-mono.com/moonlight/">Moonlight website</link> for
+  more information and installation instructions.</p>
+
+</page>

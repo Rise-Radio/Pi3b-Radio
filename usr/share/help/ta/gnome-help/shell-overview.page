@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="ui" id="shell-overview" xml:lang="ta">
+
+  <info>
+
+    <link type="guide" xref="index" group="shell-overview"/>
+
+    <title role="trail" type="link">பணிமேசை</title>
+
+    <desc><link xref="shell-introduction">அறிமுகம்</link>, <link xref="shell-keyboard-shortcuts">விசைப்பலகை குறுக்குவழிகள்</link>, <link xref="clock-calendar">நாள்காட்டி</link>, <link xref="shell-notifications">அறிவிப்புகள்</link>…</desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+
+    <credit type="author">
+      <name>GNOME ஆவணமாக்கத் திட்டப்பணி</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+<title>பணிமேசை, பயன்பாடுகள் &amp; சாளரங்கள்</title>
+
+<links type="topic" style="2column"/>
+
+<section id="desktop" style="2column">
+ <title>பணிமேசை</title>
+</section>
+
+<section id="apps" style="2column">
+ <title>பயன்பாடுகள் மற்றும் சாளரங்கள்</title>
+</section>
+
+</page>

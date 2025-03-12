@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="clock-set" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="clock"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+
+    <credit type="author">
+      <name>Έργο Τεκμηρίωσης GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Πατήστε το ρολόι στην πάνω γραμμή και πηγαίνετε στο <gui>Ρυθμίσεις ημερομηνίας και χρόνου</gui> για να αλλάξετε ημερομηνία/ώρα.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Αλλάξτε την ημερομηνία και την ώρα</title>
+
+  <p>Εάν η ημερομηνία και ο χρόνος που εμφανίζονται στην πάνω γραμμή είναι εσφαλμένοι ή σε λάθος μορφή, μπορείτε να τους αλλάξετε:</p>
+
+  <steps>
+    <item>
+      <p>Πατήστε στο ρολόι στη μέση της πάνω γραμμής και επιλέξτε <gui>Ρυθμίσεις ημερομηνίας &amp; χρόνου</gui>.</p>
+    </item>
+    <item>
+      <p>Αν έχετε έναν τυπικό λογαριασμό, θα χρειαστείτε να πατήσετε <gui>Ξεκλείδωμα</gui> και να πληκτρολογήσετε τον <link xref="user-admin-explain">κωδικό πρόσβασης διαχειριστή</link>.</p>
+    </item>
+    <item>
+      <p>If you have an internet connection, you can set your date, time and
+      time zone to update automatically by switching <gui>Automatic Date &amp;
+      Time</gui> and <gui>Automatic Time Zone</gui> to <gui>ON</gui>.</p>
+      <p>If you do not have an internet connection, you can update these
+      manually by switching them to <gui>OFF</gui>, then clicking <gui>Date
+      &amp; Time</gui> and <gui>Time Zone</gui> to update.</p>
+    </item>
+    <item>
+      <p>Μπορείτε επίσης να αλλάξετε τον τρόπο εμφάνισης της ώρας επιλέγοντας την μορφή <gui>24 ωρών</gui> ή <gui>ΠΜ/ΜΜ</gui>.</p>
+    </item>
+  </steps>
+
+</page>

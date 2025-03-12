@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="contacts-setup" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="contacts" group="#first"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-13" status="draft"/>
+    <revision pkgversion="3.12" date="2014-02-26" status="final"/>
+    <revision pkgversion="3.13.91" date="2014-09-05" status="final"/>
+
+    <credit type="author copyright">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Αποθηκεύστε τις επαφές σας σε ένα τοπικό βιβλίο διευθύνσεων ή σε έναν δικτυακό λογαριασμό.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Εκκίνηση των επαφών για πρώτη φορά</title>
+
+  <p>When you run <app>Contacts</app> for the first time, the <gui>Select
+  Address Book</gui> window opens.</p>
+   
+  <p>If you have <link xref="accounts">online accounts</link> configured, they
+  are listed with <gui>Local Address Book</gui>. Select an item from the
+  list and click <gui style="button">Done</gui>.</p>
+  
+  <p>Εάν δεν έχετε ρυθμισμένους δικτυακούς λογαριασμούς, πατήστε <gui style="button">δικτυακοί λογαριασμοί</gui> για να ξεκινήσετε την εγκατάσταση. Εάν δεν θέλετε να εγκαταστήσετε δικτυακούς λογαριασμούς αυτή τη φορά, πατήστε <gui style="button">τοπικό βιβλίο διευθύνσεων</gui>.</p>
+
+</page>

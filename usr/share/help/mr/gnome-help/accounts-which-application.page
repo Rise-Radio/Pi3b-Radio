@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc>ॲप्लिकेशन्स <app>ऑनलाइन अकाउंट्स</app> मध्ये निर्माण होणाऱ्या खात्यांचा आणि सर्व्हिसेस्चा वापर करू शकतात.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>कोणते ॲप्लिकेशन्स ऑनलाइन खात्यांचा फायदा घेतात?</title>
+
+  <p><app>ऑनलाइन अकाउंट्स</app> यांचा वापर बाहेरील ॲप्लिकेशन्सतर्फे स्वयंरित्या स्वतःला संरचीत करण्यासाठी शक्य आहे.</p>
+
+<section id="accounts-google-services">
+  <title>Google खात्यासोबत</title>
+
+  <list>
+    <item>
+      <p><app>एव्हल्युशन</app>, ईमेल ॲप्लिकेशन. तुमचे ईमेल खाते <app>एव्हल्युशन</app> मध्ये स्वयंरित्या समाविष्ट केले जाईल, ज्यामुळे तुमचे मेल, संपर्कांकरिता प्रवेश, आणि Google अजेंडामध्ये दिनदर्शिका घटकांना दाखवणे शक्य होते.</p>
+    </item>
+    <item>
+      <p><app>एम्पथि</app>, त्वरित संदेश ॲप्लिकेशन. तुमच्या ऑनलाइन खात्याला समाविष्ट केले जाईल आणि तुम्ही मित्रांसह संपर्क करू शकाल.</p>
+    </item>
+    <item>
+      <p><app>काँटॅक्ट्स</app>, which will allow to see and edit your contacts.</p>
+    </item>
+    <item>
+      <p><app>डॉक्युमेंट्स</app> ऑनलाइन दस्तऐवजकरिता प्रवेश प्राप्त करू शकतात आणि त्यास दाखवू शकतात.</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>Windows Live, Facebook किंवा Twitter खात्यांसोबत</title>
+
+  <p><app>एम्पथि</app> खात्यांचा वापर ऑनलाइन जुळणीकरिता आणि संपर्क, मित्र, आणि फॉलोअर्ससह चॅटकरिता करू शकतात.</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>With a OneDrive account</title>
+
+  <p><app>Documents</app> can access your online documents in Microsoft
+  OneDrive and display them.</p>
+</section>
+
+<section id="account-exchange">
+  <title>देवाणघेवाण खात्यासोबत</title>
+
+  <p>एकदाचे Exchange खाते निर्माण केल्यानंतर, <app>एव्हल्युशन</app> ह्या खात्यांपासून मेल्स प्राप्त करायला सुरू करेल.</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>ownCloud खात्यासोबत</title>
+
+  <p>ownCloud खात्याचे सेटअप नंतर, <app>एव्हल्युशन</app> संपर्ककरिता प्रवेश प्राप्त आणि दिनदर्शिका भेट संपादित करणे शक्य होते.</p>
+
+  <p><app>फाइल्स</app> आणि इतर ॲप्लिकेशन्स सूचीत दाखवू शकतील आणि ownCloud इंस्टॉलेशनमधील साठवलेल्या ऑनलाइनल फाइल्सकरिता प्रवेश प्राप्त करू शकतील.</p>
+</section>
+
+</page>

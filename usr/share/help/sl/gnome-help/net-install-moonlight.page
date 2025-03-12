@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Nekatera spletišča za prikaz spletnih strani uporabljajo Silverlight. Vstavek Moonlight vam omogoča ogled teh strani.</desc>
+  </info>
+
+  <title>Nameščanje vstavka Silverlight</title>
+
+  <p><app>Silverlight</app> je <em>vstavek</em> za vaš spletni brskalnik, ki vam omogoča ogled videov in uporabo vzajemnih spletnih strani na nekaterih spletiščih. Nekatera spletišča brez Silverlighta ne bodo delovala.</p>
+
+  <p>V primeru da gledate spletišče, ki zahteva Silverlight a ga nimate nameščenega, boste verjetno videli sporočilo, ki vas bo o tem obvestilo. Sporočilo bi moralo imeti navodila kako dobiti vstavek, vendar ta navodila morda ne bodo primerna za vaš spletni brskalnik ali različico Linuxa.</p>
+
+  <p>V primeru da želite videti spletišča, ki zahtevajo Silverlight, namestite vstavek <em>Moonlight</em>. To je prosta, odprtokodna različica Silverlight, ki deluje na Linuxu.</p>
+
+  <p>Nekatere distribucije Linux imajo kopijo Moonlight, ki jo lahko namestite z uporabo njihovega namestilnika programov. Odprite namestilnik in iščite <input>Silverlight</input> ali <input>Moonlight</input>.</p>
+
+  <p>V primeru da vaša distribucija programskega paketa Moonlight nima, si za več podobnosti oglejte <link href="http://www.mono-project.com/Moonlight">spletišče Moonlight </link>.</p>
+
+</page>

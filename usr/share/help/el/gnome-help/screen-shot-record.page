@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="screen-shot-record" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="tips"/>
+
+    <revision pkgversion="3.6.1" date="2012-11-10" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author copyright">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+      <years>2012</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Take a picture or record a video of what is happening on your
+    screen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Στιγμιότυπα και στιγμιότυπα οθόνης</title>
+
+  <p>You can take a picture of your screen (a <em>screenshot</em>) or record a
+  video of what is happening on the screen (a <em>screencast</em>). This is
+  useful if you want to show someone how to do something on the computer, for
+  example. Screenshots and screencasts are just normal picture and video files,
+  so you can email them and share them on the web.</p>
+
+<section id="screenshot">
+  <title>Λήψη στιγμιότυπου</title>
+
+  <steps>
+    <item>
+      <p>Open <app>Screenshot</app> from the
+      <gui xref="shell-terminology">Activities</gui> overview.</p>
+    </item>
+    <item>
+      <p>In the <app>Screenshot</app> window, select whether to grab the whole
+      screen, the current window, or an area of the screen. Set a delay if you
+      need to select a window or otherwise set up your desktop for the
+      screenshot. Then choose any effects you want.</p>
+    </item>
+    <item>
+       <p>Κλικ στο <gui>Λήψη στιγμιότυπου</gui>.</p>
+       <p>Εάν επιλέξατε <gui>επιλογή περιοχής για σύλληψη</gui>, ο δείκτης αλλάζει σε σταυρόνημα. Πατήστε και μεταφέρτε την περιοχή που θέλετε για το στιγμιότυπο.</p>
+    </item>
+    <item>
+      <p>Στο παράθυρο <gui>αποθήκευση στιγμιότυπου</gui>, εισάγετε ένα όνομα αρχείου και επιλέξτε έναν φάκελο, έπειτα πατήστε <gui>αποθήκευση</gui>.</p>
+      <p>Εναλλακτικά, εισάγετε το στιγμιότυπο άμεσα στην εφαρμογή επεξεργασίας εικόνας χωρίς να το αποθηκεύσετε πρώτα. Πατήστε <gui>αντιγραφή στο πρόχειρο</gui>, έπειτα επικολλήστε την εικόνα στην άλλη εφαρμογή, ή μεταφέρτε την μικρογραφία του στιγμιότυπου στην εφαρμογή.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <title>Συντομεύσεις πληκτρολογίου</title>
+
+    <p>Γρήγορα πάρτε ένα στιγμιότυπο της επιφάνειας εργασίας, ενός παραθύρου, ή μιας περιοχής οποτεδήποτε χρησιμοποιώντας αυτές τις γενικές συντομεύσεις πληκτρολογίου:</p>
+
+    <list style="compact">
+      <item>
+        <p><key>Prt Scrn</key> για να πάρετε ένα στιγμιότυπο της επιφάνειας εργασίας.</p>
+      </item>
+      <item>
+        <p><keyseq><key>Alt</key><key>Prt Scrn</key></keyseq> για να πάρετε ένα στιγμιότυπο ενός παραθύρου.</p>
+      </item>
+      <item>
+        <p><keyseq><key>Shift</key><key>Prt Scrn</key></keyseq> για τη λήψη ενός στιγμιότυποτ μιας περιοχής που επιλέξατε.</p>
+      </item>
+    </list>
+
+    <p>When you use a keyboard shortcut, the image is automatically saved in
+    your <file>Pictures</file> folder in your home folder with a file name that
+    begins with <file>Screenshot</file> and includes the date and time it was
+    taken.</p>
+    <p>Μπορείτε επίσης να κρατήσετε πατημένο το <key>Ctrl</key> με οποιαδήποτε από τις παραπάνω συντομεύσεις για να αντιγράψετε την εικόνα του στιγμιότυπου στο πρόχειρο αντί να το αποθηκεύσετε.</p>
+  </note>
+
+</section>
+
+<section id="screencast">
+  <title>Κάντε ένα στιγμιότυπο οθόνης</title>
+
+  <p>Μπορείτε να κάνετε μια εγγραφή βίντεο του τι συμβαίνει στην οθόνη σας:</p>
+
+  <steps>
+    <item>
+      <p>Press
+      <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>R</key></keyseq>
+      to start recording what is on your screen.</p>
+      <p>A red circle is displayed in the bottom right corner of the screen
+      when the recording is in progress.</p>
+    </item>
+    <item>
+      <p>Once you have finished, press
+      <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>R</key></keyseq>
+      again to stop the recording.</p>
+    </item>
+    <item>
+      <p>The video is automatically saved in your <file>Videos</file> folder
+      in your home folder, with a file name that starts with
+      <file>Screencast</file> and includes the date and time it was taken.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

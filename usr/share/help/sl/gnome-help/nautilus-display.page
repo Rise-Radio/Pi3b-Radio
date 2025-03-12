@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-display" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-display"/>
+
+    <desc>Nadziranje sličice ikon, ki se uporabljajo v upravljalniku datotek.</desc>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-19" status="review"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  </info>
+
+<title>Možnosti prikaza upravljalnika datotek</title>
+
+<p>Nadzirate lahko kako upravljalnik datotek prikaže napise pod ikonami. Kliknite <gui>Datoteke</gui> v vrhnji vrstici, izberite <gui>Možnosti</gui> in izberite zavihek <gui>Prikaz</gui>.</p>
+
+<section id="icon-captions">
+  <title>Naslovi ikon</title>
+  <media type="image" src="figures/nautilus-icons.png" width="250" height="110" style="floatend floatright">
+    <p>Ikone upravljalnika datotek z napisi</p>
+  </media>
+  <p>Ko uporabite ikonski pogled, lahko izberete prikaz dodatnih podrobnosti o datotekah in mapah v slikici pod vsako ikono. To je na primer uporabno, če morate pogosto videti kdo je lastnik datoteke ali kdaj je bila zadnjič spremenjena.</p>
+  <p>You can zoom in a folder by clicking the
+  <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">down</span></media> button in the
+  toolbar and choosing one of the <gui>Zoom</gui> options. As you zoom in, the
+  file manager will display more and more information in captions. You can
+  choose up to three things to show in captions. The first will be displayed at
+  most zoom levels. The last will only be shown at very large sizes.</p>
+  <p>Podatki, ki jih lahko pokažete v sličicah ikon so enaki kot stolpci, ki jih lahko uporabite v seznamskem pogledu. Za več podrobnosti si oglejte <link xref="nautilus-list"/>.</p>
+  <note><p>V primeru da je okno upravljalnika datotek odprto, boste morda morali za učinek sprememb ponovno naložiti sličice ikon. Kliknite na <guiseq><gui>Pogled</gui><gui>Ponovno naloži</gui></guiseq> ali pritisnite <keyseq><key>Ctrl</key><key>R</key></keyseq>.</p></note>
+</section>
+
+</page>

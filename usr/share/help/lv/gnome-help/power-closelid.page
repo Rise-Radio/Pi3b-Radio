@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="power-closelid" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="power"/>
+    <link type="seealso" xref="power-suspendfail"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-08" status="review"/>
+
+    <credit type="author">
+      <name>GNOME dokumentācijas projekts</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Klēpjdatori "iesnaužas", kad kāds aizver to vāku, lai ietaupītu elektroenerģiju.</desc>
+  </info>
+
+  <title>Kāpēc dators izslēdzas, aizverot tā vāku?</title>
+
+  <p>Aizverot klēpjdatora vāku, tas <link xref="power-suspend"><em>iesnaudīsies</em></link>, lai ietaupītu enerģiju. Tātad dators īstenība nav izslēgts, tikai "iemidzis". Jūs varat to atmodināt, atverot vāku. Dažiem datoriem būs arī jānospiež peles poga vai kāds tastatūras taustiņš. Ja arī tas nelīdz, spiediet ieslēgšanas pogu.</p>
+
+  <p>Daži datori nespēj pareizi iesnausties, parasti tāpēc, ka to aparatūrai trūkst operētājsistēmas atbalsta (piemēram, tai ir nepilnīgi draiveri). Tad dators var neatmosties, kad atver vāku. Jūs varat mēģināt <link xref="power-suspendfail">atrisināt iesnaušanās problēmu</link>, vai arī atslēgt automātisko iesnaušanos, kad aizver vāku.</p>
+
+<section id="nosuspend">
+  <title>Neļaut datoram iesnausties, kad aizver vāku</title>
+
+  <note style="important">
+    <p>Šīs instrukcijas darbosies tikai tad, ja izmantojat <app>systemd</app>. Sazinieties ar distribūciju, lai uzzinātu vairāk.</p>
+  </note>
+
+  <p>Ja automātiskā iesnaušanās, aizverot vāku, ir nevēlama, jūs varat izmainīt ar šo uzvedību saistītos iestatījumus. Jums būs jāievada <link xref="user-admin-change">administratora parole</link>, lai mainītu šos iestatījumus.</p>
+
+  <note style="warning">
+    <p>Kad izmainīts šis iestatījums, esiet uzmanīgi. Daži klēpjdatori var pārkarst, ja tos atstāj strādāt ar aizvērtu vāku, it īpaši somā vai līdzīgā noslēgtā telpā.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>Atver <app>Termināļa</app> lietotni no <gui>Aktivitāšu </gui> pārskata.</p>
+    </item>
+    <item>
+      <p>Izpildiet šo komandu:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudoedit /etc/systemd/logind.conf</input></screen>
+    </item>
+    <item>
+      <p>Jūs tagad redzēsiet datnes saturu. Datnē meklējiet <code>HandleLidSwitch=</code>. Tā rinda varētu būt izkomentēta ar <code>#</code> simbolu tās sākumā, pēc kura seko parametrs. Ja rinda eksistē, noņemiet <code>#</code>, ja nav, pievienojiet rindu.</p>
+      <code>
+[Login]
+HandleLidSwitch=<input>lock</input>
+      </code>
+      <p>Jūs varat izmantot <input>lock</input>, lai bloķētu ekrānu,  <input>ignore</input> lai neko nedarītu, <input>poweroff</input>, lai izslēgtu datoru, <input>suspend</input>, lai iesnaudinātu. Lai uzzinātu vairāk, skatiet<link href="man:logind.conf">logind.conf palīdzību</link>.</p>
+    </item>
+    <item>
+      <p>Kad beigsiet rediģēt datni, saglabājiet izmaiņas un izejiet no redaktora.</p>
+    </item>
+    <item>
+      <p>Izpildiet sekojošo komandu, lai izmaiņas stātos spēkā:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudo systemctl restart systemd-logind.service</input></screen>
+      <p>Ja neizpildīsiet šo komandu, izmaiņas stāsies spēkā tikai pēc datora pārstartēšanas.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

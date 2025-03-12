@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Algumas páginas web usam Silverlight para exibir páginas web. O plug-in Moonlight permite que você veja essas páginas.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodolfo Ribeiro Gomes</mal:name>
+      <mal:email>rodolforg@gmail.com</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>João Santana</mal:name>
+      <mal:email>joaosantana@outlook.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Instalando o plug-in do Silverlight</title>
+
+  <p><app>Silverlight</app> é um <em>plug-in</em> para seu navegador web que permite que você assista vídeos e use páginas web interativas em alguns sites. Alguns nem mesmo funcionam sem Silverlight.</p>
+
+  <p>Se você vê um site que use Silverlight, mas não tem o plug-in instalado, você provavelmente verá uma mensagem informando disso. Esta mensagem deve ter instruções que informam você como obter o plug-ins, mas estas instruções podem não se adequar a seu navegador web ou versão do Linux.</p>
+
+  <p>Se você quer ver um site que use Silverlight, você deveria instalar o plug-in <em>Moonlight</em>. Este é uma versão grátis e código aberto do Silverlight, e que funciona no Linux.</p>
+
+  <p>Algumas distribuições Linux possuem uma cópia do Moonlight que você pode instalar usando seu instalador de software. Basta abrir o instalador e pesquisar por <input>Silverlight</input> ou <input>Moonlight</input>.</p>
+
+  <p>Se sua distribuição não possuir um pacote de software do Moonlight, veja o <link href="http://www.go-mono.com/moonlight/">site do Moonlight</link> para mais informações e instruções de instalação.</p>
+
+</page>

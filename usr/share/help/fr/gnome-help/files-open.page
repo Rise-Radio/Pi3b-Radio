@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="files-open" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="files" group="more"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-09-30" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author">
+      <name>Cristopher Thomas</name>
+      <email>crisnoh@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ouvrir des fichiers avec une autre application que celle définie par défaut pour ce type de fichier et comment modifier la valeur par défaut.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Ouverture de fichiers avec une autre application</title>
+
+<p>Quand vous faites un double-clic sur un fichier dans le gestionnaire de fichiers, il s'ouvre avec l'application par défaut pour ce type de fichier. Vous pouvez l'ouvrir avec une autre application, chercher une application en ligne ou modifier l'application par défaut pour ce type de fichier.</p>
+
+<p>To open a file with an application other than the default, right-click
+the file and select the application you want from the top of the menu. If
+you do not see the application you want, select <gui>Open With</gui>. By
+default, the file manager only shows applications it knows can handle the file.
+To look through all the applications on your computer, click <gui>Other
+Application…</gui>.</p>
+
+<p>If you still cannot find the application you want, you can search for
+more applications by clicking <gui>Find New Applications</gui>. The
+file manager will search online for packages containing applications
+that are known to handle files of that type.</p>
+
+<section id="default">
+  <title>Changement d'application par défaut</title>
+  <p>Vous pouvez modifier l'application par défaut qui est utilisée pour ouvrir un certain type de fichier. Cela vous permet d'ouvrir votre application préférée quand vous faites un double-clic sur un fichier. Par exemple, vous pouvez lancer votre lecteur de musique préféré quand vous faites un double-clic sur un fichier MP3.</p>
+
+  <steps>
+    <item><p>Sélectionnez un type de fichier dont vous souhaitez changer l'application par défaut. Par exemple, pour définir l'application à lancer lors de l'ouverture d'un fichier MP3, sélectionnez un fichier <file>.mp3</file>.</p></item>
+    <item><p>Faites un clic droit sur le fichier et choisissez <gui>Propriétés</gui>.</p></item>
+    <item><p>Cliquez sur l'onglet <gui>Ouvrir avec</gui>.</p></item>
+    <item><p>Sélectionnez l'application voulue et cliquez sur <gui>Définir par défaut</gui>. Par défaut, le gestionnaire de fichiers affiche uniquement les applications qu'il sait capable de prendre en charge le fichier. Pour parcourir toutes les applications de votre ordinateur, cliquez sur <gui>Afficher d'autres applications</gui>.</p>
+    <p>If <gui>Other Applications</gui> contains an application you sometimes
+    want to use, but do not want to make the default, select that application
+    and click <gui>Add</gui>. This will add it to <gui>Recommended
+    Applications</gui>. You will then be able to use this application by
+    right-clicking the file and selecting it from the list.</p></item>
+  </steps>
+
+  <p>Cela change l'application par défaut pas uniquement pour le fichier sélectionné, mais pour tous les fichiers du même type.</p>
+
+</section>
+
+</page>

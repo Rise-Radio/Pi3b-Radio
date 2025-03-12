@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="task" version="1.0 if/1.0" id="shell-apps-favorites" xml:lang="ru">
+
+  <info>
+    <link type="seealso" xref="shell-apps-open"/>
+    <link type="guide" xref="shell-overview#apps"/>
+
+    <revision pkgversion="3.6.0" date="2012-10-14" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Проект документирования GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Яна Сварова (Jana Svarova)</name>
+      <email>jana.svarova@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Добавление (или удаление) значков часто используемых приложений из боковой панели.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Добавление приложений в боковую панель</title>
+
+  <p>Чтобы добавить приложение в <link xref="shell-terminology">боковую панель</link>:</p>
+
+  <steps>
+    <item>
+      <p if:test="!platform:gnome-classic">Откройте <link xref="shell-terminology">режим <gui>Обзора</gui></link>, нажав на кнопку <gui>Обзор</gui> в левом верхнем углу экрана.</p>
+      <p if:test="platform:gnome-classic">Нажмите <link xref="shell-terminology">меню <gui>Приложения</gui></link> в верхней левой части экрана и выберите пункт <gui>Обзор</gui>.</p></item>
+    <item>
+      <p>Нажмите кнопку с изображением сетки в боковой панели («Показать приложения») и найдите приложение, которое нужно добавить.</p>
+    </item>
+    <item>
+      <p>Нажмите на значок приложения правой кнопкой и выберите <gui>Добавить в избранное</gui>.</p>
+      <p>Также можно просто перетащить значок на боковую панель.</p>
+    </item>
+  </steps>
+
+  <p>Чтобы удалить значок приложения из боковой панели, нажмите правой кнопкой мыши по значку приложения и выберите <gui>Удалить из избранного</gui>.</p>
+
+  <note style="tip" if:test="platform:gnome-classic"><p>Часто используемые приложения также можно найти в пункте <gui>Избранное</gui> <link xref="shell-terminology">меню <gui>Приложения</gui></link>.</p>
+  </note>
+
+</page>

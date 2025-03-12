@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="task" version="1.0 if/1.0" id="shell-apps-favorites" xml:lang="as">
+
+  <info>
+    <link type="seealso" xref="shell-apps-open"/>
+    <link type="guide" xref="shell-overview#apps"/>
+
+    <revision pkgversion="3.6.0" date="2012-10-14" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>GNOME তথ্যচিত্ৰ প্ৰকল্প</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>মাইকেল হিল</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>জানা চ্ভাৰ'ভা</name>
+      <email>jana.svarova@gmail.com</email>
+      <years>২০১৩</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>ডেশ্বত বাৰংবাৰ ব্যৱহাৰ কৰা প্ৰগ্ৰাম আইকনসমূহ যোগ কৰক (অথবা আতৰাওক)।</desc>
+  </info>
+
+  <title>আপোনাৰ পছন্দৰ এপসমূহক ডেশলৈ পিন কৰক</title>
+
+  <p>সহজ অভিগমৰ বাবে <link xref="shell-terminology">ডেশ্ব</link> লৈ এটা এপ্লিকেচন যোগ কৰিবলৈ:</p>
+
+  <steps>
+    <item>
+      <p if:test="!platform:gnome-classic">Open the
+      <link xref="shell-terminology"><gui>Activities</gui> overview</link> by
+      clicking <gui>Activities</gui> at the top left of the screen</p>
+      <p if:test="platform:gnome-classic">পৰ্দাৰ ওপৰ বাওঁফালে <link xref="shell-terminology"><gui>এপ্লিকেচনসমূহ</gui> মেনু</link> ক্লিক কৰক আৰু মেনুৰ পৰা <gui>কাৰ্য্যসমূহ অভাৰভিউ</gui> বাছক।</p></item>
+    <item>
+      <p>ডেশ্বত গ্ৰিড বুটাম ক্লিক কৰক আৰু আপুনি যোগ কৰিব বিচৰা এপ্লিকেচন সন্ধান কৰক।</p>
+    </item>
+    <item>
+      <p>এপ্লিকেচন আইকন ৰাইট-ক্লিক কৰক আৰু <gui>পছন্দলৈ যোগ কৰক</gui> বাছক।</p>
+      <p>বিকল্পভাৱে, আপুনি আইকনক ডেশলৈ ক্লিক-আৰু-ড্ৰেগ কৰিব পাৰিব।</p>
+    </item>
+  </steps>
+
+  <p>ডেশৰ পৰা এটা এপ্লিকেচনক আতৰাবলৈ, এপ্লিকেচন আইকনত ৰাইট-ক্লিক কৰক আৰু <gui>পছন্দৰ পৰা আতৰাওক</gui> বাছক।</p>
+
+  <note style="tip" if:test="platform:gnome-classic"><p>পছন্দৰ এপ্লিকেচনসমূহ <link xref="shell-terminology"><gui>এপ্লিকেচনসমূহ</gui> মেনু</link> ৰ <gui>পছন্দসমূহ</gui> অংশত উপস্থিত হয়।</p>
+  </note>
+
+</page>

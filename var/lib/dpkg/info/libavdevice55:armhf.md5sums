@@ -1,0 +1,7 @@
+b6cf5154c2a41507be42723bdb26a5fb  usr/lib/arm-linux-gnueabihf/libavdevice.so.55.0.0
+73a57adae5d587a6bb0db57c624153a7  usr/lib/arm-linux-gnueabihf/neon/vfp/libavdevice.so.55.0.0
+7906be10ad1a6590b1828dca02678003  usr/share/doc/libavdevice55/NEWS.Debian.gz
+bd5c36876cd8f09894e0a5ca47ffc28f  usr/share/doc/libavdevice55/changelog.Debian.gz
+f39e8101b663615802975c50952c2870  usr/share/doc/libavdevice55/changelog.gz
+323125fc98bc748defccc624b74fd752  usr/share/doc/libavdevice55/copyright
+5a288d6545ef37235f3b087333075e9a  usr/share/lintian/overrides/libavdevice55

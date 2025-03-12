@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-purge" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+
+    <revision pkgversion="3.10" date="2013-09-29" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Régler la fréquence avec laquelle la corbeille et le dossier des fichiers temporaires doivent être vidés.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Purge de la corbeille et des fichiers temporaires</title>
+
+  <p>Vider la corbeille et les fichiers temporaires permet de supprimer les fichiers devenus inutiles, et aussi de faire de la place sur le disque dur. Il est possible de vider la corbeille et d'éliminer les fichiers temporaires manuellement, mais vous pouvez aussi régler l'ordinateur pour qu'il le fasse automatiquement à votre place.</p>
+
+  <steps>
+    <title>Purge automatique de la corbeille et des fichiers temporaires après un délai défini :</title>
+    <item>
+      <p>Ouvrez la vue d'ensemble des <gui xref="shell-terminology">Activités</gui> et commencez à saisir <gui>Confidentialité</gui>.</p>
+    </item>
+    <item>
+      <p>Cliquez sur <gui>Confidentialité</gui> pour ouvrir le panneau.</p>
+    </item>
+    <item>
+      <p>Sélectionnez <gui>Vider la corbeille et les fichiers temporaires</gui>.</p>
+    </item>
+    <item>
+      <p>Set one or both of the <gui>Automatically empty Trash</gui> or
+      <gui>Automatically purge Temporary Files</gui> switches to
+      <gui>ON</gui>.</p>
+    </item>
+    <item>
+      <p>Définissez la fréquence de purge de la <em>Corbeille</em> et des <em>Fichiers temporaires</em> en modifiant la valeur <gui>Purger après</gui>.</p>
+    </item>
+    <item>
+      <p>Utilisez les boutons <gui>Vider la corbeille</gui> ou <gui>Purger les fichiers temporaires</gui> pour exécuter ces actions immédiatement.</p>
+    </item>
+    <item>
+      <p>Click the <gui>X</gui> to close.</p>
+    </item>
+  </steps>
+
+  <note style="warning">
+    <p>Utilisez le paramètre <em>Purger après : Immédiatement</em> avec précaution car les fichiers que vous supprimez disparaîtront définitivement sans passer par la corbeille. Les fichiers supprimés sont beaucoup plus difficiles à récupérer que ceux qui sont dans la corbeille.</p>
+
+    <p>À moins d'avoir une bonne raison de supprimer immédiatement les fichiers de la corbeille, il vaut certainement mieux définir une valeur <gui>Purger après</gui> plus longue.</p>
+  </note>
+
+</page>

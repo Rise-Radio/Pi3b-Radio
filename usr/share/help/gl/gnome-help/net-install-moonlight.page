@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Algunhas páxinas web usan Silverlight para mostrar as páxinas web. O engadido Moonlight permítelle ver ditas páxinas.z</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Instalar o engadido de Silverlight</title>
+
+  <p><app>Silverlight</app> é un <em>engadido</em> para o seu navegador web que lle permite visualizar vídeos e usar páxinas web interactivas nalgunhas páxinas. Algunhas páxinas non funcionan sen Silverlight.</p>
+
+  <p>Se vostede visita unha páxina con Silverlight pero non ten instalado o engadido probabelmente verá unha mensaxe que lle informa do problema. Esta mensaxe terá instrucións dicíndolle como conseguir o engadido pero estas instrucións non se adaptan ao seu navegador ou á versión de Linux.</p>
+
+  <p>Se desexa ver páxinas web con Silverlight debe instalar o engadido <em>Moonlight</em> no lugar. Este é unha versión de código aberto de Silverlight que se executa en Linux.</p>
+
+  <p>Algunhas distribucións de Linux teñen unha copia de Moonlight que pode instalar usando o seu instalador de software. Simplemente abra o seu instalador e busque por <input>Silverlight</input> ou <input>Moonlight</input>.</p>
+
+  <p>Se a súa distribución non ten un paquete de software para Moonlight, vexa o sitio web de <link href="http://www.go-mono.com/moonlight/">Moonlight</link> para obter máis información e as instrucións de instalación.</p>
+
+</page>

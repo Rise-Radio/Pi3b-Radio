@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-braille" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="a11y#vision" group="blind"/>
+    <link type="seealso" xref="a11y-screen-reader"/>
+
+    <revision pkgversion="3.9.92" date="2013-09-18" status="incomplete"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+
+    <desc>उत्साहवर्धक ब्रेल डिस्प्ले सोबत <app>Orca</app> स्क्रीन वाचकाचा वापर करा.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>ब्रेलमध्ये स्क्रीन वाचा</title>
+
+  <p>पुनःताजे ब्राएल डिस्पलेवर वापरकर्ता संवाद दाखवण्याकरिता GNOME <app>ऑर्का</app> स्क्रीन रिडर पुरवतो. GNOME ज्याप्रकारे इंस्टॉल झाले, त्यानुसार तुमच्याकडे ऑर्का इंस्टॉल झालेले नसणार. <link href="install:orca">ऑर्का इंस्टॉल करा</link>, त्यानंतर अधिक माहितीकरिता <link href="help:orca">ऑर्का मदत</link> पहा.</p>
+
+</page>

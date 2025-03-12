@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-manual" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="guide" xref="net-wireless"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+    <revision pkgversion="3.10" date="2013-11-11" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Ja tīkla iestatījumi netiek piešķirti automātiski, tos vajadzēs ievadīt pašrocīgi.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Pašrocīgi iestatīt tīkla iestatījumus</title>
+
+  <p>Ja tīkla iestatījumi netiek piešķirti automātiski, tad tos jāiestata pašrocīgi. Šeit tiek pieņemts, ka jūs jau zināt, kādi ir iestatāmie iestatījumi. Ja nē, tad tie jājautā tīkla administratoram vai jālūko maršrutētāja vai tīkla komutatora iestatījumi.</p>
+
+  <steps>
+    <title>Lai pašrocīgi iestatītu tīkla iestatījumus:</title>
+    <item>
+      <p>Atveriet <link xref="shell-terminology">aktivitāšu</link> pārskatu un sāciet rakstīt <gui>Iestatījumi</gui>.</p>
+    </item>
+    <item>
+      <p>Spiediet <gui>Iestatījumi</gui>, lai atvērtu vadības centru.</p>
+    </item>
+    <item>
+      <p>Spiediet <gui>Tīkls</gui>, lai atvērtu paneli.</p>
+    </item>
+    <item>
+      <p>Kreisajā rūtī izvēlieties tīkla savienojumu, ko vēlaties pašrocīgi iestatīt, un spiediet pogu <media its:translate="no" type="image" src="figures/emblem-system.png"><span its:translate="yes">iestatījumi</span></media>. Piemēram, ja savienojaties ar tīklu ar pievienotu vadu, tad izvēlieties <gui>Vadu</gui>. <gui>Wi-Fi</gui> savienojumam <media its:translate="no" type="image" src="figures/emblem-system.png"><span its:translate="yes">iestatījumi</span></media> poga būs novietota pie aktīvā tīkla.</p>
+      <p>Pārliecinieties, ka bezvadu tīkla karte ir ieslēgta vai tīkla kabelis ir iesprausts.</p>
+    </item>
+    <item>
+      <p>Spiediet uz <gui>IPv4</gui> nomainiet <gui>Adreses</gui> uz <gui>Pašrocīgi</gui>.</p>
+    </item>
+    <item>
+      <p>Ievadiet <gui>Adresi</gui> un <gui>Vārteju</gui>, kā arī atbilstošo <gui>Tīkla masku</gui>.</p>
+      <p>Tām ir jābūt <em>IP adresēm</em>; tas ir, tām ir jābūt ar četriem skaitļiem, kas atdalīti ar punktu (piemēram, 123.45.6.78).</p>
+    </item>
+    <item>
+      <p>In the <gui>DNS</gui> section, switch <gui>Automatic</gui> to
+      <gui>OFF</gui>. Enter the IP address of a DNS server you want to use.
+      Enter additional DNS server addresses using the <gui>+</gui> button.</p>
+    </item>
+    <item>
+      <p>In the <gui>Routes</gui> section, switch <gui>Automatic</gui> to
+      <gui>OFF</gui>. Enter the <gui>Address</gui>, <gui>Netmask</gui>,
+      <gui>Gateway</gui> and <gui>Metric</gui> for a route you want to use.
+      Enter additional routes using the <gui>+</gui> button.</p>
+    </item>
+    <item>
+      <p>Spiediet <gui>Pielietot</gui>. Ja neesat savienojies ar tīklu, spiediet uz sistēmas statusa laukuma augšējā joslā un savienojieties. Pārbaudiet tīkla iestatījumus, piemēram, mēģinot apmeklēt kādu vietni vai aplūkojot tīklā koplietotas datnes.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="clock-timezone" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="clock"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+
+    <credit type="author">
+      <name>Projeto de documentação do GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Atualize seu fuso horário da sua localização atual de forma que seu horário esteja correto.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodolfo Ribeiro Gomes</mal:name>
+      <mal:email>rodolforg@gmail.com</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>João Santana</mal:name>
+      <mal:email>joaosantana@outlook.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Alterando seu fuso horário</title>
+
+  <steps>
+    <item>
+      <p>Clique no relógio que se encontra no meio da barra superior e selecione <gui>Configurações de data &amp; hora</gui>.</p>
+    </item>
+    <item>
+      <p>Se você tiver uma conta padrão, você precisará clicar em <gui>Desbloquear</gui> e digitar a <link xref="user-admin-explain">senha de administrador</link>.</p>
+    </item>
+    <item>
+      <p>If you have <gui>Automatic Time Zone</gui> set to <gui>ON</gui>, your
+      time zone should update automatically if you have an internet
+      connection. To update your time zone manually, set this to
+      <gui>OFF</gui>.</p>
+    </item>
+    <item>
+      <p>Clique em <gui>Fuso horário</gui> e, então, selecione sua localização no mapa ou pesquise pela sua cidade atual.</p>
+    </item>
+  </steps>
+
+  <p>A hora será atualizada automaticamente quando você selecionar uma localidade diferente. Também é possível <link xref="clock-set">ajustar o relógio manualmente</link>.</p>
+
+</page>

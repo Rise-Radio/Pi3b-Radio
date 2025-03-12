@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="files-recover" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="files" group="more"/>
+    <link type="seealso" xref="files-lost"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-09-28" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Έργο Τεκμηρίωσης GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Τα διαγραμμένα αρχεία κανονικά στέλνονται στα απορρίμματα, αλλά μπορούν να ανακτηθούν.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Επαναφορά αρχείων από τα απορρίμματα</title>
+
+  <p>Εάν διαγράψετε ένα αρχείο με τον διαχειριστή αρχείων, το αρχείο τοποθετείται κανονικά στα <gui>απορρίμματα</gui> και πρέπει να μπορεί να ανακτηθεί.</p>
+
+  <steps>
+    <title>Για να επαναφέρετε ένα αρχείο από τα απορρίμματα:</title>
+    <item>
+      <p>Open the <app>Files</app> application from the
+      <gui xref="shell-terminology">Activities</gui> overview.</p>
+    </item>
+    <item>
+      <p>Click <gui>Trash</gui> in the sidebar. If you do not see the sidebar,
+      click the
+      <gui><media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media></gui>
+      button in the toolbar and pick <gui>Show Sidebar</gui></p>
+    </item>
+    <item>
+      <p>Εάν το διαγραμμένο αρχείο σας είναι εκεί, πατήστε το και επιλέξτε <gui>Επαναφορά</gui>. Θα ανακτηθεί στον φάκελο από όπου διαγράφτηκε.</p>
+    </item>
+  </steps>
+
+  <p>Εάν διαγράψετε το αρχείο πατώντας <keyseq><key>Shift</key><key>διαγραφή</key></keyseq>, ή χρησιμοποιώντας τη γραμμή εντολών, το αρχείο έχει διαγραφεί μόνιμα. Αρχεία που έχουν διαγραφεί μόνιμα δεν μπορούν να ανακτηθούν από τα <gui>απορρίμματα</gui>.</p>
+
+  <p>Υπάρχει ένας αριθμός από διαθέσιμα εργαλεία ανάκτησης που μπορούν μερικές φορές να ανακτήσουν αρχεία που διαγράφτηκαν μόνιμα. Αυτά τα εργαλεία γενικά δεν είναι πολύ εύχρηστα, όμως. Εάν διαγράψατε κατά λάθος μόνιμα ένα αρχείο, είναι προφανώς καλύτερο να ζητήσετε συμβουλή σε μια ομάδα υποστήριξης για να δείτε εάν μπορείτε να το ανακτήσετε.</p>
+
+</page>

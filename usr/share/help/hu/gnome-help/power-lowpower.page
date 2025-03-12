@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="power-lowpower" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="power#battery"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <desc>Az akkumulátort károsítja a teljes kisütés.</desc>
+    <credit type="author">
+      <name>GNOME dokumentációs projekt</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Griechisch Erika</mal:name>
+      <mal:email>griechisch.erika at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kucsebár Dávid</mal:name>
+      <mal:email>kucsdavid at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lakatos 'Whisperity' Richárd</mal:name>
+      <mal:email>whisperity at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lukács Bence</mal:name>
+      <mal:email>lukacs.bence1 at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nagy Zoltán</mal:name>
+      <mal:email>dzodzie at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Miért kapcsolt ki/hibernált a számítógépem, amikor az akkumulátor töltöttsége 10% alá csökkent?</title>
+
+<p>Amikor a töltöttség szintje túl alacsonyra csökken, a számítógép automatikusan <link xref="power-hibernate">hibernál</link>. Ennek célja, hogy az akkumulátor ne merüljön le teljesen, ami károsítaná azt. Ha az akkumulátor rögtön lemerülne, a számítógépnek nem lenne ideje megfelelően kikapcsolnia.</p>
+
+<p>Meg tudja változtatni hogy mi történjen, ha az akkumulátor töltöttségi szintje túl alacsonyra esik a <gui xref="shell-terminology">Tevékenységek</gui> áttekintésből a <app>Energiagazdálkodás</app> panel megnyitásával. A <gui>Ha az akkumulátor kritikusan gyenge</gui> beállítás segítségével eldöntheti, hogy a számítógép kikapcsoljon vagy hibernáljon; ha a kikapcsolást választja, akkor alkalmazásai és dokumentumai <em>nem</em> kerülnek mentésre a számítógép kikapcsolása előtt.</p>
+
+<p>Egyes számítógépeken nem működik megfelelően a hibernálás, így lehet, hogy nem lesznek képesek visszaállítani a nyitott alkalmazásokat és dokumentumokat a számítógép következő bekapcsolásakor. Emiatt elveszítheti munkája azon részét, amelyet a számítógép hibernálása előtt nem mentett. Ugyanakkor lehetséges, hogy <link xref="power-suspendfail">ki tudja javítani/el tudja hárítani a hibernálással kapcsolatos problémákat</link>.</p>
+
+</page>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="tips-specialchars" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="tips"/>
+    <link type="seealso" xref="keyboard-layouts"/>
+
+    <revision pkgversion="3.8.2" version="0.3" date="2013-05-18" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>外国語の文字や、数学記号、絵文字など、お使いのキーボードには無い文字を入力します。</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>松澤 二郎</mal:name>
+      <mal:email>jmatsuzawa@gnome.org</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>赤星 柔充</mal:name>
+      <mal:email>yasumichi@vinelinux.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kentaro KAZUHAMA</mal:name>
+      <mal:email>kazken3@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shushi Kurose</mal:name>
+      <mal:email>md81bird@hitaki.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Noriko Mizumoto</mal:name>
+      <mal:email>noriko@fedoraproject.org</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>坂本 貴史</mal:name>
+      <mal:email>o-takashi@sakamocchi.jp</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>日本GNOMEユーザー会</mal:name>
+      <mal:email>http://www.gnome.gr.jp/</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>特殊な文字を入力する</title>
+
+  <p>世界中の膨大な文字は、お使いのキーボードには見つからないでしょうが、それらを入力したり表示したりできます。ここでは、特殊な文字を入力する様々な方法を紹介します。</p>
+
+  <links type="section">
+    <title>文字入力の方法</title>
+  </links>
+
+  <section id="charmap">
+    <title>文字マップ</title>
+    <p>GNOME には、Unicode のすべての文字を参照できる文字マップツールが搭載されています。この文字マップを使って文字を探し、好きな箇所へコピー・アンド・ペーストできます。</p>
+
+    <p><gui>アクティビティ</gui>画面から<app>文字マップ</app>を起動してください。文字マップの詳細については、<link href="help:gucharmap">文字マップのマニュアル</link>を参照してください。</p>
+
+  </section>
+
+  <section id="compose">
+    <title>Compose キー</title>
+    <p>Compose キーは特殊なキーで、これを使って複数キーを連続して押すことで特殊な文字を入力できます。たとえば、アクセント付きの <em>é</em> は、<key>Compose</key> キーを押し、次に <key>'</key> キー、その次に <key>e</key> キーを押して入力できます。</p>
+    <p>キーボードには、専用の Compose キーはありません。その代わり、既存のキーのどれかを Compose キーに割り当てることができます。</p>
+
+    <steps>
+      <title>Compose キーの割り当て</title>
+      <item>
+        <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+        start typing <gui>Keyboard</gui>.</p>
+      </item>
+      <item>
+        <p>Click on <gui>Keyboard</gui> to open the panel.</p>
+      </item>
+      <item><p>Select the <gui>Shortcuts</gui> tab and click
+      <gui>Typing</gui>.</p></item>
+      <item><p>Click on <gui>Compose Key</gui> in the right pane.</p></item>
+      <item><p>Click on <gui>Disabled</gui> and select the key you would like to
+      behave as a compose key from the drop-down menu. You can choose either of
+      the <key>Ctrl</key> keys, the right <key>Alt</key> key, the right
+      <key>Win</key> or <key xref="keyboard-key-super">Super</key> key if
+      you have one, the <key xref="keyboard-key-menu">Menu</key> key or
+      <key>Caps Lock</key>. Any key you select will then only work as a compose
+      key, and will no longer work for its original purpose.</p></item>
+    </steps>
+    <p>Compose キーを使って、よく使用される文字を入力できます。たとえば次のとおりです。</p>
+    <list>
+      <item><p><key>Compose</key> キーを押し、次に <key>'</key> キー、そしてアキュートアクセントを付けたい文字を入力すると、<em>é</em> のようになります。</p></item>
+      <item><p><key>Compose</key> キーを押し、次に <key>`</key> キー、そしてグレーブアクセントを付けたい文字を入力すると、<em>è</em> のようになります。</p></item>
+      <item><p><key>Compose</key> キーを押し、次に <key>"</key> キー、そしてウムラウトを付けたい文字を入力すると、<em>ë</em> のようになります。</p></item>
+      <item><p><key>Compose</key> キーを押し、次に <key>-</key> キー、そしてマクロンを付けたい文字を入力すると、<em>ē</em> のようになります。</p></item>
+    </list>
+    <p>Compose キーを使ったその他の入力方法については、<link href="http://en.wikipedia.org/wiki/Compose_key#Common_compose_combinations">Wikipedia の Compose キーのページ (英語)</link> を参照してください。</p>
+  </section>
+
+<section id="ctrlshiftu">
+  <title>コードポイント</title>
+
+  <p>任意の Unicode 文字は、その文字の数値表現のコードポイントをキーボードでタイプすることにより入力できます。文字は、4 桁のコードポイントで識別されます (訳注: 5 桁以上のコードポイントを持つ文字も存在します)。コードポイントを調べるには、文字マップツールで文字を特定し、ステータスバーかあるいは<gui>文字の詳細</gui>タブを参照してください。コードポイントは、<gui>U+</gui> の後ろの 4 桁の文字列です。</p>
+
+  <p>To enter a character by its code point, hold down <key>Ctrl</key> and
+  <key>Shift</key>, type <key>U</key> followed by the four-character code
+  point, then release <key>Ctrl</key> and <key>Shift</key>. If you often use
+  characters that you can't easily access with other methods, you might find
+  it useful to memorize the code point for those characters so you can enter
+  them quickly.</p>
+
+</section>
+
+  <section id="layout">
+    <title>キーボードレイアウト</title>
+    <p>お使いのキーボードを、キーの印字に関係なく、異なる言語用のキーボードとして使用できます。キーボードレイアウトは、トップバーのアイコンから簡単に切り替えることができます。方法については、<link xref="keyboard-layouts"/> を参照してください。</p>
+  </section>
+
+<section id="im">
+  <title>インプットメソッド</title>
+
+  <p>An Input Method expands the previous methods by allowing to enter
+  characters not only with keyboard but also any input devices. For instance
+  you could enter characters with a mouse using a gesture method, or enter
+  Japanese characters using a Latin keyboard.</p>
+
+  <p>インプットメソッドを選択するには、テキストウィジェットの上で右クリックし、<gui>入力メソッド</gui> メニューから使用するインプットメソッドを選択します。既定のインプットメソッドは決められていません、インプットメソッドのドキュメントを参照し、使用方法を確認してください。</p>
+
+</section>
+
+</page>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc>Οι εφαρμογές μπορούν να χρησιμοποιήσουν τους δημιουργημένους λογαριασμούς στο <app>δικτυακοί λογαριασμοί</app> και τις υπηρεσίες που εκμεταλλεύονται.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Ποιες εφαρμογές επωφελούνται από δικτυακούς λογαριασμούς;</title>
+
+  <p><app>Δικτυακοί λογαριασμοί</app> μπορούν να χρησιμοποιηθούν από εξωτερικές εφαρμογές για αυτόματη ρύθμιση τους.</p>
+
+<section id="accounts-google-services">
+  <title>Με έναν λογαριασμό Google</title>
+
+  <list>
+    <item>
+      <p>Το <app>Evolution</app>, η εφαρμογή αλληλογραφίας. Ο λογαριασμός αλληλογραφίας σας θα προστεθεί στο <app>Evolution</app> αυτόματα, έτσι θα ανακτήσει την αλληλογραφία σας, θα σας δώσει πρόσβαση στις επαφές σας και θα εμφανίσει τα στοιχεία ημερολογίου σας στο σημειωματάριο.</p>
+    </item>
+    <item>
+      <p>Το <app>Empathy</app>, η εφαρμογή άμεσων μηνυμάτων. Ο δικτυακός σας λογαριασμός θα προστεθεί και θα μπορείτε να επικοινωνήσετε με τους φίλους σας.</p>
+    </item>
+    <item>
+      <p>Οι <app>Contacts</app>, που θα επιτρέψει να δείτε και να επεξεργαστείτε τις επαφές σας.</p>
+    </item>
+    <item>
+      <p><app>Έγγραφα</app> μπορούν να προσπελάσουν τα δικτυακά έγγραφα σας και να τα εμφανίσουν.</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>Με λογαριασμούς Windows Live, Facebook ή Twitter</title>
+
+  <p>Το <app>Empathy</app> μπορεί να χρησιμοποιήσει αυτούς τους λογαριασμούς για να σας συνδέσουν δικτυακά και να συνομιλήσουν με τις επαφές σας, φίλους και οπαδούς.</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>With a OneDrive account</title>
+
+  <p><app>Documents</app> can access your online documents in Microsoft
+  OneDrive and display them.</p>
+</section>
+
+<section id="account-exchange">
+  <title>Με έναν λογαριασμό Exchange</title>
+
+  <p>Μόλις έχετε δημιουργήσει έναν λογαριασμό Exchange το <app>Evolution</app> θα ξεκινήσει την ανάκτηση μηνυμάτων από αυτόν τον λογαριασμό.</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>Με έναν λογαριασμό ownCloud</title>
+
+  <p>Όταν ένας λογαριασμός ownCloud έχει ρυθμιστεί, το <app>Evolution</app> μπορεί να προσπελάσει και να επεξεργαστεί τις επαφές και τις συναντήσεις ημερολογίου.</p>
+
+  <p>Τα <app>Files</app> και άλλες εφαρμογές θα μπορούν να καταχωριστούν και να προσπελάσουν τα δικτυακά αποθηκευμένα αρχεία στην εγκατάσταση ownCloud.</p>
+</section>
+
+</page>

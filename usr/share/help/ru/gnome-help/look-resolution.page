@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="look-resolution" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="prefs-display"/>
+    <link type="seealso" xref="look-display-fuzzy"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-07" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Проект документирования GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Natalia Ruz Leiva</name>
+      <email its:translate="no">nruz@alumnos.inf.utfsm.cl </email>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Шобха Тьяги (Shobha Tyagi)</name>
+      <email its:translate="no">tyagishobha@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Изменение разрешения экрана и его ориентации (поворота).</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Изменение разрешения или ориентации экрана</title>
+
+  <p>Изменяя <em>разрешение экрана</em>, можно настроить, насколько крупно (или насколько подробно) показываются элементы изображения на экране. А изменяя <em>ориентацию</em> экрана (если, например, у вас есть вращающийся экран), можно настроить, какая сторона экрана будет верхней.</p>
+
+  <steps>
+    <item>
+      <p>Откройте режим <gui xref="shell-terminology">Обзора</gui> и начните набирать<gui>Мониторы</gui>.</p>
+    </item>
+    <item>
+      <p>Нажмите <gui>Мониторы</gui> чтобы открыть этот раздел настроек.</p>
+    </item>
+    <item>
+      <p>Если у вас есть несколько мониторов, и они не отражаются зеркально, то к каждому монитору можно применить отдельные настройки. Выберите монитор в области предварительного просмотра.</p>
+    </item>
+    <item>
+      <p>Выберите нужное разрешение и ориентацию экрана.</p>
+    </item>
+    <item>
+      <p>Нажмите <gui>Применить</gui>. Новые настройки сначала применяются в течение 20 секунд, и если эффект применения новых настроек вас не устроит, откат к старым настройкам произойдёт автоматически. Если же всё хорошо, нажмите <gui>Оставить эту конфигурацию</gui>.</p>
+    </item>
+  </steps>
+
+<section id="resolution">
+  <title>Разрешение</title>
+
+  <p>Разрешение — это количество пикселей (точек на экране) которое можно отобразить в каждом направлении. Разрешение имеет <em>соотношение сторон</em>, то есть отношение ширины к высоте. Широкоэкранные дисплеи используют соотношение 16:9, а традиционные — 4:3. При выборе разрешения, не соответствующего соотношению сторон вашего монитора, во избежание искажения изображения, к нему будет применена технология леттербоксинга, т.е. сверху и снизу (или справа и слева) экрана будут добавлены чёрные полосы.</p>
+
+  <p>Выбрать нужное разрешение можно из выпадающего списка <gui>Разрешение</gui>. Если выбрано разрешение, не подходящее для вашего экрана, изображение может стать <link xref="look-display-fuzzy">размытым или мозаичным</link>.</p>
+
+</section>
+
+<section id="rotation">
+  <title>Ориентация</title>
+
+  <p>На некоторых ноутбуках есть возможность физически поворачивать экран в разных направлениях. Возможность изменять ориентацию экрана очень удобна. Поворачивать изображение на экране можно с помощью клавиш со стрелками.</p>
+
+</section>
+
+</page>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-add" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="draft"/>
+    <revision pkgversion="3.9.92" date="2012-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2013-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <desc>Connect to an online account.</desc>
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>ऑनलाईन खातं उघडा</title>
+
+  <p>Adding an account will help link your online accounts with your GNOME
+  desktop. Thus, your email program, chat program and other related
+  applications will be set up for you.</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Click the <gui>+</gui> button in the lower-left corner of the
+      window.</p>
+    </item>
+    <item>
+      <p>Select the type of account which you want to add.</p>
+      <p>If you want to add more than one account type, you can do so at a
+      later time.</p>
+    </item>
+    <item>
+      <p>A small website window or dialog will open where you can enter your
+      online account credentials. For example, if you are setting up a Google
+      account, enter your Google username and password.</p>
+    </item>
+    <item>
+      <p>If you have entered your credentials correctly, you will be prompted
+      to allow GNOME access to your online account. Authorize access to
+      continue.</p>
+    </item>
+    <item>
+      <p>All services that are offered by an account provider will be enabled
+      by default. <link xref="accounts-disable-service">Switch</link>
+      individual services to <gui>OFF</gui> to disable them.</p>
+    </item>
+  </steps>
+
+  <p>खाते समाविष्ट केल्यानंतर, नीवडलेली प्रत्येक ॲप्लिकेशन त्यास सुरू केल्यानंतर श्रेयचा वापर करेल.</p>
+
+  <note style="tip">
+    <p>सुरक्षा कारणास्तव, GNOME संगणकावर तुमचे पासवर्ड साठवणार नाही. त्याऐवजी, ऑनलाइन सर्व्हिसतर्फे पुरवलेले टोकन साठवले जाते. डेस्कटॉप आणि ऑनलाइन सर्व्हिस अंतर्गत संपूर्णतया दुवा रद्द करायचे असल्यास, <link xref="accounts-remove">काढून टाका</link>.</p>
+  </note>
+
+</page>

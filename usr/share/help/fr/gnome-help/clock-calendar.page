@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" version="1.0 if/1.0" id="clock-calendar" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="clock"/>
+    <link type="guide" xref="shell-overview#desktop"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-11-04" status="review"/>
+
+    <credit type="author">
+      <name>Le projet de documentation GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Afficher ses rendez-vous dans l'agenda, en haut de l'écran.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+ <title>Rendez-vous dans l'agenda</title>
+
+  <note>
+    <p>Cela nécessite le recours à l'agenda d'<gui>Evolution</gui>, à moins que vous ne possédiez un compte en ligne paramétré pour gérer un <gui>Agenda</gui>.</p>
+    <p>La plupart des distributions sont livrées avec <app>Evolution</app> installé par défaut. Si ce n'est pas le cas, installez-le avec le gestionnaire de paquets de votre distribution.</p>
+ </note>
+
+  <p>Pour consulter vos rendez-vous :</p>
+  <steps>
+    <item>
+      <p>Cliquez sur l'horloge située dans la barre supérieure,</p>
+    </item>
+    <item>
+      <p>Dans le calendrier, cliquez sur la date pour laquelle vous voulez connaître les rendez-vous.</p>
+    </item>
+    <item>
+      <p>Si des rendez-vous sont enregistrés, ils s'affichent à droite. Chaque fois que vous ajoutez des rendez-vous dans l'agenda d'<gui>Evolution</gui>, ils apparaissent aussi dans la liste des rendez-vous de l'horloge.</p>
+    </item>
+  </steps>
+
+ <if:choose>
+ <if:when test="!platform:gnome-classic">
+ <media type="image" src="figures/shell-appts.png" width="500" height="396">
+  <p>Horloge, agenda et rendez-vous</p>
+ </media>
+ </if:when>
+ <if:when test="platform:gnome-classic">
+ <media type="image" src="figures/shell-appts-classic.png" width="373" height="250">
+  <p>Horloge, agenda et rendez-vous</p>
+ </media>
+ </if:when>
+ </if:choose>
+
+  <p>Pour accéder rapidement à l'agenda d'<gui>Evolution</gui>, cliquez sur l'horloge puis sur <gui>Ouvrir l'agenda</gui>.</p>
+
+  <note>
+    <p>Cette option ne fonctionne que si vous avez déjà paramétré un compte <gui>Evolution</gui> sinon, une fenêtre affiche les différentes étapes à valider pour configurer votre premier compte.</p>
+  </note>
+
+</page>

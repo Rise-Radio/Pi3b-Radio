@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-braille" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="a11y#vision" group="blind"/>
+    <link type="seealso" xref="a11y-screen-reader"/>
+
+    <revision pkgversion="3.9.92" date="2013-09-18" status="incomplete"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+
+    <desc>Com utilitzar el lector de pantalla <app>Orca</app> amb una pantalla Braille refrescable.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>David Aguilera</mal:name>
+      <mal:email>david.aguilera.moncusi@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Llegir la pantalla en Braille</title>
+
+  <p>El GNOME us permet mostrar la interfície d'usuari en una pantalla Braille refrescable mitjançant el lector de pantalla <app>Orca</app>. Segons com hàgiu instal·lat el GNOME, potser no teniu l'Orca instal·lat. Vegeu <link href="install:orca">Com instal·lar l'Orca</link> i l'<link href="help:orca">Ajuda de l'Orca</link> per a més informació.</p>
+
+</page>

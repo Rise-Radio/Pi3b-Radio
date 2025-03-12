@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="question" version="1.0 if/1.0" id="power-hibernate" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="power"/>
+
+    <desc>Спящий режим отключён по умолчанию, потому что недостаточно хорошо поддерживается.</desc>
+    <revision pkgversion="3.6.0" date="2012-08-14" status="review"/>
+
+    <credit type="author">
+      <name>Проект документирования GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Как перевести компьютер в спящий режим?</title>
+
+<p>При переводе компьютера в <em>спящий режим</em> все открытые приложения и документы сохраняются на диск и компьютер полностью отключается, так что он не потребляет электроэнергию, но приложения и документы будут вновь открыты при повторном включении компьютера.</p>
+
+<p>К сожалению, спящий режим в большинстве случаев <link xref="power-suspendfail">не работает</link>, что может привести к потере данных, если вы ожидаете, что ранее открытые документы и приложения будут восстановлены при повторном включении компьютера. Поэтому спящий режим по умолчанию отключён.</p>
+
+<section id="test-hibernate">
+<title>Проверка работоспособности спящего режима</title>
+
+<note style="important">
+  <title>Всегда сохраняйте свою работу перед переводом компьютера в спящий режим</title>
+  <p>Перед переводом компьютера в спящий режим настоятельно рекомендуется сохранить всю сделанную работу на случай, если что-то пойдёт не так и при возвращении в рабочий режим открытые приложения и документы не будут восстановлены.</p>
+</note>
+
+<p>Можно использовать командную строку, чтобы проверить, работает ли спящий режим на вашем компьютере.</p>
+
+<steps>
+  <item>
+    <if:choose>
+      <if:when test="platform:unity">
+        <p>Откройте <app>Терминал</app>, нажав <keyseq><key>Ctrl</key> <key>Alt</key><key>t</key></keyseq> или выполнив поиск по слову <input>терминал</input> в <gui>Обзоре</gui>.</p>
+     </if:when>
+     <p>Откройте <app>Терминал</app>, выполнив поиск по слову <input>терминал</input> в <gui>Режиме обзора</gui>.</p>
+  </if:choose>
+  </item>
+  <item>
+    <p>Откройте терминал от имени root, наберите <cmd>pm-hibernate</cmd> и нажмите <key>Enter</key>.</p>
+    <p>Введите свой пароль по запросу системы.</p>
+  </item>
+  <item>
+    <p>После выключения компьютера включите его снова. Открылись ли ваши открытые ранее приложения?</p>
+    <p>Если спящий режим не работает, убедитесь, что раздел подкачки имеет размер, по крайней мере не меньший, чем доступный объём оперативной памяти.</p>
+  </item>
+</steps>
+
+</section>
+
+<section id="enable-hibernate">
+<title>Включение спящего режима</title>
+
+  <p>Если проверка спящего режима прошла успешно, то можно продолжать пользоваться командой <cmd>pm-hibernate</cmd> для перевода компьютера в спящий режим.</p>
+
+  <p>You could also install the
+  <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/">
+  <app>Hibernate Status Button</app></link> extension from the
+  <link href="https://extensions.gnome.org">GNOME Extensions website</link>:</p>
+
+  <steps>
+    <item>
+      <p>Switch <gui style="button">ON</gui> the
+      <app>Hibernate Status Button</app> on
+      <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/">
+      its extension page</link> by pressing the status button at the top
+      left.</p>
+    </item>
+    <item>
+      <p>You will be asked to confirm that you want to install the extension.
+      Press <gui style="button">Install</gui>.</p>
+    </item>
+  </steps>
+
+  <p>The button will now be added to the system menu on the right side of the
+  top bar and can be pressed to hibernate your computer.</p>
+
+  <note style="tip">
+    <p>You can also hold down <key>Alt</key> while pressing the
+    <em>hibernate</em> button to use the <em>hybrid-sleep</em> feature. The
+    hybrid-sleep mode is a mix of the hibernate and sleep modes. This means
+    that your computer remains powered on, so you can wake it up by pressing a
+    key on the keyboard and all your open applications and documents are saved
+    in the same state as before pressing the hybrid-sleep button.</p>
+  </note>
+
+</section>
+
+</page>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="question" version="1.0 if/1.0" id="power-hibernate" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="power"/>
+
+    <desc>Pēc noklusējuma iemidzināšana ir deaktivēta, jo tā nav labi atbalstīta.</desc>
+    <revision pkgversion="3.6.0" date="2012-08-14" status="review"/>
+
+    <credit type="author">
+      <name>GNOME dokumentācijas projekts</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Kā iemidzināt savu datoru?</title>
+
+<p>Kad dators <em>iemieg</em>, jūsu atvērtās lietotnes un dokumenti tiek saglabāti un dators pilnībā izslēdzas, neizmantojot strāvu, bet nākamajā ieslēgšanas reizē sistēma ar visām lietotnēm un dokumentiem būs pieejama darbam tieši tā, kā jūs to atstājāt.</p>
+
+<p>Diemžēl iemidzināšana daudzos gadījumos <link xref="power-suspendfail">nestrādā</link>. Tas var izraisīt datu zaudēšanu, ja sagaidāt, ka pēc datora ieslēgšanas dokumenti un lietotnes atkal atvērsies. Tāpēc pēc noklusējuma iemidzināšanas ir deaktivēta.</p>
+
+<section id="test-hibernate">
+<title>Pārbaudīt, vai iemidzināšana darbojas</title>
+
+<note style="important">
+  <title>Vienmēr saglabājiet, pirms iemidzināt</title>
+  <p>Drošības pēc jums vajadzētu saglabāt visu, ar ko jūs strādājat, pirms iemidzināt datoru, jo var gadīties, ka kaut kas nenostrādā un atvērtās lietotnes un dokumentus neizdodas atgūt.</p>
+</note>
+
+<p>Jūs varat izmantot komandrindu, lai pārbaudītu, vai uz jūsu datora strādā iemidzināšana.</p>
+
+<steps>
+  <item>
+    <if:choose>
+      <if:when test="platform:unity">
+        <p>Atveriet <app>Termināli</app>, spiežot <keyseq><key>Ctrl</key><key>Alt</key><key>t</key></keyseq> vai meklējot <input>termināli</input> <gui>panelī</gui>.</p>
+     </if:when>
+     <p>Atver <app>Termināļa</app> lietotni <gui>Aktivitāšu</gui> pārskatā meklējot <input>terminālis</input>.</p>
+  </if:choose>
+  </item>
+  <item>
+    <p>Kā root lietotājs, ievadiet <cmd>pm-hibernate</cmd> terminālī un spiediet <key>Enter</key>.</p>
+    <p>Ievadīt paroli, kad tā tiek prasīta.</p>
+  </item>
+  <item>
+    <p>Pēc datora izslēgšanas, ieslēdziet to atkal atpakaļ. Vai atvērtās lietotnes atvērās no jauna?</p>
+    <p>Ja iemidzināšana nedarbojas, pārbaudiet, vai maiņvietas nodalījumā ir vismaz tikpat daudz vietas, kā operatīvajā atmiņā.</p>
+  </item>
+</steps>
+
+</section>
+
+<section id="enable-hibernate">
+<title>Aktivēt iemidzināšanu</title>
+
+  <p>Ja iemidzināšanas tests darbojas, jūs varat turpināt izmantot <cmd>pm-hibernate</cmd> komandu, kad vēlaties iemidzināt.</p>
+
+  <p>Jūs varētu arī instalēt <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/"> <app>Sastingšanas statusa pogas</app></link> paplašinājumu <link href="https://extensions.gnome.org">GNOME paplašinājumu vietnē</link>:</p>
+
+  <steps>
+    <item>
+      <p>Pārslēdziet <gui style="button">ON</gui> pogu <app>Sastingšanas statusa pogu</app> <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/">tā paplašinājuma lapā</link>, spiežot statusa pogu augšā pa kreisi.</p>
+    </item>
+    <item>
+      <p>Jums prasīt apstiprinājumu, vai vēlaties instalēt paplašinājumu. Spiediet <gui style="button">Instalēt</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Sistēmas izvēlnei augšējās joslas labajā pusē tiks pievienota poga, ko var piespiest, lai sastindzinātu datoru.</p>
+
+  <note style="tip">
+    <p>Jūs varat arī turēt piespiestu taustiņu <key>Alt</key>, kamēr ir piespiesta <em>sastindzināšanas</em> poga, lai izmantotu <em>sastindzināšanas-iesnaudināšanas</em> iespēju. Sastindzināšanas-iesnaudināšanas režīms ir sajaukums no sastindzināšanas un iesnaudināšanas režīmiem. Tas nozīmē, ka jūsu dators paliek ieslēgts, bet to var pamodināt, spiežot tastatūras taustiņu, un visas atvērtās lietotnes un dokumenti ir saglabāti tādā pašā stāvoklī, kā pirms sastindzināšanas-iesnaudināšanas pogas piespiešanas.</p>
+  </note>
+
+</section>
+
+</page>

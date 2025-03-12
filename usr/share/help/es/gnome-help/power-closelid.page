@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="power-closelid" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="power"/>
+    <link type="seealso" xref="power-suspendfail"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-08" status="review"/>
+
+    <credit type="author">
+      <name>Proyecto de documentación de GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Los portátiles se suspenden cuando se cierra la tapa para ahorrar energía.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>¿Por qué se apaga mi equipo cuando cierro la tapa?</title>
+
+  <p>Cuando cierra la pantalla de su portátil, su equipo se <link xref="power-suspend"><em>suspend</em></link> para ahorrar energía. Esto quiere decir que el equipo no está realmente apagado, solo está durmiendo. Puede despertarlo abriendo de nuevo la pantalla. Si no se despierta así, pruebe pulsando un botón del ratón o una tecla cualquiera. Si sigue sin funcionar, pulse el botón de encendido.</p>
+
+  <p>Algunos equipos no se suspenden correctamente, normalmente porque su hardware no funciona completamente con el sistema operativo (ej. los controladores de Linux no están completos). En este caso, verá que no puede reanudar su equipo después de haber cerrado la tapa del portátil. Puede intentar <link xref="power-suspendfail">arreglar problemas de suspensión</link>, o puede evitar que el equipo intente suspenderse cuando cierre la tapa de su portátil.</p>
+
+<section id="nosuspend">
+  <title>Parar la suspensión del equipo cuando se cierra la tapa</title>
+
+  <note style="important">
+    <p>Estas instrucciones sólo funcionarán si está usando <app>systemd</app>. Consulte su distribución para obtener más información.</p>
+  </note>
+
+  <p>Si no quiere que el equipo se suspenda al cerrar la tapa, puede cambiar la configuración de ese comportamiento. Necesitará tener una <link xref="user-admin-change">contraseña de administrador</link> para cambiar esta configuración.</p>
+
+  <note style="warning">
+    <p>Tenga cuidado si cambia esta configuración. Algunos portátiles se pueden sobrecalentar si se dejan encendidos con la tapa cerrada, especialmente si están en un lugar cerrado como una mochila.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>Abra la aplicación <app>Terminal</app> desde la vista de <gui>Actividades</gui>.</p>
+    </item>
+    <item>
+      <p>Ejecute el siguiente comando:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudoedit /etc/systemd/logind.conf</input></screen>
+    </item>
+    <item>
+      <p>Ahora verá el contenido del archivo. Busque <code>HandleLidSwitch=</code> en el archivo. La línea debe empezar por <code>#</code> y puede tener argumentos. Si la línea ya existe, descoméntela, y si no existe, añádala.</p>
+      <code>
+[Login]
+HandleLidSwitch=<input>lock</input>
+      </code>
+      <p>Puede usar <input>lock</input> para bloquear la pantalla, <input>ignore</input> para que no haga nada, <input>poweroff</input> para apagar el equipo o <input>suspend</input> suspenderlo. Para obtener más información consulte la <link href="man:logind.conf">ayuda delogind.conf</link>.</p>
+    </item>
+    <item>
+      <p>Cuando termine de editar el archivo, guarde los cambios y salga del editor.</p>
+    </item>
+    <item>
+      <p>Ejecute el siguiente comando para aplicar el cambio:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudo systemctl restart systemd-logind.service</input></screen>
+      <p>Si no ejecuta ese comando, el cambio se aplicará después de reiniciar el equipo.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

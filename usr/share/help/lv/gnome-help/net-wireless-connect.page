@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wireless-connect" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="net-wireless" group="#first"/>
+    <link type="seealso" xref="net-wireless-troubleshooting"/>
+    <link type="seealso" xref="net-wireless-disconnecting"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-12-05" status="final"/>
+
+    <credit type="author">
+      <name>GNOME dokumentācijas projekts</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Tiec internetā — bez vadiem.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Savienoties ar bezvadu tīklu</title>
+
+<p>Ja jums ir dators ar bezvadu tīkla karti, jūs varat savienoties ar pieejamiem bezvadu tīkliem, lai piekļūtu internetam, skatītu koplietotas datnes tīklā, un tā tālāk.</p>
+
+<steps>
+  <item><p>Spiediet uz sistēmas statusa laukuma augšējā joslā, izvēlieties <gui>Wi-Fi</gui> pēc tam spiediet <gui>Izvēlieties tīklu</gui>.</p></item>
+  <item><p>Spiediet uz tīkla nosaukuma, ar ko vēlaties savienoties, tad spiediet <gui>Savienot</gui>.</p>
+   <p>Ja tīkla nosaukuma nav sarakstā, mēģiniet spiest <gui>Vairāk</gui>, lai redzētu, vai tīkls ir zemāk sarakstā. Ja jūs joprojām neredzat tīklu, jūs varētu būt ārpus jūsu tīkla diapazona vai tīkls <link xref="net-wireless-hidden">varētu būt paslēpts</link>.</p>
+  </item>
+  <item><p>Ja tīkls ir aizsargāts ar paroli (<link xref="net-wireless-wepwpa">šifrēšanas atslēgu</link>), ievadiet paroli, kad tā tiek pieprasīta, un spiediet <gui>Savienoties</gui>.</p>
+  <p>Ja jūs nezināt atslēgu, tā varētu būt rakstīta zem jūsu bezvadu maršrutētāja vai bāzes stacijas, tās lietošanas pamācībā, vai arī jums vajadzētu to pajautāt šī tīkla administratoram.</p></item>
+  <item><p>Kad dators mēģinās savienoties ar tīklu, tīkla ikona mainīs izskatu.</p></item>
+  <item>
+   <p>Ja savienojums būs veiksmīgs, ikonu nomainīs punkts ar pāris joslām virs jā. Jo vairāk joslu, jo stiprāks savienojums ar tīklu. Ja joslu nav daudz, savienojums ir vājš un varētu nebūt uzticams.</p>
+  </item>
+</steps>
+
+  <p>If the connection is not successful, you may be asked for your password
+  again or it might just tell you that the connection has been disconnected.
+  There are a number of things that could have caused this to happen. You could
+  have entered the wrong password, the wireless signal could be too weak, or
+  your computer's wireless card might have a problem, for example. See
+  <link xref="net-wireless-troubleshooting"/> for more help.</p>
+
+<p>Stiprāks savienojums ar bezvadu tīklu vēl nenozīmē, ka jums būs ātrāks interneta savienojums, vai palielināsies lejupielāžu ātrums. Bezvadu savienojums savieno datoru ar <em>ierīci, kas nodrošina savienojumu ar internetu</em> (piemēram, maršrutētāju vai modemu), bet savienojumi ir patiesībā atšķirīgi, un tie darbosies ar dažādu ātrumu.</p>
+
+</page>

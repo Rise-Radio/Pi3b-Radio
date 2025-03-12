@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="power-lowpower" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="power#battery"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <desc>Dopuštanje potpunog pražnjenja baterije je loše po njega.</desc>
+    <credit type="author">
+      <name>Gnomov projekat dokumentacije</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Zašto se računar ugasi/zamrzne kada baterija spadne na 10%?</title>
+
+<p>Kada nivo napunjenosti baterije postane suviše nizak, računar će se sam <link xref="power-hibernate">zamrznuti</link>. Ovo čini da bi osigurao da se baterija ne isprazni u potpunosti, jer je to loše za bateriju. Ako bi se baterija u potpunosti ispraznila, računar ne bi imao vremena da se ispravno ugasi.</p>
+
+<p>Možete da izmenite šta će se desiti kada nivo baterije postane suviše nizak tako što ćete otvoriti <app>Napajanje</app> iz pregleda <gui xref="shell-terminology">Aktivnosti</gui>. Pogledajte podešavanje <gui>Kada je napajanje iz baterije kritično</gui>. Možete izabrati da se računar zamrzne ili ugasi. Ako izaberete da se ugasi, vaši programi i dokumenta <em>neće</em> biti sačuvani pre nego što se računar ugasi.</p>
+
+<p>Neki računari imaju problema sa zamrzavanjem, i neće moći da oporave programe i dokumenata koje ste otvorili kada ponovo uključite računar. U ovom slučaju, moguće je da ćete izgubiti deo rada ako ga niste sačuvali pre nego što se računar zamrznuo. Ipak ćete moći da <link xref="power-suspendfail">rešite probleme sa zamrzavanjem</link>.</p>
+
+</page>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="mouse-lefthanded" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="mouse"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-10-29" status="candidate"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Αντιστρέψτε το αριστερό και δεξιό πλήκτρο του ποντικιού στις ρυθμίσεις ποντικιού.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Χρησιμοποιήστε το αριστερό ποντίκι</title>
+
+  <p>Μπορείτε να εναλλάξετε την συμπεριφορά του αριστερού και του δεξιού πλήκτρου στο ποντίκι σας ή την πινακίδα αφής για να το κάνετε πιο άνετο για αριστερόχειρη χρήση.</p>
+
+  <steps>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Ποντίκι &amp; πινακίδα αφής</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui>Ποντίκι &amp; πινακίδα αφής</gui> για να ανοίξετε το φάτνωμα.</p>
+    </item>
+    <item>
+      <p>Στην ενότητα <gui>γενικά</gui>, αλλάξτε <gui>πρωτεύον πλήκτρο</gui> σε <gui>δεξιό</gui>.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>Αυτή η ρύθμιση θα επηρεάσει και το ποντίκι σας και την πινακίδα αφής, καθώς και κάθε άλλη συσκευή κατάδειξης.</p>
+  </note>
+
+</page>

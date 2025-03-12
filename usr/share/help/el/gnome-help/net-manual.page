@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-manual" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="guide" xref="net-wireless"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+    <revision pkgversion="3.10" date="2013-11-11" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Μπορεί να πρέπει να εισάγετε τις ρυθμίσεις δικτύου, αν δεν εκχωρούνται αυτόματα.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Χειροκίνητος ορισμός ρυθμίσεων δικτύου</title>
+
+  <p>Εάν το δίκτυο σας δεν εκχωρεί αυτόματα ρυθμίσεις δικτύου στον υπολογιστή σας, μπορεί να πρέπει να εισάγετε χειροκίνητα τις ρυθμίσεις ο ίδιος. Αυτό το θέμα υποθέτει ότι ήδη ξέρετε τις σωστές ρυθμίσεις για χρήση. Εάν όχι, ίσως χρειαστείτε να τις ζητήσετε από τον διαχειριστή του δικτύου ή να κοιτάξετε τις ρυθμίσεις του δρομολογητή ή του διακόπτη δικτύου.</p>
+
+  <steps>
+    <title>Για να ορίσετε χειροκίνητα τις ρυθμίσεις δικτύου:</title>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Ρυθμίσεις</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui>Ρυθμίσεις</gui> για να ανοίξετε το κέντρο ελέγχου.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui>Δίκτυο</gui> για να ανοίξετε το φάτνωμα.</p>
+    </item>
+    <item>
+      <p>Στο αριστερό φάτνωμα, επιλέξτε τη σύνδεση δικτύου που θέλετε να ρυθμίσετε χειροκίνητα και πατήστε το πλήκτρο <media its:translate="no" type="image" src="figures/emblem-system.png"><span its:translate="yes">ρυθμίσεις</span></media>. Για παράδειγμα, αν συνδέεστε στο δίκτυο με καλώδιο, πατήστε <gui>ενσύρματο</gui>. Για μια <gui>ασύρματη</gui> σύνδεση, το πλήκτρο <media its:translate="no" type="image" src="figures/emblem-system.png"><span its:translate="yes">ρυθμίσεις</span></media> θα τοποθετηθεί δίπλα στο ενεργό δίκτυο.</p>
+      <p>Βεβαιωθείτε ότι η ασύρματη κάρτα σας είναι ενεργή ή το καλώδιο δικτύου είναι συνδεμένο.</p>
+    </item>
+    <item>
+      <p>Πατήστε <gui>IPv4</gui> και αλλάξτε τις <gui>διευθύνσεις</gui> σε <gui>χειροκίνητη</gui>.</p>
+    </item>
+    <item>
+      <p>Πληκτρολογήστε στο <gui>διεύθυνση</gui> και στην <gui>πύλη δικτύου</gui>, καθώς και την κατάλληλη <gui>μάσκα δικτύου</gui>.</p>
+      <p>Αυτές πρέπει να είναι <em>διευθύνσεις IP</em>· δηλαδή, πρέπει να είναι τέσσερις αριθμοί που χωρίζονται με τελείες (π.χ. 123.45.6.78).</p>
+    </item>
+    <item>
+      <p>In the <gui>DNS</gui> section, switch <gui>Automatic</gui> to
+      <gui>OFF</gui>. Enter the IP address of a DNS server you want to use.
+      Enter additional DNS server addresses using the <gui>+</gui> button.</p>
+    </item>
+    <item>
+      <p>In the <gui>Routes</gui> section, switch <gui>Automatic</gui> to
+      <gui>OFF</gui>. Enter the <gui>Address</gui>, <gui>Netmask</gui>,
+      <gui>Gateway</gui> and <gui>Metric</gui> for a route you want to use.
+      Enter additional routes using the <gui>+</gui> button.</p>
+    </item>
+    <item>
+      <p>Πατήστε <gui>Εφαρμογή</gui>. Αν δεν είσαστε συνδεμένοι στο δίκτυο, πατήστε την περιοχή κατάστασης συστήματος στην πάνω γραμμή και συνδεθείτε. Δοκιμάστε τις ρυθμίσεις δικτύου προσπαθώντας να επισκεφτείτε μια ιστοσελίδα ή κοιτώντας κοινόχρηστα αρχεία στο δίκτυο για παράδειγμα.</p>
+    </item>
+  </steps>
+
+</page>

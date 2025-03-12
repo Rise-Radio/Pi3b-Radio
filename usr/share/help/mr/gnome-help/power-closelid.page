@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="power-closelid" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="power"/>
+    <link type="seealso" xref="power-suspendfail"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-08" status="review"/>
+
+    <credit type="author">
+      <name>GNOME डॉक्युमेंटेशन प्रकल्प</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>लीड बंद केल्यानंतर लॅपटॉप्स पावर साठवण्याकरिता स्लीप मोडमध्ये जातात.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>लीड बंद केल्यानंतर माझे संगणक बंद का होते?</title>
+
+  <p>लॅपटॉपचे लिड बंद केल्यानंतर, पावर साठवण्याकरिता तुमचे संगणक <link xref="power-suspend"><em>सस्पेंड</em></link> केले जातील. याचा अर्थ संगणक प्रत्यक्षरित्या बंद केले जात नाही - ते फक्त स्लीप मोडमध्ये गेले आहे. लिड उघडून पुन्हा सुरू करणे शक्य आहे. पुन्हा सुरू न झाल्यास, माउस क्लिक करण्याचा प्रयत्न करा किंवा कि दाबा. तेही कार्य न झाल्यास, पावर बटन दाबा.</p>
+
+  <p>काही संगणकांना योग्यरित्या सस्पेंड करणे अशक्य आहे, कारण त्यांचे हार्डवेअर कार्यप्रणालीतर्फे पूर्णपणे समर्थीत केले जात नाही (उदाहरणार्थ, Linux ड्राइव्हर्स अपूर्ण आहेत). ह्या घटनामध्ये, तुम्ही लिड बंद केल्यानंतर संगणकाला पुन्हा सुरू करू शकत नाही. <link xref="power-suspendfail">सस्पेंडसह अडचणीचे निवारण करा</link>, किंवा लिड बंद केल्यानंतर तुम्ही संगणकाला सस्पेंड होण्यापासून टाळू शकता.</p>
+
+<section id="nosuspend">
+  <title>लिड बंद केल्यानंतर संगणकाला सस्पेंड होण्यापासून थांबवा</title>
+
+  <note style="important">
+    <p>These instructions will only work if you are using <app>systemd</app>.
+    Contact your distribution for more information.</p>
+  </note>
+
+  <p>If you do not want the computer to suspend when you close the lid, you can
+  change the settings for that behavior. You will need to have an
+  <link xref="user-admin-change">administrator password</link> to change the
+  setting.</p>
+
+  <note style="warning">
+    <p>ही सेटिंग बदलतेवेळी काळजी बाळगा. लिड बंद करून सुरू असल्यास, काही लॅपटॉप्स जास्त गरम होऊ शकतात, विशेषतया ते मर्यादीत ठिकाणी जसे कि बॅकपॅकमध्ये असल्यास.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p><gui>कृती </gui> अवलोकनपासून <app>टर्मिनल</app> ॲप्लिकेशन उघडा.</p>
+    </item>
+    <item>
+      <p>खालील आदेश चालवा:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudoedit /etc/systemd/logind.conf</input></screen>
+    </item>
+    <item>
+      <p>You will now see the contents of the file. Look for
+      <code>HandleLidSwitch=</code> in the file. The line may be quoted out
+      with a <code>#</code> at the start and may be followed by an argument. If
+      the line already exists, unquote it. Otherwise, add the line.</p>
+      <code>
+[प्रवेश]
+HandleLidSwitch=<input>lock</input>
+      </code>
+      <p>You can use <input>lock</input> for the screen to lock,
+      <input>ignore</input> for nothing to happen, <input>poweroff</input> for
+      the computer to switch off or <input>suspend</input> to suspend. For more
+      information, see <link href="man:logind.conf">logind.conf help</link>.</p>
+    </item>
+    <item>
+      <p>फाइलचे संपादन एकदाचे पूर्ण झाल्यानंतर, बदल साठवा आणि संपादक बंद करा.</p>
+    </item>
+    <item>
+      <p>बदल चालवण्याकरिता खालील आदेश चालवा:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudo systemctl restart systemd-logind.service</input></screen>
+      <p>ते आदेश न चालवल्यास, संगणक पुन्हा सुरू केल्यानंतरच बदल कार्यान्वीत होतील.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

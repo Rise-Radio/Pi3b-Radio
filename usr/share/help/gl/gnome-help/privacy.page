@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task 2column" id="privacy" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="prefs"/>
+
+    <revision pkgversion="3.10" date="2013-09-28" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>
+      <link xref="privacy-screen-lock">Screen lock</link>,
+      <link xref="privacy-history-recent-off">Usage history</link>,
+      <link xref="privacy-purge">Purge trash &amp; temporary files</link>…
+    </desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Preferencias de privacidade</title>
+  
+  <p>As <em>Preferencias de privacidade</em> en GNOME axúdanlle a controlar se están visíbeis ou non certas partes do escritorio. Tamén pode usar estas preferencias para limpar o historial de uso do seu computador e limpar ficheiros non necesarios.</p>
+
+</page>

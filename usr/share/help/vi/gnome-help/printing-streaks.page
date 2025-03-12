@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="printing-streaks" xml:lang="vi">
+
+  <info>
+    <link type="guide" xref="printing#problems"/>
+    <link type="seealso" xref="printing-inklevel"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2012-02-19" status="candidate"/>
+
+    <credit type="author">
+      <name>Dự án tài liệu GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Nếu bản in có vệt, mờ, thiếu màu, kiểm tra xem mực in còn không và đầu in có sạch không.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nguyễn Thái Ngọc Duy</mal:name>
+      <mal:email>pclouds@gmail.com</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Tại sao có vệt, mờ, thiếu màu khi in?</title>
+
+  <p>Nếu bản in có vệt, mờ, thiếu màu, hoặc chất lượng kém nói chung, có thể do máy in hoặc mực in.</p>
+
+  <list>
+     <item>
+       <p>Chữ và ảnh mờ</p>
+       <p>Bạn có thể hết mực. Kiểm tra nguồn cung mực và mua thêm nếu cần.</p>
+     </item>
+     <item>
+       <p>Vệt và sọc</p>
+       <p>Nếu bạn dùng máy in inkjet, đầu in có thể bị dơ và bị chặn một phần. Thử làm sạch đầu in (xem hướng dẫn sử dụng máy in).</p>
+     </item>
+     <item>
+       <p>Sai màu</p>
+       <p>Máy in có thể hết mực in một màu nào đó. Kiểm tra nguồn mực in và mua thêm nếu cần.</p>
+     </item>
+     <item>
+       <p>Đường giựt, không thẳng</p>
+       <p>Nếu đường thẳng không thẳng, bạn có thể cần cân chỉnh đầu in. Xem hướng dẫn sử dụng máy in để biết chi tiết cách làm.</p>
+     </item>
+  </list>
+
+</page>

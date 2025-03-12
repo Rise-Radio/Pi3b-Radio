@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="mouse-wakeup" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="mouse#problems"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+
+    <desc>Se ten que mover ou premer o rato antes de que comece a responder.</desc>
+    <credit type="author">
+      <name>Proxecto de documentación de GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>O rato reacciona con atraso despois de comezar a traballar</title>
+
+  <p>Os ratos sen fíos e ópticos, así como as áreas táctiles dos portátiles, a miúdo precisan «espertarse» ante de comezar a funcionar. Póñense automaticamente en repouso cando non se están usando, para aforrar batería. Para espertar o seu rato ou o seu «touchpad», prema un botón do rato ou axíteo.</p>
+  <p>As áreas táctiles dos portátiles a miúdo reacccionan cun atraso desde de que deixe de teclear ate que comecen a funcionar de novo. Isto faise para evitar que toque a área táctil accidentalmente coa palma da súa man mentres teclea. Consulte a <link xref="mouse-disabletouchpad"/> para obter máis información.</p>
+</page>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="wacom-stylus" xml:lang="el">
+  <info>
+
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <link type="guide" xref="wacom"/>
+
+    <credit type="author copyright">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc>Ορίστε τις λειτουργίες κουμπιών και αίσθησης πίεσης της γραφίδας Wacom.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ρύθμιση της γραφίδας</title>
+
+<steps>
+  <item>
+    <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Πινακίδες Wacom</gui>.</p>
+  </item>
+  <item>
+    <p>Πατήστε στο <gui>Πινακίδες Wacom</gui> για να ανοίξετε το φάτνωμα.</p>
+
+    <note style="tip"><p>Εάν δεν ανιχνευτεί καμιά πινακίδα, θα σας ζητηθεί <gui>Παρακαλώ, συνδεθείτε ή ανοίξτε την πινακίδα σας Wacom</gui>. Πατήστε το σύνδεσμο <gui>Ρυθμίσεις μπλουτούθ</gui> για να συνδέσετε μια ασύρματη πινακίδα.</p></note>
+  </item>
+  <item><p>Το κατώτερο μέρος του πλαισίου περιέχει λεπτομέρειες και ρυθμίσεις ειδικές για τη γραφίδα σας, με το όνομα της συσκευής (την κλάση γραφίδα) και διάγραμμα στα αριστερά. Αυτές οι ρυθμίσεις μπορούν να προσαρμοστούν:</p>
+    <list>
+      <item><p><gui>Αίσθηση πίεσης της σβήστρας:</gui> χρησιμοποιήστε τον ολισθητή για να ρυθμίσετε την "αίσθηση" (πώς μεταφράζεται η φυσική πίεση σε ψηφιακές τιμές) μεταξύ <gui>μαλακής</gui> και <gui>σταθερής</gui>.</p></item>
+      <item><p>Η διευθέτηση <gui>κουμπί/κυλιόμενος τροχός</gui> (αυτά αλλάζουν για να αντανακλούν τη γραφίδα). Πατήστε το μενού δίπλα σε κάθε ετικέτα για να επιλέξτε μια από αυτές τις λειτουργίες: χωρίς ενέργεια, αριστερό πάτημα του ποντικιού, μεσαίο πάτημα του ποντικιού, δεξιό πάτημα ποντικιού, κύλιση προς τα πάνω, κύλιση προς τα κάτω, κύλιση αριστερά, κύλιση δεξιά, πίσω, μπροστά.</p></item>
+      <item><p><gui>Η αίσθηση πίεσης άκρης:</gui> χρησιμοποιήστε τον ολισθητή για να ρυθμίσετε την "αίσθηση" μεταξύ <gui>μαλακής</gui> και <gui>σταθερής</gui>.</p></item>
+    </list>
+  </item>
+</steps>
+
+<note style="info"><p>Εάν έχετε περισσότερες από μία γραφίδες, όταν η πρόσθετη γραφίδα πλησιάζει στην πινακίδα, ένας σελιδοποιητής θα εμφανιστεί δίπλα στο όνομα συσκευής της γραφίδας. Χρησιμοποιήστε τον σελιδοποιητή για να επιλέξτε ποια γραφίδα να ρυθμίσετε.</p>
+</note>
+
+</page>

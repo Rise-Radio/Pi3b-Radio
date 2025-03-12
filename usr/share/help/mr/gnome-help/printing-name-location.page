@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="printing-name-location" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="printing#setup"/>
+
+    <revision pkgversion="3.10.2" date="2013-11-03" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Jana Svarova</name>
+      <email its:translate="no">jana.svarova@gmail.com</email>
+      <years>२०१३</years>
+    </credit>
+    <credit type="editor">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jcampbell@gnome.org</email>
+      <years>२०१३</years>
+    </credit>
+
+    <desc>छपाईयंत्र सेटिंग्जमध्ये छपाईयंत्राचे नाव किंवा ठिकाण बदला.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+  
+  <title>छपाईयंत्राचे नाव किंवा ठिकाण बदला</title>
+
+  <p>छपाईयंत्र सेटिंग्जमध्ये छपाईयंत्राचे नाव किंवा ठिकाण बदलणे शक्य आहे.</p>
+
+  <note>
+    <p>छपाईयंत्राचे नाव किंवा ठिकाण बदलण्याकरिता तुम्हाला प्रणालीवरील प्रशासकीय परवानगीची आवश्यकता आहे.</p>
+  </note>
+
+  <section id="printer-name-change">
+    <title>प्रिंटरचे नाव बदला</title>
+
+  <p>प्रिंटरचे नाव बदलायचे असल्यास, खालील मार्ग अनुसरा:</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Printers</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Printers</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>उजव्या कोपऱ्यातील <key>कुलूपबंद अशक्य</key> बटन क्लिक करा आणि पासवर्ड द्या.</p>
+    </item>
+    <item>
+      <p>Click on the name of your printer, and start typing a new name for
+      the printer.</p>
+    </item>
+    <item>
+      <p>Press <key>Enter</key> to save your changes.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="printer-location-change">
+    <title>प्रिंटरचे स्थान बदला</title>
+
+  <p>प्रिंटरचे स्थान बदलण्यासाठी:</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Printers</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Printers</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>उजव्या कोपऱ्यातील <key>कुलूपबंद अशक्य</key> बटन क्लिक करा आणि पासवर्ड द्या.</p>
+    </item>
+    <item>
+      <p>Click on the location, and start editing the location.</p>
+    </item>
+    <item>
+      <p>बदल साठवण्यासाठी <key>Enter</key> दाबा.</p>
+    </item>
+  </steps>
+
+  </section>
+
+</page>

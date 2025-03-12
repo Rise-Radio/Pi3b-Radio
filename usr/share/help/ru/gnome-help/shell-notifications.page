@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" version="1.0 if/1.0" id="shell-notifications" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="shell-overview#desktop"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-04-23" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Марина Журакинская (Marina Zhurakhinskaya)</name>
+      <email its:translate="no">marinaz@redhat.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Уведомления всплывают внизу экрана, сообщая вам о том, что произошли определённые события.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Лоток для уведомлений и сообщений</title>
+
+<section id="what">
+  <title>Что такое уведомление?</title>
+
+  <p>Если приложению или компоненту системы требуется привлечь ваше внимание, то в нижней части экрана будет показано уведомление.</p>
+
+  <p>Например, если вы получили новое сообщение в чате, подключили внешнее устройство (такое, как USB-носитель), доступно обновление для вашей системы, или аккумулятор компьютера разрядился, то вы получите уведомление об этом.</p>
+
+  <p>Чтобы меньше отвлекать пользователя, уведомления появляются в виде одной строки. Чтобы просмотреть полное содержимое уведомления, наведите на него указатель мыши.</p>
+
+  <media type="image" width="700" src="figures/shell-notification.png"/>
+
+  <p>Некоторые уведомления содержат кнопки, позволяющие сделать выбор. Чтобы закрыть такое уведомление, не выбирая ни один из предложенных вариантов, нажмите кнопку закрытия.</p>
+
+  <media type="image" width="500" src="figures/notification-buttons.png"/>
+
+  <p>Нажатие кнопки закрытия в некоторых уведомлениях заставляет их исчезнуть навсегда. Но некоторые другие уведомления, например от Rhythmbox или приложений для обмена мгновенными сообщениями, останутся скрытыми в лотке сообщений.</p>
+
+</section>
+
+<section id="messagetray">
+
+  <title>Лоток сообщений</title>
+
+  <p if:test="!platform:gnome-classic">Лоток сообщений позволяет вернуться к уведомлениям в любой удобный для вас момент. Он появляется, когда вы перемещаете указатель мыши в правый нижний угол экрана или нажимаете <keyseq> <key xref="keyboard-key-super">Super</key><key>M</key></keyseq>. Лоток сообщений содержит все необработанные уведомления, а также уведомления, постоянно хранящиеся в лотке.</p>
+
+  <p if:test="platform:gnome-classic">Лоток сообщений позволяет обратиться к уведомлениям в любой удобный для вас момент. Он появляется, когда вы перемещаете указатель мыши в правый нижний угол экрана или нажимаете <keyseq> <key xref="keyboard-key-super">Super</key><key>M</key></keyseq>. Перейти в лоток сообщений также можно, нажав на голубую иконку с цифрой по правую сторону от списка окон. Лоток сообщений содержит все необработанные уведомления и уведомления, постоянно хранящиеся в лотке.</p>
+
+  <p>Чтобы просмотреть уведомление, выберите элемент из лотка сообщений. Обычно, сообщения отправляются приложениями. Однако уведомления о сообщениях в чате обрабатываются в зависимости от того, кто отправляет вам сообщения.</p>
+
+  <p>Закрыть лоток сообщений можно, снова нажав <keyseq><key>Super</key><key>M</key></keyseq> или клавишу <key>Esc</key>.</p>
+
+  <note style="tip">
+    <p>If the <link xref="keyboard-osk">on-screen keyboard</link> is open, you
+    will need to click the <gui>tray button</gui> to show the message tray.</p>
+  </note>
+
+</section>
+
+<section id="hidenotifications">
+
+  <title>Скрытие уведомлений</title>
+
+  <p>Если вы загружены работой и не хотите отвлекаться на уведомления, их можно отключить.</p>
+
+  <steps>
+    <item>
+      <p>Откройте режим <gui xref="shell-terminology">Обзора</gui> и начинайте вводить<gui>Уведомления</gui>.</p>
+    </item>
+    <item>
+      <p>Нажмите <gui>Уведомления</gui> чтобы открыть этот раздел настроек.</p>
+    </item>
+    <item>
+      <p>Switch <gui>Show Pop Up Banners</gui> to <gui>OFF</gui>.</p>
+    </item>
+  </steps>
+
+  <p>When switched off, most notifications will not pop up at the bottom of the
+  screen. Very important notifications, such as when your battery is critically
+  low, will still pop up. Notifications will still be available in the message
+  tray when you display it (by moving your mouse to the bottom of the screen,
+  or by pressing <keyseq><key>Super</key><key>M</key></keyseq>), and they will
+  start popping up again when you switch the toggle to <gui>ON</gui> again.</p>
+
+</section>
+
+</page>

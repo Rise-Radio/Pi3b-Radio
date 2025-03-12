@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>ફીલ બુલ</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>અમુક વેબસાઇટ વેબ પાનાંને દર્શાવવા Silverlight ને વાપરે છે. Moonlight  પ્લગઇન આ પાનાંને તમને જોવા દે છે.</desc>
+  </info>
+
+  <title>Silverlight પ્લગ-ઇનને સ્થાપિત કરો</title>
+
+  <p><app>Silverlight</app> એ એક તમારાં વેબ બ્રાઉઝર માટે <em>પ્લગ-ઇન</em> છે કે જે વિડિયોનું ધ્યાન રાખવા માટે તમને પરવાનગી આપે છે અને અમુક વેબસાઇટ પર વેબ પાનાંને વાપરો. અમુક વેબસાઇટ એ Silverlight વગર કામ કરતુ નથી.</p>
+
+  <p>જો તમે Silverlight-સક્રિય થયેલ વેબસાઇટને જુઓ પરંતુ તેની પાસે સ્થાપિત થયેલ પ્લગ-ઇન હોય તો, તમે કદાચ  તમને કહી રહ્યા હોય તે સંદેશાને જોશો. આ સંદેશા પાસે સૂચનાઓ હોવી જોઇએ તમને કહી રહ્યા છે કે તમે કેવી રીતે પ્લગ-ઇનને મેળવો, પરંતુ આ સૂચનાઓ તમારાં વેબ બ્રાઉઝર અથવા Linux ની આવૃત્તિ માટે સુસંગત નથી.</p>
+
+  <p>જો તમે Silverlight-સક્રિય થયેલ વેબસાઇટને જોવા માંગો તો, તમારે તને બદલે <em>Moonlight</em> પ્લગ-ઇનને સ્થાપિત કરવાની જરૂર છે. આ Silverlight ની મુક્ત, ઓપન-સોર્સ આવૃત્તિ છે કે જે  Linux પર ચાલે છે.</p>
+
+  <p>અમુક Linux વિતરણો પાસે Moonlight ની નકલ છે કે જે તેનાં સોફ્ટવેર સ્થાપકની મદદથી સ્થાપિત કરી શકો છો; સ્થાપકને ફક્ત ખોલો અને <input>Silverlight</input> અથવા <input>Moonlight</input> માટે શોધો.</p>
+
+  <p>જો તમારાં વિતરણ પાસે Moonlight સોફ્ટવેર પેકેજ ન હોય તો, વધારે જાણકારી અને સ્થાપન સૂચનાઓ માટે <link href="http://www.go-mono.com/moonlight/">Moonlight વેબસાઇટ</link> ને જુઓ.</p>
+
+</page>

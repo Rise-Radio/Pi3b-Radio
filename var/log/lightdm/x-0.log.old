@@ -1,0 +1,19 @@
+
+X.Org X Server 1.18.4
+Release Date: 2016-07-19
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.4.26-v7+ armv7l Raspbian
+Current Operating System: Linux DIBTVTest1A1 4.1.19-v7+ #858 SMP Tue Mar 15 15:56:00 GMT 2016 armv7l
+Kernel command line: 8250.nr_uarts=1 dma.dmachans=0x7f35 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2709.boardrev=0xa02082 bcm2709.serial=0x50af3365 smsc95xx.macaddr=B8:27:EB:AF:33:65 bcm2708_fb.fbswap=1 bcm2709.uart_clock=48000000 vc_mem.mem_base=0x3dc00000 vc_mem.mem_size=0x3f000000  dwc_otg.lpm_enable=0 console=ttyS0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait logo.nologo quiet
+Build Date: 11 November 2016  11:59:59AM
+xorg-server 2:1.18.4-2+rpi1 (https://www.debian.org/support) 
+Current version of pixman: 0.33.3
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Wed Mar 12 10:29:40 2025
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+modprobe: FATAL: Module g2d_23 not found.
+(II) Server terminated successfully (0). Closing log file.

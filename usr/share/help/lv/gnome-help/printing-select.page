@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="printing-select" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="printing#paper"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Drukāt tikai norādītās lappuses, vai lappuses noteiktā diapazonā.</desc>
+  </info>
+
+  <title>Drukāt tikai dažas lappuses</title>
+
+  <p>Lai drukātu tikai dažas dokumenta lapas:</p>
+
+  <steps>
+    <item>
+      <p>Atvērt drukāšanas dialoglodziņu. To parasti var izdarīt izvēlnē <gui style="menuitem">Drukāt</gui>, vai izmantojot <keyseq><key>Ctrl</key><key>P</key></keyseq> taustiņu kombināciju.</p>
+    </item>
+    <item>
+      <p><gui>Drukas</gui> logā <gui>Vispārīgi</gui> cilnē izvēlieties <gui>Lapas</gui> no <gui>Drukāt</gui> sadaļas.</p>
+    </item>
+    <item><p>Ievadiet lapas, kuras vēlaties drukāt teksta laukumā, atdalot ar komatiem. Izmantojiet domuzīmi, lai norādītu lapu diapazonu.</p></item>
+  </steps>
+
+  <note>
+    <p>Piemēram, ja <gui>Lapas</gui> teksta laukā ievadīsiet "1,3,5-7,9", tad tiks drukātas 1.,3.,5.,6.,7. un 9. lapas.</p>
+    <media type="image" src="figures/printing-select.png"/>
+  </note>
+
+</page>

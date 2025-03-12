@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Algunos sitios web usan Silverlight para mostrar páginas web. El complemento Moonlight le permite ver estas páginas.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Instalar el complemento Silverlight</title>
+
+  <p><app>Silverlight</app> es un <em>complemento</em> para su navegador web que le permite ver vídeos y usar páginas interactivas en algunos sitios web. Algunos de ellos no funcionarán sin Silverlight.</p>
+
+  <p>Si ve una página web con Silverlight activado pero no tiene el complemento instalado, es probable que vea un mensaje que le diga esto. Este mensaje debería tener instrucciones que le indiquen cómo obtener el complemento, pero estas instrucciones podrían no ser adecuadas para su navegador web, o su versión de GNU/Linux.</p>
+
+  <p>Si quiere ver sitios web que tengan activado Silverlight, debe instalar el complemento <em>Moonlight</em> en su lugar. Es una versión libre, de código abierto de Silverlight que corre en GNU/Linux.</p>
+
+  <p>Algunas distribuciones de GNU/Linux tienen una copia de Moonlight que puede instalar usando el instalador de software; simplemente abra el instalador y busque <input>Silverlight</input> o <input>Moonlight</input>.</p>
+
+  <p>Si su distribución no tiene un paquete de software Moonlight, consulte la <link href="http://www.go-mono.com/moonlight/">página web de Moonlight</link> para obtener más información e instrucciones de instalación.</p>
+
+</page>

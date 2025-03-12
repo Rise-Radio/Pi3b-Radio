@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Μερικοί ιστοτόποι χρησιμοποιούν Silverlight για να εμφανίσουν ιστοσελίδες. Το πρόσθετο Moonlight επιτρέπει την προβολή αυτών των σελίδων.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Εγκατάσταση του πρόσθετου Silverlight</title>
+
+  <p>Το <app>Silverlight</app> είναι ένα <em>πρόσθετο</em> για τον περιηγητή ιστού σας που επιτρέπει να δείτε βίντεο και να χρησιμοποιήσετε διαδραστικές ιστοσελίδες σε μερικούς ιστοτόπους. Μερικές ιστοσελίδες δεν δουλεύουν χωρίς Silverlight.</p>
+
+  <p>Εάν προβάλετε μια ιστοσελίδα ενεργή με το Silverlight, αλλά δεν έχετε εγκατεστημένο το πρόσθετο, θα δείτε προφανώς ένα μήνυμα που θα σας το πει. Αυτό το μήνυμα πρέπει να έχει οδηγίες που σας λένε πώς να πάρετε το πρόσθετο, αλλά αυτές οι οδηγίες μπορεί να μην είναι κατάλληλες για τον περιηγητή ιστού σας ή την έκδοση του Λίνουξ.</p>
+
+  <p>Εάν θέλετε να προβάλετε ιστοτόπους με ενεργό το Silverlight, θα πρέπει, να εγκαταστήσετε στη θέση του το πρόσθετο <em>Moonlight</em>. Αυτό είναι μια ελεύθερη ανοικτού λογισμικού έκδοση του Silverlight που τρέχει στο Λίνουξ.</p>
+
+  <p>Μερικές διανομές του Λίνουξ έχουν ένα αντίγραφο του Moonlight που μπορείτε να εγκαταστήσετε χρησιμοποιώντας τον εγκαταστάτη λογισμικού σας· απλά ανοίξτε τον εγκαταστάτη και αναζητήστε το <input>Silverlight</input> ή το <input>Moonlight</input>.</p>
+
+  <p>Εάν η διανομή σας δεν έχει ένα πακέτο λογισμικού του Moonlight, δείτε την <link href="http://www.go-mono.com/moonlight/">ιστοσελίδα Moonlight</link> για περισσότερες πληροφορίες και οδηγίες εγκατάστασης.</p>
+
+</page>

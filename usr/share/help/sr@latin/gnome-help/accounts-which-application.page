@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Batista Mij-Matias</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Majkl Hil</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Andre Klaper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc>Programi mogu da koriste naloge napravljene u <app>Nalozima na mreži</app> i usluge koje iskorišćavaju.</desc>
+
+  </info>
+
+<title>Koji programi imaju korist od naloga na mreži?</title>
+
+  <p><app>Naloge na mreži</app> mogu da koriste spoljni programi da bi se samostalno podesili.</p>
+
+<section id="accounts-google-services">
+  <title>Sa Guglovim nalogom</title>
+
+  <list>
+    <item>
+      <p><app>Evolucija</app>, program za el. poštu. Vaš nalog el. pošte će biti samostalno dodat u <app>Evoluciju</app>, tako da će pokupiti vašu poštu, dati vam pristup vašim kontaktima, i prikazaće stavke vašeg kalendara u vašem Gugl podsetniku.</p>
+    </item>
+    <item>
+      <p><app>Internet pismonoša</app>, program za trenutne poruke. Vaš nalog na mreži će biti dodat i bićete u mogućnosti da komunicirate sa vašim prijateljima.</p>
+    </item>
+    <item>
+      <p><app>Kontakti</app>, koji će vam omogućiti da vidite i da uređujete vaše naloge.</p>
+    </item>
+    <item>
+      <p><app>Dokumenti</app> može da pristupi vašim dokumentima na mreži i da ih prikaže.</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>Sa nalozima Vindouza uživo, Fejsbuka i Tvitera</title>
+
+  <p><app>Internet pismonoša</app> može da koristi ove naloge da vas poveže na mrežu i da ćaska sa vašim kontaktima, prijateljima i sledbenicima.</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>Sa nalogom Jednog diska</title>
+
+  <p><app>Dokumenti</app> može da pristupi vašim dokumentima na mreži u Majkrosoftovom jednom disku i da ih prikaže.</p>
+</section>
+
+<section id="account-exchange">
+  <title>Sa nalogom Razmene</title>
+
+  <p>Kada napravite nalog Razmene, <app>Evolucija</app> će započeti dovlačenje pošte sa tog naloga.</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>Sa nalogom Vlastitog oblaka</title>
+
+  <p>Kada je podešen nalog Vlastitog oblaka, <app>Evolucija</app> je u mogućnosti da pristupi i da uređuje kontakte i sastanke kalendara.</p>
+
+  <p><app>Datoteke</app> i drugi programi će biti u mogućnosti da ispisuju i pristupaju vašim datotekama na mreži uskladištenim na instalaciji Vlastitog oblaka.</p>
+</section>
+
+</page>

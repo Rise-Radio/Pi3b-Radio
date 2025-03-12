@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="a11y task" id="a11y-screen-reader" xml:lang="te">
+
+  <info>
+    <link type="guide" xref="a11y#vision" group="blind"/>
+
+    <revision pkgversion="3.13.92" date="2014-09-20" status="incomplete"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>షాన్ మెక్‌కేన్స్</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+
+    <desc>వాడుకరి ఇంటర్ఫేస్ మాట్లాడుటకు <app>ఓర్కా</app> స్క్రీన్ రీడర్ వుపయోగించు.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Praveen Illa</mal:name>
+      <mal:email>mail2ipn@gmail.com</mal:email>
+      <mal:years>2011, 2014. </mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>కృష్ణబాబు క్రొత్తపల్లి</mal:name>
+      <mal:email>kkrothap@redhat.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>తెరను పెద్దగా చదువు</title>
+
+  <p>వాడుకరి ఇంటర్ఫేస్ చదువుటకు గ్నోమ్ అనునది <app>ఓర్కా</app> స్క్రీన్ రీడర్‌ను అందించును. మీరు గ్నోమ్‌ను ఎలా సంస్థాపించారు అనే దానిపై ఆధారపడి, మీరు ఓర్కాను సంస్థాపించివుండకపోవచ్చు. <link href="install:orca">ఓర్కా సంస్థాపించి</link>, మరింత సమాచారం కొరకు <link href="help:orca">ఓర్కా సహాయం</link> చూడండి.</p>
+</page>

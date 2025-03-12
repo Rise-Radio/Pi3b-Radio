@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc>Aplicaciones que pueden usar las cuentas creadas en <app>Cuentas en línea</app> y los servicios que pueden usar.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>¿Qué aplicaciones hacen uso de las cuentas en línea?</title>
+
+  <p><app>Cuentas en línea</app> lo pueden usar aplicaciones externas para configurarse automáticamente.</p>
+
+<section id="accounts-google-services">
+  <title>Con una cuenta de Google</title>
+
+  <list>
+    <item>
+      <p><app>Evolution</app>, la aplicación de correo-e. Su cuenta de correo se añadirá automáticamente a <app>Evolution</app>, por lo que recibirá su correo, accederá a sus contactos y se mostrará su calendario de Google como un elemento de la agenda.</p>
+    </item>
+    <item>
+      <p><app>Empathy</app>, la aplicación de mensajería instantánea. Su cuenta en línea se añadirá y podrá comunicarse con sus amigos.</p>
+    </item>
+    <item>
+      <p><app>Contactos</app>, que le permitirá ver y editar sus contactos.</p>
+    </item>
+    <item>
+      <p><app>Documentos</app> puede acceder a sus documentos en línea y mostrarlos.</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>Con cuentas de Windows Live, Facebook o Twitter</title>
+
+  <p><app>Empathy</app> puede usar la cuenta para conectarle en línea y chatear con sus contactos, amigos y seguidores.</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>With a OneDrive account</title>
+
+  <p><app>Documents</app> can access your online documents in Microsoft
+  OneDrive and display them.</p>
+</section>
+
+<section id="account-exchange">
+  <title>Con una cuenta de Exchange</title>
+
+  <p>Cuando haya creado una cuenta de Exchange, <app>Evolution</app> empezará a recibir correos desde esta cuenta.</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>Con una cuenta de ownCloud</title>
+
+  <p>Cuando haya creado una cuenta de ownCloud, <app>Evolution</app> podrá acceder y editar sus contactos y sus citas del calendario.</p>
+
+  <p><app>Archivos</app> y otras aplicaciones podrán listar y acceder a sus archivos guardados en la instalación de ownCloud.</p>
+</section>
+
+</page>

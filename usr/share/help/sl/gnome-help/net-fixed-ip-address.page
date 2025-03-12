@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-fixed-ip-address" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="seealso" xref="net-findip"/>
+
+    <revision pkgversion="3.4.0" date="2012-03-13" status="final"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Uporaba statičnih naslovov IP vam lahko olajša zagotavljanje nekaterih omrežnih storitev z vašega računalnika.</desc>
+  </info>
+
+  <title>Ustvarite povezavo s stalnim naslovom IP</title>
+
+  <p>Večina omrežij bo samodejno dodelila <link xref="net-what-is-ip-address">naslov IP</link>  in druge podatke računalniku, ko se povežete v omrežje. Ti podatki se lahko občasno spremenijo, vendar boste morda želeli imeti določen naslov IP računalnika, tako da boste vedno vedeli, kakšen je njegov naslov (na primer, če je datotečni strežnik).</p> <p>Da vašemu računalniku stalni (statični) naslov IP:</p>
+
+  <steps>
+    <item>
+      <p>Kliknite na <gui>ikono omrežje</gui> v <gui>vrhnji vrstici</gui> in izberite <gui>Nastavitve omrežja</gui>.</p>
+    </item>
+    <item>
+      <p>Izberite omrežno povezavo s seznama (<gui>Žično</gui> ali <gui>Brezžično</gui>) in kliknite <gui>Nastavi</gui>.</p>
+    </item>
+    <item>
+      <p>Kliknite na zavihek <gui>Nastavitve IPv4</gui> in spremenite <gui>Način</gui> v <em>Ročno</em>.</p>
+    </item>
+    <item>
+      <p>V primeru da na seznamu <gui>Naslovi</gui> ni podatkov o povezavi ali če želite vzpostaviti novo povezavo, kliknite <gui>Dodaj</gui>.</p>
+    </item>
+    <item>
+      <p>Vnesite <em>Naslove IP</em>, <em>Omrežno masko</em> in podatke <em>Prehoda</em> v ustrezna polja. Izbira teh nastavitev je odvisna od nastavitev vašega omrežja. Obstajajo določena pravila, ki določajo kateri naslovi IP in omrežne maske so veljavne za dano omrežje.</p>
+    </item>
+    <item>
+      <p>Če je to potrebno, vnesite naslov <em>Strežnik imen domen</em> v polje <gui>Strežniki DNS</gui>. To je naslov IP strežnika, ki poišče imena domen. Večina podjetij in ponudnikov interneta ima namenske strežnike DNS.</p>
+    </item>
+    <item>
+      <p>Kliknite <gui>Shrani</gui>. Omrežna povezava bi sedaj morala imeti stalni naslov IP.</p>
+    </item>
+  </steps>
+
+</page>

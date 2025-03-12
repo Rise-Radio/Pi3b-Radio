@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="accounts" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="prefs"/>
+
+    <revision pkgversion="3.5.5" version="0.1" date="2012-08-14" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <desc><link xref="accounts-create">Izveidot jaunu kontu</link>, <link xref="accounts-add">Pievienot esošu kontu</link>, <link xref="accounts-remove">Izņemt kontu</link>…</desc>
+  </info>
+
+  <title>Tiešsaistes konti</title>
+
+  <p>Jūs varat ievadīt savas ierakstīšanās detaļas kādiem tiešsaistes servisiem (piemēram, Google un Facebook) logā <app>Tiešsaistes konti</app>. Tas ļaus jums viegli piekļūt savam kalendāram, e-pastam, tērzēšanas kontiem un citiem servisiem no lietotnēm bez atkārtotas kontu informācijas ievadīšanas.</p>
+
+</page>

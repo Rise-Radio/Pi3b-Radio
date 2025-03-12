@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="user-add" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="user-accounts#manage" group="#first"/>
+    <!--<link type="seealso" xref="user-addguest"/>-->
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+    <revision pkgversion="3.13.92" date="2013-11-01" status="review"/>
+
+    <credit type="author">
+      <name>GNOME-Dokumentationsprojekt</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Neue Benutzer anlegen, damit andere Personen sich am Rechner anmelden können.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ein neues Benutzerkonto hinzufügen</title>
+
+  <p>Sie können mehrere Benutzerkonten an Ihrem Rechner anlegen. Geben Sie jeder Person in Ihrem Haushalt oder Ihrer Firma ein Benutzerkonto. Jeder Benutzer hat seinen eigenen persönlichen Ordner, eigene Dokumente und Einstellungen.</p>
+
+  <p>You need <link xref="user-admin-explain">administrator privileges</link>
+  to add user accounts.</p>
+
+  <steps>
+    <item>
+      <p>Öffnen Sie die <gui xref="shell-terminology">Aktivitäten</gui>-Übersicht und tippen Sie <gui>Benutzer</gui> ein.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui>Benutzer</gui>, um das Panel zu öffnen.</p>
+    </item>
+    <item>
+      <p>Press <gui style="button">Unlock</gui> in the top right corner and
+      type in your password when prompted.</p>
+    </item>
+    <item>
+      <p>Press the <gui style="button">+</gui> button, below the list of
+      accounts on the left, to add a new user account.</p>
+    </item>
+    <item>
+      <p>Wenn Sie dem neuen Benutzer die <link xref="user-admin-explain">Rechte des Systemverwalters</link> geben wollen, wählen Sie <gui>Systemverwalter</gui> im Auswahlmenü als Kontotyp. Systemverwalter können zum Beispiel Benutzer hinzufügen oder entfernen, Software und Treiber installieren sowie Datum und Uhrzeit ändern.</p>
+    </item>
+    <item>
+      <p>Enter the new user's full name. The username will be filled in
+      automatically based on the full name. If you do not like the proposed
+      username, you can change it.</p>
+    </item>
+    <item>
+      <p>You can choose to set a password for the new user, or let them set it
+      themselves on their first login. You can press on the
+      <gui style="button"><media its:translate="no" type="image" src="figures/system-run-symbolic.svg" width="16" height="16"><span its:translate="yes">generate
+      password</span></media></gui> icon to automatically generate a random
+      password.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui>Hinzufügen</gui>.</p>
+    </item>
+  </steps>
+
+  <p>If you want to change the password after creating the account, select the
+  account, <gui style="button">Unlock</gui> the panel and press on the current
+  password status.</p>
+
+  <note>
+    <p>In the <gui>Users</gui> panel, you can click the image next to the
+    user's name to the right to set an image for the account. This image will
+    be shown in the login window. GNOME provides some stock photos you can use,
+    or you can select your own or take a picture with your webcam.</p>
+  </note>
+
+</page>

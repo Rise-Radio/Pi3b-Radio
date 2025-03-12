@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/ui/1.0/" type="topic" style="task" version="1.0 ui/1.0" id="keyboard-shortcuts-set" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="keyboard"/>
+    <link type="seealso" xref="shell-keyboard-shortcuts"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-23" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-10-11" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>માઇકલ હીલ</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author">
+       <name>જુલીટા ઇન્કા</name>
+       <email>yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>જુઆન્જો મારીન</name>
+      <email>juanj.marin@juntadeandalucia.es</email>
+    </credit>
+    <credit type="editor">
+      <name>શોભા ત્યાગી</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+
+    <desc><gui>કિબોર્ડ</gui> સુયોજનોમાં કિબોર્ડ ટૂંકાણોને બદલો અને વ્યાખ્યાયિત કરો.</desc>
+  </info>
+
+  <title>કિબોર્ડ ટૂંકાણોને સુયોજિત કરો</title>
+
+<p>કિબોર્ડ ટૂંકાણને દબાવવા માટે કી અથવા કીઓને બદલવા માટે:</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Keyboard</gui>.</p>
+    </item>
+    <item>
+      <p>પેનલને ખોલવા માટે <gui>કિબોર્ડ</gui> પર ક્લિક કરો.</p>
+    </item>
+    <item>
+      <p>Select the <gui>Shortcuts</gui> tab.</p>
+    </item>
+    <item>
+      <p>Select a category in the left pane, and the row for the desired action
+      on the right. The current shortcut definition will change to
+      <gui>New accelerator…</gui></p>
+    </item>
+    <item>
+      <p>ઇચ્છિત કી સંયોજનને પકડી રાખો, અથવા સાફ કરવા માટે <key>Backspace</key> દબાવો.</p>
+    </item>
+  </steps>
+
+
+<section id="defined">
+<title>પહેલેથી વ્યાખ્યાયિત થયેલ ટૂંકાણો</title>
+  <p>ત્યાં પહેલેથી રૂપરેખાંકિત થયેલ ટૂંકાણોની સંખ્યા છે કે જે આ વર્ગોમાં બદલી, જૂથ કરી શકાય છે:</p>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>લૉંચર</title>
+  <tr>
+	<td><p>મદદ બ્રાઉઝર લાવો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>ક્લેક્યુલેટરની શરૂઆત કરો</p></td>
+	<td><p>કૅલ્ક્યુલેટર</p></td>
+  </tr>
+  <tr>
+	<td><p>ઇમેઇલ ક્લાઇન્ટની શરૂઆત કરો</p></td>
+	<td><p>મેઈલ</p></td>
+  </tr>
+  <tr>
+	<td><p>વેબ બ્રાઉઝર લાવો</p></td>
+	<td><p>WWW</p></td>
+  </tr>
+  <tr>
+	<td><p>ઘર ફોલ્ડર</p></td>
+	<td><p>શોધક</p></td>
+  </tr>
+  <tr>
+	<td><p>શોધો</p></td>
+	<td><p>શોધો</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>શોધખોળ</title>
+  <tr>
+	<td><p>કામ કરવાની જગ્યા ૧ માં વિન્ડોને ખસેડો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>કામ કરવાની જગ્યા ૨ માં વિન્ડોને ખસેડો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>કામ કરવાની જગ્યા ૩ માં વિન્ડોને ખસેડો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>કામ કરવાની જગ્યા ૪ માં વિન્ડોને ખસેડો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>ડાબી બાજુએ વિન્ડોને એક કામ કરવાની જગ્યાએ ખસેડો</p></td>
+	<td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>←</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>જમણી બાજુએ વિન્ડોને એક કામ કરવાની જગ્યાએ ખસેડો</p></td>
+	<td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>→</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ઉપર વિન્ડોને એક કામ કરવાની જગ્યાએ ખસેડો</p></td>
+	<td><p><keyseq><key>Shift</key><key xref="keyboard-key-super">Super</key> <key>Page Up</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>નીચે વિન્ડોને એક કામ કરવાની જગ્યાએ ખસેડો</p></td>
+	<td><p><keyseq><key>Shift</key><key>Super</key><key>Page Down</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>કાર્યક્રમો બદલો</p></td>
+	<td><p><keyseq><key>Super</key><key>Tab</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>વિન્ડો બદલો</p></td>
+  <td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>કાર્યક્રમની વિન્ડો બદલો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>સિસ્ટમ નિયંત્રણો બદલો</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Tab</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>સીધી વિન્ડોને બદલો</p></td>
+	<td><p><keyseq><key>Alt</key><key>Esc</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>સીધી કાર્યક્રમની વિન્ડોને બદલો</p></td>
+	<td><p><keyseq><key>Alt</key><key>F6</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>સીધા સિસ્ટમ નિયંત્રણોને બદલો</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Esc</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>બધી સામાન્ય વિન્ડોને છુપાડો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>કામ કરવાની જગ્યા ૧ બદલો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>કામ કરવાની જગ્યા ૨ બદલો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>કામ કરવાની જગ્યા ૩ બદલો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>કામ કરવાની જગ્યા ૪ બદલો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>ડાબી કામ કરવાની જગ્યામાં ખસો</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>←</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>જમણી કામ કરવાની જગ્યામાં ખસો</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>→</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ઉપરની કામ કરવાની જગ્યામાં ખસો</p></td>
+	<td><p><keyseq><key>Super</key><key>Page Up</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>નીચેની કામ કરવાની જગ્યામાં ખસો</p></td>
+	<td><p><keyseq><key>Super</key><key>Page Down</key></keyseq></p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>સ્ક્રીનશોટ</title>
+  <tr>
+	<td><p>સ્ક્રીનશોટ લો</p></td>
+	<td><p><key>છાપો</key></p></td>
+  </tr>
+  <tr>
+	<td><p>વિન્ડોનું સ્ક્રીનશોટ લો</p></td>
+	<td><p><keyseq><key>Alt</key><key>Print</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>વિસ્તારનો સ્ક્રીનશોટ લો</p></td>
+	<td><p><keyseq><key>Shift</key><key>Print</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ક્લિપબોર્ડમાં સ્ક્રીનશોટની નકલ કરો</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Print</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ક્લિપબોર્ડમાં વિન્ડોનાં સ્ક્રીનશોટની નકલ કરો</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Print</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ક્લિપબોર્ડમાં વિસ્તારનાં સ્ક્રીનશોટની નકલ કરો</p></td>
+	<td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Print</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>સ્ક્રીનકાસ્ટ રેકોર્ડ કરો</p></td>
+  <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>→</key></keyseq>&gt;</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>સાઉન્ડ અને મીડિયા</title>
+  <tr>
+	<td><p>અવાજ બંધ કરો</p></td>
+	<td><p>ઓડિયો મૂંગુ</p></td>
+  </tr>
+  <tr>
+	<td><p>અવાજનું પ્રમાણ નીચુ</p></td>
+	<td><p>ઓડિયો ઓછુ વોલ્યુમ</p></td>
+  </tr>
+  <tr>
+	<td><p>અવાજ વધારો</p></td>
+	<td><p>ઓડિયો વધારે વોલ્યુમ</p></td>
+  </tr>
+  <tr>
+	<td><p>મીડિયા પ્લેયર ની શરૂઆત કરો</p></td>
+	<td><p>ઓડિયો મીડિયા</p></td>
+  </tr>
+  <tr>
+	<td><p>વગાડો (અથવા વગાડો/અટકાવો)</p></td>
+	<td><p>ઓડિયો વગાડો</p></td>
+  </tr>
+  <tr>
+	<td><p>પ્લેબેક ને અટકાવો</p></td>
+	<td><p>ઓડિયો અટકાવો</p></td>
+  </tr>
+  <tr>
+	<td><p>વગાડવાનું અટકાવો</p></td>
+	<td><p>ઓડિયો બંધ કરો</p></td>
+  </tr>
+  <tr>
+	<td><p>પહેલાંના ટ્રેક</p></td>
+	<td><p>પહેલાંનો ઓડિયો</p></td>
+  </tr>
+  <tr>
+	<td><p>આગળના ટ્રેક</p></td>
+	<td><p>પછીનો ઓડિયો</p></td>
+  </tr>
+  <tr>
+	<td><p>બહાર કાઢો</p></td>
+	<td><p>બહાર કાઢો</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>સિસ્ટમ</title>
+  <tr>
+	<td><p>ચાલતા આદેશ પ્રોમ્પ્ટને બતાવો</p></td>
+	<td><p><keyseq><key>Alt</key><key>F2</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>પ્રવૃત્તિઓની ઝાંખીને બતાવો</p></td>
+	<td><p><keyseq><key>Alt</key><key>F1</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>બહાર નીકળો</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>સ્ક્રીનને તાળુ મારો</p></td>
+	<td><p><keyseq><key>Super</key><key>L</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>સંદેશો ટ્રેને બતાવો</p></td>
+  <td><p><keyseq><key>Super</key><key>M</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>સક્રિય સૂચના પર પ્રકાશ નાંખો</p></td>
+  <td><p><keyseq><key>Super</key><key>N</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>બધા કાર્યક્રમો બતાવો</p></td>
+  <td><p><keyseq><key>Super</key><key>A</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>કાર્યક્રમ મેનુને ખોલો</p></td>
+  <td><p><keyseq><key>Super</key><key>F10</key></keyseq></p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>ટાઇપ કરી રહ્યા છે</title>
+  <tr>
+  <td><p>આગળનાં ઇનપુટ સ્ત્રોતમાં જાવ</p></td>
+  <td><p><keyseq><key>Super</key><key>Space</key></keyseq></p></td>
+  </tr>
+
+  <tr>
+  <td><p>પહેલાનાં ઇનપુટ સ્ત્રોતમાં જાવ</p></td>
+  <td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+  <td><p>સંશોધક ફક્ત આગળનાં સ્ત્રોત પર જવા માટે</p></td>
+  <td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+  <td><p>કંપોઝ કી</p></td>
+  <td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+  <td><p>વૈકલ્પિક અક્ષર કી</p></td>
+  <td><p>નિષ્ક્રિય</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>સાર્વત્રિક વપરાશ</title>
+  <tr>
+	<td><p>નાનું મોટુ કરવાનુ ચાલુ અથવા બંધ કરો</p></td>
+	<td><p><keyseq><key>Alt</key><key>Super</key><key>8</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Zoom in</p></td>
+  <td><p><keyseq><key>Alt</key><key>Super</key><key/></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>નાનું કરો</p></td>
+  <td><p><keyseq><key>Alt</key><key>Super</key><key>-</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>સ્ક્રીન વાંચકને ચાલુ અથવા બંધ રાખો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>ઓન-સ્ક્રીન કિબોર્ડને ચાલુ અથવા બંધ રાખો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>લખાણ માપને વધારો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>લખાણ માપને ઘટાડો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>ઉચ્ચ વિરોધાભાસ ચાલુ અથવા બંધ</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>વિન્ડો</title>
+  <tr>
+	<td><p>વિન્ડો મેનુને સક્રિય કરો</p></td>
+	<td><p><keyseq><key>Alt</key><key>Space</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>ટૉગલ સંપૂર્ણસ્ક્રીન સ્થિતિ</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>મહત્તમ કરવાની સ્થિતિમાં ફેરબદલી</p></td>
+	<td><p><keyseq><key>Alt</key><key>F10</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>વિન્ડો મહત્તમ કરો</p></td>
+	<td><p><keyseq><key>Super</key><key>↑</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>વિન્ડોને પુન:સંગ્રહો</p></td>
+  <td><p><keyseq><key>Super</key><key>↓</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>છાયાંકિત કરવાની સ્થિતિમાં ફેરબદલી</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>વિન્ડો બંધ કરો</p></td>
+	<td><p><keyseq><key>Alt</key><key>F4</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>વિન્ડો છુપાડો</p></td>
+  <td><p><keyseq><key>Super</key><key>H</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>વિન્ડો ખસેડો</p></td>
+	<td><p><keyseq><key>Alt</key><key>F7</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>વિન્ડોનું માપ બદલો</p></td>
+	<td><p><keyseq><key>Alt</key><key>F8</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>બધી કામ કરવાની જગ્યાઓ ઉપર છે કે ખાલી એક પર ટૉગલ વિન્ડો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>જો વિન્ડો આવરાયેલ હોય, અથવા તેની નીચે હોય તો તેને વધારો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>વિન્ડોને બીજી બધી વિન્ડોની ઉપર લાવો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>બીજી વિન્ડો નીચેની વિન્ડોને નાની કરો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>વિન્ડોને ઉભી મહત્તમ કરો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+	<td><p>વિન્ડોને આડી મહત્તમ કરો</p></td>
+	<td><p>નિષ્ક્રિય</p></td>
+  </tr>
+  <tr>
+  <td><p>ડાબી બાજુએ અલગ કરેલ દૃશ્ય</p></td>
+  <td><p><keyseq><key>Super</key><key>←</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>જમણી બાજુએ અલગ કરેલ દૃશ્ય</p></td>
+  <td><p><keyseq><key>Super</key><key>→</key></keyseq></p></td>
+  </tr>
+</table>
+
+</section>
+
+<section id="changing-shorcuts">
+  <title>કિબોર્ડ ટૂંકાણને બદલો</title>
+  <p>આ વિભાગ બતાવે છે કે કેવી રીતે કાર્યક્રમ માટે કિબોર્ડ ટૂંકાણોને બદલવા.</p>
+
+  <steps>
+    <item>
+	<p>ટર્મિનલ કાર્યક્રમને ખોલો.</p>
+     </item>
+    <item><p><cmd>gsettings set org.gnome.desktop.interface can-change-accels true</cmd> આદેશને ચલાવો.</p>
+    </item>
+       <item>
+      <p>કાર્યક્રમને શરૂ કરો કે જેની માટે તમે કિબોર્ડ ટૂંકાણોને બદલવા માંગો છો.</p>
+    </item>
+  <item>
+      <p>મેનુને શોધો કે જેની માટે તમે કિબોર્ડ ટૂંકાણોને બદલવા માંગો છો.</p>
+    </item>
+<item>
+      <p>ટૂંકાણને ટાઇપ કરો કે જે તમે કિબોર્ડ પર તમે માંગો છો.</p>
+    </item>
+  </steps>
+
+<note style="note style">
+  <p>નોંધો કે આ સુયોજન ડેસ્કટોપ-વાઇડ હોય તો. તમે <cmd>gsettings set org.gnome.desktop.interface can-change-accels false</cmd> આદેશને ચલાવીને તમે ફેરફાર કરો પછી તેને નિષ્ક્રિય કરી શકો છો. તમે આ કરવા માટે <app>dconf-editor</app> ઉપયોગિતાને પણ વાપરી શકો છો.</p>
+</note>
+</section>
+
+<section id="custom">
+<title>વૈવિધ્યપૂર્ણ ટૂંકાણો</title>
+
+<p>તમારાં પોતાના કિબોર્ડ ટૂંકાણને બનાવવા માટે:</p>
+
+  <steps>
+    <item>
+      <p>ડાબી તકતીમાં <gui>વૈવિધ્ય ટૂંકાણો</gui> ને પસંદ કરો, અને <gui style="button">+</gui> બટન પર ક્લિક કરો (અથવા કોઇપણ વર્ગમાં <gui style="button">+</gui> બટન પર ક્લિક કરો). <gui>વૈવિધ્ય ટૂંકાણ</gui> વિન્ડો દેખાશે.</p>
+    </item>
+    <item>
+      <p>ટૂંકાણને ઓળખવા માટે <gui>નામ</gui> ને ટાઇપ કરો, અને કાર્યક્રમને ચલાવવા માટે <gui>Command</gui>, પછી <gui>લાગુ કરો</gui> પર ક્લિક કરો. ઉદાહરણ તરીકે, જો તમે Rhythmbox ને ખોલવા માટે ટૂંકાણ ઇચ્છો તો, તમે તેને <input>સંગીત</input> નામ આપી શકો છો અને <input>rhythmbox</input> આદેશ વાપરો.</p>
+    </item>
+    <item>
+      <p>Click <gui>Disabled</gui> in the row that was just added. When it
+      changes to <gui>New accelerator…</gui>, hold down the desired shortcut
+      key combination.</p>
+    </item>
+  </steps>
+ <p>આદેશ નામ કે જે તમે ટાઇપ કરો કે યોગ્ય સિસ્ટમ આદેશ હોવો જોઇએ. તમે ચકાસી શકો છો કે આદેશ એ ટર્મિનલને ખોલીને કામ કરે છે અને ત્યાં તેને ટાઇપ કરે છે. આદેશ કે જે કાર્યક્રમને ખોલે છે જેની પાસે કાર્યક્રમ પોતે પ્રમાણે નામ હોઇ શકતુ નથી.</p>
+
+ <p>જો તમે આદેશને બદલવા માંગો તો કે જે વૈવિધ્ય કિબોર્ડ ટૂંકાણ સાથે સંકળાયેલ છે, ટૂંકાણનાં <em>નામ</em> પર બે વાર ક્લિક કરો. <gui>વૈવિધ્ય ટૂંકાણ</gui> વિન્ડો દેખાશે, અને તમે આદેશને બદલી શકો છો.</p>
+</section>
+
+</page>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="2column task" id="power" xml:lang="ta">
+<info>
+    <link type="guide" xref="prefs"/>
+    <link type="guide" xref="hardware"/>
+
+    <revision pkgversion="3.8" date="2013-02-26" status="review"/>
+
+    <credit type="author">
+      <name>நடாலியா ரஸ்</name>
+      <email>nruz@alumnos.inf.utfsm.cl</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><link xref="power-suspend">இடைநிறுத்து</link>, <link xref="shell-exit#shutdown">மின்சக்தி நிறுத்தம்</link>, <link xref="power-whydim">திரை மங்கலாக்குதல்</link>…</desc>
+
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+<title>மின்சக்தி &amp; பேட்டரி</title>
+
+<section id="battery" style="2column">
+  <title>பேட்டரி அமைவுகள்</title>
+</section>
+
+<section id="problems" style="2column">
+  <info>
+    <title type="link">மின்சார சிக்கல்கள்</title>
+    <link type="guide" xref="hardware#problems"/>
+    <desc>மின்சாரம் மற்றும் பேட்டரிகள் தொடர்பான சிக்கல்களை சரிசெய்தல்.</desc>
+  </info>
+  <title>சிக்கல்கள்</title>
+</section>
+
+</page>

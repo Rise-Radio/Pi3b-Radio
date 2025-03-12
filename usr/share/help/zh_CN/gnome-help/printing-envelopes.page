@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="printing-envelopes" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="printing#paper"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>确保您的封面/标签放在上面，并且选择了正确的纸张大小。</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>打印封面和标签</title>
+
+  <p>大多数打印机都可以直接打印信封和标签纸，这对于处理大量信件非常有用，例如：</p>
+
+  <section id="envelope">
+    <title>打印信封</title>
+
+  <p>There are two things you need to check when trying to print onto an
+  envelope. The first is that your printer knows what size the envelope is.
+  After you click <gui>Print</gui> and the Print window appears, go to the
+  <gui>Page Setup</gui> tab and choose the <gui>Paper type</gui> as "Envelope"
+  if you can. If you cannot do this, see if you can change the <gui>Paper
+  size</gui> to an envelope size (for example, <gui>C5</gui>). The pack of
+  envelopes will say what size they are; most envelopes come in standard
+  sizes.</p>
+
+  <p>其次，您需要将信封正确放入到进纸托盘中，看一下打印机使用手册上的相关说明，也可以先打印一张试试，找到正确的放置方向。</p>
+
+  <note style="warning">
+    <p>有些打印机设计不能打印信封，尤其是一些激光打印机。请查看使用手册以了解其是否接受打印信封，否则，放入信封将损坏打印机。</p>
+  </note>
+
+  </section>
+
+<!--
+INCOMPLETE: Please write this section!
+
+<section id="labels">
+ <title>Printing labels</title>
+
+</section>
+-->
+
+</page>

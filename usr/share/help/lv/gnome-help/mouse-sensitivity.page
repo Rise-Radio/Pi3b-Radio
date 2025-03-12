@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="mouse-sensitivity" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="mouse"/>
+    <link type="guide" xref="a11y#mobility" group="pointing"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-10-29" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit>
+      <name>Tiffany Antopolski</name>
+      <email its:translate="no">tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit>
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Iestati to, cik ātri peles rādītājs kustās, izmantojot peli vai skārienpaliktni.</desc>
+  </info>
+
+  <title>Piemērot peles vai skārienpaliktņa ātrumu</title>
+
+  <p>Ja peles rādītājs kustās pārāk ātri vai lēni, kustinot peli vai izmantojot skārienpaliktni, jūs varat piemērot rādītāja ātrumu šīm ierīcēm.</p>
+
+  <steps>
+    <item>
+      <p>Atveriet <link xref="shell-terminology">aktivitāšu</link> pārskatu un sāciet rakstīt <gui>Pele un sārienpaliktnis</gui>.</p>
+    </item>
+    <item>
+      <p>Spiediet <gui>Pele un skārienpaliktnis</gui>, lai atvērtu paneli.</p>
+    </item>
+    <item>
+      <p>Pielāgojiet <gui>Rādītāja ātruma</gui> slīdni, līdz rādītāja kustība ir jums piemērota. Katrai rādīšanas ierīcei, piemēram, pelei vai skārienpaliktnim, ir savs slīdnis.</p>
+    </item>
+  </steps>
+
+<!--
+<p>Sensitivity is how much your pointer initially moves when you move your mouse.</p>
+
+<p>The farther you move your mouse, the faster and faster the pointer moves
+relative to your movement. This helps you get the pointer across the screen
+without lifting your hand, while still letting you point and click accurately.
+Acceleration controls this behavior.</p>
+-->
+
+  <p>Ātrumu peles un skārienpaliktņa rādītājiem varat iestatīt katram atsevišķi. Piemēram, jūs varat iestatīt vienu ritināšanas ātrumu pelei, bet citu — skārienpaliktnim. Dažreiz ērtākie iestatījumi vienai ierīcei, var būt neatbilstoši citai. Vienkārši iestatiet slīdņus gan <gui>Peles</gui>, gan <gui>Skārienpaliktņa</gui> sadaļām.</p>
+
+  <note>
+    <p><gui>Skārienpaliktņa</gui> sadaļa parādās tikai tad, ja sistēmai ir skārienpaliktnis, bet <gui>Peles</gui> sadaļa parādās tikai tad, ja ir pievienota pele.</p>
+  </note>
+
+</page>

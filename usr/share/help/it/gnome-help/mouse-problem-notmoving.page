@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="mouse-problem-notmoving" xml:lang="it">
+<info>
+    <link type="guide" xref="mouse#problems"/>
+
+    <desc>Cosa fare se il mouse non funziona</desc>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+
+    <credit type="author">
+        <name>Phil Bull</name>
+        <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luca Ferretti</mal:name>
+      <mal:email>lferrett@gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Flavia Weisghizzi</mal:name>
+      <mal:email>flavia.weisghizzi@ubuntu.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Il punatore del mouse non si sposta</title>
+
+<links type="section"/>
+
+<section id="plugged-in">
+ <title>Controllare che il mouse sia collegato</title>
+ <p>Se il mouse è del tipo con cavo di collegamento, controllare che questo sia saldamente collegato al computer.</p>
+ <p>Se il mouse è del tipo USB (dotato di connettore rettangolare), provare a collegarlo in una diversa porta USB. Se è un mouse del tipo PS/2 (con un piccolo connettore rotondo con sei pin), assicurarsi che sia collegato nella porta verde del mouse anzichè nella porta viola della tastiera. Se il mouse non è collegato, può essere necessario riavviare il computer.</p>
+</section>
+
+<section id="connected">
+ <title>Verificare che il mouse sia stato riconosciuto dal computer.</title>
+ <steps>
+  <item><p>Open the <app>Terminal</app> application from the
+   <gui>Activities</gui> overview.</p></item>
+  <item>
+   <p>Nella finestra del terminale, digitare <cmd>xsetpointer -l | grep Pointer</cmd>, esattamente come visualizzato, e premere <key>Invio</key>.</p>
+  </item>
+  <item>
+   <p>Apparirà un breve elenco di dispositivi mouse. Controllare che almeno uno degli elementi riporti <sys>[XExtensionPointer]</sys> vicino a esso e che l'elemento con <sys>[XExtensionPointer]</sys> indichi il nome del mouse sulla sinistra.</p>
+  </item>
+  <item>
+   <p>Se non c'è alcuna voce con il nome del mouse seguito da <sys>[XExtensionPointer]</sys>, allora il mouse non è stato riconosciuto dal computer, se la voce è presente, il mouse è stato riconosciuto dal computer. In tal caso, controllare che il mouse sia <link xref="mouse-problem-notmoving#plugged-in">collegato</link> e <link xref="mouse-problem-notmoving#broken">funzionante</link>.</p>
+  </item>
+ </steps>
+
+ <p>Se il mouse è dotato di connettore seriale (RS-232), potrebbero essere necessari altri passi per farlo funzionare. Tali passi dipendono dalla marca o dal modello di mouse.</p>
+
+ <p>Può essere complicato risolvere problemi legati al rilevamento del mouse. Chiedere supporto alla distribuzione o al venditore se si ritiene che il mouse non sia stato riconosciuto correttamente.</p>
+</section>
+
+<section id="broken">
+ <title>Verificare che il mouse stia effettivamente funzionando</title>
+ <p>Collegare il mouse in un altro computer per verificarne il funzionamento.</p>
+
+ <p>Se il mouse è del tipo ottico o laser, dovrebbe brillare una luce sulla base del mouse, quando questo è acceso. Se non si vede alcuna luce, controllare che sia acceso. Se è acceso e non si vede alcuna luce, il mouse potrebbe essere rotto.</p>
+</section>
+
+<section id="wireless-mice">
+ <title>Verificare mouse senza fili</title>
+
+ <list>
+   <item><p>Assicurarsi che il mouse sia acceso. Spesso è presente un interruttore sulla base del mouse per spegnerlo completamente, per poterlo spostare da un luogo all'altro senza attivarlo continuamente.</p></item>
+   <item><p>Se si usa un mouse Bluetooth, assicurarsi di averlo effettivamente associato al computer. Per maggiori informazioni, consultare <link xref="bluetooth-connect-device"/>.</p></item>
+  <item>
+   <p>Premere un pulsante e verificare se il puntatore del mouse ora si muove. Alcuni mouse senza fili si mettono in pausa per risparmiare energia e così potrebbero non rispondere fino a quando non si preme un pulsante. Per maggiori informazioni, consultare <link xref="mouse-wakeup"/>.</p>
+  </item>
+  <item>
+   <p>Verificare che la batteria del mouse sia carica.</p>
+  </item>
+  <item>
+   <p>Assicurarsi che il ricevitore (adattatore) sia saldamente collegato al computer.</p>
+  </item>
+  <item>
+   <p>Se il mouse e il ricevitore possono operare su diversi canali radio, assicurarsi che siano entrambi impostati sullo stesso canale.</p>
+  </item>
+  <item>
+   <p>Può essere necessario premere un pulsante sul mouse, sul ricevitore o su entrambi, per stabilire una connessione. In questo caso il manuale d'istruzioni del mouse dovrebbe contenere maggiori dettagli.</p>
+  </item>
+ </list>
+
+ <p>Molti mouse RF (radio) senza fili dovrebbero funzionare automaticamente una volta collegati al computer. Con un mouse Bluetooth o IR (a infrarossi), potrebbero essere necessari ulteriori passi per farlo funzionare. Tali passi dipendono dalla marca o dal modello di mouse.</p>
+</section>
+
+</page>

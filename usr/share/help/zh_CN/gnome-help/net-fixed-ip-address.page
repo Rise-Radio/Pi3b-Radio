@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-fixed-ip-address" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="seealso" xref="net-findip"/>
+
+    <revision pkgversion="3.4.0" date="2012-03-13" status="final"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>使用静态 IP 地址可简化一些网络服务的管理。</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>创建一个固定 IP 地址的连接</title>
+
+  <p>当您连接到网络时，多数网络会自动为您的计算机分配 I P 地址和其他信息。这些信息可能会定期更改，但您可能要为计算机设置固定的 IP 地址，以便时刻了解您计算机的 IP 地址(例如当该计算机被用于文件服务器时)。</p> <p>要为计算机提供固定(静态)IP 地址：</p>
+
+  <steps>
+    <item>
+      <p>点击<gui>顶部面板</gui>上的<gui>网络图标</gui>，然后选择<gui>网络设置</gui>。</p>
+    </item>
+    <item>
+      <p>在列表中选择网络连接(<gui>有线连接</gui> 或 <gui>无线连接</gui>)，然后点击<gui>配置</gui>。</p>
+    </item>
+    <item>
+      <p>点击 <gui>IPv4 设置</gui>标签，更改<gui>方法</gui>为<em>手动</em>。</p>
+    </item>
+    <item>
+      <p>如果<gui>地址</gui>列表中未列出任何连接信息，或者您想设置新的连接，请单击<gui>添加</gui>。</p>
+    </item>
+    <item>
+      <p>在相应的框中输入 <em>IP 地址</em>、<em>子网掩码</em> 和 <em>网关</em> 信息。您对这些选项的选择取决于您的网络设置，有一些特定的规则负责管理哪些 IP 地址和子网掩码对给定的网络是否有效。</p>
+    </item>
+    <item>
+      <p>如有必要，请在 <gui>DNS 服务器</gui> 框中输入 <em>DNS 服务器</em> 地址。这是查找 DNS 服务器的 IP 地址；多数公司网络和 Internet 提供商会提供专用的 DNS 服务器。</p>
+    </item>
+    <item>
+      <p>点<gui>保存</gui>，现在连接就有了一个固定 IP 地址。</p>
+    </item>
+  </steps>
+
+</page>

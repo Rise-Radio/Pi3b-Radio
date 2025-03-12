@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="clock-set" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="clock"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+
+    <credit type="author">
+      <name>GNOME डॉक्युमेंटेशन प्रकल्प</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Click the clock on the top bar and go into the <gui>Date &amp; Time Settings</gui> to alter the date/time.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>तारीख आणि वेळ बदला</title>
+
+  <p>शीर्ष पट्टीवरील दाखवलेले दिनांक आणि वेळ अयोग्य असल्यास किंवा चुकिचे रूपण असल्यास, त्यास बदलणे शक्य आहे:</p>
+
+  <steps>
+    <item>
+      <p>Click on the clock in the middle of the top bar and select <gui>Date
+      &amp; Time Settings</gui>.</p>
+    </item>
+    <item>
+      <p>If you have a standard account, you will need to click
+      <gui>Unlock</gui> and type the
+      <link xref="user-admin-explain">administrator password</link>.</p>
+    </item>
+    <item>
+      <p>तुमच्याकडे इंटरनेट जोडणी असल्यास, तुम्ही स्व अद्यावतकरिता <gui>स्व दिनांक &amp; वेळ</gui> आणि <gui>स्व वेळ क्षेत्र</gui> यास <gui>सुरू करा</gui> असे वापर करून दिनांक, वेळा आणि वेळ क्षेत्र सेट करू शकता.</p>
+      <p>इंटनेट जोडणी नसल्यास, त्यास <gui>बंद करा</gui> असे वापर करून, स्वहस्ते सुधारित करणे शक्य, नंतर सुधारणाकरिता <gui>दिनांक आणि वेळ</gui> आणि <gui>वेळ क्षेत्र</gui> क्लिक करा.</p>
+    </item>
+    <item>
+      <p><gui>२४-तास</gui> किंवा <gui>AM/PM</gui> रूपणची नीवड करून तुम्ही तास कशा प्रकारे दाखवले जाते ते बदलू शकता.</p>
+    </item>
+  </steps>
+
+</page>

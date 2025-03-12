@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wireless-connect" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="net-wireless" group="#first"/>
+    <link type="seealso" xref="net-wireless-troubleshooting"/>
+    <link type="seealso" xref="net-wireless-disconnecting"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-12-05" status="final"/>
+
+    <credit type="author">
+      <name>GNOME દસ્તાવેજીકરણ પ્રોજેક્ટ</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>માઇકલ હીલ</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>ઇન્ટરનેટ - વાયરલેસ પર જાવ.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>વાયરલેસ નેટવર્ક સાથે જોડાવો</title>
+
+<p>જો તમારી પાસે વાયરલેસ-સક્રિય કરેલું કમ્પ્યૂટર હોય, તો તમે ઈન્ટરનેટનો વપરાશ મેળવવા માટે, નેટવર્ક પર વહેંચવામાં આવેલ ફાઇલો જોવા માટે, અને આવું બીજુ બધુ કરવા માટે પહોંચમાં હોય એવા વાયરલેસ નેટવર્ક સાથે જોડાઇ શકો છો.</p>
+
+<steps>
+  <item><p>Click the system status area on the top bar, select <gui>Wi-Fi</gui>,
+ then click <gui>Select Network</gui>.</p></item>
+  <item><p>Click the name of the network you want to connect to, then click
+ <gui>Connect</gui>.</p>
+   <p>જો નેટવર્કનું નામ યાદીમાં નહિ હોય, તો યાદીમાં નીચે નેટવર્ક છે કે નહિં તે જોવા માટે <gui>વધુ</gui> પર ક્લિક કરીને પ્રયાસ કરી જુઓ. જો તમને હજુ પણ નેટવર્ક નહિ મળે, તો તમે કદાચ નેટવર્કની પહોંચની બહાર હોઇ શકો અથવા નેટવર્ક <link xref="net-wireless-hidden">છુપું હોઇ શકે</link>.</p>
+  </item>
+  <item><p>જો નેટવર્ક પાસવર્ડ દ્દારા સુરક્ષિત થયેલ હોય તો (<link xref="net-wireless-wepwpa">એનક્રિપ્શન કી</link>), પાસવર્ડ દાખલ કરો જ્યારે પૂછવામાં આવ્યુ હોય અને <gui>જોડાવો</gui> પર ક્લિક કરો.</p>
+  <p>જો તમને કી ખબર નહિ હોય, તો તે વાયરલેસ રાઉટર અથવા બેઝ સ્ટેશનની નીચેની બાજુએ લખેલી હોઇ શકે, તેની સૂચન માર્ગદર્શિકમાં, અથવા તમારે તમારા વાયરલેસ નેટવર્કના સંચાલક વ્યક્તિને પૂછવુ પડશે.</p></item>
+  <item><p>નેટવર્ક ચિહ્ન દેખાવને બદલશે કમ્પ્યૂટર એ નેટવર્ક સાથે જોડાવાનો પ્રયત્ન કરે છે.</p></item>
+  <item>
+   <p>જો જોડાણ સફળ થાય, તો ચિહ્ન ઘણી પટ્ટીઓવાળા બિંદુમાં બદલાઇ જશે. વધુ પટ્ટીઓ નેટવર્ક સાથેનું મજબૂત જોડાણ સૂચવે છે. જો ત્યાં ઘણી પટ્ટીઓ નહિ હોય, તો જોડાણ નબળુ હશે અને પૂરતું યોગ્ય નહિં હોઇ શકે.</p>
+  </item>
+</steps>
+
+  <p>If the connection is not successful, you may be asked for your password
+  again or it might just tell you that the connection has been disconnected.
+  There are a number of things that could have caused this to happen. You could
+  have entered the wrong password, the wireless signal could be too weak, or
+  your computer's wireless card might have a problem, for example. See
+  <link xref="net-wireless-troubleshooting"/> for more help.</p>
+
+<p>વાયરલેસ નેટવર્કનું મજબૂત જોડાણની જરૂરિયાત નથી તેનો મતલબ એ કે તમારી પાસે ઝડપી ઇન્ટરનેટ જોડાણ છે, અથવા કે જે તમારી પાસે ઝડપી ડાઉનલોડ ઝડપ હશે. વાયરલેસ જોડાણ <em>ઉપકરણ કે જે ઇન્ટરનેટ જોડાણને પૂરુ પાડે છે</em> (જેમ કે રાઉટર અથવા મોડેમ) માં તમારા કમ્પ્યૂટર સાથે જોડાય છે, પરંતુ બે જોડાણો વાસ્તવિક રીતે અલગ હોય છે, અને તેથી તે વિવિધ ઝડપે ચાલશે.</p>
+
+</page>

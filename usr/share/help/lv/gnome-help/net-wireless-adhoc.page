@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wireless-adhoc" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="net-wireless"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-11-10" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Lietojiet ekspromta tīklu, lai ļautu citām ierīcēm savienoties ar jūsu datoru un tā tīkla savienojumiem.</desc>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Izveidot bezvadu tīklāju</title>
+
+<p>Jūs varat izmantot savu datoru kā bezvadu tīklāju. Tas ļauj citām ierīcēm ar jums savienoties bez atsevišķa tīkla, un ļauj koplietot interneta savienojumu, kuru jūs izveidojāt ar citu saskarni, kā piemēram, vadu tīklu vai mobilo tīklu.</p>
+
+<steps>
+  <item><p>Spiediet uz sistēmas statusa laukuma augšējā joslā un izvēlieties <gui>Wi-Fi</gui>.</p></item>
+  <item><p>Izvēlieties <gui>Wi-Fi iestatījumi</gui>.</p></item>
+  <item><p>Spiediet uz <gui>Lietot kā tīklāju...</gui> pogas.</p></item>
+  <item><p>Ja dators jau ir savienots ar bezvadu tīklu, jums jautās vai vēlaties atvienoties no pašreizējā tīkla. Viens bezvadu tīkla adapters var tikai savienoties vai veidot vienu tīklu vienlaicīgi. Spiediet <gui>Ieslēgt</gui>, lai apstiprinātu.</p></item>
+</steps>
+
+<p>Tīkla nosaukums (SSID) un drošības atslēga tiks automātiski radīta. Tīkla nosaukums tiks balstīts uz jūsu datora nosaukuma. Citām ierīcēm būs vajadzīga šī informācija, lai pieslēgtos izveidotajam tīklājam.</p>
+
+</page>

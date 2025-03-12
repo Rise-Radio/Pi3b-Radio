@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="user-changepicture" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="user-accounts#manage"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+    <revision pkgversion="3.14.0" date="2014-10-08" status="candidate"/>
+
+    <credit type="author">
+      <name>Έργο Τεκμηρίωσης GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Προσθέστε την φωτογραφία σας στη σύνδεση και τις οθόνες των χρηστών.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Αλλάξτε τη φωτογραφία οθόνης εισόδου</title>
+
+  <p>Όταν συνδέεστε ή αλλάζετε χρήστες, θα δείτε μια λίστα χρηστών με τις φωτογραφίες σύνδεσης τους. Μπορείτε να αλλάξετε την φωτογραφία σας με μια εικόνα παρακαταθήκης ή μια δικιά σας εικόνα. Μπορείτε ακόμα να πάρετε μια νέα φωτογραφία με την ιστοκάμερά σας.</p>
+
+  <p>Χρειάζεστε <link xref="user-admin-explain">δικαιώματα διαχειριστή</link> για να επεξεργαστείτε λογαριασμούς χρήστη άλλους εκτός από τον δικό σας.</p>
+
+  <steps>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Χρήστες</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui>Χρήστες</gui> για να ανοίξετε το φάτνωμα.</p>
+    </item>
+    <item>
+      <p>Αν θέλετε να επεξεργαστείτε έναν χρήστη εκτός από τον εαυτόν σας, πατήστε <gui style="button">ξεκλείδωμα</gui> στην πάνω δεξιά γωνία και πληκτρολογήστε τον κωδικό πρόσβασής σας όταν σας ζητηθεί.</p>
+    </item>
+    <item>
+      <p>Πατήστε την εικόνα δίπλα στο όνομά σας. Μια πτυσσόμενη συλλογή θα εμφανιστεί με μερικές φωτογραφίες σύνδεσης παρακαταθήκης. Εάν θέλετε μία από αυτές, πατήστε την για να την χρησιμοποιήσετε για τον εαυτόν σας.</p>
+      <list>
+        <item>
+          <p>If you would rather use a picture you already have on your
+          computer, click <gui>Browse for more pictures…</gui>.</p>
+        </item>
+        <item>
+          <p>If you have a webcam, you can take a new login photo right now by
+          clicking <gui style="button" its:translate="no"><media type="image" src="figures/camera-photo-symbolic.svg"><span its:translate="yes">camera icon</span></media></gui>. Take your
+          picture, then move and resize the square outline to crop out the
+          parts you do not want. If you do not like the picture you took, click
+          <gui style="button">Take another picture</gui> to try again, or
+          <gui>Cancel</gui> to give up.</p>
+        </item>
+      </list>
+    </item>
+  </steps>
+
+</page>

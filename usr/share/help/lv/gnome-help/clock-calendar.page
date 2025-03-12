@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" version="1.0 if/1.0" id="clock-calendar" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="clock"/>
+    <link type="guide" xref="shell-overview#desktop"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-11-04" status="review"/>
+
+    <credit type="author">
+      <name>GNOME dokumentācijas projekts</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Attēlot jūsu tikšanās kalendārā, kas ir ekrāna augšpusē.</desc>
+  </info>
+
+ <title>Kalendāra tikšanās</title>
+
+  <note>
+    <p>Tam ir vajadzīgs <app>Evolution</app> kalendārs vai arī iestatīti tiešsaistes konti, kas atbalsta <gui>Kalendāru</gui>.</p>
+    <p>Lielākā daļa distribūciju nāk ar <app>Evolution</app> instalētu pēc noklusējuma. Ja jūsu sistēmā tā nav, jums to vajadzētu instalēt, izmantojot jūsu distribūcijas pakotņu pārvaldnieku.</p>
+ </note>
+
+  <p>Lai skatītu savas tikšanās:</p>
+  <steps>
+    <item>
+      <p>Spiediet uz pulksteņa augšējā joslā.</p>
+    </item>
+    <item>
+      <p>Spiediet uz datuma, par kuru vēlaties redzēt tikšanās datus no <gui>Kalendāra</gui>.</p>
+    </item>
+    <item>
+      <p>Esošās tikšanās tiks parādītas par labi. Pievienojot tikšanās kalendārā, tās parādīsies tikšanos sarakstā pie pulksteņa.</p>
+    </item>
+  </steps>
+
+ <if:choose>
+ <if:when test="!platform:gnome-classic">
+ <media type="image" src="figures/shell-appts.png" width="500" height="396">
+  <p>Pulkstenis, kalendārs un tikšanās</p>
+ </media>
+ </if:when>
+ <if:when test="platform:gnome-classic">
+ <media type="image" src="figures/shell-appts-classic.png" width="373" height="250">
+  <p>Pulkstenis, kalendārs un tikšanās</p>
+ </media>
+ </if:when>
+ </if:choose>
+
+  <p>Lai ātri iegūtu pilnu <app>Evolution</app> kalendāru, spiediet uz pulksteņa un spiediet <gui>Atvērt kalendāru</gui>.</p>
+
+  <note>
+    <p>Tas darbosies tikai tad, ja būs jau esošs <app>Evolution</app> konts. Citādāk parādīsies logs ar soļiem, kas nepieciešami, lai izveidotu jūsu pirmo kontu.</p>
+  </note>
+
+</page>

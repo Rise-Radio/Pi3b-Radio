@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="ui" version="1.0 if/1.0" id="shell-workspaces" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="shell-windows#working-with-workspaces" group="#first"/>
+
+    <revision pkgversion="3.8.0" date="2013-04-23" status="review"/>
+    <revision pkgversion="3.10.3" date="2014-01-26" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>GNOME dokumentācijas projekts</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Darbvietas ir veids, kā grupēt logus uz jūsu darbvirsmas.</desc>
+  </info>
+
+<title>Kas ir darbvieta un kā tā man palīdzēs?</title>
+
+    <media type="image" src="figures/shell-workspaces.png" width="162" height="434" style="floatend floatright">
+        <p>Darbvietu atlasītājs</p>
+    </media>
+
+  <p if:test="!platform:gnome-classic">Darbvietas ir saistītas ar logu grupēšanu uz darbvirsmas. Jūs varat izveidot vairākas darbvietas, kuras darbojas kā virtuālās darbvirsmas. Darbvietas ir domātas, lai samazinātu nekārtību un darbvirsmā varētu vieglāk orientēties.</p>
+
+  <p if:test="platform:gnome-classic">Darbvietas ir saistītas ar logu grupēšanu uz darbvirsmas. Jūs varat lietot vairākas darbvietas, kuras darbojas kā virtuālās darbvirsmas. Darbvietas ir domātas, lai samazinātu nekārtību un darbvirsmā varētu vieglāk orientēties.</p>
+
+  <p>Darbvietas var tikt izmantotas, lai organizētu jūsu darbu. Piemēram, visi saziņas logi kā e-pasts un jūsu tērzēšanas programma varētu atrasties uz vienas darbvietas un tas, ko jūs darāt, uz citas darbvietas. Mūzikas pārvaldnieks varētu atrasties uz trešās darbvietas.</p>
+
+<p>Darbvietu lietošana:</p>
+
+<list>
+  <item>
+    <p if:test="!platform:gnome-classic">In the
+    <gui xref="shell-terminology">&gt;Activities</gui> overview, move your cursor
+    to the right-most side of the screen.</p>
+    <p if:test="platform:gnome-classic">Spiediet taustiņu <key xref="keyboard-key-super">Super</key> lai atvērtu <gui>Aktivitāšu</gui> pārskatu un pārvietojiet kursoru uz ekrāna labo malu.</p>
+  </item>
+  <item>
+    <p if:test="!platform:gnome-classic">Parādīsies vertikāls panelis, parādot izmantotās darbvietas un vienu tukšu darbvietu. Šis ir <link xref="shell-terminology">darbvietu atlasītājs</link>.</p>
+    <p if:test="platform:gnome-classic">Parādīsies vertikāls panelis, parādot pieejamās darbvietas. Šis ir <link xref="shell-terminology">darbvietu atlasītājs</link>.</p>
+  </item>
+  <item if:test="!platform:gnome-classic">
+    <p>Lai pievienotu darbvietu, velciet un nometiet logu no esošas darbvietas tukšā darbvietā, kas atrodas <link xref="shell-terminology">darbvietu atlasītajā</link>. Šī darbvieta tagad satur nomesto logu, un jauna, tukša darbvieta parādīsies zem tās.</p>
+  </item>
+  <item if:test="!platform:gnome-classic">
+    <p>Lai izņemtu darbvietu, vienkārši aizveriet visus tās logus vai pārvietojiet tos uz citu darbvietu.</p>
+  </item>
+</list>
+
+<p if:test="!platform:gnome-classic">Vienmēr ir vismaz viena darbvieta.</p>
+
+</page>

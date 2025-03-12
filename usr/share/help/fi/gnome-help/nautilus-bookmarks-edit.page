@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="nautilus-bookmarks-edit" xml:lang="fi">
+
+  <info>
+    <link type="guide" xref="files#faq"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-09-30" status="review"/>
+
+    <desc>Lisää, poista ja nimeä kirjanmerkit tiedostonhallinnassa.</desc>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Timo Jyrinki</mal:name>
+      <mal:email>timo.jyrinki@iki.fi</mal:email>
+      <mal:years>2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jiri Grönroos</mal:name>
+      <mal:email>jiri.gronroos+l10n@iki.fi</mal:email>
+      <mal:years>2012, 2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Kansiokirjanmerkkien muokkaaminen</title>
+<p>Your bookmarks are listed in the sidebar of the file manager.</p>
+
+    <steps>
+    <title>Lisää kirjanmerkki:</title>
+    <item><p>Avaa kansio tai sijainti, jonka haluat lisätä kirjanmerkiksi.</p></item>
+    <item><p>Click the gear button in the toolbar and pick
+    <gui>Bookmark this Location</gui>.</p></item>
+    </steps>
+
+  <steps>
+  <title>Poista kirjanmerkki:</title>
+   <item><p>Click on <gui>Files</gui> in the top bar and pick <gui>Bookmarks</gui>
+   from the app menu. </p></item>
+   <item><p>In the <gui>Bookmarks</gui> window, select the bookmark you wish to
+   delete and click the <gui>-</gui> button.</p></item>
+  </steps>
+
+    <steps>
+    <title>Nimeä kirjanmerkki uudelleen:</title>
+    <item><p>Click on <gui>Files</gui> in the top bar and pick <gui>Bookmarks</gui>
+     from the app menu.</p></item>
+    <item><p>In the <gui>Bookmarks</gui> window, select the bookmark you wish to
+    rename.</p></item>
+    <item><p>Kirjoita <gui>Nimi</gui>-kenttään kirjanmerkin uusi nimi.</p>
+    <note>
+     <p>Kirjanmerkin uudelleennimeäminen ei muuta kansion nimeä. Jos useampi kirjanmerkki osoittaa kahteen samannimiseen kansioon, kirjanmerkeillä on sama nimi ja niiden erottaminen toisistaan on lähes mahdotonta. Näissä tapauksissa kirjanmerkin nimen muuttaminen on hyödyllistä.</p>
+    </note>
+</item>
+    </steps>
+
+</page>

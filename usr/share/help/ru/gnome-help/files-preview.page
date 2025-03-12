@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="files-preview" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="files"/>
+    <link type="seealso" xref="nautilus-preview"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-10-06" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Шон МакКенс (Shaun McCance)</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Быстрое включение и отключение предварительного просмотра документов, изображений, видео и других типов файлов.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Предварительный просмотр файлов и папок</title>
+
+<p>Можно быстро выполнить предварительный просмотр файла, не открывая его в полнофункциональном приложении. Просто выберите любой файл и нажмите пробел. Файл откроется в простом окне предварительного просмотра. Нажмите пробел снова, чтобы закончить предварительный просмотр.</p>
+
+<p>Встроенная возможность предварительного просмотра поддерживается для большинства форматов файлов: документов, изображений, видео и звуковых файлов. В режиме предварительного просмотра можно пролистывать документы или выполнять перемотку видео и аудиофайлов.</p>
+
+<p>Чтобы развернуть предварительный просмотр на полный экран, нажмите кнопку <media its:translate="no" type="image" src="figures/view-fullscreen-16.png"><span its:translate="yes">полноэкранный режим</span></media> внизу, или нажмите клавишу <key>f</key>. Нажмите <media its:translate="no" type="image" src="figures/view-fullscreen-16.png"><span its:translate="yes">полноэкранный режим</span></media> или снова нажмите клавишу <key>f</key>, чтобы выйти из полноэкранного режима, или нажмите пробел, чтобы окончательно покинуть режим предварительного просмотра.</p>
+
+</page>

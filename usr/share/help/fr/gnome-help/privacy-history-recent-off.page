@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-history-recent-off" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+
+    <revision pkgversion="3.8" date="2013-03-11" status="final"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Empêcher ou limiter l'ordinateur dans le traçage des fichiers récemment utilisés.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Arrêt ou limitation du suivi de l'historique des fichiers</title>
+  
+  <p>Garder la trace des fichiers récemment utilisés peut vous faciliter la tâche de recherche des documents sur lesquels vous avez travaillé, mais vous préférez peut-être que cela ne soit pas public.</p>
+
+  <steps>
+    <title>Pour arrêter le suivi de l'historique des fichiers sur votre ordinateur :</title>
+    <item>
+      <p>Ouvrez la vue d'ensemble des <gui xref="shell-terminology">Activités</gui> et commencez à saisir <gui>Confidentialité</gui>.</p>
+    </item>
+    <item>
+      <p>Cliquez sur <gui>Confidentialité</gui> pour ouvrir le panneau.</p>
+    </item>
+    <item>
+      <p>Sélectionnez <gui>Utilisation et historique</gui>.</p>
+    </item>
+    <item>
+     <p>Basculez l'option <gui>Récemment utilisés</gui> sur <gui>Désactivé</gui>.</p>
+     <p>Pour rétablir cette fonction, basculez l'interrupteur <gui>récemment utilisés</gui> sur <gui>Activé</gui></p>
+    </item>
+    <item>
+      <p>Appuyez sur le bouton <gui>Effacer l'historique</gui> pour exécuter cette action immédiatement.</p>
+    </item>
+  </steps>
+  
+  <note><p>Ce réglage n'affecte pas votre navigateur Internet en ce qui concerne le stockage des informations sur les sites que vous visitez.</p></note>
+
+  <steps>
+    <title>Pour limiter le temps de stockage de l'historique de vos fichiers :</title>
+    <item>
+      <p>Ouvrez la vue d'ensemble des <gui xref="shell-terminology">Activités</gui> et commencez à saisir <gui>Confidentialité</gui>.</p>
+    </item>
+    <item>
+      <p>Cliquez sur <gui>Confidentialité</gui> pour ouvrir le panneau.</p>
+    </item>
+    <item>
+      <p>Sélectionnez <gui>Utilisation et historique</gui>.</p>
+    </item>
+    <item>
+     <p>Vérifiez que l'option <gui>Récemment utilisés</gui> est sur <gui>Désactivé</gui>.</p>
+    </item>
+    <item>
+     <p>Sélectionnez le temps de <gui>Stockage de l'historique</gui>. Vous avez le choix entre <gui>1 jour</gui>, <gui>7 jours</gui>, <gui>30 jours</gui> et <gui>Toujours</gui>.</p>
+    </item>
+    <item>
+      <p>Appuyez sur le bouton <gui>Effacer l'historique</gui> pour exécuter cette action immédiatement.</p>
+    </item>
+  </steps>
+
+</page>

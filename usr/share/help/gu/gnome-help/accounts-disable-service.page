@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-disable-service" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.13.92" date="2013-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>ફીલ બુલ</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    
+    <desc>અમુક ઓનલાઇન ખાતા ઘણી સેવાઓને વાપરવા વાપરી શકાય છે (જેમ કે કેલેન્ડર અને ઇમેઇલ). તમે નિયંત્રિત કરી શકો છો કે જ આ સેવાઓને કાર્યક્રમ દ્દારા વાપરી શકાય છે.</desc>
+  </info>
+
+  <title>નિયંત્રિત કરો કે ઓનલાઇન સેવાઓ માટે ક્યું ખાતુ વાપરી શકાય છે </title>
+
+  <p>અમુક પ્રકારનાં ઓનલાઇન ખાતા એજ વપરાશકર્તા ખાતા સાથે ઘણી સેવાઓને વાપરવા માટે તમને પરવાનગી આપે છે. ઉદાહરણ તરીકે, Google ખાતા કેલેન્ડર, ઇમેઇલ, સંપર્કો અને વાર્તાલાપને વાપરવા પૂરુ પાડે છે. તમે અમુક સેવાઓ માટે તમારા ખાતાને વાપરવની ઇચ્છા રાખી શકો છો, પરંતુ બીજાઓ માટે નહિં. ઉદાહરણ તરીકે, તમે ઇમેઇલ માટે તમારા Google ખાતાને વાપરવાની ઇચ્છા રાખી શકો છો પરંતુ વાતચીત માટે નહિં, જ્યાં સુધી તમરી પાસે વિવિધ ઓનલાઇન ખાતુ હોય કે જે વાતચીત માટે વાપરો.</p>
+
+  <p>તમે અમુક સેવાઓને નિષ્ક્રિય કરી શકો છે કે દરેક ઓનલાઇન ખાતા દ્દારા પૂરુ પાડેલ છે:</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Select the account which you want to change from the list on the
+      left.</p>
+    </item>
+    <item>
+      <p>A list of services that are available with this account will be
+      shown under <gui>Use for</gui>.</p>
+    </item>
+    <item>
+      <p>Switch off any of the services that you do not want to use.</p>
+    </item>
+  </steps>
+
+  <p>Once a service has been disabled for an account, applications on your
+  computer will not be able to use the account to connect to that service any
+  more.</p>
+
+  <p>તમે નિષ્ક્રિય કરેલ છે તે સેવાને ચાલુ કરવા માટે, <gui>ઓનલાઇન ખાતા</gui> વિન્ડોમાં માત્ર પાછા જાવ અને તેને ચાલુ કરો.</p>
+
+</page>

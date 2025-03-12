@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-create" xml:lang="te">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>మైకేల్ హిల్</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc><app>ఆన్‌లైన్ ఖాతాలు</app> వుపయోగించి కొత్త ఖాతా సృష్టించు.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Praveen Illa</mal:name>
+      <mal:email>mail2ipn@gmail.com</mal:email>
+      <mal:years>2011, 2014. </mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>కృష్ణబాబు క్రొత్తపల్లి</mal:name>
+      <mal:email>kkrothap@redhat.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>ఆన్‌లైన్ ఖాతా సృష్టించు</title>
+
+  <p>కొంతమంది ఆన్‌లైన్ ఖాతా సేవ అందించువారు దానిని <app>ఆన్‌లైన్ ఖాతాలు</app> కు జతచేయునప్పుడే ఖాతాను సృష్టించుటకు అనుమతించుతారు. ఇది ఒక అనువర్తనం నుండే మీ మొత్త ఆన్‌లైన్ ఖాతాలను నిర్వహించుటకు అనుమతించును.</p>
+
+  <!-- Tested with Google -->
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p><gui style="button">+</gui> నొక్కు.</p>
+    </item>
+    <item>
+      <p>Select the type of account which you want to add. Some account types
+      may <link xref="accounts-provider-not-available">not be
+      available</link>.</p>
+    </item>
+    <item>
+      <p>If the service allows you to create an account, you should see more
+      information on how to do this.</p>
+      <note>
+        <p>ఈ దశలో ఖాతాను సృష్టించుటకు అన్ని ఆన్‌లైన్ ఖాతా వుత్పాదకులు ఐచ్చికాన్ని అందించరు. మీరు ఈ సేవకు నమోదు అవ్వాలని అనుకుంటే, ఖాతాను సృష్టించుటకు మీరు ప్రత్యామ్నాయ పద్దతిని వుపయోగించాలి.</p>
+      </note>
+    </item>
+    <item>
+      <p>నమోదీకరణ ఫారమునందు నింపుము. మీరు కొన్ని వ్యక్తిగత వివరాలు వాడుకరిపేరు మరియు సంకేతపదం వంటివి ప్రవేశపెట్టాలి.</p>
+    </item>
+    <item>
+      <p>మీ కొత్త ఖాతాను <app>ఆన్‌లైన్ ఖాతాలు</app> తో వుపయోగించుటకు దానికి మీరు గ్నోమ్ ఏక్సెస్‌ను జతచేయాలి.</p>
+    </item>
+    <item>
+      <p>All services that are offered by an account provider will be enabled
+      by default. <link xref="accounts-disable-service">Switch</link>
+      individual services to <gui>OFF</gui> to disable them.</p>
+    </item>
+  </steps>
+
+</page>

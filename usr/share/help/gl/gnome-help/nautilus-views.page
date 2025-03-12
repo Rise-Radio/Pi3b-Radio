@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-views" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-views"/>
+
+    <desc>Especificar a vista predeterminada, a ordenación e os niveis de ampliación para o xestor de ficheiros.</desc>
+
+    <revision pkgversion="3.8" version="0.2" date="2013-04-03" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Ver as preferencias en <app>Ficheiros</app></title>
+
+<p>Pode cambiar a visualización por omisión para os novos cartafoles, como se ordenan os ficheiros e cartafoles por omisión, o nivel de ampliación para as iconas e as vistas compactas, e indicar se quere que os ficheiros se mostren na barra lateral en árbore. Seleccione <guiseq><gui style="menu">Ficheiros</gui> <gui style="menuitem">Preferencias</gui></guiseq> na barra superior e seleccione a lapela <gui>Vistas</gui>.</p>
+
+<section id="default-view">
+<title>Vista predeterminada</title>
+<terms>
+  <item>
+    <title><gui>Ver os cartafoles novos usando</gui></title>
+    <p>Por omisión, os novos cartafoles móstranse na vista de iconas. Se prefire a vista en lista, pode estabelecela aquí por omisión. De forma alternativa, pode seleccionar unha vista diferente para cada un dos cartafoles que explore premendo no botón <gui style="button">Ver elementos como unha lista</gui> ou <gui style="button">Ver elementos como unha grella de iconas</gui> na barra de ferramentas.</p>
+  </item>
+  <item>
+    <title><gui>Ordenar elementos</gui></title>
+    <p>Pode cambiar a forma de ordenación predeterminada usada nos cartafoles usando a lista despregábel <gui>Ordenar elementos</gui> nas preferencias para ordenar por nome, tamaño de ficheiro, tipo de ficheiro, cando foi modificado por última vez, cando foi accedido por última vez, ou cando foron enviados ao lixo.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can change how <link xref="files-sort">files
+    are sorted</link> in an individual folder by clicking the
+    <media its:translate="no" type="image" src="figures/go-down.png">
+    <span its:translate="yes">View options</span></media> button
+    in the toolbar and choosing <gui>By Name</gui>, <gui>By Size</gui>, <gui>By
+    Type</gui> or <gui>By Modification Date</gui>, or by clicking the list
+    column headers in list view. This menu only affects the current folder.</p>
+  </item>
+  <item>
+    <title><gui>Colocar os cartafoles antes que os ficheiros</gui></title>
+    <p>Por omisión, o xestor de ficheiros no mostrará mais todos os cartafoles antes que os ficheiros. Para ver todos os cartafoles listados antes que os ficheiros, active esta opción.</p>
+  </item>
+  <item>
+    <title><gui>Mostrar os ficheiros ocultos e de copia de seguranza</gui></title>
+    <p>O xestor de ficheiros non mostra os <link xref="files-hidden">ficheiros ocultos</link> e os cartafoles por omisión. Pode facer que se mostren sempre os ficheiros ocultos seleccionando esta opción.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can also show hidden files in an individual
+    window by selecting <gui>Show Hidden Files</gui>, from the
+    <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media> menu in
+    the toolbar.</p>
+  </item>
+</terms>
+</section>
+
+<section id="icon-view-defaults">
+<title>Vista de iconas predeterminada</title>
+<terms>
+  <item>
+    <title><gui>Nivel de ampliación predeterminado</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can make the icons and text larger or
+    smaller by default in icon view using this option. You can also change this
+    setting in an individual folder by clicking the
+    <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media> button
+    in the toolbar and selecting <gui>Zoom In</gui>, <gui>Zoom Out</gui> or
+    <gui>Normal Size</gui>. If you frequently use a larger or smaller zoom
+    level, you can set the default with this option.</p>
+    <p>Na vista de iconas, móstranse mais ou menos <link xref="nautilus-display#icon-captions">lendas</link> segundo o nivel de ampliación.</p>
+   </item>
+  </terms>
+</section>
+
+<section id="list-view-defaults">
+<title>Valores predeterminados da vista de lista</title>
+<terms>
+  <item>
+    <title><gui>Nivel de ampliación predeterminado</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can make the icons and text larger or
+    smaller in list view using this option. You can also do this in an
+    individual folder by clicking the
+    <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media> button
+    in the toolbar and selecting <gui>Zoom In</gui>, <gui>Zoom Out</gui> or
+    <gui>Normal Size</gui>.</p>
+  </item>
+</terms>
+</section>
+
+</page>

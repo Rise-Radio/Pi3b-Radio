@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-mag" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="a11y#vision" group="lowvision"/>
+
+    <revision pkgversion="3.7.1" date="2012-11-10" status="outdated"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="final"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <desc>Μεγεθύνετε την οθόνη σας ώστε να διευκολυνθείτε να δείτε πράγματα.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Μεγέθυνση της περιοχής οθόνης</title>
+
+  <p>Μεγεθύνοντας την οθόνη είναι διαφορετικό από την απλή μεγέθυνση του <link xref="a11y-font-size">μεγέθους κειμένου</link>. Αυτό το γνώρισμα είναι όπως να έχουμε μεγεθυντικούς φακούς, που επιτρέπουν τη μετακίνηση ολόγυρα εστιάζοντας σε μέρη της οθόνης.</p>
+
+  <steps>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Γενική πρόσβαση</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui>Γενική πρόσβαση</gui> για να ανοίξετε τον πίνακα.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui>Εστίαση</gui> στην ενότητα <gui>Όραση</gui>.</p>
+    </item>
+    <item>
+      <p>Switch <gui>Zoom</gui> to <gui>ON</gui>.</p>
+      <!--<note>
+        <p>The <gui>Zoom</gui> section lists the current settings for the
+        shortcut keys, which can be set in the <gui>Universal Access</gui>
+        section of the <link xref="keyboard-shortcuts-set">Shortcuts</link> tab
+        on the <gui>Keyboard</gui> panel.</p>
+      </note>-->
+    </item>
+  </steps>
+
+  <p>Μπορείτε τώρα να μετακινηθείτε γύρω από την περιοχή της οθόνης. Μετακινώντας το ποντίκι σας στις άκρες της οθόνης, θα μετακινήσετε τη μεγεθυσμένη περιοχή σε διαφορετικές κατευθύνσεις, που επιτρέπει να δείτε την επιθυμητή περιοχή.</p>
+
+  <note style="tip">
+    <p>Μπορείτε να ενεργοποιήσετε γρήγορα ή όχι πατώντας το <link xref="a11y-icon">εικονίδιο πρόσβασης</link> στην πάνω γραμμή και να επιλέξετε <gui>εστίαση</gui>.</p>
+  </note>
+
+  <p>Μπορείτε να αλλάξετε τον συντελεστή μεγέθυνσης, την ανίχνευση ποντικιού και τη θέση της μεγεθυσμένης προβολής στην οθόνη. Ρυθμίσετε τα στην καρτέλα <gui>Μεγεθυντής</gui> του παραθύρου ρυθμίσεων <gui>Εστίαση</gui>.</p>
+
+  <p>You can activate crosshairs to help you find the mouse or touchpad
+  pointer. Switch them on and adjust their length, color, and thickness in the
+  <gui>Crosshairs</gui> tab of the <gui>Zoom</gui> settings window.</p>
+
+  <p>Μπορείτε να αλλάξετε σε αντιστροφή βίντεο ή <gui>λευκό σε μαύρο</gui> και να ρυθμίσετε τη φωτεινότητα, την αντίθεση και τις επιλογές γκρίζας κλίμακας για τον μεγεθυντή. Ο συνδυασμός αυτών των επιλογών είναι χρήσιμος για ανθρώπους με χαμηλή όραση, οποιουδήποτε βαθμού φωτοφοβίας, ή απλά για χρήση του υπολογιστή σε συνθήκες δυσμενούς φωτισμού. Επιλέξτε την καρτέλα <gui>Επιδράσεις χρώματος</gui> στο παράθυρο ρυθμίσεων <gui>Εστίαση</gui> για ενεργοποίηση και αλλάξτε αυτές τις επιλογές.</p>
+
+</page>

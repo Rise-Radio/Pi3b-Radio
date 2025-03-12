@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="power-closelid" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="power"/>
+    <link type="seealso" xref="power-suspendfail"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-08" status="review"/>
+
+    <credit type="author">
+      <name>GNOME-Dokumentationsprojekt</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Laptops werden in Bereitschaft versetzt, wenn sie zugeklappt werden, um Strom zu sparen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Warum wird mein Rechner abgeschaltet, wenn ich den Deckel schließe?</title>
+
+  <p>Wenn Sie Ihren Laptop zuklappen, wird er in <link xref="power-suspend"><em>Bereitschaft</em></link> versetzt, um Strom zu sparen. Das bedeutet, dass der Rechner nicht wirklich ausgeschaltet ist – er ist nur im Schlafmodus. Sie können ihn aufwecken, indem Sie ihn aufklappen. Wenn er nicht aufwacht, versuchen Sie es mit einem Mausklick oder einem Tastendruck. Wenn das noch immer nicht funktioniert, drücken Sie die Ein-/Ausschalttaste.</p>
+
+  <p>Manche Rechner können nicht richtig in Bereitschaft versetzt werden, normalerweise weil ihre Hardware vom Betriebssystem nicht vollständig unterstützt wird (beispielsweise sind die Linuxtreiber unvollständig). In diesem Fall kann es passieren, dass Sie Ihren Laptop nicht mehr aufwecken können, nachdem Sie ihn zugeklappt haben. Sie können versuchen, <link xref="power-suspendfail">das Problem mit der Bereitschaft</link> zu lösen oder den Rechner daran hindern, in Bereitschaft zu gehen, wenn Sie ihn zuklappen.</p>
+
+<section id="nosuspend">
+  <title>Den Laptop nicht in Bereitschaft versetzen, wenn er zugeklappt wird</title>
+
+  <note style="important">
+    <p>Diese Anweisungen funktionieren nur, wenn sie <app>systemd</app> verwenden. Kontaktieren Sie Ihre Distribution für weitere Informationen.</p>
+  </note>
+
+  <p>Wenn Sie nicht wollen, dass Ihr Rechner in Bereitschaft versetzt wird, wenn Sie ihn zuklappen, können Sie die Einstellungen für dieses Verhalten ändern. Sie müssen das <link xref="user-admin-change">Passwort des Systemverwalters</link> besitzen, um diese Einstellung zu ändern.</p>
+
+  <note style="warning">
+    <p>Seien Sie sehr vorsichtig mit dieser Einstellung. Einige Laptops können überhitzen, wenn Sie bei geschlossenem Deckel eingeschaltet sind, insbesondere, wenn sie sich in einer geschlossenen Umgebung befinden, z.B. in einer Tasche.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>Öffnen Sie ein <app>Terminal</app> in der <gui>Aktivitäten</gui>-Übersicht.</p>
+    </item>
+    <item>
+      <p>Führen Sie den folgenden Befehl aus:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudoedit /etc/systemd/logind.conf</input></screen>
+    </item>
+    <item>
+      <p>You will now see the contents of the file. Look for
+      <code>HandleLidSwitch=</code> in the file. The line may be quoted out
+      with a <code>#</code> at the start and may be followed by an argument. If
+      the line already exists, unquote it. Otherwise, add the line.</p>
+      <code>
+[Login]
+HandleLidSwitch=<input>lock</input>
+      </code>
+      <p>You can use <input>lock</input> for the screen to lock,
+      <input>ignore</input> for nothing to happen, <input>poweroff</input> for
+      the computer to switch off or <input>suspend</input> to suspend. For more
+      information, see <link href="man:logind.conf">logind.conf help</link>.</p>
+    </item>
+    <item>
+      <p>Sobald Sie mit dem Bearbeiten der Datei fertig sind, speichern Sie Ihre Änderungen und beenden Sie das Bearbeitungsprogramm.</p>
+    </item>
+    <item>
+      <p>Führen Sie den folgenden Befehl aus, um Ihre Änderungen anzuwenden:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudo systemctl restart systemd-logind.service</input></screen>
+      <p>Wenn Sie diesen Befehl nicht ausführen, werden die Änderungen erst nach einem Neustart des Rechners aktiv.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

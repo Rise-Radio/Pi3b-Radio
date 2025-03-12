@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="files-lost" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="files" group="more"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-09-28" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Proxecto de documentación de GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Siga estas indicacións se non atopa o ficheiro que creou ou descargou.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Buscar un ficheiro perdido</title>
+
+<p>If you created or downloaded a file, but now you cannot find it, follow
+these tips.</p>
+
+<list>
+  <item><p>If you do not remember where you saved the file, but you have some
+  idea of how you named it, you can search for the file by name. See
+  <link xref="files-search"/> to learn how.</p></item>
+
+  <item><p>Se descargou un ficheiro o seu navegador web debería gardalo de forma automática nun cartafol común. Comprobe os cartafoles <file>Escritorio</file> e <file>Descargas</file> no seu cartafol persoal.</p></item>
+
+  <item><p>É posíbel que eliminara o ficheiro accidentalmente. Cando elimina un ficheiro, móvese ao lixo, onde permanecerá até que baleire o lixo manualmente. Consulte a <link xref="files-recover"/> para saber como recuperar un ficheiro eliminado.</p></item>
+
+  <item><p>You might have renamed the file in a way that made the file hidden.
+  Files that start with a <file>.</file> or end with a <file>~</file> are
+  hidden in the file manager. Click the
+  <gui><media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media></gui>
+  button in the file manager toolbar and pick <gui>Show Hidden Files</gui> to
+  display them. See <link xref="files-hidden"/> to learn more.</p></item>
+</list>
+
+</page>

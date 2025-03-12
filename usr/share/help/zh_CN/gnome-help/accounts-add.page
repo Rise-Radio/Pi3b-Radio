@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-add" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="draft"/>
+    <revision pkgversion="3.9.92" date="2012-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2013-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <desc>Connect to an online account.</desc>
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>添加帐号</title>
+
+  <p>Adding an account will help link your online accounts with your GNOME
+  desktop. Thus, your email program, chat program and other related
+  applications will be set up for you.</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Click the <gui>+</gui> button in the lower-left corner of the
+      window.</p>
+    </item>
+    <item>
+      <p>Select the type of account which you want to add.</p>
+      <p>If you want to add more than one account type, you can do so at a
+      later time.</p>
+    </item>
+    <item>
+      <p>A small website window or dialog will open where you can enter your
+      online account credentials. For example, if you are setting up a Google
+      account, enter your Google username and password.</p>
+    </item>
+    <item>
+      <p>If you have entered your credentials correctly, you will be prompted
+      to allow GNOME access to your online account. Authorize access to
+      continue.</p>
+    </item>
+    <item>
+      <p>All services that are offered by an account provider will be enabled
+      by default. <link xref="accounts-disable-service">Switch</link>
+      individual services to <gui>OFF</gui> to disable them.</p>
+    </item>
+  </steps>
+
+  <p>在您添加帐号后，选中的应用程序在运行时，将会自动使用这些验证信息。</p>
+
+  <note style="tip">
+    <p>基于安全方面的因素，GNOME 不在计算机上存储您的密码信息，而是存储在线服务提供的密钥环。如果您想彻底清除计算机和在线服务之间的关联，请参阅 <link xref="accounts-remove">移除</link> 章节。</p>
+  </note>
+
+</page>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="wacom-multi-monitor" xml:lang="id">
+  <info>
+
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <link type="guide" xref="wacom"/>
+
+    <credit type="author copyright">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc>Petakan tablet Wacom ke monitor tertentu.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2011, 2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Memilih monitor</title>
+
+<steps>
+  <item>
+    <p>Buka ringkasan <link xref="shell-terminology">Aktivitas</link> dan mulailah mengetikkan <gui>Tablet Wacom</gui>.</p>
+  </item>
+  <item>
+    <p>Klik pada <gui>Tablet Wacom</gui> untuk membuka panel.</p>
+
+    <note style="tip"><p>If no tablet is detected, you'll be asked to
+    <gui>Please plug in or turn on your Wacom tablet</gui>. Click the
+    <gui>Bluetooth Settings</gui> link to connect a wireless tablet.</p></note>
+  </item>
+  <item><p>Klik <gui>Petakan ke Monitor…</gui></p></item>
+  <item><p>Contreng <gui>Petakan ke monitor tunggal</gui>.</p></item>
+  <item><p>Di sebelah <gui>Keluaran</gui>, pilih monitor yang Anda inginkan untuk menerima masukand dari tablet grafis Anda.</p>
+     <note style="tip"><p>Hanya monitor yang dikonfigurasi yang akan dapat dipilih.</p></note>
+  </item>
+  <item>
+    <p>Switch <gui>Keep aspect ratio (letterbox)</gui> to <gui>ON</gui> to
+    match the drawing area of the tablet to the proportions of the monitor.
+    Also called <em>force proportions</em>, this setting
+    <em>letterboxes</em> the drawing area on, for instance, a 4:3 tablet to
+    correspond more directly to a widescreen display.</p>
+  </item>
+  <item><p>Klik <gui>Tutup</gui>.</p></item>
+</steps>
+
+</page>

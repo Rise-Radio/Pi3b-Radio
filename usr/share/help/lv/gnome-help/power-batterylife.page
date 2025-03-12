@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="tip" id="power-batterylife" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="power"/>
+    <link type="seealso" xref="power-suspend"/>
+    <link type="seealso" xref="power-hibernate"/>
+    <link type="seealso" xref="shell-exit#shutdown"/>
+
+    <revision pkgversion="3.7.1" version="0.2" date="2012-11-16" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-11-07" status="review"/>
+
+    <credit type="author">
+      <name>GNOME dokumentācijas projekts</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ieteikumi, lai samazinātu jūsu datora enerģijas patēriņu.</desc>
+  </info>
+
+  <title>Lietot mazāk enerģijas un paildzināt bateriju mūžu</title>
+
+  <p>Datori var patērēt daudz enerģijas. Izmantojot dažas vienkāršas enerģijas taupīšanas stratēģijas, jūs varat samazināt savu elektrības rēķinu un saudzēt apkārtējo vidi.</p>
+
+<section id="general">
+  <title>Vispārīgi ieteikumu</title>
+
+<list>
+  <item>
+    <p><link xref="shell-exit#suspend">Iesnaudiniet savu datoru</link>, kad to nelietojat. Tas būtiski samazina patērējamās enerģijas apjomu, un datoru var ļoti ātri pamodināt.</p>
+  </item>
+  <item>
+    <p><link xref="shell-exit#shutdown">Izslēdziet datoru</link>, ja nelietosiet to ilgāku laiku. Daži cilvēki uztraucas, ka dators varētu ātrāk nolietoties, to regulāri izslēdzot, taču šīm bažām nav pamata.</p>
+  </item>
+  <item>
+    <p>Izmantojiet <gui>Barošanas</gui> sadaļu <app>Iestatījumos</app>, lai nomainītu datora barošanas iestatījumus. Ir pieejamas vairākas iespējas, kas palīdzēs taupīt enerģiju: jūs varat automātiski aptumšot displeju pēc noteikta laika, mazināt ekrāna spilgtumu un ļaut datoram <link xref="power-suspend">automātiski iesnausties</link>, ja tas noteiktu laiku netiek lietots.</p>
+  </item>
+  <item>
+    <p>Izslēdziet ārējās ierīces (tādas kā printeri un skeneri), kad jūs tās nelietojat.</p>
+  </item>
+</list>
+
+</section>
+
+<section id="laptop">
+  <title>Klēpjdatori un citas ierīces ar baterijām</title>
+
+ <list>
+   <item>
+     <p>Maziniet ekrāna spilgtumu — spilgtumam atbilstoša ekrāna apgāde veido lielu daļu no klēpjdatora enerģijas patēriņa.</p>
+     <p>Daudziem klēpjdatoriem ir tastatūras pogas (vai saīsnes), ar kurām var samazināt spilgtumu.</p>
+   </item>
+   <item>
+     <p>Ja jums kādu laiku nav vajadzīgs interneta pieslēgums, izslēdziet bezvadu vai Bluetooth karti. Šīs ierīces strādā, pārraidot radio viļņus, kas prasa diezgan daudz strāvas.</p>
+     <p>Dažiem datoriem ir fizisks slēdzis, ar kuru tās var izslēgt, bet citiem tā vietā ir tastatūras saīsne. Jūs varat atkal ieslēgt tīkla ierīces, kad jums tās būs vajadzīgas.</p>
+   </item>
+ </list>
+
+</section>
+
+<section id="advanced">
+  <title>Padomi pieredzējušiem lietotājiem</title>
+
+ <list>
+   <item>
+     <p>Samaziniet fonā izpildāmo uzdevumu skaitu. Datori izmanto vairāk enerģijas, kad tiem jāveic vairāk darba.</p>
+     <p>Vairums palaisto lietotņu neko daudz nedara, kad jūs tās aktīvi nelietojat. Taču lietotnes, kas bieži iegūst datus no interneta vai atskaņo mūziku vai filmas var ietekmēt jūsu enerģijas patēriņu.</p>
+   </item>
+ </list>
+
+</section>
+
+</page>

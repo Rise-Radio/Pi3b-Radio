@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-braille" xml:lang="te">
+
+  <info>
+    <link type="guide" xref="a11y#vision" group="blind"/>
+    <link type="seealso" xref="a11y-screen-reader"/>
+
+    <revision pkgversion="3.9.92" date="2013-09-18" status="incomplete"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>షాన్ మెక్‌కేన్స్</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+
+    <desc>తాజాపరచగల బ్రెయిలీ ప్రదర్శనతో <app>Orca</app> స్క్రీన్ రీడర్ వుపయోగించు.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Praveen Illa</mal:name>
+      <mal:email>mail2ipn@gmail.com</mal:email>
+      <mal:years>2011, 2014. </mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>కృష్ణబాబు క్రొత్తపల్లి</mal:name>
+      <mal:email>kkrothap@redhat.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>తెరను బ్రెయిలీలో చదువుము</title>
+
+  <p>తాజాపరచగల బ్రెయిలీ ప్రదర్శన పైన వాడుకరి ఇంటర్ఫేస్ ప్రదర్శించుటకు గ్నోమ్ <app>ఓర్కా</app> స్క్రీన్ రీడర్ అందించును. మీరు గ్నోమ్‌ను యేలా సంస్థాపించారు అనేదానిపై ఆధారపడి, మీరు ఓర్కాను సంస్థాపించివుండక పోవచ్చు. మరింత సమాచారం కొరకు <link href="install:orca">ఓర్కా సంస్థాపించి</link>, <link href="help:orca">ఓర్కా సహాయం</link> చూడండి.</p>
+
+</page>

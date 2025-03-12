@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="sound-crackle" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="sound-broken"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>GNOME 文档项目</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>检查音频线和声卡驱动。</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>播放时发出爆破音或噪声</title>
+
+  <p>如果您您在播放声音时，听到爆破音或噪声，可能是音频线或接头出现问题，或者是声卡的驱动程序不正确。</p>
+
+<list>
+ <item>
+  <p>检查音箱连接是否正确。</p>
+  <p>如果音箱插头没有完全插进去，或者看插到了错误的插孔，您就会听到噪声。</p>
+ </item>
+
+ <item>
+  <p>确保音箱/耳机接头是完好的。</p>
+  <p>音频线和接头会在使用中磨损，试着把接头或耳机接到别的音频设备上(像 MP3播放器或 CD 播放器)，检查一下声音是否有爆破音，如果还是有，您需要换一个接头或耳机。</p>
+ </item>
+
+ <item>
+  <p>检查声卡驱动是否匹配</p>
+  <p>一些声卡在 Linux 下工作的不好，是因为它们没有很好的驱动程序，这个问题很难查找，试着在互联网上搜索声卡的厂家和型号，再加上关键词“Linux”，看看是否有其他人也有相同的问题。</p>
+  <p>您可以使用 <cmd>lspci</cmd> 命令来获取声卡的详细信息。</p>
+ </item>
+</list>
+
+</page>

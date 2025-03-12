@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="files-browse" xml:lang="te">
+
+  <info>
+    <link type="guide" xref="files" group="#first"/>
+    <link type="seealso" xref="files-copy"/>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-16" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>షాన్ మెక్‌కేన్స్</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>ఫిల్ బుల్</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>మైకేల్ హిల్</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>ఫైల్ నిర్వాహికతో ఫైళ్ళను నిర్వహించు మరియు సర్దు.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Praveen Illa</mal:name>
+      <mal:email>mail2ipn@gmail.com</mal:email>
+      <mal:years>2011, 2014. </mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>కృష్ణబాబు క్రొత్తపల్లి</mal:name>
+      <mal:email>kkrothap@redhat.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>ఫైళ్ళను మరియు సంచయాలను విహరించండి</title>
+
+<p>మీ కంప్యూటర్ పైన ఫైళ్ళను బ్రౌజ్ చేయుటకు మరియు నిర్వహించుటకు <app>ఫైళ్ళు</app> ఫైల్ నిర్వాహిక ఉపయోగించుము. <link xref="nautilus-connect">ఫైల్ సేవికలు</link> పైని, మరియు నెట్వర్కు భాగస్వామ్యాలపైని, నిల్వ పరికరాలు (బాహ్య హార్గు డిస్కులు వంటివి) పైని ఫైళ్ళను నిర్వహించుటకు మీరు దీనిని ఉపయోగించవచ్చు.</p>
+
+<p>To start the file manager, open <app>Files</app> in the
+<gui xref="shell-terminology">Activities</gui> overview. You can also search
+for files and folders through the overview in the same way you would
+<link xref="shell-apps-open">search for applications</link>.
+</p>
+
+<section id="files-view-folder-contents">
+  <title>సంచయాల కాంటెంట్లను గాలించుట</title>
+
+<p>ఫైల్ నిర్వాహిక నందు, సంచయం నందలి విషయాలను చూడుటకు దానిపై రెండుమార్లు నొక్కుము, మరియు అప్రమేయ అనువర్తనంతో ఫైలును తెరుచుటకు దానిపై రెండు మార్లు నొక్కుము. మీరు సంచయంపై కుడి-నొక్కు నొక్కి దానిని కొత్త టాబ్ లేదా విండో నందు తెరువవచ్చు. </p>
+
+<p>సంచయం నందలి ఫైళ్ళు చూడునప్పుడు, స్పేస్ బార్ నొక్కి త్వరితంగా <link xref="files-preview">ప్రతి ఫైలు ముందస్తుదర్శనం</link> చేసి  మీరు తెరవాలని, నకలుతీయాలని, లేదా తొలగించాలని అనుకొన్న ఫైలు అదేనా కాదా అనేది నిర్థారించుకోవచ్చు.</p>
+
+<p>ఫైళ్ళ మరియు సంచయాల జాబితా పైని <em>పాత్ బార్</em> అనునది ప్రస్తుత సంచయం యొక్క పేరెంట్ సంచయంతో సహా, మీరు ఏ సంచయం దర్శించుచున్నారో చూపును. పేరెంట్ సంచయంకు వెళ్ళుటకు పాత్ బార్ నందలి దానిపై నొక్కుము. పాత్ బార్ నందలి సంచయం కొత్త టాబ్ నందు లేదా విండో నందు తెరుచుటకు, నకలుతీయుటకు, లేదా దాని లక్షణాలు ఏక్సెస్ చేయుటకు దానిపై కుడి-నొక్కు నొక్కుము.</p>
+
+<p>If you want to quickly <link xref="files-search">search for a file</link>,
+in or below the folder you are viewing, start typing its name. A <em>search
+bar</em> will appear at the top of the window and only files which match your
+search will be shown. Press <key>Esc</key> to cancel the search.</p>
+
+<p>You can quickly access common places from the <em>sidebar</em>. If you do
+not see the sidebar, click the
+<gui><media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media></gui>
+button in the toolbar and pick <gui>Show Sidebar</gui>. You can add bookmarks
+to folders that you use often and they will appear in the sidebar. Click
+<gui>Files</gui> in the top bar and then <gui style="menuitem">Bookmarks</gui>
+to do this, or simply drag a folder into the sidebar.</p>
+
+</section>
+
+</page>

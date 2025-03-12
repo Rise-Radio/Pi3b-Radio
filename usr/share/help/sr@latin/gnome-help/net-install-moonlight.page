@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Fil Bul</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Neki veb sajtovi koriste Silverlajt za prikazivanje veb stranica. Priključak Munlajt vam omogućava da vidite ove stranice.</desc>
+  </info>
+
+  <title>Instalirajte priključak Silverlajt</title>
+
+  <p><app>Silverlajt</app> je <em>priključak</em> vašeg veb preglednika koji vam omogućava da gledate snimke i da koristite međudejstvene veb stranice na nekim veb sajtovima. Neki veb sajtovi neće raditi bez Silverlajta.</p>
+
+  <p>Ako pregledate veb sajt sa uključenim Silverlajtom ali nemate instaliran priključak, verovatno ćete videti poruku koja će vas o tome obavestiti. Ova poruka će sadržati uputstva koja će vam objasniti kako da nabavite priključak, ali ta uputstva možda neće biti prikladna vašem veb pregledniku ili izdanju Linuksa.</p>
+
+  <p>Ako želite da pregledate veb sajtove sa uključenim Silverlajtom, umesto toga možete da instalirate priključak <em>Munlajt</em>. To je slobodno, otvorenog koda izdanje Silverlajta koje radi na Linuksu.</p>
+
+  <p>Neke distribucije Linuksa imaju primerak Munlajta koji možete da instalirate koristeći njihov program za instaliranje paketa; samo otvorite program za instalaciju i potražite <input>Silverlight</input> ili <input>Moonlight</input>.</p>
+
+  <p>Ako vaša distribucija nema softverski paket Munlajta, pogledajte <link href="http://www.go-mono.com/moonlight/">veb sajt Munlajta</link> za više podataka i za uputstava za instalaciju.</p>
+
+</page>

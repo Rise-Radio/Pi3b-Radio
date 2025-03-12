@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="power-closelid" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="power"/>
+    <link type="seealso" xref="power-suspendfail"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-08" status="review"/>
+
+    <credit type="author">
+      <name>GNOME dokumentációs projekt</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>A laptopok az energiafelhasználás csökkentése érdekében alvó állapotba kerülnek, amikor lezárja a fedelüket.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Griechisch Erika</mal:name>
+      <mal:email>griechisch.erika at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kucsebár Dávid</mal:name>
+      <mal:email>kucsdavid at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lakatos 'Whisperity' Richárd</mal:name>
+      <mal:email>whisperity at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lukács Bence</mal:name>
+      <mal:email>lukacs.bence1 at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nagy Zoltán</mal:name>
+      <mal:email>dzodzie at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Miért kapcsol ki a számítógépem, amikor lezárom a fedelét?</title>
+
+  <p>Amikor lezárja a laptop fedelét, a számítógép az energiafelhasználás csökkentése érdekében <link xref="power-suspend"><em>felfüggeszti</em></link> működését. Ez azt jelenti, hogy a számítógép ténylegesen nem kapcsol ki – csak alvó állapotba kerül. A fedél felnyitásával folytathatja a számítógép használatát. Ha ez nem történik meg, akkor próbáljon kattintani az egérrel, vagy nyomjon meg egy billentyűt. Ha ez sem működik, akkor nyomja meg a bekapcsoló gombot.</p>
+
+  <p>Egyes számítógépek nem képesek megfelelően felfüggeszteni a működésüket, mivel az operációs rendszer nem támogatja teljes mértékben a hardverüket (például a Linux illesztőprogramok befejezetlenek). Ebben az esetben lehet, hogy nem tudja folytatni a számítógép használatát, miután lezárta a fedelét. Megpróbálhatja <link xref="power-suspendfail">megoldani a felfüggesztés hibáját</link>, vagy megakadályozhatja, hogy a számítógép megpróbálja felfüggeszteni a működését a fedél lezárásakor.</p>
+
+<section id="nosuspend">
+  <title>A számítógép a fedél lezárásakor való felfüggesztésének tiltása</title>
+
+  <note style="important">
+    <p>Ezek az utasítások csak akkor használhatók, ha a <app>systemd</app>-t használja. További információkért nézze meg a disztribúciója dokumentációját.</p>
+  </note>
+
+  <p>Ha nem akarja, hogy a számítógép felfüggessze a működését, amikor lezárja a fedelét, akkor megváltoztathatja ennek beállításait. A beállítás módosításához <link xref="user-admin-change">rendszergazdai jelszó</link> szükséges.</p>
+
+  <note style="warning">
+    <p>Legyen nagyon óvatos, ha ezt a beállítást megváltoztatja. Egyes laptopok túlmelegedhetnek, ha lezárt tetővel bekapcsolva hagyja azokat, különösen olyan zárt helyeken, mint egy hátizsák.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>Nyissa meg a <app>Terminál</app> alkalmazást a <gui>Tevékenységek</gui> áttekintésből.</p>
+    </item>
+    <item>
+      <p>Adja ki a következő parancsot:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudoedit /etc/systemd/logind.conf</input></screen>
+    </item>
+    <item>
+      <p>Ekkor megjelenik a fájl tartalma. Keresse meg a <code>HandleLidSwitch=</code> részt a fájlban. A sor elején egy <code>#</code> állhat, amelyet egy argumentum követ. Ha a sor már létezik, akkor törölje a <code>#</code>-et, egyébként adja hozzá a sort.</p>
+      <code>
+[Login]
+HandleLidSwitch=<input>lock</input>
+      </code>
+      <p>A képernyő zárolásához a <input>lock</input> értéket, a figyelmen kívül hagyáshoz az <input>ignore</input> értéket, a számítógép kikapcsolásához a <input>poweroff</input> értéket, vagy a felfüggesztéséhez a <input>suspend</input> értéket használhatja. További információkért lásd a <link href="man:logind.conf">logind.conf kézikönyvoldalát</link>.</p>
+    </item>
+    <item>
+      <p>A fájl szerkesztésének befejezésekor mentse a változtatásait, és lépjen ki a szerkesztőből.</p>
+    </item>
+    <item>
+      <p>Futtassa a következő parancsot a módosítás életbe léptetéséhez:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudo systemctl restart systemd-logind.service</input></screen>
+      <p>Ha nem futtatja ezt a parancsot, akkor a változtatás csak a számítógép újraindítása után lép életbe.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

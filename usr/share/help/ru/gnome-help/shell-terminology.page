@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="reference" version="1.0 if/1.0" id="shell-terminology" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="shell-overview#desktop"/>
+
+    <revision pkgversion="3.8.0" version="0.4" date="2013-04-23" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Проект документирования GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Обзор терминов, используемых для описания различных частей рабочего стола.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Обзор, боковая панель, верхняя панель… Что это такое?</title>
+
+<!-- THIS SHOULD BE ALPHABETICALLY SORTED… -->
+
+  <terms>
+    <item>
+      <title>Режим <gui>Обзора</gui></title>
+      <p if:test="!platform:gnome-classic"><em>Режим <gui>Обзора</gui></em> — это экран, который открывается при нажатии на кнопку <gui>Обзор</gui> в левом верхнем углу экрана.</p>
+      <p if:test="platform:gnome-classic"><em>Режим <gui>Обзора</gui></em> — это экран, который открывается если выбрать пункт <gui>Обзор</gui> из меню <gui>Приложения</gui> в левом верхнем углу экрана.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>Меню «Обзор»</title>
+      <p>Меню <gui>Приложения</gui> находится в левом верхнем углу экрана. Это меню предоставляет доступ к приложениям, сгруппированным по категориям.<em>Режим обзора</em> доступен, если выбрать пункт меню <gui>Обзор</gui>.</p>
+    </item>
+    <item>
+      <title>Боковая панель</title>
+      <p><em>Боковая панель</em> — это список избранных приложений, появляющийся с левой стороны в режиме <gui>Обзора</gui>. В этой панели также показываются запущенные в настоящий момент приложения. Боковую панель также иногда называют <em>плавающая панель</em>.</p>
+    </item>
+    <item>
+      <title>Активный угол</title>
+      <p><em>Активный угол</em> — это верхний левый угол экрана. При перемещении курсора в этот угол, открывается режим <gui>Обзора</gui>.</p>
+    </item>
+    <item>
+      <title>Заблокировать экран</title>
+      <p><em>Экран блокировки</em> отображает изображение на экране компьютера, пока он заблокирован. Он содержит полезную информацию о том, что происходило, пока вы отсутствовали, и позволяет управлять воспроизведением медиаданных, не выполняя разблокировку экрана.</p>
+    </item>
+    <item>
+      <title>Уведомления</title>
+      <p><em>Notifications</em> are messages that pop up at the bottom of the
+      screen, telling you that something just happened. For example, when
+      someone chatting with you sends a message, a notification will pop up to
+      tell you. If you don't want to deal with a message right now, it is
+      hidden in your <em>message tray</em>. Move your mouse to the bottom of
+      the screen (or press
+      <keyseq><key xref="keyboard-key-super">Super</key><key>M</key></keyseq>)
+      to see your message tray.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>Точки входа</title>
+      <p><em>Меню точек входа</em> открывается при нажатии на кнопку <gui>Места</gui> на<gui>верхней панели</gui>. Это меню предоставляет быстрый доступ к важным папкам, например, к папке <gui>Загрузки</gui> или <gui>Изображения</gui>.</p>
+    </item>
+    <item>
+      <title>Параметры</title>
+      <p>В <em>Параметрах</em> можно изменять настройки системы. Это аналог «Панели управления» Windows или «Системных настроек» в Mac OS. Нажмите на имя пользователя в правом верхнем углу верхней панели и выберите <gui>Параметры</gui>. Кроме того, можно в режиме <gui>Обзора</gui> начать вводить <gui>Параметры</gui>, и затем выбрать панель <gui>Параметров</gui>.</p>
+    </item>
+    <item>
+      <title>Переключатель окон Super-Tab</title>
+      <p>Если удерживать клавишу <key xref="keyboard-key-super">Super</key> и затем нажать <key>Tab</key>, появится <em>переключатель окон</em>. Он показывает работающие в данный момент приложения.</p>
+    </item>
+    <item>
+      <title>Системное меню</title>
+      <p><em>Системное меню</em> находится на правой стороне верхней панели. Из этого меню можно обновить некоторые настройки, найти информацию о беспроводном подключении, переключить пользователя, выйти из системы и выключить компьютер.</p>
+    </item>
+    <item>
+      <title>Верхняя панель</title>
+      <p if:test="!platform:gnome-classic"><em>Верхняя панель</em> — это панель, которая расположена вдоль верхней части экрана. С одной стороны панели находится <em>Обзор</em>, с другой стороны — системное меню.</p>
+      <p if:test="platform:gnome-classic"><em>Верхняя панель</em> — это панель, которая расположена вдоль верхней части экрана. С одной стороны панели находится меню <em>Приложений</em>, с другой стороны — системное меню.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>Список окон</title>
+      <p><em>Список окон</em> — это панель в самом низу экрана, где показаны кнопки для всех открытых окон.</p>
+    </item>
+    <item>
+      <title>Рабочее место</title>
+      <p>Можно помещать окна на разные <em>рабочие места</em>. Это удобный способ группировки и разделения окон.</p>
+    </item>
+    <item>
+      <title>Переключатель рабочих мест</title>
+      <p><em>Переключатель рабочих мест</em> — это список рабочих мест, который находится с правой стороны в режиме <gui>Обзора</gui>.</p>
+    </item>
+  </terms>
+
+</page>

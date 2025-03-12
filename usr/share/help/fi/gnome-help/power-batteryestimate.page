@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="ui" id="power-batteryestimate" xml:lang="fi">
+
+  <info>
+
+    <link type="guide" xref="power#battery"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <desc>Akun arvioitu kesto  <gui>akkuvalikossa</gui> on pelkkä arvio.</desc>
+
+    <credit type="author">
+      <name>Gnomen dokumentointiprojekti</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Timo Jyrinki</mal:name>
+      <mal:email>timo.jyrinki@iki.fi</mal:email>
+      <mal:years>2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jiri Grönroos</mal:name>
+      <mal:email>jiri.gronroos+l10n@iki.fi</mal:email>
+      <mal:years>2012, 2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Akun arvioitu kesto on väärin ilmoitettu</title>
+
+<p>Akun arvioitu kesto saattaa erota todellisesta kestoajasta, sillä akun kestoa voidaan vain arvioida. Yleensä arviot tarkentuvat ajan myötä.</p>
+
+<p>Akun keston arvioinnissa täytyy ottaa huomioon useita eri muuttujia. Yksi muuttujista on tietokoneen senhetkinen virrankulutus. Virrankulutus riippuu mm. käynnissä olevien ohjelmien määrästä, tietokoneeseen liitetyistä laitteista ja käynnissä olevien prosessien tehovaatimuksista (esimerkiksi DVD:n katsominen tai musiikin muuntaminen vaatii paljon tehoa). Hetkellinen virrankulutus muuttuu koko ajan, ja muutosten ennustaminen on hankalaa.</p>
+
+<p>Toinen muuttuja on akun purkautumistapa. Jotkut akut purkautuvat sitä nopeammin mitä tyhjemmiksi ne tulevat. Ilman tarkkaa tietoa akun purkautumisesta akun kestosta voidaan antaa vain suuntaa antavia arvioita.</p>
+
+<p>Kun akku purkautuu, virranhallinta saa selville akun purkautumisominaisuuksia ja oppii antamaan parempia arvioita akun kestosta. Arviot eivät kuitenkaan koskaan ole täydellisiä.</p>
+
+<note>
+  <p>Jos virranhallinta ehdottaa jotain täysin naurettavaa arvoa (kuten satoja päiviä), virranhallinta ei mitä luultavimmin saa tarpeeksi tietoa akun tilasta järkevän arvion tekemiseksi.</p>
+  <p>Jos irrotat virtajohdon ja annat kannettavan tietokoneen toimia akun avulla hetken aikaa ennen virtajohdon kiinnittämistä ja akun latautumista, virranhallinta hankkii tarvittavia tietoja akun keston arvioimiseen.</p>
+</note>
+
+</page>

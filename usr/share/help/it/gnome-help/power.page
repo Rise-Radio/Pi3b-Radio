@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="2column task" id="power" xml:lang="it">
+<info>
+    <link type="guide" xref="prefs"/>
+    <link type="guide" xref="hardware"/>
+
+    <revision pkgversion="3.8" date="2013-02-26" status="review"/>
+
+    <credit type="author">
+      <name>Natalia Ruz</name>
+      <email>nruz@alumnos.inf.utfsm.cl</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>
+      <link xref="power-suspend">Suspend</link>,
+      <link xref="shell-exit#shutdown">power off</link>,
+      <link xref="power-whydim">screen dimming</link>…
+    </desc>
+
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luca Ferretti</mal:name>
+      <mal:email>lferrett@gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Flavia Weisghizzi</mal:name>
+      <mal:email>flavia.weisghizzi@ubuntu.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Alimentazione e batteria</title>
+
+<section id="battery" style="2column">
+  <title>Impostazioni della batteria</title>
+</section>
+
+<section id="problems" style="2column">
+  <info>
+    <title type="link">Problemi di alimentazione</title>
+    <link type="guide" xref="hardware#problems"/>
+    <desc>Risolvere problemi relativi all'alimentazione elettrica e alle batterie.</desc>
+  </info>
+  <title>Problemi</title>
+</section>
+
+</page>

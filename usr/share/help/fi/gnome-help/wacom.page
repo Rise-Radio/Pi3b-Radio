@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="wacom" xml:lang="fi">
+
+<info>
+  <desc><link xref="wacom-multi-monitor">Määritä näyttöön</link>, <link xref="wacom-stylus">stylus-kynän asetukset</link>, <link xref="wacom-left-handed">käytä piirtopöytää vasemmalla kädellä</link>…</desc>
+
+  <link type="guide" xref="prefs"/>
+
+  <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+  <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+  <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+  <credit type="author">
+    <name>Michael Hill</name>
+    <email its:translate="no">mdhillca@gmail.com</email>
+  </credit>
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Timo Jyrinki</mal:name>
+      <mal:email>timo.jyrinki@iki.fi</mal:email>
+      <mal:years>2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jiri Grönroos</mal:name>
+      <mal:email>jiri.gronroos+l10n@iki.fi</mal:email>
+      <mal:years>2012, 2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Wacom-piirtopöydät</title>
+
+</page>

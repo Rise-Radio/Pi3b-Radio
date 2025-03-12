@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc>Lietotnes, kas var izmantot sadaļā <app>Tiešsaistes konti</app> iestatītos kontus un servisus, kuriem tās var piekļūt.</desc>
+
+  </info>
+
+<title>Kuras lietotnes izmanto tiešsaistes kontu iespējas?</title>
+
+  <p>Ārējās lietotnes var izmantot <app>Tiešsaistes kontu</app> iestatījumus, lai veiktu automātisku konfigurēšanu.</p>
+
+<section id="accounts-google-services">
+  <title>Ar Google kontu</title>
+
+  <list>
+    <item>
+      <p><app>Evolution</app> e-pasta lietotne. Jūsu e-pasta konts tiks automātiski pievienots <app>Evolution</app>, tādējādi tā pieņems jūsu e-pastu, dos pieeju kontaktiem, un kalendārs rādīs Google kontā izveidotos notikumus.</p>
+    </item>
+    <item>
+      <p><app>Empathy</app> tūlītējās ziņojumapmaiņas lietotne. Jūsu tiešsaistes konts tiks pievienots, un jūs varēsiet sazināties ar saviem draugiem.</p>
+    </item>
+    <item>
+      <p><app>Contacts</app>, kas dod iespēju apskatīt un rediģēt jūsu kontaktus.</p>
+    </item>
+    <item>
+      <p><app>Documents</app> var piekļūt jūsu tiešsaistes dokumentiem un attēlot tos.</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>Ar Windows Live, Facebook vai Twitter kontu</title>
+
+  <p><app>Empathy</app> var izmantot šos kontus, lai izveidotu tiešsaistes savienojumu tērzēšanai ar jūsu kontaktiem, draugiem un sekotājiem.</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>With a OneDrive account</title>
+
+  <p><app>Documents</app> can access your online documents in Microsoft
+  OneDrive and display them.</p>
+</section>
+
+<section id="account-exchange">
+  <title>Ar Exchange kontu</title>
+
+  <p>Kad izveidosiet Exchange kontu, <app>Evolution</app> sāks no šī konta saņemt vēstules.</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>Ar ownCloud kontu</title>
+
+  <p>Kad ir iestatīts ownCloud konts, <app>Evolution</app> var piekļūt un rediģēt kontaktus un kalendāra tikšanās.</p>
+
+  <p><app>Datnes</app> un citas lietotnes varēs redzēt un piekļūt tiešsaistes datnēm, kas atrodas uz ownCloud instalācijas.</p>
+</section>
+
+</page>

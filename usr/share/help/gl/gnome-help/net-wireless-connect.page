@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wireless-connect" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="net-wireless" group="#first"/>
+    <link type="seealso" xref="net-wireless-troubleshooting"/>
+    <link type="seealso" xref="net-wireless-disconnecting"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-12-05" status="final"/>
+
+    <credit type="author">
+      <name>Proxecto de documentación de GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Conectarse a Internet sen fíos.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Conectar cunha rede sen fíos</title>
+
+<p>Se ten un computador con unha tarxeta sen fíos que funcione pode conectarse a unha rede sen fíos cercana para obter acceso a Internet, ver ficheiros compartidos en rede e demáis.</p>
+
+<steps>
+  <item><p>Click the system status area on the top bar, select <gui>Wi-Fi</gui>,
+ then click <gui>Select Network</gui>.</p></item>
+  <item><p>Click the name of the network you want to connect to, then click
+ <gui>Connect</gui>.</p>
+   <p>Se o nome da rede non está na lista, probe premendo <gui>Máis</gui> para ver se a rede está máis abaixo na lista. Se segue sen vela, pode que estea fóra da área de cobertura o u pode que a rede <link xref="net-wireless-hidden">estea oculta</link>.</p>
+  </item>
+  <item><p>Se a rede está protexida por un contrasinal (<link xref="net-wireless-wepwpa">chave de cifrado</link>), escriba o contrasinal cando se lle pida e prema <gui>Conectar</gui>.</p>
+  <p>Se non coñece a chave, pode que estea escrita na parte inferior do enrutador sen fíos ou da estación base, no manual de instrucións, ou pode ter que preguntar á persoa que administra a rede sen fíos.</p></item>
+  <item><p>A icona de rede cambiará a súa aparencia segundo o computador tente conectarse á rede.</p></item>
+  <item>
+   <p>Se a conexión se realiza correctamente, a icona cambiará a un punto con varias barras enriba. Máis barras indican unha conexión máis forte á rede. Se non hai moitas barras, a conexión é débil e pode non ser posíbel.</p>
+  </item>
+</steps>
+
+  <p>If the connection is not successful, you may be asked for your password
+  again or it might just tell you that the connection has been disconnected.
+  There are a number of things that could have caused this to happen. You could
+  have entered the wrong password, the wireless signal could be too weak, or
+  your computer's wireless card might have a problem, for example. See
+  <link xref="net-wireless-troubleshooting"/> for more help.</p>
+
+<p>Unha conexión máis forte a unha rede sen fíos non significa necesariamente que teña unha conexión a internet máis rápida, ou que terá velocidades de descarga máis rápidas. As conexións sen fíos conectan o seu computador ao <em>dispositivo que fornece a conexión a internet</em> (como un enrutador ou módem), pero as dúas conexións son realmente distintas, polo que terán velocidades distintas.</p>
+
+</page>

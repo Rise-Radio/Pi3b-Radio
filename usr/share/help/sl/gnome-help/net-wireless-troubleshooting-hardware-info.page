@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wireless-troubleshooting-hardware-info" xml:lang="sl">
+
+  <info>
+    <link type="next" xref="net-wireless-troubleshooting-hardware-check"/>
+    <link type="guide" xref="net-wireless-troubleshooting"/>
+
+    <revision pkgversion="3.4.0" date="2012-03-05" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-11-10" status="review"/>
+
+    <credit type="author">
+      <name>Sodelavci wiki dokumentacije Ubuntu</name>
+    </credit>
+    <credit type="author">
+      <name>Dokumentacijski projekt GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Morda boste potrebovali podrobnosti kot je številka modela vaše brezžične kartice v naslednjih korakih odpravljanja težav.</desc>
+  </info>
+
+  <title>Odpravljanje težav z brezžičnimi omrežji</title>
+  <subtitle>Zberite podatke o omrežni strojni opremi:</subtitle>
+
+  <p>V tem koraku boste zbrali podatke o svoji napravi brezžičnega omrežja. Način odpravljanja brezžičnih povezav je odvisen od proizvajalca in številke modela brezžične kartice, zato si te podatke shranite. Morda vam bodo prav prišli predmeti kot so diski za namestitev gonilnikov. Najdite naslednje predmete, če jih še imate:</p>
+
+  <list>
+    <item>
+      <p>Pakiranje in navodila za  vašo brezžično napravo (še posebno uporabniški vodnik za usmerjevalnik)</p>
+    </item>
+    <item>
+      <p>Disk, ki vsebuje gonilnike za brezžično kartico (tudi če vsebuje le gonilnike Windows)</p>
+    </item>
+    <item>
+      <p>Proizvajalci in številke modela vašega računalnika, brezžične kartice in usmerjevalnika. Te podatke lahko običajno najdete na zadnji/spodnji strani naprave.</p>
+    </item>
+    <item>
+      <p>Morebitne številke različic, ki so natisnjene na napravah ali njihovem pakiranju. To vam lahko še posebno pomaga, zato pozorno poglejte.</p>
+    </item>
+    <item>
+      <p>Karkoli na disku z gonilniki, ki določa napravo, njeno različico "strojne programske opreme"  ali sestavne dele, ki jih uporablja.</p>
+    </item>
+  </list>
+
+  <p>Če je mogoče, poskusite dobiti dostop do druge internetne povezave, da lahko prejmete programe in gonilnike, če je to potrebno. (priklop računalnika neposredno v usmerjevalnik z Ethernet omrežnim kablom je eden od načinov za to, vendar ga priklopite le, ko ga potrebujete.)</p>
+
+  <p>Ko imate kolikor je mogoče od teh predmetov, kliknite <gui>Naprej</gui>.</p>
+
+</page>

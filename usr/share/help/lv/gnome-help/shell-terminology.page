@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="reference" version="1.0 if/1.0" id="shell-terminology" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="shell-overview#desktop"/>
+
+    <revision pkgversion="3.8.0" version="0.4" date="2013-04-23" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>GNOME dokumentācijas projekts</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Apzīmējumu, kurus izmanto dažādu darbvirsmas daļu aprakstīšanai, pārskats.</desc>
+  </info>
+
+  <title>Aktivitātes, panelis, augšējā josla… Kas tie ir?</title>
+
+<!-- THIS SHOULD BE ALPHABETICALLY SORTED… -->
+
+  <terms>
+    <item>
+      <title><gui>Aktivitāšu</gui> pārskats</title>
+      <p if:test="!platform:gnome-classic"><em><gui>Aktivitāšu</gui> pārskats</em> ir ekrāns, kas parādās uzspiežot <gui>Aktivitātes</gui> ekrāna augšējā kreisajā stūrī.</p>
+      <p if:test="platform:gnome-classic"><em><gui>Aktivitāšu</gui> pārskats</em> ir ekrāns, kas parādās, kad izvēlaties <gui>Aktivitāšu pārskats</gui> izvēlnē <gui>Lietotnes</gui> ekrāna augšējā kreisajā stūrī.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>Lietotņu izvēlne</title>
+      <p>Jūs varat atrast izvēlni <gui>Lietotnes</gui> augšējā joslā kreisajā ekrāna pusē. <em>Aktivitāšu pārskats</em> ir pieejams, izvēloties <gui>Aktivitāšu pārskatu</gui> vienumu izvēlnē.</p>
+    </item>
+    <item>
+      <title>Panelis</title>
+      <p><em>Panelis</em> ir saraksts ar izlases lietotnēm, un tas atrodas kreisajā <gui>aktivitāšu</gui> pārskata pusē. Lietotnes, kas pašlaik ir atvērtas arī tur tiek parādītas. Panelis dažkārt tiek saukts par <em>doku</em>.</p>
+    </item>
+    <item>
+      <title>Karstais stūris</title>
+      <p><em>Karstais stūris</em> ir stūris ekrāna augšējā kreisajā pusē. Novietojot peles rādītāju šajā stūrī, atveras <gui>aktivitāšu</gui> pārskats.</p>
+    </item>
+    <item>
+      <title>Noslēgt ekrānu</title>
+      <p><em>Bloķēšanas ekrāns</em> rāda uz ekrāna attēlu, kamēr dators ir bloķēts. Tas sniedz noderīgu informāciju par to, kas notika, kamēr bijāt projām, un ļauj jums kontrolēt mūzikas atskaņošanu, neatbloķējot ekrānu.</p>
+    </item>
+    <item>
+      <title>Paziņojumi</title>
+      <p><em>Notifications</em> are messages that pop up at the bottom of the
+      screen, telling you that something just happened. For example, when
+      someone chatting with you sends a message, a notification will pop up to
+      tell you. If you don't want to deal with a message right now, it is
+      hidden in your <em>message tray</em>. Move your mouse to the bottom of
+      the screen (or press
+      <keyseq><key xref="keyboard-key-super">Super</key><key>M</key></keyseq>)
+      to see your message tray.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>Vietu izvēlne</title>
+      <p><em>Vietu izvēlne</em> tiks atvērta, kad spiedīsiet uz <gui>Vietas</gui> <gui>augšējā joslā</gui>. Tas dod ātru pieeju svarīgajām mapēm, piemēram, <gui>Lejupielādes</gui> vai <gui>Attēli</gui>.</p>
+    </item>
+    <item>
+      <title>Iestatījumi</title>
+      <p><em>Iestatījumi</em> ir vieta, kurā varat mainīt iestatījumus citas lietas, tāpat kā Vadības Panelis Windows vai Sistēmas Iestatījumi Mac OS. Spiediet uz sistēmas izvēlnes augšējās joslas labajā pusē un spiediet <gui>Iestatījumi</gui>, lai tiem piekļūtu. Vai arī varat atvērt <gui>Aktivitāšu</gui> pārskatu un sākt rakstīt <gui>Iestatījumi</gui>, un tad izvēlēties <gui>Iestatījumu</gui> paneli.</p>
+    </item>
+    <item>
+      <title>Super–Tab logu pārslēdzējs</title>
+      <p>Pieturot taustiņu <key xref="keyboard-key-super">Super</key> un piespiežot <key>Tab</key>, parādās <em>logu pārslēdzējs</em>. Tas rāda lietotnes, kas pašlaik ir atvērtas.</p>
+    </item>
+    <item>
+      <title>Sistēmas izvēlne</title>
+      <p><em>Sistēmas izvēlne</em> ir augšējās joslas labajā pusē. Šajā izvēlnē jūs varat atjaunināt dažus savus iestatījumus, atrast informāciju par savu <gui>Wi-Fi</gui> savienojumu, pārslēgt lietotājus, izrakstīties no sesijas un izslēgt datoru.</p>
+    </item>
+    <item>
+      <title>Augšējā josla</title>
+      <p if:test="!platform:gnome-classic"><em>Augšējā josla</em> ir josla, kas iet gar pašu ekrāna augšu. <gui>Aktivitāšu</gui> saite vienā augšējās joslas galā un sistēmas izvēlne ir otrā galā.</p>
+      <p if:test="platform:gnome-classic"><em>Augšējā josla</em> ir josla, kas iet gar pašu ekrāna augšu. <gui>Lietotņu</gui> izvēlne vienā augšējās joslas galā un sistēmas izvēlne ir otrā galā.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>Logu saraksts</title>
+      <p><em>Logu saraksts</em> ir josla pašā ekrāna apakšā, kas rāda visu atvērto logu pogas.</p>
+    </item>
+    <item>
+      <title>Darbvieta</title>
+      <p>Logus var novietot dažādās <em>darbvietās</em>. Tas ir ērts veids kā grupēt un sadalīt logus.</p>
+    </item>
+    <item>
+      <title>Darbvietu atlasītājs</title>
+      <p><em>Darbvietu atlasītājs</em> ir darbvietu saraksts, kas tiek parādīts labajā <gui>Logu</gui> skata pusē <gui>aktivitāšu</gui> pārskatā.</p>
+    </item>
+  </terms>
+
+</page>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="printing-order" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="printing#paper"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>ஃபில் புல்</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>ஜிம் காம்ப்பெல்</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>அச்சு வரிசையை குழுப்படுத்துதல் மற்றும் எதிர்வரிசைப்படுத்துதல்.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>பக்கங்களை வித்தியாசமான வரிசையில் அச்சிட வைத்தல்</title>
+
+  <section id="reverse">
+    <title>எதிர்த்திசை</title>
+
+    <p>அச்சுப்பொறிகள் வழக்கமாக முதல் பக்கத்தை முதலிலும் கடைசி பக்கத்தை கடைசியிலுமே அச்சிடும், அதனால் நீங்கள் அச்சிட்ட தாள்களை எடுக்கும் போது அவை எதிர்த்திசையில் அமைந்திருக்கும். தேவையெனில் நீங்கள் அச்சிடும் வரிசையை எதிர்வரிசையில் அமைக்கலாம்.</p>
+
+    <p>வரிசையை எதிர்த்திசையில் அமைக்க:</p>
+
+    <steps>
+      <item>
+        <p><guiseq><gui>கோப்பு</gui><gui>அச்சிடு</gui></guiseq> ஐ சொடுக்கவும்.</p>
+      </item>
+      <item>
+        <p>அச்சிடு சாளரத்தில் உள்ள <gui>பொது</gui> தாவலில் <em>நகல்கள்</em> என்பதன் கீழ், <gui>எதிர்த்திசை</gui> ஐ தேர்வு செய்யவும். இதனால் கடைசி பக்கம் முதலிலும் அடுத்தடுத்த பக்கங்கள் அதே போல எதிர்வரிசையிலும் அச்சிடப்படும்.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="collate">
+    <title>குழுப்படுத்துதல்</title>
+
+  <p>If you are printing more than one copy of the document, the print-outs
+  will be grouped by page number by default (that is, all of the copies of page
+  one come out, then the copies of page two, and so on). <em>Collating</em>
+  will make each copy come out with its pages grouped together in the right
+  order instead.</p>
+
+  <p>குழுப்படுத்த:</p>
+
+  <steps>
+    <item>
+      <p><guiseq><gui>கோப்பு</gui><gui>அச்சிடு</gui></guiseq> ஐ சொடுக்கவும்.</p>
+    </item>
+    <item>
+      <p>அச்சிடு சாளரத்தில் <gui>பொது</gui> தாவலில் <em>நகல்கள்</em> என்பதன் கீழ் <gui>குழுப்படுத்து</gui> என்பதை தேர்வு செய்யவும்.</p>
+    </item>
+  </steps>
+ <!-- Need to add this image <media type="image" src="figures/reverse-collate.png"/> -->
+</section>
+
+</page>

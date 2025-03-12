@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="question" version="1.0 if/1.0" id="power-hibernate" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="power"/>
+
+    <desc>Der Ruhezustand ist standardmäßig deaktiviert, weil er nicht besonders gut unterstützt wird.</desc>
+    <revision pkgversion="3.6.0" date="2012-08-14" status="review"/>
+
+    <credit type="author">
+      <name>GNOME-Dokumentationsprojekt</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Wie kann ich meinen Rechner in den Ruhezustand versetzen?</title>
+
+<p>Wenn Sie den Rechner in den <em>Ruhezustand</em> versetzen, werden alle Ihre Anwendungen und Dokumente gespeichert und der Rechner schaltet sich vollständig aus, so dass er keinen Strom mehr verbraucht. Wenn Sie den Rechner wieder einschalten, sind Ihre Anwendungen und Dokumente immer noch geöffnet.</p>
+
+<p>Leider funktioniert der Ruhezustand <link xref="power-suspendfail">in vielen Fällen nicht</link>, was zu Datenverlust führen kann, sofern Sie damit rechnen, dass Ihre Dokumente und Anwendungen wieder geöffnet werden, wenn Sie den Rechner wieder einschalten. Aus diesem Grund ist der Ruhezustand standardmäßig deaktiviert.</p>
+
+<section id="test-hibernate">
+<title>Testen, ob der Ruhezustand funktioniert</title>
+
+<note style="important">
+  <title>Speichern Sie immer Ihre Arbeit, bevor Sie den Rechner in den Ruhezustand versetzen.</title>
+  <p>Sie sollten Ihre Arbeit speichern, bevor Sie den Rechner in den Ruhezustand versetzen, für den Fall, dass etwas schief geht und ihre offenen Anwendungen und Dokumente nicht wiederhergestellt werden können, wenn Sie den Rechner wieder einschalten.</p>
+</note>
+
+<p>Sie können die Befehlszeile verwenden, um zu überprüfen, ob der Ruhezustand auf Ihrem Rechner funktioniert.</p>
+
+<steps>
+  <item>
+    <if:choose>
+      <if:when test="platform:unity">
+        <p>Öffnen Sie das <app>Terminal</app> durch Drücken von <keyseq><key>Strg</key> <key>Alt</key><key>t</key></keyseq> oder suchen Sie nach <input>terminal</input> im <gui>Dash</gui>.</p>
+     </if:when>
+     <p>Öffnen Sie ein <app>Terminal</app>, indem Sie in der <gui>Aktivitäten</gui>-Übersicht nach <input>terminal</input> suchen.</p>
+  </if:choose>
+  </item>
+  <item>
+    <p>Geben Sie im Terminal <cmd>pm-hibernate</cmd> ein und drücken Sie die <key>Eingabetaste</key>.</p>
+    <p>Bitte geben Sie Ihr Passwort ein, wenn Sie darum gebeten werden.</p>
+  </item>
+  <item>
+    <p>Nachdem sich Ihr Rechner abgeschaltet hat, schalten Sie ihn wieder ein. Werden Ihre Anwendungen erneut geöffnet?</p>
+    <p>Falls der Ruhezustand nicht funktioniert, stellen Sie sicher, dass Ihre Swap-Partition mindestens so groß wie der verfügbare Hauptspeicher ist.</p>
+  </item>
+</steps>
+
+</section>
+
+<section id="enable-hibernate">
+<title>Den Ruhezustand aktivieren</title>
+
+  <p>Falls der Test erfolgreich war, können Sie weiterhin den Befehl <cmd>pm-hibernate</cmd> verwenden, um den Ruhezustand zu erreichen.</p>
+
+  <p>You could also install the
+  <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/">
+  <app>Hibernate Status Button</app></link> extension from the
+  <link href="https://extensions.gnome.org">GNOME Extensions website</link>:</p>
+
+  <steps>
+    <item>
+      <p>Switch <gui style="button">ON</gui> the
+      <app>Hibernate Status Button</app> on
+      <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/">
+      its extension page</link> by pressing the status button at the top
+      left.</p>
+    </item>
+    <item>
+      <p>You will be asked to confirm that you want to install the extension.
+      Press <gui style="button">Install</gui>.</p>
+    </item>
+  </steps>
+
+  <p>The button will now be added to the system menu on the right side of the
+  top bar and can be pressed to hibernate your computer.</p>
+
+  <note style="tip">
+    <p>You can also hold down <key>Alt</key> while pressing the
+    <em>hibernate</em> button to use the <em>hybrid-sleep</em> feature. The
+    hybrid-sleep mode is a mix of the hibernate and sleep modes. This means
+    that your computer remains powered on, so you can wake it up by pressing a
+    key on the keyboard and all your open applications and documents are saved
+    in the same state as before pressing the hybrid-sleep button.</p>
+  </note>
+
+</section>
+
+</page>

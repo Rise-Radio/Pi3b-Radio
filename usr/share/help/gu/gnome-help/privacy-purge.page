@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-purge" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+
+    <revision pkgversion="3.10" date="2013-09-29" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>જીમ કેમ્પબેલ</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>માઇકલ હીલ</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>તમારાં કમ્પ્યૂટરમાંથી કેવી રીતે તમારી કચરાપેટી અને કામચલાઉ ફાઇલોને સાફ કરશે તેને સુયોજિત કરો.</desc>
+  </info>
+
+  <title>કચરાપેટી અને કામચલાઉ ફાઇલોને સાફ કરો</title>
+
+  <p>તમારી કચરાપેટીને સાફ કરી રહ્યા છે અને કામચલાઉ ફાઇલો એ તમારાં કમ્પ્યૂટરમાંથી અનિચ્છિત અને બિનજરૂરી ફાઇલોને દૂર કરે છે, તમારી હાર્ડ ડ્રાઇવર પર વધારે જગ્યાને મુક્ત કરે છે. તમે તમારી માટે આને આપમેળે કરવા માટે તમારાં કમ્પ્યૂટરને પણ સુયોજિત કરી શકો છો.</p>
+
+  <steps>
+    <title>સમયગાળો સુયોજિત કર્યા પછી આપમેળે તમારી કચરાપેટી ખાલી થાય છે અને તમારી કામચલાઉ ફાઇલો સાફ થાય છે:</title>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Privacy</gui>.</p>
+    </item>
+    <item>
+      <p>પેનલને ખોલવા માટે <gui>ખાનગી</gui> પર ક્લિક કરો.</p>
+    </item>
+    <item>
+      <p><gui>કચરાપેટી અને કામચલાઉ ફાઇલો સાફ કરો</gui>.</p>
+    </item>
+    <item>
+      <p>Set one or both of the <gui>Automatically empty Trash</gui> or
+      <gui>Automatically purge Temporary Files</gui> switches to
+      <gui>ON</gui>.</p>
+    </item>
+    <item>
+      <p>તમે કેટલી વાર તમારી <em>કચરાપેટી</em> અને <em>કામચલાઉ ફાઇલો</em> ને ખાલી કરવા માંગો છો તે <gui>આટલા સમય પછી ખાલી કરો</gui> ની કિંમત બદલીને સુયોજીત કરી શકો છો.</p>
+    </item>
+    <item>
+      <p>Use the <gui>Empty Trash</gui> or <gui>Purge Temporary Files</gui>
+      buttons to perform these actions immediately.</p>
+    </item>
+    <item>
+      <p>Click the <gui>X</gui> to close.</p>
+    </item>
+  </steps>
+
+  <note style="warning">
+    <p>Use the <em>Purge After: Immediately</em> setting with caution. Setting
+    your trash to be purged immediately will cause any files you delete to skip
+    your trash and be permanently deleted. Files that are deleted are much more
+    difficult to recover than files that are in your trash.</p>
+
+    <p>જ્યાં સુધી તમારી ફાઇલોને કચરાપેટીમાંથી તુરંત કાઢી નાંખવાની તમારી કોઇ ખાસ જરૂરીયાત નહિ હોય, ત્યાં સુધી કદાચ <gui>આટલા સમય પછી ખાલી કરો</gui> કિંમતને લાંબા અંતરાલ પછી સુયોજીત કરવાનું વધુ સુરક્ષિત છે.</p>
+  </note>
+
+</page>

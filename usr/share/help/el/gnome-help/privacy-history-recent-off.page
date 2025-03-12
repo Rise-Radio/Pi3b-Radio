@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-history-recent-off" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+
+    <revision pkgversion="3.8" date="2013-03-11" status="final"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Σταματήστε ή περιορίστε τον υπολογιστή σας από την ανίχνευση των πρόσφατα χρησιμοποιημένων αρχείων.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Απενεργοποιήστε ή περιορίστε την ανίχνευση ιστορικού αρχείων</title>
+  
+  <p>Ο εντοπισμός πρόσφατα χρησιμοποιημένων αρχείων και φακέλων μπορεί να διευκολύνουν την εύρεση στοιχείων στα οποία έχετε δουλέψει, αλλά μπορεί να θέλετε να κρατήσετε αυτά τα στοιχεία ιδιωτικά.</p>
+
+  <steps>
+    <title>Για να απενεργοποιήσετε τα γνωρίσματα εντοπισμού ιστορικού αρχείου της επιφάνειας εργασίας σας:</title>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Ιδιωτικότητα</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε <gui>Ιδιωτικότητα</gui> για να ανοίξετε το φάτνωμα.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε <gui>Χρήση &amp; ιστορικό</gui>.</p>
+    </item>
+    <item>
+     <p>Ορίστε τον διακόπτη <gui>Πρόσφατα</gui> σε <gui>ΟΧΙ</gui>.</p>
+     <p>Για επανενεργοποίηση αυτού του γνωρίσματος, ορίστε τον διακόπτη <gui>Πρόσφατα</gui> σε <gui>ΝΑΙ</gui>.</p>
+    </item>
+    <item>
+      <p>Χρησιμοποιήστε το πλήκτρο <gui>Εκκαθάριση ιστορικού πρόσφατων</gui> για να εκκαθαρίσετε το ιστορικό αμέσως.</p>
+    </item>
+  </steps>
+  
+  <note><p>Αυτή η ρύθμιση δεν θα επηρεάσει πώς ο περιηγητής ιστού αποθηκεύει πληροφορίες για τους ιστότοπους που επισκέπτεστε.</p></note>
+
+  <steps>
+    <title>Για να περιορίσετε το χρονικό διάστημα που παρακολουθείται το ιστορικό του αρχείου σας:</title>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Ιδιωτικότητα</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε <gui>Ιδιωτικότητα</gui> για να ανοίξετε το φάτνωμα.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε <gui>Χρήση &amp; ιστορικό</gui>.</p>
+    </item>
+    <item>
+     <p>Βεβαιώστε ότι ο διακόπτης <gui>Πρόσφατα</gui> είναι <gui>ΕΝΕΡΓΟΣ</gui>.</p>
+    </item>
+    <item>
+     <p>Επιλέξτε τη διάρκεια του χρόνου στο <gui>Διατήρηση ιστορικού</gui>. Επιλέξτε από τις επιλογές <gui>1 ημέρα</gui>, <gui>7 ημέρες</gui>, <gui>30 ημέρες</gui>, ή <gui>για πάντα</gui>.</p>
+    </item>
+    <item>
+      <p>Χρησιμοποιήστε το πλήκτρο <gui>Εκκαθάριση ιστορικού πρόσφατων</gui> για να εκκαθαρίσετε το ιστορικό αμέσως.</p>
+    </item>
+  </steps>
+
+</page>

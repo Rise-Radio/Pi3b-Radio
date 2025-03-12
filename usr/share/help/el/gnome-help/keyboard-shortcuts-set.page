@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/ui/1.0/" type="topic" style="task" version="1.0 ui/1.0" id="keyboard-shortcuts-set" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="keyboard"/>
+    <link type="seealso" xref="shell-keyboard-shortcuts"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-23" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-10-11" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author">
+       <name>Julita Inca</name>
+       <email>yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Juanjo Marín</name>
+      <email>juanj.marin@juntadeandalucia.es</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+
+    <desc>Ορίστε ή αλλάξτε τις συντομεύσεις πληκτρολογίου στις ρυθμίσεις <gui>πληκτρολογίου</gui>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ρύθμιση συντομεύσεων πληκτρολογίου</title>
+
+<p>Για να αλλάξετε το πλήκτρο ή τα πλήκτρα που θα πατηθούν για μια συντόμευση πληκτρολογίου:</p>
+
+  <steps>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Eνέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>πληκτρολόγιο</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui>Πληκτρολόγιο</gui> για να ανοίξετε το φάτνωμα.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε στη καρτέλα <gui>Συντομεύσεις</gui>.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε μια κατηγορία στο αριστερό φάτνωμα και την γραμμή για την επιθυμητή ενέργεια στα δεξιά. Ο τρέχον ορισμός της συντόμευσης θα αλλάξει σε <gui>Νέος επιταχυντής…</gui></p>
+    </item>
+    <item>
+      <p>Κρατήστε πατημένο τον επιθυμητό συνδυασμό πλήκτρου ή πατήστε <key>Οπισθοδιαγραφή</key> για να καθαρίσετε.</p>
+    </item>
+  </steps>
+
+
+<section id="defined">
+<title>Προκαθορισμένες συντομεύσεις</title>
+  <p>Υπάρχει ένας αριθμός από προρυθμισμένες συντομεύσεις που μπορούν να αλλαχθούν, να ομαδοποιηθούν σε αυτές τις κατηγορίες:</p>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Εκκινητές</title>
+  <tr>
+	<td><p>Εκκίνηση περιηγητή βοήθειας</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Εκκίνηση αριθμομηχανής</p></td>
+	<td><p>Αριθμομηχανή</p></td>
+  </tr>
+  <tr>
+	<td><p>Εκκίνηση πελάτη αλληλογραφίας</p></td>
+	<td><p>Αλληλογραφία</p></td>
+  </tr>
+  <tr>
+	<td><p>Εκκίνηση περιηγητή ιστοσελίδων</p></td>
+	<td><p>WWW</p></td>
+  </tr>
+  <tr>
+	<td><p>Προσωπικός φάκελος</p></td>
+	<td><p>Περιηγητής</p></td>
+  </tr>
+  <tr>
+	<td><p>Αναζήτηση</p></td>
+	<td><p>Αναζήτηση</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Περιήγηση</title>
+  <tr>
+	<td><p>Μετακίνηση παραθύρου στο χώρο εργασίας 1</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Μετακίνηση παραθύρου στο χώρο εργασίας 2</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Μετακίνηση παραθύρου στο χώρο εργασίας 3</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Μετακίνηση παραθύρου στο χώρο εργασίας 4</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Μετακίνηση του παραθύρου ένα χώρο εργασίας αριστερά</p></td>
+	<td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>←</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Μετακίνηση του παραθύρου έναν χώρο εργασίας δεξιά</p></td>
+	<td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>→</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Μετακίνηση του παραθύρου έναν χώρο εργασίας πάνω</p></td>
+	<td><p><keyseq><key>Shift</key><key xref="keyboard-key-super">Λογότυπος</key> <key>Πάνω σελίδα</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Μετακίνηση του παραθύρου έναν χώρο εργασίας κάτω</p></td>
+	<td><p><keyseq><key>Shift</key><key>Λογότυπος</key><key>Κάτω σελίδα</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Εναλλαγή εφαρμογών</p></td>
+	<td><p><keyseq><key>Πλήκτρο λογότυπου</key><key>Στηλοθέτης</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>Εναλλαγή παραθύρων</p></td>
+  <td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Εναλλαγή παραθύρων μιας εφαρμογής</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Εναλλαγή ελέγχων συστήματος</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Tab</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Εναλλαγή παραθύρων άμεσα</p></td>
+	<td><p><keyseq><key>Alt</key><key>Esc</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Εναλλαγή παραθύρων μιας εφαρμογής άμεσα</p></td>
+	<td><p><keyseq><key>Alt</key><key>F6</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Εναλλαγή ελέγχων συστήματος άμεσα</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Esc</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Απόκρυψη όλων των κανονικών παραθύρων</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Εναλλαγή στην χώρο εργασίας 1</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Εναλλαγή στην χώρο εργασίας 2</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Εναλλαγή στην χώρο εργασίας 3</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Εναλλαγή στην χώρο εργασίας 4</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Μετακίνηση στο χώρο εργασίας αριστερά</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>←</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Μετακίνηση στο χώρο εργασίας δεξιά</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>→</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Μετακίνηση στο χώρο εργασίας επάνω</p></td>
+	<td><p><keyseq><key>Λογότυπος</key><key>Πάνω σελίδα</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Μετακίνηση στο χώρο εργασίας κάτω</p></td>
+	<td><p><keyseq><key>Λογότυπος</key><key>Κάτω σελίδα</key></keyseq></p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Στιγμιότυπα</title>
+  <tr>
+	<td><p>Λήψη στιγμιότυπου</p></td>
+	<td><p><key>Εκτύπωση</key></p></td>
+  </tr>
+  <tr>
+	<td><p>Λήψη στιγμιότυπου ενός παραθύρου</p></td>
+	<td><p><keyseq><key>Alt</key><key>Print</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Λήψη στιγμιότυπου μιας περιοχής</p></td>
+	<td><p><keyseq><key>Shift</key><key>Print</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Αντιγραφή στιγμιότυπου στο πρόχειρο</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Print</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Αντιγραφή στιγμιότυπου ενός παραθύρου στο πρόχειρο</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Print</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Αντιγραφή στιγμιότυπου μιας περιοχής στο πρόχειρο</p></td>
+	<td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Print</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>Εγγραφή στιγμιοτύπου οθόνης</p></td>
+  <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>R</key> </keyseq></p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Ήχος και πολυμέσα</title>
+  <tr>
+	<td><p>Σίγαση έντασης</p></td>
+	<td><p>Σίγαση ήχου</p></td>
+  </tr>
+  <tr>
+	<td><p>Μείωση έντασης</p></td>
+	<td><p>Μείωση έντασης ήχου</p></td>
+  </tr>
+  <tr>
+	<td><p>Αύξηση έντασης</p></td>
+	<td><p>Αύξηση έντασης ήχου</p></td>
+  </tr>
+  <tr>
+	<td><p>Εκκίνηση αναπαραγωγέα μέσων</p></td>
+	<td><p>Ηχητικά μέσα</p></td>
+  </tr>
+  <tr>
+	<td><p>Αναπαραγωγή (ή αναπαραγωγή/παύση)</p></td>
+	<td><p>Αναπαραγωγή ήχου</p></td>
+  </tr>
+  <tr>
+	<td><p>Παύση αναπαραγωγής</p></td>
+	<td><p>Παύση ήχου</p></td>
+  </tr>
+  <tr>
+	<td><p>Διακοπή αναπαραγωγής</p></td>
+	<td><p>Διακοπή ήχου</p></td>
+  </tr>
+  <tr>
+	<td><p>Προηγούμενο κομμάτι</p></td>
+	<td><p>Προηγούμενος ήχος</p></td>
+  </tr>
+  <tr>
+	<td><p>Επόμενο κομμάτι</p></td>
+	<td><p>Επόμενος ήχος</p></td>
+  </tr>
+  <tr>
+	<td><p>Εξαγωγή</p></td>
+	<td><p>Εξαγωγή</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Σύστημα</title>
+  <tr>
+	<td><p>Εμφάνιση προτροπής εντολής εκτέλεσης</p></td>
+	<td><p><keyseq><key>Alt</key><key>F2</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Εμφάνιση επισκόπησης ενεργειών</p></td>
+	<td><p><keyseq><key>Alt</key><key>F1</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Αποσύνδεση</p></td>
+	<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Κλείδωμα οθόνης</p></td>
+	<td><p><keyseq><key>πλήκτρο λογότυπου</key><key>L</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>Εμφάνιση της περιοχής ειδοποιήσεων</p></td>
+  <td><p><keyseq><key>πλήκτρο λογότυπου</key><key>Μ</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>Εστίαση στην ενεργή ειδοποίηση</p></td>
+  <td><p><keyseq><key>Λογότυπος</key><key>Ν</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>Προβολή όλων των εφαρμογών</p></td>
+  <td><p><keyseq><key>πλήκτρο λογότυπου</key><key>A</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>Άνοιγμα του μενού εφαρμογών</p></td>
+  <td><p><keyseq><key>Λογότυπος</key><key>F10</key></keyseq></p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Πληκτρολόγηση</title>
+  <tr>
+  <td><p>Αλλαγή στην επόμενη πηγή εισόδου</p></td>
+  <td><p><keyseq><key>Λογότυπος</key><key>Διάστημα</key></keyseq></p></td>
+  </tr>
+
+  <tr>
+  <td><p>Αλλαγή στην προηγούμενη πηγή εισόδου</p></td>
+  <td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+  <td><p>Τροποποιητές-μετάβαση μόνο στην επόμενη πηγή</p></td>
+  <td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+  <td><p>Πλήκτρο σύνθεσης</p></td>
+  <td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+  <td><p>Εναλλακτικό πλήκτρο χαρακτήρων</p></td>
+  <td><p>Ανενεργό</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Γενική πρόσβαση</title>
+  <tr>
+	<td><p>Εναλλαγή μεγέθυνσης ή σμίκρυνσης</p></td>
+	<td><p><keyseq><key>Alt</key><key>Λογότυπος</key><key>8</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Μεγέθυνση</p></td>
+  <td><p><keyseq><key>Alt</key><key>Λογότυπος</key><key>=</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Σμίκρυνση</p></td>
+  <td><p><keyseq><key>Alt</key><key>Λογότυπος</key><key>-</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Εναλλαγή λειτουργίας αναγνώστη οθόνης</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Εναλλαγή λειτουργίας πληκτρολογίου οθόνης</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Μεγέθυνση μεγέθους κειμένου</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Σμίκρυνση μεγέθους κειμένου</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Εναλλαγή υψηλής αντίθεσης</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Παράθυρα</title>
+  <tr>
+	<td><p>Ενεργοποίηση του μενού παραθύρου</p></td>
+	<td><p><keyseq><key>Alt</key><key>διάστημα</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Εναλλαγή κατάστασης πλήρους οθόνης</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Εναλλαγή κατάστασης μεγιστοποίησης</p></td>
+	<td><p><keyseq><key>Alt</key><key>F10</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Μεγιστοποίηση παραθύρου</p></td>
+	<td><p><keyseq><key>Λογότυπος</key><key>↑</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Επαναφορά παραθύρου</p></td>
+  <td><p><keyseq><key>Λογότυπος</key><key>↓</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Εναλλαγή σκιασμένης κατάστασης</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Κλείσιμο παραθύρου</p></td>
+	<td><p><keyseq><key>Alt</key><key>F4</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>Απόκρυψη παραθύρου</p></td>
+  <td><p><keyseq><key>πλήκτρο λογότυπου</key><key>Η</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Μετακίνηση παραθύρου</p></td>
+	<td><p><keyseq><key>Alt</key><key>F7</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Αλλαγή μεγέθους παραθύρου</p></td>
+	<td><p><keyseq><key>Alt</key><key>F8</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Εναλλαγή παραθύρου σε όλες τις επιφάνειες εργασίας ή σε μία</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Ανασήκωση παραθύρου αν καλύπτεται από άλλο παράθυρο, αλλιώς χαμήλωμα του</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Ανασήκωση παραθύρου πάνω από τα άλλα παράθυρα</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Χαμήλωμα παραθύρου κάτω από τα άλλα παράθυρα</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Μεγιστοποίηση ενός παραθύρου κάθετα</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+	<td><p>Μεγιστοποίηση ενός παραθύρου οριζόντια</p></td>
+	<td><p>Ανενεργό</p></td>
+  </tr>
+  <tr>
+  <td><p>Προβολή διαίρεσης στα αριστερά</p></td>
+  <td><p><keyseq><key>Πλήκτρο λογότυπου</key><key>←</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>Προβολή διαίρεσης στα δεξιά</p></td>
+  <td><p><keyseq><key>Πλήκτρο λογότυπου</key><key>→</key></keyseq></p></td>
+  </tr>
+</table>
+
+</section>
+
+<section id="changing-shorcuts">
+  <title>Αλλαγή συντομεύσεων πληκτρολογίου</title>
+  <p>Αυτή η ενότητα εμφανίζει πώς να αλλάξετε τις συντομεύσεις πληκτρολογίου για μια εφαρμογή.</p>
+
+  <steps>
+    <item>
+	<p>Άνοιγμα της εφαρμογής τερματικού.</p>
+     </item>
+    <item><p>Εκτέλεση της εντολής <cmd>gsettings set org.gnome.desktop.interface can-change-accels true</cmd>.</p>
+    </item>
+       <item>
+      <p>Ξεκινήστε την εφαρμογή της οποίας θέλετε να αλλάξετε τη συντόμευση πληκτρολογίου.</p>
+    </item>
+  <item>
+      <p>Ανοίξτε το στοιχείο μενού για το οποίο θέλετε να αλλάξετε τη συντόμευση πληκτρολογίου.</p>
+    </item>
+<item>
+      <p>Πληκτρολογήστε την επιθυμητή συντόμευση στο πληκτρολόγιο.</p>
+    </item>
+  </steps>
+
+<note style="note style">
+  <p>Σημειώστε ότι αυτή η ρύθμιση είναι για όλη την επιφάνεια εργασίας. Μπορείτε να την απενεργοποιήσετε αφού κάνετε τις αλλαγές εκτελώντας την εντολή <cmd>gsettings set org.gnome.desktop.interface can-change-accels false</cmd>. Μπορείτε επίσης να χρησιμοποιήσετε το εργαλείο <app>dconf-editor</app> για να το κάνετε.</p>
+</note>
+</section>
+
+<section id="custom">
+<title>Προσαρμοσμένες συντομεύσεις</title>
+
+<p>Για να δημιουργήσετε τη δική σας συντόμευση πληκτρολογίου:</p>
+
+  <steps>
+    <item>
+      <p>Επιλέξτε <gui>Προσαρμοσμένες συντομεύσεις</gui> στο αριστερό πλαίσιο και πατήστε το κουμπί <gui style="button">+</gui> (ή πατήστε το κουμπί <gui style="button">+</gui> σε οποιαδήποτε κατηγορία). Το παράθυρο <gui>Προσαρμογή συντόμευσης</gui> θα εμφανιστεί.</p>
+    </item>
+    <item>
+      <p>Γράψτε ένα <gui>Όνομα</gui> για να ταυτοποιήσετε τη συντόμευση και μια <gui>Εντολή</gui> για να τρέξετε μια εφαρμογή, έπειτα πατήστε <gui>Εφαρμογή</gui>. Για παράδειγμα, εάν θέλετε η συντόμευση να ανοίγει το Rhythmbox, μπορείτε να το ονομάσετε <input>Μουσική</input> και να χρησιμοποιήσετε την εντολή <input>rhythmbox</input>.</p>
+    </item>
+    <item>
+      <p>Πατήστε <gui>Ανενεργό</gui> στη γραμμή που μόλις προστέθηκε. Όταν αλλάξει σε <gui>Νέος επιταχυντής…</gui>, κρατήστε πατημένο τον επιθυμητό συνδυασμό πλήκτρων συντόμευσης.</p>
+    </item>
+  </steps>
+ <p>Το όνομα της εντολής που πληκτρολογείτε πρέπει να είναι εντολή έγκυρου συστήματος. Μπορείτε να ελέγξετε ότι η εντολή δουλεύει ανοίγοντας έναν τερματικό και πληκτρολογώντας το εκεί. Η εντολή που ανοίγει μια εφαρμογή μπορεί να μην έχει το ίδιο όνομα όπως η ίδια η εφαρμογή.</p>
+
+ <p>Εάν θέλετε να αλλάξετε την εντολή που συσχετίζεται με μια προσαρμοσμένη συντόμευση πληκτρολογίου, διπλοπατήστε το <em>όνομα</em> της συντόμευσης. Το παράθυρο <gui>προσαρμοσμένη συντόμευση</gui> θα εμφανιστεί και μπορείτε να επεξεργαστείτε την εντολή.</p>
+</section>
+
+</page>

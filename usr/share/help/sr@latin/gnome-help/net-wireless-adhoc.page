@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wireless-adhoc" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="net-wireless"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-11-10" status="review"/>
+
+    <credit type="author">
+      <name>Fil Bul</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Šon Mek Kens</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Majkl Hil</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Koristite ad-hok mrežu da dozvolite drugim uređajima da se povežu na vaš računar i na njegove mrežne veze.</desc>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Napravite bežičnu vruću tačku</title>
+
+<p>Možete da koristite vaš računar kao bežičnu vruću tačku. Ovo će dopustiti drugim uređajima da se povežu s vama bez odvojene mreže, i dozvoliće vam da delite internet vezu koju ste napravili sa nekim drugim uređajem, kao što je žičana mreža ili mreža mobilnog telefona.</p>
+
+<steps>
+  <item><p>Kliknite na oblast stanja sistema na gornjoj traci i izaberite <gui>Bežična</gui>.</p></item>
+  <item><p>Izaberite <gui>Podešavanja bežične</gui>.</p></item>
+  <item><p>Kliknite na dugme <gui>Koristi kao vruću tačku...</gui>.</p></item>
+  <item><p>Ako ste već povezani na bežičnu mrežu, bićete upitani dali želite da prekinete vezu sa tom mrežom. Jedan bežični prilagođivač može da se poveže ili da napravi samo jednu mrežu u isto vreme. Kliknite <gui>Uključi</gui> da potvrdite.</p></item>
+</steps>
+
+<p>Naziv mreže (SSID) i ključ bezbednosti bivaju stvoreni samostalno. Naziv mreže će biti zasnovan na nazivu vašeg računara. Ostalim uređajima će biti potrebni ovi podaci da bi se povezali na vruću tačku koju ste upravo napravili.</p>
+
+</page>

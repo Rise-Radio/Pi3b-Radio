@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="files-open" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="files" group="more"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-09-30" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author">
+      <name>Cristopher Thomas</name>
+      <email>crisnoh@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Abrir archivos usando una aplicación que no es la predeterminada para ese tipo de archivos. También puede cambiar la aplicación predeterminada.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Abrir archivos con otras aplicaciones</title>
+
+<p>Cuando se pulsa dos veces sobre un archivo en el gestor de archivos, se abre con la aplicación predeterminada para ese tipo de archivos. Puede abrirlo con una aplicación distinta, buscar aplicaciones en línea, o establecer la aplicación predeterminada para todos los archivos del mismo tipo.</p>
+
+<p>To open a file with an application other than the default, right-click
+the file and select the application you want from the top of the menu. If
+you do not see the application you want, select <gui>Open With</gui>. By
+default, the file manager only shows applications it knows can handle the file.
+To look through all the applications on your computer, click <gui>Other
+Application…</gui>.</p>
+
+<p>If you still cannot find the application you want, you can search for
+more applications by clicking <gui>Find New Applications</gui>. The
+file manager will search online for packages containing applications
+that are known to handle files of that type.</p>
+
+<section id="default">
+  <title>Cambiar la aplicación predeterminada</title>
+  <p>Puede cambiar la aplicación predeterminada usada para abrir los archivos de un cierto tipo. Esto le permitirá abrir su aplicación preferida cuando pulse dos veces sobre un archivo para abrirlo. Por ejemplo, puede que quiera que se abra su reproductor de música favorito al pulsar dos veces sobre un archivo MP3.</p>
+
+  <steps>
+    <item><p>Seleccione un archivo del tipo cuya aplicación predeterminada quiere cambiar. Por ejemplo, para cambiar la aplicación usada para abrir archivos MP3, seleccione un archivo <file>.mp3</file>.</p></item>
+    <item><p>Pulse con el botón derecho del ratón y seleccione <gui>Propiedades</gui>.</p></item>
+    <item><p>Seleccione la pestaña <gui>Abrir con</gui>.</p></item>
+    <item><p>Seleccione la aplicación que quiere y pulse <gui>Establecer como predeterminada</gui>. De manera predeterminada, el gestor de archivos solo muestra aplicaciones que sabe que pueden manejar el archivo. Para buscar entre todas las palicaciones en su equipo, pulse <gui>Mostrar otras aplicaciones</gui>.</p>
+    <p>If <gui>Other Applications</gui> contains an application you sometimes
+    want to use, but do not want to make the default, select that application
+    and click <gui>Add</gui>. This will add it to <gui>Recommended
+    Applications</gui>. You will then be able to use this application by
+    right-clicking the file and selecting it from the list.</p></item>
+  </steps>
+
+  <p>Esto cambiará la aplicación predeterminada no solo para el archivo seleccionado, sino para todos los archivos del mismo tipo.</p>
+
+</section>
+
+</page>

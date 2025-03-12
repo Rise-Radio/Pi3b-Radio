@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-disable-service" xml:lang="te">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.13.92" date="2013-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>ఫిల్ బుల్</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    
+    <desc>బహుళ సేవలను ఏక్సెస్ చేయుటకు కొన్ని ఆన్‌లైన్ ఖాతాలు వుపయోగించవచ్చు(క్యాలెండర్ మరియు ఈమెయిల్ వలె). అనువర్తనములచేత వుపయోగించబడు ఈ సేవలను మీరు నియంత్రించవచ్చు.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Praveen Illa</mal:name>
+      <mal:email>mail2ipn@gmail.com</mal:email>
+      <mal:years>2011, 2014. </mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>కృష్ణబాబు క్రొత్తపల్లి</mal:name>
+      <mal:email>kkrothap@redhat.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>ఒక ఖాతా ఏ ఆన్‌లైన్ సేవలను ఏక్సెస్ చేయాలో నియంత్రించుము</title>
+
+  <p>ఒకే వాడుకరి ఖాతాతో చాలా సేవలను ఏక్సెస్ చేయుటకు కొన్ని రకాల ఆన్‌లైన్ ఖాతా మిమ్ములను అనుమతించును. ఉదాహరణకు, గూగుల్ ఖాతాలు అనునవి క్యాలెండర్, ఈమెయిల్, పరిచయాలు మరియు చాట్‌కు ఏక్సెస్ ఇచ్చును. మీరు మీ ఖాతాను కొన్ని సేవలకు తప్పించి, వేరే వాటికి వాడాలనుకోకపోవచ్చు. ఉదాహరణకు, మీరు మీ గూగుల్ ఖాతాను ఈమెయిల్ కొరకు వాడి చాట్ కొరకు వాడాలనుకోకపోవచ్చు, బహుశా మీకు చాట్ కొరకు వేరే ఆన్‌లైన్ ఖాతా వుండివుండవచ్చు.</p>
+
+  <p>ప్రతి ఆన్‌లైన్ ఖాతా చేత అందించబడు కొన్ని సేవలను మీరు అచేతనం చేయవచ్చు:</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Select the account which you want to change from the list on the
+      left.</p>
+    </item>
+    <item>
+      <p>A list of services that are available with this account will be
+      shown under <gui>Use for</gui>.</p>
+    </item>
+    <item>
+      <p>Switch off any of the services that you do not want to use.</p>
+    </item>
+  </steps>
+
+  <p>Once a service has been disabled for an account, applications on your
+  computer will not be able to use the account to connect to that service any
+  more.</p>
+
+  <p>మీరు అచేతనం చేసిన సేవను ఆన్ చేయుటకు, <gui>ఆన్‌లైన్ ఖాతాలు</gui> విండోకు వెళ్ళి దానిని ఆన్ చేయండి.</p>
+
+</page>

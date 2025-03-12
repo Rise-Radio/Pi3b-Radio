@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="look-display-fuzzy" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="hardware-problems-graphics"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.9.92" date="2013-10-11" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Έργο Τεκμηρίωσης GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Natalia Ruz Leiva</name>
+      <email>nruz@alumnos.inf.utfsm.cl</email>
+    </credit>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Η ανάλυση οθόνης μπορεί να έχει οριστεί λαθεμένα.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Γιατί κάποια πράγματα φαίνονται ασαφή/θολά στην οθόνη μου;</title>
+
+<p>Αυτό μπορεί να συμβεί επειδή η ανάλυση προβολής που έχετε ορίσει δεν είναι η σωστή για την οθόνη σας.</p>
+
+<p>Για να το λύσετε, ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Οθόνες</gui>. Πατήστε το <gui>Οθόνες</gui> για να ανοίξετε το φάτνωμα. Δοκιμάστε κάποιες επιλογές <gui>ανάλυσης</gui> και ορίστε αυτήν που κάνει την οθόνη να φαίνεται καλύτερα.</p>
+
+<section id="multihead">
+  <title>Όταν πολλές οθόνες συνδέονται</title>
+
+  <p>Εάν έχετε δύο συνδεμένες οθόνες στον υπολογιστή (για παράδειγμα, μια κανονική οθόνη και έναν προβολέα), οι οθόνες μπορεί να έχουν διαφορετικές αναλύσεις. Όμως, η κάρτα γραφικών του υπολογιστή μπορεί να εμφανίσει μόνο την οθόνη με μια ανάλυση τη φορά, έτσι τουλάχιστον μία από τις οθόνες μπορεί να δείχνει ασαφής.</p>
+
+  <p>You can set it so that the two displays have different resolutions, but
+  you will not be able to display the same thing on both screens
+  simultaneously. In effect, you will have two independent screens connected at
+  the same time. You can move windows from one screen to another, but you
+  cannot show the same window on both screens at once.</p>
+
+  <p>Για να ρυθμίσετε τις οθόνες έτσι ώστε να έχουν τη δικιά τους ανάλυση:</p>
+
+  <steps>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Οθόνες</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui>Οθόνες</gui> για να ανοίξετε το φάτνωμα.</p>
+    </item>
+    <item>
+      <p>The displays should be listed as <gui>Mirrored</gui>. Select your main
+      display.</p>
+    </item>
+    <item>
+      <p>Select <gui>Primary</gui> in the list of display configurations, and
+      then click <gui style="button">Apply</gui> to save.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε κάθε οθόνη με τη σειρά της από το γκρίζο πλαίσιο στην κορυφή του παραθύρου των <gui>οθονών</gui>. Αλλάξτε την <gui>ανάλυση</gui> μέχρι να φαίνεται σωστή.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

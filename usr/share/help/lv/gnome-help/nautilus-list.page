@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="ui" id="nautilus-list" xml:lang="lv">
+
+  <info>
+    <its:rules xmlns:its="http://www.w3.org/2005/11/its" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+
+    <link type="guide" xref="nautilus-prefs" group="nautilus-list"/>
+
+    <revision pkgversion="3.5.92" date="2012-09-19" status="review"/>
+    <revision pkgversion="3.14.0" date="2014-09-23" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Kontrolējiet, kāda informācija ir redzama saraksta skata kolonnā.</desc>
+  </info>
+
+  <title>Files list columns preferences</title>
+
+  <p>There are nine columns of information that you can display in the
+  <gui>Files</gui> list view. Click <gui>Files</gui> in the top bar, pick
+  <gui>Preferences</gui> and choose the <gui>List Columns</gui> tab to select
+  which columns will be visible.</p>
+
+  <note style="tip">
+    <p>Izmantojiet <gui>Pārvietot uz augšu</gui> and <gui>Pārvietot uz leju</gui> pogas, lai izvēlētos secību, kādā izvēlētās ailes būs redzamas.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Nosaukums</gui></title>
+      <p>The name of folders and files.</p>
+    </item>
+    <item>
+      <title><gui>Izmērs</gui></title>
+      <p>Mapes izmērs ir dots kā vienumu skaits mapē. Datņu izmērs ir dots baitos, KB vai MB.</p>
+    </item>
+    <item>
+      <title><gui>Tips</gui></title>
+      <p>Attēlots kā mape vai datnes veids, piemēram, PDF dokuments, JPEG attēls vai MP3 audio datne u.t.t.</p>
+    </item>
+    <item>
+      <title><gui>Mainīts</gui></title>
+      <p>Rāda datumu un laiku, kad datne pēdējo reizi ir rediģēta.</p>
+    </item>
+    <item>
+      <title><gui>Īpašnieks</gui></title>
+      <p>Lietotāja vārds, kuram pieder mape vai datne.</p>
+    </item>
+    <item>
+      <title><gui>Grupa</gui></title>
+      <p>The group the file is owned by. Each user is normally in their own
+      group, but it is possible to have many users in one group. For example, a
+      department may have their own group in a work environment.</p>
+    </item>
+    <item>
+      <title><gui>Atļaujas</gui></title>
+      <p>Displays the file access permissions. For example,
+      <gui>drwxrw-r--</gui></p>
+      <list>
+        <item>
+          <p>The first character is the file type. <gui>-</gui> means regular
+          file and <gui>d</gui> means directory (folder). In rare cases, other
+          characters can also be shown.</p>
+        </item>
+        <item>
+          <p>Nākamās trīs rakstzīmes <gui>rwx</gui> norāda atļaujas lietotājam, kam pieder datne.</p>
+        </item>
+        <item>
+          <p>Nākamās trīs rakstzīmes<gui>rw-</gui> norāda atļaujas visiem grupas locekļiem, kuriem pieder datne.</p>
+        </item>
+        <item>
+          <p>Pēdējās trīs rakstzīmes kolonnā <gui>r--</gui> norāda atļaujas visiem sistēmas lietotājiem.</p>
+        </item>
+      </list>
+      <p>Each permission has the following meanings:</p>
+      <list>
+        <item>
+          <p><gui>r</gui>: readable, meaning that you can open the file or
+          folder</p>
+        </item>
+        <item>
+          <p><gui>w</gui>: writable, meaning that you can save changes to it</p>
+        </item>
+        <item>
+          <p><gui>x</gui>: executable, meaning that you can run it if it is a
+          program or script file, or you can access subfolders and files if it
+          is a folder</p>
+        </item>
+        <item>
+          <p><gui>-</gui>: permission not set</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <title><gui>MIME tips</gui></title>
+      <p>Attēlo vienuma MIME tipu.</p>
+    </item>
+    <item>
+      <title><gui>Atrašanās vieta</gui></title>
+      <p>Ceļš līdz datnes atrašanās vietai.</p>
+    </item>
+  </terms>
+
+</page>

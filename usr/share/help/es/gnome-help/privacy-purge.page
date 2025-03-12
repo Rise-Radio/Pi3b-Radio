@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-purge" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+
+    <revision pkgversion="3.10" date="2013-09-29" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Establecer con qué frecuencia se limpian la papelera y los archivos temporales de su equipo.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Limpiar la papelera y los archivos temporales</title>
+
+  <p>Limpiar la papelera y los archivos temporales elimina archivos innecesarios del equipo, y también libera espacio en el disco duro. Puede vaciar la papelera y limpiar los archivos temporales manualmente, pero también puede configurar el equipo para que lo haga automáticamente.</p>
+
+  <steps>
+    <title>Vaciar automáticamente la papelera y limpiar los archivos temporales después de cierto período de tiempo:</title>
+    <item>
+      <p>Abra la vista de <gui xref="shell-terminology">Actividades</gui> empiece a escribir <gui>Privacidad</gui>.</p>
+    </item>
+    <item>
+      <p>Pulse en <gui>Privacidad</gui> para abrir el panel.</p>
+    </item>
+    <item>
+      <p>Seleccione <gui>Limpiar la papelera y los archivos temporales</gui>.</p>
+    </item>
+    <item>
+      <p>Set one or both of the <gui>Automatically empty Trash</gui> or
+      <gui>Automatically purge Temporary Files</gui> switches to
+      <gui>ON</gui>.</p>
+    </item>
+    <item>
+      <p>Establezca la frecuencia con la que quiere que se limpien la <em>Papelera</em> y los <em>Archivos temporales</em> cambiando el valor de <gui>Limpiar después de</gui>.</p>
+    </item>
+    <item>
+      <p>Use los <gui>Vaciar papelera</gui> o <gui>Limpiar archivos temporales</gui> para realizar estas acciones inmediatamente.</p>
+    </item>
+    <item>
+      <p>Click the <gui>X</gui> to close.</p>
+    </item>
+  </steps>
+
+  <note style="warning">
+    <p>Use la opción <em>Limpiar después de: inmediatamente</em> con precaución. Hacer que la papelera se limpie inmediatamente hará que cualquier archivo que elimine no pase por la papelera y se elimine permanentemente. Los archivos eliminados son mucho más difíciles de recuperar que los que se encuentran en su papelera.</p>
+
+    <p>A menos que necesite eliminar inmediatamente los archivos de la papelera, probablemente sea más seguro establecer un valor de <gui>Limpiar después de</gui> alto.</p>
+  </note>
+
+</page>

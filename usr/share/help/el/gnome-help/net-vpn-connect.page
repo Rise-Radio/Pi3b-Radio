@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-vpn-connect" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="net-wireless"/>
+    <link type="guide" xref="net-wired"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision pkgversion="3.10" date="2013-12-05" status="review"/>
+
+    <credit type="author">
+      <name>Έργο Τεκμηρίωσης GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <desc>Ρυθμίστε μια σύνδεση VPN σε ένα τοπικό δίκτυο μέσα από το διαδίκτυο.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Σύνδεση σε VPN</title>
+
+<p>Ένα VPN (ή <em>εικονικό ιδιωτικό δίκτυο</em>) είναι ένας τρόπος σύνδεσης σε τοπικό δίκτυο μέσω διαδικτύου. Για παράδειγμα, ας πούμε ότι θέλετε να συνδεθείτε σε ένα τοπικό δίκτυο στον χώρο εργασίας, ενώ είσαστε σε ένα επαγγελματικό ταξίδι. Μπορεί να βρείτε μια σύνδεση διαδικτύου κάπου (όπως σε ένα ξενοδοχείο) και έπειτα να συνδεθείτε με το VPN του χώρου εργασίας σας. Θα είναι σαν να ήσασταν άμεσα συνδεμένοι στο δίκτυο στη δουλειά, αλλά η ενεργή σύνδεση διαδικτύου μπορεί να είναι μέσα από τη σύνδεση διαδικτύου του ξενοδοχείου. Οι συνδέσεις VPN είναι συνήθως <em>κρυπτογραφημένες</em> για να αποτρέψουν τα άτομα από την πρόσβαση του τοπικού δικτύου που συνδέεστε χωρίς σύνδεση.</p>
+
+<p>Υπάρχουν πολλοί διαφορετικοί τύποι VPN. Μπορεί να πρέπει να εγκαταστήσετε κάποιο πρόσθετο λογισμικό ανάλογα με τον τύπο του VPN που συνδέεστε. Βρείτε τις λεπτομέρειες σύνδεσης από οποιονδήποτε είναι επιφορτισμένος με το VPN και δείτε ποιον <em>πελάτη VPN</em> χρειάζεστε να χρησιμοποιήσετε. Έπειτα, πηγαίνετε στην εφαρμογή εγκαταστάτη λογισμικού και αναζητήστε το πακέτο <app>NetworkManager</app> που δουλεύει με το VPN σας (εάν υπάρχει τέτοιο) και εγκαταστήστε το.</p>
+
+<note>
+ <p>Εάν δεν υπάρχει ένα πακέτο NetworkManager για τον τύπο σας του VPN, θα πρέπει προφανώς να κατεβάσετε και να εγκαταστήσετε κάποιο λογισμικό πελάτη από την εταιρεία που παρέχει το λογισμικό VPN. Θα πρέπει προφανώς να ακολουθήσετε κάποιες διαφορετικές οδηγίες για να το κάνετε να δουλέψει.</p>
+</note>
+
+<p>Μόλις αυτό γίνει, μπορείτε να ρυθμίσετε τη σύνδεση VPN:</p>
+
+  <steps>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Δίκτυο</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui>Δίκτυο</gui> για να ανοίξετε το κέντρο ελέγχου.</p>
+    </item>
+    <item>
+      <p>At the bottom of the list on the left, click the <gui>+</gui> button
+      to add a new connection.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε <gui>VPN</gui> στον κατάλογο διεπαφής.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε ποιο είδος σύνδεσης VPN έχετε.</p>
+    </item>
+    <item>
+      <p>Συμπληρώστε τις λεπτομέρειες σύνδεσης VPN, έπειτα πατήστε <gui>Προσθήκη</gui> μόλις τελειώσετε.</p>
+    </item>
+    <item>
+      <p>Όταν ολοκληρώσετε τη ρύθμιση του VPN, πατήστε την περιοχή κατάστασης του συστήματος στην πάνω γραμμή, πατήστε <gui>VPN</gui> και επιλέξτε τη σύνδεση που μόλις δημιουργήσατε. Μπορεί να χρειαστείτε να εισάγετε έναν κωδικό πρόσβασης για τη σύνδεση πριν να επιτευχθεί. Μόλις επιτευχθεί η σύνδεση, θα δείτε ένα εικονίδιο με σχήμα κλειδαριάς στην πάνω γραμμή.</p>
+    </item>
+    <item>
+      <p>Ελπίζουμε ότι συνδεθήκατε με επιτυχία στο VPN. Αν όχι, μπορεί να χρειάζεστε να διπλοελέγξετε τις ρυθμίσεις VPN που εισάγατε. Μπορείτε να το κάνετε από τον πίνακα <gui>Δίκτυο</gui> που χρησιμοποιήσατε για να δημιουργήσετε τη σύνδεση, επιλέξτε τη σύνδεση VPN από τον κατάλογο, έπειτα πατήστε το πλήκτρο στην κάτω δεξιά γωνία του πίνακα.</p>
+    </item>
+    <item>
+      <p>Για να αποσυνδεθείτε από το VPN, πατήστε στην περιοχή κατάστασης συστήματος της πάνω γραμμής και πατήστε <gui>Κλείσιμο</gui> κάτω από το όνομα της σύνδεσή σας VPN.</p>
+    </item>
+  </steps>
+
+</page>

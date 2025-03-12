@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="sound-crackle" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="sound-broken"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>GNOME dokumentācijas projekts</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Pārbaudiet savus audio kabeļus un skaņas kartes draiverus.</desc>
+  </info>
+
+<title>Es dzirdu šķindēšanu vai dūkšanu, kad spēlē skaņas</title>
+
+  <p>Ja dzirdat šķindēšanu vai dūkšanu, kad atskaņojat datorā, problēma varētu būt ar audio kabeļiem vai savienojumiem, vai arī ir problēmas ar skaņu kartes draiveriem.</p>
+
+<list>
+ <item>
+  <p>Pārbaudiet, vai skaļruņi ir iesprausti pareizi.</p>
+  <p>Ja skaļruņi nav pilnībā iesprausti, vai arī, ja tie ir iesprausti nepareizā savienojumā, jūs varētu dzirdēt dūcošu skaņu.</p>
+ </item>
+
+ <item>
+  <p>Pārliecinieties, ka skaļruņi/austiņas nav bojātas.</p>
+  <p>Audio kabeļi un savienotāji var nolietoties. Pamēģiniet iespraust kabeli vai austiņas citā audio ierīcē (piemēram, MP3 atskaņotājā vai CD atskaņotājā), lai pārbaudītu, vai skaņas problēmas vēl joprojām pastāv. Ja tās joprojām ir, tad var būt nepieciešams nomainīt kabeļus vai austiņas.</p>
+ </item>
+
+ <item>
+  <p>Pārbaudiet, vai skaņu draiveri ir pietiekami labi.</p>
+  <p>Dažas skaņu kartes var nestrādāt pārāk labi Linux, jo tām var nebūt labi skaņu draiveri. Šo problēmu ir grūtāk identificēt. Pamēģiniet meklēt savas skaņu kartes ražotāju un modeli internetā, pievienojot terminu "Linux", lai redzētu, vai citi cilvēki arī sastopas ar šādu problēmu.</p>
+  <p>Varat izmantot <cmd>lspci</cmd> komandu, lai iegūtu vairāk informācijas par savu skaņu karti.</p>
+ </item>
+</list>
+
+</page>

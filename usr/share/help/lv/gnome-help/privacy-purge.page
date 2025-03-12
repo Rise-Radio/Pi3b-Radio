@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-purge" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+
+    <revision pkgversion="3.10" date="2013-09-29" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Iestatiet, cik bieži datorā tiks tīrīta miskaste un izmestas pagaidu datnes.</desc>
+  </info>
+
+  <title>Iztīrīt miskasti un pagaidu datnes</title>
+
+  <p>Jūsu miskastes iztīrīšana un pagaidu datņu dzēšana izņem nevajadzīgās datnes no jūsu datora, un arī atbrīvo vietu uz cietā diska. Jūs varat arī pašrocīgi iztīrīt miskasti un izmest pagaidu datnes, bet jūs varat arī iestatīt datoru, lai tas notiktu automātiski.</p>
+
+  <steps>
+    <title>Automātiski tīrīt miskasti un izmest pagaidu datnes pēc noteikta laika:</title>
+    <item>
+      <p>Atveriet <link xref="shell-terminology">aktivitāšu</link> pārskatu un sāciet rakstīt <gui>Privātums</gui>.</p>
+    </item>
+    <item>
+      <p>Spiediet <gui>Privātums</gui>, lai atvērtu paneli.</p>
+    </item>
+    <item>
+      <p>Izvēlieties <gui>Iztīrīt miskasti un pagaidu datnes</gui>.</p>
+    </item>
+    <item>
+      <p>Set one or both of the <gui>Automatically empty Trash</gui> or
+      <gui>Automatically purge Temporary Files</gui> switches to
+      <gui>ON</gui>.</p>
+    </item>
+    <item>
+      <p>Iestatīt, cik bieži vēlaties iztīrīt <em>Miskasti</em> un <em>Pagaidu datnes</em>, mainot vērtību <gui>Izmest pēc</gui>.</p>
+    </item>
+    <item>
+      <p>Izmantojiet pogas <gui>Iztukšot miskasti</gui> vai <gui>Izmest pagaidu datnes</gui>, lai uzreiz veiktu šīs darbības.</p>
+    </item>
+    <item>
+      <p>Click the <gui>X</gui> to close.</p>
+    </item>
+  </steps>
+
+  <note style="warning">
+    <p>Uzmanieties, kad izmantojat <em>Izmest pēc: Nekavējoties</em> iestatījumu. Ja iestatīsiet nekavējošu izmešanu, dzēstās datnes netiks izmestas miskastē, bet tiks pavisam izdzēstas. Dzēstas datnes ir daudz grūtāk atgūt nekā tās, kas ir miskastē.</p>
+
+    <p>Ja vien jums nav kāda īpaša vajadzība nekavējoties izdzēst datnes, došāk ir iestatīt lielāku <gui>Izmest pēc</gui> vērtību.</p>
+  </note>
+
+</page>

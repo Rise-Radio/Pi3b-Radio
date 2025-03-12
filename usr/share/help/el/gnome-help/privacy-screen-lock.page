@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-screen-lock" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+    <link type="seealso" xref="session-screenlocks"/>
+    <link type="seealso" xref="shell-exit#lock-screen"/>
+
+    <revision pkgversion="3.8" date="2013-05-21" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit>
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Αποτρέψτε άλλα άτομα από τη χρήση της επιφάνειας εργασίας όταν φεύγετε από τον υπολογιστή σας.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Αυτόματο κλείδωμα της οθόνης σας</title>
+  
+  <p>Όταν αφήνετε τον υπολογιστή σας, θα πρέπει <link xref="shell-exit#lock-screen">να κλειδώσετε την οθόνη</link>για να αποτρέψετε άλλα άτομα από τη χρήση της επιφάνειας εργασίας σας και την πρόσβαση στα αρχεία σας. Αν μερικές φορές ξεχνάτε να κλειδώσετε την οθόνη σας, μπορεί να θέλετε αυτόματο κλείδωμα της οθόνης του υπολογιστή σας μετά από ορισμένη περίοδο χρόνου. Αυτό θα βοηθήσει την ασφάλεια του υπολογιστή σας, όταν δεν τον χρησιμοποιείτε.</p>
+
+  <note><p>Όταν η οθόνη σας είναι κλειδωμένη, οι εφαρμογές σας και οι διεργασίες συστήματος θα συνεχίσουν την εκτέλεση, αλλά θα χρειαστείτε να εισάγετε τον κωδικό πρόσβασής σας για να αρχίσετε τις χρησιμοποιείτε ξανά.</p></note>
+  
+  <steps>
+    <title>Για να ορίσετε τη διάρκεια του χρόνου πριν να κλειδωθεί η οθόνη σας αυτόματα:</title>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Ιδιωτικότητα</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε <gui>Ιδιωτικότητα</gui> για να ανοίξετε το φάτνωμα.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε <gui>Κλείδωμα οθόνης</gui>.</p>
+    </item>
+    <item>
+      <p>Make sure <gui>Automatic Screen Lock</gui> is switched <gui>ON</gui>,
+      then select a length of time from the drop-down list.</p>
+    </item>
+    <item>
+      <p>Για να επιτρέψετε στις ειδοποιήσεις να εμφανίζονται στο κλείδωμα οθόνης, αλλάξτε το <gui>Εμφάνιση ειδοποιήσεων</gui> σε <gui>ΝΑΙ</gui>.</p>
+    </item>
+    <item>
+      <p>Click the <gui>X</gui> to close.</p>
+    </item>
+  </steps>
+
+  <p>When your screen is locked, and you want to unlock it, press
+  <key>Esc</key>, or swipe up from the bottom of the screen with your mouse.
+  Then enter your password, and press <key>Enter</key> or click
+  <gui>Unlock</gui>. Alternatively, just start typing your password and the
+  lock curtain will be automatically raised as you type.</p>
+
+</page>

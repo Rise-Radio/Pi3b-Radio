@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="user-delete" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="user-accounts#manage"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email its:translate="no">tiffany@antopolski.com</email>
+    </credit>
+    <credit type="author">
+      <name>Proyecto de documentación de GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Eliminar usuarios que ya no usan su equipo</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Eliminar una cuenta de usuario</title>
+
+  <p>Puede <link xref="user-add">añadir varias cuentas de usuario a su equipo</link>. Si alguien no va a volver a usar su equipo, puede eliminar esa cuenta de usuario.</p>
+
+  <p>Necesita <link xref="user-admin-explain">privilegios de administrador</link> para eliminar cuentas de usuario.</p>
+
+  <steps>
+    <item>
+      <p>Abra la vista de <gui xref="shell-terminology">Actividades</gui> y empiece a escribir <gui>Usuarios</gui>.</p>
+    </item>
+    <item>
+      <p>Pulse en <gui>Usuarios</gui> para abrir el panel.</p>
+    </item>
+    <item>
+      <p>Pulse <gui style="button">Desbloquear</gui> en la esquina superior derecha e introduzca su contraseña cuando se le pida.</p>
+    </item>
+    <item>
+      <p>Seleccione el usuario que quiere eliminar y pulse el botón <gui style="button">-</gui>, debajo de la lista de cuentas de la izquierda, para eliminar esa cuenta de usuario.</p>
+    </item>
+    <item>
+      <p>Each user has their own home folder for their files and settings. You
+      can choose to keep or delete the user's home folder. Click <gui>Delete
+      Files</gui> if you are sure they will not be used anymore and you need to
+      free up disk space. These files are permanently deleted. They cannot be
+      recovered. You may want to back up the files to an external drive or CD
+      before deleting them.</p>
+    </item>
+  </steps>
+
+</page>

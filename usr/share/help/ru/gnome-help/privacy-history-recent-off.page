@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-history-recent-off" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+
+    <revision pkgversion="3.8" date="2013-03-11" status="final"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Джим Кэмпбелл (Jim Campbell)</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Stop or limit your computer from tracking your recently-used
+    files.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Turn off or limit file history tracking</title>
+  
+  <p>Отслеживание последних использованных файлов и папок может облегчить поиск материалов, с которыми вы работаете, но вам могут понадобиться настройки приватности.</p>
+
+  <steps>
+    <title>Чтобы включить параметры отслеживания истории изменения файлов рабочего стола:</title>
+    <item>
+      <p>Откройте режим <gui xref="shell-terminology">Обзора</gui> и начинайте вводить <gui>Конфиденциальность</gui>.</p>
+    </item>
+    <item>
+      <p>Нажмите <gui>Конфиденциальность</gui> чтобы открыть этот раздел настроек.</p>
+    </item>
+    <item>
+      <p>Выберите <gui>Статистика и история</gui>.</p>
+    </item>
+    <item>
+     <p>Выключите переключатель <gui>Недавно использованные</gui>.</p>
+     <p>Чтобы снова активировать этот параметр, включите переключатель <gui>Последние использованные</gui>.</p>
+    </item>
+    <item>
+      <p>Use the <gui>Clear Recent History</gui> button to purge the history
+      immediately.</p>
+    </item>
+  </steps>
+  
+  <note><p>Эти настройки не повлияют на параметры хранения информации о посещённых сайтах в вашем браузере.</p></note>
+
+  <steps>
+    <title>To restrict the amount of time your file history is tracked:</title>
+    <item>
+      <p>Откройте режим <gui xref="shell-terminology">Обзора</gui> и начинайте вводить <gui>Конфиденциальность</gui>.</p>
+    </item>
+    <item>
+      <p>Нажмите <gui>Конфиденциальность</gui> чтобы открыть этот раздел настроек.</p>
+    </item>
+    <item>
+      <p>Выберите <gui>Статистика и история</gui>.</p>
+    </item>
+    <item>
+     <p>Ensure the <gui>Recently Used</gui> switch is <gui>ON</gui>.</p>
+    </item>
+    <item>
+     <p>Select the length of time to <gui>Retain History</gui>. Choose from
+     options <gui>1 day</gui>, <gui>7 days</gui>, <gui>30 days</gui>, or
+     <gui>Forever</gui>.</p>
+    </item>
+    <item>
+      <p>Use the <gui>Clear Recent History</gui> button to purge the history
+      immediately.</p>
+    </item>
+  </steps>
+
+</page>

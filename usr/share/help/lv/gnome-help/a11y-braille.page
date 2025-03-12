@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-braille" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="a11y#vision" group="blind"/>
+    <link type="seealso" xref="a11y-screen-reader"/>
+
+    <revision pkgversion="3.9.92" date="2013-09-18" status="incomplete"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+
+    <desc>Lietojiet <app>Orca</app> ekrāna lasītāju ar atsvaidzināmu Braila ekrānu.</desc>
+  </info>
+
+  <title>Lasīt ekrānu ar Brailu</title>
+
+  <p>GNOME nodrošina <app>Orca</app> ekrāna lasītāju, lai attēlotu lietotāja saskarni uz atsvaidzināma Braila ekrāna. Atkarībā no veida, kā esat uzinstalējis GNOME, jums varētu nebūt uzinstalēta Orca. <link href="install:orca">Instalējiet Orca</link>, tad skatiet <link href="help:orca">Orca palīdzību</link>, lai iegūtu vairāk informācijas.</p>
+
+</page>

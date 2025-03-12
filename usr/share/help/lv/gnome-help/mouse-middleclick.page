@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="mouse-middleclick" xml:lang="lv">
+
+<info>
+ <desc>Izmanto peles vidējo pogu, lai atvērtu lietotnes, ielīmētu tekstu, atvērtu cilnes un vēl.</desc>
+
+ <link type="guide" xref="tips"/>
+ <link type="guide" xref="mouse#tips"/>
+
+ <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+
+ <credit type="author">
+  <name>Tiffany Antopolski</name>
+  <email>tiffany.antopolski@gmail.com</email>
+ </credit>
+ <credit type="author">
+   <name>Shaun McCance</name>
+   <email>shaunm@gnome.org</email>
+ </credit>
+ <credit type="editor">
+   <name>Michael Hill</name>
+   <email>mdhillca@gmail.com</email>
+ </credit>
+ <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+</info>
+
+<title>Vidējais klikšķis</title>
+
+<p>Daudzām pelēm un dažiem skārienpaliktņiem ir vidējā poga. Ar peli, kurai ir ritentiņš, parasti vari nospiest ritentiņu tieši uz leju, lai izpildītu vidējo klikšķi. Ja pelei nav vidējās pogas, jūs varat nospiest kreiso un labo peles pogu reizē, lai izpildītu vidējo klikšķi.</p>
+
+<p>Uz skārienpaliktņiem, kuri atbalsta vairāku pirkstu sitienus, tu vari uzsist ar 3 pirkstiem reizē lai veiktu vidējo klikšķi. Jums ir <link xref="mouse-touchpad-click">jāieslēdz klikšķi ar uzsitienu</link> sava skārienpaliktņa iestatījumos, lai tas strādātu.</p>
+
+<p>Daudzas lietotnes izmanto vidējo klikšķi dažām klikšķināšanas saīsnēm.</p>
+
+<list>
+  <item><p>Viena no biežākajām saīsnēm ir teksta ielīmēšana. Atlasi tekstu, kuru vēlies ielīmēt, tad ej uz vietu, kur to vēlies ielīmēt un izpildi vidējo klikšķi. Izvēlētais teksts tiks ielīmēts peles rādītāja vietā.</p>
+  <p>Teksta ielīmēšana ar vidējo peles pogu ir pilnīgi nošķirta no ierastās starpliktuves. Teksta atlasīšana to neiekopē tavā starpliktuvē. Šī ātrā ielīmēšanas metode strādā tikai ar vidējo peles pogu.</p></item>
+
+  <item><p>Ritjoslām un slīdņiem nospiešana uz tukšas vietas pakustina šo joslu par noteiktu attālumu (piemēram 1 lappusi) tajā virzienā, kurā jūs nospiedāt. Varat veikt vidējo klikšķi šajā tukšajā vietā, lai to aizvirzītu precīzi uz vietu, kur nospiedāt.</p></item>
+
+  <item><p><gui>Aktivitātes</gui> pārskatā, jūs varat ērti atvērt jaunu logu katrai lietotnei ar vidējo klikšķi. Vienkārši veic vidējo klikšķi uz lietotnes ikonas panelī pa kreisi vai lietotņu pārskatā. Lietotņu pārskats tiek attēlots, izmantojot režģa pogu panelī.</p></item>
+
+  <item><p>Vairums tīmekļa pārlūku ļauj jums atvērt saites jaunās cilnēs ar vidējo klikšķi. Vienkārši nospied uz jebkuras saites ar vidējo klikšķi un tā atvērs jaunu cilni. Uzmanies, spiežot uz saitēm <app>Firefox</app> pārlūkā, jo veicot vidējo klikšķi jebkur citur, izņemot uz kādas saites, pārlūks mēģinās ielādēt izvēlēto tekstu kā saiti, tā pat, kā izmantojot vidējo klikšķi, lai ielīmētu saiti adreses laukā un nospiestu <key>Enter</key>.</p></item>
+
+  <item><p>Datņu pārvaldniekā vidējam klikšķim ir divas lomas. Ja veiksi vidējo klikšķi uz mapes, tā atvērsies jaunā cilnē. Tas imitē interneta pārlūku darbību. Ja veiksi vidējo klikšķi uz datnes, tas atvērs šo datni tā pat, kā ja būtu veicis dubultklikšķi.</p></item>
+</list>
+
+<p>Dažas specializētas lietotnes ļauj izmantot vidējo klikšķi dažādām citām funkcijām. Meklē savas lietotnes dokumentāciju par <em>vidējo klikšķi</em> vai <em>vidējo peles pogu</em>.</p>
+</page>

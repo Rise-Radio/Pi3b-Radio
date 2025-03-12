@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="sound-volume" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="media#sound"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author">
+      <name>Fil Bul</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+
+    <credit type="author">
+      <name>Šon Mek Kens</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Podesite jačinu zvuka na računaru i odredite glasnost svakog programa.</desc>
+  </info>
+
+<title>Izmenite jačinu zvuka</title>
+
+  <p>Da izmenite jačinu zvuka, otvorite <gui xref="shell-terminology">sistemski izbornik</gui> na desnoj strani gornje trake i pomerajte klizač jačine zvuka levo ili desno. Možete u potpunosti da isključite zvuk tako što ćete potpuno prevući klizač na levu stranu.</p>
+
+  <p>Neke tastature imaju tastere koji vam omogućavaju da upravljate jačinom zvuka. Ovi tasteri obično izgledaju kao zvučnici iz kojih izlaze zvučni talasi. Često se nalaze blizu tastera „F“ na vrhu. Na tastaturama prenosnih računara, obično se nalaze na „F“ tasterima. Držite pritisnutim taster <key>Fn</key> na tastaturi da ih koristite.</p>
+
+  <p>Naravno, ako imate spoljne zvučnike, možete da promenite jačinu zvučnika koristeći dugme za pojačavanje koje se nalazi na samim zvučnicima. Neke slušalice takođe imaju dugme za podešavanje jačine zvuka.</p>
+
+<section id="apps">
+ <title>Izmenite jačinu zvuka za pojedinačne programe</title>
+
+  <p>Možete da izmenite jačinu zvuka jednog programa, ali da ostavite neizmenjenom jačinu zvuka drugih programa. Ovo je korisno ako slušate muziku i razgledate veb, na primer. Možete da isključite zvuk u veb pregledniku tako da zvuci sa veb sajtova ne ometaju muziku.</p>
+  <p>Neki programi imaju dugmad za regulisanje jačine zvuka na svojim glavnim prozorima. Ako vaš program ima jedno od ovih, koristite ga da promenite jačinu zvuka. U suprotnom, otvorite <app>Podešavanja</app> iz pregleda <gui>aktivnosti</gui> i pritisnite <gui>Zvuk</gui>. Idite na jezičak <gui>Programi</gui> i u njemu promenite jačinu zvuka za dati program.</p>
+  <p>Samo programi koji trenutno puštaju zvuk će biti na spisku. Ako neki program koji trenutno pušta zvuk nije na spisku, možda ne podržava funkciju koja vam dopušta da upravljate jačinom zvuka na ovaj način. U tom slučaju, nećete moći da promenite njegovu jačinu zvuka.</p>
+
+</section>
+
+</page>

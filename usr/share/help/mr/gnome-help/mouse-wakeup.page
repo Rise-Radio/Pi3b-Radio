@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="mouse-wakeup" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="mouse#problems"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+
+    <desc>प्रतिसाद देण्यापूर्वी माउसला आळोखेपिळोखे द्यायचे किंवा क्लिक करायचे असल्यास.</desc>
+    <credit type="author">
+      <name>GNOME डॉक्युमेंटेशन प्रकल्प</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>कार्य करण्यापूर्वी माउस विलंबसह प्रतिसाद देतो</title>
+
+  <p>वायरलेस आणि ऑप्टिकल माइस, तसेच लॅपटॉप्सवरील टचपॅड्स, यास सुरू करण्यापूर्वी "wake up" ची आवश्यकता असेल. वापर नसताना, बॅटरी पावर साठवण्याकरिता, ते स्वयंरित्या स्लीपमध्ये जातात. माउस किंवा टचपॅडला वेकअप करण्यासाठी, तुम्ही माउस बटन क्लिक करू शकता किंवा माउसची हालचाल करा.</p>
+  <p>टायपिंग थांबल्यानंतर आणि ते सुरू होण्याआधी लॅपटॉप टचपॅड्स कधीकधी विलंबसह प्रतिसाद देतात. यास टाइप करताना तळहाताने योगायोगाने टचपॅडला स्पर्श करण्यापासून टाळण्याकरिता केले जाते. तपशीलकरिता <link xref="mouse-disabletouchpad"/> पहा.</p>
+</page>

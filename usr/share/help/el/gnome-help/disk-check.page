@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="disk-check" xml:lang="el">
+  <info>
+    <link type="guide" xref="disk"/>
+
+
+    <credit type="author">
+      <name>Έργο Τεκμηρίωσης GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Natalia Ruz Leiva</name>
+      <email>nruz@alumnos.inf.utfsm.cl</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision pkgversion="3.13.91" date="2014-09-05" status="review"/>
+
+    <desc>Να ελέγξετε τον σκληρό σας δίσκο για προβλήματα για να βεβαιωθείτε ότι είναι υγιής.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Να ελέγξετε τον σκληρό σας δίσκο για προβλήματα</title>
+
+<section id="disk-status">
+ <title>Έλεγχος του σκληρού δίσκου</title>
+  <p>Οι σκληροί δίσκοι έχουν ένα ενσωματωμένο εργαλείο ελέγχου υγείας που λέγεται <app>SMART</app> (τεχνολογία αυτοπαρακολούθησης, ανάλυσης και αναφοράς), που ελέγχει συνεχώς τον δίσκο για δυνητικά προβλήματα. Το SMART επίσης προειδοποιεί εάν ο δίσκος πρόκειται να αστοχήσει, βοηθώντας την αποφυγή απώλειας σημαντικών δεδομένων.</p>
+
+  <p>Αν και το SMART εκτελείται αυτόματα, μπορείτε επίσης να ελέγξετε την υγεία του δίσκου σας εκτελώντας την εφαρμογή <app>δίσκοι</app>:</p>
+
+<steps>
+ <title>Ελέγξετε την υγεία του δίσκου σας χρησιμοποιώντας την εφαρμογή δίσκοι</title>
+
+  <item>
+    <p>Open <app>Disks</app> from the <gui>Activities</gui> overview.</p>
+  </item>
+  <item>
+    <p>Select the disk you want to check from the list of storage devices on
+    the left. Information and status of the disk will be shown.</p>
+  </item>
+  <item>
+    <p>Click the gear icon and select <gui>SMART Data &amp; Self Tests…</gui>.
+    The <gui>Overall Assessment</gui> should say "Disk is OK".</p>
+  </item>
+  <item>
+    <p>See more information under <gui>SMART Attributes</gui>, or click the
+    <gui style="button">Start Self-test</gui> button to run a self-test.</p>
+  </item>
+
+</steps>
+
+</section>
+
+<section id="disk-not-healthy">
+
+ <title>Τι γίνεται εάν ο δίσκος δεν είναι υγιής;</title>
+
+  <p>Even if the <gui>Overall Assessment</gui> indicates that the disk
+  <em>isn't</em> healthy, there may be no cause for alarm. However, it's better
+  to be prepared with a <link xref="backup-why">backup</link> to prevent data
+  loss.</p>
+
+  <p>Εάν η κατάσταση λέει "προαποτυχία", ο δίσκος είναι ακόμα αρκετά υγιής αλλά σημάδια φθοράς έχουν ανιχνευθεί που σημαίνει ότι μπορεί να αστοχήσει στο κοντινό μέλλον. Εάν ο σκληρός σας δίσκος (ή υπολογιστής) είναι σχετικά πρόσφατος, είναι πιθανό να δείτε αυτό το μήνυμα τουλάχιστον σε μερικούς από τους ελέγχους υγείας. Θα πρέπει <link xref="backup-how">να αντιγράφετε τα σημαντικά σας αρχεία κανονικά</link> και να ελέγχετε την κατάσταση του δίσκου περιοδικά για να δείτε εάν χειροτερεύει.</p>
+
+  <p>Εάν χειροτερεύει, ίσως θελήσετε να πάτε τον υπολογιστή/σκληρό δίσκο σε έναν επαγγελματία για παραπέρα διάγνωση ή επισκευή.</p>
+
+</section>
+
+</page>

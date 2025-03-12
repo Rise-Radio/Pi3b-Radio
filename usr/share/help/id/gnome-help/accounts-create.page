@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-create" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Membuat akun baru memakai <app>Akun Daring</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2011, 2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Buat akun daring</title>
+
+  <p>Beberapa penyedia layanan akun daring mengijinkan Anda membuat akun ketika sedang menambahkannya ke <em>Akun Daring</em>. Ini memungkinkan Anda mengelola semua akun daring Anda dari satu aplikasi.</p>
+
+  <!-- Tested with Google -->
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Klik <gui style="button">+</gui>.</p>
+    </item>
+    <item>
+      <p>Pilih suatu tipe akun yang ingin Anda tambahkan. Beberapa tipe akun mungkin <link xref="accounts-provider-not-available">tak tersedia</link>.</p>
+    </item>
+    <item>
+      <p>Bila layanan mengijinkan Anda membuat suatu akun, Anda bakal melihat lebih banyak informasi tentang bagaimana melakukan ini.</p>
+      <note>
+        <p>Tak semua penyedia akun daring menawarkan opsi untuk membuat akun pada tahap ini; bila layanan yang Anda ingin daftari tak menyediakan opsi untuk mendaftarkan akun pada titik ini, Anda perlu memakai metoda alternatif untuk membuat akun.</p>
+      </note>
+    </item>
+    <item>
+      <p>Isi formulir pendaftaran: Anda biasanya akan ditanyai beberapa rincian pribadi seperti nama pengguna dan sandi.</p>
+    </item>
+    <item>
+      <p>Anda perlu memberi ijin kepada GNOME untuk mengakses akun baru Anda untuk memakainya dengan <app>Akun Daring</app></p>
+    </item>
+    <item>
+      <p>All services that are offered by an account provider will be enabled
+      by default. <link xref="accounts-disable-service">Switch</link>
+      individual services to <gui>OFF</gui> to disable them.</p>
+    </item>
+  </steps>
+
+</page>

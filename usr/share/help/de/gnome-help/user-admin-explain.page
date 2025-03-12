@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="tip" id="user-admin-explain" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="user-accounts#privileges"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-03" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>GNOME-Dokumentationsprojekt</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Sie benötigen Systemverwalterrechte, um Änderungen an wichtigen Teilen Ihres Systems vorzunehmen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Wie funktionieren Systemverwalter-Privilegien?</title>
+
+  <p>Neben den Dateien, die <em>Sie</em> erstellen, befindet sich auf Ihrem Rechner eine Reihe von Dateien, die vom System benötigt werden, damit es einwandfrei funktioniert. Wenn diese wichtigen <em>Systemdateien</em> unsachgemäß verändert werden, können sie allerlei Schaden anrichten, weswegen sie standardmäßig vor Änderungen geschützt sind. Bestimmte Anwendungen verändern auch wichtige Teile des Systems und sind somit ebenfalls geschützt.</p>
+
+  <p>The way that they are protected is by only allowing users with
+  <em>administrative privileges</em> to change the files or use the
+  applications. In day-to-day use, you will not need to change any system files
+  or use these applications, so by default you do not have administrative
+  privileges.</p>
+
+  <p>Sometimes you need to use these applications, so you may be able to
+  temporarily get administrative privileges to allow you to make the changes.
+  If an application needs administrative privileges, it will ask for your
+  password. For example, if you want to install some new software, the software
+  installer (package manager) will ask for your administrator password so it
+  can add the new application to the system. Once it has finished, your
+  administrative privileges will be taken away again.</p>
+
+  <p>Administrative privileges are associated with your user account.
+  <gui>Administrator</gui> users are allowed to have these privileges while
+  <gui>Standard</gui> users are not. Without administrative privileges you will
+  not be able to install software. Some user accounts (for example, the "root"
+  account) have permanent administrative privileges. You should not use
+  administrative privileges all of the time, because you might accidentally
+  change something you did not intend to (like delete a needed system file, for
+  example).</p>
+
+  <p>Kurzum: Systemverwalterrechte ermöglichen es Ihnen, wichtige Teile Ihres Systems zu ändern, wenn es notwendig ist, hindern Sie aber daran, dies versehentlich zu tun.</p>
+
+  <note>
+    <title>Was bedeutet »super user«?</title>
+    <p>A user with administrative privileges is sometimes called a <em>super
+    user</em>. This is simply because that user has more privileges than normal
+    users. You might see people discussing things like <cmd>su</cmd> and
+    <cmd>sudo</cmd>; these are programs for temporarily giving you "super user"
+    (administrative) privileges.</p>
+  </note>
+
+<section id="advantages">
+  <title>Warum sind Systemverwalter-Privilegien sinnvoll?</title>
+
+  <p>Die Erfordernis, dass Benutzer Systemverwalter-Privilegien vor dem Ändern wichtiger Systemeinstellungen erlangen müssen, ist sinnvoll, weil es Ihr System davor schützt, absichtlich oder unabsichtlich beschädigt zu werden.</p>
+
+  <p>Wenn Sie die ganze Zeit Systemverwalterrechte hätten, könnten Sie unabsichtlich eine wichtige Datei ändern oder eine Anwendung starten, die versehentlich etwas Wichtiges ändert. Systemverwalterrechte nur vorübergehend und nur dann zu erhalten, wenn Sie sie brauchen, verringert das Risiko solcher Versehen.</p>
+
+  <p>Nur bestimmten, vertrauenswürdigen Benutzern sollte es erlaubt sein, Systemverwalterrechte zu erhalten. Dies hindert andere Benutzer daran, am Rechner herumzupfuschen und Dinge anzustellen, wie etwa Anwendungen zu entfernen, die Sie brauchen, oder Anwendungen zu installieren, die Sie nicht haben wollen, oder wichtige Dateien zu ändern. In Hinblick auf die Sicherheit ist das nützlich.</p>
+
+</section>
+
+</page>

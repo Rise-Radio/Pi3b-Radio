@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="a11y task" id="a11y" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index" group="a11y"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <desc><link xref="a11y#vision">όραση</link>,<link xref="a11y#sound">ακοή</link>, <link xref="a11y#mobility">κινητικότητα</link>, <link xref="a11y-braille">Μπράιγ</link>, <link xref="a11y-mag">μεγεθυντής οθόνης</link>…</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Γενική πρόσβαση</title>
+
+  <p>Η επιφάνεια εργασίας GNOME περιλαμβάνει τεχνολογίες υποβοήθησης για υποστήριξη χρηστών με ποικίλα μειονεκτήματα και ειδικές ανάγκες και αλληλεπιδρά με κοινές συσκευές υποβοήθησης. Ένα μενού προσβασιμότητας μπορεί να προστεθεί στην πάνω γραμμή, δίνοντας ευκολότερη πρόσβαση σε πολλά γνωρίσματα προσβασιμότητας.</p>
+
+  <section id="vision">
+    <title>Οπτικές δυσλειτουργίες</title>
+
+    <links type="topic" groups="blind" style="linklist">
+      <title>Τύφλωση</title>
+    </links>
+    <links type="topic" groups="lowvision" style="linklist">
+      <title>Χαμηλή όραση</title>
+    </links>
+    <links type="topic" groups="colorblind" style="linklist">
+      <title>Αχρωματοψία</title>
+    </links>
+    <links type="topic" style="linklist">
+      <title>Άλλα θέματα</title>
+    </links>
+  </section>
+
+  <section id="sound">
+    <title>Προβλήματα ακοής</title>
+    <links type="topic" style="linklist"/>
+  </section>
+
+  <section id="mobility">
+    <title>Κινητικά προβλήματα</title>
+
+    <links type="topic" groups="pointing" style="linklist">
+      <title>Κίνηση ποντικιού</title>
+    </links>
+    <links type="topic" groups="clicking" style="linklist">
+      <title>Πάτημα και μεταφορά</title>
+    </links>
+    <links type="topic" groups="keyboard" style="linklist">
+      <title>Χρήση του πληκτρολογίου</title>
+    </links>
+    <links type="topic" style="linklist">
+      <title>Άλλα θέματα</title>
+    </links>
+  </section>
+</page>

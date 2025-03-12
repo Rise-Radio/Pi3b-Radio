@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc>Az <app>Online fiókok</app> alkalmazásban felvett fiókokat használni képes alkalmazások és az általuk használható szolgáltatások.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Griechisch Erika</mal:name>
+      <mal:email>griechisch.erika at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kucsebár Dávid</mal:name>
+      <mal:email>kucsdavid at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lakatos 'Whisperity' Richárd</mal:name>
+      <mal:email>whisperity at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lukács Bence</mal:name>
+      <mal:email>lukacs.bence1 at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nagy Zoltán</mal:name>
+      <mal:email>dzodzie at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Mely alkalmazások használják az Online fiókokat?</title>
+
+  <p>Az <app>Online fiókok</app> segítségével a külső alkalmazások automatikusan beállíthatják magukat.</p>
+
+<section id="accounts-google-services">
+  <title>Google fiókkal</title>
+
+  <list>
+    <item>
+      <p>Az <app>Evolution</app> levelező. A postafiókja automatikusan felvételre kerül az <app>Evolutionbe</app>, így az letöltheti leveleit, elérheti címjegyzékét és megjelenítheti Google naptárának elemeit.</p>
+    </item>
+    <item>
+      <p>Az <app>Empathy</app> azonnaliüzenő, amelybe felvételre kerül online fiókja, és elkezdhet üzeneteket váltani barátaival.</p>
+    </item>
+    <item>
+      <p>A <app>Névjegyek</app> alkalmazás, amelyben megjelenítheti és szerkesztheti névjegyeit.</p>
+    </item>
+    <item>
+      <p>A <app>Dokumentumok</app> alkalmazás, amellyel elérheti és megjelenítheti online dokumentumait.</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>Windows Live, Facebook vagy Twitter fiókokkal</title>
+
+  <p>Az <app>Empathy</app> képes használni ezeket a fiókokat, és elkezdhet üzeneteket váltani partnereivel, barátaival és követőivel.</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>OneDrive fiókkal</title>
+
+  <p>A <app>Dokumentumok</app> alkalmazás, amellyel elérheti és megjelenítheti a Microsoft OneDrive online dokumentumait.</p>
+</section>
+
+<section id="account-exchange">
+  <title>Exchange fiókkal</title>
+
+  <p>Miután létrehozott egy Exchange fiókot, az <app>Evolution</app> elkezdi lekérni a fiókba érkezett leveleket.</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>ownCloud fiókkal</title>
+
+  <p>Egy saját ownCloud fiók beállítása után az <app>Evolution</app> el tudja érni és szerkeszteni tudja a névjegyeket és a naptári találkozókat.</p>
+
+  <p>A <app>Fájlok</app> és más alkalmazások meg tudják jeleníteni és el tudják érni az ownCloud telepítésben online tárolt fájlokat.</p>
+</section>
+
+</page>

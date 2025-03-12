@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="wacom-multi-monitor" xml:lang="lv">
+  <info>
+
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <link type="guide" xref="wacom"/>
+
+    <credit type="author copyright">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc>Attēlot Wacom planšeti uz specifisku monitoru.</desc>
+  </info>
+
+  <title>Izvēlieties monitoru</title>
+
+<steps>
+  <item>
+    <p>Atveriet <link xref="shell-terminology">aktivitāšu</link> pārskatu un sāciet rakstīt <gui>Wacom planšete</gui>.</p>
+  </item>
+  <item>
+    <p>Spiediet <gui>Wacom planšete</gui>, lai atvērtu paneli.</p>
+
+    <note style="tip"><p>Ja nav atklātu planšetu, jums prasīs <gui>Lūdzu, pievienojiet un ieslēdziet savu Wacom planšeti</gui>, spiediet uz saites <gui>Bluetooth iestatījumi</gui>, lai savienotos ar bezvadu planšeti.</p></note>
+  </item>
+  <item><p>Spiediet <gui>Attēlot uz monitoru</gui>.</p></item>
+  <item><p>Spiediet <gui>Attēlot uz viena monitora</gui>.</p></item>
+  <item><p>Pie <gui>Izvades</gui>, izvēlieties monitoru, uz ko vēlaties sūtīt ievadi no savas grafiskās planšetes.</p>
+     <note style="tip"><p>Varēs izvēlēties tikai monitorus, kas ir konfigurēti.</p></note>
+  </item>
+  <item>
+    <p>Pārslēdziet <gui>Paturēt izmēra attiecību (platekrāns)</gui> uz <gui>|</gui>, lai atbilstu planšetes zīmēšanas laukumam ar monitora proporcijām. Zināma arī kā <em>proporciju uzspiešana</em>, šis iestatījums <em>projicē</em> zīmēšanas  laukumu uz, piemēram, 4:3 planšeti, lai tā precīzi atbilstu platekrāna displejam.</p>
+  </item>
+  <item><p>Spiediet <gui>Aizvērt</gui>.</p></item>
+</steps>
+
+</page>

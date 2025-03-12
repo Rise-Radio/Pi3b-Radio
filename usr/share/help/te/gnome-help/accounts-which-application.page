@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="te">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>మైకేల్ హిల్</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc><app>ఆన్‌లైన్ ఖాతాలు</app> నందు సృష్టించిన ఖాతాలను మరియు అవి ఇచ్చే సేవలను అనువర్తనాలు వుపయోగించగలవు.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Praveen Illa</mal:name>
+      <mal:email>mail2ipn@gmail.com</mal:email>
+      <mal:years>2011, 2014. </mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>కృష్ణబాబు క్రొత్తపల్లి</mal:name>
+      <mal:email>kkrothap@redhat.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>ఆన్‌లైన్ ఖాతాల ప్రయోజనాన్ని ఏ అనువర్తనాలు తీసుకోగలవు?</title>
+
+  <p>వాటంతటవే స్వయంచాలకంగా ఆకృతీకరించుటకు <app>ఆన్‌లైన్ ఖాతాలు</app> బాహ్య అనువర్తనములచేత వుపయోగించబడగలవు.</p>
+
+<section id="accounts-google-services">
+  <title>గూగుల్ ఖాతా తో</title>
+
+  <list>
+    <item>
+      <p><app>ఎవాల్యూషన్</app>, ఈమెయిల్ అనువర్తనం. మీ ఈమెయిల్ ఖాతా అనునది స్వయంచాలకంగా <app>ఎవాల్యూషన్</app> కు జతచేయబడును, కనుక అది మీ మెయిల్‌ను పొందును, మీ పరిచయాలకు ఏక్సెస్ ఇచ్చును, మరియు మీ గూగుల్ ఎజెండానందు క్యాలెండర్ అంశాలను ప్రదర్శించు.</p>
+    </item>
+    <item>
+      <p><app>ఎంపతి</app>, సత్వర సందేశ అనువర్తనం. మీ ఆన్‌లైన్ ఖాతా జతచేయబడును మరియు మీరు మీ స్నేహితులతో సంప్రదించబడుదురు.</p>
+    </item>
+    <item>
+      <p><app>పరిచయాలు</app>, ఇది మీ పరిచయాలను చూడుటకు మరియు సరికూర్చుటకు అనుమతించును.</p>
+    </item>
+    <item>
+      <p><app>పత్రములు</app> మీ ఆన్‌లైన్ పత్రములను ఏక్సెస్ చేయగలవు మరియు వాటిని ప్రదర్శించగలవు.</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>విండోస్ లైవ్, ఫేస్‌బుక్ లేదా ట్విట్టర్ ఖాతాలు</title>
+
+  <p><app>ఎంపతి</app> అనునది మిమ్ములను అన్‌లైన్‌కు అనుసంధానించుటకు మరియు మీ పరిచయస్తులతో, స్నేహితులతో, అనుచరగణంతో సంభాషించుటకు ఈ ఖాతాలను వుపయోగించును.</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>With a OneDrive account</title>
+
+  <p><app>Documents</app> can access your online documents in Microsoft
+  OneDrive and display them.</p>
+</section>
+
+<section id="account-exchange">
+  <title>ఏక్సుచేంజ్ ఖాతాతో</title>
+
+  <p>మీరు ఒక ఎక్సుచేంజ్ ఖాతాను సృష్టించిన తరువాత, ఈ ఖాతా నుండి మెయిళ్ళను పొందుటకు <app>ఎవాల్యూషన్</app> ప్రారంభించును.</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>ఓన్‌క్లౌడ్ ఖాతా తో</title>
+
+  <p>ఒక ఓన్‌క్లౌడ్ ఖాతా అమర్చినతరువాత, <app>ఎవాల్యూషన్</app> అనునది పరిచయాలను మరియు క్యాలెండర్ నియామకాలను ఏక్సెస్ చేయగలదు మరియు సరికూర్చగలదు.</p>
+
+  <p><app>ఫైల్స్</app> మరియు ఇతర అనువర్తనాలు అనునవి ఓన్‌క్లౌడ్ సంస్థాపన నందు నిల్వవున్న మీ ఆన్‌లైన్ ఫైళ్ళను ఏక్సెస్ చేయును మరియు జాబితా చేయును.</p>
+</section>
+
+</page>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="accounts" xml:lang="te">
+
+  <info>
+    <link type="guide" xref="prefs"/>
+
+    <revision pkgversion="3.5.5" version="0.1" date="2012-08-14" status="review"/>
+
+    <credit type="author">
+      <name>ఫిల్ బుల్</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <desc><link xref="accounts-create">కొత్త ఖాతా సృష్టించు</link>, <link xref="accounts-add">ఇప్పటికే వున్న ఖాతా జతచేయి</link>, <link xref="accounts-remove">ఒక ఖాతా తీసివేయి</link>…</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Praveen Illa</mal:name>
+      <mal:email>mail2ipn@gmail.com</mal:email>
+      <mal:years>2011, 2014. </mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>కృష్ణబాబు క్రొత్తపల్లి</mal:name>
+      <mal:email>kkrothap@redhat.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>ఆన్‌లైన్ ఖాతాలు</title>
+
+  <p>You can enter your login details for some online services (such as Google
+  and Facebook) into the <app>Online Accounts</app> window. This will let you
+  easily access your calendar, mail, chat accounts, and similar, from those
+  applications without having to enter your account details again.</p>
+
+</page>

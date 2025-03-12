@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="files-delete" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="files"/>
+    <link type="seealso" xref="files-recover"/>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-16" status="review"/>
+    <revision pkgversion="3.13.92" date="2013-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Cristopher Thomas</name>
+      <email>crisnoh@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Izņemt datnes vai mapes, kas vairs nav vajadzīgas.</desc>
+  </info>
+
+<title>Dzēst datnes un mapes</title>
+
+  <p>If you do not want a file or folder any more, you can delete it. When you
+  delete an item it is moved to the <gui>Trash</gui> folder, where it is stored
+  until you empty the trash. You can <link xref="files-recover">restore items
+  </link> in the <gui>Trash</gui> folder to their original location if you
+  decide you need them, or if they were accidentally deleted.</p>
+
+  <steps>
+    <title>Lai aizsūtītu datni uz miskasti:</title>
+    <item><p>Izvēlieties vienumu, kuru vēlaties izdzēst, uz tā vienreiz uzklikšķinot.</p></item>
+    <item><p>Nospiediet <keyseq><key>Ctrl</key><key>Delete</key></keyseq> uz tastatūras. Vai arī ievelciet vienumu <gui>Miskastē</gui> sānu joslā.</p></item>
+  </steps>
+
+  <p>Lai dzēstu datnes neatgriezeniski un atbrīvotu brīvu vietu jūsu datorā, jāiztukšo miskaste. Lai to izdarītu, veiciet labo peles klikšķi uz <gui>Miskastes</gui> sānu joslā un izvēlieties <gui>Iztukšot miskasti</gui>.</p>
+
+  <section id="permanent">
+    <title>Neatgriezeniski izdzēst datni</title>
+    <p>Jūs varat neatgriezeniski izdzēst datni tūlīt, nepārvietojot to uz miskasti.</p>
+
+  <steps>
+    <title>Lai neatgriezeniski izdzēstu datni:</title>
+    <item><p>Izvēlieties vienumu, kuru vēlaties izdzēst.</p></item>
+    <item><p>Piespiediet un turiet <key>Shift</key> taustiņu, tad nospiediet <key>Delete</key> taustiņu.</p></item>
+    <item><p>Tā kā šo darbību nevar atsaukt, jums tiks prasīts apstiprinājums, ka tiešām vēlaties izdzēst datni vai mapi.</p></item>
+  </steps>
+
+  <note style="tip"><p>Ja jums bieži jādzēš datnes, neizmantojot miskasti (piemēram, ja  bieži strādājat ar konfidenciāliem datiem), jūs varat pievienot komandu <gui>Dzēst</gui> labās peles pogas izvēlnei datnēm un mapēm. Spiediet <gui>Datnes</gui> augšējā joslā, izvēlieties <gui>Iestatījumi</gui> un izvēlieties cilni <gui>Uzvedība</gui>. Atzīmējiet <gui>Iekļaut dzēšanas komandu, kas apiet miskasti</gui>.</p></note>
+
+  <note><p>Izdzēstās datnes <link xref="files#removable">noņemamās ierīcēs</link> var būt neredzamas citās operētājsistēmās, piemēram, Windows vai Mac OS. Šīs datnes joprojām tur ir, un būs pieejami, kad ierīce tiks pievienota datoram.</p></note>
+
+  </section>
+
+</page>

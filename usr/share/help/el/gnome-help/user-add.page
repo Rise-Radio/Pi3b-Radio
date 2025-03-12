@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="user-add" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="user-accounts#manage" group="#first"/>
+    <!--<link type="seealso" xref="user-addguest"/>-->
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+    <revision pkgversion="3.13.92" date="2013-11-01" status="review"/>
+
+    <credit type="author">
+      <name>Έργο Τεκμηρίωσης GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Προσθήκη νέων χρηστών έτσι ώστε τα άλλα άτομα να μπορούν να συνδεθούν στον υπολογιστή.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Προσθήκη νέου λογαριασμού χρήστη</title>
+
+  <p>Μπορείτε να προσθέσετε πολλαπλούς λογαριασμούς χρήστη στον υπολογιστή σας. Δώστε έναν λογαριασμό σε κάθε άτομο του σπιτικού σας ή της εταιρείας. Κάθε χρήστης έχει τον δικό του προσωπικό φάκελο, έγγραφα και ρυθμίσεις.</p>
+
+  <p>Χρειαζόσαστε <link xref="user-admin-explain">δικαιώματα διαχειριστή</link> για να προσθέσετε λογαριασμούς χρήστη.</p>
+
+  <steps>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Χρήστες</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui>Χρήστες</gui> για να ανοίξετε το φάτνωμα.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui style="button">Ξεκλείδωμα</gui> στην πάνω δεξιά γωνία και πληκτρολογήστε τον κωδικό πρόσβασής σας όταν σας ζητηθεί.</p>
+    </item>
+    <item>
+      <p>Πατήστε το κουμπί <gui style="button">+</gui>, κάτω από τον κατάλογο των λογαριασμών στα αριστερά, για να προσθέσετε έναν νέο λογαριασμό χρήστη.</p>
+    </item>
+    <item>
+      <p>Εάν θέλετε ο νέος χρήστης να έχει <link xref="user-admin-explain">πρόσβαση διαχειριστή</link> στον υπολογιστή, επιλέξτε <gui>διαχειριστής</gui> για τον τύπο λογαριασμού. Οι διαχειριστές μπορούν να κάνουν πράγματα όπως προσθήκη και διαγραφή χρηστών, εγκατάσταση λογισμικού και οδηγών και αλλαγή ημερομηνίας και χρόνου.</p>
+    </item>
+    <item>
+      <p>Εισάγετε το πλήρες όνομα του νέου χρήστη. Το όνομα χρήστη θα συμπληρωθεί αυτόματα με βάση το πλήρες όνομα. Αν δεν σας αρέσει το προτεινόμενο όνομα χρήστη, μπορείτε να το αλλάξετε.</p>
+    </item>
+    <item>
+      <p>You can choose to set a password for the new user, or let them set it
+      themselves on their first login. You can press on the
+      <gui style="button"><media its:translate="no" type="image" src="figures/system-run-symbolic.svg" width="16" height="16"><span its:translate="yes">generate
+      password</span></media></gui> icon to automatically generate a random
+      password.</p>
+    </item>
+    <item>
+      <p>Πατήστε <gui>Προσθήκη</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Αν θέλετε να αλλάξετε τον κωδικό πρόσβασης μετά τη δημιουργία του λογαριασμού, επιλέξτε τον λογαριασμό, <gui style="button">Ξεκλείδωμα</gui> το φάτνωμα και πατήστε στην τρέχουσα κατάσταση κωδικού πρόσβασης.</p>
+
+  <note>
+    <p>Στο φάτνωμα <gui>Χρήστες</gui>, μπορείτε να πατήσετε την εικόνα δίπλα στο όνομα του χρήστη στα δεξιά για να ορίσετε μια εικόνα για τον λογαριασμό. Αυτή η εικόνα θα εμφανιστεί στο παράθυρο σύνδεσης. Το GNOME παρέχει μερικές έτοιμες φωτογραφίες που μπορείτε να χρησιμοποιήσετε, ή μπορείτε να επιλέξετε τη δικιά σας ή να πάρετε μια εικόνα με την ιστοκάμερά σας.</p>
+  </note>
+
+</page>

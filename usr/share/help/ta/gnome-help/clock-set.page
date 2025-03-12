@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="clock-set" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="clock"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+
+    <credit type="author">
+      <name>GNOME ஆவணமாக்கத் திட்டப்பணி</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>மைக்கேல் ஹில்</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>தேதி/நேரத்தை மாற்ற மேல் பட்டியில் உள்ள கடிகாரத்தை சொடுக்கி, <gui>தேதி  &amp; நேர அமைவுகள்</gui> என்பதற்குச் செல்லவும்.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+<title>தேதி மற்றும் நேரத்தை மாற்றுதல்</title>
+
+  <p>மேல் பட்டியில் காண்பிக்கப்படும் தேதி மற்றும் நேரம் தவறாக இருந்தால் அல்லது தவறான வடிவமைப்பில் இருந்தால் நீங்கள் அவற்றை மாற்றலாம்:</p>
+
+  <steps>
+    <item>
+      <p>மேல் பட்டியில் உங்கள் பெயரைச் சொடுக்கி <gui>அமைவுகள்</gui> ஐத் தேர்ந்தெடுக்கவும்.</p>
+    </item>
+    <item>
+      <p>If you have a standard account, you will need to click
+      <gui>Unlock</gui> and type the
+      <link xref="user-admin-explain">administrator password</link>.</p>
+    </item>
+    <item>
+      <p>If you have an internet connection, you can set your date, time and
+      time zone to update automatically by switching <gui>Automatic Date &amp;
+      Time</gui> and <gui>Automatic Time Zone</gui> to <gui>ON</gui>.</p>
+      <p>If you do not have an internet connection, you can update these
+      manually by switching them to <gui>OFF</gui>, then clicking <gui>Date
+      &amp; Time</gui> and <gui>Time Zone</gui> to update.</p>
+    </item>
+    <item>
+      <p><gui>24-மணி</gui> அல்லது <gui>AM/PM</gui> வடிவமைப்பை தேர்ந்தெடுப்பதன் மூலம், மணி எவ்வாறு காண்பிக்கப்பட வேண்டும் என்பதையும் நீங்கள் மாற்றலாம்.</p>
+    </item>
+  </steps>
+
+</page>

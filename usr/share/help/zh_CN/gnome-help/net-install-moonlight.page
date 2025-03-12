@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>有些网站使用 Silverlight 来显示 Web 页面。Moonlight 插件使您可以查看这些页面。</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>安装 Silverlight 插件</title>
+
+  <p><app>Silverlight</app> 是一个浏览器<em>插件</em>，使用它可以观看视频，使用一些网站的交互功能。没有 Silverlight 插件，一些网站将不能正常显示。</p>
+
+  <p>如果您没有安装 Silverlight 插件，在访问启用 Silverlight 功能的网站时，将会收到一条相关的提示信息，指导您如何获取此插件，但这个提示可能不适合您的浏览器或者使用的 Linux 版本。</p>
+
+  <p>如果您想访问启用 Silverlight 功能的网站，应当安装 <em>Moonlight</em> 插件，它是 Silverlight 运行于 Linux 上的免费、开源版本。</p>
+
+  <p>一些 Linux 发行版包含有  Moonlight，您可以使用软件包管理器来安装它，只需在管理器中搜索 <input>Silverlight</input> 或 <input>Moonlight</input> 即可。</p>
+
+  <p>如果您使用的发行版没有 Moonlight 软件包，访问 <link href="http://www.go-mono.com/moonlight/">Moonlight website</link> 以获得更多如何安装的帮助信息。</p>
+
+</page>

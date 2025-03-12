@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="problem" id="user-admin-problems" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="user-accounts#privileges"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-03" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>GNOME ஆவணமாக்கத் திட்டப்பணி</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>எக்காட்டெரினா ஜெராசிமோவா</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>உங்களுக்கு நிர்வாக அனுமதிகள் இருந்தால் நீங்கள் மட்டுமே பயன்பாடுகளை நிறுவுதல் போன்ற சில செயல்களை செய்ய முடியும்.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>நிர்வாக கட்டுப்பாடுகளால் ஏற்படும் சிக்கல்கள்</title>
+
+  <p>You may experience a few problems if you do not have
+  <link xref="user-admin-explain">administrative privileges</link>. Some tasks
+  require administrative privileges in order to work, such as:</p>
+
+  <list>
+    <item>
+      <p>பிணையங்கள் அல்லது வயர்லெஸ் பிணையங்களுக்கு இணைத்தல்</p>
+    </item>
+    <item>
+      <p>Viewing the contents of a removable disk connected to the computer, or
+      the contents of a different disk partition (for example, a Windows
+      partition)</p>
+    </item>
+    <item>
+      <p>புதிய பயன்பாடுகளை நிறுவுதல்</p>
+    </item>
+  </list>
+
+  <p>நிர்வாக உரிமைகள் யாருக்கு உள்ளது என்பதை மாற்றுதல்&gt;.</p>
+
+</page>

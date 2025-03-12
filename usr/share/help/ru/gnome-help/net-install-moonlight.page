@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Фил Булл (Phil Bull)</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Некоторые веб-сайты используют Silverlight для показа веб-страниц. Модуль Moonlight поможет вам просматривать эти страницы.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Установка модуля Silverlight</title>
+
+  <p><app>Silverlight</app> — это <em>модуль</em> для веб-браузера, который позволяет смотреть видео и использовать интерактивные веб-страницы на некоторых сайтах. Некоторые веб-сайты не работают без Silverlight.</p>
+
+  <p>При посещении использующего Silverlight сайта без установленного модуля вы, вероятно, получите сообщение об этом. В этом сообщении должны быть инструкции о том, как получить модуль, но они могут не подойти для вашего веб-браузера или версии Linux.</p>
+
+  <p>Если требуется просматривать веб-сайты с Silverlight, следует вместо него установить модуль <em>Moonlight</em>. Это бесплатная версия Silverlight с открытым исходным кодом, работающая в Linux.</p>
+
+  <p>В состав некоторых дистрибутивов Linux входит пакет Moonlight, который можно установить с помощью стандартного установщика программного обеспечения. Просто откройте установщик и найдите <input>Silverlight</input> или <input>Moonlight</input>.</p>
+
+  <p>Если дистрибутив не содержит пакет Moonlight, смотрите дополнительные сведения и инструкции по установке на <link href="http://www.go-mono.com/moonlight/">веб-сайте Moonlight</link>.</p>
+
+</page>

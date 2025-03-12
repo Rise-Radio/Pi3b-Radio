@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="files-browse" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="files" group="#first"/>
+    <link type="seealso" xref="files-copy"/>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-16" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Upravljanje in organizacija datotek z upravljalnikom datotek</desc>
+  </info>
+
+<title>Brskanje med datotekami in mapami</title>
+
+<p>Za brskanje in organizacijo datotek v svoji domači mapi, na zunanjih napravah, na <link xref="nautilus-connect">datotečnih strežnikih</link> in na datotečnem sistemu računalnika uporabite program <app>Datoteke</app>.</p>
+
+<p>To start the file manager, open <app>Files</app> in the
+<gui xref="shell-terminology">Activities</gui> overview. You can also search
+for files and folders through the overview in the same way you would
+<link xref="shell-apps-open">search for applications</link>.
+</p>
+
+<section id="files-view-folder-contents">
+  <title>Raziskovanje vsebin map</title>
+
+<p>V upravljalniku datotek dvokliknite na katerokoli mapo za ogled njene vsebine in dvokliknite na katerokoli datoteko za odprtje s privzetim programom zanjo. Na mapo lahko tudi desno kliknete za odprtje v novem zavihku ali oknu.</p>
+
+<p>Ko iščete datoteke v mapi lahko hitro vidite <link xref="files-preview">predogled datotek</link> s pritiskom na preslednico. Tako se lahko prepričate, da boste odprli, kopirali ali izbrisali pravo datoteko.</p>
+
+<p><em>Vrstica poti</em> nad seznamom datotek in map vam pokaže katere mape si ogledujete vključno z nadrejenimi mapami do vaše domače mape. Kliknite na nadrejeno mapo v vrstici poti za vstop vanjo. Desno kliknete na mapo v vrstici poti za njeno odprtje v novem zavihku ali oknu, kopiranje, premik ali dostop do njenih lastnosti.</p>
+
+<p>If you want to quickly <link xref="files-search">search for a file</link>,
+in or below the folder you are viewing, start typing its name. A <em>search
+bar</em> will appear at the top of the window and only files which match your
+search will be shown. Press <key>Esc</key> to cancel the search.</p>
+
+<p>You can quickly access common places from the <em>sidebar</em>. If you do
+not see the sidebar, click the
+<gui><media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media></gui>
+button in the toolbar and pick <gui>Show Sidebar</gui>. You can add bookmarks
+to folders that you use often and they will appear in the sidebar. Click
+<gui>Files</gui> in the top bar and then <gui style="menuitem">Bookmarks</gui>
+to do this, or simply drag a folder into the sidebar.</p>
+
+</section>
+
+</page>

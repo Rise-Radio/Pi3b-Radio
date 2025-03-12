@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="hardware-driver" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="hardware" group="more"/>
+
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Projeto de documentação do GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Um driver de hardware/dispositivo permite que seu computador use dispositivos que são anexados a ele.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodolfo Ribeiro Gomes</mal:name>
+      <mal:email>rodolforg@gmail.com</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>João Santana</mal:name>
+      <mal:email>joaosantana@outlook.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>O que é um driver?</title>
+
+<p>Os dispositivos são "partes" físicas do seu computador. Eles podem ser <em>externos</em>, como impressoras e monitor, ou <em>interno</em>, como gráficos e áudio.</p>
+
+<p>Para que seu computador seja capaz de usar esses dispositivos, ele precisa saber como se comunica com eles. Isso é feito por um pedaço de software chamado de <em>driver de dispositivo</em>.</p>
+
+<p>When you attach a device to your computer, you must have the correct driver
+installed for that device to work. For example, if you plug in a printer but
+the correct driver is not available, you will not be able to use the printer.
+Normally, each model of device uses a driver that is not compatible with any
+other model.</p>
+
+<p>No Linux, os drivers para a maioria dos dispositivos estão instalados por padrão. Então, tudo deveria funcionar quando conectado. Porém, os drivers podem precisar serem instalados manualmente ou podem não estar disponíveis.</p>
+
+<p>In addition, some existing drivers are incomplete or partially
+non-functional. For example, you might find that your printer cannot do
+double-sided printing, but is otherwise completely functional.</p>
+
+</page>

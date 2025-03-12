@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="accounts" xml:lang="sr">
+
+  <info>
+    <link type="guide" xref="prefs"/>
+
+    <revision pkgversion="3.5.5" version="0.1" date="2012-08-14" status="review"/>
+
+    <credit type="author">
+      <name>Фил Бул</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <desc><link xref="accounts-create">Направите нови налог</link>, <link xref="accounts-add">Додајте постојећи налог</link>, <link xref="accounts-remove">Уклоните налог</link>…</desc>
+  </info>
+
+  <title>Налози на мрежи</title>
+
+  <p>Можете да унесете ваше појединости пријављивања за неке услуге на мрежи (као што су Гугл и Фејсбук) унутар прозора <app>Налози на мрежи</app>. Ово ће вам омогућити лак приступ вашем календару, пошти, налозима ћаскања, и сличним за те програме а да не морате опет да уносите појединости вашег налога.</p>
+
+</page>

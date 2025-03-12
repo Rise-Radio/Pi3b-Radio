@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-right-click" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="mouse"/>
+    <link type="guide" xref="a11y#mobility" group="clicking"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-13" status="candidate"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="final"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author copyright">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+      <years>2012</years>
+    </credit>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <desc>Tekan dan tahan tombol kiri tetikus untuk melakukan klik kanan.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2011, 2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Mensimulasi klik tombol kanan tetikus</title>
+
+  <p>Anda dapat mengklik kanan dengan menahan tombol kiri tetikus. Ini berguna bila Anda mengalami kesulitan untuk memindahkan jari-jari Anda secara individual pada satu tangan, atau bila perangkat penunjuk Anda hanya memiliki satu tombol.</p>
+
+  <steps>
+    <item>
+      <p>Buka ringkasan <gui xref="shell-terminology">Aktivitas</gui> dan mulai mengetik <gui>Akses Universal</gui>.</p>
+    </item>
+    <item>
+      <p>Klik pada <gui>Akses Universal</gui> untuk membuka panel.</p>
+    </item>
+    <item>
+      <p>Press <gui>Click Assist</gui> in the <gui>Pointing &amp; Clicking</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Switch <gui>Simulated Secondary Click</gui> to <gui>ON</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Anda dapat mengubah berapa lama Anda mesti menahan tombol kiri tetikus sebelum dianggap sebagai klik kanan dengan mengubah <gui>Tundaan penerimaan</gui>.</p>
+
+  <p>Untuk klik kanan dengan klik sekunder tersimulasi, tahan tombol kiri tetikus dimana Anda biasanya melakukan klik kanan, lalu lepaskan. Penunjuk akan diisi warna biru ketika Anda menahan tombol kiri tetikus. Setelah sepenuhnya biru, lepaskan tombol tetikus untuk klik kanan.</p>
+
+  <p>Beberapa penunjuk khusus, seperti penunjuk ubah ukuran, tak berubah warna. Anda masih dapat memakai klik sekunder tersimulasi seperti normal, bahkan ketika Anda tak mendapat umpan balik visual dari penunjuk.</p>
+
+  <p>Bila Anda memakai <link xref="mouse-mousekeys">Tombol Tetikus</link>, ini juga mengijinkan Anda klik kanan dengan menahan tombol <key>5</key> pada keypad Anda.</p>
+
+  <note>
+    <p>Dalam ringkasan <gui>Aktivitas</gui>, Anda selalu dapat melakukan tekanan panjang untuk klik kanan, bahkan bila ketika fitur ini dinonaktifkan. Tekanan panjang bekerja sedikit berbeda dalam ringkasan: Anda tak perlu melepas tombol untuk klik kanan.</p>
+  </note>
+
+</page>

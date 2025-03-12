@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-display" xml:lang="as">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-display"/>
+
+    <desc>ফাইল ব্যৱস্থাপকত ব্যৱহৃত নিয়ন্ত্ৰণ আইকন কেপষণ।</desc>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-19" status="review"/>
+
+    <credit type="author">
+      <name>শ্বণ মেকেন্স</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>মাইকেল হিল</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  </info>
+
+<title>ফাইল ব্যৱস্থাপক প্ৰদৰ্শন পছন্দসমূহ</title>
+
+<p>ফাইল ব্যৱস্থাপকে কেনেকৈ আইকনৰ অন্তৰ্গত কেপষণ প্ৰদৰ্শন কৰিব নিয়ন্ত্ৰণ কৰিব পাৰে। ওপৰ বাৰত <gui>ফাইলসমূহ</gui> ক্লিক কৰক, <gui>পছন্দসমূহ</gui> পিক কৰক আৰু <gui>প্ৰদৰ্শন</gui> টেব বাছক।</p>
+
+<section id="icon-captions">
+  <title>আইকনৰ কেপষণসমূহ</title>
+  <media type="image" src="figures/nautilus-icons.png" width="250" height="110" style="floatend floatright">
+    <p>কেপষণসমূহৰ সৈতে ফাইল ব্যৱস্থাপক আইকনসমূহ</p>
+  </media>
+  <p>যেতিয়া আপুনি আইকন দৰ্শন ব্যৱহাৰ কৰে, আপুনি প্ৰতিটো আইকনৰ তলত এটা কেপষণত প্ৰদৰ্শিত ফাইল আৰু ফোল্ডাৰসমূহৰ বিষয়ে অতিৰিক্ত তথ্য পাব পাৰিব। ই উপযোগী, উদাহৰণস্বৰূপ, যদি আপুনি চাব বিচাৰে এটা ফাইল কাৰ অধিনত আছে অথবা ইয়াক সৰ্বশেষ কেতিয়া পৰিবৰ্তন কৰা হৈছিল।</p>
+  <p>You can zoom in a folder by clicking the
+  <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">down</span></media> button in the
+  toolbar and choosing one of the <gui>Zoom</gui> options. As you zoom in, the
+  file manager will display more and more information in captions. You can
+  choose up to three things to show in captions. The first will be displayed at
+  most zoom levels. The last will only be shown at very large sizes.</p>
+  <p>আপুনি আইকন কেপষণসমূহত দেখুৱাব পৰা তথ্য আপুনি তালিকা দৰ্শনত ব্যৱহাৰ কৰিব পৰা স্তম্ভসমূহৰ সৈতে একে। অধিক তথ্যৰ বাবে <link xref="nautilus-list"/> চাওক।</p>
+  <note><p>যদি আপোনাৰ এটা ফাইল ব্যৱস্থাপক উইন্ডো খোলা থাকে, আইকন কেপষণ বিকল্পসমূহ প্ৰভাৱশালী হবলৈ আপুনি পুনৰ ল'ড কৰিব লগিয়া হব পাৰে। <guiseq><gui>দৰ্শন কৰক</gui><gui>পুনৰ ল'ড কৰক</gui></guiseq> ক্লিক কৰক অথবা <keyseq><key>Ctrl</key><key>R</key></keyseq> টিপক।</p></note>
+</section>
+
+</page>

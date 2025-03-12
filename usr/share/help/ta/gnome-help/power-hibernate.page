@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="question" version="1.0 if/1.0" id="power-hibernate" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="power"/>
+
+    <desc>ஹைபர்நேட் அம்ச நன்கு ஆதரிக்கப்படாததால், அது முன்னிருப்பாக முடக்கப்பட்டிருக்கும்.</desc>
+    <revision pkgversion="3.6.0" date="2012-08-14" status="review"/>
+
+    <credit type="author">
+      <name>GNOME ஆவணமாக்கத் திட்டப்பணி</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>எக்காட்டெரினா ஜெராசிமோவா</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>ஜெரெமி பிச்சா</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+<title>என் கணினியை எப்படி ஹைபர்நேட் செய்ய வைப்பது?</title>
+
+<p>கணினி ஹைபர்நேட் ஆகும் போது, உங்கள் பயன்பாடுகள் மற்றும் ஆவணங்கள் அனைத்தும் சேமிக்கப்பட்டு, மின் சக்தியையே பயன்படுத்தாதபடி உங்கள் கணினி அணைக்கப்படும், ஆனால் நீங்கள் மீண்டும் கணினியை இயக்கும் போது ஆவணங்களும் பயன்பாடுகளும் திறந்தபடி இருக்கும்.</p>
+
+<p>துரதிருஷ்டவசமாக ஹைபர்நேட் அம்சம் பல சமயங்களில் <link xref="power-suspendfail">வேலை செய்யாது</link>. இதனால் மீண்டும் கணினியை இயக்கும் போது ஆவணங்களும் பயன்பாடுகளும் திறந்தபடி இருக்கும் என்று எதிபார்த்தால் தரவு இழக்கப்படலாம். ஆகவே முன்னிருப்பாக ஹைபர்நேட் அம்சம் முடக்கப்பட்டுள்ளது.</p>
+
+<section id="test-hibernate">
+<title>ஹைபர்நேட் வேலை செய்கிறதா என சோதித்தல்</title>
+
+<note style="important">
+  <title>எப்போதும் ஹைபர்நேட் செய்யும் முன்பு உங்கள் வேலையை சேமிக்கவும்</title>
+  <p>கணினியை ஹைபர்நேட் செய்யும் முன்பு உங்கள் வேலைகள் அனைத்தையும் சேமிக்க வேண்டும், ஏனெனில் ஏதேனும் தவறாக நடந்து, நீங்கள் மீண்டும் கணினியை இயக்கும் போது திறந்து வைத்திருந்த ஆவணங்களும் பயன்பாடுகளும் மீட்கப்படாமல் போனால் இது உதவும்.</p>
+</note>
+
+<p>உங்கள் கணினியில் ஹைபர்நேட் அம்சம் வேலை செய்கிறதா என கட்டளை வரியைக் கொண்டு சோதிக்கலாம்.</p>
+
+<steps>
+  <item>
+    <if:choose>
+      <if:when test="platform:unity">
+        <p><keyseq><key>Ctrl</key> <key>Alt</key><key>t</key></keyseq> ஐ அழுத்தி அல்லது <gui>டேஷில்</gui> <input>terminal</input> என தேடுவதன் மூலம் <app>முனையத்தைத்</app> திறக்கவும்.</p>
+     </if:when>
+     <p><gui>செயல்பாடுகள் மேலோட்டத்தில்</gui> <input>terminal</input> எனத் தேடுவதன் மூலம் <app>முனையத்தை</app> திறக்கவும்.</p>
+  </if:choose>
+  </item>
+  <item>
+    <p>முனையத்தில் ரூட் பயனராக, <cmd>pm-hibernate</cmd> என தட்டச்சு செய்து <key>Enter</key> ஐ அழுத்தவும்.</p>
+    <p>கேட்கப்படும் போது, கடவுச்சொல்லை உள்ளிடவும்.</p>
+  </item>
+  <item>
+    <p>பிறகு உங்கள் கணினி அணைக்கப்பட்டு மீண்டும் இயங்கும். திறந்திருந்த உங்கள் பயன்பாடுகள் திறந்தபடி இருக்கிறதா எனப் பார்க்கவும்.</p>
+    <p>ஹைபர்நேட் அம்சம் வேலை செய்யாவிட்டால், உங்கள் ஸ்வேப் பிரிவகம் RAM ஐப் போல பெரிதாக உள்ளதா எனப் பார்க்கவும்.</p>
+  </item>
+</steps>
+
+</section>
+
+<section id="enable-hibernate">
+<title>ஹைபர்நேட்டை செயல்படுத்துதல்</title>
+
+  <p>ஹைபர்நேட் சோதனை வெற்றியடைந்தால், ஹைபர்நேட் செய்ய விரும்பும் போது நீங்கள் <cmd>pm-hibernate</cmd> கட்டளையைப் பயன்படுத்தலாம்.</p>
+
+  <p>You could also install the
+  <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/">
+  <app>Hibernate Status Button</app></link> extension from the
+  <link href="https://extensions.gnome.org">GNOME Extensions website</link>:</p>
+
+  <steps>
+    <item>
+      <p>Switch <gui style="button">ON</gui> the
+      <app>Hibernate Status Button</app> on
+      <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/">
+      its extension page</link> by pressing the status button at the top
+      left.</p>
+    </item>
+    <item>
+      <p>You will be asked to confirm that you want to install the extension.
+      Press <gui style="button">Install</gui>.</p>
+    </item>
+  </steps>
+
+  <p>The button will now be added to the system menu on the right side of the
+  top bar and can be pressed to hibernate your computer.</p>
+
+  <note style="tip">
+    <p>You can also hold down <key>Alt</key> while pressing the
+    <em>hibernate</em> button to use the <em>hybrid-sleep</em> feature. The
+    hybrid-sleep mode is a mix of the hibernate and sleep modes. This means
+    that your computer remains powered on, so you can wake it up by pressing a
+    key on the keyboard and all your open applications and documents are saved
+    in the same state as before pressing the hybrid-sleep button.</p>
+  </note>
+
+</section>
+
+</page>

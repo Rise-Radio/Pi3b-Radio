@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wired-connect" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>GNOME dokumentācijas projekts</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Lielākoties, lai izveidotu vadu tīkla savienojumu, viss kas jums ir jāizdara, ir jāpievieno tīkla vads.</desc>
+  </info>
+
+  <title>Tīkla savienojums ar vadu (tīkls Ethernet)</title>
+
+  <p>Pārsvarā, lai izveidotu tīkla savienojumu ar vadu, jums tikai vajag pieslēgt tīkla kabeli. Tīkla ikonai augšējajā joslā vajadzētu griezties vai pulsēt uz dažām sekundēm un tad mainīties uz "savienojuma" ikonu, kad jūs esat izveidojis savienojumu.</p>
+
+  <p>Ja tas nenotiek, tad visupirms jāpārliecinās, ka tīkla kabelis ir pievienots. Vienam kabeļa galam vajadzētu būt iespraustam taisnstūrveidīgā tīkla Ethernet portā datorā, bet otram galam vajadzētu būt iespraustam komutatorā, maršrutētājā, tīkla sienas ligzdā vai tamlīdzīgi (atkarīgs no tā, kā ir izveidots tīkls). Dažreiz, gaismas lampiņa blakus tīkla Ethernet portam norādīs, ka kabelis ir iesprausts un tas ir aktīvs.</p>
+
+  <note>
+    <p>Jūs nevarat pa tiešo savienot vienu datoru ar otru ar tīkla vadu (vismaz, ne bez papildu iestatīšanas). Lai savienotu divus datorus, jums vajadzētu tos savienot tīkla centrmezglā, komutatorā vai maršrutētājā.</p>
+  </note>
+
+  <p>Ja joprojām neesat savienojies, jūsu dators varētu neatbalstīt automātisku iestatīšanu (DHCP). Šajā gadījumā jums vajadzēs tīklu <link xref="net-manual">konfigurēt pašrocīgi</link>.</p>
+
+</page>

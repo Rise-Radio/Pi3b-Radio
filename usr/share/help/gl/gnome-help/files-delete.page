@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="files-delete" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="files"/>
+    <link type="seealso" xref="files-recover"/>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-16" status="review"/>
+    <revision pkgversion="3.13.92" date="2013-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Cristopher Thomas</name>
+      <email>crisnoh@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Quitar ficheiros ou cartafois que non se necesitan.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Eliminar ficheiros e cartafoles</title>
+
+  <p>If you do not want a file or folder any more, you can delete it. When you
+  delete an item it is moved to the <gui>Trash</gui> folder, where it is stored
+  until you empty the trash. You can <link xref="files-recover">restore items
+  </link> in the <gui>Trash</gui> folder to their original location if you
+  decide you need them, or if they were accidentally deleted.</p>
+
+  <steps>
+    <title>Cortar e pegar ficheiros (para movelos)</title>
+    <item><p>Seleccione o elemento que quere eliminar premendo sobre el unha vez.</p></item>
+    <item><p>Prema <keyseq><key>Ctrl</key><key>Supr</key></keyseq> no seu teclado. Alternativamente, arrastre o elemento até o <gui>Lixo</gui> na barra lateral.</p></item>
+  </steps>
+
+  <p>Para eliminar ficheiros permanentemente e liberar espazo no computador, debe baleirar o lixo. Para baleirar o lixo, prema co botón dereito no <gui>Lixo</gui> na barra lateral e seleccione <gui>Baleirar lixo</gui>.</p>
+
+  <section id="permanent">
+    <title>Eliminar de forma permanente un ficheiro</title>
+    <p>Pode eliminar un ficheiro permanentemente de forma inmediata, sen telo que enviar primeiro ao lixo.</p>
+
+  <steps>
+    <title>Eliminar de forma permanente un ficheiro</title>
+    <item><p>Seleccione o elemento que quere eliminar.</p></item>
+    <item><p>Prema e manteña a tecla <gui>Maiús</gui> e logo prema a tecla <key>Suprimir</key> no seu teclado.</p></item>
+    <item><p>Xa que non é posíbel desfacer isto, preguntaráselle se quere eliminar o ficheiro ou cartafol.</p></item>
+  </steps>
+
+  <note style="tip"><p>Se precisa con frecuencia eliminar ficheiros sen usar o lixo (por exemplo, se traballa a miúdo con datos sensíbeis), pode engadir unha opción <gui>Eliminar</gui> ao menú contextual de ficheiros e cartafoles. Prema <gui>Ficheiros</gui> na barra superior, seleccione <gui>Preferencias</gui> e seleccione a lapela <gui>Comportamento</gui>. Seleccione <gui>Incluír unha orde «Eliminar» que non use o lixo</gui>.</p></note>
+
+  <note><p>Os ficheiros eliminados nun <link xref="files#removable">dispositivo extraíbel</link> poden non ser visíbeis noutros sistemas operativos, tales como Windows ou Mac OS. Os ficheiros seguen aí, e estarán dispoñíbeis cando conecte o dispositivo de novo no seu computador.</p></note>
+
+  </section>
+
+</page>

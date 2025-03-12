@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="question" version="1.0 if/1.0" id="power-hibernate" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="power"/>
+
+    <desc>Zamrzavanje je unapred isključeno zato što nije dovoljno podržano.</desc>
+    <revision pkgversion="3.6.0" date="2012-08-14" status="review"/>
+
+    <credit type="author">
+      <name>Gnomov projekat dokumentacije</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Džeremi Biča</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Kako da zamrznem računar?</title>
+
+<p>Kada <em>zamrznete</em> računar, svi vaši programi i dokumenta bivaju sačuvani a računar se u potpunosti gasi tako da ne koristi nikakvo napajanje, ali će programi i dokumenta još uvek biti otvoreni kada ponovo upalite računar.</p>
+
+<p>Nažalost, zamrzavanje <link xref="power-suspendfail">ne radi</link> u mnogim slučajevima, što može da dovede do gubljenja podataka ako očekujete da se vaši dokumenti i programi otvore kada ponovo uključite računar. Zbog toga, zamrzavanje je unapred isključeno.</p>
+
+<section id="test-hibernate">
+<title>Isprobajte da li radi zamrzavanje</title>
+
+<note style="important">
+  <title>Uvek sačuvajte vaš rad pre zamrzavanja</title>
+  <p>Trebali biste da sačuvate sav vaš rad pre nego što zamrznete računar, u slučaju da nešto krene naopako i da vaši otvoreni programi i dokumenta ne mogu biti povraćeni kada ponovo uključite računar.</p>
+</note>
+
+<p>Možete da koristite liniju naredbi da isprobate da li zamrzavanje radi na vašem računaru.</p>
+
+<steps>
+  <item>
+    <if:choose>
+      <if:when test="platform:unity">
+        <p>Otvorite <app>Terminal</app> tako što ćete pritisnuti <keyseq><key>Ktrl</key> <key>Alt</key><key>t</key></keyseq> ili tako što ćete upisati <input>terminal</input> u polje za pretragu <gui>poleta</gui>.</p>
+     </if:when>
+     <p>Otvorite <app>Terminal</app> tako što ćete potražiti <input>terminal</input> u <gui>Pregledu aktivnosti</gui>.</p>
+  </if:choose>
+  </item>
+  <item>
+    <p>Kao administrator, upišite <cmd>pm-hibernate</cmd> u terminalu i pritisnite <key>Unesi</key>.</p>
+    <p>Unesite lozinku kada budete upitani.</p>
+  </item>
+  <item>
+    <p>Nakon što se vaš računar ugasi, upalite ga. Da li su se vaši otvoreni programi ponovo otvorili?</p>
+    <p>Ako zamrzavanje ne radi, proverite da li je vaša particija razmenske memorije veličine barem kao i vaša dostupna operativna memorija.</p>
+  </item>
+</steps>
+
+</section>
+
+<section id="enable-hibernate">
+<title>Uključi zamrzavanje</title>
+
+  <p>Ako je isprobavanje zamrzavanja bilo uspešno, možete da nastavite da koristite naredbu <cmd>pm-hibernate</cmd> kada budete želeli da zamrznete.</p>
+
+  <p>Možete takođe instalirati proširenje <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/"> <app>Dugme stanja zamrzavanja</app></link> sa <link href="https://extensions.gnome.org">vab sajta Gnomovih proširenja</link>:</p>
+
+  <steps>
+    <item>
+      <p>Prebacite na <gui style="button">UKLJ.</gui> <app>dugme stanja zamrzavanja</app> na <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/"> njegovoj stranici proširenja</link> pritiskom na dugme stanja u gornjem levom uglu.</p>
+    </item>
+    <item>
+      <p>Biće vam zatraženo da potvrdite instalaciju proširenja. Pritisnite na <gui style="button">Install</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Dugme će sada biti dodato u izbornik sistema na desnoj strani gornje trake i možete ga pritisnuti da zamrznete računar.</p>
+
+  <note style="tip">
+    <p>Možete takođe da držite <key>Alt</key> dok pritiskate dugme za <em>zamrzavanje</em> da biste koristili funkciju <em>hibridnog-spavanja</em>. Režim hibridnog-spavanja je mešavina režima zamrzavanja i spavanja. To znači da vaš računar ostaje na napajanju, tako da možete da ga probudite pritiskom nekog tastera na tastaturi, a svi programi i dokumenta će biti spremni u istom stanju u kome su se nalazili pre pritiska na dugme hibridnog-spavanja.</p>
+  </note>
+
+</section>
+
+</page>

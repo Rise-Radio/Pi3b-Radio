@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task 2column" id="net-email" xml:lang="as">
+
+  <info>
+    <link type="guide" xref="net"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Ubuntu তথ্যচিত্ৰ দল</name>
+    </credit>
+    <credit type="author">
+      <name>GNOME তথ্যচিত্ৰ প্ৰকল্প</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <desc><link xref="net-default-email">অবিকল্পিত ইমেইল এপসমূহ</link></desc>
+  </info>
+
+<title>ইমেইল &amp; ইমেইল চফ্টৱেৰ</title>
+
+</page>

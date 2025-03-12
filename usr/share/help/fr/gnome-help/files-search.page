@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="files-search" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="files"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-09-25" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author">
+      <name>Le projet de documentation GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Trouver des fichiers par leur nom et leur type et enregistrer les résultats pour un usage ultérieur.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Recherche de fichiers</title>
+
+  <p>Vous pouvez rechercher des fichiers par nom ou par type directement dans le gestionnaire de fichiers. Vous pouvez même enregistrer les recherches courantes qui apparaissent alors dans un dossier spécial de votre dossier personnel.</p>
+
+  <links type="topic" style="linklist">
+    <title>Autres applications de recherche</title>
+    <!-- This is an extension point where search apps can add
+    their own topics. It's empty by default. -->
+  </links>
+
+  <steps>
+    <title>Recherche</title>
+    <item>
+      <p>Open the <app>Files</app> application from the
+      <gui xref="shell-terminology">Activities</gui> overview.</p>
+    </item>
+    <item>
+      <p>Si vous connaissez le nom du dossier contenant les fichiers que vous recherchez, allez à ce dossier.</p>
+    </item>
+    <item>
+      <p>Type a word or words that you know appear in the file name, and they
+      will be shown in the search bar. For example, if you name all your
+      invoices with the word "Invoice", type <input>invoice</input>. Words are
+      matched regardless of case.</p>
+      <note>
+        <p>Instead of typing words directly to bring up the search bar, you can
+	click the magnifying glass in the toolbar, or press
+        <keyseq><key>Ctrl</key><key>F</key></keyseq>.</p>
+      </note>
+    </item>
+    <item>
+      <p>Vous pouvez réduire les résultats par emplacement et par type de fichier. </p>
+      <list>
+        <item>
+          <p>Cliquez sur <gui>Dossier personnel</gui> pour limiter la recherche à ce dossier, ou sur <gui>Tous les fichiers</gui> pour rechercher partout.</p>
+        </item>
+        <item>
+          <p>Click the <gui>+</gui> button and pick a <gui>File Type</gui> from
+	  the drop-down list to narrow the search results based on file type.
+	  Click the <gui>x</gui> button to remove this option and widen the
+	  search results.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Vous pouvez ouvrir, copier, supprimer ou même travaillez avec les fichiers à partir des résultats de la recherche, comme si vous étiez dans n'importe quel dossier du gestionnaire de fichiers.</p>
+    </item>
+    <item>
+      <p>Cliquez sur la loupe dans la barre d'outils pour quitter la recherche et retourner dans le répertoire.</p>
+    </item>
+  </steps>
+
+  <p>Si vous effectuez souvent certaines recherches, vous pouvez les enregistrer pour y accéder rapidement.</p>
+
+  <steps>
+    <title>Enregistrement d'une recherche</title>
+    <item><p>Lancer une recherche comme ci-dessus.</p></item>
+    <item><p>When you are happy with the search parameters, click the menu
+    button and select <gui>Save Search As</gui>.</p></item>
+    <item><p>Donnez un nom à la recherche et cliquez sur <gui>Enregistrer</gui>. Si vous le souhaitez, choisissez un répertoire différent pour y enregistrer la recherche. Lorsque que vous déplacez dans ce répertoire, la sauvegarde de votre recherche apparaît sous la forme d'une icône de dossier orange avec une loupe dessus.</p></item>
+  </steps>
+
+  <p>Pour supprimer le fichier de recherche lorsque vous en avez terminé avec, <link xref="files-delete">supprimez</link> simplement la recherche comme vous le feriez avec n'importe quel autre fichier. Lorsque vous supprimez une recherche sauvegardée, cela ne supprime pas les fichiers qui correspondent aux critères de recherche.</p>
+
+</page>

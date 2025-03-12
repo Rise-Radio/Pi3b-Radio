@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc>Les applications peuvent utiliser les comptes créés dans <app>Comptes en ligne</app> et les services qu'elles exploitent.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Quelles applications utilisent les comptes en ligne ?</title>
+
+  <p><app>Comptes en ligne</app> peut être utilisé par des applications externes pour se configurer automatiquement.</p>
+
+<section id="accounts-google-services">
+  <title>Avec un compte Google</title>
+
+  <list>
+    <item>
+      <p>L'application de courriel <app>Evolution</app> : votre compte de courriel est automatiquement ajouté à <app>Evolution</app> qui va automatiquement relever vos courriels, vous donner accès à vos contacts et afficher vos données dans votre agenda Google.</p>
+    </item>
+    <item>
+      <p>L'application de messagerie instantanée <app>Empathy</app> : votre compte en ligne est ajouté et vous pouvez communiquer avec vos amis.</p>
+    </item>
+    <item>
+      <p><app>Contacts</app> : cette application vous permet d'afficher et de modifier vos contacts.</p>
+    </item>
+    <item>
+      <p><app>Documents</app> : cette application peut accéder à vos documents en ligne et les afficher.</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>Avec des comptes Windows Live, Facebook ou Twitter</title>
+
+  <p><app>Empathy</app> peut utiliser ces comptes pour vous connecter et discuter avec vos contacts, vos amis et vos abonnés.</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>With a OneDrive account</title>
+
+  <p><app>Documents</app> can access your online documents in Microsoft
+  OneDrive and display them.</p>
+</section>
+
+<section id="account-exchange">
+  <title>Avec un compte Exchange</title>
+
+  <p>Une fois le compte Exchange créé, <app>Evolution</app> démarre la recherche de courriels dans ce compte.</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>Avec un compte ownCloud</title>
+
+  <p>Quand un compte ownCloud est paramétré, <app>Evolution</app> est capable d'accéder aux contacts et aux rendez-vous de l'agenda, et de les modifier.</p>
+
+  <p><app>Fichiers</app> et d'autres applications peuvent établir la liste des fichiers en ligne stockés dans ownCloud et y accéder.</p>
+</section>
+
+</page>

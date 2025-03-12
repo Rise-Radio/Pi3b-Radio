@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="power-closelid" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="power"/>
+    <link type="seealso" xref="power-suspendfail"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-08" status="review"/>
+
+    <credit type="author">
+      <name>Gnomov projekat dokumentacije</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Prenosni računar se uspavljuje kada spustite poklopac, da bi sačuvao energiju.</desc>
+  </info>
+
+  <title>Zašto se moj računar gasi kada spustim poklopac?</title>
+
+  <p>Kada spustite poklopac vašeg prenosnog računara, vaš računar će <link xref="power-suspend"><em>obustaviti</em></link> rad kako bi sačuvao energiju. To znači da računar zapravo nije ugašen — samo se uspavao. Možete da ga povratite podizanjem poklopca. Ako se ne povrati, probajte da kliknete mišem ili da pritisnete neki taster. Ako i ovako ne proradi, pritisnite dugme za napajanje.</p>
+
+  <p>Neki računari ne mogu ispravno da obustave rad, obično zato što njihove komponente nisu u potpunosti podržane operativnim sistemom (na primer, upravljački programi Linuksa nisu potpuni). U tom slučaju, možete uvideti da niste u mogućnosti da povratite vaš računar nakon što ste spustili poklopac. Možete da probate da <link xref="power-suspendfail">ispravite problem sa obustavom</link>, ili možete da sprečite računar da pokuša da obustavi rad kada spustite poklopac.</p>
+
+<section id="nosuspend">
+  <title>Ne dozvolite računaru da obustavi rad kada spustite poklopac</title>
+
+  <note style="important">
+    <p>Ova uputstva će raditi samo ako koristite <app>systemd</app>. Obratite se vašoj distribuciji za više podataka.</p>
+  </note>
+
+  <p>Ako ne želite da računar obustavi rad kada zatvorite poklopac, možete da izmenite podešavanja tog ponašanja. Morate imati <link xref="user-admin-change">administratorsku lozinku</link> da izmenite podešavanje.</p>
+
+  <note style="warning">
+    <p>Budite veoma pažljivi ako menjate ovo podešavanje. Neki prenosni računari mog da se pregreju ako su ostavljeni da rade sa spuštenim poklopcem, pogotovo ako su u zatvorenom prostoru kao što je ranac.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>Otvorite program <app>Terminal</app> iz pregleda <gui>Aktivnosti</gui>.</p>
+    </item>
+    <item>
+      <p>Izvršite sledeću naredbu:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudoedit /etc/systemd/logind.conf</input></screen>
+    </item>
+    <item>
+      <p>Sada ćete videti sadržaj datoteke. Potražite <code>HandleLidSwitch=</code> u datoteci. Red može biti pod navodnikom <code>#</code> na početku i može ga pratiti argument. Ako red već postoji, obrišite navodnik. U suprotnom, dodajte red.</p>
+      <code>
+[Login]
+HandleLidSwitch=<input>lock</input>
+      </code>
+      <p>Možete da koristite <input>lock</input> za zaključavanje ekrana, <input>ignore</input> za ništa, <input>poweroff</input> za gašenje računara ili <input>suspend</input> za obustavljanje rada. Za više podataka, pogledajte <link href="man:logind.conf">logind.conf help</link>.</p>
+    </item>
+    <item>
+      <p>Kada završite sa menjanjem datoteke, sačuvajte izmene i zatvorite uređivača.</p>
+    </item>
+    <item>
+      <p>Pokrenite sledeću naredbu da bi vaše izmene radile:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudo systemctl restart systemd-logind.service</input></screen>
+      <p>Ako ne pokrenete ovu naredbu, izmene će raditi samo nakon ponovnog pokretanja računara.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

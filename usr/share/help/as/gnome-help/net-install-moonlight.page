@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="as">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>ফিল বুল</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>কিছুমান ৱেবছাইটে ৱেব পৃষ্ঠাসমূহ প্ৰদৰ্শন কৰিবলৈ Silverlight ব্যৱহাৰ কৰে। Moonlight প্লাগ-ইনে আপোনাক এই পৃষ্ঠাসমূহ দৰ্শন কৰায়।</desc>
+  </info>
+
+  <title>Silverlight প্লাগ-ইন ইনস্টল কৰা</title>
+
+  <p><app>Silverlight</app> আপোনাৰ ৱেব ব্ৰাউছাৰৰ বাবে এটা <em>প্লাগ-ইন</em> যি আপোনাক কিছুমান ৱেবছাইটত ভিডিঅ' চোৱাৰ আৰু ভাৱবিনিময়ী ৱেব পৃষ্ঠাসমূহ ব্যৱহাৰ কৰাৰ অনুমতি দিয়ে। কিছুমান ৱেবছাইট Silverlight ৰ অবিহনে কাম নকৰে।</p>
+
+  <p>If you view a Silverlight-enabled website but don't have the plug-in
+  installed, you will probably see a message telling you so. This message
+  should have instructions telling you how to get the plug-in, but these
+  instructions might not be suitable for your web browser or version of
+  Linux.</p>
+
+  <p>If you want to view Silverlight-enabled websites, you should install the
+  <em>Moonlight</em> plug-in instead. This is a free, open-source version of
+  Silverlight which runs on Linux.</p>
+
+  <p>Some Linux distributions have a copy of Moonlight that you can install
+  using their software installer; just open the installer and search for
+  <input>Silverlight</input> or <input>Moonlight</input>.</p>
+
+  <p>যদি আপোনাৰ বিতৰনৰ এটা Moonlight চফ্টৱেৰ পেকেইজ নাই, অধিক তথ্য আৰু ইনস্টলেষণ নিৰ্দেশৰ বাবে <link href="http://www.go-mono.com/moonlight/">Moonlight ৱেবছাইট</link> ত যাওক।</p>
+
+</page>

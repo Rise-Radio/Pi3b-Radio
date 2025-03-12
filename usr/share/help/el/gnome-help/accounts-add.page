@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-add" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="draft"/>
+    <revision pkgversion="3.9.92" date="2012-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2013-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <desc>Connect to an online account.</desc>
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Προσθήκη λογαριασμού</title>
+
+  <p>Η προσθήκη ενός λογαριασμού θα βοηθήσει τη σύνδεση των δικτυακών λογαριασμών σας με την επιφάνεια εργασίας του GNOME. Έτσι, το πρόγραμμα αλληλογραφίας σας, το πρόγραμμα συνομιλιών και άλλες σχετικές εφαρμογές θα ρυθμιστούν για σας.</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Click the <gui>+</gui> button in the lower-left corner of the
+      window.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε τον τύπο του λογαριασμού που θέλετε να προσθέσετε.</p>
+      <p>Αν θέλετε να προσθέσετε περισσότερους από έναν τύπο λογαριασμού, τότε μπορείτε να το κάνετε αργότερα.</p>
+    </item>
+    <item>
+      <p>A small website window or dialog will open where you can enter your
+      online account credentials. For example, if you are setting up a Google
+      account, enter your Google username and password.</p>
+    </item>
+    <item>
+      <p>Εάν έχετε εισάγει τα διαπιστευτήριά σας σωστά, θα σας ζητηθεί να επιτρέψετε την πρόσβαση GNOME στον δικτυακό λογαριασμό σας. Εξουσιοδοτήστε την πρόσβαση για να συνεχίσετε.</p>
+    </item>
+    <item>
+      <p>All services that are offered by an account provider will be enabled
+      by default. <link xref="accounts-disable-service">Switch</link>
+      individual services to <gui>OFF</gui> to disable them.</p>
+    </item>
+  </steps>
+
+  <p>Αφού έχετε προσθέσει τους λογαριασμούς, κάθε εφαρμογή που έχετε επιλέξει θα χρησιμοποιήσει αυτόματα αυτά τα διαπιστευτήρια όταν τις ξεκινάτε.</p>
+
+  <note style="tip">
+    <p>Για λόγους ασφάλειας, το GNOME δεν θα αποθηκεύσει τον κωδικό σας στον υπολογιστή σας. Στη θέση του, αποθηκεύει ένα κουπόνι που παρέχεται από την δικτυακή υπηρεσία. Εάν θέλετε την πλήρη ανάκληση της σύνδεσης μεταξύ της επιφάνειας εργασίας και της δικτυακής υπηρεσίας, <link xref="accounts-remove">αφαιρέστε</link> το.</p>
+  </note>
+
+</page>

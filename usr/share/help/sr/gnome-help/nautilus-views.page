@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-views" xml:lang="sr">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-views"/>
+
+    <desc>Одредите основни преглед, начин ређања, и нивое увећања за управника датотека.</desc>
+
+    <revision pkgversion="3.8" version="0.2" date="2013-04-03" status="review"/>
+
+    <credit type="author">
+      <name>Тифани Антополоски</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Шон Мек Кенс</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Мајкл Хил</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>Екатерина Герасимова</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  </info>
+
+<title>Прикажите поставке у <app>Датотекама</app></title>
+
+<p>Можете да измените основни преглед за нове фасцикле, како ће по основи бити поређане датотеке и фасцикле, ниво увећања за преглед иконама и збијени приказ, и да ли ће датотеке бити приказане у стаблу бочне површи. Изаберите <guiseq><gui style="menu">Датотеке</gui> <gui style="menuitem">Поставке</gui></guiseq> на горњој траци када је отворен програм <app>Датотеке</app> и изаберите језичак<gui style="tab">Прегледи</gui>.</p>
+
+<section id="default-view">
+<title>Подразумевани приказ</title>
+<terms>
+  <item>
+    <title><gui>Прегледај нове фасцикле помоћу</gui></title>
+    <p>По основи, нове фасцикле се приказују у прегледу иконица. Ако вам више одговара преглед списком, овде можете да га поставите за основни преглед. У супротном, можете да изаберете другачији преглед за сваку фасциклу коју разгледате тако што ћете на траци алата кликнути на дугме <gui style="button">Прегледајте ставке као списак</gui> или <gui style="button">Прегледајте ставке као иконице</gui>.</p>
+  </item>
+  <item>
+    <title><gui>Поређај ставке</gui></title>
+    <p>Можете да измените основни начин ређања који је коришћен у фасциклама користећи падајући списак <gui>Поређај ставке</gui> у поставкама да поређате према називу, величини датотеке, врсти датотеке, према времену последње измене, према времену последњег приступа или према времену њиховог бацања у смеће.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Можете да измените начин на који <link xref="files-sort">су датотеке поређане</link> у засебној фасцикли тако што ћете кликнути на дугме <media its:translate="no" type="image" src="figures/go-down.png">
+    <span its:translate="yes">Могућности прегледа</span></media> на траци алата и изабрати <gui>Према називу</gui>, <gui>Према величини</gui>, <gui>Према врсти</gui> или <gui>Према датуму измене</gui>, или кликом на заглавља колоне списка у прегледу списком. Погледајте <link xref="files-sort"/> за појединости. Овај изборник утиче само на текућу фасциклу.</p>
+  </item>
+  <item>
+    <title><gui>Поређај фасцикле пре датотека</gui></title>
+    <p>По основи, управник датотека више не приказује све фасцикле пре датотека. Да видите све фасцикле наведене пре датотека, укључите ову могућност.</p>
+  </item>
+  <item>
+    <title><gui>Прикажи скривене и резервне датотеке</gui></title>
+    <p>Управник датотека не приказује <link xref="files-hidden">скривене датотеке</link> и фасцикле по основи. Увек можете приказати скривене датотеке бирањем ове могућности.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Такође можете да прикажете скривене датотеке у засебном прозору тако што ћете изабрати <gui>Прикажи скривене датотеке</gui>, из изборника <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Могућности прегледа</span></media> на траци алата.</p>
+  </item>
+</terms>
+</section>
+
+<section id="icon-view-defaults">
+<title>Подразумевано за приказ иконицама</title>
+<terms>
+  <item>
+    <title><gui>Подразумевано увећање</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Можете да учините иконице и текст већим или мањим по основи у прегледу иконицама користећи ову могућност. Ово можете да урадите у појединачној фасцикли тако што ћете кликнути на дугме <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Могућности прегледа</span></media> на траци алата и изабрати <gui>Увећај</gui>, <gui>Умањи</gui> или <gui>Уобичајена величина</gui>. Ако често користите већи или мањи ниво увећања, овом опцијом можете да поставите основни ниво увећања.</p>
+    <p>У прегледу иконицама, више или мање <link xref="nautilus-display#icon-captions">натписа</link> је приказано на основу нивоа увећања.</p>
+   </item>
+  </terms>
+</section>
+
+<section id="list-view-defaults">
+<title>Подразумевано за приказ списком</title>
+<terms>
+  <item>
+    <title><gui>Подразумевано увећање</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Можете да учините иконице и текст већим или мањим у прегледу списком користећи ову могућност. Такође ово можете да урадите у засебној фасцикли тако што ћете кликнути на дугме <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Могућности прегледа</span></media> на траци алата и изабрати <gui>Увећај</gui>, <gui>Умањи</gui> или <gui>Уобичајена величина</gui>.</p>
+  </item>
+</terms>
+</section>
+
+</page>

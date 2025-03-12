@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="files-search" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="files"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-09-25" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author">
+      <name>GNOME dokumentācijas projekts</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Atrast datnes pēc nosaukuma un tipa. Saglabāt meklējumus vēlākai izmantošanai.</desc>
+  </info>
+
+  <title>Meklēt datnes</title>
+
+  <p>Datņu pārvaldniekā varat meklēt datnes pēc nosaukuma vai tipa. Jūs varat pat saglabāt bieži veiktos meklējumus, un tie parādīsies kā īpašas mapes jūsu mājas mapē.</p>
+
+  <links type="topic" style="linklist">
+    <title>Citas meklēšanas lietotnes</title>
+    <!-- This is an extension point where search apps can add
+    their own topics. It's empty by default. -->
+  </links>
+
+  <steps>
+    <title>Meklēšana</title>
+    <item>
+      <p>Open the <app>Files</app> application from the
+      <gui xref="shell-terminology">Activities</gui> overview.</p>
+    </item>
+    <item>
+      <p>Ja zināt, ka vajadzīgās datnes ir kādā noteiktā mapē, dodieties uz šo mapi.</p>
+    </item>
+    <item>
+      <p>Type a word or words that you know appear in the file name, and they
+      will be shown in the search bar. For example, if you name all your
+      invoices with the word "Invoice", type <input>invoice</input>. Words are
+      matched regardless of case.</p>
+      <note>
+        <p>Instead of typing words directly to bring up the search bar, you can
+	click the magnifying glass in the toolbar, or press
+        <keyseq><key>Ctrl</key><key>F</key></keyseq>.</p>
+      </note>
+    </item>
+    <item>
+      <p>Jūs varat sašaurināt rezultātus, norādot to atrašanās vietu un datnes tipu. </p>
+      <list>
+        <item>
+          <p>Spiediet uz <gui>Mājas</gui>, lai ierobežotu meklēšanas rezultātus uz <file>Mājas</file> mapi, vai <gui>Visas datnes</gui>, lai meklētu visur.</p>
+        </item>
+        <item>
+          <p>Click the <gui>+</gui> button and pick a <gui>File Type</gui> from
+	  the drop-down list to narrow the search results based on file type.
+	  Click the <gui>x</gui> button to remove this option and widen the
+	  search results.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Jūs varat atvērt, kopēt, dzēst un citādi strādāt ar savām datnēm no meklēšanas rezultātiem tāpat, kā jebkurā mapē datņu pārvaldnieku.</p>
+    </item>
+    <item>
+      <p>Vēlreiz spiediet uz lupas rīkjoslā, lai izietu no meklētāja un atgrieztos mapē.</p>
+    </item>
+  </steps>
+
+  <p>Ja bieži veicat meklēšanu ar noteiktiem kritērijiem, varat šo meklējumu saglabāt, lai vēlāk varētu tam ātri piekļūt.</p>
+
+  <steps>
+    <title>Saglabāt meklējumu</title>
+    <item><p>Sāciet meklēšanu, kā aprakstīts augstāk.</p></item>
+    <item><p>When you are happy with the search parameters, click the menu
+    button and select <gui>Save Search As</gui>.</p></item>
+    <item><p>Dodiet meklējumam nosaukumu un spiediet <gui>Saglabāt</gui>. Ja vēlaties, izvēlieties citu mapi, kur saglabātu meklējumu. Kad apskatīsiet šo mapi, jūs redzēsiet saglabāto meklējumu kā oranžu mapes ikonu ar palielināmo stiklu.</p></item>
+  </steps>
+
+  <p>Lai izmestu meklēšanas datni, kad tās vairs nav vajadzīga, vienkārši <link xref="files-delete">izdzēsiet</link> to tāpat kā citas datnes. Kad jūs izdzēšat saglabātu meklējumu, netiek izdzēstas atrastās datnes.</p>
+
+</page>

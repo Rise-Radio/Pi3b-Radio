@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="keyboard-repeat-keys" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="a11y#mobility" group="keyboard"/>
+    <link type="guide" xref="keyboard"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+    <revision pkgversion="3.9.92" date="2013-10-11" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2013-10-11" status="candidate"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+       <name>Natalia Ruz Leiva</name>
+       <email>nruz@alumnos.inf.utfsm.cl</email>
+    </credit>
+    <credit type="author">
+       <name>Julita Inca</name>
+       <email>yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Κάντε το πληκτρολόγιο να μην επαναλαμβάνει τα γράμματα όταν κρατάτε πατημένο ένα πλήκτρο, ή αλλάξτε την καθυστέρηση και την ταχύτητα των πλήκτρων επανάληψης.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Απενεργοποίηση των επαναλαμβανόμενων πατημάτων πλήκτρου</title>
+
+  <p>Από προεπιλογή, όταν κρατάτε πατημένο ένα πλήκτρο στο πληκτρολόγιο σας, το γράμμα ή το σύμβολο θα επαναλαμβάνεται μέχρι να ελευθερώσετε το πλήκτρο. Εάν δυσκολεύεστε να σηκώσετε το δάκτυλό σας πίσω αρκετά γρήγορα, μπορείτε να απενεργοποιήσετε αυτό το γνώρισμα, ή να αλλάξετε τον χρόνο που παίρνει πριν τα πατήματα του πλήκτρου αρχίσουν να επαναλαμβάνονται.</p>
+
+  <steps>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Eνέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>πληκτρολόγιο</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui>Πληκτρολόγιο</gui> για να ανοίξετε το φάτνωμα.</p>
+    </item>
+    <item>
+     <p>Απενεργοποιήστε το <gui>επανάληψη πατημάτων πλήκτρου όταν το πλήκτρο κρατιέται πατημένο</gui> για να απενεργοποιήσετε πλήρως τα επαναλαμβανόμενα πλήκτρα.</p>
+     <p>Εναλλακτικά, ρυθμίστε τον ολισθητή <gui>καθυστέρησης</gui> για να ελέγξετε πόσο πρέπει να κρατήσετε πατημένο ένα πλήκτρο για να ξεκινήσει να επαναλαμβάνεται και ρυθμίστε τον ολισθητή <gui>ταχύτητας</gui> για να ελέγξετε πόσο γρήγορα τα πατήματα του πλήκτρου επαναλαμβάνονται.</p>
+    </item>
+  </steps>
+
+</page>

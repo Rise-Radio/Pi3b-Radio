@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wired-connect" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>GNOME डॉक्युमेंटेशन प्रकल्प</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>बऱ्यापैकी वायर्ड नेटवर्क जोडणींना सेट अप करण्यासाठी, तुम्हाला फक्त नेटवर्क केबल जोडायची आवश्यकता आहे.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>वायर्ड(इथरनेट) नेटवर्कला जोडा</title>
+
+  <p>बऱ्यापैकी वायर्ड नेटवर्क जोडणींना सेट अप करण्यासाठी, तुम्हाला फक्त नेटवर्क केबल जोडायची आवश्यकता आहे. शीर्ष पट्टीवरील नेटवर्क चिन्ह काही सेकंदकरिता स्पिन होईल किंवा पल्स निर्माण होईल आणि त्यानंतर जोडणी स्थापीत केल्यानंतर "socket" चिन्हाकरिता बदलेल.</p>
+
+  <p>असे न झाल्यास, पहिले तुमचे नेटवर्क केबल जोडले आहे याची खात्री करा. केबलचे एक टोक आयताकृती इथरनेट (नेटवर्क) पोर्टशी जुळलेले पाहिजे, आणि दुसरे टोक एका स्विच, राउटर, नेटवर्क वॉल सॉकेट किंवा समानसह जुळलेले पाहिजे (तुमच्याकडील नेटवर्क मांडणीवर आधारित). कधीकधी, इथरनेट पोर्टच्या बाजूचे लाइट ते जोडले आहे आणि सक्रीय आहे असे निर्देशीत करते.</p>
+
+  <note>
+    <p>तुम्ही नेटवर्क केबलसह एका संगणकाला प्रत्यक्षरित्या दुसरऱ्या सह जोडू शकत नाही (किमान, काही अगाऊ सेटअप विना). दोण संगणकांशी जोडणी करण्यासाठी, दोघांना नेटवर्क हब, राउटर किंवा स्विचसह जोडणी करायला हवे.</p>
+  </note>
+
+  <p>अजूनही जोडणी स्थापीत न केल्यास, तुमचे नेटवर्क स्वयं सेटअपकरिता समर्थन पुरवू शकणार नाही (DHCP). अशा वेळेस तुम्हाला <link xref="net-manual">ते स्वहस्ते संरचीत करावे लागेल</link>.</p>
+
+</page>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="question" version="1.0 if/1.0" id="power-hibernate" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="power"/>
+
+    <desc>A hibernálás alapesetben le van tiltva, mert nem elég jó a támogatása.</desc>
+    <revision pkgversion="3.6.0" date="2012-08-14" status="review"/>
+
+    <credit type="author">
+      <name>GNOME dokumentációs projekt</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Griechisch Erika</mal:name>
+      <mal:email>griechisch.erika at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kucsebár Dávid</mal:name>
+      <mal:email>kucsdavid at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lakatos 'Whisperity' Richárd</mal:name>
+      <mal:email>whisperity at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lukács Bence</mal:name>
+      <mal:email>lukacs.bence1 at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nagy Zoltán</mal:name>
+      <mal:email>dzodzie at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Hogyan hibernálhatom a számítógépet?</title>
+
+<p>A számítógép <em>hibernálásakor</em> minden alkalmazása és dokumentuma tárolásra kerül, és a számítógép teljesen kikapcsol, így nem használ áramot. Alkalmazásai és dokumentumai a számítógép következő bekapcsolásakor ismét nyitva lesznek.</p>
+
+<p>Sajnos a hibernálás sok esetben <link xref="power-suspendfail">nem működik</link>, ami adatvesztést okozhat, ha dokumentumai és alkalmazásai megnyílására számít a számítógép következő bekapcsolásakor. Emiatt a hibernálás alapesetben le van tiltva.</p>
+
+<section id="test-hibernate">
+<title>A hibernálás működésének tesztelése</title>
+
+<note style="important">
+  <title>Mindig mentse munkáját hibernálás előtt</title>
+  <p>A számítógép hibernálása előtt mindig mentse dokumentumait, hogy akkor se veszítse el az aktuális változtatásokat, ha egy hiba miatt az alkalmazások és dokumentumok nem lesznek helyreállíthatók a számítógép következő bekapcsolásakor.</p>
+</note>
+
+<p>A parancssorból ellenőrizheti, hogy a hibernálás működik-e a számítógépén.</p>
+
+<steps>
+  <item>
+    <if:choose>
+      <if:when test="platform:unity">
+        <p>Nyisson egy <app>Terminált</app> a <keyseq><key>Ctrl</key><key>Alt</key><key>t</key></keyseq> billentyűkombináció lenyomásával, vagy a <input>terminál</input> szóra rákeresve a <gui>Dashban</gui>.</p>
+     </if:when>
+     <p>Nyissa meg a <app>Terminál</app> alkalmazást a <gui>Tevékenységek</gui> áttekintésben a <input>terminál</input> szóra keresve.</p>
+  </if:choose>
+  </item>
+  <item>
+    <p>Rendszergazdaként írja be az <cmd>lspci</cmd> parancsot a terminálba, és nyomja meg az <key>Enter</key> billentyűt.</p>
+    <p>Adja meg a jelszavát, amikor a program erre kéri.</p>
+  </item>
+  <item>
+    <p>A számítógép kikapcsolása után kapcsolja azt vissza. A megnyitott alkalmazások visszaálltak a hibernálás előtti állapotukba?</p>
+    <p>Ha a hibernálás nem működik, akkor ellenőrizze, hogy a swap partíciója legalább akkora-e, mint az elérhető RAM.</p>
+  </item>
+</steps>
+
+</section>
+
+<section id="enable-hibernate">
+<title>Hibernálás engedélyezése</title>
+
+  <p>Ha a hibernálás tesztelése sikeres, akkor később is használhatja a <cmd>pm-hibernate</cmd> parancsot, amikor hibernálni szeretné számítógépét.</p>
+
+  <p>Telepítheti a <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/"> <app>Hibernate Status Button</app></link> kiterjesztést is a <link href="https://extensions.gnome.org">GNOME kiterjesztések weboldaláról</link>:</p>
+
+  <steps>
+    <item>
+      <p>Kapcsolja <gui style="button">BE</gui> a <app>Hibernate Status Button</app> kiterjesztést a <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/">kiterjesztés oldalán</link> a bal felső sarokban található kapcsológombbal.</p>
+    </item>
+    <item>
+      <p>A rendszer a kiterjesztés telepítésének megerősítésére kéri. Nyomja meg a <gui style="button">Telepítés</gui> gombot.</p>
+    </item>
+  </steps>
+
+  <p>A gomb hozzáadásra kerül a rendszer menühöz a felső sáv jobb oldalán, és megnyomásával a számítógép hibernálható.</p>
+
+  <note style="tip">
+    <p>Ha az <key>Alt</key> billentyűt lenyomva tartja a <em>hibernálás</em> gomb lenyomásakor, használhatja a <em>hibrid alvás</em> funkciót. A hibrid alvás mód a hibernálás és alvás módok keveréke. Ez azt jelenti, hogy számítógépe bekapcsolva marad, így egy billentyű lenyomásával felébresztheti, és minden megnyitott alkalmazása és dokumentuma ugyanabban az állapotban lesz elérhető, mint a hibrid alvás gomb megnyomása előtt.</p>
+  </note>
+
+</section>
+
+</page>

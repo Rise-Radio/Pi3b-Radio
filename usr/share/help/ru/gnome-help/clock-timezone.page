@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="clock-timezone" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="clock"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+
+    <credit type="author">
+      <name>Проект документирования GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Синхронизируйте часовой пояс с вашим текущим местоположением, чтобы время было точным.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Изменение часового пояса</title>
+
+  <steps>
+    <item>
+      <p>Нажмите на часы, находящиеся в середине верхней панели и выберите <gui>Параметры даты и времени</gui>.</p>
+    </item>
+    <item>
+      <p>При наличии учётной записи обычного пользователя потребуется нажать <gui>Разблокировать</gui> и ввести <link xref="user-admin-explain">пароль администратора</link>.</p>
+    </item>
+    <item>
+      <p>If you have <gui>Automatic Time Zone</gui> set to <gui>ON</gui>, your
+      time zone should update automatically if you have an internet
+      connection. To update your time zone manually, set this to
+      <gui>OFF</gui>.</p>
+    </item>
+    <item>
+      <p>Нажмите на <gui>Часовой пояс</gui> и затем выберите ваше местоположение на карте или найдите ваш текущий город.</p>
+    </item>
+  </steps>
+
+  <p>При выборе другого местоположения время будет обновлено автоматически. Также можно <link xref="clock-set">установить время вручную</link>.</p>
+
+</page>

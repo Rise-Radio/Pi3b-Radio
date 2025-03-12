@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="a11y task" id="a11y-screen-reader" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="a11y#vision" group="blind"/>
+
+    <revision pkgversion="3.13.92" date="2014-09-20" status="incomplete"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>ஷான் மெக்கேன்ஸ்</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+
+    <desc>பயனர் இடைமுகத்தை வாசிக்க, <app>Orca</app> திரை வாசிப்புக் கருவியைப் பயன்படுத்தவும்.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>திரையை உரக்க வாசித்தல்</title>
+
+  <p>GNOME பயனர் இடைமுகத்தை வாசிப்பதற்காக <app>Orca</app> என்ற திரை வாசிப்புக் கருவியை வழங்குகிறது. உங்கள் கணினியில் Orca நிறுவப்பட்டுள்ளதா இல்லையா என்பது நீங்கள் GNOME ஐ எப்படி நிறுவினீர்கள் என்பதைப் பொறுத்தது. <link href="install:orca">Orca ஐ நிறுவவும்</link>, பிறகு கூடுதல் தகவலுக்கு <link href="help:orca">Orca உதவியைப்</link> பார்க்கவும்.</p>
+</page>

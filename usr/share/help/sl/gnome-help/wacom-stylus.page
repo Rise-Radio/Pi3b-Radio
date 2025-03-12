@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="wacom-stylus" xml:lang="sl">
+  <info>
+
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <link type="guide" xref="wacom"/>
+
+    <credit type="author copyright">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc>Določitev funkcij gumbov in občutek pritiska zaslonskega pisala Wacom.</desc>
+  </info>
+
+  <title>Nadzor pisala</title>
+
+<steps>
+  <item>
+    <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+    start typing <gui>Wacom Tablet</gui>.</p>
+  </item>
+  <item>
+    <p>Click on <gui>Wacom Tablet</gui> to open the panel.</p>
+
+    <note style="tip"><p>If no tablet is detected, you'll be asked to
+    <gui>Please plug in or turn on your Wacom tablet</gui>. Click the
+    <gui>Bluetooth Settings</gui> link to connect a wireless tablet.</p></note>
+  </item>
+  <item><p>Nižji del pulta vsebuje podrobnosti in nastavitve, določene za vašo zaslonsko pisalo z imenom naprave (razred pisala) in diagramom na levi. Te nastavitve je mogoče prilagoditi.</p>
+    <list>
+      <item><p><gui>Občutek pritiska radirke:</gui> uporabite drsnik za prilagoditev "občutka" (kako je fizični pritisk preveden v digitalne vrednosti) med <gui>Mehkim</gui> in <gui>Trdim</gui>.</p></item>
+      <item><p>Nastavitve <gui>Gumba/Drsnega koleščka</gui> (te spremembe se odražajo pri pisalu). Kliknite na meni poleg vsake oznake za izbiro ene od teh funkcij: brez dejanja, levi miškin klik, srednji miškin klik, desni miškin klik, drsenje navzgor, drsenje navzdol, drsenje levo, drsenje desno, nazaj, naprej.</p></item>
+      <item><p><gui>Občutek pritiska konice:</gui> uporabite drsnik za prilagoditev "občutka" med <gui>Mehkim</gui> in <gui>Trdim</gui>.</p></item>
+    </list>
+  </item>
+</steps>
+
+<note style="info"><p>Če imate več kot eno zaslonsko pisalo, ko se dodatno pisalo približa tablici, se bo poleg imena naprave prikazal pozivnik. Uporabite pozivnik za izbiro, katero pisalo želite nastaviti.</p>
+</note>
+
+</page>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-disable-service" xml:lang="vi">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.13.92" date="2013-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    
+    <desc>Vài tài khoản trực tuyến có thể được dùng để truy cập cùng lúc nhiều dịch vụ (như lịch và thư điện tử). Bạn có thể điều khiển những dịch vụ nào được dùng bởi ứng dụng.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nguyễn Thái Ngọc Duy</mal:name>
+      <mal:email>pclouds@gmail.com</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Điều khiển tài khoản nào được phép truy cập dịch vụ trực tuyến nào</title>
+
+  <p>Vài loại tài khoản trực tuyến cho phép truy cập cùng lúc nhiều dịch vụ với một tài khoản. Ví dụ, tài khoản Google cho phép truy cập lịch, thư điện tử, danh bạ và tán gẫu. Bạn có thể muốn dùng tài khoản với dịch vụ này nhưng không dùng dịch vụ kia. Ví dụ, bạn có thể muốn dùng tài khoản Google cho thư từ nhưng không cho tán gẫu, vì bạn có tài khoản khác cho tán gẫu.</p>
+
+  <p>Bạn có thể tắt một số dịch vụ được cung cấp bởi tài khoản trực tuyến:</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Select the account which you want to change from the list on the
+      left.</p>
+    </item>
+    <item>
+      <p>A list of services that are available with this account will be
+      shown under <gui>Use for</gui>.</p>
+    </item>
+    <item>
+      <p>Switch off any of the services that you do not want to use.</p>
+    </item>
+  </steps>
+
+  <p>Once a service has been disabled for an account, applications on your
+  computer will not be able to use the account to connect to that service any
+  more.</p>
+
+  <p>Để bật lại dịch vụ, chỉ cần quay lại cửa sổ <gui>Tài khoản trực tuyến</gui> và bật nó lên.</p>
+
+</page>

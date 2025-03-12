@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="power-lowpower" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="power#battery"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <desc>Mengijinkan baterai terkosongkan sepenuhnya buruk baginya.</desc>
+    <credit type="author">
+      <name>Projek Dokumentasi GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2011, 2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Mengapa komputer saya mati/hibernasi ketika baterai mencapai 10%?</title>
+
+<p>Ketika tingkat pengisian baterai terlalu rendah, komputer Anda akan secara otomatis <link xref="power-hibernate">hibernasi</link>. Ini dilakukan untuk memastikan bahwa baterai tidak sepenuhnya dikosongkan, karena hal ini buruk buat baterai. Bila baterai habis, komputer juga tak punya waktu untuk mati secara benar.</p>
+
+<p>You can change what happens when the battery level gets too low by opening
+<app>Power</app> from the <gui xref="shell-terminology">Activities</gui>
+overview. Look at the <gui>When battery power is critical</gui> setting. You
+can choose for the computer to hibernate or shut down. If you choose shut down,
+your applications and documents <em>will not</em> be saved before the computer
+turns off.</p>
+
+<p>Some computers have problems hibernating, and may not be able to recover the
+applications and documents you had open when you turn on the computer again. In
+this case, it is possible that you could lose some of your work if you did not
+save it before the computer hibernated. You may be able to <link xref="power-suspendfail">fix problems with hibernation</link> though.</p>
+
+</page>

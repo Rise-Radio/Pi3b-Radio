@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wireless-airplane" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="net-wireless"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+    <revision pkgversion="3.10" date="2013-11-10" status="review"/>
+
+    <credit type="author">
+      <name>GNOME dokumentācijas projekts</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <desc>Atveriet tīkla iestatījumus un ieslēdziet lidmašīnas režīmu.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Izslēdziet bezvadu tīklu (lidmašīnas režīms)</title>
+
+<p>Ja atrodas dators lidmašīnā (vai kādā citā vietā, kur bezvadu savienojumi nav atļauti), jums vajadzētu izslēgt bezvadu savienojumu: Jūs varat arī izslēgt bezvadu savienojumu citu iemeslu dēļ (piemēram, lai taupītu bateriju). Lai to izdarītu:</p>
+
+<steps>
+ <item><p>Spiediet uz sistēmas statusa laukuma augšējā joslā un izvēlieties <gui>Wi-Fi</gui>.</p>
+ </item>
+ <item><p>Izvēlieties <gui>Wi-Fi iestatījumi</gui>.</p>
+ </item>
+ <item>
+  <p>Pārslēdziet <gui>lidmašīnas režīmu</gui> uz <gui>|</gui>. Tas izslēgs jūsu bezvadu savienojumu, līdz jūs izslēgsiet lidmašīnas režīmu.</p>
+ </item>
+</steps>
+
+<note><p>Izmantojot <em>lidmašīnas režīmu</em> pilnībā izslēgsies gan bezvadu tīkla, gan Bluetooth savienojumi.</p></note>
+
+</page>

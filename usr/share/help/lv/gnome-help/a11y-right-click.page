@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-right-click" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="mouse"/>
+    <link type="guide" xref="a11y#mobility" group="clicking"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-13" status="candidate"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="final"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author copyright">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+      <years>2012</years>
+    </credit>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <desc>Spiediet un turiet kreiso peles pogu, lai veiktu klikšķi ar labo taustiņu.</desc>
+  </info>
+
+  <title>Simulēt peles labā taustiņa klikšķi</title>
+
+  <p>Jūs varat veikt klikšķi ar labo taustiņu turot nospiestu kreiso peles taustiņu. Tas ir noderīgi gadījumos, ka jums ir grūti kustināt vienas rokas pirkstus, vai arī jūsu pelei ir viena poga.</p>
+
+  <steps>
+    <item>
+      <p>Atveriet <link xref="shell-terminology">aktivitāšu</link> pārskatu un sāciet rakstīt <gui>Universālā piekļuve</gui>.</p>
+    </item>
+    <item>
+      <p>Spiediet <gui>Universālā piekļuve</gui>, lai atvērtu paneli.</p>
+    </item>
+    <item>
+      <p>Press <gui>Click Assist</gui> in the <gui>Pointing &amp; Clicking</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Switch <gui>Simulated Secondary Click</gui> to <gui>ON</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Jūs varat norādīt, cik ilgi jums jātur nospiests kreisais peles taustiņš, lai tas tiktu reģistrēts kā labais klikšķis, mainot <gui>Pieņemšanas aizturi</gui></p>
+
+  <p>Lai veiktu labo klikšķi ar simulēto sekundāro klikšķi, turiet nospiestu peles kreiso pogu tajā vietā, kur jūs parasti vēlētos veikt klikšķi ar labo pogu, pēc tam atlaidiet. Piespiešanas laikā peles rādītājs piepildīsies ar zilo krāsu. Kad tas būs kļuvis pilnīgi zils, atlaidiet peles pogu, lai veiktu labo klikšķi.</p>
+
+  <p>Daži rādītāji nemaina krāsas, piemēram, izmēra maiņas rādītājs. Jūs varat veikt simulēto labo klikšķi kā parasti, pat ja nesaņemat vizuālo atgriezenisko saiti no rādītāja.</p>
+
+  <p>Ja jūs izmantojat <link xref="mouse-mousekeys">Peles taustiņus</link>, tas ļauj jums veikt labo klikšķi arī ar taustiņa <key>5</key> turēšanu uz ciparu papildtastatūras.</p>
+
+  <note>
+    <p><gui>Aktivitātes</gui> pārskatā jūs vienmēr varat veikt labās pogas klikšķi  izmantojot ilgo piespiešanu — arī tad, kad šī iespēja ir deaktivēta. Ilgā piespiešana šajā situācijā darbosies nedaudz savādāk: jums nav jāatlaiž poga, lai imitētu klikšķi ar labo pogu.</p>
+  </note>
+
+</page>

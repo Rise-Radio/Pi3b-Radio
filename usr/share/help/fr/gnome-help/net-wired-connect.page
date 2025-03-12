@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wired-connect" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Le projet de documentation GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Pour configurer la plupart des connexions câblées, il suffit de brancher un câble réseau.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Connexion à un réseau filaire (Ethernet)</title>
+
+  <p>Pour configurer la plupart des connexions filaires, tout ce que vous avez à faire est de brancher un câble réseau. L'icône réseau de la barre supérieure doit alors tourner ou clignoter pendant quelques secondes pour finalement se transformer en une icône en forme de « prise » dès que la connexion est établie.</p>
+
+  <p>Si cela ne se passe pas de cette façon, commencez par vérifier que votre câble réseau est correctement branché. L'une de ses extrémités doit être branchée dans le port Ethernet rectangulaire de votre ordinateur, l'autre extrémité va dans un commutateur, la prise d'un routeur ou d'un connecteur réseau mural, ou quelque chose d'équivalent (en fonction de votre configuration réseau). Parfois, une lumière à côté du port Ethernet indique qu'il est connecté et actif.</p>
+
+  <note>
+    <p>Vous ne pouvez pas brancher directement un ordinateur à un autre avec un câble réseau (du moins pas sans quelques paramétrages supplémentaires). La bonne manière de procéder est de brancher les deux ordinateurs sur un hub réseau, un routeur ou un commutateur.</p>
+  </note>
+
+  <p>Si vous n'avez toujours pas de connexion, c'est sans doute que votre réseau ne prend pas en charge la configuration automatique (DHCP). Dans ce cas, vous devez la <link xref="net-manual">configurer manuellement</link>.</p>
+
+</page>

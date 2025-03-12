@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="printing-streaks" xml:lang="nl">
+
+  <info>
+    <link type="guide" xref="printing#problems"/>
+    <link type="seealso" xref="printing-inklevel"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2012-02-19" status="candidate"/>
+
+    <credit type="author">
+      <name>Gnome-documentatieproject</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Als afdrukken streperig of vaag zijn, of als er kleuren ontbreken, controleer dan de inktniveaus of maak de printkop schoon.</desc>
+  </info>
+
+  <title>Waarom zie ik strepen, lijnen of de verkeerde kleuren op mijn afdrukken?</title>
+
+  <p>Als uw afdrukken streperig of vaag zijn, of u ziet lijnen die er niet behoren te zijn, of ze zijn op een andere manier van slechte kwaliteit, dan kan het zijn dat er een probleem is met de printer of een lage inkt/tonervoorraad.</p>
+
+  <list>
+     <item>
+       <p>Vervaagde tekst of afbeeldingen</p>
+       <p>Het kan zijn dat de inkt of toner bijna op is. Controleer uw inkt/tonervoorraad en koop zo nodig een nieuwe patroon.</p>
+     </item>
+     <item>
+       <p>Strepen en lijnen</p>
+       <p>If you have an inkjet printer, the print head may be dirty or
+       partially blocked. Try cleaning the print head (see the printer's manual
+       for instructions).</p>
+     </item>
+     <item>
+       <p>Verkeerde kleuren</p>
+       <p>Het kan zijn dat er één kleur inkt of toner op is. Controleer uw inkt/tonervoorraad en koop zo nodig een nieuwe patroon.</p>
+     </item>
+     <item>
+       <p>Gekartelde lijnen, of lijnen die niet recht zijn</p>
+       <p>Als lijnen op uw afdruk die recht zouden moeten zijn gekarteld zijn, kan het zijn dat u de printkop moet uitlijnen. Zie de handleiding van de printer voor details over hoe dit moet.</p>
+     </item>
+  </list>
+
+</page>

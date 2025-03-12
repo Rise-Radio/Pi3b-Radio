@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="shell-lockscreen" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="shell-overview#desktop"/>
+
+    <revision pkgversion="3.6.1" version="0.1" date="2012-11-11" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author copyright">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc>La pantalla de bloqueo decorativa y funcional transmite información útil.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>La pantalla de bloqueo</title>
+
+  <p>La pantalla de bloqueo significa que puede ver qué está pasando mientras su equipo está bloqueado, y le permite obtener un resumen de qué ha pasado mientras estuvo ausente. El panel de la pantalla de bloqueo muestra una imagen atractiva mientras su equipo está bloqueado y proporciona información útil:</p>
+
+  <list>
+    <item><p>el nombre del usuario que ha iniciado sesión</p></item>
+    <item><p>fecha y hora, y ciertas notificaciones</p></item>
+    <item><p>batería y estado de la red</p></item>
+    <item><p>la habilidad para controlar la reproducción de medios: cambiar el volumen, saltar una pista o pausar su música sin tener que ingresar una contraseña</p></item>
+  </list>
+
+  <p>To unlock your computer, raise the lock screen curtain by dragging it
+  upward with the cursor, or by pressing <key>Esc</key> or <key>Enter</key>.
+  This will reveal the login screen, where you can enter your password to
+  unlock. Alternatively, just start typing your password and the curtain will
+  be automatically raised as you type. You can also switch users if your
+  computer is configured for more than one.</p>
+
+</page>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="power-closelid" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="power"/>
+    <link type="seealso" xref="power-suspendfail"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-08" status="review"/>
+
+    <credit type="author">
+      <name>Le projet de documentation GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Pour économiser l'énergie, les ordinateurs portables se mettent en veille quand vous rabattez l'écran.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Mise en veille de l'ordinateur quand l'écran est rabattu</title>
+
+  <p>Si vous rabattez l'écran de votre ordinateur portable, il se met en <link xref="power-suspend"><em>veille</em></link> pour économiser l'énergie. Cela ne signifie pas qu'il s'éteint - il s'est juste mis en veille. Relevez l'écran et il se réveille. Si ce n'est pas le cas, essayez de cliquer avec la souris ou d'appuyer sur une touche. Si ça ne marche toujours pas, appuyez sur le bouton de mise en marche.</p>
+
+  <p>Certains ordinateurs n'arrivent pas à se mettre en veille convenablement, souvent parce que leur matériel n'est pas complètement pris en charge par le système d'exploitation (par ex. il manque des pilotes Linux). Le résultat est que vous ne pouvez pas réveiller l'ordinateur après avoir abaissé le couvercle. Essayez soit de <link xref="power-suspendfail">résoudre le problème de la mise en veille</link>, soit d'empêcher la mise en veille quand vous rabattez l'écran.</p>
+
+<section id="nosuspend">
+  <title>Désactivation de la mise en veille à la fermeture de l'écran</title>
+
+  <note style="important">
+    <p>Ces instructions ne sont valables que si vous utilisez <app>systemd</app>. Consultez votre distribution pour de plus amples informations.</p>
+  </note>
+
+  <p>Si vous souhaitez empêcher la mise en veille de l'ordinateur à la fermeture de l'écran, modifiez les paramètres de ce comportement. Vous devez disposer du <link xref="user-admin-change">mot de passe administrateur</link> pour modifier ce paramètre.</p>
+
+  <note style="warning">
+    <p>Faites très attention si vous modifiez ce paramètre. Certains ordinateurs portables peuvent surchauffer s'ils restent allumés avec le couvercle rabattu, notamment s'ils sont dans un espace confiné comme un sac à dos.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>Ouvrez l'application <app>Terminal</app> à partir de la vue d'ensemble des <gui>Activités</gui>.</p>
+    </item>
+    <item>
+      <p>Exécutez cette commande :</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudoedit /etc/systemd/logind.conf</input></screen>
+    </item>
+    <item>
+      <p>Vous avez maintenant accès au contenu du fichier. Recherchez-y la ligne <code>HandleLidSwitch=</code>. Il se peut qu'elle soit commentée avec un <code>#</code> au début suivi d'un argument. Si cette ligne existe déjà, décommentez-la. Sinon, ajoutez-la au code.</p>
+      <code>
+[Login]
+HandleLidSwitch=<input>lock</input>
+      </code>
+      <p>Vous pouvez mettre <input>lock</input> pour verrouiller l'écran, <input>ignore</input> pour qu'il ne se passe rien, <input>poweroff</input> pour que l'ordinateur s'éteigne, ou <input>suspend</input> pour qu'il se mette en veille. Consultez <link href="man:logind.conf">logind.conf help</link> pour de plus amples informations.</p>
+    </item>
+    <item>
+      <p>Après avoir modifié le fichier, enregistrez vos modifications et quittez l'éditeur.</p>
+    </item>
+    <item>
+      <p>Exécutez la commande suivante pour que votre modification fonctionne :</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudo systemctl restart systemd-logind.service</input></screen>
+      <p>Si vous n'exécutez pas cette commande, votre modification ne prendra effet qu'au prochain redémarrage de l'ordinateur.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

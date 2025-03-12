@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="problem" id="power-nowireless" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="power#problems"/>
+    <link type="seealso" xref="power-suspendfail"/>
+
+    <revision pkgversion="3.7.1" version="0.2" date="2012-11-16" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-10-28" status="review"/>
+
+    <credit type="author">
+      <name>Projeto de documentação do GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Alguns dispositivos sem fio têm problemas em lidar quando o computador é suspenso, não resumindo adequadamente.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodolfo Ribeiro Gomes</mal:name>
+      <mal:email>rodolforg@gmail.com</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>João Santana</mal:name>
+      <mal:email>joaosantana@outlook.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Eu não tenho rede sem fio quando acordo meu computador</title>
+
+  <p>Se você suspendeu seu computador ou ele foi hibernado, você pode descobrir que sua conexão Internet sem fio não funciona ao resumi-lo depois. Isso acontece quando o <link xref="hardware-driver">driver</link> do dispositivo sem fio não tem suporte completo a determinados recursos de economia de energia. Normalmente, a conexão sem fio falha em ativar corretamente quando o computador é resumido.</p>
+
+  <p>Se isso acontece, tente alternar sua conexão sem fio para OFF e, então, para ON novamente:</p>
+
+  <steps>
+    <item>
+      <p>Abra o panorama de <gui xref="shell-terminology">Atividades</gui> e comece a digitar <gui>Rede</gui>.</p>
+    </item>
+    <item>
+      <p>Clique em <gui>Rede</gui> para abrir o painel.</p>
+    </item>
+    <item>
+      <p>Selecione <gui>Wi-Fi</gui>.</p>
+    </item>
+    <item>
+      <p>Switch the wireless <gui>OFF</gui> and then <gui>ON</gui> again.</p>
+    </item>
+    <item>
+      <p>If the wireless still does not work, switch <gui>ON</gui> the
+      <gui>Airplane Mode</gui> and then switch it <gui>OFF</gui> again.</p>
+    </item>
+  </steps>
+
+  <p>If this does not work, restarting your computer should make the wireless
+  work again. If you are still having problems after that, connect to the
+  internet using an Ethernet cable and update your computer.</p>
+
+</page>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-fixed-ip-address" xml:lang="vi">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="seealso" xref="net-findip"/>
+
+    <revision pkgversion="3.4.0" date="2012-03-13" status="final"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Dùng địa chỉ IP tĩnh giúp dễ quản lý hơn dịch vụ mạng từ máy tính của bạn.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nguyễn Thái Ngọc Duy</mal:name>
+      <mal:email>pclouds@gmail.com</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Tạo kết nối với địa chi IP cố định</title>
+
+  <p>Most networks will automatically assign an <link xref="net-what-is-ip-address">IP address</link> and other details to your
+  computer when you connect to the network. These details can change
+  periodically, but you might want to have a fixed IP address for the computer
+  so you always know what its address is (for example, if it is a file
+  server).</p> <p>Để đặt địa chỉ IP tĩnh cho máy tính:</p>
+
+  <steps>
+    <item>
+      <p>Nhấn <gui>biểu tượng mạng</gui> trên <gui>thanh đỉnh</gui> và chọn <gui>Thiết lập mạng</gui>.</p>
+    </item>
+    <item>
+      <p>Chọn kết nối mạng từ danh sách (<gui>Dây</gui> hoặc <gui>Không dây</gui>) và nhấn <gui>Cấu hình</gui>.</p>
+    </item>
+    <item>
+      <p>Đến thẻ <gui>Thiết lập IPv4</gui> và thay đổi tuỳ chọn <gui>Phương thức</gui> sang <gui>Thủ công</gui>.</p>
+    </item>
+    <item>
+      <p>Nếu chưa có thông tin kết nối trong danh sách <gui>Địa chỉ</gui>, hoặc nếu bạn muốn thiết lập kết nối mới, nhấn <gui>Thêm</gui>.</p>
+    </item>
+    <item>
+      <p>Enter the <em>IP Address</em>, <em>Netmask</em>, and <em>Gateway</em>
+      information into the appropriate boxes. How you choose these will depend
+      on your network setup; there are specific rules governing which IP
+      addresses and netmasks are valid for a given network.</p>
+    </item>
+    <item>
+      <p>If necessary, enter a <em>Domain Name Server</em> address into the
+      <gui>DNS servers</gui> box. This is the IP address of a server which
+      looks up domain names; most corporate networks and internet providers
+      have dedicated DNS servers.</p>
+    </item>
+    <item>
+      <p>Nhấn <gui>Lưu</gui>. Kết nối sẽ có địa chỉ IP tĩnh.</p>
+    </item>
+  </steps>
+
+</page>

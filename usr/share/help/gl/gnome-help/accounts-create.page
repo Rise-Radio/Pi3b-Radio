@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-create" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Crear unha conta nova usando <app>Contas en liña</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Crear unha conta en liña</title>
+
+  <p>Algúns fornecedores de servizos en liña permítenlle crear unha conta engadíndoos ás <app>Contas en liña</app>. Isto permítelle xestionar todas as súas contas en liña desde un aplicativo.</p>
+
+  <!-- Tested with Google -->
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Prema <gui style="button">+</gui>.</p>
+    </item>
+    <item>
+      <p>Select the type of account which you want to add. Some account types
+      may <link xref="accounts-provider-not-available">not be
+      available</link>.</p>
+    </item>
+    <item>
+      <p>If the service allows you to create an account, you should see more
+      information on how to do this.</p>
+      <note>
+        <p>Non todos os fornecedores de contas ofrecen a opción de crear unha conta neste punto. Se o servizo que desexa rexistrar non fornece a opción de rexistrar unha conta neste punto, debe usar un método alternativo para crear unha conta.</p>
+      </note>
+    </item>
+    <item>
+      <p>Complete o formulario de rexistro. Isto normalmente preguntaralle por algunha información persoal como o nome de usuario e contrasinal.</p>
+    </item>
+    <item>
+      <p>Preguntaráselle se quere darlle acceso a GNOME á súa nova conta: permítalle a GNOME acceder á súa conta para usala con <app>Contas en liña</app>.</p>
+    </item>
+    <item>
+      <p>All services that are offered by an account provider will be enabled
+      by default. <link xref="accounts-disable-service">Switch</link>
+      individual services to <gui>OFF</gui> to disable them.</p>
+    </item>
+  </steps>
+
+</page>

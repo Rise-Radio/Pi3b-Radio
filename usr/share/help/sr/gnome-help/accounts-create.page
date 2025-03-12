@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-create" xml:lang="sr">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author editor">
+      <name>Екатерина Герасимова</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Јулита Инка</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Мајкл Хил</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Направите нови налог користећи <app>Налоге на мрежи</app>.</desc>
+  </info>
+
+  <title>Направите налог на мрежи</title>
+
+  <p>Неки достављачи услуга налога на мрежи вам допуштају да направите налог док га додајете у програм <app>Налози на мрежи</app>. Ово вам омогућава да управљате свим вашим налозима на мрежи из једног програма.</p>
+
+  <!-- Tested with Google -->
+  <steps>
+    <item>
+      <p>Отворите преглед <gui xref="shell-terminology">Активности</gui> и почните да куцате <gui>Налози на мрежи</gui>.</p>
+    </item>
+    <item>
+      <p>Кликните на <gui>налоге на мрежи</gui> да отворите панел.</p>
+    </item>
+    <item>
+      <p>Кликните на знак <gui style="button">+</gui>.</p>
+    </item>
+    <item>
+      <p>Изаберите врсту налога коју желите да додате. Неке врсте налога могу <link xref="accounts-provider-not-available">бити недоступне</link>.</p>
+    </item>
+    <item>
+      <p>Ако вам услуга дозвољава да направите налог, треба да видите више о томе како то да урадите.</p>
+      <note>
+        <p>Не нуде сви достављачи налога на мрежи могућност за стварање налога на овом стадијуму. Ако ово важи за услугу на коју желите да се упишете, мораћете на неки други начин да направите налог.</p>
+      </note>
+    </item>
+    <item>
+      <p>Попуните образац за регистровање. Биће вам затражени неки лични подаци као што је корисничко име и лозинка.</p>
+    </item>
+    <item>
+      <p>Морате да одобрите Гному приступ вашем новом налогу да бисте га користили са <app>Налозима на мрежи</app>.</p>
+    </item>
+    <item>
+      <p>Све услуге које нуди достављач налога биће унапред укључене. <link xref="accounts-disable-service">Пребаците</link> појединачне услуге на <gui>ИСКЉ.</gui> да их искључите.</p>
+    </item>
+  </steps>
+
+</page>

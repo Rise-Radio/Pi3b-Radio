@@ -1,0 +1,9 @@
+TARGETS = fake-hwclock dhcpcd triggerhappy apache2 vsftpd listen-for-shutdown.sh rng-tools lightdm bluetooth avahi-daemon urandom alsa-utils plymouth sendsigs rsyslog umountnfs.sh rpcbind nfs-common hwclock.sh networking umountfs umountroot halt reboot
+sendsigs: alsa-utils lightdm vsftpd listen-for-shutdown.sh apache2 plymouth triggerhappy rng-tools bluetooth avahi-daemon
+rsyslog: sendsigs vsftpd listen-for-shutdown.sh apache2 rng-tools bluetooth avahi-daemon
+umountnfs.sh: alsa-utils rsyslog lightdm sendsigs vsftpd listen-for-shutdown.sh apache2 plymouth triggerhappy rng-tools bluetooth avahi-daemon
+networking: rpcbind vsftpd apache2 umountnfs.sh
+umountfs: networking alsa-utils dhcpcd lightdm rpcbind vsftpd hwclock.sh listen-for-shutdown.sh apache2 plymouth triggerhappy rng-tools umountnfs.sh bluetooth urandom avahi-daemon
+umountroot: fake-hwclock umountfs
+halt: umountroot
+reboot: umountroot

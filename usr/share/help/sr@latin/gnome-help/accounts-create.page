@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-create" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Julita Inka</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Majkl Hil</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Napravite novi nalog koristeći <app>Naloge na mreži</app>.</desc>
+  </info>
+
+  <title>Napravite nalog na mreži</title>
+
+  <p>Neki dostavljači usluga naloga na mreži vam dopuštaju da napravite nalog dok ga dodajete u program <app>Nalozi na mreži</app>. Ovo vam omogućava da upravljate svim vašim nalozima na mreži iz jednog programa.</p>
+
+  <!-- Tested with Google -->
+  <steps>
+    <item>
+      <p>Otvorite pregled <gui xref="shell-terminology">Aktivnosti</gui> i počnite da kucate <gui>Nalozi na mreži</gui>.</p>
+    </item>
+    <item>
+      <p>Kliknite na <gui>naloge na mreži</gui> da otvorite panel.</p>
+    </item>
+    <item>
+      <p>Kliknite na znak <gui style="button">+</gui>.</p>
+    </item>
+    <item>
+      <p>Izaberite vrstu naloga koju želite da dodate. Neke vrste naloga mogu <link xref="accounts-provider-not-available">biti nedostupne</link>.</p>
+    </item>
+    <item>
+      <p>Ako vam usluga dozvoljava da napravite nalog, treba da vidite više o tome kako to da uradite.</p>
+      <note>
+        <p>Ne nude svi dostavljači naloga na mreži mogućnost za stvaranje naloga na ovom stadijumu. Ako ovo važi za uslugu na koju želite da se upišete, moraćete na neki drugi način da napravite nalog.</p>
+      </note>
+    </item>
+    <item>
+      <p>Popunite obrazac za registrovanje. Biće vam zatraženi neki lični podaci kao što je korisničko ime i lozinka.</p>
+    </item>
+    <item>
+      <p>Morate da odobrite Gnomu pristup vašem novom nalogu da biste ga koristili sa <app>Nalozima na mreži</app>.</p>
+    </item>
+    <item>
+      <p>Sve usluge koje nudi dostavljač naloga biće unapred uključene. <link xref="accounts-disable-service">Prebacite</link> pojedinačne usluge na <gui>ISKLJ.</gui> da ih isključite.</p>
+    </item>
+  </steps>
+
+</page>

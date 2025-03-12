@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="printing-streaks" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="printing#problems"/>
+    <link type="seealso" xref="printing-inklevel"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2012-02-19" status="candidate"/>
+
+    <credit type="author">
+      <name>Проект документирования GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Если на распечатках видны полосы, непропечатки или отсутствуют некоторые цвета, проверьте уровень чернил или выполните очистку печатающей головки.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Почему на распечатках присутствуют полосы, посторонние линии или неправильные цвета?</title>
+
+  <p>Если на распечатках видны полосы, непропечатки, посторонние линии и другие дефекты печати, причиной может быть неполадка принтера, либо низкий уровень чернил или тонера.</p>
+
+  <list>
+     <item>
+       <p>Блёклый текст или изображения</p>
+       <p>Вероятно, заканчиваются чернила или тонер. Свяжитесь с поставщиком расходных материалов и, при необходимости, купите новый картридж.</p>
+     </item>
+     <item>
+       <p>Полосы и линии</p>
+       <p>Если принтер струйный, причина может быть в том, что загрязнена печатающая головка или частично забились её сопла. Попробуйте очистить печатающую головку (о том, как это сделать, прочтите в руководстве по эксплуатации принтера).</p>
+     </item>
+     <item>
+       <p>Неправильные цвета</p>
+       <p>Возможно, закончились чернила или тонер одного из цветов. Свяжитесь с поставщиком расходных материалов и, при необходимости, купите новый картридж.</p>
+     </item>
+     <item>
+       <p>Неровные или кривые линии</p>
+       <p>Если линии, которые должны быть прямыми, оказываются на распечатке неровными, то может потребоваться выровнять печатающую головку. О том, как это сделать, читайте в руководстве по эксплуатации принтера.</p>
+     </item>
+  </list>
+
+</page>

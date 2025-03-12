@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-screen-lock" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+    <link type="seealso" xref="session-screenlocks"/>
+    <link type="seealso" xref="shell-exit#lock-screen"/>
+
+    <revision pkgversion="3.8" date="2013-05-21" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit>
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Empêcher d'autres personnes d'utiliser votre ordinateur lorsque vous vous éloignez.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Verrouillage automatique de l'écran</title>
+  
+  <p>En cas d'absence, vous devriez <link xref="shell-exit#lock-screen">verrouiller l'écran</link> pour empêcher d'autres personnes d'utiliser votre ordinateur et d'avoir accès à vos fichiers. S'il vous arrive d'oublier de verrouiller l'écran, sachez que vous pouvez régler l'ordinateur pour qu'il le fasse automatiquement après un certain délai. Votre ordinateur sera ainsi en sécurité quand vous ne vous en servez pas.</p>
+
+  <note><p>Quand l'ordinateur est verrouillé, les applications et les processus système en cours continuent d'être exécutés. Vous devrez saisir votre mot de passe pour en reprendre le contrôle.</p></note>
+  
+  <steps>
+    <title>Pour paramétrer un délai plus long avant que l'écran ne se verrouille automatiquement :</title>
+    <item>
+      <p>Ouvrez la vue d'ensemble des <gui xref="shell-terminology">Activités</gui> et commencez à saisir <gui>Confidentialité</gui>.</p>
+    </item>
+    <item>
+      <p>Cliquez sur <gui>Confidentialité</gui> pour ouvrir le panneau.</p>
+    </item>
+    <item>
+      <p>Sélectionnez <gui>Verrouiller l'écran</gui>.</p>
+    </item>
+    <item>
+      <p>Make sure <gui>Automatic Screen Lock</gui> is switched <gui>ON</gui>,
+      then select a length of time from the drop-down list.</p>
+    </item>
+    <item>
+      <p>Pour autoriser l'affichage des notifications sur l'écran verrouillé, basculez l'interrupteur <gui>Afficher si l'écran est verrouillé</gui> sur <gui>Activé</gui>.</p>
+    </item>
+    <item>
+      <p>Click the <gui>X</gui> to close.</p>
+    </item>
+  </steps>
+
+  <p>When your screen is locked, and you want to unlock it, press
+  <key>Esc</key>, or swipe up from the bottom of the screen with your mouse.
+  Then enter your password, and press <key>Enter</key> or click
+  <gui>Unlock</gui>. Alternatively, just start typing your password and the
+  lock curtain will be automatically raised as you type.</p>
+
+</page>

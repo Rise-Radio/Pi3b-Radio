@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="mouse-sensitivity" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="mouse"/>
+    <link type="guide" xref="a11y#mobility" group="pointing"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-10-29" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit>
+      <name>Tiffany Antopolski</name>
+      <email its:translate="no">tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit>
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ändern Sie, wie schnell sich der Mauszeiger bewegt, wenn Sie Ihre Maus oder Ihr Touchpad benutzen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Anpassen der Geschwindigkeit von Maus und Touchpad</title>
+
+  <p>Falls sich Ihr Mauszeiger zu schnell oder zu langsam bewegt, wenn Sie Ihre Maus bewegen oder Ihr Touchpad verwenden, können Sie die Geschwindigkeit des Zeigers für diese Geräte anpassen.</p>
+
+  <steps>
+    <item>
+      <p>Öffnen Sie die <gui xref="shell-terminology">Aktivitäten</gui>-Übersicht und tippen Sie <gui>Maus und Touchpad</gui> ein.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui>Maus &amp; Touchpad</gui>, um das Panel zu öffnen.</p>
+    </item>
+    <item>
+      <p>Passen Sie den Schieberegler <gui>Zeigergeschwindigkeit</gui> so an, dass die Bewegung des Mauszeigers Ihren Vorstellungen entspricht. Es wird ein Regler pro Zeigergerät (z.B. Maus, Touchpad) dargestellt.</p>
+    </item>
+  </steps>
+
+<!--
+<p>Sensitivity is how much your pointer initially moves when you move your mouse.</p>
+
+<p>The farther you move your mouse, the faster and faster the pointer moves
+relative to your movement. This helps you get the pointer across the screen
+without lifting your hand, while still letting you point and click accurately.
+Acceleration controls this behavior.</p>
+-->
+
+  <p>Sie können die Zeigergeschwindigkeit für jeden Gerätetyp unabhängig einstellen. Manchmal sind die angenehmsten Einstellungen für einen Gerätetyp nicht die besten für den anderen. Verschieben Sie einfach entsprechend die beiden Regler in den Abschnitten <gui>Maus</gui> und <gui>Touchpad</gui>.</p>
+
+  <note>
+    <p>Der Abschnitt <gui>Touchpad</gui> ist nur dann vorhanden, wenn Ihr System tatsächlich über ein Touchpad verfügt. Der Abschnitt <gui>Maus</gui> ist nur dann sichtbar, wenn eine Maus angeschlossen ist.</p>
+  </note>
+
+</page>

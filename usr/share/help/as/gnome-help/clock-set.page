@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="clock-set" xml:lang="as">
+
+  <info>
+    <link type="guide" xref="clock"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+
+    <credit type="author">
+      <name>GNOME তথ্যচিত্ৰ প্ৰকল্প</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>মাইকেল হিল</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Click the clock on the top bar and go into the <gui>Date &amp; Time Settings</gui> to alter the date/time.</desc>
+  </info>
+
+<title>তাৰিখ আৰু সময় পৰিবৰ্তন কৰক</title>
+
+  <p>যদি ওপৰ বাৰত প্ৰদৰ্শিত তাৰিখ আৰু সময় ভুল অথবা ভুল বিন্যাসত থাকে, আপুনি সেয়া সলনি কৰিব পাৰিব:</p>
+
+  <steps>
+    <item>
+      <p>Click on the clock in the middle of the top bar and select <gui>Date
+      &amp; Time Settings</gui>.</p>
+    </item>
+    <item>
+      <p>If you have a standard account, you will need to click
+      <gui>Unlock</gui> and type the
+      <link xref="user-admin-explain">administrator password</link>.</p>
+    </item>
+    <item>
+      <p>If you have an internet connection, you can set your date, time and
+      time zone to update automatically by switching <gui>Automatic Date &amp;
+      Time</gui> and <gui>Automatic Time Zone</gui> to <gui>ON</gui>.</p>
+      <p>If you do not have an internet connection, you can update these
+      manually by switching them to <gui>OFF</gui>, then clicking <gui>Date
+      &amp; Time</gui> and <gui>Time Zone</gui> to update.</p>
+    </item>
+    <item>
+      <p>আপুনি  <gui>24-hour</gui> অথবা <gui>AM/PM</gui> বিন্যাস নিৰ্বাচন কৰি ঘন্টা প্ৰদৰ্শন হোৱাৰ ধৰণ পৰিবৰ্তন কৰিব পাৰিব।</p>
+    </item>
+  </steps>
+
+</page>

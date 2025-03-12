@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="net-antivirus" xml:lang="vi">
+
+  <info>
+    <link type="guide" xref="net-security"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Dự án tài liệu GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Có ít virút Linux, nên bạn có lẽ không cần phần mềm chống virút.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nguyễn Thái Ngọc Duy</mal:name>
+      <mal:email>pclouds@gmail.com</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Tôi có cần phần mềm chống virút không?</title>
+
+  <p>Nếu bạn quen dùng Windows hoặc Mac OS, bạn có lẽ cũng biết phần mềm chống virút chạy thường trực trên các hệ thống đó. Phần mềm chống virút chạy nền, kiểm tra định kỳ máy tính để tìm virút.</p>
+
+  <p>Có phần mềm chống virút cho Linux, nhưng bạn có lẽ không cần dùng. Virút ảnh hưởng Linux rất hiếm. Vài người cho rằng vì Linux không được dùng rộng rãi, nên không ai viết virút cho nó. Người khác cho rằng Linux an toàn hơn (và virút có thể tận dụng các lỗ hổng an ninh rất nhanh).</p>
+
+  <p>Dù lý do gì, virút trên Linux cũng hiếm và bạn không thật sự cần lo ở thời điểm này.</p>
+
+  <p>Nếu bạn muốn an toàn hơn nữa, hoặc bạn muốn kiểm tra virút trong những tập tin chuyển qua lại với người dùng Windows và Mac OS, bạn có thể cài đặt phần mềm chống virút. Kiểm tra trình cài đặt phần mềm hoặc tìm trên Internet - có một số có thể dùng.</p>
+
+</page>

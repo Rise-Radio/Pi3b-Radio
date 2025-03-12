@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="task" version="1.0 if/1.0" id="shell-apps-open" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="shell-overview#apps"/>
+    <link type="guide" xref="index" group="#first"/>
+
+    <revision pkgversion="3.6.0" date="2012-10-14" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Έργο Τεκμηρίωσης GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ξεκινήστε τις εφαρμογές από την επισκόπηση <gui>Ενεργειών</gui>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Εκκίνηση εφαρμογών</title>
+
+  <p if:test="!platform:gnome-classic">Move your mouse pointer to the
+  <gui>Activities</gui> corner at the top left of the screen to show the
+  <gui xref="shell-terminology">Activities</gui> overview. This is where you
+  can find all of your applications. You can also open the overview by pressing
+  the <key xref="keyboard-key-super">Super</key> key.</p>
+  
+  <p if:test="platform:gnome-classic">Μπορείτε να ξεκινήσετε τις εφαρμογές από το μενού <link xref="shell-terminology"><gui>Εφαρμογές</gui></link> στα πάνω αριστερά στην οθόνη, ή μπορείτε να χρησιμοποιήσετε την επισκόπηση <gui>Ενέργειες</gui> πατώντας το πλήκτρο <key xref="keyboard-key-super">λογότυπου</key>.</p>
+
+  <p>Υπάρχουν πολλοί τρόποι ανοίγματος μιας εφαρμογής μόλις είσαστε στην επισκόπηση <gui>Ενέργειες</gui>:</p>
+
+  <list>
+    <item>
+      <p>Αρχίστε πληκτρολογώντας το όνομα μιας εφαρμογής - η αναζήτηση ξεκινά αμέσως. (Εάν αυτό δεν συμβεί, πατήστε στη γραμμή αναζήτησης στα πάνω δεξιά της οθόνης και αρχίστε την πληκτρολόγηση.) Πατήστε το εικονίδιο της εφαρμογής για να ξεκινήσετε.</p>
+    </item>
+    <item>
+      <p>Μερικές εφαρμογές έχουν εικονίδια στο <em>αρχικό πλαίσιο</em>, την κάθετη λουρίδα εικονιδίων στα αριστερά της επισκόπησης <gui>Ενέργειες</gui>. Πατήστε ένα από αυτά για να ξεκινήσετε την αντίστοιχη εφαρμογή.</p>
+      <p>Εάν έχετε εφαρμογές που χρησιμοποιείτε πολύ συχνά, μπορείτε να <link xref="shell-apps-favorites">τις προσθέσετε στο αρχικό πλαίσιο</link> ο ίδιος.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο κουμπί πλέγματος στο τέλος του αρχικού πλαισίου. Θα δείτε τις συχνά χρησιμοποιούμενες εφαρμογές αν η προβολή <gui style="button">Συχνόπτητα</gui> είναι ενεργή. Αν θέλετε να εκτελέσετε μια νέα εφαρμογή, πατήστε το κουμπί <gui style="button">Όλα</gui> στο τέλος για την προβολή όλων των εφαρμογών. Πατήστε στην εφαρμογή για την εκκίνησή της.</p>
+    </item>
+    <item>
+      <p>You can launch an application in a separate
+      <link xref="shell-workspaces">workspace</link> by dragging its icon from
+      the dash, and dropping it onto one of the workspaces on the right-hand
+      side of the screen. The application will open in the chosen
+      workspace.</p>
+      <p>You can launch an application in a <em>new</em> workspace by dragging
+      its icon to the empty workspace at the bottom of the workspace
+      switcher, or to the small gap between two workspaces.</p>
+    </item>
+  </list>
+
+  <note style="tip">
+    <title>Γρήγορη εκτέλεση μιας εντολής</title>
+    <p>Ένας άλλος τρόπος εκκίνησης μιας εφαρμογής είναι πατώντας <keyseq><key>Alt</key><key>F2</key></keyseq>, εισάγετε το <em>όνομα εντολής</em> του και έπειτα πατήστε το πλήκτρο <key>Εισαγωγή</key>.</p>
+    <p>For example, to launch <app>Rhythmbox</app>, press
+    <keyseq><key>Alt</key><key>F2</key></keyseq> and type
+    '<cmd>rhythmbox</cmd>' (without the single-quotes). The name of the app is
+    the command to launch the program.</p>
+  </note>
+
+</page>

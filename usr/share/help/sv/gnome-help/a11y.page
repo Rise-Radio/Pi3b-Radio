@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="a11y task" id="a11y" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index" group="a11y"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <desc>
+     <link xref="a11y#vision">Seeing</link>,
+     <link xref="a11y#sound">hearing</link>,
+     <link xref="a11y#mobility">mobility</link>,
+     <link xref="a11y-braille">braille</link>,
+     <link xref="a11y-mag">screen magnifier</link>…
+    </desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Allmän åtkomst</title>
+
+  <p>The GNOME desktop includes assistive technologies to support users with
+  various impairments and special needs, and to interact with common assistive
+  devices. An accessibility menu can be added to the top bar, giving easier
+  access to many of the accessibility features.</p>
+
+  <section id="vision">
+    <title>Nedsatt syn</title>
+
+    <links type="topic" groups="blind" style="linklist">
+      <title>Blindhet</title>
+    </links>
+    <links type="topic" groups="lowvision" style="linklist">
+      <title>Low vision</title>
+    </links>
+    <links type="topic" groups="colorblind" style="linklist">
+      <title>Färgblindhet</title>
+    </links>
+    <links type="topic" style="linklist">
+      <title>Övriga ämnen</title>
+    </links>
+  </section>
+
+  <section id="sound">
+    <title>Nedsatt hörsel</title>
+    <links type="topic" style="linklist"/>
+  </section>
+
+  <section id="mobility">
+    <title>Mobility impairments</title>
+
+    <links type="topic" groups="pointing" style="linklist">
+      <title>Musförflyttning</title>
+    </links>
+    <links type="topic" groups="clicking" style="linklist">
+      <title>Klicka och dra</title>
+    </links>
+    <links type="topic" groups="keyboard" style="linklist">
+      <title>Keyboard use</title>
+    </links>
+    <links type="topic" style="linklist">
+      <title>Övriga ämnen</title>
+    </links>
+  </section>
+</page>

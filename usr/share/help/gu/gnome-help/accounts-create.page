@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-create" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author editor">
+      <name>ઍકાટેરીના ગેરાસીમોવા</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>જુલીટા ઇન્કા</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>માઇકલ હીલ</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc><app>ઓનલાઇન ખાતા</app> ની મદદથી નવા ખાતાને બનાવો.</desc>
+  </info>
+
+  <title>ઓનલાઇન ખાતાને બનાવો</title>
+
+  <p>અમુક ઓનલાઇન ખાતા સેવા પ્રદાતા એ ખાતાને બનાવવા તમને પરવાનગી આપે છે જ્યારે <app>ઓનલાઇન ખાતા</app> માં તેને ઉમેરી રહ્યા હોય. આ એક કાર્યક્રમમાંથી તમારા બધા ઓનલાઇન ખાતાને સંચાલિત કરવા માટે તમને પરવાનગી આપે છે.</p>
+
+  <!-- Tested with Google -->
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p><gui style="button">+</gui> પર ક્લિક કરો.</p>
+    </item>
+    <item>
+      <p>Select the type of account which you want to add. Some account types
+      may <link xref="accounts-provider-not-available">not be
+      available</link>.</p>
+    </item>
+    <item>
+      <p>If the service allows you to create an account, you should see more
+      information on how to do this.</p>
+      <note>
+        <p>બધા ઓનલાઇન ખાતા પ્રદાતા એ આ તબક્કે ખાતાને બનાવવા વિકલ્પની માંગણી કરતા નથી. જો તમે જે સેવાને રજીસ્ટર કરવા માંગો છો તેની માટે સાચુ હોય તો, તમારે ખાતાને બનાવવા માટે વૈકલ્પિક પદ્દતિ વાપરવાની જરૂર પડશે.</p>
+      </note>
+    </item>
+    <item>
+      <p>રજીસ્ટ્રેશન ફોર્મને ભરો. તમને અમુક વ્યક્તિગત વિગતો કે જેવી કે વપરાશકર્તાનામ અને પાસવર્ડ પૂછી શકે છે.</p>
+    </item>
+    <item>
+      <p><app>ઓનલાઇન ખાતા</app> સાથે તેને વાપરવા માટે ક્રમમાં તમારા નવા ખાતાને GNOME પ્રવેશ સંમતિની જરૂર પડશે.</p>
+    </item>
+    <item>
+      <p>All services that are offered by an account provider will be enabled
+      by default. <link xref="accounts-disable-service">Switch</link>
+      individual services to <gui>OFF</gui> to disable them.</p>
+    </item>
+  </steps>
+
+</page>

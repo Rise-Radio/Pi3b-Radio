@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="sound-nosound" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="sound-broken"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>GNOME dokumentációs projekt</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ellenőrizze, hogy nincs-e elnémítva, a kábelek megfelelően vannak-e bedugva, és hogy a hangkártya fel van-e ismerve.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Griechisch Erika</mal:name>
+      <mal:email>griechisch.erika at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kucsebár Dávid</mal:name>
+      <mal:email>kucsdavid at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lakatos 'Whisperity' Richárd</mal:name>
+      <mal:email>whisperity at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lukács Bence</mal:name>
+      <mal:email>lukacs.bence1 at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nagy Zoltán</mal:name>
+      <mal:email>dzodzie at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Nem hallok semmilyen hangot a számítógépből</title>
+
+  <p>Ha nem hallja, hogy a számítógép bármilyen hangot adna, például amikor megpróbál zenét lejátszani, akkor próbálkozzon az alábbi hibaelhárítási lépésekkel.</p>
+
+<section id="mute">
+  <title>Győződjön meg róla, hogy a hang nincs elnémítva</title>
+
+  <p>Nyissa meg a felső sáv jobb szélén a <gui xref="shell-terminology">rendszer menüt</gui>, és győződjön meg róla, hogy a hang nincs elnémítva vagy nagyon lehalkítva.</p>
+
+  <p>Egyes laptopokon vannak némításra szolgáló kapcsolók vagy billentyűk, próbálja megnyomni ezeket.</p>
+
+  <p>Ellenőrizze azt is, hogy a hang lejátszásához használt alkalmazásban (például a zenelejátszóban vagy médialejátszóban) nem némította-e el a hangot. Az alkalmazás főablakában lehet egy némítás vagy hangerő gomb, ellenőrizze azt is. Nyissa meg a <gui>Tevékenységek</gui> áttekintésből a <app>Beállítások</app> alkalmazást is, és válassza a <gui>Hang</gui> lehetőséget. Lépjen az <gui>Alkalmazások</gui> lapra, és ellenőrizze, hogy az alkalmazás nincs-e elnémítva.</p>
+
+</section>
+
+<section id="speakers">
+ <title>Ellenőrizze, hogy a hangszórók be vannak-e kapcsolva, és megfelelően vannak-e csatlakoztatva</title>
+ <p>Ha a számítógép külső hangszórókat használ, akkor győződjön meg róla, hogy azok be vannak kapcsolva, és a hangerő fel van véve. Győződjön meg róla, hogy a hangszóró kábele megfelelően van csatlakoztatva a számítógépen lévő „kimeneti” aljzatba. Ez az aljzat általában világos zöld színű.</p>
+
+ <p>Egyes hangkártyák képesek megváltoztatni a hangszóró-kimenetként és mikrofonbemenetként használt aljzatot. A kimenetként használt aljzat eltérhet Linux futtatásakor a Windows vagy Mac OS alatt megszokottól. Próbálja meg a hangszóró kábelét másik audioaljzatba csatlakoztatni, hátha az működik.</p>
+
+ <p>Végső esetben ellenőrizze, hogy a hangkábel megfelelően van-e csatlakoztatva a hangszórók hátuljába. Egyes hangszórók több bemenettel is rendelkeznek.</p>
+</section>
+
+<section id="device">
+  <title>Ellenőrizze, hogy a megfelelő hangeszköz van-e kiválasztva</title>
+
+  <p>Egyes számítógépek több hangeszközt is tartalmaznak. Ezek közül néhány képes hang kiadására, mások nem, emiatt ellenőrizze, hogy a megfelelő van-e kiválasztva. Ez próbálgatással dönthető el a legkönnyebben.</p>
+
+  <steps>
+    <item>
+      <p>Nyissa meg a <gui xref="shell-terminology">Tevékenységek</gui> áttekintést, és kezdje el begépelni a <gui>Hang</gui> szót.</p>
+    </item>
+    <item>
+      <p>Kattintson a <gui>Hang</gui> ikonra a panel megnyitásához.</p>
+    </item>
+    <item>
+      <p>A <gui>Kimenet</gui> lapon jegyezze fel, hogy melyik eszköz és melyik profil van kiválasztva (így később tudni fogja, hogy mi volt az alapbeállítás, ha a módosítás nem válik be).</p>
+    </item>
+    <item>
+      <p>A kiválasztott eszközhöz próbálja megváltoztatni a profilt: a profil megváltoztatása után játsszon le hangot, ezzel tesztelve a működését. Lehet, hogy a lista minden profilját ki kell majd próbálnia.</p>
+    </item>
+    <item>
+      <p>Ha ez nem válik be, akkor megpróbálhatja ugyanezt a többi felsorolt eszközzel is.</p>
+    </item>
+  </steps>
+
+</section>
+
+<section id="hardware-detected">
+
+ <title>Ellenőrizze, hogy a hangkártya megfelelően lett felismerve</title>
+
+  <p>Lehetséges, hogy a hangkártya nem lett megfelelően felismerve. Ha ez történt, akkor a számítógép úgy viselkedhet, mintha nem tudna hangot lejátszani. A hangkártya nem megfelelő felismerésének lehetséges oka, hogy a hangkártya illesztőprogramjai nincsenek telepítve. Ekkor szükséges lehet az illesztőprogramok kézi telepítése. Ennek pontos folyamata a kártyától függ.</p>
+
+  <p>Az <cmd>lspci</cmd> parancs Terminálban való kiadásával láthatja, hogy milyen hangkártyája van. Nyissa meg a <gui>Tevékenységek</gui> áttekintést, és nyisson egy Terminált. Az <cmd>lspci</cmd> parancsot lehet, hogy <link xref="user-admin-explain">rendszergazdaként</link> kell futtatni: írja be a <cmd>sudo lspci</cmd> parancsot és a jelszavát, vagy adja ki a <cmd>su</cmd> parancsot, adja meg a <em>root</em> felhasználó jelszavát, és adja ki az <cmd>lspci</cmd> parancsot. Keresse meg az <em>audio controller</em> vagy <em>audio device</em> kifejezést tartalmazó sort, ennek kell tartalmaznia a hangkártya gyártóját és típusát. Az <cmd>lspci -v</cmd> parancs részletesebb információkat tartalmaz.</p>
+
+  <p>Ennek ismeretében megtalálhatja és telepítheti a hangkártya illesztőprogramját. A legjobb az Ön által használt Linux disztribúció támogatói fórumán tanácsot kérni.</p>
+
+  <p>Ha nem talál illesztőprogramot a hangkártyájához, akkor megpróbálhat másikat vásárolni. Beszerezhet a számítógépbe beépíthető, és külső USB-hangkártyákat.</p>
+
+</section>
+
+</page>

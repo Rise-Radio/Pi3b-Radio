@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task 2column" id="net" xml:lang="ta">
+
+  <info>
+
+    <link type="guide" xref="index" group="net"/>
+
+    <credit type="author">
+      <name>ஷான் மெக்கேன்ஸ்</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+
+
+
+    <desc><link xref="net-wireless">வயர்லெஸ்</link>, <link xref="net-wired">வயர்டு</link>, <link xref="net-problem">இணைப்பு சிக்கல்கள்</link>, <link xref="net-browser">வலை உலாவல்</link>, <link xref="net-email">மின்னஞ்சல் கணக்குகள்</link>…</desc>
+<!--
+    chat…
+-->
+<!--
+    <desc>
+      <link xref="net#problems">Connection problems</link>,
+      <link xref="net#wireless">wireless</link>,
+      <link xref="net#wired">wired</link>,
+      <link xref="net#sharing">sharing files</link>,
+      <link xref="net#security">security</link>,
+      <link xref="net#security">anti-virus</link>…
+    </desc>
+
+-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+<title>பிணையமாக்கல், வலை, மின்னஞ்சல் &amp; அரட்டை</title>
+<links type="topic" style="toronto"/>
+
+</page>

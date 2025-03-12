@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="wacom-multi-monitor" xml:lang="el">
+  <info>
+
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <link type="guide" xref="wacom"/>
+
+    <credit type="author copyright">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc>Απεικονίστε την πινακίδα Wacom σε μια συγκεκριμένη οθόνη.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Επιλέξτε μια οθόνη</title>
+
+<steps>
+  <item>
+    <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Πινακίδες Wacom</gui>.</p>
+  </item>
+  <item>
+    <p>Πατήστε στο <gui>Πινακίδες Wacom</gui> για να ανοίξετε το φάτνωμα.</p>
+
+    <note style="tip"><p>Εάν δεν ανιχνευτεί καμιά πινακίδα, θα σας ζητηθεί <gui>Παρακαλώ, συνδεθείτε ή ανοίξτε την πινακίδα σας Wacom</gui>. Πατήστε το σύνδεσμο <gui>Ρυθμίσεις μπλουτούθ</gui> για να συνδέσετε μια ασύρματη πινακίδα.</p></note>
+  </item>
+  <item><p>Πατήστε <gui>απεικόνιση σε οθόνη…</gui></p></item>
+  <item><p>Πατήστε <gui>απεικόνιση σε μονή οθόνη</gui>.</p></item>
+  <item><p>Δίπλα στην <gui>έξοδο</gui>, επιλέξτε την οθόνη που επιθυμείτε να δεχτεί καταχώριση από την πινακίδα γραφικών σας.</p>
+     <note style="tip"><p>Μόνο οι οθόνες που ρυθμίστηκαν θα είναι επιλέξιμες.</p></note>
+  </item>
+  <item>
+    <p>Αλλάξτε το <gui>Διατήρηση αναλογίας διαστάσεων (letterbox)</gui> σε <gui>ΝΑΙ</gui> για να ταιριάζει με την περιοχή σχεδίασης της πινακίδας στις αναλογίες της οθόνης. Επίσης καλέστε <em>αναγκαστικές αναλογίες</em>, αυτή η ρύθμιση <em>letterboxes</em> ρυθμίζει την περιοχή σχεδίασης, για παράδειγμα, μια πινακίδα 4:3 για να αντιστοιχεί πιο άμεσα με την προβολή ευρείας οθόνης.</p>
+  </item>
+  <item><p>Πατήστε <gui>Κλείσιμο</gui>.</p></item>
+</steps>
+
+</page>

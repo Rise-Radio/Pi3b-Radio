@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Egyes webhelyek Sliverlight segítségével jelenítenek meg weboldalakat. Ezeket az oldalakat a Moonlight bővítmény segítségével jelenítheti meg.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Griechisch Erika</mal:name>
+      <mal:email>griechisch.erika at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kucsebár Dávid</mal:name>
+      <mal:email>kucsdavid at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lakatos 'Whisperity' Richárd</mal:name>
+      <mal:email>whisperity at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lukács Bence</mal:name>
+      <mal:email>lukacs.bence1 at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nagy Zoltán</mal:name>
+      <mal:email>dzodzie at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>A Silverlight bővítmény telepítése</title>
+
+  <p>A <app>Silverlight</app> <em>böngészőbővítmény</em> segítségével videókat jeleníthet meg, és interaktív weboldalakat használhat egyes webhelyeken. Néhány webhely nem működik Silverlight nélkül.</p>
+
+  <p>Ha a Silverlight bővítmény nincs telepítve, akkor az ezt igénylő weboldalak meglátogatásakor valószínűleg látni fog egy erről szóló üzenetet. Ez az üzenet utasításokat tartalmaz a bővítmény beszerzésére vonatkozóan, de ezek nem feltétlenül alkalmazhatók az Ön böngészőjére vagy Linux-verziójára.</p>
+
+  <p>Ha egy Silverlightot igénylő oldalt akar megtekinteni, akkor a <em>Moonlight</em> bővítményt kell helyette telepítenie. Ez a Silverlight egy ingyenes, nyílt forráskódú, Linuxon futó változata.</p>
+
+  <p>Néhány Linux disztribúció rendelkezik egy Moonlight példánnyal, amelyet a szoftvertelepítő használatával telepíthet. Nyissa meg a szoftvertelepítőt, és keressen rá a <input>Silverlight</input> vagy <input>Moonlight</input> szavakra.</p>
+
+  <p>Ha a Linux disztribúciója nem rendelkezik a Moonlight csomaggal, akkor keresse fel a <link href="http://www.go-mono.com/moonlight/">Moonlight honlapját</link> további információért és telepítési utasításokért.</p>
+
+</page>

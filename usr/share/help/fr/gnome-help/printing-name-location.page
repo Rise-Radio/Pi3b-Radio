@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="printing-name-location" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="printing#setup"/>
+
+    <revision pkgversion="3.10.2" date="2013-11-03" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Jana Svarova</name>
+      <email its:translate="no">jana.svarova@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jcampbell@gnome.org</email>
+      <years>2013</years>
+    </credit>
+
+    <desc>Modifier le nom et l'emplacement d'une imprimante dans les paramètres de l'imprimante.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+  
+  <title>Modification du nom et de l'emplacement d'une imprimante</title>
+
+  <p>Vous pouvez modifier le nom et l'emplacement d'une imprimante dans les paramètres de l'imprimante.</p>
+
+  <note>
+    <p>Vous devez posséder les privilèges d'administrateur du système pour modifier le nom et l'emplacement d'une imprimante.</p>
+  </note>
+
+  <section id="printer-name-change">
+    <title>Modification du nom d'une imprimante</title>
+
+  <p>Si vous souhaitez modifier le nom d'une imprimante, conformez-vous aux étapes suivantes :</p>
+
+  <steps>
+    <item>
+      <p>Ouvrez la vue d'ensemble des <gui xref="shell-terminology">Activités</gui> et commencez à saisir <gui>Imprimantes</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Printers</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Cliquez sur le bouton <gui>Déverrouiller</gui> en haut à droite et saisissez votre mot de passe.</p>
+    </item>
+    <item>
+      <p>cliquez sur le nom de votre imprimante et renommez-la,</p>
+    </item>
+    <item>
+      <p>appuyez sur <key>Entrée</key> pour enregistrer vos modifications.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="printer-location-change">
+    <title>Changement de l'emplacement d'une imprimante</title>
+
+  <p>Pour modifier l'emplacement d'une imprimante :</p>
+
+  <steps>
+    <item>
+      <p>Ouvrez la vue d'ensemble des <gui xref="shell-terminology">Activités</gui> et commencez à saisir <gui>Imprimantes</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Printers</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Cliquez sur le bouton <gui>Déverrouiller</gui> en haut à droite et saisissez votre mot de passe.</p>
+    </item>
+    <item>
+      <p>cliquez sur l'emplacement, modifiez-le,</p>
+    </item>
+    <item>
+      <p>appuyez sur <key>Entrée</key> pour enregistrer les changements.</p>
+    </item>
+  </steps>
+
+  </section>
+
+</page>

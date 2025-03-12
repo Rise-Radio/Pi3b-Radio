@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="printing-envelopes" xml:lang="fi">
+
+  <info>
+    <link type="guide" xref="printing#paper"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Varmista, että kirje tai tarra-arki on suunnattu oikein päin, ja että valittuna on oikea paperikoko.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Timo Jyrinki</mal:name>
+      <mal:email>timo.jyrinki@iki.fi</mal:email>
+      <mal:years>2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jiri Grönroos</mal:name>
+      <mal:email>jiri.gronroos+l10n@iki.fi</mal:email>
+      <mal:years>2012, 2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Tulosta kirjekuoria ja etikettejä</title>
+
+  <p>Useimmat tulostimet mahdollistavat suoraan kirjekuoreen tai tarraetiketeille tulostamisen. Tästä on paljon hyötyä, jos olet aikeissa lähettää esimerkiksi lukuisia kutsuja.</p>
+
+  <section id="envelope">
+    <title>Kirjekuoriin tulostaminen</title>
+
+  <p>There are two things you need to check when trying to print onto an
+  envelope. The first is that your printer knows what size the envelope is.
+  After you click <gui>Print</gui> and the Print window appears, go to the
+  <gui>Page Setup</gui> tab and choose the <gui>Paper type</gui> as "Envelope"
+  if you can. If you cannot do this, see if you can change the <gui>Paper
+  size</gui> to an envelope size (for example, <gui>C5</gui>). The pack of
+  envelopes will say what size they are; most envelopes come in standard
+  sizes.</p>
+
+  <p>Toinen varmistettava asia on, että kirjekuoret ovat oikein päin tulostimessa. Tarkista tulostimen ohjekirjasta, miten kirjeet tulee asettaa tulostimeen. Voit myös halutessasi kokeilla yhteen kirjekuoreen, jolloin viimeistään selviää miten kirjekuoret tulee asettaa tulostimeen.</p>
+
+  <note style="warning">
+    <p>Jotkin tulostimet eivät kykene tulostamaan kirjekuoria. Tällaisia tulostimia ovat etenkin laser-tulostimet. Tarkista tulostimesi ohjekirjasta, pystyykö kyseinen tulostin tulostamaan kirjekuoria. Tulostin, jota ei ole suunniteltu tulostamaan kirjekuoria, saattaa vahingoittua syöttäessäsi kirjekuoren kyseiseen tulostimeen.</p>
+  </note>
+
+  </section>
+
+<!--
+INCOMPLETE: Please write this section!
+
+<section id="labels">
+ <title>Printing labels</title>
+
+</section>
+-->
+
+</page>

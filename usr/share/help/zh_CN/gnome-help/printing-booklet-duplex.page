@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="printing-booklet-duplex" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="printing-booklet"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>打印文件册(像杂志或练习册)使用普通 A4/信封纸。</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>打印文件册</title>
+
+  <p>您可以通过按照指定顺序和设定一组选项来打印文件册(像小书或练习册)。</p>
+
+  <p>将 PDF 文档打印成册的指导说明。</p>
+
+  <p>如果您是从 <app>LibreOffice</app> 文档打印小册子，首先要导出为 PDF 文档，点菜单<guiseq><gui>文件</gui><gui>导出为 PDF…</gui></guiseq>，确保文档有4倍以上页面的内容(4,、8,、12、16...)。您可能要添加上三页空白页。</p>
+
+  <p>打印一本小册子：</p>
+
+  <steps>
+    <item>
+      <p>Open the print dialog. This can normally be done through
+      <gui style="menuitem">Print</gui> in the menu or using the
+      <keyseq><key>Ctrl</key><key>P</key></keyseq> keyboard shortcut.</p>
+    </item>
+    <item>
+      <p>Go to the <gui>General</gui> tab. Under <gui>Range</gui>, choose
+      <gui>Pages</gui>.</p>
+    </item>
+    <item>
+      <p>按下面的顺序输入页数(n 表示总的页数，应当是4的倍数)：</p>
+      <p>n, 1, 2, n-1, n-2, 3, 4, n-3, n-4, 5, 6, n-5, n-6, 7, 8, n-7, n-8, 9, 10, n-9, n-10, 11, 12, n-11…</p>
+      <p>例如：</p>
+      <list>
+        <item><p>4页小册子：输入 <input>4,1,2,3</input></p></item>
+        <item><p>8页小册子：输入 <input>8,1,2,7,6,3,4,5</input></p></item>
+        <item><p>20页小册子：输入 <input>20,1,2,19,18,3,4,17,16,5,6,15,14,7,8,13,12,9,10,11</input></p></item>
+      </list>
+    </item>
+    <item>
+      <p>现在，进入<gui>页面设置</gui>标签。</p>
+      <p>Under <gui>Layout</gui>, in the <gui>Two-sided</gui> drop-down list,
+      select <gui>Short Edge (Flip)</gui>.</p>
+      <p>In the <gui>Pages per side</gui> drop-down list, select
+      <gui>2</gui>.</p>
+      <p>在<gui>页面顺序</gui>中，选择<gui>从左到右</gui>。</p>
+    </item>
+    <item>
+      <p>点击<gui>打印</gui>按钮。</p>
+    </item>
+  </steps>
+
+</page>

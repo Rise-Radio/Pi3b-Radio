@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task a11y" id="mouse-doubleclick" xml:lang="el">
+<info>
+    <link type="guide" xref="mouse"/>
+    <link type="guide" xref="a11y#mobility" group="clicking"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+    <revision pkgversion="3.9.92" date="2013-10-16" status="candidate"/>
+
+    <desc>Ελέγξτε πόσο γρήγορα χρειάζεστε να πατήσετε το πλήκτρο του ποντικιού για δεύτερη φορά για διπλοπάτημα.</desc>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Προσαρμογή ταχύτητας του διπλού κλικ</title>
+
+<p>Το διπλοπάτημα συμβαίνει μόνο όταν πατάτε το πλήκτρο του ποντικιού δυο φορές αρκετά γρήγορα. Εάν το δεύτερο πάτημα είναι υπερβολικά μεγάλο μετά το πρώτο, θα πάρετε απλά δύο ξεχωριστά πατήματα, όχι ένα διπλό πάτημα. Εάν δυσκολεύεστε να πατήσετε το πλήκτρο του ποντικιού γρήγορα, θα πρέπει να αυξήσετε το όριο χρόνου.</p>
+
+<steps>
+  <item><p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Ποντίκι &amp; πινακίδα αφής</gui>.</p></item>
+  <item><p>Πατήστε στο <gui>Ποντίκι &amp; πινακίδα αφής</gui> για να ανοίξετε το φάτνωμα.</p></item>
+  <item><p>Στα <gui>γενικά</gui>, ρυθμίστε τον ολισθητή <gui>διπλό κλικ</gui> σε μια τιμή που βρίσκετε άνετη.</p></item>
+  <item><p>Πατήστε το κουμπί <gui>δοκιμή των ρυθμίσεών σας</gui> για δοκιμή. Ένα μονό πάτημα στο παράθυρο θα επισημάνει τον εξωτερικό κύκλο. Ένα διπλοπάτημα θα επισημάνει τον εσωτερικό κύκλο.</p></item>
+</steps>
+
+<p>Εάν το ποντίκι σας διπλοπατά όταν το θέλετε να μονοπατά αν και έχετε αυξήσει το όριο χρόνου διπλοπατήματος, το ποντίκι μπορεί να είναι ελαττωματικό. Δοκιμάστε ένα διαφορετικό ποντίκι στον υπολογιστή σας και δείτε εάν δουλεύει κατάλληλα. Εναλλακτικά, συνδέστε το ποντίκι σας σε διαφορετικό υπολογιστή και δείτε εάν έχει ακόμα το ίδιο πρόβλημα.</p>
+
+<note><p>Αυτή η ρύθμιση θα επηρεάσει και το ποντίκι σας και την πινακίδα αφής, καθώς και κάθε άλλη συσκευή κατάδειξης.</p></note>
+
+</page>

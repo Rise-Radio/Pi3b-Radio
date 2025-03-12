@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="files-preview" xml:lang="sr">
+
+  <info>
+    <link type="guide" xref="files"/>
+    <link type="seealso" xref="nautilus-preview"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-10-06" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Шон Мек Кенс</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>На брзину прикажите и сакријте прегледе докумената, слика, видео записа, и осталог.</desc>
+  </info>
+
+<title>Погледајте датотеке и фасцикле</title>
+
+<p>Можете брзо да прегледате датотеке без отварања у програму за ту намену. Изаберите било коју датотеку и притисните размакницу. Датотека ће се отворити у једноставном прозору прегледа. Поново притисните размакницу да одбаците преглед.</p>
+
+<p>Уграђени преглед подржава већину формата датотека за документе, слике, снимке, и звук. У прегледу, можете да прелиставате документе или да премотавате ваше снимке и звук.</p>
+
+<p>Да прикажете преглед преко целог екрана, кликните на дугме <media its:translate="no" type="image" src="figures/view-fullscreen-16.png"><span its:translate="yes">преко целог екрана</span></media> при дну, или притисните <key>ф</key>. Кликните на <media its:translate="no" type="image" src="figures/view-fullscreen-16.png"><span its:translate="yes">преко целог екрана</span></media> или притисните <key>ф</key> да напустите приказ преко целог екрана, или притисните размакницу да затворите преглед.</p>
+
+</page>

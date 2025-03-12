@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="printing-streaks" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="printing#problems"/>
+    <link type="seealso" xref="printing-inklevel"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2012-02-19" status="candidate"/>
+
+    <credit type="author">
+      <name>Proxecto de documentación de GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Se as impresións son pouco uniformes, difusas ou faltan cores, comprobe os niveis de tinta ou limpe os cabezais de impresión.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Por que a impresión é pouco uniforme, hai liñas ou cores erróneos nas miñas impresións?</title>
+
+  <p>As súas impresións son pouco uniformes, están esvaecidas ou teñen liñas que non deberían ter ou son de calidade pobre, pode ser debido a un problema coa impresora ou falta de tinta ou tóner.</p>
+
+  <list>
+     <item>
+       <p>Imaxes ou texto desvanecido</p>
+       <p>Pode que se estea quedando sen tinta ou tóner. Comprobe o nivel da súa tinta ou tóner e compre un cartucho novo se é necesario.</p>
+     </item>
+     <item>
+       <p>Raias ou liñas</p>
+       <p>Se ten unha impresión de inxección de tinta, o cabezal de impresión pode estar sucio ou bloqueado parcialmente. Probe a limpalo (consule o manual de instrucións da impresora).</p>
+     </item>
+     <item>
+       <p>Cores incorrectas</p>
+       <p>Pode que a impresora que quedara sen tinta ou tóner dunha cor. Comprobe o seu suministro de tinta/tóner e compre un cartucho novo se é preciso.</p>
+     </item>
+     <item>
+       <p>Bordes escalonados ou liñas que non son rectas</p>
+       <p>Se as liñas na impresión de que deben ser rectas resultan irregulares, é posíbel que precise aliñar o cabezal de impresión. Consulte o manual de instrucións da impresora para obter detalles sobre como facer isto.</p>
+     </item>
+  </list>
+
+</page>

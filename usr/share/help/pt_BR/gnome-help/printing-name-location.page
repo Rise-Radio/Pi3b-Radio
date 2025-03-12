@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="printing-name-location" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="printing#setup"/>
+
+    <revision pkgversion="3.10.2" date="2013-11-03" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Jana Svarova</name>
+      <email its:translate="no">jana.svarova@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jcampbell@gnome.org</email>
+      <years>2013</years>
+    </credit>
+
+    <desc>Altere o nome ou localização de uma impressora nas configurações de impressora.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodolfo Ribeiro Gomes</mal:name>
+      <mal:email>rodolforg@gmail.com</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>João Santana</mal:name>
+      <mal:email>joaosantana@outlook.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+  
+  <title>Alterando o nome ou localização de uma impressora</title>
+
+  <p>Você pode alterar o nome ou localização de uma impressora nas configurações de impressora.</p>
+
+  <note>
+    <p>Você precisa de privilégios administrativos para alterar o nome ou localização de uma impressora.</p>
+  </note>
+
+  <section id="printer-name-change">
+    <title>Alterar o nome da impressora</title>
+
+  <p>If you want to change the name of a printer, take the following steps:</p>
+
+  <steps>
+    <item>
+      <p>Abra o panorama de <gui xref="shell-terminology">Atividades</gui> e comece a digitar <gui>Impressoras</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Printers</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Clique no botão <gui>Desbloquear</gui> no canto superior direito e insira sua senha.</p>
+    </item>
+    <item>
+      <p>Clique na imagem da sua impressora e comece a digitar um novo nome para ela.</p>
+    </item>
+    <item>
+      <p>Pressione <key>Enter</key> para salvar suas configurações.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="printer-location-change">
+    <title>Alterar a localização da impressora</title>
+
+  <p>Para alterar a localização da sua impressora:</p>
+
+  <steps>
+    <item>
+      <p>Abra o panorama de <gui xref="shell-terminology">Atividades</gui> e comece a digitar <gui>Impressoras</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Printers</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Clique no botão <gui>Desbloquear</gui> no canto superior direito e insira sua senha.</p>
+    </item>
+    <item>
+      <p>Clique na localização e comece a editar a localização.</p>
+    </item>
+    <item>
+      <p>Pressione <key>Enter</key> para salvar as configurações.</p>
+    </item>
+  </steps>
+
+  </section>
+
+</page>

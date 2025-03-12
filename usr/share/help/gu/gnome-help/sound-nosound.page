@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="sound-nosound" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="sound-broken"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>GNOME દસ્તાવેજીકરણ પ્રોજેક્ટ</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Check that it is not muted, that cables are plugged in properly, and
+    that the sound card is detected.</desc>
+  </info>
+
+<title>હું કમ્પ્યૂટર પર કોઇપણ સાઉન્ડ સાંભળી શકતી નથી</title>
+
+  <p>If you cannot hear any sounds on your computer, for example when you try
+  to play music, try these troubleshooting steps to see if you can fix the
+  problem.</p>
+
+<section id="mute">
+  <title>ખાતરી કરો કે સાઉન્ડ મૂંગુ નથી</title>
+
+  <p>Open the <gui xref="shell-terminology">system menu</gui> from the right
+  side of the top bar and make sure that the sound is not muted or turned right
+  down.</p>
+
+  <p>અમુક લેપટોપ પાસે તેનાં કિબોર્ડ પર મૂંગી સ્વીચ અથવા કી હોય છે—જોવા માટે તે કીને દબાવવાનો પ્રયત્ન કરો જો તે સાઉન્ડ મૂંગુ ન હોય તો.</p>
+
+  <p>You should also check that you have not muted the application that you are
+  using to play sound (for example, your music player or movie player). The
+  application may have a mute or volume button in its main window, so check
+  that. Also, open <app>Settings</app> from the <gui>Activities</gui> overview
+  and click <gui>Sound</gui>. Go to the <gui>Applications</gui> tab and check
+  that your application is not muted.</p>
+
+</section>
+
+<section id="speakers">
+ <title>ચકાસો કે સ્પીકર એ ચાલુ છે અને યોગ્ય રીતે જોડાયેલ છે</title>
+ <p>If your computer has external speakers, make sure that they are turned on
+ and that the volume is turned up. Make sure that the speaker cable is securely
+ plugged into the "output" audio socket on your computer. This socket
+ is usually light green in color.</p>
+
+ <p>અમુક સાઉન્ડ કાર્ડ એ બદલવા માટે સક્ષમ છે ક્યાં સોકેટ એ આઉટપુટ (સ્પીકર માટે) અને ઇનપુટ (માઇક્રોફોનમાંથી, ઉદાહરણ તરીકે) વાપરે છે. આઉટપુટ સોકેટ અલગ હોઇ શકે છે જ્યારે Windows અથવા Mac OS કરતા Linux પર ચાલી રહ્યુ હોય. જોવા માટે કમ્પ્યૂટર ને ચાલુ કરીને વિવિધ ઓડિયો સોકેટમાં સ્પીકર કેબલને જોડવાનો પ્રયત્ન કરો જો તે કામ કરે તો.</p>
+
+ <p>છેલ્લી વસ્તુ ચકાસવા માટે એ છે કે ઓડિયો કેબલ સુરક્ષિત રીતે સ્પીકરનાં પાછળ પ્લગ થયેલ છે. અમુક સ્પીકર પાસે એક ઇનપુટ કરતા પણ વધારે હોય છે.</p>
+</section>
+
+<section id="device">
+  <title>ચકાસો કે સાચા સાઉન્ડ ઉપકરણ પસંદ થયેલ છે</title>
+
+  <p>અમુક કમ્પ્યૂટર પાસે ઘણાં "સાઉન્ડ ઉપકરણો" સ્થાપિત થયેલ છે. અમુક સાઉન્ડનાં આઉટપુટ માટે સક્ષમ હોય છે અને અમુક નથી. તેથી તમારે ચકાસવુ જોઇએ કે તમારી પાસે યોગ્ય એક પસંદ થયેલ છે. આ યોગ્યને પસંદ કરવા માટે અમુકને ટ્રાયલ અને ભૂલને સમાવી શકે છે.</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Sound</gui>.</p>
+    </item>
+    <item>
+      <p>પેનલને ખોલવા માટે <gui>સાઉન્ડ</gui> પર ક્લિક કરો.</p>
+    </item>
+    <item>
+      <p>In the <gui>Output</gui> tab. Make a note of which device and which
+      profile are selected (so you can return to the default selections if
+      changing them does not work).</p>
+    </item>
+    <item>
+      <p>પસંદ થયેલ ઉપકરણ માટે, જોવા માટે તમે રૂપરેખાને બદલો પછી રૂપરેખા-પ્લે સાઉન્ડને બદલવાનો પ્રયત્ન કરો જો તે કામ કરે તો, યાદી મારફતે જવા માટે તમારી જરૂર પડી શકે છે.</p>
+    </item>
+    <item>
+      <p>If that does not work, you might want to try doing the same for any
+      other devices that are listed.</p>
+    </item>
+  </steps>
+
+</section>
+
+<section id="hardware-detected">
+
+ <title>ચકાસો કે તે સાઉન્ડ કાર્ડ યોગ્ય રીતે કામ કરે છે</title>
+
+  <p>Your sound card may not have been detected properly. If this has happened,
+  your computer will think that it is not able to play sound. A possible reason
+  for the card not being detected properly is that the drivers for the card are
+  not installed. You may need to manually install the drivers for the card.
+  How you do this will depend on the card you have.</p>
+
+  <p>You can see what sound card you have by using the <cmd>lspci</cmd> command
+  in the Terminal. Go to the <gui>Activities</gui> overview and open a Terminal.
+  You may have to run <cmd>lspci</cmd> as
+  <link xref="user-admin-explain">superuser</link>; either type
+  <cmd>sudo lspci</cmd> and type your password, or type <cmd>su</cmd>, enter
+  the <em>root</em> (administrative) password, then type <cmd>lspci</cmd>. See
+  if an <em>audio controller</em> or <em>audio device</em> is listed—it should
+  have the make and model number of the sound card. <cmd>lspci -v</cmd> will
+  show a list with more detailed information.</p>
+
+  <p>You may be able to find and install drivers for your card. It is best to
+  ask on support forums (or otherwise) for your Linux distribution for
+  instructions.</p>
+
+  <p>If you cannot get drivers for your sound card, you might prefer to buy a
+  new sound card. You can get sound cards that can be installed inside the
+  computer and external USB sound cards.</p>
+
+</section>
+
+</page>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="power-suspendfail" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="power#problems"/>
+    <link type="guide" xref="hardware-problems-graphics"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <desc>Algunos componentes hardware del equipo causan problemas al suspender o hibernar.</desc>
+
+    <credit type="author">
+      <name>Proyecto de documentación de GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>¿Por qué mi equipo no reacciona después de haberlo enviado suspendido?</title>
+
+<p>Si <link xref="power-suspend">suspende</link> o <link xref="power-hibernate">hiberna</link> su equipo y luego tratar de despertarlo o de volver a encenderlo, es posible que no funcione como esperaba. Esto podría ser debido a que su hardware no permite suspender/hibernar.</p>
+
+<section id="resume">
+  <title>Mi equipo está dormido y no puedo despertarlo</title>
+  <p>Si suspende su equipo y luego presiona una tecla o pulsa con su ratón, debería despertarse y mostrar una pantalla pidiendo su contraseña. Si esto no ocurre, intente presionando el botón de encendido (no lo mantenga presionado, púlselo solo una vez).</p>
+  <p>Si esto no funciona, asegúrese de que el monitor de su equipo está encendido e intente pulsar una tecla nuevamente.</p>
+  <p>Como último recurso, apague el equipo manteniendo pulsado el botón de encendido de 5 a 10 segundos. Al hacerlo perderá sus trabajos sin guardar. Luego podrá encender el equipo nuevamente.</p>
+  <p>Si esto ocurre siempre que pone su equipo a dormir, puede que la suspensión no funcione en su hardware.</p>
+  <note style="warning">
+    <p>Si su equipo gasta energía y no tiene una fuente de alimentación alternativa (como una batería), se apagará.</p>
+  </note>
+</section>
+
+<section id="hibernate">
+  <title>Ninguno de mis programas/documentos está abierto cuando enciendo mi equipo nuevamente</title>
+  <p>Si hiberna su equipo y al encenderlo de nuevo, ninguno de sus documentos o aplicaciones están abiertas, es probable que no hiberne correctamente. A veces esto ocurre debido a un problema menor, y el equipo será capaz de hibernar correctamente la próxima vez que lo haga. También podría suceder, ya que hubiera instalado una actualización de software que requiera que el equipo se reinicie, en este caso, el equipo puede haberse apagado en lugar de hibernar.</p>
+  <p>También es posible que el equipo no sea capaz de hibernar porque el hardware no lo permita. Esto puede ser debido, por ejemplo, a un problema con los controladores de Linux para su hardware. Puede probar esto hibernando de nuevo y ver si funciona la segunda vez. Si no es así, probablemente sea un problema con los controladores de su equipo.</p>
+</section>
+
+<section id="hardware">
+  <title>Mi conexión inalámbrica (u otro hardware) no funciona cuando mi equipo despierta</title>
+  <p>Si suspende o hiberna su equipo y luego lo despierta de nuevo, es posible que encuentre que su conexión a Internet, el ratón, o algún otro dispositivo no funcionan correctamente. Esto podría deberse a que el controlador del dispositivo no soporta correctamente suspender/hibernar. Esto es un <link xref="hardware-driver">problema con el controlador</link> y no con el propio dispositivo.</p>
+  <p>Si el dispositivo tiene algún interruptor de encendido, pruebe a apagarlo y volverlo a encender. En muchas ocasiones, el dispositivo volverá a funcionar de nuevo. Si se conecta mediante un cable USB o similar, desconéctelo y vuélvalo a conectar, a ver si funciona.</p>
+  <p>Si no se puede apagar o desenchufar el dispositivo, o si esto no funciona, es posible que deba reiniciar el equipo para que el dispositivo vuelva a funcionar.</p>
+</section>
+
+</page>

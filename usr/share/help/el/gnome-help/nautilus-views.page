@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-views" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-views"/>
+
+    <desc>Ορίστε την προεπιλεγμένη προβολή, ταξονομήστε τη σειρά και εστιάστε τα επίπεδα για τον διαχειριστή αρχείων.</desc>
+
+    <revision pkgversion="3.8" version="0.2" date="2013-04-03" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Προτιμήσεις προβολών στα <app>Αρχεία</app></title>
+
+<p>Μπορείτε να αλλάξετε την προεπιλεγμένη προβολή για νέους φακέλους, πώς τα αρχεία και οι φάκελοι ταξινομούνται από προεπιλογή, το επίπεδο εστίασης για το εικονίδιο και συμπαγείς προβολές και εάν τα αρχεία εμφανίζονται στο δένδρο της πλευρικής στήλης. Επιλέξτε <guiseq><gui style="menu">Αρχεία</gui> <gui style="menuitem">Προτιμήσεις</gui></guiseq> στην πάνω γραμμή ενώ τα <app>Αρχεία</app> είναι ανοικτά και επιλέξτε την καρτέλα <gui style="tab">Προβολές</gui>.</p>
+
+<section id="default-view">
+<title>Προεπιλεγμένη προβολή</title>
+<terms>
+  <item>
+    <title><gui>Προβολή νέων φακέλων με χρήση</gui></title>
+    <p>Από προεπιλογή, οι νέοι φάκελοι εμφανίζονται σε προβολή εικονιδίων. Αν προτιμάτε την προβολή λίστας, μπορείτε να την ορίσετε εδώ ως την προεπιλογή. Εναλλακτικά, μπορείτε να επιλέξτε μια διαφορετική προβολή για κάθε φάκελο καθώς περιηγείστε πατώντας το κουμπί <gui style="button">Προβολή στοιχείων ως λίστα</gui> ή <gui style="button">Προβολή στοιχείων ως πλέγμα εικονιδίων</gui> στην εργαλειοθήκη.</p>
+  </item>
+  <item>
+    <title><gui>Ταξινόμηση στοιχείων</gui></title>
+    <p>Μπορείτε να αλλάξετε την προεπιλεγμένη σειρά ταξινόμησης που χρησιμοποιείται σε φακέλους χρησιμοποιώντας την πτυσσόμενη λίστα <gui>Διάταξη στοιχείων</gui> στις προτιμήσεις για ταξινόμηση κατ' όνομα, μέγεθος αρχείου, τύπο αρχείου, ημερομηνία τελευταίας τροποποίησης, ημερομηνία τελευταίας πρόσβασης, ή ημερομηνία απόρριψης.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Μπορείτε να αλλάξετε την <link xref="files-sort">ταξινόμηση των αρχείων</link> σε έναν μεμονωμένο φάκελο πατώντας το πλήκτρο <media its:translate="no" type="image" src="figures/go-down.png">
+    <span its:translate="yes">Εμφάνιση επιλογών</span></media> στην εργαλειοθήκη και επιλέγοντας <gui>κατ' όνομα</gui>, <gui>κατά μέγεθος</gui>, <gui>κατά τύπο</gui> ή <gui>κατά ημερομηνία τροποποίησης</gui>, ή πατώντας τις κεφαλίδες της στήλης καταλόγου στην προβολή καταλόγου. Αυτό το μενού επηρεάζει μόνο τον τρέχοντα φάκελο.</p>
+  </item>
+  <item>
+    <title><gui>Ταξινόμηση φακέλων πριν από αρχεία</gui></title>
+    <p>Από προεπιλογή, ο διαχειριστής αρχείων δεν εμφανίζει πια όλους τους φακέλους πριν από τα αρχεία. Για να δείτε όλους τους φακέλους καταχωρισμένους πριν τα αρχεία, ενεργοποιήστε αυτήν την επιλογή.</p>
+  </item>
+  <item>
+    <title><gui>Εμφάνιση κρυφών αρχείων και αντιγράφων ασφαλείας</gui></title>
+    <p>Ο διαχειριστής αρχείων δεν εμφανίζει <link xref="files-hidden">κρυφά αρχεία</link> και φακέλους από προεπιλογή. Μπορείτε πάντα να εμφανίσετε τα κρυφά αρχεία επιλέγοντας αυτήν την επιλογή.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Μπορείτε επίσης να εμφανίσετε τα κρυφά αρχεία σε ένα μεμονωμένο παράθυρο επιλέγοντας <gui>Εμφάνιση κρυφών αρχείων</gui>, από το μενού <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Εμφάνιση επιλογών</span></media> στην εργαλειοθήκη.</p>
+  </item>
+</terms>
+</section>
+
+<section id="icon-view-defaults">
+<title>Προεπιλογές προβολής εικονιδίων</title>
+<terms>
+  <item>
+    <title><gui>Προεπιλεγμένο επίπεδο εστίασης</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Μπορείτε να κάνετε τα εικονίδια και το κείμενο μεγαλύτερο από προεπιλογή στην προβολή εικονιδίων χρησιμοποιώντας αυτήν την επιλογή. Μπορείτε επίσης να αλλάξετε αυτήν τη ρύθμιση σε έναν μεμονωμένο φάκελο πατώντας το πλήκτρο <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Εμφάνιση επιλογών</span></media> στην εργαλειοθήκη και επιλέγοντας <gui>Μεγέθυνση</gui>, <gui>Σμίκρυνση</gui>, ή <gui>Κανονικό μέγεθος</gui>. Εάν χρησιμοποιείτε συχνά ένα μεγαλύτερο ή μικρότερο επίπεδο εστίασης, μπορείτε να ορίσετε την προεπιλογή με αυτήν την επιλογή.</p>
+    <p>Στην προβολή εικονιδίων, εμφανίζονται περισσότεροι ή λιγότεροι <link xref="nautilus-display#icon-captions">τίτλοι</link> με βάση το επίπεδο εστίασης.</p>
+   </item>
+  </terms>
+</section>
+
+<section id="list-view-defaults">
+<title>Προεπιλογές προβολής λίστας</title>
+<terms>
+  <item>
+    <title><gui>Προεπιλεγμένο επίπεδο εστίασης</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Μπορείτε να κάνετε τα εικονίδια και το κείμενο μεγαλύτερα ή μικρότερα στην προβολή καταλόγου χρησιμοποιώντας αυτήν την επιλογή. Μπορείτε επίσης να το κάνετε σε έναν μεμονωμένο φάκελο πατώντας το πλήκτρο <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Εμφάνιση επιλογών</span></media> στην εργαλειοθήκη και επιλέγοντας <gui>Μεγέθυνση</gui>, <gui>Σμίκρυνση</gui>, ή <gui>Κανονικό μέγεθος</gui>.</p>
+  </item>
+</terms>
+</section>
+
+</page>

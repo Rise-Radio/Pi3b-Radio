@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="wacom" xml:lang="as">
+
+<info>
+  <desc><link xref="wacom-multi-monitor">এটা মনিটৰ মেপ কৰক</link>, <link xref="wacom-stylus">স্টাইলাচ সংৰূপণ কৰক</link>, <link xref="wacom-left-handed">টেবলেট বাওঁ হাতৰে ব্যৱহাৰ কৰক</link>…</desc>
+
+  <link type="guide" xref="prefs"/>
+
+  <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+  <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+  <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+  <credit type="author">
+    <name>মাইকেল হিল</name>
+    <email its:translate="no">mdhillca@gmail.com</email>
+  </credit>
+</info>
+
+<title>Wacom গ্ৰাফিক্স টেবলেট</title>
+
+</page>

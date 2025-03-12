@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-views" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-views"/>
+
+    <desc>Norādiet noklusējuma skatu, kārtošanas secību un mēroga līmeni datņu pārvaldniekā.</desc>
+
+    <revision pkgversion="3.8" version="0.2" date="2013-04-03" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  </info>
+
+<title>Skatu iestatījumi lietotnē <app>Datnes</app></title>
+
+<p>Jūs varat mainīt noklusējuma skatu jaunām mapēm, kā datnes un mapes pēc noklusējuma ir sakārtotas, mēroga līmeni ikonu un kompaktajā skatā un vai datnes ir attēlotas koka sānu joslā. Kad ir atvērta lietotne <app>Datnes</app>, augšējā joslā izvēlieties <guiseq><gui style="menu">Datnes</gui> <gui style="menuitem">Iestatījumi</gui></guiseq> un izvēlieties cilni <gui style="tab">Skati</gui></p>
+
+<section id="default-view">
+<title>Noklusējuma skats</title>
+<terms>
+  <item>
+    <title><gui>Skatīt jaunas mapes izmantojot</gui></title>
+    <p>Pēc noklusējuma mapes tiek rādītas ikonu skatā. Ja dodat priekšroku saraksta skatam, jūs varat to šeit varat iestatīt kā noklusējuma. Vai arī varat izvēlēties dažādus skatus katrai mapei, pārlūkošanas laikā rīkjoslā spiežot pogas <gui style="button">Skatīt vienumus kā sarakstu</gui> vai <gui style="button">Skatīt vienumus kā ikonu režģi</gui>.</p>
+  </item>
+  <item>
+    <title><gui>Sakārtot vienumus</gui></title>
+    <p>Jūs varat mainīt noklusējuma kārtošanas secību, ko izmanto mapes, izmantojot <gui>Sakārtot vienumus</gui> izkrītošo sarakstu, lai kārtotu pēc nosaukuma, datņu izmēra, datņu tipa, vai kad tās pēdējo reizi ir mainītas, kad pēdējo reizi tām ir piekļūts, vai kad tās tika izmestas.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Jūs varat mainīt veidu, kā <link xref="files-sort">datnes tiek kārtotas</link> katrā atsevišķā mapē, klikšķinot <media its:translate="no" type="image" src="figures/go-down.png">
+    <span its:translate="yes">Skata opcijas</span></media> pogu rīkjoslā un izvēloties <gui>Pēc nosaukuma</gui>, <gui>Pēc izmēra</gui>, <gui>Pēc tipa</gui> vai <gui>Pēc izmaiņu datuma</gui>, vai spiežot uz kolonnu virsrakstiem saraksta skatā. Šī izvēlne ietekmē tikai pašreizējo mapi.</p>
+  </item>
+  <item>
+    <title><gui>Sakārtot mapes pirms datnēm</gui></title>
+    <p>Pēc noklusējuma datņu pārvaldnieks vairs nerādīs visas mapes pirms datnēm. Lai mapes tiktu rādītas pirms datnēm, aktivējiet šo opciju.</p>
+  </item>
+  <item>
+    <title><gui>Rādīt slēptās un rezerves kopiju datnes</gui></title>
+    <p>Datņu pārvaldnieks pēc noklusējuma nerāda <link xref="files-hidden">slēptās datnes</link> un mapes. Jūs vienmēr varat rādīt slēptās datnes, izvēloties šo opciju.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Jūs varat izvēlēties slēptās datnes atsevišķos logos, izvēloties <gui>Rādīt slēptās datnes</gui>, no rīkjoslas izvēlnes <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Skata opcijas</span></media>.</p>
+  </item>
+</terms>
+</section>
+
+<section id="icon-view-defaults">
+<title>Ikonu skata noklusējumi</title>
+<terms>
+  <item>
+    <title><gui>Noklusējuma līmenis mērogam</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Ar šo opciju okonu skatā var padarīt ikonas un tekstu pēc noklusējuma lielāku vai mazāku. Šo iestatījumu var mainīt atsevišķā mapē, spiežot  <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Skata opcijas</span></media> pogu rīkjoslā un izvēloties <gui>Tuvināt</gui>, <gui>Tālināt</gui> vai <gui>Normāls izmērs</gui>. Ja bieži izmantojat lielāku vai mazāku mērogu, izmantojot šo opciju, jūs to varat iestatīt kā noklusējuma līmeni.</p>
+    <p>Ikonu skatā tiek rādīts vairāk vai mazāk <link xref="nautilus-display#icon-captions">parakstu,</link>, atkarībā no palielinājuma līmeņa.</p>
+   </item>
+  </terms>
+</section>
+
+<section id="list-view-defaults">
+<title>Saraksta skata noklusējumi</title>
+<terms>
+  <item>
+    <title><gui>Noklusējuma līmenis mērogam</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Ar šo opciju saraksta skatā var padarīt ikonas un tekstu lielāku vai mazāku To var izdarīt atsevišķā mapē, spiežot <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Skata opcijas</span></media> pogu rīkjoslā un izvēloties <gui>Tuvināt</gui>, <gui>Tālināt</gui> vai <gui>Normāls izmērs</gui>.</p>
+  </item>
+</terms>
+</section>
+
+</page>

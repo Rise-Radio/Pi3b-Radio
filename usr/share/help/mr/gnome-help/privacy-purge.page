@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-purge" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+
+    <revision pkgversion="3.10" date="2013-09-29" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>संगणकाला ट्रॅश आणि तात्पुर्त्या फाइल्सला कसे नष्ट करायचे ते सेट करा.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>कचरा पुसा &amp; तात्पुरत्या फाइल्स</title>
+
+  <p>ट्रॅश आणि तात्पुर्ते फाइल्स नष्ट केल्याने अनावश्यक आणि विनावापर फाइल्स संगणातून काढून टाकले जातात, आणि हार्ड डिस्क अगाऊ जागा देखील मोकळे करते. स्वतः ट्रॅश आणि तातपुर्त्या फाइल्स नष्ट करणे शक्य आहे, परंतु ह्या संगणकाला असे करण्यास स्वयं सेट करता येते.</p>
+
+  <steps>
+    <title>स्वयंरित्या ट्रॅश रिकामे करा आणि ठराविक वेळेनंतर तात्पुर्त्या फाइल्स नष्ट करा:</title>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Privacy</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Privacy</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p><gui>ट्रॅश &amp; तात्पुर्त्या फाइल्स नष्ट करा</gui> निवडा.</p>
+    </item>
+    <item>
+      <p>Set one or both of the <gui>Automatically empty Trash</gui> or
+      <gui>Automatically purge Temporary Files</gui> switches to
+      <gui>ON</gui>.</p>
+    </item>
+    <item>
+      <p><gui>पर्ज आफ्टर</gui> मूल्य बदलून किती वेळाने तुम्हाला <em>ट्रॅश</em> आणि <em>तात्पुर्त्या फाइल्स</em> सेट करायला आवडेल.</p>
+    </item>
+    <item>
+      <p>Use the <gui>Empty Trash</gui> or <gui>Purge Temporary Files</gui>
+      buttons to perform these actions immediately.</p>
+    </item>
+    <item>
+      <p>Click the <gui>X</gui> to close.</p>
+    </item>
+  </steps>
+
+  <note style="warning">
+    <p>सावधगिरीसह <em>नंतर पर्ज करा: पटकन</em> सेटिंगचा वापर करा. ट्रॅशला पटकन पर्ज कराकरिता सेट केल्यामुळे नष्ट केलेले कोणत्याही फाइल्स ट्रॅश मध्ये न जात नेहमीकरिता नष्ट केले जातील. ट्रॅशमधील फाइल्सच्या तुलनेत नष्ट केलेल्या फाइल्स पुन्ह प्राप्तिपासून जास्त कठिण असते.</p>
+
+    <p>ट्रॅशपासून पटकन फाइल्स नष्ट करायची आवश्यकता असेपर्यंत, कदाचित मोठे <gui>पर्ज आफ्टर</gui> मूल्य सेट करणे सुरक्षित आहे.</p>
+  </note>
+
+</page>

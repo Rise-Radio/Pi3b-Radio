@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wireless-troubleshooting-initial-check" xml:lang="lv">
+
+  <info>
+    <link type="next" xref="net-wireless-troubleshooting-hardware-info"/>
+    <link type="guide" xref="net-wireless-troubleshooting"/>
+
+    <revision pkgversion="3.4.0" date="2012-03-05" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-11-10" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu dokumentācijas viki veidotāji</name>
+    </credit>
+    <credit type="author">
+      <name>GNOME dokumentācijas projekts</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Pārliecinieties, ka tīkla iestatījumi ir pareizi un sagatavojieties pāris nākamajiem problēmu novēršanas pasākumiem.</desc>
+  </info>
+
+  <title>Bezvadu tīkla problēmu risināšana</title>
+  <subtitle>Veiciet sākotnējo savienojuma pārbaudi</subtitle>
+
+  <p>Šajā solī jūs pārbaudīsiet pamata informācijas par savu bezvada tīkla savienojumu. Tas ir paredzēts, lai pārliecinātos, ka jūsu tīkla problēmas nav saistītas ar samērā vienkāršām problēmām, piemēram, bezvadu tīkla savienojums ir izslēgts, un lai sagatavotos dažiem nākamajiem problēmu novēršanas soļiem.</p>
+
+  <steps>
+    <item>
+      <p>Pārliecinieties, ka jūsu portatīvais dators nav pieslēgts <em>vadu</em> interneta savienojumam.</p>
+    </item>
+    <item>
+      <p>Ja jums ir ārējais bezvadu tīkla adapters (piemēram, USB adapters vai PCMCIA karte, kas ir ievietojama jūsu portatīvajā datorā), pārliecinieties, ka tas ir kārtīgi ievietots jūsu datorā pareizajā vietā.</p>
+    </item>
+    <item>
+      <p>Ja bezvadu tīkla karte ir <em>iekšā</em> jūsu datorā, pārliecinieties, ka bezvadu tīkla slēdzis ir ieslēgts (ja tam ir tāds). Portatīvajiem datoriem parasti ir bezvadu tīkla slēdži, kurus jūs varat ieslēgt, nospiežot pogu kombināciju uz savas tastatūras taustiņiem.</p>
+    </item>
+    <item>
+      <p>Spiediet uz sistēmas statusa laukumu augšējā joslā un izvēlieties <gui>Wi-Fi</gui>, tad izvēlieties <gui>Wi-Fi iestatījumi</gui>.Jums arī vajadzētu pārbaudīt vai <link xref="net-wireless-airplane">lidmašīnas režīms ir izslēgts</link>.</p>
+    </item>
+    <item>
+      <p>Atveriet termināli un ierakstiet <cmd>nm-tool</cmd> un spiediet <key>Enter</key>.</p>
+      <p>Tas parādīs informāciju par jūsu tīkla iekārtu un savienojuma statusu. Aplūkojiet sarakstu un meklējiet, vai ir kaut kas saistīts ar bezvadu tīkla adapteri. Informācija par katru tīkla ierīci ir atdalīta ar svītriņu rindu. Ja jūs atrodat rindiņu <code>State: Connected</code> jūsu bezvadu tīkla adaptera sadaļā, tas nozīmē, ka tas strādā un ir savienota ar bezvadu maršrutētāju.</p>
+    </item>
+  </steps>
+
+  <p>Ja esat savienojušies ar bezvadu maršrutētāju, bet joprojām nav pieejas internetam, maršrutētājs varētu nebūt pareizi iestatīts, vai interneta pakalpojumu sniedzējam (IPS) varētu būt kādas tehniskas problēmas. Pārskatiet sava maršrutētāja un IPS iestatīšanas norādījumus, lai pārliecinātos, ka iestatījumi ir pareizi, vai lūdziet atbalstu savam IPS.</p>
+
+  <p>Ja informācija no <cmd>nm-tool</cmd> neuzrādīja, ka jūs esat savienots ar tīklu, spiediet <gui>Nākamā</gui>, lai pārietu uz nākamo daļu problēmu risināšanas pamācībā.</p>
+
+</page>

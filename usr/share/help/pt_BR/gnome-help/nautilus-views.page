@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-views" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-views"/>
+
+    <desc>Especifica a visão, ordem de organização e níveis de ampliação padrão do gerenciador de arquivos.</desc>
+
+    <revision pkgversion="3.8" version="0.2" date="2013-04-03" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodolfo Ribeiro Gomes</mal:name>
+      <mal:email>rodolforg@gmail.com</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>João Santana</mal:name>
+      <mal:email>joaosantana@outlook.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Preferências de visões no <app>Arquivos</app></title>
+
+<p>Você pode alterar a visão padrão de novas pastas, como arquivos e pastas são ordenadas por padrão, o nível de ampliação das visões de ícone e compacta e se arquivos são exibidos na barra lateral de árvore. Selecione <guiseq><gui style="menu">Arquivos</gui> <gui style="menuitem">Preferências</gui></guiseq> na barra superior enquanto <app>Arquivos</app> está aberto e selecione a aba <gui style="tab">Visões</gui>.</p>
+
+<section id="default-view">
+<title>Visão padrão</title>
+<terms>
+  <item>
+    <title><gui>Ver novas pastas usando</gui></title>
+    <p>Por padrão, novas pastas são mostradas na visão de ícone. Se você preferir a visão de lista, você pode defini-la aqui como a padrão. Alternativamente, você pode selecionar uma visão diferente para cada pasta na medida em que você acessa, clicando nos botões <gui style="button">Ver itens como um lista</gui> ou <gui style="button">Ver itens como uma grade de ícones</gui> na barra superior.</p>
+  </item>
+  <item>
+    <title><gui>Organizar itens</gui></title>
+    <p>Você pode alterar a ordem que é usada nas pastas usando a lista suspensa <gui>Organizar itens</gui> nas preferências para ordenar por nome, tamanho de arquivo, tipo de arquivo, quando foi alterado pela última modificação, quando foram acessado pela última vez ou quando foram movidas para lixeira.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Você pode alterar como os <link xref="files-sort">arquivos são organizados</link> em uma pasta individual clicando no botão <media its:translate="no" type="image" src="figures/go-down.png">
+    <span its:translate="yes">Opções de visualização</span></media> na barra de ferramentas e escolhendo <gui>Por nome</gui>, <gui>Por tamanho</gui>, <gui>Por tipo</gui>, <gui>Por data de modificação</gui> ou clicando nos cabeçalhos das coluna de lista na visualização de lista. Este menu afeta apenas a pasta atual.</p>
+  </item>
+  <item>
+    <title><gui>Organizar pastas antes de arquivos</gui></title>
+    <p>Por padrão, o gerenciador de arquivos não mais mostra todas as pastas antes dos arquivos. Para ver todas as pastas listadas antes dos arquivos, habilite esta opção.</p>
+  </item>
+  <item>
+    <title><gui>Mostrar arquivos ocultos e de backup</gui></title>
+    <p>O gerenciador de arquivos não exibe pastas e <link xref="files-hidden">arquivos ocultos</link> por padrão. Você sempre pode mostrar arquivos ocultos selecionando esta opção.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Você também mostrar arquivos ocultos em um janela individual selecionando <gui>Mostrar arquivos ocultos</gui>, a partir do menu <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Opções de visualização</span></media> na barra superior.</p>
+  </item>
+</terms>
+</section>
+
+<section id="icon-view-defaults">
+<title>Padrões da visão em ícones</title>
+<terms>
+  <item>
+    <title><gui>Nível padrão de zoom</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Você pode fazer com que os ícones e texto fiquem maiores ou menores por padrão em uma visão de ícones usando esta opção. Você também pode alterar esta configuração em uma pasta individual clicando no botão <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Opções de visualização</span></media> na barra superior ou selecionando <gui>Ampliar</gui>, <gui>Reduzir</gui> ou <gui>Tamanho normal</gui>. Se você frequentemente usa um nível de ampliação maior ou menor, você pode definir o padrão com esta opção.</p>
+    <p>Na visão de ícone, mais ou menos <link xref="nautilus-display#icon-captions">legendas</link> são mostradas baseadas em seu nível de ampliação.</p>
+   </item>
+  </terms>
+</section>
+
+<section id="list-view-defaults">
+<title>Padrões da visão em lista</title>
+<terms>
+  <item>
+    <title><gui>Nível padrão de zoom</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Você pode tornar os ícones e textos maiores ou menores na visualização de lista usando esta opção. Você também pode fazer isso em uma pasta individual clicando no botão <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Opções de visualização</span></media> na barra de ferramentas e selecionando <gui>Ampliar</gui>, <gui>Reduzir</gui> ou <gui>Tamanho normal</gui>.</p>
+  </item>
+</terms>
+</section>
+
+</page>

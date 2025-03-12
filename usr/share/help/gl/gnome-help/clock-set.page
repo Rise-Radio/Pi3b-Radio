@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="clock-set" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="clock"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+
+    <credit type="author">
+      <name>Proxecto de documentación de GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Click the clock on the top bar and go into the <gui>Date &amp; Time Settings</gui> to alter the date/time.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Cambiar a hora e data</title>
+
+  <p>Se a data e hora mostradas na barra superior son incorrectas, ou teñen o formato incorrecto, pode cambialas:</p>
+
+  <steps>
+    <item>
+      <p>Click on the clock in the middle of the top bar and select <gui>Date
+      &amp; Time Settings</gui>.</p>
+    </item>
+    <item>
+      <p>If you have a standard account, you will need to click
+      <gui>Unlock</gui> and type the
+      <link xref="user-admin-explain">administrator password</link>.</p>
+    </item>
+    <item>
+      <p>If you have an internet connection, you can set your date, time and
+      time zone to update automatically by switching <gui>Automatic Date &amp;
+      Time</gui> and <gui>Automatic Time Zone</gui> to <gui>ON</gui>.</p>
+      <p>If you do not have an internet connection, you can update these
+      manually by switching them to <gui>OFF</gui>, then clicking <gui>Date
+      &amp; Time</gui> and <gui>Time Zone</gui> to update.</p>
+    </item>
+    <item>
+      <p>Tamén pode cambiar o formato da hora mostrada seleccionando os formatos <gui>24 horas</gui> ou <gui>AM/PM</gui></p>
+    </item>
+  </steps>
+
+</page>

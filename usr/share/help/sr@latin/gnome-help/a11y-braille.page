@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-braille" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="a11y#vision" group="blind"/>
+    <link type="seealso" xref="a11y-screen-reader"/>
+
+    <revision pkgversion="3.9.92" date="2013-09-18" status="incomplete"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>Šon Mek Kens</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+
+    <desc>Koristite čitač ekrana <app>Orku</app> sa osveživim Brajevim ekranom.</desc>
+  </info>
+
+  <title>Čitajte ekran Brajevim pismom</title>
+
+  <p>Gnom obezbeđuje čitač ekrana <app>Orku</app> za prikaz korisničkog sučelja na osveživom Brajevom ekranu. Zavisno od toga kako ste instalirali Gnom, možda nećete imati instaliranu Orku. <link href="install:orca">Instalirajte Orku</link>, zatim pogledajte <link href="help:orca">Pomoć Orke</link> za više obaveštenja.</p>
+
+</page>

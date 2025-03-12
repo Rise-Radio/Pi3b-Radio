@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task a11y" id="mouse-doubleclick" xml:lang="gu">
+<info>
+    <link type="guide" xref="mouse"/>
+    <link type="guide" xref="a11y#mobility" group="clicking"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+    <revision pkgversion="3.9.92" date="2013-10-16" status="candidate"/>
+
+    <desc>બીજી વાર માઉસ બટનને બે વાર ક્લિક કરીને કેટલુ ઝડપી તમારે દબાવવાની જરૂર છે તેની પર નિયંત્રીત કરો.</desc>
+
+    <credit type="author">
+      <name>ફીલ બુલ</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>માઇકલ હીલ</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>શોભા ત્યાગી</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+</info>
+
+<title>બે વાર ક્લિક ઝડપને ગોઠવો</title>
+
+<p>બે વાર ક્લિક કરવાનું ફક્ત થાય છે જ્યારે તમે ઝડપી માઉસ બટનને દબાવો. જો બીજી વખત દબાવવાનું પહેલાં પછી લાંબુ હોય તો, તમે બે અલગ ક્લિક કરશો, બે વાર ક્લિક નહિં. જો તમે માઉસ બટનને ઝડપી દબાવવા મુશ્કેલી અનુભવો તો, તમારે સમય વધારી લેવો જોઇએ.</p>
+
+<steps>
+  <item><p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+  start typing <gui>Mouse &amp; Touchpad</gui>.</p></item>
+  <item><p>Click on <gui>Mouse &amp; Touchpad</gui> to open the panel.</p></item>
+  <item><p><gui>સામાન્ય</gui> હેઠળ, કિંમતમાં <gui>બે વાર ક્લિક</gui> સ્લાઇડરને ગોઠવો તમે આરામદાયક શોધો તો.</p></item>
+  <item><p>ચકાસવા માટે <gui>તમારાં સુયોજનોને ચકાસો</gui> બટન પર ક્લિક કરો. વિન્ડોમાં એકજ ક્લિક એ વર્તુળની બહાર પ્રકાશિત થશે. બે-વાર ક્લિક કરવાનું વર્તુળની અંદર પ્રકાશિત થશે.</p></item>
+</steps>
+
+<p>If your mouse double-clicks when you want it to single-click
+even though you have increased the double-click timeout,
+your mouse may be faulty. Try plugging a different mouse into your computer
+and see if that works properly. Alternatively, plug your mouse into a
+different computer and see if it still has the same problem.
+</p>
+
+<note><p>આ સુયોજન એ તમારા માઉસ અને ટચપેડને અસર કરશે, કોઇપણ બીજા નિર્દેશક ઉપકરણને પણ.</p></note>
+
+</page>

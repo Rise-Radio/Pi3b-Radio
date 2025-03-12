@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-views" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-views"/>
+
+    <desc>Définir l'affichage, la manière de trier et les niveaux de zoom par défaut du gestionnaire de fichiers.</desc>
+
+    <revision pkgversion="3.8" version="0.2" date="2013-04-03" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Préférences des vues dans <app>Fichiers</app></title>
+
+<p>Vous pouvez contrôler la vue d'affichage par défaut des nouveaux dossiers, l'ordre de tri des fichiers et des dossiers, le niveau de zoom pour les icônes et les vues compactes, et si les fichiers sont affichés dans l'arborescence du panneau latéral. Cliquez sur <gui>Fichiers</gui> dans la barre supérieure et choisissez <gui>Préférences</gui> et sélectionnez l'onglet <gui>Vues</gui>.</p>
+
+<section id="default-view">
+<title>Vue par défaut</title>
+<terms>
+  <item>
+    <title><gui>Afficher les nouveaux dossiers en utilisant</gui></title>
+    <p>Par défaut, les nouveaux dossiers sont affichés dans une grille d'icônes. Si vous préférez une vue en liste, vous pouvez la définir comme défaut. Sinon, vous avez la possibilité de choisir une vue différente au cours de votre navigation pour chaque dossier en cliquant sur le bouton <gui style="button">Voir les éléments sous forme de liste</gui> ou <gui style="button">Voir les éléments sous forme d'une grille d'icônes</gui> dans la barre d'outils.</p>
+  </item>
+  <item>
+    <title><gui>Ranger les éléments</gui></title>
+    <p>Vous pouvez changer l'ordre de tri par défaut dans les dossiers en utilisant la liste déroulante <gui>Ranger les éléments</gui> dans les préférences. Vous pouvez les trier par nom, taille de fichier, type de fichier, date de dernière modification, date de dernier accès, date de mise à la corbeille.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Vous pouvez changer la façon dont <link xref="files-sort">les fichiers sont triés</link> dans un dossier particulier en cliquant sur le bouton <media its:translate="no" type="image" src="figures/go-down.png">
+    <span its:translate="yes">Options d'affichage</span></media> dans la barre d'outils et en choisissant <gui>Par nom</gui>, <gui>Par taille</gui>, <gui>Par type</gui>, <gui>Par date de modification</gui>, ou en cliquant sur les en-têtes de colonnes de la liste. Ce menu ne concerne que le dossier actuellement ouvert.</p>
+  </item>
+  <item>
+    <title><gui>Trier les dossiers avant les fichiers</gui></title>
+    <p>Par défaut, le gestionnaire de fichiers n'affiche plus les dossiers avant les fichiers. Pour avoir tous les dossiers affichés avant les fichiers, activez cette option.</p>
+  </item>
+  <item>
+    <title><gui>Afficher les fichiers cachés et ceux de sauvegarde</gui></title>
+    <p>Le gestionnaire de fichiers n'affiche pas, par défaut, les <link xref="files-hidden">fichiers cachés</link> ni les dossiers cachés.Il est toujours possible de les voir en activant cette option.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Vous pouvez aussi afficher les fichiers cachés dans une fenêtre particulière en sélectionnant <gui>Afficher les fichiers cachés</gui> dans le menu <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Options d'affichage</span></media> de la barre d'outils.</p>
+  </item>
+</terms>
+</section>
+
+<section id="icon-view-defaults">
+<title>Réglages par défaut de la vue en icônes</title>
+<terms>
+  <item>
+    <title><gui>Niveau de zoom par défaut</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Avec cette option, vous pouvez agrandir ou réduire, par défaut, la taille d'affichage des icônes et du texte dans la vue en icônes. Vous pouvez le faire séparément pour chaque dossier en cliquant sur le bouton <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Options d'affichage</span></media> dans la barre d'outils et en sélectionnant <gui>Zoom avant</gui>, <gui>Zoom arrière</gui> ou <gui>Taille normale</gui>. Si vous utilisez fréquemment un niveau de zoom plus petit ou plus grand, vous pouvez définir la valeur par défaut ici.</p>
+    <p>Dans la vue en icônes, plus ou moins de <link xref="nautilus-display#icon-captions">libellés</link> sont affichés en fonction du niveau de zoom défini. </p>
+   </item>
+  </terms>
+</section>
+
+<section id="list-view-defaults">
+<title>Réglages par défaut de la vue en liste</title>
+<terms>
+  <item>
+    <title><gui>Niveau de zoom par défaut</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Avec cette option, vous pouvez agrandir ou réduire, par défaut, la taille d'affichage des icônes et du texte dans la vue en liste. Vous pouvez le faire séparément pour chaque dossier en cliquant sur le bouton <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Options d'affichage</span></media> dans la barre d'outils et en sélectionnant <gui>Zoom avant</gui>, <gui>Zoom arrière</gui> ou <gui>Taille normale</gui>.</p>
+  </item>
+</terms>
+</section>
+
+</page>

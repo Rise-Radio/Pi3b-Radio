@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-right-click" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="mouse"/>
+    <link type="guide" xref="a11y#mobility" group="clicking"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-13" status="candidate"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="final"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author copyright">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+      <years>2012</years>
+    </credit>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <desc>Πιέστε και κρατήστε το αριστερό κουμπί ποντικιού για δεξί κλικ.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Προσομοίωση δεξιού κλικ του ποντικιού</title>
+
+  <p>Μπορείτε να δεξιοπατήσετε κρατώντας κάτω το αριστερό κουμπί του ποντικιού. Αυτό είναι χρήσιμο εάν δυσκολεύεστε να μετακινήσετε τα δάκτυλά σας ξεχωριστά σε μια παλάμη, εάν η συσκευή κατάδειξης έχει μόνο ένα απλό κουμπί.</p>
+
+  <steps>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Γενική πρόσβαση</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε στο <gui>Γενική πρόσβαση</gui> για να ανοίξετε τον πίνακα.</p>
+    </item>
+    <item>
+      <p>Press <gui>Click Assist</gui> in the <gui>Pointing &amp; Clicking</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Switch <gui>Simulated Secondary Click</gui> to <gui>ON</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Μπορείτε να αλλάξετε τον χρόνο κρατήματος του αριστερού κουμπιού του ποντικιού πριν καταχωριστεί ως δεξί πάτημα, αλλάζοντας την <gui>καθυστέρηση αποδοχής</gui>.</p>
+
+  <p>Για δεξί κλικ με εξομοίωση δευτερεύοντος κλικ, κρατήστε πατημένο το αριστερό κουμπί ποντικιού όπως θα κάνατε κανονικά με δεξί πάτημα και έπειτα απελευθερώστε. Ο δείκτης γεμίζει με γαλάζιο καθώς κρατάτε πατημένο το αριστερό κουμπί του ποντικιού. Μόλις είναι πλήρως γαλάζιο, ελευθερώστε το κουμπί ποντικιού για δεξί κλικ.</p>
+
+  <p>Μερικοί ειδικοί δείκτες, όπως η αυξομείωση των δεικτών δεν αλλάζουν χρώματα. Μπορείτε ακόμα να χρησιμοποιήσετε εξομοίωση δευτερεύοντος κλικ ως κανονικού, ακόμα κι αν δεν παίρνετε οπτική ανάδραση από τον δείκτη.</p>
+
+  <p>Εάν χρησιμοποιείτε <link xref="mouse-mousekeys">πλήκτρα ποντικιού</link>, αυτό επιτρέπει επίσης το δεξί κλικ κρατώντας πατημένο το πλήκτρο <key>5</key> στο υποπληκτρολόγιο σας.</p>
+
+  <note>
+    <p>Στην επισκόπηση <gui>Ενέργειες</gui>, μπορείτε πάντα να πατάτε παρατεταμένα για δεξί πάτημα, ακόμα και με αυτό το γνώρισμα ανενεργό. Το παραπεταμένο πάτημα δουλεύει ελαφρώς διαφορετικά στην επισκόπηση: δεν πρέπει να ελευθερώσετε το κουμπί για δεξί πάτημα.</p>
+  </note>
+
+</page>

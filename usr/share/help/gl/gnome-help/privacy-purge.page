@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-purge" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+
+    <revision pkgversion="3.10" date="2013-09-29" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Estabeleza cada canto tempo se limpará o lixo e os ficheiros temporais do seu computador.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Limpar o lixo e ficheiros temporais</title>
+
+  <p>Ao limpar o lixo e os ficheiros temporais eliminará os ficheiros non necesarios e non queridos do seu computador, e polo tanto liberará espazo no seu disco duro. Pode baleirar o lixo e limpar os ficheiros temporais de forma manual, porén tamén pode facer que o computador o faga automaticamente por vostede.</p>
+
+  <steps>
+    <title>Limpar automaticamente o lixo e os ficheiros temporais despois dun período de tempo estabelecido:</title>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Privacy</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Privacy</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Seleccione <gui>Eliminar lixo e ficheiros temporais</gui>.</p>
+    </item>
+    <item>
+      <p>Set one or both of the <gui>Automatically empty Trash</gui> or
+      <gui>Automatically purge Temporary Files</gui> switches to
+      <gui>ON</gui>.</p>
+    </item>
+    <item>
+      <p>Estabelza cada canto tempo quere que se limpe o seu <em>Lixo</em> e <em>Ficheiros temporais</em> cambiando o valor de <gui>Limpar despois de</gui>.</p>
+    </item>
+    <item>
+      <p>Use the <gui>Empty Trash</gui> or <gui>Purge Temporary Files</gui>
+      buttons to perform these actions immediately.</p>
+    </item>
+    <item>
+      <p>Click the <gui>X</gui> to close.</p>
+    </item>
+  </steps>
+
+  <note style="warning">
+    <p>Use a configuración <em>Limpar despois de: Inmediatamente</em> con coidado. Ao estabelecer que se limpe o lixo inmediatamente fará que calquera ficheiro que borre omita o lixo e se elimine permanentemente. Os ficheiros que se eliminan son moito máis difíciles de recuperar que os ficheiros que están no seu lixo.</p>
+
+    <p>A non se que precise especificamente que se eliminen os ficheiros inmediatamente do seu lixo, é probabelmente máis seguro estabelecer un valor máis grande en <gui>Limpar despois de</gui>.</p>
+  </note>
+
+</page>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="files-delete" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="files"/>
+    <link type="seealso" xref="files-recover"/>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-16" status="review"/>
+    <revision pkgversion="3.13.92" date="2013-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Cristopher Thomas</name>
+      <email>crisnoh@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Αφαιρέστε αρχεία ή φακέλους που δεν χρειάζεστε πια.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Διαγραφή αρχείων και φακέλων</title>
+
+  <p>If you do not want a file or folder any more, you can delete it. When you
+  delete an item it is moved to the <gui>Trash</gui> folder, where it is stored
+  until you empty the trash. You can <link xref="files-recover">restore items
+  </link> in the <gui>Trash</gui> folder to their original location if you
+  decide you need them, or if they were accidentally deleted.</p>
+
+  <steps>
+    <title>Για να στείλετε ένα αρχείο στα απορρίμματα:</title>
+    <item><p>Επιλέξτε το στοιχείο που θέλετε να βάλετε στα απορρίμματα πατώντας το μια φορά.</p></item>
+    <item><p>Πατήστε <keyseq><key>Ctrl</key><key>Delete</key></keyseq> στο πληκτρολόγιο σας. Εναλλακτικά, μεταφέρτε το στοιχείο στα <gui>απορρίμματα</gui> στην πλευρική στήλη.</p></item>
+  </steps>
+
+  <p>Για τη μόνιμη διαγραφή αρχείων και την απελευθέρωση χώρου δίσκου στον υπολογιστή σας, χρειάζεστε να αδειάσετε τα απορρίμματα. Για να αδειάσετε τα απορρίμματα, δεξί κλικ στα <gui>απορρίμματα</gui> στην πλευρική στήλη και επιλέξτε <gui>άδειασμα απορριμμάτων</gui>.</p>
+
+  <section id="permanent">
+    <title>Μόνιμη διαγραφή ενός αρχείου</title>
+    <p>Μπορείτε αμέσως να διαγράψετε ένα αρχείο μόνιμα, χωρίς να πρέπει να το στείλετε στα απορρίμματα πρώτα.</p>
+
+  <steps>
+    <title>Για να διαγράψετε μόνιμα ένα αρχείο:</title>
+    <item><p>Επιλέξτε το στοιχείο που θέλετε να διαγράψετε.</p></item>
+    <item><p>Πατήστε και κρατήστε πατημένο το πλήκτρο <key>Shift</key>, έπειτα πατήστε το πλήκτρο <key>διαγραφή</key> στο πληκτρολόγιο σας.</p></item>
+    <item><p>Επειδή δεν μπορείτε να το αναιρέσετε, θα ερωτηθείτε για επιβεβαίωση ότι θέλετε να διαγράψετε το αρχείο ή τον φάκελο.</p></item>
+  </steps>
+
+  <note style="tip"><p>Εάν χρειάζεστε συχνά να διαγράψετε αρχεία χωρίς τη χρήση των απορριμμάτων (για παράδειγμα, εάν δουλεύετε συχνά με ευαίσθητα δεδομένα), μπορείτε να προσθέσετε μια καταχώριση <gui>διαγραφής</gui> στο μενού συνάφειας για αρχεία και φακέλους. Πατήστε <gui>αρχεία</gui> στην πάνω γραμμή, επιλέξτε <gui>προτιμήσεις</gui> και επιλέξτε την καρτέλα <gui>συμπεριφορά</gui>. Επιλέξτε <gui>συμπερίληψη μιας εντολής διαγραφής που παρακάμπτει τα απορρίμματα</gui>.</p></note>
+
+  <note><p>Τα διαγραμμένα αρχεία σε μια <link xref="files#removable">αφαιρούμενη συσκευή</link> μπορεί να μην είναι ορατά σε άλλα λειτουργικά συστήματα, όπως Windows ή Mac OS. Τα αρχεία είναι ακόμα εκεί και θα είναι διαθέσιμα όταν συνδέσετε τη συσκευή πίσω στον υπολογιστή σας.</p></note>
+
+  </section>
+
+</page>

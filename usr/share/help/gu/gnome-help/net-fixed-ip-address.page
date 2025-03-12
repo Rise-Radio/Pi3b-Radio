@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-fixed-ip-address" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="seealso" xref="net-findip"/>
+
+    <revision pkgversion="3.4.0" date="2012-03-13" status="final"/>
+
+    <credit type="author">
+      <name>જીમ કેમ્પબેલ</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>સ્થિર IP સરનામાંને વાપરવાનું તમારાં કમ્પ્યૂટરમાંથી અમુક નેટવર્ક સેવાઓને પૂરી પાડવા માટે સરળ બની શકે છે.</desc>
+  </info>
+
+  <title>સુધારેલ IP સરનામાં સાથે જોડાણને બનાવો</title>
+
+  <p>Most networks will automatically assign an <link xref="net-what-is-ip-address">IP address</link> and other details to your
+  computer when you connect to the network. These details can change
+  periodically, but you might want to have a fixed IP address for the computer
+  so you always know what its address is (for example, if it is a file
+  server).</p> <p>તમારાં કમ્પ્યૂટરને ચોક્કસ (સ્થિર) IP સરનામું આપવા માટે:</p>
+
+  <steps>
+    <item>
+      <p><gui>ટોચની પટ્ટી</gui> પર <gui>નેટવર્ક ચિહ્ન</gui> પર ક્લિક કરો અને <gui>નેટવર્ક સુયોજનો</gui> ને પસંદ કરો.</p>
+    </item>
+    <item>
+      <p>યાદી (<gui>વાયર થયેલ</gui> અથવા <gui>વાયરલેસ</gui>) માંથી નેટવર્ક જોડાણને પસંદ કરો અને <gui>રૂપરેખાંકિત</gui> પર ક્લિક કરો.</p>
+    </item>
+    <item>
+      <p><gui>IPv4 સુયોજનો</gui> ટૅબ પર ક્લિક કરો અને <gui>પદ્ધતિ</gui> ને <em>સ્વયં</em> માં બદલો.</p>
+    </item>
+    <item>
+      <p>જો જોડાણ <gui>સરનામાં</gui> યાદીમાં જોડાણ જાણકારી યાદી થયેલ ન હોય તો, અથવા જો તમે નવાં જોડાણને સુયોજિત કરવા માંગો તો, <gui>ઉમેરો</gui> પર ક્લિક કરો.</p>
+    </item>
+    <item>
+      <p>અનૂકુળ બોક્સમાં <em>IP સરનામું</em>, <em>નેટમાસ્ક</em>, અને <em>ગેટવે</em> જાણકારીને દાખલ કરો. આને તમે કેવી રીતે પસંદ કરો કે તમારાં નેટવર્ક સુયોજન પર આધાર રાખશે; ત્યાં ખાસ નિયમો સંચાલન કરે છે કે ક્યાં IP સરનામાં અને નેટમાસ્ક એ આપેલ નેટવર્ક માટે યોગ્ય છે.</p>
+    </item>
+    <item>
+      <p>જો જરૂરી હોય તો, <gui>DNS સર્વર</gui> બોક્સમાં  <em>Domain Name Server</em> સરનામામાં દાખલ કરો. આ સર્વરનું IP સરનામું છે કે જે ડોમેઇન નામોને જુએ છે; મોટાભાગનાં કોર્પોરેટ નેટવર્કો અને ઇન્ટરનેટ પ્રદાતા પાસે ઇચ્છિત DNS સર્વરો છે.</p>
+    </item>
+    <item>
+      <p><gui>સંગ્રહો</gui> પર ક્લિક કરો. નેટવર્ક જોડાણ પાસે હવે સુધારેલ IP સરનામું છે.</p>
+    </item>
+  </steps>
+
+</page>

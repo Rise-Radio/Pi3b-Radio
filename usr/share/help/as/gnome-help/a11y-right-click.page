@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-right-click" xml:lang="as">
+
+  <info>
+    <link type="guide" xref="mouse"/>
+    <link type="guide" xref="a11y#mobility" group="clicking"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-13" status="candidate"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="final"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author copyright">
+      <name>শ্বণ মেকেন্স</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+      <years>2012</years>
+    </credit>
+    <credit type="author">
+      <name>ফিল বুল</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>মাইকেল হিল</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>একাটেৰিনা গেৰাচিমভা</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <desc>ৰাইট-ক্লিক কৰিবলৈ বাঁও মাউছ বুটাম টিপক আৰু ধৰি থওক।</desc>
+  </info>
+
+  <title>এটা ৰাইট মাউছ ক্লিক চিমুলেইট কৰক</title>
+
+  <p>আপুনি বাঁও মাউছ বুটাম ধৰি ৰাখি ৰাইট-ক্লিক কৰিব পাৰিব। ই উপযোগী যদি আপুনি এটা হাতৰ আঙুলিবোৰ সূকীয়াভাৱে লৰাব অসুবিধা হয়, অথবা যদি আপোনাৰ পইন্টিং ডিভাইচৰ কেৱল এটা বুটাম আছে।</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Universal Access</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Universal Access</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Press <gui>Click Assist</gui> in the <gui>Pointing &amp; Clicking</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Switch <gui>Simulated Secondary Click</gui> to <gui>ON</gui>.</p>
+    </item>
+  </steps>
+
+  <p>You can change how long you must hold down the left mouse button before it
+  is registered as a right click by changing the <gui>Acceptance
+  delay</gui>.</p>
+
+  <p>চিমুলেটেড দ্বিতীয় ক্লিকৰ সৈতে ৰাইট-ক্লিক কৰিবলৈ, যেতিয়া আপুনি সাধাৰণত ৰাইট-ক্লিক কৰিব তেনেকুৱাত বাঁও মাউছ বুটাম ধৰি থওক, তাৰ পিছত এৰক। আপুনি বাঁও মাউছ বুটাম ধৰি থওতে পইন্টাৰ নীলা ৰঙৰ হৈ যায়। এবাৰ ই সম্পূৰ্ণৰূপে নীলা হোৱাৰ পিছত,ৰাইট-ক্লিক কৰিবলৈ মাউছ বুটাম এৰক।</p>
+
+  <p>কিছুমান বিশেষ পইন্টাৰে, যেনে পুনৰ আকাৰ পইন্টাৰ, ৰঙ সলনি নকৰে। আপুনি তথাপিও চিমুলেটেড দ্বিতীয় ক্লিকক স্বাভাৱিক হিচাপে ব্যৱহাৰ কৰিব পাৰিব, যদিও আপুনি পইন্টাৰৰ পৰা দৃশ্যমান সহাঁৰি নাপায়।</p>
+
+  <p>যদি আপুনি <link xref="mouse-mousekeys">মাউছ কি'সমূহ</link> ব্যৱহাৰ কৰে, ই আপোনাক কিপেডত <key>5</key> কি ধৰি থৈ ৰাইট-ক্লিক কৰাৰ অনুমতি দিয়ে।</p>
+
+  <note>
+    <p>In the <gui>Activities</gui> overview, you are always able to long-press
+    to right-click, even with this feature disabled. Long-press works slightly
+    differently in the overview: you do not have to release the button to
+    right-click.</p>
+  </note>
+
+</page>

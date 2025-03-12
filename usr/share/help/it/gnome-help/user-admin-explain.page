@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="tip" id="user-admin-explain" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="user-accounts#privileges"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-03" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Progetto documentazione di GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>You need administrative privileges to change important parts of your
+    system.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luca Ferretti</mal:name>
+      <mal:email>lferrett@gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Flavia Weisghizzi</mal:name>
+      <mal:email>flavia.weisghizzi@ubuntu.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Come funzionano i privilegi di amministrazione?</title>
+
+  <p>Oltre ai <em>propri</em> file, nel computer si trovano anche altri file necessari al corretto funzionamento del sistema. Se questi importanti <em>file di sistema</em> vengono modificati in modo improprio, il sistema stesso potrebbe essere danneggiato. Per prevenire ciò, questi file sono protetti in modo predefinito dalle modifiche. Anche alcune applicazioni modificano parti importanti del sistema e anche queste sono protette.</p>
+
+  <p>The way that they are protected is by only allowing users with
+  <em>administrative privileges</em> to change the files or use the
+  applications. In day-to-day use, you will not need to change any system files
+  or use these applications, so by default you do not have administrative
+  privileges.</p>
+
+  <p>Sometimes you need to use these applications, so you may be able to
+  temporarily get administrative privileges to allow you to make the changes.
+  If an application needs administrative privileges, it will ask for your
+  password. For example, if you want to install some new software, the software
+  installer (package manager) will ask for your administrator password so it
+  can add the new application to the system. Once it has finished, your
+  administrative privileges will be taken away again.</p>
+
+  <p>Administrative privileges are associated with your user account.
+  <gui>Administrator</gui> users are allowed to have these privileges while
+  <gui>Standard</gui> users are not. Without administrative privileges you will
+  not be able to install software. Some user accounts (for example, the "root"
+  account) have permanent administrative privileges. You should not use
+  administrative privileges all of the time, because you might accidentally
+  change something you did not intend to (like delete a needed system file, for
+  example).</p>
+
+  <p>In summary, administrative privileges allow you to change important parts
+  of your system when needed, but prevent you from doing it accidentally.</p>
+
+  <note>
+    <title>Cosa significa "super utente"?</title>
+    <p>A user with administrative privileges is sometimes called a <em>super
+    user</em>. This is simply because that user has more privileges than normal
+    users. You might see people discussing things like <cmd>su</cmd> and
+    <cmd>sudo</cmd>; these are programs for temporarily giving you "super user"
+    (administrative) privileges.</p>
+  </note>
+
+<section id="advantages">
+  <title>Why are administrative privileges useful?</title>
+
+  <p>Requiring users to have administrative privileges before important system
+  changes are made is useful because it helps to prevent your system from being
+  broken, intentionally or unintentionally.</p>
+
+  <p>If you had administrative privileges all of the time, you might
+  accidentally change an important file, or run an application which changes
+  something important by mistake. Only getting administrative privileges
+  temporarily, when you need them, reduces the risk of these mistakes
+  happening.</p>
+
+  <p>Only certain trusted users should be allowed to have administrative
+  privileges. This prevents other users from messing with the computer and
+  doing things like uninstalling applications that you need, installing
+  applications that you don't want, or changing important files. This is useful
+  from a security standpoint.</p>
+
+</section>
+
+</page>

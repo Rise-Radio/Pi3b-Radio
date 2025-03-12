@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="printing-name-location" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="printing#setup"/>
+
+    <revision pkgversion="3.10.2" date="2013-11-03" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>જાના સ્વરોવા</name>
+      <email its:translate="no">jana.svarova@gmail.com</email>
+      <years>૨૦૧૩</years>
+    </credit>
+    <credit type="editor">
+      <name>જીમ કેમ્પબેલ</name>
+      <email its:translate="no">jcampbell@gnome.org</email>
+      <years>૨૦૧૩</years>
+    </credit>
+
+    <desc>પ્રિન્ટર સુયોજનોમાં પ્રિન્ટરનાં નામ અથવા સ્થાનને બદલો.</desc>
+  </info>
+  
+  <title>પ્રિન્ટરનાં નામ અથવા સ્થાનને બદલો</title>
+
+  <p>પ્રિન્ટર સુયોજનોમાં પ્રિન્ટરનાં સ્થાન અથવા નામને તમે બદલી શકો છો.</p>
+
+  <note>
+    <p>પ્રિન્ટરનાં નામ અથવા સ્થાનને બદલવા માટે સિસ્ટમ પર તમારે સંચાલન અધિકારોની જરૂર છે.</p>
+  </note>
+
+  <section id="printer-name-change">
+    <title>પ્રિન્ટર નામને બદલો</title>
+
+  <p>જો તમે પ્રિન્ટરનાં નામને બદલવા માંગો તો, નીચેનાં પગલાં લો:</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Printers</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Printers</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>ટોચની જમણે ખૂણામાં <gui>તાળુ ખોલો</gui> બટન પર ક્લિક કરો અને તમારાં પાસવર્ડને દાખલ કરો.</p>
+    </item>
+    <item>
+      <p>Click on the name of your printer, and start typing a new name for
+      the printer.</p>
+    </item>
+    <item>
+      <p>Press <key>Enter</key> to save your changes.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="printer-location-change">
+    <title>પ્રિન્ટર સ્થાનને બદલો</title>
+
+  <p>તમારાં પ્રિન્ટર સ્થાનને બદલવા માટે:</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Printers</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Printers</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>ટોચની જમણે ખૂણામાં <gui>તાળુ ખોલો</gui> બટન પર ક્લિક કરો અને તમારાં પાસવર્ડને દાખલ કરો.</p>
+    </item>
+    <item>
+      <p>સ્થાન પર ક્લિક કરીને, સ્થાનમાં ફેરફાર કરવાનું શરૂ કરો.</p>
+    </item>
+    <item>
+      <p>ફેરફારોને સંગ્રહવા માટે <key>Enter</key> ને દબાવો.</p>
+    </item>
+  </steps>
+
+  </section>
+
+</page>

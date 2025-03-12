@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="net-what-is-ip-address" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="net-general"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>IP adrese ir kā tālruņa numurs jūsu datoram.</desc>
+  </info>
+
+  <title>Kas ir IP adrese?</title>
+
+  <p>"IP adrese" nozīmē <em>interneta protokola adrese</em> un katrai iekārtai, kas ir pieslēgta tīklam (piemēram, internetam), ir tāda.</p>
+
+  <p>IP adrese ir līdzīga jūsu tālruņa numuram. Jūsu Tālruņa numurs ir unikāls skaitļu kopums, kas identificē jūsu tālruni tā, ka citi cilvēki var jums piezvanīt. Tāpat arī IP adrese ir unikāls skaitļu kopums, kas identificē jūsu datoru, lai tas varētu sūtīt un saņemt datus no citiem datoriem.</p>
+
+  <p>Pašlaik lielākā daļa IP adrešu sastāv no četrām skaitļu kopām, kuras ir atdalītas ar punktu. <code>192.168.1.42</code> ir IP adreses piemērs.</p>
+
+  <note style="tip">
+    <p>IP adrese var būt gan <em>dinamiska</em>, gan <em>statiska</em>. Dinamiska IP adrese ir uz laiku norīkota datoram katru reizi, kad dators savienojas ar tīklu. Statiska IP adrese ir fiksēta un tā nemainās. Dinamiskās IP adreses ir biežāk sastopamas, nekā statiskās adreses — statiskās adreses parasti izmanto tikai tad, ja ir īpaša vajadzība pēc tām, piemēram, serveriem.</p>
+  </note>
+
+</page>

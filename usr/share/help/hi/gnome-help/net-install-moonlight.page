@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="hi">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>फील् बूल्</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Some websites use Silverlight to display web pages. The Moonlight
+    plug-in lets you view these pages.</desc>
+  </info>
+
+  <title>सिलवरलाइट प्लग-इन कि संस्थापना करे।</title>
+
+  <p><app>सिलवरलाइट</app> एक वेब-ब्राउज़र प्लग-इन है जो की आप को चल-चित्र और अंतःक्रियात्मक वेब-पृष्ठ देखने में मदद करता है। कुछ वेब साइट इसके बिना कार्य नही कर पाएँगी। </p>
+
+  <p>अगर आप सिलवरलाइट संस्थापित किए बिना सिलवरलाइट प्लग-इन सक्षम वेब-पृष्ठ देखते है, तो संभवतः आप को एक सूचना संदेश दिखाई देगा, जो आप को इस बारे मे सूचित करेगा, साथ ही साथ यह संदेश आप को प्लग-इन संस्थापित करने का निर्देश भी देगा पर संभवतः यह निर्देश आप के वेब-ब्राउज़र या लिनक्स संस्करण के लिए उपयोगी नही होगा।</p>
+
+  <p>अगर आप सिलवरलाइट सक्रिय वेब-पृष्ठ देखना चाहते है तो आपको सिलवरलाइट कि जगह <em>मूनलाइट</em> प्लग-इन संस्थापित करना चाहिए, जो कि लिनक्स के लिए सिलवरलाइट का एक मुक्त-स्रोत संस्करण है।</p>
+
+  <p>कुछ लिनक्स संस्करणों पर मूनलाइट प्लग-इन उसके सॉफ्टवेयर संस्थापक कि मदद से संस्थापित किया जा सकता है। इसके लिए सिर्फ संस्थापक को खोलकर <input>Silverlight</input> या <input>Moonlight</input> कि खोज करे।</p>
+
+  <p>If your distribution doesn't have a Moonlight software package, see the
+  <link href="http://www.go-mono.com/moonlight/">Moonlight website</link> for
+  more information and installation instructions.</p>
+
+</page>

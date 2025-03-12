@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task 2column" id="net" xml:lang="fi">
+
+  <info>
+
+    <link type="guide" xref="index" group="net"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+
+
+
+    <desc><link xref="net-wireless">Langattomat lähiverkot</link>, <link xref="net-wired">kiinteät yhteydet</link>, <link xref="net-problem">yhteysongelmat</link>, <link xref="net-browser">WWW-selaaminen</link>, <link xref="net-email">sähköpostitilit</link>...</desc>
+<!--
+    chat…
+-->
+<!--
+    <desc>
+      <link xref="net#problems">Connection problems</link>,
+      <link xref="net#wireless">wireless</link>,
+      <link xref="net#wired">wired</link>,
+      <link xref="net#sharing">sharing files</link>,
+      <link xref="net#security">security</link>,
+      <link xref="net#security">anti-virus</link>…
+    </desc>
+
+-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Timo Jyrinki</mal:name>
+      <mal:email>timo.jyrinki@iki.fi</mal:email>
+      <mal:years>2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jiri Grönroos</mal:name>
+      <mal:email>jiri.gronroos+l10n@iki.fi</mal:email>
+      <mal:years>2012, 2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Verkot, internet, sähköposti ja keskustelut</title>
+<links type="topic" style="toronto"/>
+
+</page>

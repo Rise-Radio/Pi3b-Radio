@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-install-moonlight" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="net-browser"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Dažas vietnes izmanto Silverlight, lai parādītu savas tīmekļa lapas. Moonlight spraudnis ļauj aplūkot šīs lapas.</desc>
+  </info>
+
+  <title>Instalēt Silverlight spraudni</title>
+
+  <p><app>Silverlight</app> ir <em>spraudnis</em> jūsu pārlūkprogrammai, kas ļauj skatīties video un izmantot interaktīvās tīmekļa lapas dažādās vietnēs. Dažas vietnes nestrādās bez Silverlight.</p>
+
+  <p>Ja jūs apskatāt vietnes, kurās ir ieslēgts Silverlight, bet jums nav uzinstalēts spraudnis, jūs, visticamāk, redzēsit par to paziņojumu. Paziņojumā vajadzētu būt aprakstītam, kā iegūt šo spraudni, bet šīs instrukcijas var nebūt savienojamas ar jūsu pārlūkprogrammu vai Linux versiju.</p>
+
+  <p>Ja jūs vēlaties apskatīt vietnes, kurās ir Silverlight, jums vajadzētu ieinstalēt <em>Moonlight</em> spraudni. Tā ir brīva, atvērtā pirmkoda versija Silverlight, kas strādā uz Linux.</p>
+
+  <p>Dažiem Linux distributīviem ir kopija no Moonlight, kuru jūs varat instalēt, izmantojot to programmatūras instalētāju; vienkārši atveriet programmatūras instalēšanas lietotni un meklējiet <input>Silverlight</input> vai <input>Moonlight</input>.</p>
+
+  <p>Ja jūsu distributīvam nav Moonlight programmas pakotnes, aplūkojiet <link href="http://www.go-mono.com/moonlight/">Moonlight vietni</link> informācijai un instalēšanas instrukcijai.</p>
+
+</page>

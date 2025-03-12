@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="mouse" xml:lang="as">
+<info>
+    <link type="guide" xref="prefs"/>
+    <link type="guide" xref="hardware"/>
+    <desc><link xref="mouse-lefthanded">বাঁও-হতিয়া</link>, <link xref="mouse-sensitivity">গতি আৰু সংবেদনশীলতা</link>, <link xref="mouse-touchpad-click">টাচপেড ক্লিকিং আৰু স্ক্ৰলিং</link>…</desc>
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+
+    <credit type="author">
+        <name>টিফানি এন্টপলস্কি</name>
+        <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+</info>
+
+<title>মাউছ</title>
+<links type="topic" style="2column"/>
+
+<section id="problems" style="2column">
+  <info>
+    <title type="link">সাধাৰণ মাউছ সমস্যাবোৰ</title>
+    <title type="link" role="trail">সাধাৰণ সমস্যাবোৰ</title>
+  </info>
+  <title>সাধাৰণ সমস্যাবোৰ</title>
+</section>
+
+<section id="tips" style="2column">
+ <info>
+   <title type="link">মাউছৰ সহায়</title>
+   <title type="link" role="trail">সহায়</title>
+ </info>
+ <title>সহায়</title>
+</section>
+</page>

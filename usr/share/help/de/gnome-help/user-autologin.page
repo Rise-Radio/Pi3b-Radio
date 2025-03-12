@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="user-autologin" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="user-accounts#manage"/>
+    <link type="seealso" xref="shell-exit"/>
+
+    <revision pkgversion="3.8" version="0.1" date="2013-04-04" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Automatisches Anmelden bei Einschalten des Rechners einrichten.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Automatisch anmelden</title>
+
+  <p>You can change your settings so that you are automatically logged in to
+  your account when you start up your computer:</p>
+
+  <steps>
+    <item>
+      <p>Öffnen Sie die <gui xref="shell-terminology">Aktivitäten</gui>-Übersicht und tippen Sie <gui>Benutzer</gui> ein.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui>Benutzer</gui>, um das Panel zu öffnen.</p>
+    </item>
+    <item>
+      <p>Wählen Sie das Benutzerkonto, welches automatisch bei Systemstart angemeldet werden soll.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf den Knopf <gui style="button">Entsperren</gui> und geben Sie Ihr Passwort ein.</p>
+    </item>
+    <item>
+      <p>Toggle the <gui>Automatic Login</gui> switch to <gui>ON</gui>.</p>
+    </item>
+  </steps>
+
+  <p>When you next start up your computer, you will be logged in automatically.
+  If you have this option enabled, you will not need to type in your password
+  to log in to your account which means that if someone else starts up your
+  computer, they will be able to access your account and your personal data
+  including your files and browser history.</p>
+
+  <note>
+    <p>If your account type is <em>Standard</em>, you cannot change this
+    setting. Contact your system administrator who can change this setting
+    for you.</p>
+  </note>
+
+</page>

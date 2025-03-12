@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-fixed-ip-address" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="seealso" xref="net-findip"/>
+
+    <revision pkgversion="3.4.0" date="2012-03-13" status="final"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Mit einer statischen IP-Adresse ist es oft einfacher, bestimmte Netzwerkdienste auf dem eigenen Rechner zur Verfügung zu stellen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Eine Verbindung über eine feste IP-Adresse herstellen</title>
+
+  <p>Die meisten Netzwerke weisen Ihrem Rechner automatisch eine <link xref="net-what-is-ip-address">IP-Adresse</link> und andere Einzelheiten zu, sobald Sie sich mit diesem Netzwerk verbinden. Diese Details können sich von Zeit zu Zeit ändern, Sie könnten also eine feste IP-Adresse für Ihren Rechner haben wollen, damit Sie seine IP-Adresse immer kennen (zum Beispiel wenn es sich um einen Dateiserver handelt).</p> <p>So geben Sie Ihrem Rechner eine feste (statische) IP-Adresse:</p>
+
+  <steps>
+    <item>
+      <p>Klicken Sie auf das <gui>Netzwerksymbol</gui> im <gui>oberen Panel</gui> und wählen Sie <gui>Netzwerkeinstellungen</gui>.</p>
+    </item>
+    <item>
+      <p>Wählen Sie die Netzwerkverbindung in der Liste aus (<gui>Kabelgebunden</gui> oder <gui>Funknetzwerk</gui>) und klicken Sie auf <gui>Konfigurieren</gui>.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui>IPv4-Einstellungen</gui> und ändern Sie die <gui>Methode</gui> in <em>Manuell</em>.</p>
+    </item>
+    <item>
+      <p>Falls in der <gui>Adressen</gui>-Liste keine Verbindungsinformationen aufgelistet sind oder Sie eine neue Verbindung erstellen wollen, klicken Sie auf <gui>Hinzufügen</gui>.</p>
+    </item>
+    <item>
+      <p>Geben Sie die Daten zu <em>IP-Adresse</em>, <em>Netzmaske</em> und <em>Gateway</em> in die entsprechenden Felder ein. Welche Einstellungen Sie konkret wählen, hängt von Ihrem Netzwerkaufbau ab. Es gibt bestimmte Regeln, welche IP-Adressen und Netzmasken in einem bestimmten Netzwerk gültig sind.</p>
+    </item>
+    <item>
+      <p>Wenn nötig, tragen Sie die Adresse des <em>Domain Name Servers</em> im <gui>DNS-Server</gui>-Feld ein. Das ist die IP-Adresse eines Servers, der Domain-Namen auflöst; die meisten Unternehmensnetzwerke und Internet-Dienstanbieter haben dedizierte DNS-Server.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui>Speichern</gui>. Die Netzwerkverbindung sollte nun eine feste IP-Adresse haben.</p>
+    </item>
+  </steps>
+
+</page>

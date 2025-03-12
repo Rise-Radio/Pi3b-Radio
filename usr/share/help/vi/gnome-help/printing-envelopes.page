@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="printing-envelopes" xml:lang="vi">
+
+  <info>
+    <link type="guide" xref="printing#paper"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Bảo đảm bạn đặt bao thư/nhãn đúng hướng và chọn đúng kích thước giấy.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nguyễn Thái Ngọc Duy</mal:name>
+      <mal:email>pclouds@gmail.com</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>In bao thư và nhãn</title>
+
+  <p>Hầu hết máy in cho phép bạn in trực tiếp lên bao thư hoặc nhãn. Đặc biệt hữu dụng khi, ví dụ, bạn cần in rất nhiều thư để gửi đi.</p>
+
+  <section id="envelope">
+    <title>In bao thư</title>
+
+  <p>There are two things you need to check when trying to print onto an
+  envelope. The first is that your printer knows what size the envelope is.
+  After you click <gui>Print</gui> and the Print window appears, go to the
+  <gui>Page Setup</gui> tab and choose the <gui>Paper type</gui> as "Envelope"
+  if you can. If you cannot do this, see if you can change the <gui>Paper
+  size</gui> to an envelope size (for example, <gui>C5</gui>). The pack of
+  envelopes will say what size they are; most envelopes come in standard
+  sizes.</p>
+
+  <p>Thứ hai, bạn cần kiểm tra bao thư được nạp đúng mặt trong khe máy in. Kiểm tra hướng dẫn sử dụng máy in, hoặc in thử một bao thư xem mặt nào được in.</p>
+
+  <note style="warning">
+    <p>Một số máy in không được thiết kế để in bao thư, đặc biệt là máy in laser. Kiểm tra hướng dẫn sử dụng xem máy in của bạn có chấp nhận bao thư không; nếu không bạn có thể làm hư máy in khi đưa bao thư vào.</p>
+  </note>
+
+  </section>
+
+<!--
+INCOMPLETE: Please write this section!
+
+<section id="labels">
+ <title>Printing labels</title>
+
+</section>
+-->
+
+</page>

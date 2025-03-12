@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="wacom-stylus" xml:lang="gu">
+  <info>
+
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <link type="guide" xref="wacom"/>
+
+    <credit type="author copyright">
+      <name>માઇકલ હીલ</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>૨૦૧૨</years>
+    </credit>
+
+    <desc>બટન વિધેયોને વ્યાખ્યાયિત કરો અને Wacom સ્ટાયલસનાં દબાણને અનુભવો.</desc>
+  </info>
+
+  <title>સ્ટાયલસને રૂપરેખાંકિત કરો</title>
+
+<steps>
+  <item>
+    <p><gui xref="shell-terminology">પ્રવૃત્તિ</gui> ઝાંખીને ખોલો અને <gui>Wacom ટૅબલેટ</gui> ને શરૂ કરો.</p>
+  </item>
+  <item>
+    <p>પેનલને ખોલવા માટે <gui>Wacom ટૅબલેટ</gui> પર ક્લિક કરો.</p>
+
+    <note style="tip"><p>If no tablet is detected, you'll be asked to
+    <gui>Please plug in or turn on your Wacom tablet</gui>. Click the
+    <gui>Bluetooth Settings</gui> link to connect a wireless tablet.</p></note>
+  </item>
+  <item><p>પેનલનો નીચેનો ભાગ તમારાં સ્ટાયલસની ખાસ વિગતો અને સુયોજનોને સમાવે છે, ઉપકરણ નામ સાથે (સ્ટાયલસ વર્ગ) અને ડાબે ડાયાગ્રામ. આ સુયોજનોને ગોઠવી શકાય છે:</p>
+    <list>
+      <item><p><gui>Eraser Pressure Feel:</gui> use the slider to adjust the
+       "feel" (how physical pressure is translated to digital values) between
+       <gui>Soft</gui> and <gui>Firm</gui>.</p></item>
+      <item><p><gui>Button/Scroll Wheel</gui> configuration (these change to
+       reflect the stylus). Click the menu next to each label to select one of
+       these functions: No Action, Left Mouse Button Click, Middle Mouse Button
+       Click, Right Mouse Button Click, Scroll Up, Scroll Down, Scroll Left,
+       Scroll Right, Back, Forward.</p></item>
+      <item><p><gui>ટિપ્પણી દબાણ અનુભવ:</gui> <gui>નરમ</gui> અને <gui>સખત</gui> વચ્ચેનો "અનુભવ" સંતુલિત કરવા માટે સરકપટ્ટી વાપરો.</p></item>
+    </list>
+  </item>
+</steps>
+
+<note style="info"><p>જો તમારી પાસે એક કરતા વધારે સ્ટાયલસ હોય તો, જ્યારે વધારાનાં સ્ટાયલસ ટેબલેટ નજીક હોય છે, પેજર એ સ્ટાયલસ ઉપકરણ નામ સાથે આગળ દર્શાવેલ હશે. પસંદ કરવા માટે પેજરને વાપરો કે જે સ્ટાયલસને રૂપરેખાંકિત કરેલ છે.</p>
+</note>
+
+</page>

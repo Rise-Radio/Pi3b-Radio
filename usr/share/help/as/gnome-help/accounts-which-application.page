@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="as">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>বেপটিস্ট মিলে-মেথিয়াচ</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>মাইকেল হিল</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>আন্দ্ৰে ক্লেপাৰ</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc>এপ্লিকেচনসমূহে <app>অনলাইন একাওন্টসমূহ</app> ত সৃষ্টি কৰা একাওন্টসমূহ আৰু সিহতে ব্যৱহাৰ কৰা সেৱাসমূহ ব্যৱহাৰ কৰিব পাৰিব।</desc>
+
+  </info>
+
+<title>কোনবোৰ এপ্লিকেচনে অনলাইন একাওন্টসমূহৰ সুবিধা পায়?</title>
+
+  <p><app>অনলাইন একাওন্টসমূহ</app> ক বহিৰ্তম এপ্লিকেচনসমূহে নিজক স্বচালিতভাৱে সংৰূপণ কৰিবলৈ ব্যৱহাৰ কৰিব পাৰিব।</p>
+
+<section id="accounts-google-services">
+  <title>এটা Google একাওন্টৰ সৈতে</title>
+
+  <list>
+    <item>
+      <p><app>Evolution</app>, ইমেইল এপ্লিকেচন। আপোনাৰ ইমেইল একাওন্টক <app>Evolution</app> লৈ স্বচালিতভাৱে যোগ কৰা হব, সেয়েহে ই আপোনাৰ মেইল উদ্ধাৰ কৰি, আপোনাৰ একাওন্টলৈ অভিগম প্ৰদান কৰিব, আৰু আপোনাৰ Google কাৰ্য্যক্ৰমত আপোনাৰ কেলেন্ডাৰ বস্তবোৰ প্ৰদৰ্শন কৰিব।</p>
+    </item>
+    <item>
+      <p><app>Empathy</app>, তৎক্ষনাত বাৰ্তা এপ্লিকেচন। আপোনাৰ অনলাইন একাওন্ট যোগ কৰা হব আৰু আপুনি আপোনাৰ বন্ধুসকলৰ সৈতে যোগাযোগ কৰিব পাৰিব।</p>
+    </item>
+    <item>
+      <p><app>পৰিচয়সমূহ</app>, যি আপোনাক আপোনাৰ পৰিচয়সমূহ চোৱাৰ আৰু সম্পাদনা কৰাৰ অনুমতি দিয়ে।</p>
+    </item>
+    <item>
+      <p><app>দস্তাবেজসমূহ</app> এ আপোনাৰ অনলাইন দস্তাবেজসমূহ অভিগম কৰি প্ৰদৰ্শন কৰিব পাৰে।</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>Windows Live, Facebook অথবা Twitter একাওন্টসমূহৰ সৈতে</title>
+
+  <p><app>Empathy</app> এ এই একাওন্টসমূহক আপোনাক অনলাইন সংযুক্ত কৰিবলৈ আৰু আপোনাৰ পৰিচয়সমূহ, বন্ধুসকল, আৰু অনুকৰকসকলৰ সৈতে চেট কৰিবলৈ ব্যৱহাৰ কৰিব পাৰিব।</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>With a OneDrive account</title>
+
+  <p><app>Documents</app> can access your online documents in Microsoft
+  OneDrive and display them.</p>
+</section>
+
+<section id="account-exchange">
+  <title>এটা Exchange একাওন্টৰ সৈতে</title>
+
+  <p>আপুনি এবাৰ এটা Exchange একাওন্ট সৃষ্টি কৰাৰ পিছত, <app>Evolution</app> এ এই একাওন্টৰ পৰা মেইলসমূহ উদ্ধাৰ কৰা আৰম্ভ কৰিব।</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>এটা ownCloud একাওন্টৰ সৈতে</title>
+
+  <p>যেতিয়া এটা ownCloud একাওন্ট সংস্থাপন কৰা হয়, <app>Evolution</app> পৰিচয়সমূহ আৰু কেলেন্ডাৰ সাক্ষাৎকাৰসমূহ অভিগম আৰু সম্পাদন কৰিবলৈ সক্ষম হয়।</p>
+
+  <p><app>ফাইলসমূহ</app> আৰু অন্য এপ্লিকেচনসমূহে ownCloud ইনস্টলেষণত আপোনাৰ অনলাইন ফাইলসমূহ তালিকাভুক্ত কৰি অভিগম কৰিবলৈ সক্ষম হব।</p>
+</section>
+
+</page>

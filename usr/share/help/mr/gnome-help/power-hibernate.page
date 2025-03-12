@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="question" version="1.0 if/1.0" id="power-hibernate" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="power"/>
+
+    <desc>हायरबरनेट पूर्वनिर्धारितपणे बंद केले आहे कारण ते पूर्णपणे समर्थीत नाही.</desc>
+    <revision pkgversion="3.6.0" date="2012-08-14" status="review"/>
+
+    <credit type="author">
+      <name>GNOME डॉक्युमेंटेशन प्रकल्प</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>संगणकाला कसे हायबरनेट करायचे?</title>
+
+<p>संगणक जेव्हा <em>हायबरनेट</em> होते, तेव्हा सर्व ॲप्लिकेशन्स साठवले जातात संगणक पूर्णपणे बंद होते आणि पावरचा वापर करत नाही, परंतु संगणक पुन्हा सुरू केल्यानंतर ॲप्लिकेशन्स आणि दस्तऐवज तरिही खुले राहतील.</p>
+
+<p>दुर्दैवाने, हायरबरनेट अनेक घटनांमध्ये <link xref="power-suspendfail">कार्य करत नाही</link>, ज्यामुळे संगणक पुन्हा सुरू केल्यानंतर दस्तऐवज आणि ॲप्लिकेशन्स पुन्हा उघडणे अपक्षेतीत करत असल्यास, तुम्ही डाटा गमवाल. अशा प्रकारे, हायबरनेट पूर्वनिर्धारितपणे बंद केले जाते.</p>
+
+<section id="test-hibernate">
+<title>हायबरनेट कार्य करते किंवा नाही याची चाचणी करा</title>
+
+<note style="important">
+  <title>हायबरनेट करण्यापूर्वी नेहमी काम साठवा</title>
+  <p>संगणक हायबरनेट करण्यापूर्वी सर्व काम साठवा, खबरदारी म्हणून काही चुकिचे घडल्यास आणि संगणक पुन्हा सुरू केल्यानंतर तुमचे खुले ॲप्लिकेशन्स आणि दस्तऐवजांची पुन्हप्राप्ति शक्य होणार नाही.</p>
+</note>
+
+<p>संगणकावर हायबरनेट कार्य करते किंवा नाही याच्या चाचणीकरिता तुम्ही आदेशओळचा वापर करू शकता.</p>
+
+<steps>
+  <item>
+    <if:choose>
+      <if:when test="platform:unity">
+        <p><keyseq><key>Ctrl</key> <key>Alt</key><key>t</key></keyseq> दाबून किंवा <gui>dash</gui> मध्ये <input>टर्मिनल</input> शोधून <app>टर्मिनल</app> उघडा.</p>
+     </if:when>
+     <p><gui>कृती पूर्वावलोकन</gui>मध्ये <input>terminal</input> करिता शोधून <app>टर्मिनल</app> उघडा.</p>
+  </if:choose>
+  </item>
+  <item>
+    <p>रूट वापरकर्ता म्हणून, टर्मिनलमध्ये <cmd>pm-hibernate</cmd> टाइप करा आणि <key>Enter</key> दाबा.</p>
+    <p>विचारल्यास पासवर्ड द्या.</p>
+  </item>
+  <item>
+    <p>संगणक बंद झाल्यानंतर, पुन्हा सुरू करा. तुमचे ॲप्लिकेशन्स पुन्हा-उघडलीत?</p>
+    <p>हायबरनेट कार्य करत नसल्यास, तुमचे स्वॅप विभाजन किमान उपलब्ध RAM पेक्षा मोठे आहे याची तपासणी करा.</p>
+  </item>
+</steps>
+
+</section>
+
+<section id="enable-hibernate">
+<title>हायबरनेट लागू करा</title>
+
+  <p>हायबरनेट चाचणी कार्य करत नसल्यास, हायबरनेटची आवश्यकता असल्यास तुम्ही <cmd>pm-hibernate</cmd> आदेशचा वापर करू शकता.</p>
+
+  <p>तुम्ही <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/"> <app>हाइबरनेट स्थिती बटन</app></link> एक्सटेंशन देखील इंस्टॉल करू शकता, <link href="https://extensions.gnome.org">GNOME एक्सटेंशन्स संकेतस्थळ</link> पासून:</p>
+
+  <steps>
+    <item>
+      <p>शीर्ष डावीकडील स्थिती बटन दाबून<link href="https://extensions.gnome.org/extension/755/hibernate-status-button/">एक्सटेंशन पृष्ठ</link> या वरील <app>हाइबरनेट स्टेटस बटन</app> यास <gui style="button">सुरू करा</gui> स्वरूपात वापर करा.</p>
+    </item>
+    <item>
+      <p>You will be asked to confirm that you want to install the extension.
+      Press <gui style="button">Install</gui>.</p>
+    </item>
+  </steps>
+
+  <p>The button will now be added to the system menu on the right side of the
+  top bar and can be pressed to hibernate your computer.</p>
+
+  <note style="tip">
+    <p>You can also hold down <key>Alt</key> while pressing the
+    <em>hibernate</em> button to use the <em>hybrid-sleep</em> feature. The
+    hybrid-sleep mode is a mix of the hibernate and sleep modes. This means
+    that your computer remains powered on, so you can wake it up by pressing a
+    key on the keyboard and all your open applications and documents are saved
+    in the same state as before pressing the hybrid-sleep button.</p>
+  </note>
+
+</section>
+
+</page>

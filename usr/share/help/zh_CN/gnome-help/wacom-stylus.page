@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="wacom-stylus" xml:lang="zh-CN">
+  <info>
+
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <link type="guide" xref="wacom"/>
+
+    <credit type="author copyright">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc>设置按钮功能和写字笔的压力感应。</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>配置写字笔</title>
+
+<steps>
+  <item>
+    <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+    start typing <gui>Wacom Tablet</gui>.</p>
+  </item>
+  <item>
+    <p>Click on <gui>Wacom Tablet</gui> to open the panel.</p>
+
+    <note style="tip"><p>If no tablet is detected, you'll be asked to
+    <gui>Please plug in or turn on your Wacom tablet</gui>. Click the
+    <gui>Bluetooth Settings</gui> link to connect a wireless tablet.</p></note>
+  </item>
+  <item><p>在面板的下边包含指定手写笔的信息和选项，像设备名称(手写笔类别)，信息图解。下列选项可以调整：</p>
+    <list>
+      <item><p><gui>擦除器压力感应：</gui>拖动滑块调整<gui>轻</gui>和<gui>重</gui>之间的“感应”(多大压力会产生一个信号值)。</p></item>
+      <item><p><gui>按钮和滚轮</gui>配置(这将改变手写笔的功能)。点击每个标签旁边的菜单，选择其中一项功能：无动作、左键点击、中键点击、右键点击，向上滚动、向下滚动，向左移动、向右移动，后退、前进。</p></item>
+      <item><p><gui>压力感应小提示：</gui>拖动滑块在<gui>轻</gui>和<gui>重</gui>之间调整。</p></item>
+    </list>
+  </item>
+</steps>
+
+<note style="info"><p>如果您有多个手写笔，当另一只手写笔靠近手写板时，在手写板名称旁边会显示另一页面，根据页面来配置不同的手写笔。</p>
+</note>
+
+</page>

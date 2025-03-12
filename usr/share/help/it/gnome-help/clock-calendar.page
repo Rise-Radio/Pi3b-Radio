@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" version="1.0 if/1.0" id="clock-calendar" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="clock"/>
+    <link type="guide" xref="shell-overview#desktop"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-11-04" status="review"/>
+
+    <credit type="author">
+      <name>Progetto documentazione di GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Display your appointments in the calendar at the top of the screen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luca Ferretti</mal:name>
+      <mal:email>lferrett@gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Flavia Weisghizzi</mal:name>
+      <mal:email>flavia.weisghizzi@ubuntu.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+ <title>Appuntamenti in calendario</title>
+
+  <note>
+    <p>This requires you to use your <app>Evolution</app> calendar or for you
+    to have an online account set up which <gui>Calendar</gui> supports.</p>
+    <p>Most distributions come with <app>Evolution</app> installed by default.
+    If yours does not, you may need to install it using your distribution
+    package manager.</p>
+ </note>
+
+  <p>Per visualizzare i propri appuntamenti:</p>
+  <steps>
+    <item>
+      <p>Fare clic sull'orologio nella barra superiore.</p>
+    </item>
+    <item>
+      <p>Click the date for which you want to see your appointments from the
+      calendar.</p>
+    </item>
+    <item>
+      <p>Existing appointments will be displayed on the right. As appointments
+      are added to the calendar, they will appear in the clock's appointment
+      list.</p>
+    </item>
+  </steps>
+
+ <if:choose>
+ <if:when test="!platform:gnome-classic">
+ <media type="image" src="figures/shell-appts.png" width="500" height="396">
+  <p>Orologio, calendario e appuntamenti</p>
+ </media>
+ </if:when>
+ <if:when test="platform:gnome-classic">
+ <media type="image" src="figures/shell-appts-classic.png" width="373" height="250">
+  <p>Orologio, calendario e appuntamenti</p>
+ </media>
+ </if:when>
+ </if:choose>
+
+  <p>Per accedere rapidamente al calendario completo di <app>Evolution</app>, fare clic sull'orologio, quindi fare clic su <gui>Apri calendario</gui>.</p>
+
+  <note>
+    <p>Questo funzionerà solo se è già stato creato un account <app>Evolution</app>, altrimenti apparirà una finestra con i passi necessari per aggiungerlo.</p>
+  </note>
+
+</page>

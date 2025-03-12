@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wireless-airplane" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="net-wireless"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+    <revision pkgversion="3.10" date="2013-11-10" status="review"/>
+
+    <credit type="author">
+      <name>Проект документирования GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <desc>Откройте настройки сети и включите режим для авиаперелётов.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Отключение беспроводной связи (режим для авиаперелётов)</title>
+
+<p>Если вы находитесь с компьютером в самолёте (или в другом месте, где использование беспроводных соединений запрещено), следует отключить беспроводное соединение. Это может понадобиться и по другим причинам (например, для экономии заряда аккумулятора). Для этого:</p>
+
+<steps>
+ <item><p>Нажмите на область системного статуса в верхней панели и выберите <gui>Беспроводное</gui>.</p>
+ </item>
+ <item><p>Выберите <gui>Параметры Wi-Fi</gui>.</p>
+ </item>
+ <item>
+  <p>Включите переключатель <gui>Режим для авиаперелётов</gui>. Беспроводное соединение будет отключено, пока режим для авиаперелётов не будет включён снова.</p>
+ </item>
+</steps>
+
+<note><p>При использовании <em>Режима для авиаперелётов</em> полностью отключаются как беспроводные, так и Bluetooth соединения.</p></note>
+
+</page>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-create" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Új fiók létrehozása az <app>Online fiókok</app> használatával.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Griechisch Erika</mal:name>
+      <mal:email>griechisch.erika at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kucsebár Dávid</mal:name>
+      <mal:email>kucsdavid at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lakatos 'Whisperity' Richárd</mal:name>
+      <mal:email>whisperity at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lukács Bence</mal:name>
+      <mal:email>lukacs.bence1 at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nagy Zoltán</mal:name>
+      <mal:email>dzodzie at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Online fiók létrehozása</title>
+
+  <p>Egyes online szolgáltatók lehetővé teszik fiókok létrehozását annak az <app>Online fiókokhoz</app> való hozzáadása során. Ez lehetővé teszi az összes online fiókjának kezelését egyetlen alkalmazásból.</p>
+
+  <!-- Tested with Google -->
+  <steps>
+    <item>
+      <p>Nyissa meg a <gui xref="shell-terminology">Tevékenységek</gui> áttekintést, és kezdje el begépelni az <gui>Online fiókok</gui> szót.</p>
+    </item>
+    <item>
+      <p>Kattintson az <gui>Online fiókok</gui> ikonra a panel megnyitásához.</p>
+    </item>
+    <item>
+      <p>Kattintson a <gui style="button">+</gui> gombra.</p>
+    </item>
+    <item>
+      <p>Válassza ki a hozzáadni kívánt fiók típusát. Egyes fióktípusok <link xref="accounts-provider-not-available">lehet, hogy nem érhetők el</link>.</p>
+    </item>
+    <item>
+      <p>Ha a szolgáltatás lehetővé teszi fiók hozzáadását, akkor olvassa el a szolgáltató utasításait is.</p>
+      <note>
+        <p>Nem minden online fiókszolgáltató teszi lehetővé a fiók létrehozását ebben a fázisban. Ha ez így van, akkor más módon kell létrehoznia a fiókot.</p>
+      </note>
+    </item>
+    <item>
+      <p>Töltse ki a regisztrációs űrlapot. Általában néhány személyes adat szükséges, mint a felhasználónév és a jelszó.</p>
+    </item>
+    <item>
+      <p>Hozzáférést kell adnia az új fiókjához a GNOME-nak, hogy az <app>Online fiókok</app> használhassa.</p>
+    </item>
+    <item>
+      <p>Minden, adott fiókszolgáltató által kínált szolgáltatás alapesetben engedélyezett, a fölösleges szolgáltatásokat egyenként <link xref="accounts-disable-service">kapcsolja</link> <gui>KI</gui>.</p>
+    </item>
+  </steps>
+
+</page>

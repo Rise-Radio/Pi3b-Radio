@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="power-suspendfail" xml:lang="as">
+
+  <info>
+    <link type="guide" xref="power#problems"/>
+    <link type="guide" xref="hardware-problems-graphics"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <desc>কিছুমান কমপিউটাৰে স্থগিত অথবা হাইবেৰনেইটৰ সৈতে সমস্যাৰ সৃষ্টি কৰে।</desc>
+
+    <credit type="author">
+      <name>GNOME তথ্যচিত্ৰ প্ৰকল্প</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>একাটেৰিনা গেৰাচিমভা</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>মই মোৰ কমপিউটাৰক স্থগিত কৰাৰ পিছত ই আকৌ আৰম্ভ নহয় কিয়?</title>
+
+<p>যদি আপুনি আপোনাৰ কমপিউটাৰক <link xref="power-suspend">স্থগিত কৰক</link> অথবা <link xref="power-hibernate">হাইবাৰনেট</link> কৰে, তেন্তে ইয়াক অব্যাহত কৰাৰ অথবা পুনাৰম্ভ কৰাৰ চেষ্টা কৰক, আপুনি উপলব্ধ কৰিব পাৰে যে ই আশা কৰা দৰে কাম কৰা নাই। ই কাৰণ হব পাৰে যে স্থগিত কৰা আৰু হাইবাৰনেট কৰা আপোনাৰ কমপিউটাৰত সমৰ্থিত নহয়।</p>
+
+<section id="resume">
+  <title>মোৰ কমপিউটাৰ স্থগিত অৱস্থাত আছে আৰু অব্যাহত হোৱা নাই</title>
+  <p>যদি আপুনি আপোনাৰ কমপিউটাৰ স্থগিত কৰে আৰু তাৰ পিছত এটা কি' টিপে অথবা মাউছ ক্লিক কৰে, ই সাৰ পাব লাগে আৰু আপোনাৰ পাছৱাৰ্ড বিচাৰি এটা পৰ্দা প্ৰদৰ্শন কৰিব লাগে। যদি এনেকুৱা নহয়, পাৱাৰ বুটাম টিপি চাওক (ইয়াক টিপি নধৰিব, কেৱল এবাৰ টিপিব)।</p>
+  <p>যদি ই তথাপিও সহায় নকৰে, আপোনাৰ কমপিউটাৰ মনিটৰ অন থকাটো সুনিশ্চিত কৰক আৰু কিবৰ্ডত এটা কি' টিপি চাওক।</p>
+  <p>শেষ উপায় ৰূপে, কমপিউটাৰক তাৰ পাৱাৰ বুটাম ৫-১০ ছেকেণ্ডৰ বাবে ধৰি থৈ বন্ধ কৰক, যদিও আপুনি এনে ধৰণে কোনো অংসৰক্ষিত কাৰ্য্য হেৰুৱাব। আপুনি তাৰ পিছত কমপিউটাৰ পুনাৰম্ভ কৰিব পাৰিব লাগে।</p>
+  <p>যদি ই প্ৰতিবাৰ আপুনি কমপিউটাৰ স্থগিত কৰোতে হয়, স্থগিত বৈশিষ্ট্য আপোনাৰ হাৰ্ডৱেৰৰ সৈতে কাৰ্য্য নকৰিব পাৰে।</p>
+  <note style="warning">
+    <p>যদি আপোনাৰ কমপিউটাৰে শক্তি হেৰুৱায় আৰু ইয়াৰ কোনো বৈকল্পিক শক্তি যোগান নাথাকে (যেনে এটা কাৰ্য্যকৰী বেটাৰি), ই বন্ধ হব।</p>
+  </note>
+</section>
+
+<section id="hibernate">
+  <title>মই কমপিউটাৰ আকৌ আৰম্ভ কৰোতে মোৰ কোনো এপ্লিকেচন/দস্তাবেজ খোলা নাই</title>
+  <p>If you hibernated your computer and switched it on again, but none of your
+  documents or applications are open, it probably failed to hibernate properly.
+  Sometimes this happens because of a minor problem, and the computer will be
+  able to hibernate properly the next time you do it. It might also happen
+  because you had installed a software update which required the computer to be
+  restarted; in this case, the computer may have shut down instead of
+  hibernating.</p>
+  <p>It is also possible that the computer is not capable of hibernating
+  because the hardware does not support it properly. This might be because of a
+  problem with Linux drivers for your hardware, for example. You can test this
+  by hibernating again and seeing if it works the second time. If it does not,
+  it is probably a problem with drivers on your computer.</p>
+</section>
+
+<section id="hardware">
+  <title>মোৰ বেতাঁৰ সংযোগ (অথবা অন্য হাৰ্ডৱেৰ) কাম নকৰে যেতিয়া মই মোৰ কমপিউটাৰ সাৰ পোৱাও</title>
+  <p>If you suspend or hibernate your computer and then resume it again, you
+  may find that your internet connection, mouse, or some other device does not
+  work properly. This could be because the driver for the device does not
+  properly support suspend or hibernate. This is a <link xref="hardware-driver">problem with the driver</link> and not the device
+  itself.</p>
+  <p>যদি ডিভাইচৰ এটা পাৱাৰ চুইচ থাকে, তাক বন্ধ কৰি আকৌ আৰম্ভ কৰি চাওক। বেছিৰভাগ ক্ষেত্ৰত, ডিভাইচ আকৌ কাৰ্য্য কৰা আৰম্ভ কৰিব। ই এটা USB কেবুল অথবা সদৃশৰ সৈতে সংযোগ কৰে, ডিভাইচক আনপ্লাগ কৰক আৰু আকৌ প্লাগ ইন কৰি চাওক ই কাৰ্য্য কৰে নে।</p>
+  <p>যদি আপুনি ডিভাইচক বন্ধ/অথবা আনপ্লাগ কৰিব নোৱাৰে, অথবা ই কাম নকৰে, ডিভাইচক আকৌ কাৰ্য্যকৰী কৰিবলৈ আপুনি কমপিউটাৰ পুনাৰম্ভ কৰিব লাগিব।</p>
+</section>
+
+</page>

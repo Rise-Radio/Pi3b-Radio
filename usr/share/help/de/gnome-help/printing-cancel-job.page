@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="printing-cancel-job" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="printing#problems"/>
+
+    <revision pkgversion="3.10.2" date="2013-11-03" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jcampbell@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Jana Svarova</name>
+      <email its:translate="no">jana.svarova@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Einen ausstehenden Druckauftrag abbrechen und aus der Warteschlange entfernen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Einen Druckauftrag abbrechen, anhalten oder freigeben</title>
+
+  <p>Sie können einen ausstehenden Druckauftrag abbrechen und in den Druckereinstellungen aus der Warteschlange entfernen.</p>
+
+  <section id="cancel-print-job">
+    <title>Einen Druckauftrag abbrechen</title>
+
+  <p>Falls Sie unabsichtlich den Druck eines Dokuments gestartet haben, können Sie den Druck abbrechen, um nicht unnötig Tinte und Papier zu verbrauchen.</p>
+
+  <steps>
+    <title>So brechen Sie einen Druckauftrag ab:</title>
+    <item>
+      <p>Öffnen Sie die <gui xref="shell-terminology">Aktivitäten</gui>-Übersicht und tippen Sie <gui>Drucker</gui> ein.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Printers</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf den Knopf <gui>Aufträge anzeigen</gui> auf der rechten Seite des Dialogs <gui>Drucker</gui>.</p>
+    </item>
+    <item>
+      <p>Cancel the print job by clicking the stop button.</p>
+    </item>
+  </steps>
+
+  <p>If this does not cancel the print job like you expected, try holding down
+  the <em>cancel</em> button on your printer.</p>
+
+  <p>As a last resort, especially if you have a big print job with a lot of
+  pages that will not cancel, remove the paper from the printer's paper input
+  tray. The printer should realize that there is no paper and will stop
+  printing. You can then try canceling the print job again, or try turning the
+  printer off and then on again.</p>
+
+  <note style="warning">
+    <p> Seien Sie vorsichtig, um den Drucker nicht zu beschädigen. Wenn Sie sehr kräftig am Papier ziehen müssten, um es zu entfernen, dann sollten Sie es doch lieber dort lassen, wo es ist."</p>
+  </note>
+
+  </section>
+
+  <section id="pause-release-print-job">
+    <title>Einen Druckauftrag anhalten und freigeben</title>
+
+  <p>Wenn Sie Druckaufträge pausieren oder löschen wollen, können Sie zu den Druckaufträgen in den Druckereinstellungen gehen und den entsprechenden Knopf drücken.</p>
+
+  <steps>
+    <item>
+      <p>Öffnen Sie die <gui xref="shell-terminology">Aktivitäten</gui>-Übersicht und tippen Sie <gui>Drucker</gui> ein.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Printers</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui>Aufträge anzeigen</gui> auf der rechten Seite des <gui>Drucker</gui>-Dialoges und pausieren oder löschen Sie die Aufträge nach Ihren Bedürfnissen.</p>
+    </item>
+  </steps>
+
+  </section>
+
+</page>

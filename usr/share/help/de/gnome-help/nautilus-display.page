@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-display" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-display"/>
+
+    <desc>Symbolbeschriftungen in der Dateiverwaltung festlegen.</desc>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-19" status="review"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Einstellungen für die Anzeige der Dateiverwaltung</title>
+
+<p>Sie können die Anzeige von Beschriftungen unter Symbolen in der Dateiverwaltung in vielerlei Hinsicht festlegen. Klicken Sie dazu in der Dateiverwaltung in der obersten Leiste auf <gui>Dateien</gui> und wählen Sie anschließend den Reiter <gui>Einstellungen</gui>.</p>
+
+<section id="icon-captions">
+  <title>Symbolbeschriftungen</title>
+  <media type="image" src="figures/nautilus-icons.png" width="250" height="110" style="floatend floatright">
+    <p>Einstellungen für die Spalten in der Dateiverwaltungssymbole mit Beschriftungen</p>
+  </media>
+  <p>Wenn Sie die Symbolansicht verwenden, können Sie zusätzliche Informationen über Dateien und Ordner in einer Beschriftung unter jedem einzelnen Symbol anzeigen lassen. Dies ist zum Beispiel nützlich, wenn Sie oft überprüfen müssen, wer der Besitzer einer Datei ist oder wann sie das letzte Mal geändert wurde.</p>
+  <p>You can zoom in a folder by clicking the
+  <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">down</span></media> button in the
+  toolbar and choosing one of the <gui>Zoom</gui> options. As you zoom in, the
+  file manager will display more and more information in captions. You can
+  choose up to three things to show in captions. The first will be displayed at
+  most zoom levels. The last will only be shown at very large sizes.</p>
+  <p>Die Informationen, die Sie in den Symbolbeschriftungen anzeigen lassen können, sind dieselben, die in der Listenansicht zur Verfügung stehen. Siehe <link xref="nautilus-list"/> für weitere Informationen.</p>
+  <note><p>Wenn Sie ein Fenster der Dateiverwaltung offen haben, müssen Sie es womöglich aktualisieren, damit die neuen Symbolbeschriftungen wirksam werden. Klicken Sie <guiseq><gui>Ansicht</gui><gui>Aktualisieren</gui></guiseq> oder drücken Sie <keyseq><key>Strg</key><key>R</key></keyseq>.</p></note>
+</section>
+
+</page>

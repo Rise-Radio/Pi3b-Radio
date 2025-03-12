@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="printing-envelopes" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="printing#paper"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>एनवेलोप किंवा लेबल योग्य आहे, आणि योग्य पेपर आकार निवडले आहे याची खात्री करा.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>लिफाफे आणि लेबल छापा</title>
+
+  <p>बहुतांश छपाईयंत्र तुम्हाला थेट एनव्हेलोप किंवा लेबल्सच्या शीटवर छपाईकरिता परवानगी देतात. हे सहसा तुम्हाला खूप जास्त लेटर्स पाठवताना विशेषतया उपयोगी पडते, उदाहरणार्थ.</p>
+
+  <section id="envelope">
+    <title>लिफाफे छापत आहे</title>
+
+  <p>There are two things you need to check when trying to print onto an
+  envelope. The first is that your printer knows what size the envelope is.
+  After you click <gui>Print</gui> and the Print window appears, go to the
+  <gui>Page Setup</gui> tab and choose the <gui>Paper type</gui> as "Envelope"
+  if you can. If you cannot do this, see if you can change the <gui>Paper
+  size</gui> to an envelope size (for example, <gui>C5</gui>). The pack of
+  envelopes will say what size they are; most envelopes come in standard
+  sizes.</p>
+
+  <p>दुसरे म्हणजे, एनव्हेलोप्स छपाईयंत्राच्या इन-ट्रेमध्ये योग्यरित्या लोड झाले आहे याची खात्री करा. याकरिता छपाईयंत्राचे मॅन्युअलची तपासणी करा, किंवा एका एन्वेलोपची छपाई करा किंवा एका एनव्हेलोपची छपाई करण्याचा प्रयत्न करा आणि कोणत्या बाजूची छपाई झाली आणि कोणती बाजू योग्य आहे, ते पहा.</p>
+
+  <note style="warning">
+    <p>काही छपाईयंत्राची रचना एनव्हेलोपच्या छपाईकरिता केली जात नाही, विशेषतया काही लेजर छपाईयंत्र. छपाईयंत्र एनव्हेलोप स्वीकारते हे पहाण्याकरिता, छपाईयंत्राचे मॅन्युअल पहा; नाहीतर, एनव्हेलोपचा वापर करून तुम्ही छपाईयंत्र खराब करू शकता.</p>
+  </note>
+
+  </section>
+
+<!--
+INCOMPLETE: Please write this section!
+
+<section id="labels">
+ <title>Printing labels</title>
+
+</section>
+-->
+
+</page>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="accounts" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="prefs"/>
+
+    <revision pkgversion="3.5.5" version="0.1" date="2012-08-14" status="review"/>
+
+    <credit type="author">
+      <name>ஃபில் புல்</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+
+    <desc><link xref="accounts-create">ஒரு புதிய கணக்கை உருவாக்கு</link>, <link xref="accounts-add">முன்பே உள்ள ஒரு கணக்கைச் சேர்</link>, <link xref="accounts-remove">ஒரு கணக்கை நீக்கு</link>…</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>ஆன்லைன்  கணக்குகள்</title>
+
+  <p>சில ஆன்லைன் சேவைகளுக்கு (Google மற்றும் Facebook போன்ற) நீங்கள் உங்கள் புகுபதிவு விவரங்களை <app>ஆன்லைன் கணக்குகள்</app> சாளரத்தில் உள்ளிடலாம். இதனால் நீங்கள் உங்கள் கணக்கின் விவரங்களை மீண்டும் உள்ளிடாமலே அந்த பயன்பாடுகளில் இருந்து உங்கள் நாள்காட்டி, அஞ்சல், அரட்டை கணக்குகள் மற்றும் அது போன்ற சேவைகளை எளிதில் அணுக முடியும்.</p>
+
+</page>

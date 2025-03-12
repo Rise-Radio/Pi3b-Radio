@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-remove" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-15" status="draft"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="draft"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Majkl Hil</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <desc>Obrišite nalog na mreži.</desc>
+  </info>
+
+<title>Uklonite nalog</title>
+
+  <p>Možete da uklonite nalog na mreži koji ne želite više da koristite.</p>
+
+  <steps>
+    <item>
+      <p>Otvorite pregled <gui xref="shell-terminology">Aktivnosti</gui> i počnite da kucate <gui>Nalozi na mreži</gui>.</p>
+    </item>
+    <item>
+      <p>Kliknite na <gui>naloge na mreži</gui> da otvorite panel.</p>
+    </item>
+    <item>
+      <p>Izaberite nalog koji želite da uklonite.</p>
+    </item>
+    <item>
+      <p>Click the <gui>-</gui> button in the lower-left corner of the
+      window.</p>
+    </item>
+    <item>
+      <p>Kliknite <gui>Ukloni</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Umesto potpunog brisanja naloga, možete da <link xref="accounts-disable-service">ograničite usluge</link> kojima može da pristupi vaša radna površ.</p>
+  </note>
+
+  <p>Da ne dozvolite Gnomu da pristupi nalogu na mreži, treba da opozovete pristup putem veb stranice naloga ili sličnom uslugom.</p>
+</page>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="sound-volume" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="media#sound"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Régler le volume du son pour l'ordinateur et contrôler l'intensité sonore de chaque application.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Modification du volume sonore</title>
+
+  <p>To change the sound volume, open the <gui xref="shell-terminology">system
+  menu</gui> from the right side of the top bar and move the volume slider left
+  or right. You can completely turn off sound by dragging the slider all the
+  way to the left.</p>
+
+  <p>Certains claviers disposent de touches qui permettent un réglage du volume sonore. Elles représentent habituellement des haut-parleurs stylisés avec des ondes émanant d'eux. On les trouve souvent près des touches « F » en haut du clavier. Sur les claviers de portables, elles se situent sur ces touches de fonction ; maintenez conjointement l'appui sur la touche <key>Fn</key> pour les utiliser.</p>
+
+  <p>Bien entendu, si vous possédez des haut-parleurs externes, vous pouvez aussi modifier le volume sonore en utilisant le bouton de réglage du volume sur les haut-parleurs eux-mêmes. Certains écouteurs possèdent aussi un tel réglage.</p>
+
+<section id="apps">
+ <title>Modification du volume sonore d'applications individuelles</title>
+
+  <p>You can change the volume for one application, but leave the volume for
+  others unchanged. This is useful if you are listening to music and browsing
+  the web, for example. You might want to turn off the audio in the web browser
+  so sounds from websites do not interrupt the music.</p>
+  <p>Some applications have volume controls in their main windows. If your
+  application has one of these, use that to change the volume. Otherwise, open
+  <app>Settings</app> from the <gui>Activites</gui> overview and click
+  <gui>Sound</gui>. Go to the <gui>Applications</gui> tab and change the volume
+  of the application there.</p>
+  <p>Only applications that are playing sounds will be listed. If an
+  application is playing sounds but is not listed, it might not support the
+  feature that lets you control its volume in this way. In that case, you
+  cannot change its volume.</p>
+
+</section>
+
+</page>

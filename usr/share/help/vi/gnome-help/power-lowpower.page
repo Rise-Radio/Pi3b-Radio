@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="power-lowpower" xml:lang="vi">
+
+  <info>
+    <link type="guide" xref="power#battery"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <desc>Không nên cho phép xả pin hoàn toàn.</desc>
+    <credit type="author">
+      <name>Dự án tài liệu GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nguyễn Thái Ngọc Duy</mal:name>
+      <mal:email>pclouds@gmail.com</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Tại sao máy tính tắt/ngủ đông khi pin còn 10%?</title>
+
+<p>Khi pin còn ít, máy tính sẽ tự động <link xref="power-hibernate">ngủ đông</link>. Làm vậy để bảo đảm pin không xả hết hoàn toàn, vì không tốt cho pin. Nếu pin cạn, máy tính cũng sẽ không có đủ thời gian để tắt đúng cách.</p>
+
+<p>You can change what happens when the battery level gets too low by opening
+<app>Power</app> from the <gui xref="shell-terminology">Activities</gui>
+overview. Look at the <gui>When battery power is critical</gui> setting. You
+can choose for the computer to hibernate or shut down. If you choose shut down,
+your applications and documents <em>will not</em> be saved before the computer
+turns off.</p>
+
+<p>Một số máy tính gặp vấn đề khi ngủ đông, không thể phục hồi ứng dụng và tài liệu khi bật trở lại. Trong trường hợp này, bạn có thể sẽ mất dữ liệu nếu chưa lưu trước khi ngủ đông. Tuy nhiên bạn có thể <link xref="power-suspendfail">sửa vấn đề ngủ đông</link>.</p>
+
+</page>

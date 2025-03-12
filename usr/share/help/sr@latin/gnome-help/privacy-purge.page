@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-purge" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+
+    <revision pkgversion="3.10" date="2013-09-29" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>Džim Kembel</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Majkl Hil</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Podesite koliko često će vaše privremene i datoteke iz smeća biti očišćene sa vašeg računara.</desc>
+  </info>
+
+  <title>Očistite smeće i privremene datoteke</title>
+
+  <p>Čisteći vaše privremene i datoteke iz smeća uklanjate neželjene i nepotrebne datoteke sa vašeg računara, i takođe oslobađate više prostora na vašem čvrstom disku. Možete ručno da ispraznite smeće i da očistite vaše privremene datoteke, ali možete takođe da podesite vaš računar da samostalno obavlja ove zadatke umesto vas.</p>
+
+  <steps>
+    <title>Nezavisno ispraznite vaše smeće i očistite vaše privremene datoteke nakon određenog vremenskog razdoblja:</title>
+    <item>
+      <p>Otvorite pregled <gui xref="shell-terminology">Aktivnosti</gui> i počnite da kucate <gui>Privatnost</gui>.</p>
+    </item>
+    <item>
+      <p>Kliknite na <gui>Privatnost</gui> da otvorite panel.</p>
+    </item>
+    <item>
+      <p>Izaberite <gui>Očisti smeće i privremene datoteke</gui>.</p>
+    </item>
+    <item>
+      <p>Set one or both of the <gui>Automatically empty Trash</gui> or
+      <gui>Automatically purge Temporary Files</gui> switches to
+      <gui>ON</gui>.</p>
+    </item>
+    <item>
+      <p>Podesite koliko često biste želeli da vaše <em>Smeće</em> i <em>Privremene datoteke</em> budu pročišćene promenivši vrednost <gui>Pročisti nakon</gui>.</p>
+    </item>
+    <item>
+      <p>Koristite dugmad <gui>Izbaci smeće</gui> ili <gui>Pročisti privremene datoteke</gui> da odmah obavite ove radnje.</p>
+    </item>
+    <item>
+      <p>Click the <gui>X</gui> to close.</p>
+    </item>
+  </steps>
+
+  <note style="warning">
+    <p>Podešavanje <em>Pročisti nakon: Odmah</em> koristite uz oprez. Kada podesite da vaše smeće bude izbačeno odmah tada će sve datoteke koje obrišete zaobići smeće i biće trajno obrisane. Obrisane datoteke je teže povratiti nego one koje su u vašem smeću.</p>
+
+    <p>Osim ako imate posebnu potrebu da odmah obrišete datoteke iz vašeg smeća, verovatno je bezbednije da postavite veću vrednost za <gui>Pročisti nakon</gui>.</p>
+  </note>
+
+</page>

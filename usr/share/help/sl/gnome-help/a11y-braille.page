@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-braille" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="a11y#vision" group="blind"/>
+    <link type="seealso" xref="a11y-screen-reader"/>
+
+    <revision pkgversion="3.9.92" date="2013-09-18" status="incomplete"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+
+    <desc>Uporabite bralnik zaslona <app>Orka</app> z osvežujočim se Braillovim zaslonom.</desc>
+  </info>
+
+  <title>Preberite zaslon v Braillovi pisavi</title>
+
+  <p>GNOME za prikaz uporabniškega vmesnika na osvežujočem se Braillovem zaslonu uporablja bralnik zaslona <app>Orka</app>. Glede na to kako ste namestili GNOME, Orke morda nimate nameščene. <link href="install:orca">Nametite Orko</link> in si nato oglejte <link href="help:orca">Pomoč Orka</link> za več podrobnosti.</p>
+
+</page>

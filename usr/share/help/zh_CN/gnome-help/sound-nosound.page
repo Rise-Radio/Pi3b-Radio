@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="sound-nosound" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="sound-broken"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>GNOME 文档项目</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Check that it is not muted, that cables are plugged in properly, and
+    that the sound card is detected.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>不能听到计算机上的任何声音</title>
+
+  <p>If you cannot hear any sounds on your computer, for example when you try
+  to play music, try these troubleshooting steps to see if you can fix the
+  problem.</p>
+
+<section id="mute">
+  <title>确保声音没有被“静音”</title>
+
+  <p>Open the <gui xref="shell-terminology">system menu</gui> from the right
+  side of the top bar and make sure that the sound is not muted or turned right
+  down.</p>
+
+  <p>一些笔记本电脑在键盘上有一个静音切换键——试着按一下看看能否听到声音。</p>
+
+  <p>You should also check that you have not muted the application that you are
+  using to play sound (for example, your music player or movie player). The
+  application may have a mute or volume button in its main window, so check
+  that. Also, open <app>Settings</app> from the <gui>Activities</gui> overview
+  and click <gui>Sound</gui>. Go to the <gui>Applications</gui> tab and check
+  that your application is not muted.</p>
+
+</section>
+
+<section id="speakers">
+ <title>检查音箱电源打开，并且连接正确</title>
+ <p>If your computer has external speakers, make sure that they are turned on
+ and that the volume is turned up. Make sure that the speaker cable is securely
+ plugged into the "output" audio socket on your computer. This socket
+ is usually light green in color.</p>
+
+ <p>一些声卡可以切换输出(到音箱)和输入(例如从麦克风)，在运行 Linux、Windows、Mac OS 时，输出插孔可能是不同的，试着将音频线在各个音频插孔中都试试，看看它是否能出声。</p>
+
+ <p>最后检查一下音频线是否正确地插入音量的插孔，一些音箱有多个输入插孔。</p>
+</section>
+
+<section id="device">
+  <title>检查是否选择了正确的声音设备</title>
+
+  <p>一些计算机装有多个“声音设备”，其中，有些是声音声音输出，有些则不是，因此，您应当检查是否选择了正确的设备，通过多次试验，选择出正确的一个来。</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Sound</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Sound</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>In the <gui>Output</gui> tab. Make a note of which device and which
+      profile are selected (so you can return to the default selections if
+      changing them does not work).</p>
+    </item>
+    <item>
+      <p>要选择一个设备，试着更改配置——改完后播放一段声音，看看它是否能正常工作。您可能要挨个试里面的设备。</p>
+    </item>
+    <item>
+      <p>If that does not work, you might want to try doing the same for any
+      other devices that are listed.</p>
+    </item>
+  </steps>
+
+</section>
+
+<section id="hardware-detected">
+
+ <title>检查声卡已经正确检测到</title>
+
+  <p>Your sound card may not have been detected properly. If this has happened,
+  your computer will think that it is not able to play sound. A possible reason
+  for the card not being detected properly is that the drivers for the card are
+  not installed. You may need to manually install the drivers for the card.
+  How you do this will depend on the card you have.</p>
+
+  <p>You can see what sound card you have by using the <cmd>lspci</cmd> command
+  in the Terminal. Go to the <gui>Activities</gui> overview and open a Terminal.
+  You may have to run <cmd>lspci</cmd> as
+  <link xref="user-admin-explain">superuser</link>; either type
+  <cmd>sudo lspci</cmd> and type your password, or type <cmd>su</cmd>, enter
+  the <em>root</em> (administrative) password, then type <cmd>lspci</cmd>. See
+  if an <em>audio controller</em> or <em>audio device</em> is listed—it should
+  have the make and model number of the sound card. <cmd>lspci -v</cmd> will
+  show a list with more detailed information.</p>
+
+  <p>You may be able to find and install drivers for your card. It is best to
+  ask on support forums (or otherwise) for your Linux distribution for
+  instructions.</p>
+
+  <p>If you cannot get drivers for your sound card, you might prefer to buy a
+  new sound card. You can get sound cards that can be installed inside the
+  computer and external USB sound cards.</p>
+
+</section>
+
+</page>

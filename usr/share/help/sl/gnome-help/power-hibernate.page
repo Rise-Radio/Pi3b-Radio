@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="question" version="1.0 if/1.0" id="power-hibernate" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="power"/>
+
+    <desc>Mirovanje je privzeto onemogočeno, ker ni dobro podprto.</desc>
+    <revision pkgversion="3.6.0" date="2012-08-14" status="review"/>
+
+    <credit type="author">
+      <name>Dokumentacijski projekt GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jeremy Bicha</name>
+      <email>jbicha@ubuntu.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Kako dam računalnik v mirovanje?</title>
+
+<p>Ko je računalnik v <em>mirovanju</em>, se vsi vaši programi ter dokumenti shranijo in računalnik se popolnoma ugasne, tako da ne uporablja energije. Programi in dokumenti bodo še vedno odprti, ko znova vklopite računalnik.</p>
+
+<p>Na žalost mirovanje v veliko primerih <link xref="power-suspendfail">ne deluje</link>, kar lahko povzroči izgubo podatkov, če pričakujete, da se bodo vaši dokumenti in programi ponovno odprli, ko računalnik ponovno vklopite. Zato je mirovanje privzeto onemogočeno.</p>
+
+<section id="test-hibernate">
+<title>Preizkus, če mirovanje deluje</title>
+
+<note style="important">
+  <title>Pred prehodom v stanje mirovanje vedno shranite svoje delo</title>
+  <p>Pred prehodom v mirovanje ali stanje pripravljenosti svoje delo shranite za vsak slučaj, če bi šlo kaj narobe in odprtih programov in dokumentov ob ponovnem vklopu računalnika ne bi bilo mogoče obnoviti.</p>
+</note>
+
+<p>Za preizkus, če mirovanje deluje na vašem računalniku, lahko uporabite ukazno vrstico.</p>
+
+<steps>
+  <item>
+    <if:choose>
+      <if:when test="platform:unity">
+        <p>Odprite <app>Terminal</app> s prtiiskom <keyseq><key>Ctrl</key> <key>Alt</key><key>t</key></keyseq> ali iskanjem <input>terminal</input> v <gui>pregledni plošči</gui>.</p>
+     </if:when>
+     <p>Odprite <app>Terminal</app> z iskanjem <input>terminal</input> v <gui>Pregledu dejavnosti</gui>.</p>
+  </if:choose>
+  </item>
+  <item>
+    <p>Kot skrbnik v terminal vnesite <cmd>pm-hibernate</cmd> in pritisnite <key>Enter</key>.</p>
+    <p>Ob pozivu vnesite svoje geslo.</p>
+  </item>
+  <item>
+    <p>Ko se računalnik izklopi, ga ponovno vklopite. Ali so se vaši programi ponovno odprli?</p>
+    <p>Če mirovanje ne deluje, preverite, če je velikost vašega izmenjevalnega razdelka vsaj tako velika kot je velikost vašega razpoložljivega pomnilnika (RAM-a).</p>
+  </item>
+</steps>
+
+</section>
+
+<section id="enable-hibernate">
+<title>Omogočitev mirovanja</title>
+
+  <p>Če preizkus mirovanja deluje, lahko za mirovanje še naprej uporabljate ukaz <cmd>pm-hibernate</cmd>.</p>
+
+  <p>You could also install the
+  <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/">
+  <app>Hibernate Status Button</app></link> extension from the
+  <link href="https://extensions.gnome.org">GNOME Extensions website</link>:</p>
+
+  <steps>
+    <item>
+      <p>Switch <gui style="button">ON</gui> the
+      <app>Hibernate Status Button</app> on
+      <link href="https://extensions.gnome.org/extension/755/hibernate-status-button/">
+      its extension page</link> by pressing the status button at the top
+      left.</p>
+    </item>
+    <item>
+      <p>You will be asked to confirm that you want to install the extension.
+      Press <gui style="button">Install</gui>.</p>
+    </item>
+  </steps>
+
+  <p>The button will now be added to the system menu on the right side of the
+  top bar and can be pressed to hibernate your computer.</p>
+
+  <note style="tip">
+    <p>You can also hold down <key>Alt</key> while pressing the
+    <em>hibernate</em> button to use the <em>hybrid-sleep</em> feature. The
+    hybrid-sleep mode is a mix of the hibernate and sleep modes. This means
+    that your computer remains powered on, so you can wake it up by pressing a
+    key on the keyboard and all your open applications and documents are saved
+    in the same state as before pressing the hybrid-sleep button.</p>
+  </note>
+
+</section>
+
+</page>

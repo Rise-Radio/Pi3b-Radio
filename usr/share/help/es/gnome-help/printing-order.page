@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="printing-order" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="printing#paper"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Clasificar y revertir la orden de impresión.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Hacer que las páginas se impriman en diferente orden</title>
+
+  <section id="reverse">
+    <title>Inverso</title>
+
+    <p>La impresoras normalmente imprimen la primera página primero y la última página al final, así que las páginas se recogen en orden inverso. Si es necesario, puede revertir este orden de impresión.</p>
+
+    <p>Para invertir el orden:</p>
+
+    <steps>
+      <item>
+        <p>Pulse <guiseq><gui>Archivo</gui><gui>Imprimir</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>En la pestaña <gui>General</gui> de la ventana de impresión, en <em>Copias</em>, seleccione <gui>Invertir</gui>. La última página se imprimirá primero, y así sucesivamente.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="collate">
+    <title>Clasificar</title>
+
+  <p>If you are printing more than one copy of the document, the print-outs
+  will be grouped by page number by default (that is, all of the copies of page
+  one come out, then the copies of page two, and so on). <em>Collating</em>
+  will make each copy come out with its pages grouped together in the right
+  order instead.</p>
+
+  <p>Clasificar:</p>
+
+  <steps>
+    <item>
+      <p>Pulse <guiseq><gui>Archivo</gui><gui>Imprimir</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>En la pestaña <gui>General</gui> de la ventana de impresión, en <em>Copias</em> seleccione <gui>Clasificar</gui>.</p>
+    </item>
+  </steps>
+ <!-- Need to add this image <media type="image" src="figures/reverse-collate.png"/> -->
+</section>
+
+</page>

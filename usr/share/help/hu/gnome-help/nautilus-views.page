@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-views" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-views"/>
+
+    <desc>A fájlkezelő alap nézetének, rendezési sorrendjének és nagyítási szintjének megadása.</desc>
+
+    <revision pkgversion="3.8" version="0.2" date="2013-04-03" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Griechisch Erika</mal:name>
+      <mal:email>griechisch.erika at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kucsebár Dávid</mal:name>
+      <mal:email>kucsdavid at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lakatos 'Whisperity' Richárd</mal:name>
+      <mal:email>whisperity at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lukács Bence</mal:name>
+      <mal:email>lukacs.bence1 at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nagy Zoltán</mal:name>
+      <mal:email>dzodzie at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Nézetbeállítások a <app>Fájlokban</app></title>
+
+<p>Módosíthatja az új mappák alap nézetét, a fájlok és mappák rendezési sorrendjét, az ikon- és tömör nézetek nagyítási szintjét, és hogy a fájlok megjelenjenek-e a fa oldalnézetben. Mialatt a <app>Fájlok</app> van nyitva, válassza a <guiseq><gui style="menu">Fájlok</gui> <gui style="menuitem">Beállítások</gui></guiseq> menüpontot a felső sávon, majd válassza a <gui style="tab">Nézetek</gui> lapot.</p>
+
+<section id="default-view">
+<title>Alapértelmezett nézet</title>
+<terms>
+  <item>
+    <title><gui>Új mappák megjelenítése</gui></title>
+    <p>Alapesetben az új mappák ikonnézetben jelennek meg. Ha a listanézetet szeretné inkább használni, akkor itt beállíthatja azt alapértelmezésként. Ennek alternatívájaként minden mappához eltérő nézetet választhat tallózás közben az eszköztár <gui style="button">Elemek megjelenítése listaként</gui> vagy <gui style="button">Elemek megjelenítése ikonrácsként</gui> gombjaival.</p>
+  </item>
+  <item>
+    <title><gui>Elemek rendezése</gui></title>
+    <p>A mappákban használt alapértelmezett rendezési sorrend módosítható az <gui>Elemek rendezése</gui> legördülő listával a tulajdonságok közt a név, fájlméret, fájltípus, illetve az utolsó módosítás, az utolsó elérés vagy a kukába dobás ideje szerinti rendezéshez.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Módosíthatja a <link xref="files-sort">fájlok rendezési sorrendjét</link> az egyes mappákban az eszköztár <media its:translate="no" type="image" src="figures/go-down.png">
+    <span its:translate="yes">Nézetbeállítások</span></media> gombjának megnyomásával, és a <gui>Név szerint</gui>, <gui>Méret szerint</gui>, <gui>Típus szerint</gui> vagy <gui>Módosítás dátuma szerint</gui> egyikének kiválasztásával, vagy listanézetben az oszlopfejlécekre kattintással. Ez a menü csak az aktuális mappára van hatással.</p>
+  </item>
+  <item>
+    <title><gui>Mappák mindig a fájlok előtt</gui></title>
+    <p>Alapesetben a fájlkezelő már nem a fájlok előtt jeleníti meg az összes mappát. Az összes mappa a fájlok előtti megjelenítéséhez kapcsolja be ezt a beállítást.</p>
+  </item>
+  <item>
+    <title><gui>Rejtett fájlok és biztonsági másolatok megjelenítése</gui></title>
+    <p>A fájlkezelő alapesetben nem jeleníti meg a <link xref="files-hidden">rejtett fájlokat</link>. A rejtett fájlok ezzel a beállítással mindig megjeleníthetők.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">A rejtett fájlokat egy ablakban is megjelenítheti az eszköztár <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Nézetbeállítások</span></media> menüjének <gui>Rejtett fájlok megjelenítése</gui> pontját kiválasztva.</p>
+  </item>
+</terms>
+</section>
+
+<section id="icon-view-defaults">
+<title>Ikonnézet alapbeállításai</title>
+<terms>
+  <item>
+    <title><gui>Alapértelmezett nagyítás</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Az ikonnézetben növelheti vagy csökkentheti az ikonok és szöveg alapértelmezett méretét. Ezt a beállítást az egyes mappákban az eszköztár <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Nézetbeállítások</span></media> gombjának használatával, majd a <gui>Nagyítás</gui>, <gui>Kicsinyítés</gui> vagy <gui>Normál méret</gui> kiválasztásával is módosíthatja. Ha gyakran módosítja a nagyítási szintet, akkor ezen beállítás használatával megadhatja az alapbeállítást.</p>
+    <p>Az ikonnézetben a nagyítási szinttől függően több vagy kevesebb <link xref="nautilus-display#icon-captions">felirat</link> jelenik meg.</p>
+   </item>
+  </terms>
+</section>
+
+<section id="list-view-defaults">
+<title>Listanézet alapbeállításai</title>
+<terms>
+  <item>
+    <title><gui>Alapértelmezett nagyítás</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">A listanézetben növelheti vagy csökkentheti az ikonok és szöveg méretét. Ezt a beállítást az egyes mappákban az eszköztár <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Nézetbeállítások</span></media> gombjának használatával, majd a <gui>Nagyítás</gui>, <gui>Kicsinyítés</gui> vagy <gui>Normál méret</gui> kiválasztásával is módosíthatja.</p>
+  </item>
+</terms>
+</section>
+
+</page>

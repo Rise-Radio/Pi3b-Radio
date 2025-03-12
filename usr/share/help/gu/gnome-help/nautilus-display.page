@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-display" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-display"/>
+
+    <desc>ફાઇલ સંચાલકમાં નિયંત્રણ ચિહ્ન કૅપ્શન વાપરેલ છે.</desc>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-19" status="review"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>માઇકલ હીલ</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  </info>
+
+<title>ફાઇલ સંચાલક દર્શાવ પસંદગીઓ</title>
+
+<p>તમે ચિહ્ન હેઠળ કેવી રીતે કૅપ્શનને દર્શાવે છે તમે નિયંત્રિત કરી શકો છો. ટોચની પટ્ટીમાં <gui>ફાઇલો</gui> પર ક્લિક કરો, <gui>પસંદગીઓ</gui> ને પસંદ કરો અને <gui>દર્શાવ</gui> ચૅબને પસંદ કરો.</p>
+
+<section id="icon-captions">
+  <title>ચિહ્ન કેપ્શનો</title>
+  <media type="image" src="figures/nautilus-icons.png" width="250" height="110" style="floatend floatright">
+    <p>કૅપ્શન સાથે ફાઇલ સંચાલક ચિહ્નો</p>
+  </media>
+  <p>જ્યારે તમે ચિહેન દૃશ્યને વાપરો તો, તમે દરેક ચિહ્ન હેઠળ કૅપ્શનમાં દર્શાવેલ ફાઇલો અને ફોલ્ડરો વિશે વધારાની જાણકારી રાખવા માટે પસંદ કરી શકો છો. આ ઉપયોગી છે, ઉદાહરણ તરીકે. જો તમને વારંવાર જોવાની જરૂર પડે તો કે જે ફાઇલની માલિકી ધરાવે છે અથવા જ્યારે તે છેલ્લે બદલાયેલ હતુ.</p>
+  <p>You can zoom in a folder by clicking the
+  <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">down</span></media> button in the
+  toolbar and choosing one of the <gui>Zoom</gui> options. As you zoom in, the
+  file manager will display more and more information in captions. You can
+  choose up to three things to show in captions. The first will be displayed at
+  most zoom levels. The last will only be shown at very large sizes.</p>
+  <p>જાણકારી કે જે તમે ચિહ્ન કૅપ્શનમાં બતાવી શકો છો તે સ્તંભોના જેવુ જ છે તમે યાદી દૃશ્યને વાપરી શકો છો. વધારે જાણકારી માટે <link xref="nautilus-list"/> જુઓ.</p>
+  <note><p>જો તમારી પાસે ફાઇલ સંચાલક વિન્ડો ખુલ્લી હોય તો, તમારે અસર લાવવા માટે ચિહ્ન કૅપ્શન ફેરફારો માટે પુન:લાવો કરવાની જરૂર પડી શકે છે. <guiseq><gui>દૃશ્ય</gui><gui>પુન:લાવો</gui></guiseq> પર ક્લિક કરો અથવા <keyseq><key>Ctrl</key><key>R</key></keyseq> દબાવો.</p></note>
+</section>
+
+</page>

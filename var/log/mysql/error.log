@@ -1,0 +1,548 @@
+161210 20:17:08 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161210 20:17:08 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+161210 20:17:08 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 980 ...
+161210 20:17:08 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+161210 20:17:08 [Note] Plugin 'FEDERATED' is disabled.
+161210 20:17:08 InnoDB: The InnoDB memory heap is disabled
+161210 20:17:08 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161210 20:17:08 InnoDB: Compressed tables use zlib 1.2.8
+161210 20:17:08 InnoDB: Using Linux native AIO
+161210 20:17:08 InnoDB: Initializing buffer pool, size = 128.0M
+161210 20:17:08 InnoDB: Completed initialization of buffer pool
+161210 20:17:08 InnoDB: highest supported file format is Barracuda.
+161210 20:17:10  InnoDB: Waiting for the background threads to start
+161210 20:17:11 InnoDB: 5.5.44 started; log sequence number 37306228
+161210 20:17:11 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+161210 20:17:11 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+161210 20:17:11 [Note] Server socket created on IP: '127.0.0.1'.
+161210 20:17:11 [Note] Event Scheduler: Loaded 0 events
+161210 20:17:11 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+161210 20:17:08 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161210 20:17:08 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+161210 20:17:08 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1026 ...
+161210 20:17:08 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+161210 20:17:08 [Note] Plugin 'FEDERATED' is disabled.
+161210 20:17:08 InnoDB: The InnoDB memory heap is disabled
+161210 20:17:08 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161210 20:17:08 InnoDB: Compressed tables use zlib 1.2.8
+161210 20:17:08 InnoDB: Using Linux native AIO
+161210 20:17:08 InnoDB: Initializing buffer pool, size = 128.0M
+161210 20:17:08 InnoDB: Completed initialization of buffer pool
+161210 20:17:08 InnoDB: highest supported file format is Barracuda.
+161210 20:17:10  InnoDB: Waiting for the background threads to start
+161210 20:17:11 InnoDB: 5.5.44 started; log sequence number 37306228
+161210 20:17:11 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+161210 20:17:11 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+161210 20:17:11 [Note] Server socket created on IP: '127.0.0.1'.
+161210 20:17:11 [Note] Event Scheduler: Loaded 0 events
+161210 20:17:11 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+161210 20:17:07 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161210 20:17:07 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+161210 20:17:07 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1018 ...
+161210 20:17:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+161210 20:17:07 [Note] Plugin 'FEDERATED' is disabled.
+161210 20:17:07 InnoDB: The InnoDB memory heap is disabled
+161210 20:17:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161210 20:17:07 InnoDB: Compressed tables use zlib 1.2.8
+161210 20:17:07 InnoDB: Using Linux native AIO
+161210 20:17:07 InnoDB: Initializing buffer pool, size = 128.0M
+161210 20:17:07 InnoDB: Completed initialization of buffer pool
+161210 20:17:07 InnoDB: highest supported file format is Barracuda.
+161210 20:17:11  InnoDB: Waiting for the background threads to start
+161210 20:17:12 InnoDB: 5.5.44 started; log sequence number 37306228
+161210 20:17:12 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+161210 20:17:12 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+161210 20:17:12 [Note] Server socket created on IP: '127.0.0.1'.
+161210 20:17:12 [Note] Event Scheduler: Loaded 0 events
+161210 20:17:12 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+161210 21:17:07 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161210 21:17:07 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+161210 21:17:07 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1014 ...
+161210 21:17:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+161210 21:17:07 [Note] Plugin 'FEDERATED' is disabled.
+161210 21:17:07 InnoDB: The InnoDB memory heap is disabled
+161210 21:17:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161210 21:17:07 InnoDB: Compressed tables use zlib 1.2.8
+161210 21:17:07 InnoDB: Using Linux native AIO
+161210 21:17:07 InnoDB: Initializing buffer pool, size = 128.0M
+161210 21:17:07 InnoDB: Completed initialization of buffer pool
+161210 21:17:07 InnoDB: highest supported file format is Barracuda.
+161210 21:17:08  InnoDB: Waiting for the background threads to start
+161210 21:17:09 InnoDB: 5.5.44 started; log sequence number 37306228
+161210 21:17:09 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+161210 21:17:09 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+161210 21:17:09 [Note] Server socket created on IP: '127.0.0.1'.
+161210 21:17:09 [Note] Event Scheduler: Loaded 0 events
+161210 21:17:09 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+161210 21:17:06 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161210 21:17:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+161210 21:17:07 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1016 ...
+161210 21:17:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+161210 21:17:07 [Note] Plugin 'FEDERATED' is disabled.
+161210 21:17:07 InnoDB: The InnoDB memory heap is disabled
+161210 21:17:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161210 21:17:07 InnoDB: Compressed tables use zlib 1.2.8
+161210 21:17:07 InnoDB: Using Linux native AIO
+161210 21:17:07 InnoDB: Initializing buffer pool, size = 128.0M
+161210 21:17:07 InnoDB: Completed initialization of buffer pool
+161210 21:17:07 InnoDB: highest supported file format is Barracuda.
+161210 21:17:08  InnoDB: Waiting for the background threads to start
+161210 21:17:09 InnoDB: 5.5.44 started; log sequence number 37306228
+161210 21:17:09 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+161210 21:17:09 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+161210 21:17:09 [Note] Server socket created on IP: '127.0.0.1'.
+161210 21:17:09 [Note] Event Scheduler: Loaded 0 events
+161210 21:17:09 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+161210 21:17:07 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161210 21:17:07 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+161210 21:17:07 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1016 ...
+161210 21:17:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+161210 21:17:07 [Note] Plugin 'FEDERATED' is disabled.
+161210 21:17:07 InnoDB: The InnoDB memory heap is disabled
+161210 21:17:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161210 21:17:07 InnoDB: Compressed tables use zlib 1.2.8
+161210 21:17:07 InnoDB: Using Linux native AIO
+161210 21:17:07 InnoDB: Initializing buffer pool, size = 128.0M
+161210 21:17:07 InnoDB: Completed initialization of buffer pool
+161210 21:17:07 InnoDB: highest supported file format is Barracuda.
+161210 21:17:08  InnoDB: Waiting for the background threads to start
+161210 21:17:09 InnoDB: 5.5.44 started; log sequence number 37306228
+161210 21:17:09 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+161210 21:17:09 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+161210 21:17:09 [Note] Server socket created on IP: '127.0.0.1'.
+161210 21:17:09 [Note] Event Scheduler: Loaded 0 events
+161210 21:17:09 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+161211  5:12:58 [Note] /usr/sbin/mysqld: Normal shutdown
+
+161211  5:12:58 [Note] Event Scheduler: Purging the queue. 0 events
+161211  5:12:58  InnoDB: Starting shutdown...
+161211  5:12:59  InnoDB: Shutdown completed; log sequence number 37306228
+161211  5:12:59 [Note] /usr/sbin/mysqld: Shutdown complete
+
+161211 05:12:59 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+161211 05:13:06 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161211  5:13:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+161211  5:13:06 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1019 ...
+161211  5:13:06 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+161211  5:13:06 [Note] Plugin 'FEDERATED' is disabled.
+161211  5:13:06 InnoDB: The InnoDB memory heap is disabled
+161211  5:13:06 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161211  5:13:06 InnoDB: Compressed tables use zlib 1.2.8
+161211  5:13:06 InnoDB: Using Linux native AIO
+161211  5:13:06 InnoDB: Initializing buffer pool, size = 128.0M
+161211  5:13:06 InnoDB: Completed initialization of buffer pool
+161211  5:13:06 InnoDB: highest supported file format is Barracuda.
+161211  5:13:07  InnoDB: Waiting for the background threads to start
+161211  5:13:08 InnoDB: 5.5.44 started; log sequence number 37306228
+161211  5:13:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+161211  5:13:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+161211  5:13:08 [Note] Server socket created on IP: '127.0.0.1'.
+161211  5:13:08 [Note] Event Scheduler: Loaded 0 events
+161211  5:13:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+170505  7:14:36 [Note] /usr/sbin/mysqld: Normal shutdown
+
+170505  7:14:36 [Note] Event Scheduler: Purging the queue. 0 events
+170505  7:14:36  InnoDB: Starting shutdown...
+170505  7:14:38  InnoDB: Shutdown completed; log sequence number 37306228
+170505  7:14:38 [Note] /usr/sbin/mysqld: Shutdown complete
+
+170505 07:14:38 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+170505 07:14:44 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+170505  7:14:44 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+170505  7:14:44 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1043 ...
+170505  7:14:44 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+170505  7:14:45 [Note] Plugin 'FEDERATED' is disabled.
+170505  7:14:45 InnoDB: The InnoDB memory heap is disabled
+170505  7:14:45 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170505  7:14:45 InnoDB: Compressed tables use zlib 1.2.8
+170505  7:14:45 InnoDB: Using Linux native AIO
+170505  7:14:45 InnoDB: Initializing buffer pool, size = 128.0M
+170505  7:14:45 InnoDB: Completed initialization of buffer pool
+170505  7:14:45 InnoDB: highest supported file format is Barracuda.
+170505  7:14:46  InnoDB: Waiting for the background threads to start
+170505  7:14:47 InnoDB: 5.5.44 started; log sequence number 37306228
+170505  7:14:47 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170505  7:14:47 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170505  7:14:47 [Note] Server socket created on IP: '127.0.0.1'.
+170505  7:14:47 [Note] Event Scheduler: Loaded 0 events
+170505  7:14:47 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+170505  7:36:47 [Note] /usr/sbin/mysqld: Normal shutdown
+
+170505  7:36:47 [Note] Event Scheduler: Purging the queue. 0 events
+170505  7:36:47  InnoDB: Starting shutdown...
+170505  7:36:49  InnoDB: Shutdown completed; log sequence number 37306228
+170505  7:36:49 [Note] /usr/sbin/mysqld: Shutdown complete
+
+170505 07:36:49 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+170505 07:37:04 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+170505  7:37:04 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+170505  7:37:04 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1256 ...
+170505  7:37:04 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+170505  7:37:04 [Note] Plugin 'FEDERATED' is disabled.
+170505  7:37:04 InnoDB: The InnoDB memory heap is disabled
+170505  7:37:04 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170505  7:37:04 InnoDB: Compressed tables use zlib 1.2.8
+170505  7:37:04 InnoDB: Using Linux native AIO
+170505  7:37:04 InnoDB: Initializing buffer pool, size = 128.0M
+170505  7:37:04 InnoDB: Completed initialization of buffer pool
+170505  7:37:04 InnoDB: highest supported file format is Barracuda.
+170505  7:37:05  InnoDB: Waiting for the background threads to start
+170505  7:37:06 InnoDB: 5.5.44 started; log sequence number 37306228
+170505  7:37:06 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170505  7:37:06 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170505  7:37:06 [Note] Server socket created on IP: '127.0.0.1'.
+170505  7:37:06 [Note] Event Scheduler: Loaded 0 events
+170505  7:37:06 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+170505  9:57:53 [Note] /usr/sbin/mysqld: Normal shutdown
+
+170505  9:57:53 [Note] Event Scheduler: Purging the queue. 0 events
+170505  9:57:53  InnoDB: Starting shutdown...
+170505  9:57:55  InnoDB: Shutdown completed; log sequence number 37306228
+170505  9:57:55 [Note] /usr/sbin/mysqld: Shutdown complete
+
+170505 09:57:55 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+170505 09:58:05 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+170505  9:58:05 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+170505  9:58:05 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1071 ...
+170505  9:58:05 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+170505  9:58:05 [Note] Plugin 'FEDERATED' is disabled.
+170505  9:58:05 InnoDB: The InnoDB memory heap is disabled
+170505  9:58:05 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170505  9:58:05 InnoDB: Compressed tables use zlib 1.2.8
+170505  9:58:05 InnoDB: Using Linux native AIO
+170505  9:58:06 InnoDB: Initializing buffer pool, size = 128.0M
+170505  9:58:06 InnoDB: Completed initialization of buffer pool
+170505  9:58:06 InnoDB: highest supported file format is Barracuda.
+170505  9:58:06  InnoDB: Waiting for the background threads to start
+170505  9:58:07 InnoDB: 5.5.44 started; log sequence number 37306228
+170505  9:58:07 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170505  9:58:07 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170505  9:58:07 [Note] Server socket created on IP: '127.0.0.1'.
+170505  9:58:08 [Note] Event Scheduler: Loaded 0 events
+170505  9:58:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+170505 10:01:39 [Note] /usr/sbin/mysqld: Normal shutdown
+
+170505 10:01:39 [Note] Event Scheduler: Purging the queue. 0 events
+170505 10:01:48  InnoDB: Starting shutdown...
+170505 10:01:49  InnoDB: Shutdown completed; log sequence number 37306228
+170505 10:01:49 [Note] /usr/sbin/mysqld: Shutdown complete
+
+170505 10:01:49 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+170505 10:01:56 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+170505 10:01:56 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+170505 10:01:56 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1040 ...
+170505 10:01:56 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+170505 10:01:56 [Note] Plugin 'FEDERATED' is disabled.
+170505 10:01:56 InnoDB: The InnoDB memory heap is disabled
+170505 10:01:56 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170505 10:01:56 InnoDB: Compressed tables use zlib 1.2.8
+170505 10:01:56 InnoDB: Using Linux native AIO
+170505 10:01:56 InnoDB: Initializing buffer pool, size = 128.0M
+170505 10:01:56 InnoDB: Completed initialization of buffer pool
+170505 10:01:56 InnoDB: highest supported file format is Barracuda.
+170505 10:01:57  InnoDB: Waiting for the background threads to start
+170505 10:01:58 InnoDB: 5.5.44 started; log sequence number 37306228
+170505 10:01:58 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170505 10:01:58 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170505 10:01:58 [Note] Server socket created on IP: '127.0.0.1'.
+170505 10:01:58 [Note] Event Scheduler: Loaded 0 events
+170505 10:01:58 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+170505 10:17:25 [Note] /usr/sbin/mysqld: Normal shutdown
+
+170505 10:17:25 [Note] Event Scheduler: Purging the queue. 0 events
+170505 10:17:27  InnoDB: Starting shutdown...
+170505 10:17:30  InnoDB: Shutdown completed; log sequence number 37306228
+170505 10:17:30 [Note] /usr/sbin/mysqld: Shutdown complete
+
+170505 10:17:30 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+170505 10:17:36 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+170505 10:17:36 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+170505 10:17:36 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1045 ...
+170505 10:17:36 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+170505 10:17:36 [Note] Plugin 'FEDERATED' is disabled.
+170505 10:17:36 InnoDB: The InnoDB memory heap is disabled
+170505 10:17:36 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170505 10:17:36 InnoDB: Compressed tables use zlib 1.2.8
+170505 10:17:36 InnoDB: Using Linux native AIO
+170505 10:17:36 InnoDB: Initializing buffer pool, size = 128.0M
+170505 10:17:36 InnoDB: Completed initialization of buffer pool
+170505 10:17:36 InnoDB: highest supported file format is Barracuda.
+170505 10:17:37  InnoDB: Waiting for the background threads to start
+170505 10:17:38 InnoDB: 5.5.44 started; log sequence number 37306228
+170505 10:17:38 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170505 10:17:38 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170505 10:17:38 [Note] Server socket created on IP: '127.0.0.1'.
+170505 10:17:38 [Note] Event Scheduler: Loaded 0 events
+170505 10:17:38 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+170505 10:55:53 [Note] /usr/sbin/mysqld: Normal shutdown
+
+170505 10:55:53 [Note] Event Scheduler: Purging the queue. 0 events
+170505 10:55:53  InnoDB: Starting shutdown...
+170505 10:55:55  InnoDB: Shutdown completed; log sequence number 37306228
+170505 10:55:55 [Note] /usr/sbin/mysqld: Shutdown complete
+
+170505 10:55:55 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+170505 10:56:01 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+170505 10:56:01 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+170505 10:56:01 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1045 ...
+170505 10:56:01 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+170505 10:56:01 [Note] Plugin 'FEDERATED' is disabled.
+170505 10:56:01 InnoDB: The InnoDB memory heap is disabled
+170505 10:56:01 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170505 10:56:01 InnoDB: Compressed tables use zlib 1.2.8
+170505 10:56:01 InnoDB: Using Linux native AIO
+170505 10:56:02 InnoDB: Initializing buffer pool, size = 128.0M
+170505 10:56:02 InnoDB: Completed initialization of buffer pool
+170505 10:56:02 InnoDB: highest supported file format is Barracuda.
+170505 10:56:04  InnoDB: Waiting for the background threads to start
+170505 10:56:05 InnoDB: 5.5.44 started; log sequence number 37306228
+170505 10:56:05 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170505 10:56:05 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170505 10:56:05 [Note] Server socket created on IP: '127.0.0.1'.
+170505 10:56:05 [Note] Event Scheduler: Loaded 0 events
+170505 10:56:05 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+170505 10:59:20 [Note] /usr/sbin/mysqld: Normal shutdown
+
+170505 10:59:20 [Note] Event Scheduler: Purging the queue. 0 events
+170505 10:59:26  InnoDB: Starting shutdown...
+170505 10:59:28  InnoDB: Shutdown completed; log sequence number 37306228
+170505 10:59:28 [Note] /usr/sbin/mysqld: Shutdown complete
+
+170505 10:59:28 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+170505 10:59:36 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+170505 10:59:36 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+170505 10:59:36 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1045 ...
+170505 10:59:36 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+170505 10:59:36 [Note] Plugin 'FEDERATED' is disabled.
+170505 10:59:36 InnoDB: The InnoDB memory heap is disabled
+170505 10:59:36 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170505 10:59:36 InnoDB: Compressed tables use zlib 1.2.8
+170505 10:59:36 InnoDB: Using Linux native AIO
+170505 10:59:36 InnoDB: Initializing buffer pool, size = 128.0M
+170505 10:59:36 InnoDB: Completed initialization of buffer pool
+170505 10:59:37 InnoDB: highest supported file format is Barracuda.
+170505 10:59:38  InnoDB: Waiting for the background threads to start
+170505 10:59:39 InnoDB: 5.5.44 started; log sequence number 37306228
+170505 10:59:39 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170505 10:59:39 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170505 10:59:39 [Note] Server socket created on IP: '127.0.0.1'.
+170505 10:59:40 [Note] Event Scheduler: Loaded 0 events
+170505 10:59:40 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+170505 11:14:44 [Note] /usr/sbin/mysqld: Normal shutdown
+
+170505 11:14:44 [Note] Event Scheduler: Purging the queue. 0 events
+170505 11:14:52  InnoDB: Starting shutdown...
+170505 11:14:54  InnoDB: Shutdown completed; log sequence number 37306228
+170505 11:14:54 [Note] /usr/sbin/mysqld: Shutdown complete
+
+170505 11:14:55 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+170505 11:15:01 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+170505 11:15:01 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+170505 11:15:01 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1040 ...
+170505 11:15:01 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+170505 11:15:01 [Note] Plugin 'FEDERATED' is disabled.
+170505 11:15:01 InnoDB: The InnoDB memory heap is disabled
+170505 11:15:01 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170505 11:15:01 InnoDB: Compressed tables use zlib 1.2.8
+170505 11:15:01 InnoDB: Using Linux native AIO
+170505 11:15:01 InnoDB: Initializing buffer pool, size = 128.0M
+170505 11:15:01 InnoDB: Completed initialization of buffer pool
+170505 11:15:01 InnoDB: highest supported file format is Barracuda.
+170505 11:15:03  InnoDB: Waiting for the background threads to start
+170505 11:15:04 InnoDB: 5.5.44 started; log sequence number 37306228
+170505 11:15:04 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170505 11:15:04 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170505 11:15:04 [Note] Server socket created on IP: '127.0.0.1'.
+170505 11:15:08 [Note] Event Scheduler: Loaded 0 events
+170505 11:15:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+170505 11:26:02 [Note] /usr/sbin/mysqld: Normal shutdown
+
+170505 11:26:02 [Note] Event Scheduler: Purging the queue. 0 events
+170505 11:26:07  InnoDB: Starting shutdown...
+170505 11:26:08  InnoDB: Shutdown completed; log sequence number 37306228
+170505 11:26:08 [Note] /usr/sbin/mysqld: Shutdown complete
+
+170505 11:26:08 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+170505 11:26:17 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+170505 11:26:17 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+170505 11:26:17 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1136 ...
+170505 11:26:17 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+170505 11:26:17 [Note] Plugin 'FEDERATED' is disabled.
+170505 11:26:17 InnoDB: The InnoDB memory heap is disabled
+170505 11:26:17 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170505 11:26:17 InnoDB: Compressed tables use zlib 1.2.8
+170505 11:26:17 InnoDB: Using Linux native AIO
+170505 11:26:17 InnoDB: Initializing buffer pool, size = 128.0M
+170505 11:26:17 InnoDB: Completed initialization of buffer pool
+170505 11:26:18 InnoDB: highest supported file format is Barracuda.
+170505 11:26:18  InnoDB: Waiting for the background threads to start
+170505 11:26:19 InnoDB: 5.5.44 started; log sequence number 37306228
+170505 11:26:19 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170505 11:26:19 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170505 11:26:19 [Note] Server socket created on IP: '127.0.0.1'.
+170505 11:26:20 [Note] Event Scheduler: Loaded 0 events
+170505 11:26:20 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+170505 12:16:11 [Note] /usr/sbin/mysqld: Normal shutdown
+
+170505 12:16:11 [Note] Event Scheduler: Purging the queue. 0 events
+170505 12:16:11  InnoDB: Starting shutdown...
+170505 12:16:13  InnoDB: Shutdown completed; log sequence number 37306228
+170505 12:16:13 [Note] /usr/sbin/mysqld: Shutdown complete
+
+170505 12:16:13 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+170505 12:16:28 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+170505 12:16:28 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+170505 12:16:29 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1345 ...
+170505 12:16:29 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+170505 12:16:29 [Note] Plugin 'FEDERATED' is disabled.
+170505 12:16:29 InnoDB: The InnoDB memory heap is disabled
+170505 12:16:29 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170505 12:16:29 InnoDB: Compressed tables use zlib 1.2.8
+170505 12:16:29 InnoDB: Using Linux native AIO
+170505 12:16:29 InnoDB: Initializing buffer pool, size = 128.0M
+170505 12:16:29 InnoDB: Completed initialization of buffer pool
+170505 12:16:29 InnoDB: highest supported file format is Barracuda.
+170505 12:16:30  InnoDB: Waiting for the background threads to start
+170505 12:16:31 InnoDB: 5.5.44 started; log sequence number 37306228
+170505 12:16:31 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170505 12:16:31 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170505 12:16:31 [Note] Server socket created on IP: '127.0.0.1'.
+170505 12:16:31 [Note] Event Scheduler: Loaded 0 events
+170505 12:16:31 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+170505 21:12:37 [Note] /usr/sbin/mysqld: Normal shutdown
+
+170505 21:12:37 [Note] Event Scheduler: Purging the queue. 0 events
+170505 21:12:37  InnoDB: Starting shutdown...
+170505 20:17:06 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+170505 20:17:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+170505 20:17:06 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1018 ...
+170505 20:17:06 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+170505 20:17:06 [Note] Plugin 'FEDERATED' is disabled.
+170505 20:17:06 InnoDB: The InnoDB memory heap is disabled
+170505 20:17:06 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170505 20:17:06 InnoDB: Compressed tables use zlib 1.2.8
+170505 20:17:06 InnoDB: Using Linux native AIO
+170505 20:17:07 InnoDB: Initializing buffer pool, size = 128.0M
+170505 20:17:07 InnoDB: Completed initialization of buffer pool
+170505 20:17:07 InnoDB: highest supported file format is Barracuda.
+170505 20:17:07  InnoDB: Waiting for the background threads to start
+170505 20:17:08 InnoDB: 5.5.44 started; log sequence number 37306228
+170505 20:17:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170505 20:17:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170505 20:17:08 [Note] Server socket created on IP: '127.0.0.1'.
+170505 20:17:09 [Note] Event Scheduler: Loaded 0 events
+170505 20:17:09 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+170505 20:17:06 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+170505 20:17:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+170505 20:17:06 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1016 ...
+170505 20:17:06 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+170505 20:17:06 [Note] Plugin 'FEDERATED' is disabled.
+170505 20:17:07 InnoDB: The InnoDB memory heap is disabled
+170505 20:17:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170505 20:17:07 InnoDB: Compressed tables use zlib 1.2.8
+170505 20:17:07 InnoDB: Using Linux native AIO
+170505 20:17:07 InnoDB: Initializing buffer pool, size = 128.0M
+170505 20:17:07 InnoDB: Completed initialization of buffer pool
+170505 20:17:07 InnoDB: highest supported file format is Barracuda.
+170505 20:17:07  InnoDB: Waiting for the background threads to start
+170505 20:17:08 InnoDB: 5.5.44 started; log sequence number 37306228
+170505 20:17:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170505 20:17:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170505 20:17:08 [Note] Server socket created on IP: '127.0.0.1'.
+170505 20:17:09 [Note] Event Scheduler: Loaded 0 events
+170505 20:17:09 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+170505 22:13:50 [Note] /usr/sbin/mysqld: Normal shutdown
+
+170505 22:13:50 [Note] Event Scheduler: Purging the queue. 0 events
+170505 22:13:50  InnoDB: Starting shutdown...
+170505 22:13:52  InnoDB: Shutdown completed; log sequence number 37306228
+170505 22:13:52 [Note] /usr/sbin/mysqld: Shutdown complete
+
+170505 22:13:52 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+170505 22:13:58 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+170505 22:13:58 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+170505 22:13:58 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1021 ...
+170505 22:13:58 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+170505 22:13:58 [Note] Plugin 'FEDERATED' is disabled.
+170505 22:13:58 InnoDB: The InnoDB memory heap is disabled
+170505 22:13:58 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170505 22:13:58 InnoDB: Compressed tables use zlib 1.2.8
+170505 22:13:58 InnoDB: Using Linux native AIO
+170505 22:13:58 InnoDB: Initializing buffer pool, size = 128.0M
+170505 22:13:58 InnoDB: Completed initialization of buffer pool
+170505 22:13:58 InnoDB: highest supported file format is Barracuda.
+170505 22:13:59  InnoDB: Waiting for the background threads to start
+170505 22:14:00 InnoDB: 5.5.44 started; log sequence number 37306228
+170505 22:14:00 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170505 22:14:00 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170505 22:14:00 [Note] Server socket created on IP: '127.0.0.1'.
+170505 22:14:00 [Note] Event Scheduler: Loaded 0 events
+170505 22:14:00 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+170505 22:17:06 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+170505 22:17:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+170505 22:17:06 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1044 ...
+170505 22:17:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+170505 22:17:07 [Note] Plugin 'FEDERATED' is disabled.
+170505 22:17:07 InnoDB: The InnoDB memory heap is disabled
+170505 22:17:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170505 22:17:07 InnoDB: Compressed tables use zlib 1.2.8
+170505 22:17:07 InnoDB: Using Linux native AIO
+170505 22:17:07 InnoDB: Initializing buffer pool, size = 128.0M
+170505 22:17:07 InnoDB: Completed initialization of buffer pool
+170505 22:17:07 InnoDB: highest supported file format is Barracuda.
+170505 22:17:07  InnoDB: Waiting for the background threads to start
+170505 22:17:08 InnoDB: 5.5.44 started; log sequence number 37306228
+170505 22:17:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170505 22:17:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170505 22:17:08 [Note] Server socket created on IP: '127.0.0.1'.
+170505 22:17:09 [Note] Event Scheduler: Loaded 0 events
+170505 22:17:09 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+170505 22:17:06 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+170505 22:17:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+170505 22:17:06 [Note] /usr/sbin/mysqld (mysqld 5.5.44-0+deb8u1) starting as process 1017 ...
+170505 22:17:06 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+170505 22:17:06 [Note] Plugin 'FEDERATED' is disabled.
+170505 22:17:07 InnoDB: The InnoDB memory heap is disabled
+170505 22:17:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170505 22:17:07 InnoDB: Compressed tables use zlib 1.2.8
+170505 22:17:07 InnoDB: Using Linux native AIO
+170505 22:17:07 InnoDB: Initializing buffer pool, size = 128.0M
+170505 22:17:07 InnoDB: Completed initialization of buffer pool
+170505 22:17:07 InnoDB: highest supported file format is Barracuda.
+170505 22:17:07  InnoDB: Waiting for the background threads to start
+170505 22:17:08 InnoDB: 5.5.44 started; log sequence number 37306228
+170505 22:17:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170505 22:17:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170505 22:17:08 [Note] Server socket created on IP: '127.0.0.1'.
+170505 22:17:09 [Note] Event Scheduler: Loaded 0 events
+170505 22:17:09 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.44-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Raspbian)
+170505 23:19:38 [Note] /usr/sbin/mysqld: Normal shutdown
+
+170505 23:19:38 [Note] Event Scheduler: Purging the queue. 0 events
+170505 23:19:38  InnoDB: Starting shutdown...
+170505 23:19:39  InnoDB: Shutdown completed; log sequence number 37306228
+170505 23:19:39 [Note] /usr/sbin/mysqld: Shutdown complete
+
+170505 23:19:40 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended

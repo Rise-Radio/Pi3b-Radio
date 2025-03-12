@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task 2column" id="privacy" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="prefs"/>
+
+    <revision pkgversion="3.10" date="2013-09-28" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc><link xref="privacy-screen-lock">Κλείδωμα οθόνης</link>, <link xref="privacy-history-recent-off">Χρήση ιστορικού</link>, <link xref="privacy-purge">Εκκαθάριση απορριμμάτων &amp; προσωρινών αρχείων</link>…</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ιδιωτικές ρυθμίσεις</title>
+  
+  <p>Οι <em>Ιδιωτικές ρυθμίσεις</em> στο GNOME σας βοηθούν να ελέγξτε εάν συγκεκριμένα μέρη της επιφάνειας εργασίας σας είναι ορατά στους άλλους. Μπορείτε επίσης να χρησιμοποιήσετε αυτές τις ρυθμίσεις για να καθαρίσετε το ιστορικό χρήσης του υπολογιστή και να καθαρίσετε περιττά αρχεία.</p>
+
+</page>

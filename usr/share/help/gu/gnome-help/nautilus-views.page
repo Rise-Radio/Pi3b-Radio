@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-views" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-views"/>
+
+    <desc>ફાઇલ સંચાલક માટે મૂળભૂત દૃશ્ય, ટૂંકુ ક્રમ, અને નાનાં મોટાનુ સ્તરને સ્પષ્ટ કરો.</desc>
+
+    <revision pkgversion="3.8" version="0.2" date="2013-04-03" status="review"/>
+
+    <credit type="author">
+      <name>ટિફની એન્ટોપોલસ્કી</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>માઇકલ હીલ</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>ઍકાટેરીના ગેરાસીમોવા</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  </info>
+
+<title><app>ફાઇલો</app> માં પસંદગીઓ જુઓ</title>
+
+<p>તમે નવાં ફોલ્ડરો માટે મૂળભૂત દૃશ્યને બદલી શકો છો, મૂળભૂત રીતે કેવી રીતે ફાઇલો અને ફોલ્ડરોને ક્રમાંકિત કરાયેલ છે, ચિહ્ન માટે નાનું મોટુ કરવાનુ સ્તર અને સંકુચિત દૃશ્ય, અને શું ફાઇલો ટ્રી બાજુપટ્ટીમાં દર્શાવેલ છે. ટોચની પટ્ટીમાં <guiseq><gui style="menu">ફાઇલો</gui> <gui style="menuitem">પસંદગીઓ</gui></guiseq> ને પસંદ કરો જ્યારે <app>ફાઇલો</app> ખુલ્લી છે અને <gui style="tab">દૃશ્ય</gui> ટૅબને પસંદ કરો.</p>
+
+<section id="default-view">
+<title>મૂળભૂત દૃશ્ય</title>
+<terms>
+  <item>
+    <title><gui>તેની મદદથી નવાં ફોલ્ડરોને જુઓ</gui></title>
+    <p>મૂળભૂત રીતે, નવાં ફોલ્ડરો એ ચિહ્ન દૃશ્યમાં બતાવેલ છે. જો તમે યાદી દૃશ્યને પસંદ કરો તો, તમે મૂળભૂત પ્રમાણે અહિંયા તેને સુયોજિત કરી શકો છો. વૈકલ્પિક રીતે, તમે દરેક ફોલ્ડર માટે વિવિધ દૃશ્યને પસંદ કરી શકો છો તમે સાધનપટ્ટીમાં <gui style="button">યાદી પ્રમાણે વસ્તુને જુઓ</gui> અથવા <gui style="button">ચિહ્નની જાળી તરીકે વસ્તુઓને જુઓ</gui> બટન પર ક્લિક કરીને તમે બ્રાઉઝ કરો.</p>
+  </item>
+  <item>
+    <title><gui>વસ્તુઓ ગોઠવો</gui></title>
+    <p>તમે મૂળભૂત ક્રમ ઓર્ડરને બદલી શકો છો કે જે નામ, ફાઇલ માપ, ફાઇલ પ્રકાર દ્દારા ક્રમાંકિત કરવા માટે પસંદગીઓમાં <gui>વસ્તુઓને ગોઠવો</gui> ડ્રોપ-ડાઉન યાદીની મદદથી  ફોલ્ડરોમાં વાપરેલ છે, જ્યારે તેઓ છેલ્લે બદલાયેલ હતા, જ્યારે તેઓ છેલ્લે વાપરેલ હતા અથવા તેઓ કચરાપેટીમાં મોકલેલ હતા.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can change how <link xref="files-sort">files
+    are sorted</link> in an individual folder by clicking the
+    <media its:translate="no" type="image" src="figures/go-down.png">
+    <span its:translate="yes">View options</span></media> button
+    in the toolbar and choosing <gui>By Name</gui>, <gui>By Size</gui>, <gui>By
+    Type</gui> or <gui>By Modification Date</gui>, or by clicking the list
+    column headers in list view. This menu only affects the current folder.</p>
+  </item>
+  <item>
+    <title><gui>ફાઇલો પહેલાં ફોલ્ડરો ક્રમમાં ગોઠવો</gui></title>
+    <p>મૂળભૂત રીતે, ફાઇલ સંચાલક ફાઇલો પહેલાં બધા ફોલ્ડરોને બતાવવા લાંબો સમય લાગતો નથી. ફાઇલો પહેલાં યાદી થયેલ બધા ફોલ્ડરોને જોવા માટે, આ વિકલ્પને સક્રિય કરો.</p>
+  </item>
+  <item>
+    <title><gui>છુપી અને બેકઅપ ફાઈલો બતાવો</gui></title>
+    <p>ફાઇલ સંચાલક એ મૂળભૂત રીતે <link xref="files-hidden">છુપાયેલ ફાઇલો</link> અને ફોલ્ડને દર્શાવતુ નથી. તમે આ વિકલ્પને પસંદ કરીને છુપાયેલ ફાઇલોને બતાવી શકો છો.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can also show hidden files in an individual
+    window by selecting <gui>Show Hidden Files</gui>, from the
+    <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media> menu in
+    the toolbar.</p>
+  </item>
+</terms>
+</section>
+
+<section id="icon-view-defaults">
+<title>ચિહ્ન દૃશ્ય મૂળભૂત</title>
+<terms>
+  <item>
+    <title><gui>મૂળભૂત નાનુંમોટુ સ્તર</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can make the icons and text larger or
+    smaller by default in icon view using this option. You can also change this
+    setting in an individual folder by clicking the
+    <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media> button
+    in the toolbar and selecting <gui>Zoom In</gui>, <gui>Zoom Out</gui> or
+    <gui>Normal Size</gui>. If you frequently use a larger or smaller zoom
+    level, you can set the default with this option.</p>
+    <p>ચિત્ર દેખાવમાં, વધુ અથવા ઓછા <link xref="nautilus-display#icon-captions">કૅપ્શનો</link> તમારા નાનામોટાપણાના સ્તર પ્રમાણે બતાવવામાં આવે છે.</p>
+   </item>
+  </terms>
+</section>
+
+<section id="list-view-defaults">
+<title>યાદી દૃશ્યના મૂળભૂત</title>
+<terms>
+  <item>
+    <title><gui>મૂળભૂત નાનુંમોટુ સ્તર</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can make the icons and text larger or
+    smaller in list view using this option. You can also do this in an
+    individual folder by clicking the
+    <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media> button
+    in the toolbar and selecting <gui>Zoom In</gui>, <gui>Zoom Out</gui> or
+    <gui>Normal Size</gui>.</p>
+  </item>
+</terms>
+</section>
+
+</page>

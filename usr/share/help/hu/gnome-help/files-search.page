@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="files-search" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="files"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-09-25" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author">
+      <name>GNOME dokumentációs projekt</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Fájlok keresése fájlnév és típus alapján. Keresések mentése későbbi felhasználásra.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Griechisch Erika</mal:name>
+      <mal:email>griechisch.erika at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kucsebár Dávid</mal:name>
+      <mal:email>kucsdavid at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lakatos 'Whisperity' Richárd</mal:name>
+      <mal:email>whisperity at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lukács Bence</mal:name>
+      <mal:email>lukacs.bence1 at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nagy Zoltán</mal:name>
+      <mal:email>dzodzie at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Fájlok keresése</title>
+
+  <p>Fájlokat nevük vagy típusuk alapján közvetlenül kereshet a fájlkezelőben. A gyakori kereséseket el is mentheti, és azok speciális mappákként fognak megjelenni a saját mappájában.</p>
+
+  <links type="topic" style="linklist">
+    <title>Egyéb keresőalkalmazások</title>
+    <!-- This is an extension point where search apps can add
+    their own topics. It's empty by default. -->
+  </links>
+
+  <steps>
+    <title>Keresés</title>
+    <item>
+      <p>Nyissa meg a <app>Fájlok</app> alkalmazást a <gui xref="shell-terminology">Tevékenységek</gui> áttekintésben.</p>
+    </item>
+    <item>
+      <p>Ha tudja, hogy melyik mappában vannak a keresett fájlok, akkor lépjen be az adott mappába.</p>
+    </item>
+    <item>
+      <p>Írjon be egy vagy több szót, amelyről tudja, hogy szerepel a fájl nevében, és azok megjelennek a keresési sávban. Ha például minden számlája nevében szerepel a „Számla” szó, akkor a <input>számla</input> szót írja be. A keresés nem különbözteti meg a kis- és nagybetűket.</p>
+      <note>
+        <p>A keresősáv megjelenítésére a szavak közvetlen beírása helyett használható az eszköztár nagyító ikonja is, vagy megnyomhatja a <keyseq><key>Ctrl</key><key>F</key></keyseq> kombinációt.</p>
+      </note>
+    </item>
+    <item>
+      <p>Szűkítheti a találatokat hely és fájltípus alapján.</p>
+      <list>
+        <item>
+          <p>Nyomja meg a <gui>Saját mappa</gui> gombot a találatok korlátozására a <file>saját mappájára</file>, vagy a <gui>Minden fájl</gui> gombot a mindenütt való kereséshez.</p>
+        </item>
+        <item>
+          <p>Nyomja meg a <gui>+</gui> gombot, és válasszon <gui>Fájltípust</gui> a legördülő listából a keresési eredmények fájltípus szerinti szűkítéséhez. Az <gui>x</gui> gombra kattintva eltávolíthatja ezt a beállítást, és bővítheti a találatok körét.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>A keresési találatokat ugyanúgy megnyithatja, másolhatja, törölheti stb., mint bármely más mappa tartalmát a fájlkezelőben.</p>
+    </item>
+    <item>
+      <p>Kattintson újra az eszköztár nagyító gombjára a keresésből való kilépéshez, és a mappához való visszatéréshez.</p>
+    </item>
+  </steps>
+
+  <p>Ha bizonyos kereséseket gyakran végez, akkor a gyors elérésük érdekében elmentheti azokat.</p>
+
+  <steps>
+    <title>Keresés mentése</title>
+    <item><p>Indítsa el a keresést a fentieknek megfelelően.</p></item>
+    <item><p>Amikor beállította a keresési paramétereket, kattintson a menü gombra, és válassza a <gui>Keresés mentése másként</gui> menüpontot.</p></item>
+    <item><p>Nevezze el a keresést, és nyomja meg a <gui>Mentés</gui> gombot. Ha akarja, választhat másik mappát a keresés mentéséhez. Az adott mappa megjelenítésekor a mentett keresés narancssárga mappaikonként jelenik meg, amelyen egy nagyító ikon van.</p></item>
+  </steps>
+
+  <p>Ha a keresésre már nincs szüksége, akkor a törléséhez egyszerűen csak <link xref="files-delete">törölje</link> azt, ahogy egy fájlt törölne. A mentett keresés törlésekor a keresésre illeszkedő fájlok nem kerülnek törlésre.</p>
+
+</page>

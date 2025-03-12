@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="2column task" id="power" xml:lang="fi">
+<info>
+    <link type="guide" xref="prefs"/>
+    <link type="guide" xref="hardware"/>
+
+    <revision pkgversion="3.8" date="2013-02-26" status="review"/>
+
+    <credit type="author">
+      <name>Natalia Ruz</name>
+      <email>nruz@alumnos.inf.utfsm.cl</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><link xref="power-suspend">Valmiustila</link>, <link xref="shell-exit#shutdown">sammuttaminen</link>, <link xref="power-whydim">näytön himmentäminen</link>…</desc>
+
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Timo Jyrinki</mal:name>
+      <mal:email>timo.jyrinki@iki.fi</mal:email>
+      <mal:years>2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jiri Grönroos</mal:name>
+      <mal:email>jiri.gronroos+l10n@iki.fi</mal:email>
+      <mal:years>2012, 2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Virransäästö ja akku</title>
+
+<section id="battery" style="2column">
+  <title>Akkuasetukset</title>
+</section>
+
+<section id="problems" style="2column">
+  <info>
+    <title type="link">Virranhallinnan ja akun ongelmat</title>
+    <link type="guide" xref="hardware#problems"/>
+    <desc>Ratkaise virranhallintaan ja akkukäyttöön liittyviä ongelmia.</desc>
+  </info>
+  <title>Ongelmat</title>
+</section>
+
+</page>

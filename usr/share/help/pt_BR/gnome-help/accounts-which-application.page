@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc>Aplicativos podem usar as contas criadas no <app>Contas on-line</app> e os serviços que eles exploram.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodolfo Ribeiro Gomes</mal:name>
+      <mal:email>rodolforg@gmail.com</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>João Santana</mal:name>
+      <mal:email>joaosantana@outlook.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Quais aplicativos tiram vantagem das contas on-line?</title>
+
+  <p>As <app>Contas on-line</app> podem ser usadas para que aplicativos externos se configurem automaticamente.</p>
+
+<section id="accounts-google-services">
+  <title>Com uma conta Google</title>
+
+  <list>
+    <item>
+      <p><app>Evolution</app>, o aplicativo de e-mail. Sua conta de e-mail será adicionada ao <app>Evolution</app> automaticamente e, então, ele vai receber seus e-mails, dar acesso aos seus contatos, e exibir na agenda os itens do seu Google agenda.</p>
+    </item>
+    <item>
+      <p><app>Empathy</app>, o aplicativo de mensagens instantâneas. Sua conta on-line será adicionada e você poderá se comunicar com seus amigos.</p>
+    </item>
+    <item>
+      <p><app>Contatos</app>, o qual permite que você veja e edite seus contatos.</p>
+    </item>
+    <item>
+      <p><app>Documentos</app> pode acessar seus documentos on-line e exibi-los.</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>Com contas do Windows Live, Facebook ou Twitter</title>
+
+  <p><app>Empathy</app> pode usar essas contas para conectá-lo para bater papo com seus contatos, amigos e seguidores.</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>With a OneDrive account</title>
+
+  <p><app>Documents</app> can access your online documents in Microsoft
+  OneDrive and display them.</p>
+</section>
+
+<section id="account-exchange">
+  <title>Com uma conta Exchange</title>
+
+  <p>Assim que você tiver criado uma conta Exchange, o <app>Evolution</app> vai começar a receber correios desta conta.</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>Com uma conta ownCloud</title>
+
+  <p>Quando uma conta ownCloud está configurada, o <app>Evolution</app> pode acessar e editar compromissos da agenda e contatos.</p>
+
+  <p><app>Arquivos</app> e outros aplicativos poderão listar e acessar seus arquivos on-line armazenados na instalação do ownCloud.</p>
+</section>
+
+</page>

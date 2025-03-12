@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-add" xml:lang="sr">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="draft"/>
+    <revision pkgversion="3.9.92" date="2012-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2013-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Џим Кембел</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Мајкл Хил</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Екатерина Герасимова</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <desc>Повежите се на налог на мрежи.</desc>
+</info>
+
+  <title>Додајте налог</title>
+
+  <p>Додавање налога ће помоћи у повезивању ваших налога на мрежи са вашом Гномовом радном површи. Зато ће вам, ваш програм за пошту, програм за ћаскање и остали односни програми бити подешени.</p>
+
+  <steps>
+    <item>
+      <p>Отворите преглед <gui xref="shell-terminology">Активности</gui> и почните да куцате <gui>Налози на мрежи</gui>.</p>
+    </item>
+    <item>
+      <p>Кликните на <gui>налоге на мрежи</gui> да отворите панел.</p>
+    </item>
+    <item>
+      <p>Click the <gui>+</gui> button in the lower-left corner of the
+      window.</p>
+    </item>
+    <item>
+      <p>Изаберите врсту налога који желите да додате.</p>
+      <p>Ако желите да додате више од једне врсте налога, можете то да урадите касније.</p>
+    </item>
+    <item>
+      <p>Отвориће се прозорче веб сајта у коме ћете моћи да унесете податке вашег налога на мрежи. На пример, ако подешавате Гуглов налог, унесите ваше корисничко име и лозинку за Гугл.</p>
+    </item>
+    <item>
+      <p>Ако сте исправно унели ваше податке, биће вам затражено да дозволите Гномов приступ вашем налогу на мрежи. Овластите приступ да наставите.</p>
+    </item>
+    <item>
+      <p>Све услуге које нуди достављач налога биће унапред укључене. <link xref="accounts-disable-service">Пребаците</link> појединачне услуге на <gui>ИСКЉ.</gui> да их искључите.</p>
+    </item>
+  </steps>
+
+  <p>Након што сте додали налоге, сви програми које сте изабрали самостално ће употребити ове податке када их будете покренули.</p>
+
+  <note style="tip">
+    <p>Из безбедносних разлога, Гном неће ускладиштити вашу лозинку на вашем рачунару. Уместо тога, ускладиштиће прстен који обезбеђује услуга на мрежи. Ако желите да у потпуности опозовете везу између ваше радне површи и услуге на мрежи, <link xref="accounts-remove">уклоните</link> је.</p>
+  </note>
+
+</page>

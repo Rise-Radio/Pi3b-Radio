@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="printing-streaks" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="printing#problems"/>
+    <link type="seealso" xref="printing-inklevel"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2012-02-19" status="candidate"/>
+
+    <credit type="author">
+      <name>GNOME डॉक्युमेंटेशन प्रकल्प</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>प्रिंट आउट्स, विरेखित, कोमजलेले, किंवा रंग गहाळ झाले असल्यास, तुमचा शाई स्तर तपासा किंवा प्रिंट हेड स्वच्छ करा.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>माझ्या प्रिंट-आउट्सवरील विरेख, रेघा किंवा चुकिचे रंग का आहेत?</title>
+
+  <p>प्रिंट-आउट्स विरेखीत, कोमेजलेले, अनावश्यक रेघा असल्यास, किंवा कमजोर दर्जा असल्यास, कदाचित छपाईयंत्रसह अडचण असू शकते किंवा शाई/टोनर पुरवठा कमी असेल.</p>
+
+  <list>
+     <item>
+       <p>अस्पष्ट मजकुर किंवा छबी</p>
+       <p>कदाचित शाई किंवा टोनर रिकामे झाले असावे. इंक किंवा टोनरचा पुरवठा तपासा आणि आवश्यक असल्यास नविन कार्टरिड्ज विकत घ्या.</p>
+     </item>
+     <item>
+       <p>छटा आणि रेषा</p>
+       <p>इंकजेट छपाईयंत्र असल्यास, छपाईयंत्रवर धूर किंवा अपूर्णरित्या अडवलेले असेल. प्रिंट हेड नष्ट करण्याचा प्रयत्न करा (सूचनांकरिता छपाईयंत्राचे मॅन्युअल पहा).</p>
+     </item>
+     <item>
+       <p>चुकीचे रंग</p>
+       <p>छपाईयंत्रमध्ये शाईचे एक किंवा टोनर रिकामे झाले असावे . इंक किंवा टोनरचा पुरवठा तपासा आणि आवश्यक असल्यास नविन कार्टरिड्ज विकत घ्या.</p>
+     </item>
+     <item>
+       <p>जॅग्ड ओळी, किंवा रेघा सरळ नाहीत</p>
+       <p>प्रिंट-आउटवरील ओळी जे सरळ पाहिजे होते जॅग्ड झाले, त्यांचे प्रिंड हेड संरेषीत करायला आवडेल. याविषयी अधिक तपशील करिता छपाईयंत्राचे सूची मॅन्युअल पहा.</p>
+     </item>
+  </list>
+
+</page>

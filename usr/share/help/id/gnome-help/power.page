@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="2column task" id="power" xml:lang="id">
+<info>
+    <link type="guide" xref="prefs"/>
+    <link type="guide" xref="hardware"/>
+
+    <revision pkgversion="3.8" date="2013-02-26" status="review"/>
+
+    <credit type="author">
+      <name>Natalia Ruz</name>
+      <email>nruz@alumnos.inf.utfsm.cl</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><link xref="power-suspend">Suspensi</link>, <link xref="shell-exit#shutdown">mematikan</link>, <link xref="power-whydim">meredupkan layar</link>…</desc>
+
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2011, 2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Daya &amp; baterai</title>
+
+<section id="battery" style="2column">
+  <title>Pengaturan baterai</title>
+</section>
+
+<section id="problems" style="2column">
+  <info>
+    <title type="link">Masalah daya</title>
+    <link type="guide" xref="hardware#problems"/>
+    <desc>Melacak masalah daya dan baterai.</desc>
+  </info>
+  <title>Masalah</title>
+</section>
+
+</page>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-disable-service" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.13.92" date="2013-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    
+    <desc>Μερικοί δικτυακοί λογαριασμοί μπορούν να χρησιμοποιηθούν για να προσπελάσετε πολλαπλές υπηρεσίες (όπως ημερολόγιο και αλληλογραφία). Μπορείτε να ελέγξετε ποια από αυτές τις υπηρεσίες μπορούν να χρησιμοποιηθούν από τις εφαρμογές.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ελέγξτε ποιες δικτυακές υπηρεσίες ενός λογαριασμού μπορούν να χρησιμοποιηθούν για πρόσβαση</title>
+
+  <p>Μερικοί τύποι δικτυακών λογαριασμών επιτρέπουν την πρόσβαση πολλών υπηρεσιών με τον ίδιο λογαριασμό χρήστη. Για παράδειγμα, οι λογαριασμοί Google παρέχουν πρόσβαση στο ημερολόγιο, αλληλογραφία, επαφές και συνομιλία. Μπορεί να θέλετε να χρησιμοποιήσετε τον λογαριασμό σας για μερικές υπηρεσίες, αλλά όχι άλλες. Για παράδειγμα, μπορεί να θέλετε να χρησιμοποιήσετε τον λογαριασμό σας του Google για αλληλογραφία αλλά όχι συνομιλία, αφού έχετε έναν διαφορετικό δικτυακό λογαριασμό που χρησιμοποιείτε για συνομιλίες.</p>
+
+  <p>Μπορείτε να απενεργοποιήσετε μερικές από τις υπηρεσίες που παρέχονται από κάθε δικτυακό λογαριασμό:</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Select the account which you want to change from the list on the
+      left.</p>
+    </item>
+    <item>
+      <p>A list of services that are available with this account will be
+      shown under <gui>Use for</gui>.</p>
+    </item>
+    <item>
+      <p>Switch off any of the services that you do not want to use.</p>
+    </item>
+  </steps>
+
+  <p>Once a service has been disabled for an account, applications on your
+  computer will not be able to use the account to connect to that service any
+  more.</p>
+
+  <p>Για την ενεργοποίηση μιας υπηρεσίας που απενεργοποιήσατε, απλά επιστρέψτε στο παράθυρο <gui>δικτυακοί λογαριασμοί</gui> και ενεργοποιήστε το.</p>
+
+</page>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="ui" id="nautilus-behavior" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-behavior"/>
+
+    <desc>ફાઇલોને ખોલવા માટે એકજ ક્લિક કરો, એક્ઝક્યૂટેબલ લખાણ ફાઇલને જુઓ અથવા ચલાવો, અને કચરાપેટીની વર્ણતૂકને સ્પષ્ટ કરો.</desc>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-19" status="review"/>
+
+    <credit type="author">
+      <name>ટિફની એન્ટોપોલસ્કી</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>માઇકલ હીલ</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>સીંધુ એસ</name>
+      <email>sindhus@live.in</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>ફાઇલ સંચાલક વર્તણૂક પસંદગીઓ</title>
+<p>તમે નિયંત્રિત કરી શકો છો ક્યાંતો તમે ફાઇલો પર એક જ ક્લિક કરીને અથવા બે વાર ક્લિક કરીને, કેવી રીતે એક્ઝેક્યુટેબલ લખાણ ફાઇલો સંચાલિત થયેલ છે, અને કચરાપેટી વર્ણતૂક. ટોચની પટ્ટીમાં <gui>ફાઇલો</gui> પર ક્લિક કરો, <gui>પસંદગીઓ</gui> પસંદ કરો અને <gui>વર્ણતૂક</gui> ટૅબ પસંદ કરો.</p>
+
+<section id="behavior">
+<title>વર્તણૂક</title>
+<terms>
+ <item>
+  <title><gui>વસ્તુઓને ખોલવા માટે એક ક્લિક કરો</gui></title>
+  <title><gui>વસ્તુઓને ખોલવા માટે બે વાર ક્લિક કરો</gui></title>
+  <p>મૂળભૂત રીતે, એક ક્લિક કરવાથી ફાઇલો પસંદ થાય છે અને બે વાર ક્લિક કરવાથી તેઓ ખુલે છે. તમે તેને બદલે ફાઇલો અને ફોલ્ડરોને ખુલ્લા રાખવાનું પસંદ કરી શકો છો જ્યારે તમે તેઓ પર એકવાર તમે ક્લિક કરો. જ્યારે તમે એકજ ક્લિક સ્થિતિને વાપરો તો, તમે <key>Ctrl</key> કીને પકડી રાખી શકો છો જ્યારે એક અથવા વધારે ફાઇલોને પસંદ કરવા પર ક્લિક કરી રહ્યા હોય.</p>
+ </item>
+</terms>
+
+</section>
+<section id="executable">
+<title>ચલાવી શકાય તેવી લખાણ ફાઇલો</title>
+ <p>An executable text file is a file that contains a program that you can run
+ (execute). The <link xref="nautilus-file-properties-permissions">file
+ permissions</link> must also allow for the file to run as a program. The most
+ common are <sys>Shell</sys>, <sys>Python</sys> and <sys>Perl</sys> scripts.
+ These have extensions <file>.sh</file>, <file>.py</file> and <file>.pl</file>,
+ respectively.</p>
+ 
+ <p>તમે એક્ઝેક્યુટેબલ લખાણ ફાઈલ ખોલો છો ત્યારે, તમે તેમાંથી પસંદ કરી શકો છો:</p>
+ 
+ <list>
+  <item>
+    <p><gui>જ્યારે એક્ઝેક્યુટેબલ લખાણ ફાઈલો ખૂલેલી હોય ત્યારે તેમને ચલાવો</gui></p>
+  </item>
+  <item>
+    <p><gui>એક્ઝેક્યુટેબલ લખાણ ફાઇલોને જુઓ જ્યારે તેઓ ખોલેલ હોય</gui></p>
+  </item>
+  <item>
+    <p><gui>દરેક વખતે પૂછો</gui></p>
+  </item>
+ </list>
+
+ <p>જો <gui>દરેક સમયે પૂછો</gui> પસંદ થયેલ હોય તો, સંવાદ એ પૂછવા પોપ અપ કરશે જો તમે પસંદ થયેલ લખાણ ફાઇલને જોવા અથવા ચલાવવા માટે ઇચ્છો તો.</p>
+
+ <p>ચલાવી શકાય તેવી લખાણ ફાઇલો પણ સ્ક્રીપ્ટ તરીકે ઓળખાયેલ છે. <file>~/.local/share/nautilus/scripts</file>  ફોલ્ડરમાં બધી સ્ક્રીપ્ટ એ <gui style="menuitem">સ્ક્રીપ્ટs</gui> ઉપમેનુ હેઠળ ફાઇલ માટે સંદર્ભ મેનુમાં દેખાશે. જ્યારે સ્ક્રીપ્ટ એ સ્થાનિક ફોલ્ડરમાંથી ચલાવેલ હોય, બધી પસંદ થયેલ ફાઇલો પરિમાણો તરીકે સ્ક્રીપ્ટમાં ચોંટાડેલ હશે. ફાઇલ પર સ્ક્રીપ્ટને ચલાવવા માટે:</p>
+
+<steps>
+  <item>
+    <p>ઇચ્છિત ફોલ્ડરમાં શોધો.</p>
+  </item>
+  <item>
+    <p>ઇચ્છિત ફાઇલ પસંદ કરો.</p>
+  </item>
+  <item>
+    <p>સંદર્ભ મેનુને ખોલવા માટે ફાઇલ પર જમણી ક્લિક કરો અને <gui style="menuitem">સ્ક્રિપ્ટ</gui> મેનુમાંથી ચલાવવા માટે ઇચ્છિત સ્ક્રિપ્ટને પસંદ કરો.</p>
+  </item>
+</steps>
+
+ <note style="important">
+  <p>સ્ક્રિપ્ટ કોઇપણ પરિમાણોને પસાર કરશે નહિં જ્યારે દૂરસ્થ ફોલ્ડરમાંથી ચલાવેલ હોય જેમ કે ફોલ્ડર વેબ અથવા <sys>ftp</sys> સમાવિષ્ટને બતાવી રહ્યા હોય.</p>
+ </note>
+
+</section>
+<section id="trash">
+<info>
+<link type="seealso" xref="files-delete"/>
+<title type="link">ફાઇલ સંચાલક કચરાપેટી પસંદગીઓ</title>
+</info>
+<title>કચરાપેટી</title>
+
+<terms>
+ <item>
+  <title><gui>ફાઇલોને કાઢો અથવા કચરાપેટીમાંથી ખાલી કરતા પહેલાં પૂછો</gui></title>
+  <p>આ વિકલ્પ મૂળભૂત રીતે પસંદ થયેલ છે. જ્યારે કચરાપેટીને ખાલી કરી રહ્યા હોય, સંદેશો દર્શાવેલ હશે ખાતરી કરી રહ્યા છે કે તમે ફાઇલોને કાઢવા અથવા કચરાપેટીમાંથી ખાલી કરવાનું ગમે છે.</p>
+ </item>
+ <item>
+  <title><gui>કાઢી નાંખો આદેશને સમાવો કે જે કચરાપેટીમાં જવા દે છે</gui></title>
+  <p>આ વિકલ્પને પસંદ કરીને મેનુમાં <gui>કાઢી નાંખો</gui> વસ્તુને ઉમેરશે કે જે પોપ અપ કરે છે જ્યારે તમે <app>ફાઇલ</app> કાર્યક્રમમાં વસ્તુ પર જમણી ક્લિક કરો.</p>
+<note style="warning">
+<p><gui>કાઢી નાંખો</gui> મેનુની મદદથી વસ્તુને કાઢી રહ્યા છે કે જે ભેગું કચરાપેટીમાં મૂકે છે. વસ્તુ એ સંપૂર્ણપણે સિસ્ટમમાંથી દૂર થયેલ છે. ત્યાં કાઢેલ વસ્તુને પ્રાપ્ત કરવાનો રસ્તો નથી.</p>
+</note>
+ </item>
+</terms>
+</section>
+
+</page>

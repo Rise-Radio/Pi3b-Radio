@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="look-background" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="prefs-display"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-07" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>GNOME ஆவணமாக்கத் திட்டப்பணி</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>ஏப்ரல் கொன்சாலஸ்</name>
+      <email its:translate="no">loonycookie@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>நடாலியா ருஸ் லெய்வா</name>
+      <email its:translate="no">nruz@alumnos.inf.utfsm.cl </email>
+    </credit>
+    <credit type="author">
+      <name>ஷான் மெக்கேன்ஸ்</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>ஆன்ட்ரி க்ளாப்பர்</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <credit type="editor">
+      <name>மைக்கேல் ஹில்</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>ஷோபா தியாகி</name>
+      <email its:translate="no">tyagishobha@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>எக்காட்டெரினா ஜெராசிமோவா</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Set an image, color, or gradient as your desktop background or lock
+    screen background.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Change the desktop and lock screen backgrounds</title>
+
+  <p>You can change the image used for your backgrounds or set it to a be a
+  solid color.</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Background</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Background</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p><gui>உயர் நிறம் மாறுபாடு</gui> என்பதை <gui>இயக்கு</gui> என அமைக்கவும்.</p>
+    </item>
+    <item>
+      <p>மேலே மூன்று தெரிவுகள் காண்பிக்கப்படும்:</p>
+      <list>
+        <item>
+          <p>Select <gui>Wallpapers</gui> to use one of the many professional
+          background images that ship with GNOME. Some wallpapers change
+          throughout the day. These wallpapers have a small clock icon in the
+          bottom-right corner.</p>
+        </item>
+        <item>
+          <p>உங்கள் PIctures கோப்புறையில் உள்ள புகைப்படங்களில் ஒன்றைப் பயன்படுத்த <gui>படங்கள்</gui> ஐ தேர்ந்தெடுக்கவும். பெரும்பாலான புகைப்பட மேலாண்மை பயன்பாடுகள் புகைப்படங்களை இங்கு தான் சேமிக்கும். நீங்கள் <file>Pictures</file> கோப்புறையில் இல்லாத படத்தைப் பயன்படுத்த விரும்பினால், <app>FIles</app> ஐப் பயன்படுத்தி படக்கோப்பின் மீது வலது சொடுக்கம் செய்து <gui>வால்பேப்பராக அமை</gui> ஐ தேர்வு செய்யவும் <app>Image Viewer</app> பயன்பாட்டில் படக் கோப்பைத் திறந்து <guiseq><gui>படம்</gui><gui>பணிமேசை பின்புலமாக அமை</gui></guiseq> என்பதைத் தேர்ந்தெடுக்கவும்.</p>
+        </item>
+        <item>
+          <p>ஒரு நிறத்தை மட்டும் பயன்படுத்த <gui>நிறங்கள்</gui> ஐ தேர்ந்தெடுக்கவும்.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>அமைவுகள் உடனடியாக செயல்படுத்தப்படும்.</p>
+    </item>
+    <item>
+      <p>உங்கள் பணிமேசை முழுவதையும் காண <link xref="shell-workspaces-switch">காலி பணியிடத்திற்கு மாறுக</link>.</p>
+    </item>
+  </steps>
+
+</page>

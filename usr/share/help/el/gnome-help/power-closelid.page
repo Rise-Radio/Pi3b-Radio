@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="power-closelid" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="power"/>
+    <link type="seealso" xref="power-suspendfail"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-08" status="review"/>
+
+    <credit type="author">
+      <name>Έργο Τεκμηρίωσης GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Οι φορητοί υπολογιστές αδρανοποιούνται όταν κλείνετε το καπάκι, για να αποθηκεύσουν ισχύ.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Γιατί ο υπολογιστής μου απενεργοποιείται όταν κλείνω το καπάκι;</title>
+
+  <p>Όταν κλείνετε το καπάκι του φορητού σας, ο υπολογιστής σας θα <link xref="power-suspend"><em>ανασταλεί</em></link> για να εξοικονομήσει ισχύ. Αυτό σημαίνει ότι ο υπολογιστής δεν είναι στην πραγματικότητα ανενεργός - έχει απλά μεταβεί σε αδρανοποίηση. Μπορείτε να συνεχίσετε ανοίγοντας το καπάκι. Εάν δεν συνεχίσει, δοκιμάστε πατώντας το ποντίκι ή πατώντας ένα πλήκτρο. Εάν δεν δουλεύει ακόμα, πατήστε το κουμπί ισχύος.</p>
+
+  <p>Μερικοί υπολογιστές δεν μπορούν να ανασταλούν σωστά, κανονικά επειδή το υλικό τους δεν υποστηρίζεται πλήρως από το λειτουργικό σύστημα (για παράδειγμα, οι οδηγοί Λίνουξ είναι ατελείς). Σε αυτήν την περίπτωση, μπορεί να βρείτε ότι δεν μπορείτε να συνεχίσετε τον υπολογιστή σας αφού έχετε κλείσει το καπάκι. Μπορείτε να δοκιμάσετε <link xref="power-suspendfail">να ρυθμίσετε το πρόβλημα με την αναστολή</link>, ή μπορείτε να αποτρέψετε τον υπολογιστή από την προσπάθεια αναστολής όταν κλείνετε το καπάκι.</p>
+
+<section id="nosuspend">
+  <title>Σταματήστε τον υπολογιστή από αναστολή όταν το καπάκι είναι κλειστό</title>
+
+  <note style="important">
+    <p>Αυτές οι οδηγίες θα δουλέψουν μόνο αν χρησιμοποιείτε <app>systemd</app>. Επικοινωνήστε με τη διανομή σας για περισσότερες πληροφορίες.</p>
+  </note>
+
+  <p>Εάν δεν θέλετε ο υπολογιστής να ανασταλεί όταν κλείνετε το καπάκι, μπορείτε να αλλάξετε τις ρυθμίσεις για αυτήν τη συμπεριφορά. Θα χρειαστείτε να έχετε έναν <link xref="user-admin-change">κωδικό πρόσβασης διαχειριστή</link> για να αλλάξετε τη ρύθμιση.</p>
+
+  <note style="warning">
+    <p>Να είσαστε πολύ προσεκτικοί εάν αλλάζετε αυτήν τη ρύθμιση. Μερικοί φορητοί μπορεί να υπερθερμανθούν, εάν αφήνονται να τρέχουν με το καπάκι κλειστό, ειδικά εάν είναι σε μια περιορισμένη θέση όπως σε ένα σακίδιο.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>Ανοίξτε την εφαρμογή <app>τερματικός</app> από την επισκόπηση <gui>ενέργειες</gui>.</p>
+    </item>
+    <item>
+      <p>Εκτελέστε την ακόλουθη εντολή:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudoedit /etc/systemd/logind.conf</input></screen>
+    </item>
+    <item>
+      <p>Θα δείτε τώρα τα περιεχόμενα του αρχείου. Αναζητήστε <code>HandleLidSwitch=</code> στο αρχείο. Η γραμμή μπορεί να έχει ένα <code>#</code> στην αρχή και μπορεί να ακολουθείται από ένα όρισμα. Αν η γραμμή υπάρχει ήδη, αφαιρέστε το. Αλλιώς, προσθέστε τη γραμμή.</p>
+      <code>
+[Login]
+HandleLidSwitch=<input>lock</input>
+      </code>
+      <p>Μπορείτε να χρησιμοποιήσετε το <input>lock</input> (κλείδωμα)για να κλειδωθεί η οθόνη, <input>ignore</input> (παράβλεψη) για να μην συμβεί τίποτα, <input>poweroff</input> (τερματισμός)για απενεργοποίηση του υπολογιστή ή <input>suspend</input> (αναστολή) για να ανασταλεί. Για περισσότερες πληροφορίες, δείτε <link href="man:logind.conf">logind.conf help</link>.</p>
+    </item>
+    <item>
+      <p>Μόλις τελειώσετε την επεξεργασία του αρχείου, αποθηκεύστε τις αλλαγές σας και εγκαταλείψτε τον επεξεργαστή.</p>
+    </item>
+    <item>
+      <p>Εκτελέστε την παρακάτω εντολή για να κάνετε να δουλέψει η αλλαγή σας:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudo systemctl restart systemd-logind.service</input></screen>
+      <p>Αν δεν εκτελέσετε αυτήν την εντολή, η αλλαγή θα δουλέψει μόνο μετά την επανεκκίνηση του υπολογιστή σας.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

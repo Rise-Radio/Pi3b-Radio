@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-disable-service" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.13.92" date="2013-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    
+    <desc>Algunhas contas en liña poden usarse para acceder a múltiples servizos (como calendario e correo electrónico). Tamén pode controlar que servizos poden ser usados polos aplicativos.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Controle que servizos en liña dunha conta poden usarse para acceder</title>
+
+  <p>Algúns tipos de conta en liña permítenlle acceder a varios servizos coa mesma conta de usuario. Por exemplo, as contas de Google fornecen acceso ao calendario, correo-e, contactos e chat. Pode querer usar a súa conta para algúns servizos e para outros non. Por exemplo, pode querer usar a súa conta de Google para correo-e pero non para chat, xa que ten unha conta en liña distinta para usala para chatear.</p>
+
+  <p>Pode desactivar algúns servizos fornecidos por cada servizo en liña:</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Select the account which you want to change from the list on the
+      left.</p>
+    </item>
+    <item>
+      <p>A list of services that are available with this account will be
+      shown under <gui>Use for</gui>.</p>
+    </item>
+    <item>
+      <p>Switch off any of the services that you do not want to use.</p>
+    </item>
+  </steps>
+
+  <p>Once a service has been disabled for an account, applications on your
+  computer will not be able to use the account to connect to that service any
+  more.</p>
+
+  <p>Para activar un servizo para teña desactivado, volva á xanela <gui>Contas en liña</gui> e actíveo.</p>
+
+</page>

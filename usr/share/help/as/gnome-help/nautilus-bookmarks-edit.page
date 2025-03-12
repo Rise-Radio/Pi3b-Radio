@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="nautilus-bookmarks-edit" xml:lang="as">
+
+  <info>
+    <link type="guide" xref="files#faq"/>
+
+    <revision pkgversion="3.6.0" version="0.2" date="2012-09-30" status="review"/>
+
+    <desc>ফাইল ব্যৱস্থাপকত পত্ৰচিহ্নসমূহ যোগ কৰক, মচি পেলাওক, আৰু পুনৰ নামকৰণ কৰক।</desc>
+
+    <credit type="author">
+      <name>টিফানি এন্টপলস্কি</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>মাইকেল হিল</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>ফোল্ডাৰ পত্ৰচিহ্নসমূহ সম্পাদন কৰক</title>
+<p>আপোনাৰ পত্ৰচিহ্নসমূহ ফাইল ব্যৱস্থাপকৰ কাষবাৰত তালিকাভুক্ত কৰা আছে।</p>
+
+    <steps>
+    <title>এটা পত্ৰচিহ্ন যোগ কৰক:</title>
+    <item><p>আপুনি পত্ৰচিহ্ন কৰিব বিচৰা ফোল্ডাৰ (অথবা অৱস্থান) খোলক।</p></item>
+    <item><p>টুলবাৰত গিয়াৰ বুটাম ক্লিক কৰক আৰু <gui>এই অৱস্থান বুকমাৰ্ক কৰক</gui> বাছক।</p></item>
+    </steps>
+
+  <steps>
+  <title>এটা পত্ৰচিহ্ন মচি পেলাওক:</title>
+   <item><p>ওপৰ বাৰত <gui>ফাইলসমূহ</gui> ক্লিক কৰক আৰু এপ মেনুৰ পৰা <gui>পত্ৰচিহ্নসমূহ</gui> পিক কৰক।</p></item>
+   <item><p>In the <gui>Bookmarks</gui> window, select the bookmark you wish to
+   delete and click the <gui>-</gui> button.</p></item>
+  </steps>
+
+    <steps>
+    <title>এটা পত্ৰচিহ্ন পুনৰ নামকৰণ কৰক:</title>
+    <item><p>ওপৰ বাৰত <gui>ফাইলসমূহ</gui> ক্লিক কৰক আৰু এপ মেনুৰ পৰা <gui>পত্ৰচিহ্নসমূহ</gui> পিক কৰক।</p></item>
+    <item><p><gui>পত্ৰচিহ্নসমূহ</gui> উইন্ডোত, আপুনি পুনৰ নামকৰণ কৰিব বিচৰা পত্ৰচিহ্ন বাছক।</p></item>
+    <item><p><gui>নাম</gui> লিখনী বাকচত, পত্ৰচিহ্নৰ বাবে নতুন নাম টাইপ কৰক।</p>
+    <note>
+     <p>Renaming a bookmark does not rename the folder. If you have bookmarks
+     to two different folders in two different locations, but which each have
+     the same name, the bookmarks will have the same name, and you won't be
+     able to tell them apart. In these cases, it is useful to give a bookmark
+     a name other than the name of the folder it points to.</p>
+    </note>
+</item>
+    </steps>
+
+</page>

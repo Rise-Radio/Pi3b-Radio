@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="ui" id="power-batteryestimate" xml:lang="lv">
+
+  <info>
+
+    <link type="guide" xref="power#battery"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <desc>Atlikušais baterijas darbības laiks, kas parādās, nospiežot <gui>baterijas ikonu</gui>, ir aptuvens novērtējums.</desc>
+
+    <credit type="author">
+      <name>GNOME dokumentācijas projekts</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>Uzrādītais baterijas darbības laiks nav pareizs</title>
+
+<p>Kad jūs pārbaudāt atlikušo baterijas darbības laiku, tas var izrādīties atšķirīgs no patiesā laika, kuru baterija turpinās darboties. Tas notiek tāpēc, ka atlikušo baterijas darbības laiku ir iespējams tikai aptuveni novērtēt. Parasti novērtējums ar laiku kļūst precīzāks.</p>
+
+<p>Lai novērtētu atlikušo baterijas darbības laiku, jāņem vērā daudzi faktori. Pirmkārt, cik daudz enerģijas dators izmanto; enerģijas patēriņš ir atkarīgs no tā, kādas programmas darbojas, kādas ierīces pievienotas un vai tiek veiktas kādas intensīvas darbības (piemēram, DVD skatīšanās vai mūzikas datņu konvertēšana). Tas jebkurā brīdī var mainīties un ir grūti paredzams.</p>
+
+<p>Otrkārt, baterijas izlādēšanās ātrums. Dažas baterijas izlādējas arvien straujāk, kad tās kļūst tukšākas. Bez precīzām zināšanām par konkrēto bateriju var sniegt tikai aptuvenu atlikušā baterijas darbības laika novērtējumu.</p>
+
+<p>Baterijai izlādējoties, barošanas pārvaldnieks izpētīs tās īpatnības un iemācīsies labāk novērtēt atlikušo laiku. Tomēr šis novērtējums nekad nebūs pilnīgi precīzs.</p>
+
+<note>
+  <p>Ja novērtētais darbības laiks ir pilnīgi neticams (piemēram, simtiem dienu), visticamāk, barošanas pārvaldniekam trūkst datu, lai veiktu saprātīgu novērtējumu.</p>
+  <p>Ja atvienosiet datoru no strāvas un kādu laiku lietosiet bateriju, tad atkal pieslēgsiet vadu un ļausiet tai uzlādēties, barošanas pārvaldniekam vajadzētu iegūt nepieciešamos datus.</p>
+</note>
+
+</page>

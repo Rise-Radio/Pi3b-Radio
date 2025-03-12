@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="question" id="power-closelid" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="power"/>
+    <link type="seealso" xref="power-suspendfail"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-08" status="review"/>
+
+    <credit type="author">
+      <name>GNOME દસ્તાવેજીકરણ પ્રોજેક્ટ</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author editor">
+      <name>ઍકાટેરીના ગેરાસીમોવા</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>લેપટોપ નિષ્ક્રિય થઇ જાય થે જ્યારે તમે ઢાંકણુ બંધ કરો, પાવરને સંગ્રહવા ક્રમમાં.</desc>
+  </info>
+
+  <title>શા માટે મારું કમ્પ્યૂટર બંધ થાય છે જ્યારે હું ઢાંકણુ બંધ કરુ?</title>
+
+  <p>જ્યારે તમ તમારાં લેપટોપનાં ઢાંકણાને બંધ કરો ત્યારે, તમારું કમ્પ્યૂટર એ પાવરને સંગ્રહવા <link xref="power-suspend"><em>સ્થગિત</em></link> થશે. આનો મતલબ એ થાય કે કમ્પ્યૂટર એ વાસ્તવિક રીતે બંધ થતુ નથી તે ફક્ત નિષ્ક્રિય થઇ જાય છે. તમે ઢાંકણુ ખોલીને તેને પાછુ લાવી શકો છો. જો તે પાછુ ન આવે તો, કીને દબાવવાનું અથવા માઉસને ક્લિક કરવાનો પ્રયત્ન કરો. જો ત હજુ કામ ન કરતુ હોય તો, પાવર બટનને દબાવો.</p>
+
+  <p>અમુક કમ્પ્યૂટરો યોગ્ય રીતે સ્થગિત કરવા માટે સક્ષમ નથી, સામાન્ય રીતે ઓપરટીંગ સિસ્ટમ દ્દારા સંપૂર્ણપણે તેનાં હાર્ડવેર આધારભૂત નથી (ઉદાહરણ તરીકે, Linux ડ્રાઇવરો સમાપ્ત નથી). આ સ્થિતિમાં, તમે શોધી શકો છો કે તમે ઢાંકણાને બંધ કર્યા પછી તમારાં કમ્પ્યૂટરને પુન:પ્રાપ્ત કરવા માટે સક્ષમ નથી. તમે <link xref="power-suspendfail">સ્થગિત સાથે સમસ્યાને સુધારવા</link> પ્રયત્ન કરી શકો છો, અથવા સ્થગિત કરવાનો પ્રયત્ન કરવાથી કમ્પ્યૂટરને અટકાવી શકો છો જ્યારે તમે ઢાંકણાને બંધ કરો.</p>
+
+<section id="nosuspend">
+  <title>સ્થગિત થવાથી કમ્પ્યૂટરને બંધ કરો જ્યારે ઢાંકણુ બંધ થયેલ હોય</title>
+
+  <note style="important">
+    <p>These instructions will only work if you are using <app>systemd</app>.
+    Contact your distribution for more information.</p>
+  </note>
+
+  <p>If you do not want the computer to suspend when you close the lid, you can
+  change the settings for that behavior. You will need to have an
+  <link xref="user-admin-change">administrator password</link> to change the
+  setting.</p>
+
+  <note style="warning">
+    <p>સાવચેતી રાખો જો તમે આ સુયોજનોને બદલો તો. અમુક લેપટોપ વધારે ગરમ થઇ શકે છે જો તેઓ બંધ થયેલ ઢાંકણા સાથે ચાલુ કરીને છોડી મૂક્યુ હોય તો, ખાસ કરીને તેઓ યોગ્ય જગ્યામાં છે જેમ ક બેકપેક.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p><gui>પ્રવૃત્તિ </gui> ઝાંખીમાંથી <app>ટર્મિનલ</app> કાર્યક્રમનો ખોલો.</p>
+    </item>
+    <item>
+      <p>Run the following command:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudoedit /etc/systemd/logind.conf</input></screen>
+    </item>
+    <item>
+      <p>You will now see the contents of the file. Look for
+      <code>HandleLidSwitch=</code> in the file. The line may be quoted out
+      with a <code>#</code> at the start and may be followed by an argument. If
+      the line already exists, unquote it. Otherwise, add the line.</p>
+      <code>
+[Login]
+HandleLidSwitch=<input>lock</input>
+      </code>
+      <p>You can use <input>lock</input> for the screen to lock,
+      <input>ignore</input> for nothing to happen, <input>poweroff</input> for
+      the computer to switch off or <input>suspend</input> to suspend. For more
+      information, see <link href="man:logind.conf">logind.conf help</link>.</p>
+    </item>
+    <item>
+      <p>Once you finish editing the file, save your changes and quit the
+      editor.</p>
+    </item>
+    <item>
+      <p>Run the following command to make your change work:</p>
+      <screen its:translate="no"><output style="prompt">$</output> <input>sudo systemctl restart systemd-logind.service</input></screen>
+      <p>If you do not run that command, the change will only work after your
+      computer is restarted.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

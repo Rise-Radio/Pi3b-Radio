@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-braille" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="a11y#vision" group="blind"/>
+    <link type="seealso" xref="a11y-screen-reader"/>
+
+    <revision pkgversion="3.9.92" date="2013-09-18" status="incomplete"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>ஷான் மெக்கேன்ஸ்</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+
+    <desc>புதுப்பிக்கும் வசதியுள்ள பிரெய்லி காட்சியைக் கொண்ட <app>Orca</app> திரை வாசிப்புக் கருவியைப் பயன்படுத்துங்கள்.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>பிரெய்லி முறையில் திரையை வாசிக்கவும்</title>
+
+  <p>GNOME உங்களுக்கு புதுப்பிக்கும் வசதியுள்ள பிரெய்லி காட்சியில் பயனர் இடைமுகத்தைக் காண்பிக்கும் <app>Orca</app> திரையினை வழங்குகிறது. Orca உங்கள் கணினியில் நிறுவப்பட்டிருக்குமா என்பது நீங்கள் GNOME ஐ எப்படி நிறுவினீர்கள் என்பதைப் பொறுத்தது. <link href="install:orca">Orca வை நிறுவவும்</link>, பிறகு கூடுதல் தகவலுக்கு <link href="help:orca">Orca உதவி</link> ஐப் பார்க்கவும்.</p>
+
+</page>

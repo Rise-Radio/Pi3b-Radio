@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-views" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-views"/>
+
+    <desc>Die Standardansicht, -anordnung und -vergrößerungsstufe der Dateiverwaltung festlegen.</desc>
+
+    <revision pkgversion="3.8" version="0.2" date="2013-04-03" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Die Einstellungen von <app>Dateien</app> zeigen</title>
+
+<p>Sie können die Vorgabeansicht für neue Ordner festlegen, wie Dateien und Ordner standardmäßig sortiert werden, die Vergrößerungsstufe für die Symbol- und die Kompaktansicht und ob die Dateien in der Baumansicht angezeigt werden sollen. Wählen Sie dazu in der oberen Leiste <guiseq><gui style="menu">Dateien</gui> <gui style="menuitem">Einstellungen</gui></guiseq>, während <app>Dateien</app> geöffnet ist, und wählen dann den Reiter <gui style="tab">Ansichten</gui>.</p>
+
+<section id="default-view">
+<title>Vorgabeansicht</title>
+<terms>
+  <item>
+    <title><gui>Neue Ordner anzeigen mit</gui></title>
+    <p>By default, new folders are shown in icon view. If you prefer the list
+    view, you can set it here as the default. Alternatively, you can select a
+    different view for each folder as you browse by clicking the
+    <gui style="button">View items as a list</gui> or <gui style="button">View
+    items as a grid of icons</gui> button in the toolbar.</p>
+  </item>
+  <item>
+    <title><gui>Objekte anordnen</gui></title>
+    <p>You can change the default sort order that is used in folders using the
+    <gui>Arrange items</gui> drop-down list in the preferences to sort by name,
+    file size, file type, when they were last modified, when they were last
+    accessed or when they were trashed.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can change how <link xref="files-sort">files
+    are sorted</link> in an individual folder by clicking the
+    <media its:translate="no" type="image" src="figures/go-down.png">
+    <span its:translate="yes">View options</span></media> button
+    in the toolbar and choosing <gui>By Name</gui>, <gui>By Size</gui>, <gui>By
+    Type</gui> or <gui>By Modification Date</gui>, or by clicking the list
+    column headers in list view. This menu only affects the current folder.</p>
+  </item>
+  <item>
+    <title><gui>Ordner vor Dateien anzeigen</gui></title>
+    <p>Per Voreinstellung zeigt die Dateiverwaltung nicht mehr alle Ordner vor den Dateien. Aktivieren Sie diese Option, um alle Ordner vor Dateien auflisten zu lassen.</p>
+  </item>
+  <item>
+    <title><gui>Verborgene und Sicherungsdateien anzeigen</gui></title>
+    <p>Per Voreinstellung zeigt die Dateiverwaltung nicht mehr <link xref="files-hidden">verborgene Dateien</link> und Ordner. Aktivieren Sie diese Option, um verborgene Dateien anzeigen zu lassen.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can also show hidden files in an individual
+    window by selecting <gui>Show Hidden Files</gui>, from the
+    <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media> menu in
+    the toolbar.</p>
+  </item>
+</terms>
+</section>
+
+<section id="icon-view-defaults">
+<title>Vorgaben für Symbolansicht</title>
+<terms>
+  <item>
+    <title><gui>Voreingestellte Vergrößerungsstufe</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can make the icons and text larger or
+    smaller by default in icon view using this option. You can also change this
+    setting in an individual folder by clicking the
+    <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media> button
+    in the toolbar and selecting <gui>Zoom In</gui>, <gui>Zoom Out</gui> or
+    <gui>Normal Size</gui>. If you frequently use a larger or smaller zoom
+    level, you can set the default with this option.</p>
+    <p>In der Symbolansicht werden je nach Vergrößerungsstufe mehr oder weniger <link xref="nautilus-display#icon-captions">Beschriftungen</link> angezeigt.</p>
+   </item>
+  </terms>
+</section>
+
+<section id="list-view-defaults">
+<title>Vorgaben für Listenansicht</title>
+<terms>
+  <item>
+    <title><gui>Voreingestellte Vergrößerungsstufe</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">You can make the icons and text larger or
+    smaller in list view using this option. You can also do this in an
+    individual folder by clicking the
+    <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media> button
+    in the toolbar and selecting <gui>Zoom In</gui>, <gui>Zoom Out</gui> or
+    <gui>Normal Size</gui>.</p>
+  </item>
+</terms>
+</section>
+
+</page>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="clock-set" xml:lang="sr">
+
+  <info>
+    <link type="guide" xref="clock"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+
+    <credit type="author">
+      <name>Гномов пројекат документације</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Мајкл Хил</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Кликните на сат на горњој траци и идите на <gui>Подешавања датума и времена</gui> да измените датум и време.</desc>
+  </info>
+
+<title>Измените датум и време</title>
+
+  <p>Ако су приказани датум и време на горњој траци нетачни или у погрешном формату, можете да их измените:</p>
+
+  <steps>
+    <item>
+      <p>Кликните на сат на средини горње траке и изаберите <gui>Подешавања датума и времена</gui>.</p>
+    </item>
+    <item>
+      <p>Ако имате стандардни налог, мораћете да кликнете на <gui>Откључај</gui> и да упишете <link xref="user-admin-explain">администраторску лозинку</link>.</p>
+    </item>
+    <item>
+      <p>Ако имате интернет везу, можете да подесите да се ваш датум, време и временска зона самостално ажурирају тако што ћете пребацити <gui>Самосталан датум и време</gui> и <gui>Самостална временска зона</gui> на <gui>УКЉ.</gui>.</p>
+      <p>Ако немате интернет везу, можете ручно да их освежите тако што ћете их пребацити на <gui>ИСКЉ.</gui>, затим притиснути <gui>Датум и време</gui> и <gui>Временска зона</gui> да освежите.</p>
+    </item>
+    <item>
+      <p>Можете такође да измените на који начин ће часовник бити приказан тако што ћете изабрати <gui>24-часовни</gui> или <gui>12-часовни</gui> (ПрП/ПоП) запис.</p>
+    </item>
+  </steps>
+
+</page>

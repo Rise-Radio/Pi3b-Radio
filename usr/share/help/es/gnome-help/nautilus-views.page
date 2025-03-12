@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-views" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-views"/>
+
+    <desc>Especificar la vista predeterminada, la ordenación y los niveles de ampliación para el gestor de archivos.</desc>
+
+    <revision pkgversion="3.8" version="0.2" date="2013-04-03" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Preferencias de vistas en <app>Archivos</app></title>
+
+<p>Puede cambiar la vista predeterminada para nuevas carpetas, cómo se ordenarán los archivos y carpetas de manera predeterminada, el nivel de ampliación en las vistas de iconos y compactas y si se mostrarán los archivos en la barra lateral de árbol. Seleccione <guiseq><gui style="menu">Archivos</gui> <gui style="menuitem">Preferencias</gui></guiseq> en la barra superior y seleccione la pestaña <gui style="tab">Vistas</gui>.</p>
+
+<section id="default-view">
+<title>Vista predeterminada</title>
+<terms>
+  <item>
+    <title><gui>Ver las carpetas nuevas usando</gui></title>
+    <p>De manera predeterminada, las carpetas nuevas se muestran en la vista de iconos. Si prefiere la vista de lista, puede establecerla aquí como predeterminada. Alternativamente, puede seleccionar una vista diferente para cada carpeta que examine pulsando los botones <gui style="button">Ver elementos como una lista</gui> o <gui style="button">Ver elementos como una rejilla de iconos</gui> en la barra de herramientas.</p>
+  </item>
+  <item>
+    <title><gui>Organizar los elementos</gui></title>
+    <p>Puede cambiar el orden predeterminado usado en las carpetas nuevas, usando la lista desplegable <gui>Organizar los elementos</gui> en las preferencias para ordenar por nombre, tamaño del archivo, tipo del archivo, cuándo se modificaron por última vez, cuándo se accedieron por última vez o cuándo se movieron a la papelera.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Puede cambiar cómo <link xref="files-sort">se ordenan los archivos</link> en una carpeta individual pulsando el botón <media its:translate="no" type="image" src="figures/go-down.png">
+    <span its:translate="yes">Opciones de la vista</span></media> en la barra de herramientas y escogiendo <gui>Por nombre</gui>, <gui>Por tamaño</gui>, <gui>Por tipo</gui> o <gui>Por fecha de modificación</gui>; o pulsando en las cabeceras de las columnas en la vista de lista. Este menú solo afecta a la carpeta actual.</p>
+  </item>
+  <item>
+    <title><gui>Colocar las carpetas antes que los archivos</gui></title>
+    <p>De manera predeterminada, el gestor de archivos ya no muestra las carpetas antes de los archivos. Para ver todas las carpetas antes de los archivos, active esta opción</p>
+  </item>
+  <item>
+    <title><gui>Mostrar archivos ocultos y de respaldo</gui></title>
+    <p>El gestor de archivos no muestra los <link xref="files-hidden">archivos ocultos</link> ni las carpetas de manera predeterminada. Siempre puede mostrar los archivos ocultos seleccionando esta opción.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">También puede mostrar los archivos ocultos en una ventana individual seleccionando <gui>Mostrar archivos ocultos</gui>, en el menú <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Opciones de la vista</span></media> en la barra de herramientas.</p>
+  </item>
+</terms>
+</section>
+
+<section id="icon-view-defaults">
+<title>Vista de icono predeterminada</title>
+<terms>
+  <item>
+    <title><gui>Nivel de ampliación predeterminado:</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Puede hacer que los iconos y textos sean más grandes o más pequeños en la vista de icono usando esta opción. También puede hacerlo en una carpeta individual pulsando el botón <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Opciones de la vista</span></media> en la barra de herramientas y seleccionando <gui>Ampliar</gui>, <gui>Reducir</gui> o <gui>Tamaño normal</gui>. Si frecuentemente usa un nivel de ampliación más grande o más pequeño, puede establecer el nivel predeterminado con esta opción.</p>
+    <p>En la vista de iconos, se mostrarán más o menos <link xref="nautilus-display#icon-captions">leyendas informativas</link> en función de su nivel de ampliación.</p>
+   </item>
+  </terms>
+</section>
+
+<section id="list-view-defaults">
+<title>Valores predeterminados de la vista de lista</title>
+<terms>
+  <item>
+    <title><gui>Nivel de ampliación predeterminado:</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">Puede hacer que los iconos y los textos sean más grandes o más pequeños en la vista de lista usando esta opción. También puede hacerlo en una carpeta individual pulsando el botón <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">Opciones de la vista</span></media> en la barra de herramientas y seleccionando <gui>Ampliar</gui>, <gui>Reducir</gui> o <gui>Tamaño normal</gui>.</p>
+  </item>
+</terms>
+</section>
+
+</page>

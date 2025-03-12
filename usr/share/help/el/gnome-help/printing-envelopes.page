@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="printing-envelopes" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="printing#paper"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Βεβαιωθείτε ότι έχετε τον φάκελο/την ετικέτα τοποθετημένα σωστά και έχετε επιλέξει το σωστό μέγεθος χαρτιού.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Εκτύπωση φακέλων και ετικετών</title>
+
+  <p>Οι περισσότεροι εκτυπωτές θα επιτρέψουν την εκτύπωση απευθείας σε έναν φάκελο ή φύλλο ετικετών. Αυτό είναι ιδιαίτερα χρήσιμο, εάν έχετε πολλά γράμματα να στείλετε, για παράδειγμα.</p>
+
+  <section id="envelope">
+    <title>Εκτύπωση σε φακέλους</title>
+
+  <p>There are two things you need to check when trying to print onto an
+  envelope. The first is that your printer knows what size the envelope is.
+  After you click <gui>Print</gui> and the Print window appears, go to the
+  <gui>Page Setup</gui> tab and choose the <gui>Paper type</gui> as "Envelope"
+  if you can. If you cannot do this, see if you can change the <gui>Paper
+  size</gui> to an envelope size (for example, <gui>C5</gui>). The pack of
+  envelopes will say what size they are; most envelopes come in standard
+  sizes.</p>
+
+  <p>Δεύτερο, χρειάζεται να βεβαιωθείτε ότι οι φάκελοι είναι φορτωμένοι με τη σωστή όψη στον δίσκο του εκτυπωτή. Ελέγξετε το εγχειρίδιο του εκτυπωτή για αυτό, ή δοκιμάστε να τυπώσετε έναν μόνο φάκελο και ελέγξετε ποια όψη εκτυπώνεται για να δείτε ποιος τρόπος είναι ο σωστός.</p>
+
+  <note style="warning">
+    <p>Μερικοί εκτυπωτές δεν είναι σχεδιασμένοι να μπορούν να εκτυπώσουν φακέλους, ειδικά κάποιοι εκτυπωτές λέιζερ. Κοιτάξτε το εγχειρίδιο του εκτυπωτή σας για να δείτε εάν δέχεται φακέλους· αλλιώς, μπορεί να βλάψετε τον εκτυπωτή προωθώντας έναν φάκελο σε αυτόν.</p>
+  </note>
+
+  </section>
+
+<!--
+INCOMPLETE: Please write this section!
+
+<section id="labels">
+ <title>Printing labels</title>
+
+</section>
+-->
+
+</page>

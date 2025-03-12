@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="sharing-bluetooth" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="bluetooth"/>
+    <link type="guide" xref="sharing"/>
+    <link type="guide" xref="prefs-sharing"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-13" status="draft"/>
+    <revision pkgversion="3.10" date="2013-11-09" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-08" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-13" status="candidate"/>
+
+    <credit type="author">
+      <name>Majkl Hil</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2014</years>
+    </credit>
+    <credit type="author">
+      <name>Dejvid King</name>
+      <email its:translate="no">davidk@gnome.org</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Omogućite utovar datoteka na vaš računar putem blututa.</desc>
+  </info>
+
+  <title>Upravljajte deljenjem preko blututa</title>
+
+  <p>Možete da podesite <gui>Deljenje blututa</gui> da upravljate pristupom fascikli <file>Preuzimanja</file> za deljenje datoteka blututom, i takođe da ograničite taj pristup samo <em>poverljivim uređajima</em>. Poverljivi uređaji su oni koje ste ranije <link xref="bluetooth-connect-device">uparili</link> sa vašim računarom.</p>
+
+  <note style="info package">
+    <p>Morate imati instalran paket <app>Gnomovo korisničko deljenje</app> da bi <gui>Deljenje blututom</gui> bilo vidljivo.</p>
+
+    <if:choose xmlns:if="http://projectmallard.org/if/1.0/">
+      <if:when test="action:install">
+        <p><link action="install:gnome-user-share" style="button">Instalirajte Gnomovo korisničko deljenje</link></p>
+      </if:when>
+    </if:choose>
+  </note>
+
+  <steps>
+    <title>Dozvolite deljenje datoteka u vašoj fascikli <file>Preuzimanja</file></title>
+    <item>
+      <p>Otvorite pregled <gui xref="shell-terminology">Aktivnosti</gui> i počnite da kucate <gui>Deljenje</gui>.</p>
+    </item>
+    <item>
+      <p>Kliknite na <gui>Deljenje</gui> da otvorite panel.</p>
+    </item>
+    <item>
+      <p>Ako je <gui>Deljenje</gui> <gui>ISKLJ.</gui>, prebacite ga na <gui>UKLJ.</gui>.</p>
+    </item>
+    <item>
+      <p>Izaberite <gui>Deljenje blututom</gui>.</p>
+    </item>
+    <item>
+      <p>Prebacite <gui>Sačuvaj primljene datoteke u fascikli preuzimanja</gui> na <gui>UKLJ.</gui>.</p>
+    </item>
+    <item>
+      <p>Ako želite da dozvolite samo poverljivim uređajima da pristupe vašoj fascikli <file>Preuzimanja</file>, prebacite <gui>Samo primaj sa poverljivih uređaja</gui> na <gui>UKLJ.</gui>.</p>
+
+      <note style="tip">
+        <p>Ova mogućnost je unapred isključena. Treba da je uključite ako želite da sprečite pristup vašim deljenim fasciklama bilo kome u blizini sa uključenim blututom na mobilnom telefonu.</p>
+      </note>
+
+    </item>
+    <item>
+      <p>Pritisnite <gui style="button">Zatvori</gui>. Uređaji sa uključenim blututom će sada moći da šalju datoteke u vašu fasciklu <file>Preuzimanja</file>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Možete da <link xref="sharing-displayname">izmenite</link> naziv pod kojim se vaš računar prikazuje drugim uređajima.</p>
+  </note>
+
+  <p><app>Datoteke</app> vam omogućava da pokrenete panel <gui>Deljenje</gui> neposredno klikom na dugme <gui>Postavke</gui> kada posetite fasciklu <file>Preuzimanja</file>.</p>
+
+</page>

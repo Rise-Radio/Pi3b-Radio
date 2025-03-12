@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Андрэ Клаппер (Andre Klapper)</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc>Приложения могут использовать учётные записи, созданные в <app>Сетевых учётных записях</app> и предоставляемые ими услуги.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Какие приложения могут воспользоваться преимуществами, предоставляемыми сетевыми учётными записями?</title>
+
+  <p><app>Сетевые учётные записи</app> могут использоваться внешними приложениями для автоматической настройки.</p>
+
+<section id="accounts-google-services">
+  <title>С учётной записью Google</title>
+
+  <list>
+    <item>
+      <p><app>Evolution</app>, почтовое приложение. Ваша учётная запись электронной почты будет автоматически добавлена в <app>Evolution</app>, так что вы сможете получать почту, осуществлять доступ к контактам и отображать свои календарные события в календаре Google.</p>
+    </item>
+    <item>
+      <p><app>Empathy</app> — клиент для обмена мгновенными сообщениями. Ваша сетевая учётная запись будет добавлена, и вы сможете общаться с друзьями.</p>
+    </item>
+    <item>
+      <p><app>Контакты</app> позволит просматривать и редактировать ваши контакты.</p>
+    </item>
+    <item>
+      <p>Приложение <app>Документы</app> может осуществлять доступ к вашим онлайн-документам и отображать их.</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>С учётными записями Windows Live, Facebook или Twitter</title>
+
+  <p><app>Empathy</app> может использовать эти учётные записи для он-лайн подключения, и предоставит вам возможность беседовать с вашими контактами, друзьями и подписчиками.</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>With a OneDrive account</title>
+
+  <p><app>Documents</app> can access your online documents in Microsoft
+  OneDrive and display them.</p>
+</section>
+
+<section id="account-exchange">
+  <title>С учётными записями Exchange</title>
+
+  <p>После того, как вы создали учётную запись в Exchange, <app>Evolution</app> сможет забирать почту, приходящую на эту учётную запись..</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>С учётными записями ownCloud</title>
+
+  <p>При наличии настроенной учётной записи ownCloud, почтовое приложение <app>Evolution</app> имеет доступ и возможность изменять настройки контактов и событий в календаре.</p>
+
+  <p><app>Nautilus</app> и другие приложения смогут видеть и иметь доступ к вашим файлам, хранящимся он-лайн в установке ownCloud.</p>
+</section>
+
+</page>

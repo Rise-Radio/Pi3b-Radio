@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-create" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc><app>ऑनलाईन खाते</app> वापरुन नवीन खातं उघडा.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>ऑनलाईन खातं उघडा</title>
+
+  <p><app>ऑनलाइन अकाउंट्स</app> समाविष्ट करताना, काही ऑनलाइन खाते सर्व्हिस प्रोव्हाइडर्स तुम्हाला खाते निर्माणकरिता परवानगी देते. ह्यामुळे तुमची सर्व ऑनलाइन अकाउंट्स एका ॲप्लिकेशनपासून नियंत्रीत करण्यास शक्य होते.</p>
+
+  <!-- Tested with Google -->
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p><gui style="button">+</gui> क्लिक करा.</p>
+    </item>
+    <item>
+      <p>Select the type of account which you want to add. Some account types
+      may <link xref="accounts-provider-not-available">not be
+      available</link>.</p>
+    </item>
+    <item>
+      <p>सर्व्हिस तुम्हाला खाते निर्माणकरिता परवानगी देत असल्यास, असे करण्यासाठी तुम्हाला आणखी माहिती आढळेल.</p>
+      <note>
+        <p>सर्व ऑनलाइन खाते प्रोव्हाइडर्स ह्या स्तराला नवीन खाते निर्माण करायचे पर्याय पुरवत नाही. नोंदणी करणे खरे असल्यास, खाते निर्माण करण्यासाठी तुम्हाला वैकल्पिक पद्धतीचा वापर करावा लागेल.</p>
+      </note>
+    </item>
+    <item>
+      <p>नोंदणी फॉर्म भरा. तुम्हाला काही व्यक्तिगत तपशील जसे कि वापरकर्तानाव आणि पासवर्डकरिता विचारले जाईल.</p>
+    </item>
+    <item>
+      <p><app>ऑनलाइन अकाउंट्स</app> सह वापर करिता तुम्हाला नवीन खातेकरिता GNOME प्रवेश द्यावे लागेल.</p>
+    </item>
+    <item>
+      <p>All services that are offered by an account provider will be enabled
+      by default. <link xref="accounts-disable-service">Switch</link>
+      individual services to <gui>OFF</gui> to disable them.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-remove" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-15" status="draft"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="draft"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <desc>Online fiók törlése.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Griechisch Erika</mal:name>
+      <mal:email>griechisch.erika at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kucsebár Dávid</mal:name>
+      <mal:email>kucsdavid at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lakatos 'Whisperity' Richárd</mal:name>
+      <mal:email>whisperity at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lukács Bence</mal:name>
+      <mal:email>lukacs.bence1 at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nagy Zoltán</mal:name>
+      <mal:email>dzodzie at gmail dot com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Fiók eltávolítása</title>
+
+  <p>A használni már nem kívánt online fiókot eltávolíthatja.</p>
+
+  <steps>
+    <item>
+      <p>Nyissa meg a <gui xref="shell-terminology">Tevékenységek</gui> áttekintést, és kezdje el begépelni az <gui>Online fiókok</gui> szót.</p>
+    </item>
+    <item>
+      <p>Kattintson az <gui>Online fiókok</gui> ikonra a panel megnyitásához.</p>
+    </item>
+    <item>
+      <p>Válassza ki a törölni kívánt fiókot.</p>
+    </item>
+    <item>
+      <p>Kattintson az ablak bal alsó sarkában lévő <gui>-</gui> gombra.</p>
+    </item>
+    <item>
+      <p>Kattintson az <gui>Eltávolítás</gui> gombra.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>A fiók teljes törlése helyett lehetőség van az asztali környezet által elérhető <link xref="accounts-disable-service">szolgáltatások korlátozására</link>.</p>
+  </note>
+
+  <p>A GNOME adott fiókhoz való hozzáférésének megakadályozásához a hozzáférést a fiók weboldalán vagy hasonló szolgáltatásán keresztül kell visszavonnia.</p>
+</page>

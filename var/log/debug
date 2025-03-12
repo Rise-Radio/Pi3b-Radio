@@ -1,0 +1,325 @@
+Mar 10 01:11:15 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 10 01:11:15 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 10 01:11:15 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 10 01:11:15 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 10 01:11:15 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 10 01:11:15 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 10 01:11:15 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 10 01:11:15 DIBTVTest1A1 kernel: [    0.722190] dwc_otg: Microframe scheduler enabled
+Mar 10 01:11:15 DIBTVTest1A1 kernel: [    0.723747] dwc_otg: FIQ enabled
+Mar 10 01:11:15 DIBTVTest1A1 kernel: [    0.723756] dwc_otg: NAK holdoff enabled
+Mar 10 01:11:15 DIBTVTest1A1 kernel: [    0.723764] dwc_otg: FIQ split-transaction FSM enabled
+Mar 10 01:11:15 DIBTVTest1A1 kernel: [    0.723795] Module dwc_common_port init
+Mar 10 01:11:16 DIBTVTest1A1 ntpd[654]: signal_no_reset: signal 17 had flags 4000000
+Mar 10 10:03:00 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 10 10:03:00 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 10 10:03:00 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 10 10:03:00 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 10 10:03:00 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 10 10:03:00 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 10 10:03:00 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 10 10:03:00 DIBTVTest1A1 kernel: [    0.722209] dwc_otg: Microframe scheduler enabled
+Mar 10 10:03:00 DIBTVTest1A1 kernel: [    0.723810] dwc_otg: FIQ enabled
+Mar 10 10:03:00 DIBTVTest1A1 kernel: [    0.723819] dwc_otg: NAK holdoff enabled
+Mar 10 10:03:00 DIBTVTest1A1 kernel: [    0.723827] dwc_otg: FIQ split-transaction FSM enabled
+Mar 10 10:03:00 DIBTVTest1A1 kernel: [    0.723858] Module dwc_common_port init
+Mar 10 10:03:00 DIBTVTest1A1 ntpd[653]: signal_no_reset: signal 17 had flags 4000000
+Mar 10 10:09:01 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 10 10:09:01 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 10 10:09:01 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 10 10:09:01 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 10 10:09:01 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 10 10:09:01 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 10 10:09:01 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 10 10:09:01 DIBTVTest1A1 kernel: [    0.722191] dwc_otg: Microframe scheduler enabled
+Mar 10 10:09:01 DIBTVTest1A1 kernel: [    0.723780] dwc_otg: FIQ enabled
+Mar 10 10:09:01 DIBTVTest1A1 kernel: [    0.723790] dwc_otg: NAK holdoff enabled
+Mar 10 10:09:01 DIBTVTest1A1 kernel: [    0.723798] dwc_otg: FIQ split-transaction FSM enabled
+Mar 10 10:09:01 DIBTVTest1A1 kernel: [    0.723830] Module dwc_common_port init
+Mar 10 10:09:02 DIBTVTest1A1 ntpd[652]: signal_no_reset: signal 17 had flags 4000000
+Mar 10 10:30:00 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 10 10:30:00 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 10 10:30:00 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 10 10:30:00 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 10 10:30:00 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 10 10:30:00 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 10 10:30:00 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 10 10:30:00 DIBTVTest1A1 kernel: [    0.722106] dwc_otg: Microframe scheduler enabled
+Mar 10 10:30:00 DIBTVTest1A1 kernel: [    0.723665] dwc_otg: FIQ enabled
+Mar 10 10:30:00 DIBTVTest1A1 kernel: [    0.723674] dwc_otg: NAK holdoff enabled
+Mar 10 10:30:00 DIBTVTest1A1 kernel: [    0.723682] dwc_otg: FIQ split-transaction FSM enabled
+Mar 10 10:30:00 DIBTVTest1A1 kernel: [    0.723714] Module dwc_common_port init
+Mar 10 10:30:00 DIBTVTest1A1 ntpd[652]: signal_no_reset: signal 17 had flags 4000000
+Mar 10 10:32:53 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 10 10:32:53 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 10 10:32:53 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 10 10:32:53 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 10 10:32:53 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 10 10:32:53 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 10 10:32:53 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 10 10:32:53 DIBTVTest1A1 kernel: [    0.722057] dwc_otg: Microframe scheduler enabled
+Mar 10 10:32:53 DIBTVTest1A1 kernel: [    0.723604] dwc_otg: FIQ enabled
+Mar 10 10:32:53 DIBTVTest1A1 kernel: [    0.723613] dwc_otg: NAK holdoff enabled
+Mar 10 10:32:53 DIBTVTest1A1 kernel: [    0.723621] dwc_otg: FIQ split-transaction FSM enabled
+Mar 10 10:32:53 DIBTVTest1A1 kernel: [    0.723651] Module dwc_common_port init
+Mar 10 10:32:53 DIBTVTest1A1 ntpd[653]: signal_no_reset: signal 17 had flags 4000000
+Mar 10 10:35:19 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 10 10:35:19 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 10 10:35:19 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 10 10:35:19 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 10 10:35:19 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 10 10:35:19 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 10 10:35:19 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 10 10:35:19 DIBTVTest1A1 kernel: [    0.721856] dwc_otg: Microframe scheduler enabled
+Mar 10 10:35:19 DIBTVTest1A1 kernel: [    0.723416] dwc_otg: FIQ enabled
+Mar 10 10:35:19 DIBTVTest1A1 kernel: [    0.723426] dwc_otg: NAK holdoff enabled
+Mar 10 10:35:19 DIBTVTest1A1 kernel: [    0.723433] dwc_otg: FIQ split-transaction FSM enabled
+Mar 10 10:35:19 DIBTVTest1A1 kernel: [    0.723466] Module dwc_common_port init
+Mar 10 10:35:19 DIBTVTest1A1 ntpd[652]: signal_no_reset: signal 17 had flags 4000000
+Mar 10 10:37:31 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 10 10:37:31 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 10 10:37:31 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 10 10:37:31 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 10 10:37:31 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 10 10:37:31 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 10 10:37:31 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 10 10:37:31 DIBTVTest1A1 kernel: [    0.722181] dwc_otg: Microframe scheduler enabled
+Mar 10 10:37:31 DIBTVTest1A1 kernel: [    0.723784] dwc_otg: FIQ enabled
+Mar 10 10:37:31 DIBTVTest1A1 kernel: [    0.723794] dwc_otg: NAK holdoff enabled
+Mar 10 10:37:31 DIBTVTest1A1 kernel: [    0.723802] dwc_otg: FIQ split-transaction FSM enabled
+Mar 10 10:37:31 DIBTVTest1A1 kernel: [    0.723835] Module dwc_common_port init
+Mar 10 10:37:31 DIBTVTest1A1 ntpd[653]: signal_no_reset: signal 17 had flags 4000000
+Mar 10 10:39:21 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 10 10:39:21 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 10 10:39:21 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 10 10:39:21 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 10 10:39:21 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 10 10:39:21 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 10 10:39:21 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 10 10:39:21 DIBTVTest1A1 kernel: [    0.722133] dwc_otg: Microframe scheduler enabled
+Mar 10 10:39:21 DIBTVTest1A1 kernel: [    0.723682] dwc_otg: FIQ enabled
+Mar 10 10:39:21 DIBTVTest1A1 kernel: [    0.723691] dwc_otg: NAK holdoff enabled
+Mar 10 10:39:21 DIBTVTest1A1 kernel: [    0.723699] dwc_otg: FIQ split-transaction FSM enabled
+Mar 10 10:39:21 DIBTVTest1A1 kernel: [    0.723732] Module dwc_common_port init
+Mar 10 10:39:21 DIBTVTest1A1 ntpd[650]: signal_no_reset: signal 17 had flags 4000000
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.687729] dwc_otg: Microframe scheduler enabled
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.689271] dwc_otg: FIQ enabled
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.689281] dwc_otg: NAK holdoff enabled
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.689288] dwc_otg: FIQ split-transaction FSM enabled
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.689319] Module dwc_common_port init
+Mar 10 13:17:03 DIBTVTest1A1 ntpd[648]: signal_no_reset: signal 17 had flags 4000000
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.687177] dwc_otg: Microframe scheduler enabled
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.688718] dwc_otg: FIQ enabled
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.688727] dwc_otg: NAK holdoff enabled
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.688735] dwc_otg: FIQ split-transaction FSM enabled
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.688767] Module dwc_common_port init
+Mar 10 13:17:04 DIBTVTest1A1 ntpd[641]: signal_no_reset: signal 17 had flags 4000000
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.687174] dwc_otg: Microframe scheduler enabled
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.688717] dwc_otg: FIQ enabled
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.688727] dwc_otg: NAK holdoff enabled
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.688734] dwc_otg: FIQ split-transaction FSM enabled
+Mar 10 13:17:03 DIBTVTest1A1 kernel: [    0.688765] Module dwc_common_port init
+Mar 10 13:17:03 DIBTVTest1A1 ntpd[584]: signal_no_reset: signal 17 had flags 4000000
+Mar 11 14:45:05 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 11 14:45:05 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 11 14:45:05 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 11 14:45:05 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 11 14:45:05 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 11 14:45:05 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 11 14:45:05 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 11 14:45:05 DIBTVTest1A1 kernel: [    0.687493] dwc_otg: Microframe scheduler enabled
+Mar 11 14:45:05 DIBTVTest1A1 kernel: [    0.689048] dwc_otg: FIQ enabled
+Mar 11 14:45:05 DIBTVTest1A1 kernel: [    0.689058] dwc_otg: NAK holdoff enabled
+Mar 11 14:45:05 DIBTVTest1A1 kernel: [    0.689065] dwc_otg: FIQ split-transaction FSM enabled
+Mar 11 14:45:05 DIBTVTest1A1 kernel: [    0.689096] Module dwc_common_port init
+Mar 11 14:45:05 DIBTVTest1A1 ntpd[602]: signal_no_reset: signal 17 had flags 4000000
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.687500] dwc_otg: Microframe scheduler enabled
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.689057] dwc_otg: FIQ enabled
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.689066] dwc_otg: NAK holdoff enabled
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.689074] dwc_otg: FIQ split-transaction FSM enabled
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.689105] Module dwc_common_port init
+Mar 11 16:40:12 DIBTVTest1A1 ntpd[627]: signal_no_reset: signal 17 had flags 4000000
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.722222] dwc_otg: Microframe scheduler enabled
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.723827] dwc_otg: FIQ enabled
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.723836] dwc_otg: NAK holdoff enabled
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.723844] dwc_otg: FIQ split-transaction FSM enabled
+Mar 11 16:40:11 DIBTVTest1A1 kernel: [    0.723876] Module dwc_common_port init
+Mar 11 16:40:12 DIBTVTest1A1 ntpd[611]: signal_no_reset: signal 17 had flags 4000000
+Mar 11 16:44:14 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 11 16:44:14 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 11 16:44:14 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 11 16:44:14 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 11 16:44:14 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 11 16:44:14 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 11 16:44:14 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 11 16:44:14 DIBTVTest1A1 kernel: [    0.721983] dwc_otg: Microframe scheduler enabled
+Mar 11 16:44:14 DIBTVTest1A1 kernel: [    0.723580] dwc_otg: FIQ enabled
+Mar 11 16:44:14 DIBTVTest1A1 kernel: [    0.723590] dwc_otg: NAK holdoff enabled
+Mar 11 16:44:14 DIBTVTest1A1 kernel: [    0.723598] dwc_otg: FIQ split-transaction FSM enabled
+Mar 11 16:44:14 DIBTVTest1A1 kernel: [    0.723629] Module dwc_common_port init
+Mar 11 16:44:15 DIBTVTest1A1 ntpd[646]: signal_no_reset: signal 17 had flags 4000000
+Mar 11 16:49:49 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 11 16:49:49 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 11 16:49:49 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 11 16:49:49 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 11 16:49:49 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 11 16:49:49 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 11 16:49:49 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 11 16:49:49 DIBTVTest1A1 kernel: [    0.722155] dwc_otg: Microframe scheduler enabled
+Mar 11 16:49:49 DIBTVTest1A1 kernel: [    0.723707] dwc_otg: FIQ enabled
+Mar 11 16:49:49 DIBTVTest1A1 kernel: [    0.723717] dwc_otg: NAK holdoff enabled
+Mar 11 16:49:49 DIBTVTest1A1 kernel: [    0.723724] dwc_otg: FIQ split-transaction FSM enabled
+Mar 11 16:49:49 DIBTVTest1A1 kernel: [    0.723757] Module dwc_common_port init
+Mar 11 16:49:50 DIBTVTest1A1 ntpd[635]: signal_no_reset: signal 17 had flags 4000000
+Mar 11 16:54:25 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 11 16:54:25 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 11 16:54:25 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 11 16:54:25 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 11 16:54:25 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 11 16:54:25 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 11 16:54:25 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 11 16:54:25 DIBTVTest1A1 kernel: [    0.721877] dwc_otg: Microframe scheduler enabled
+Mar 11 16:54:25 DIBTVTest1A1 kernel: [    0.723479] dwc_otg: FIQ enabled
+Mar 11 16:54:25 DIBTVTest1A1 kernel: [    0.723488] dwc_otg: NAK holdoff enabled
+Mar 11 16:54:25 DIBTVTest1A1 kernel: [    0.723496] dwc_otg: FIQ split-transaction FSM enabled
+Mar 11 16:54:25 DIBTVTest1A1 kernel: [    0.723527] Module dwc_common_port init
+Mar 11 16:54:25 DIBTVTest1A1 ntpd[655]: signal_no_reset: signal 17 had flags 4000000
+Mar 11 16:57:57 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 11 16:57:57 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 11 16:57:57 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 11 16:57:57 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 11 16:57:57 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 11 16:57:57 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 11 16:57:57 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 11 16:57:57 DIBTVTest1A1 kernel: [    0.721894] dwc_otg: Microframe scheduler enabled
+Mar 11 16:57:57 DIBTVTest1A1 kernel: [    0.723451] dwc_otg: FIQ enabled
+Mar 11 16:57:57 DIBTVTest1A1 kernel: [    0.723460] dwc_otg: NAK holdoff enabled
+Mar 11 16:57:57 DIBTVTest1A1 kernel: [    0.723468] dwc_otg: FIQ split-transaction FSM enabled
+Mar 11 16:57:57 DIBTVTest1A1 kernel: [    0.723500] Module dwc_common_port init
+Mar 11 16:57:58 DIBTVTest1A1 ntpd[650]: signal_no_reset: signal 17 had flags 4000000
+Mar 11 17:08:40 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 11 17:08:40 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 11 17:08:40 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 11 17:08:40 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 11 17:08:40 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 11 17:08:40 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 11 17:08:40 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 11 17:08:40 DIBTVTest1A1 kernel: [    0.722230] dwc_otg: Microframe scheduler enabled
+Mar 11 17:08:40 DIBTVTest1A1 kernel: [    0.723828] dwc_otg: FIQ enabled
+Mar 11 17:08:40 DIBTVTest1A1 kernel: [    0.723837] dwc_otg: NAK holdoff enabled
+Mar 11 17:08:40 DIBTVTest1A1 kernel: [    0.723845] dwc_otg: FIQ split-transaction FSM enabled
+Mar 11 17:08:40 DIBTVTest1A1 kernel: [    0.723879] Module dwc_common_port init
+Mar 11 17:08:40 DIBTVTest1A1 ntpd[652]: signal_no_reset: signal 17 had flags 4000000
+Mar 11 17:12:03 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 11 17:12:03 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 11 17:12:03 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 11 17:12:03 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 11 17:12:03 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 11 17:12:03 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 11 17:12:03 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 11 17:12:03 DIBTVTest1A1 kernel: [    0.721806] dwc_otg: Microframe scheduler enabled
+Mar 11 17:12:03 DIBTVTest1A1 kernel: [    0.723358] dwc_otg: FIQ enabled
+Mar 11 17:12:03 DIBTVTest1A1 kernel: [    0.723367] dwc_otg: NAK holdoff enabled
+Mar 11 17:12:03 DIBTVTest1A1 kernel: [    0.723375] dwc_otg: FIQ split-transaction FSM enabled
+Mar 11 17:12:03 DIBTVTest1A1 kernel: [    0.723407] Module dwc_common_port init
+Mar 11 17:12:03 DIBTVTest1A1 ntpd[653]: signal_no_reset: signal 17 had flags 4000000
+Mar 12 01:13:32 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 12 01:13:32 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 12 01:13:32 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 12 01:13:32 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 12 01:13:32 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 12 01:13:32 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 12 01:13:32 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 12 01:13:32 DIBTVTest1A1 kernel: [    0.722221] dwc_otg: Microframe scheduler enabled
+Mar 12 01:13:32 DIBTVTest1A1 kernel: [    0.723773] dwc_otg: FIQ enabled
+Mar 12 01:13:32 DIBTVTest1A1 kernel: [    0.723782] dwc_otg: NAK holdoff enabled
+Mar 12 01:13:32 DIBTVTest1A1 kernel: [    0.723791] dwc_otg: FIQ split-transaction FSM enabled
+Mar 12 01:13:32 DIBTVTest1A1 kernel: [    0.723823] Module dwc_common_port init
+Mar 12 01:13:32 DIBTVTest1A1 ntpd[651]: signal_no_reset: signal 17 had flags 4000000
+Mar 12 10:01:32 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 12 10:01:32 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 12 10:01:32 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 12 10:01:32 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 12 10:01:32 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 12 10:01:32 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 12 10:01:32 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 12 10:01:32 DIBTVTest1A1 kernel: [    0.721969] dwc_otg: Microframe scheduler enabled
+Mar 12 10:01:32 DIBTVTest1A1 kernel: [    0.723527] dwc_otg: FIQ enabled
+Mar 12 10:01:32 DIBTVTest1A1 kernel: [    0.723537] dwc_otg: NAK holdoff enabled
+Mar 12 10:01:32 DIBTVTest1A1 kernel: [    0.723545] dwc_otg: FIQ split-transaction FSM enabled
+Mar 12 10:01:32 DIBTVTest1A1 kernel: [    0.723576] Module dwc_common_port init
+Mar 12 10:01:32 DIBTVTest1A1 ntpd[649]: signal_no_reset: signal 17 had flags 4000000
+Mar 12 10:25:46 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 12 10:25:46 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 12 10:25:46 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 12 10:25:46 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 12 10:25:46 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 12 10:25:46 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 12 10:25:46 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 12 10:25:46 DIBTVTest1A1 kernel: [    0.722564] dwc_otg: Microframe scheduler enabled
+Mar 12 10:25:46 DIBTVTest1A1 kernel: [    0.724113] dwc_otg: FIQ enabled
+Mar 12 10:25:46 DIBTVTest1A1 kernel: [    0.724123] dwc_otg: NAK holdoff enabled
+Mar 12 10:25:46 DIBTVTest1A1 kernel: [    0.724131] dwc_otg: FIQ split-transaction FSM enabled
+Mar 12 10:25:46 DIBTVTest1A1 kernel: [    0.724162] Module dwc_common_port init
+Mar 12 10:25:46 DIBTVTest1A1 ntpd[650]: signal_no_reset: signal 17 had flags 4000000
+Mar 12 10:29:38 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 12 10:29:38 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 12 10:29:38 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 12 10:29:38 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 12 10:29:38 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 12 10:29:38 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 12 10:29:38 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 12 10:29:38 DIBTVTest1A1 kernel: [    0.722324] dwc_otg: Microframe scheduler enabled
+Mar 12 10:29:38 DIBTVTest1A1 kernel: [    0.723875] dwc_otg: FIQ enabled
+Mar 12 10:29:38 DIBTVTest1A1 kernel: [    0.723884] dwc_otg: NAK holdoff enabled
+Mar 12 10:29:38 DIBTVTest1A1 kernel: [    0.723892] dwc_otg: FIQ split-transaction FSM enabled
+Mar 12 10:29:38 DIBTVTest1A1 kernel: [    0.723925] Module dwc_common_port init
+Mar 12 10:29:39 DIBTVTest1A1 ntpd[649]: signal_no_reset: signal 17 had flags 4000000
+Mar 12 10:40:30 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 12 10:40:30 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 12 10:40:30 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 12 10:40:30 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 12 10:40:30 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 12 10:40:30 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 12 10:40:30 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 12 10:40:30 DIBTVTest1A1 kernel: [    0.721972] dwc_otg: Microframe scheduler enabled
+Mar 12 10:40:30 DIBTVTest1A1 kernel: [    0.723532] dwc_otg: FIQ enabled
+Mar 12 10:40:30 DIBTVTest1A1 kernel: [    0.723541] dwc_otg: NAK holdoff enabled
+Mar 12 10:40:30 DIBTVTest1A1 kernel: [    0.723549] dwc_otg: FIQ split-transaction FSM enabled
+Mar 12 10:40:30 DIBTVTest1A1 kernel: [    0.723581] Module dwc_common_port init
+Mar 12 10:40:31 DIBTVTest1A1 ntpd[652]: signal_no_reset: signal 17 had flags 4000000

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="files-browse" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="files" group="#first"/>
+    <link type="seealso" xref="files-copy"/>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-16" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author">
+      <name>டிஃபானி அன்ட்டொபோல்ஸ்கி</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>ஷான் மெக்கேன்ஸ்</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>ஃபில் புல்</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>மைக்கேல் ஹில்</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>கோப்பு மேலாளரைக் கொண்டு உங்கள் கோப்புகளை நிர்வகிக்கலாம், ஒழுங்கமைக்கலாம்.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+<title>கோப்புகள் மற்றும் கோப்புறைகளை உலவலாம்</title>
+
+<p>உங்கள் கணினியில் உள்ள கோப்புகளை உலவ மற்றும் ஒழுங்கமைக்க <app>கோப்புகள்</app> கோப்பு மேலாளரைப் பயன்படுத்துங்கள். நீங்கள் வெளிப்புற (வெளிப்புற வன் வட்டுகள் போன்ற) சேமிப்பு சாதனங்களில் உள்ள கோப்புகள், <link xref="nautilus-connect">கோப்பு சேவையகங்களில்</link> உள்ள கோப்புகள் மற்றும் பிணைய பகிர்வுகளில் உள்ள கோப்புகளையும் நிர்வகிக்க அதைப் பயன்படுத்த முடியும்.</p>
+
+<p>To start the file manager, open <app>Files</app> in the
+<gui xref="shell-terminology">Activities</gui> overview. You can also search
+for files and folders through the overview in the same way you would
+<link xref="shell-apps-open">search for applications</link>.
+</p>
+
+<section id="files-view-folder-contents">
+  <title>கோப்புறைகளின் உள்ளடக்கங்களை உலவுதல்</title>
+
+<p>கோப்பு மேலாளரில், ஒரு கோப்புறையின் உள்ளடக்கங்களைக் காண அதனை இரு சொடுக்கவும், அதிலுள்ள ஏதேனும் ஒரு கோப்பை அதன் முன்னிருப்பு பயன்பாட்டைக் கொண்டு திறக்க கோப்பை இரு சொடுக்கவும். கோப்பை ஒரு புதிய தாவல் அல்லது புதிய சாளரத்தில் திறப்பதற்கு ஒரு கோப்புறையை வலது சொடுக்கலாம்.</p>
+
+<p>ஒரு கோப்புறையில் உள்ள கோப்புகளைக் காணும் போது, நீங்கள் ஒரு கோப்பைத் திறக்கும் முன், நகலெடுக்கும் முன் அல்லது அழிக்கும் முன் சரியான கோப்பைத் தான் திறக்க உள்ளீர்களா என உறுதி செய்துகொள்ள ஸ்பேஸ் பாரை அழுத்துவதன் மூலம் விரைவில் <link xref="files-preview">ஒவ்வொரு கோப்பின் மாதிரிக்காட்சியைக்</link> காணலாம்.</p>
+
+<p>கோப்புகள் மற்றும் கோப்புறைகள் பட்டியலின் மேலே உள்ள <em>பாதைப் பட்டியில்</em> நடப்பு கோப்புறையின் தாய் கோப்புறைகள் உட்பட தற்போது நீங்கள் பார்த்துக்கொண்டிருக்கும் கோப்புறை எது என்று காண்பிக்கப்படும். தாய் கோப்புறைகளில் ஒன்றுக்குச் செல்ல பாதை பட்டியில் ஒரு தாய் கோப்புறையை சொடுக்கவும். ஒரு தாய் கோப்புறையை புதிய தாவல் அல்லது சாளரத்தில் திறக்க அல்லது நகலெடுக்க அல்லது நகர்த்த அல்லது அதன் பண்புகளை அணுக பாதை பட்டியில் அதனை வலது சொடுக்கவும்.</p>
+
+<p>If you want to quickly <link xref="files-search">search for a file</link>,
+in or below the folder you are viewing, start typing its name. A <em>search
+bar</em> will appear at the top of the window and only files which match your
+search will be shown. Press <key>Esc</key> to cancel the search.</p>
+
+<p>You can quickly access common places from the <em>sidebar</em>. If you do
+not see the sidebar, click the
+<gui><media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media></gui>
+button in the toolbar and pick <gui>Show Sidebar</gui>. You can add bookmarks
+to folders that you use often and they will appear in the sidebar. Click
+<gui>Files</gui> in the top bar and then <gui style="menuitem">Bookmarks</gui>
+to do this, or simply drag a folder into the sidebar.</p>
+
+</section>
+
+</page>

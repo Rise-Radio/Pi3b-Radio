@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:if="http://projectmallard.org/if/1.0/" type="guide" style="problem" version="1.0 if/1.0" id="bluetooth-problem-connecting" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="bluetooth#problems"/>
+    <link type="seealso" xref="hardware-driver"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-11-09" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Puede que el adaptador esté apagado o que no tenga controladores, o puede que tenga desactivado o bloqueado el Bluetooth.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>I cannot connect my Bluetooth device</title>
+
+  <p>Existen varias razones por las que es posible que no pueda conectarse a un dispositivo Bluetooth, como un teléfono o unos auriculares.</p>
+
+  <terms>
+    <item>
+      <title>Conexión bloqueada o sin confianza</title>
+      <p>Algunos dispositivos Bluetooth bloquean las conexiones de manera predeterminada o requieren que se les cambie la configuración para permitir las conexiones. Asegúrese de que su dispositivo permite las conexiones.</p>
+    </item>
+    <item>
+      <title>Hardware Bluetooth no reconocido</title>
+      <p>Your Bluetooth adapter or dongle may not have been recognized by the
+      computer. This could be because
+      <link xref="hardware-driver">drivers</link> for the adapter are not
+      installed. Some Bluetooth adapters are not supported on Linux, so you may
+      not be able to get the right drivers for them. In this case, you will
+      probably have to get a different Bluetooth adapter.</p>
+    </item>
+    <item>
+      <title>Adapter is not switched on</title>
+      <if:choose>
+        <if:when test="platform:unity">
+          <p>Asegúrese de que su adaptador Bluetooth está encendido. Pulse en el icono de Bluetooth en la <gui>barra de menú</gui> y compruebe que no está <link xref="bluetooth-turn-on-off">desactivado</link>.</p>
+        </if:when>
+        <p>Make sure that your Bluetooth adapter is switched on. Open the
+        Bluetooth panel and check that it is not
+        <link xref="bluetooth-turn-on-off">disabled</link>.</p>
+      </if:choose>
+    </item>
+    <item>
+      <title>Conexión del dispositivo Bluetooth apagada</title>
+      <p>Check that Bluetooth is turned on on the device you are trying to
+      connect to, and that it is <link xref="bluetooth-visibility">discoverable
+      or visible</link>. For example, if you are trying to connect to a phone,
+      make sure that it is not in airplane mode.</p>
+    </item>
+    <item>
+      <title>No existe un dispositivo Bluetooth en su equipo</title>
+      <p>Muchos equipos no tienen adaptadores de Bluetooth. Puede comprar un adaptador si quiere usar Bluetooth.</p>
+    </item>
+  </terms>
+
+</page>

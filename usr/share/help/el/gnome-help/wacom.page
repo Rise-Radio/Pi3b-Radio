@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="task" id="wacom" xml:lang="el">
+
+<info>
+  <desc><link xref="wacom-multi-monitor">Απεικόνιση μιας οθόνης</link>, <link xref="wacom-stylus">Διαμόρφωση της γραφίδας</link>, <link xref="wacom-left-handed">Χρήση μιας πινακίδας με το αριστερό</link>…</desc>
+
+  <link type="guide" xref="prefs"/>
+
+  <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+  <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+  <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+  <credit type="author">
+    <name>Michael Hill</name>
+    <email its:translate="no">mdhillca@gmail.com</email>
+  </credit>
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Πινακίδα γραφικών Wacom</title>
+
+</page>

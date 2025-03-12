@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-fixed-ip-address" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="seealso" xref="net-findip"/>
+
+    <revision pkgversion="3.4.0" date="2012-03-13" status="final"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>静的 IP アドレスを使用すると、コンピューターから簡単にネットワークサービスを提供することができます。</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>松澤 二郎</mal:name>
+      <mal:email>jmatsuzawa@gnome.org</mal:email>
+      <mal:years>2011, 2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>赤星 柔充</mal:name>
+      <mal:email>yasumichi@vinelinux.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kentaro KAZUHAMA</mal:name>
+      <mal:email>kazken3@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shushi Kurose</mal:name>
+      <mal:email>md81bird@hitaki.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Noriko Mizumoto</mal:name>
+      <mal:email>noriko@fedoraproject.org</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>坂本 貴史</mal:name>
+      <mal:email>o-takashi@sakamocchi.jp</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>日本GNOMEユーザー会</mal:name>
+      <mal:email>http://www.gnome.gr.jp/</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>固定 IP アドレスの接続を作成</title>
+
+  <p>ほとんどのネットワークでは、ネットワーク接続を行うとユーザーのコンピューターに対して<link xref="net-what-is-ip-address">IP アドレス</link>とその他の詳細が自動的に割り当てられます。こうした情報は定期的に変更することができますが、アドレスを常に認識しておけるようコンピューターに固定の IP アドレスを持たせたい場合があります (たとえば、コンピューターがファイルサーバーなどの場合)。</p> <p>コンピューターに固定 (静的) IP アドレスを与える:</p>
+
+  <steps>
+    <item>
+      <p><gui>トップバー</gui>で<gui>ネットワークアイコン</gui>をクリックし、<gui>ネットワーク設定</gui>を選択します。</p>
+    </item>
+    <item>
+      <p>一覧からネットワーク接続を選択してから (<gui>有線</gui>または<gui>無線</gui>) <gui>設定</gui>をクリックします。</p>
+    </item>
+    <item>
+      <p><gui>IPv4 設定</gui>タブをクリックして<gui>メソッド</gui>を<em>手動</em>に変更します。</p>
+    </item>
+    <item>
+      <p><gui>アドレス</gui>一覧に接続情報がない場合、または新規の接続を設定する場合には<gui>追加</gui>をクリックします。</p>
+    </item>
+    <item>
+      <p><em>IP アドレス</em>、<em>ネットマスク</em>、<em>ゲートウェイ</em>の情報を該当ボックスに入力します。行うネットワークの設定により入力情報は異なります。ネットワークにより有効な IP アドレスやネットマスクを指定しているルールがあります。</p>
+    </item>
+    <item>
+      <p>必要であれば、<em>ドメインネームサーバー</em>のアドレスを <gui>DNS サーバー</gui>のボックスに入力します。これはドメイン名を検索するサーバーの IP アドレスになります。企業ネットワークやインターネットプロバイダーの場合、ほとんどが専用の DNS サーバーを持っています。</p>
+    </item>
+    <item>
+      <p><gui>保存</gui>をクリックします。これでこのネットワーク接続は固定 IP アドレスになるはずです。</p>
+    </item>
+  </steps>
+
+</page>

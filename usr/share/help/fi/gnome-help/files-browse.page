@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="files-browse" xml:lang="fi">
+
+  <info>
+    <link type="guide" xref="files" group="#first"/>
+    <link type="seealso" xref="files-copy"/>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-16" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Hallitse tiedostoja käyttäen tiedostonhallintaa.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Timo Jyrinki</mal:name>
+      <mal:email>timo.jyrinki@iki.fi</mal:email>
+      <mal:years>2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jiri Grönroos</mal:name>
+      <mal:email>jiri.gronroos+l10n@iki.fi</mal:email>
+      <mal:years>2012, 2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Selaa tiedostoja ja kansioita</title>
+
+<p><app>Tiedostot</app> on tiedostojenhallintaohjelma, jolla voit selata tietokoneesi sisältöä. Sitä voi käyttää myös tiedostojen hallitsemiseen ulkoisilla tallennuslaitteilla (kuten ulkoisilla kiintolevyillä), <link xref="nautilus-connect">tiedostopalvelimilla</link> ja verkkokansioissa.</p>
+
+<p>To start the file manager, open <app>Files</app> in the
+<gui xref="shell-terminology">Activities</gui> overview. You can also search
+for files and folders through the overview in the same way you would
+<link xref="shell-apps-open">search for applications</link>.
+</p>
+
+<section id="files-view-folder-contents">
+  <title>Kansioiden sisällön tutkiminen.</title>
+
+<p>Tiedostonhallinnassa voit kaksoisnapsauttaa mitä tahansa kansiota nähdäksesi sen sisällön, tai kaksoisnapsauttaa mitä tahansa tiedostoa avataksesi sen kyseiseen tiedostoon kytketyllä oletussovelluksella. Voit avata kansion uuteen välilehteen tai ikkunaan napsauttamalla sitä hiiren oikealla painikkeella ja valitsemalla haluamasi vaihtoehdon.</p>
+
+<p>When looking through the files in a folder, you can quickly <link xref="files-preview">preview each file</link> by pressing the space bar
+to be sure you have the right file before opening it, copying it, or
+deleting it.</p>
+
+<p><em>Polku</em> osoittaa, missä sijainnissa näkemäsi tiedostot ja kansiot sijaitsevat. Polku sisältää mahdolliset yläkansiot aina kotikansioon, laitteen juureen tai tiedostojärjestelmään juureen saakka. Siirry polussa näkyvään yläkansioon napsauttamalla sen nimeä. Napsauta hiiren oikealla painikkeella polussa näkyvää nimeä, jolloin aukeaa valikko, ja voit avata kyseisen sijainnin uuteen välilehteen tai ikkunaan, kopioida tai leikata kyseisen sijainnin tai katsella sijainnin ominaisuuksia.</p>
+
+<p>If you want to quickly <link xref="files-search">search for a file</link>,
+in or below the folder you are viewing, start typing its name. A <em>search
+bar</em> will appear at the top of the window and only files which match your
+search will be shown. Press <key>Esc</key> to cancel the search.</p>
+
+<p>You can quickly access common places from the <em>sidebar</em>. If you do
+not see the sidebar, click the
+<gui><media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">View options</span></media></gui>
+button in the toolbar and pick <gui>Show Sidebar</gui>. You can add bookmarks
+to folders that you use often and they will appear in the sidebar. Click
+<gui>Files</gui> in the top bar and then <gui style="menuitem">Bookmarks</gui>
+to do this, or simply drag a folder into the sidebar.</p>
+
+</section>
+
+</page>

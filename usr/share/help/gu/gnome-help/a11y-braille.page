@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task a11y" id="a11y-braille" xml:lang="gu">
+
+  <info>
+    <link type="guide" xref="a11y#vision" group="blind"/>
+    <link type="seealso" xref="a11y-screen-reader"/>
+
+    <revision pkgversion="3.9.92" date="2013-09-18" status="incomplete"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+
+    <desc>તાજુ કરી શકાય તેવુ Braille દર્શાવ સાથે <app>Orca</app> સ્ક્રીન રીડરને વાપરો.</desc>
+  </info>
+
+  <title>બ્રેઇલમાં સ્ક્રીનને વાંચો</title>
+
+  <p>GNOME એ પુન:તાજુ કરી શકાય તેવી અંધલિપિ દર્શાવ પર વપરાશકર્તા ઇન્ટરફેસને દર્શાવવા માટે <app>Orca</app> સ્ક્રીન રીડરને પૂરુ પાડે છે. તેને તમે કેવી રીતે GNOME ને સ્થાપિત કરેલ છે તેની પર આધાર રાખી રહ્યુ છે. <link href="install:orca">Orca સ્થાપિત કરો</link>, પછી વધારે જાણકારી માટે <link href="help:orca">Orca મદદ</link> નો સંદર્ભ લો.</p>
+
+</page>

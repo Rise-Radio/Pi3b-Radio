@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wireless-connect" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="net-wireless" group="#first"/>
+    <link type="seealso" xref="net-wireless-troubleshooting"/>
+    <link type="seealso" xref="net-wireless-disconnecting"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-12-05" status="final"/>
+
+    <credit type="author">
+      <name>GNOME 文档项目</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>连接互联网－无线连接</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>连接到一个无线网络</title>
+
+<p>如果您的计算机启用了无线，则可在处于无线网线覆盖范围时连接到该网络，以访问 Internet、查看网络上的共享文件以及执行其他操作。</p>
+
+<steps>
+  <item><p>Click the system status area on the top bar, select <gui>Wi-Fi</gui>,
+ then click <gui>Select Network</gui>.</p></item>
+  <item><p>Click the name of the network you want to connect to, then click
+ <gui>Connect</gui>.</p>
+   <p>如果网络名称没有列出来，尝试点击<gui>更多</gui>查看是否隐藏在了列表最下边。如果您仍然找不到网络，您可能超出了网络覆盖范围，或者可能此网络<link xref="net-wireless-hidden">被隐藏了</link>。</p>
+  </item>
+  <item><p>如果网络受到(<link xref="net-wireless-wepwpa">密码</link>)保护，请在出现提示时输入密码并单击<gui>连接</gui>。</p>
+  <p>如果不知道密钥，它可能写在无线路由器或基站设备的底部、说明手册中，或者您可向无线网络管理员咨询。</p></item>
+  <item><p>当计算机连接到网络过程中，网络图标会发生变化。</p></item>
+  <item>
+   <p>如果连接成功，该图标将更改为类似 wifi 标志的图标。图标上的信号格数越多，表示与网络的连接越强。如果信号格数很少，则表示连接较弱且可能不太稳定。</p>
+  </item>
+</steps>
+
+  <p>If the connection is not successful, you may be asked for your password
+  again or it might just tell you that the connection has been disconnected.
+  There are a number of things that could have caused this to happen. You could
+  have entered the wrong password, the wireless signal could be too weak, or
+  your computer's wireless card might have a problem, for example. See
+  <link xref="net-wireless-troubleshooting"/> for more help.</p>
+
+<p>较强的无线网络连接并不一定意味着Internet 连接速度更快，或者您的下载速度更快。无线连接将您的计算机连接到<em>提供 Internet 连接</em>的设备(如路由器或调制解调器)，但设备本身所提供无线信号的强度与网速无关。</p>
+
+</page>

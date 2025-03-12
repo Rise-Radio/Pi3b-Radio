@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="problem" id="printing-streaks" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="printing#problems"/>
+    <link type="seealso" xref="printing-inklevel"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2012-02-19" status="candidate"/>
+
+    <credit type="author">
+      <name>GNOME 文档项目</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>如果打印出来是花的、杂乱或者错误的颜色，请检查墨水级别(ink levels)或者清洗打印头。</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>为什么我打印出来的有条纹、线条或错误颜色？</title>
+
+  <p>如果您的打印输出有条纹、褪色、有线条，那么不应不应该是这儿的问题，或者可能是质量不好，也可能是打印机问题或者墨水不够。</p>
+
+  <list>
+     <item>
+       <p>文本或图像杂乱</p>
+       <p>您的墨水或墨粉用完了，检查墨水/墨粉的用量，或者如果需要买新的。</p>
+     </item>
+     <item>
+       <p>条纹或线条</p>
+       <p>如果是喷墨式打印机，打印头可能会变脏或阻塞。尝试清洗打印头(请参阅打印机使用手册)。</p>
+     </item>
+     <item>
+       <p>颜色不正确</p>
+       <p>打印机的一种颜色墨水或墨粉用完了，检查墨水或墨粉的用量，如果需要就买个新的。</p>
+     </item>
+     <item>
+       <p>断线或者线条不直</p>
+       <p>如果您打印机把直线打歪了，可能需要校正打印头，请参阅打印机读书手册来操作。</p>
+     </item>
+  </list>
+
+</page>

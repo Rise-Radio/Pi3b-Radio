@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-history-recent-off" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+
+    <revision pkgversion="3.8" date="2013-03-11" status="final"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>ஜிம் காம்ப்பெல்</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>மைக்கேல் ஹில்</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Stop or limit your computer from tracking your recently-used
+    files.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Turn off or limit file history tracking</title>
+  
+  <p>சமீபத்தில் பயன்படுத்திய கோப்புகளைக் கண்காணிப்பது நீங்கள் பயன்படுத்திக் கொண்டிருக்கும் உருப்படிகளை விரைவாகக் கண்டறிய உதவும், இருப்பினும் இவற்றை நீங்கள் தனிப்பட்டவையாக வைத்திருக்க விரும்பலாம்.</p>
+
+  <steps>
+    <title>To turn off the file history tracking features of your
+    desktop:</title>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Privacy</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Privacy</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p><gui>பயனீடு &amp; வரலாறு</gui> ஐ தேர்ந்தெடுக்கவும்.</p>
+    </item>
+    <item>
+     <p><gui>பெரிய உரை</gui> என்பதை <gui>இயக்கு</gui> என மாற்றவும்.</p>
+     <p>To re-enable this feature, set the <gui>Recently Used</gui> switch to
+     <gui>ON</gui>.</p>
+    </item>
+    <item>
+      <p>Use the <gui>Clear Recent History</gui> button to purge the history
+      immediately.</p>
+    </item>
+  </steps>
+  
+  <note><p>இந்த அமைவானது, நீங்கள் செல்லும் வலைத்தளங்களை உங்கள் வலை உலாவிகள் சேமிக்கும் செயலை பாதிக்காது.</p></note>
+
+  <steps>
+    <title>To restrict the amount of time your file history is tracked:</title>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Privacy</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Privacy</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p><gui>பயனீடு &amp; வரலாறு</gui> ஐ தேர்ந்தெடுக்கவும்.</p>
+    </item>
+    <item>
+     <p>Ensure the <gui>Recently Used</gui> switch is <gui>ON</gui>.</p>
+    </item>
+    <item>
+     <p>Select the length of time to <gui>Retain History</gui>. Choose from
+     options <gui>1 day</gui>, <gui>7 days</gui>, <gui>30 days</gui>, or
+     <gui>Forever</gui>.</p>
+    </item>
+    <item>
+      <p>Use the <gui>Clear Recent History</gui> button to purge the history
+      immediately.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="user-changepicture" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="user-accounts#manage"/>
+
+    <revision pkgversion="3.8.0" date="2013-03-09" status="candidate"/>
+    <revision pkgversion="3.10" date="2013-11-01" status="review"/>
+    <revision pkgversion="3.14.0" date="2014-10-08" status="candidate"/>
+
+    <credit type="author">
+      <name>Gnomov projekat dokumentacije</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Šon Mek Kens</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Dodajte vašu fotografiju prijavnim i korisničkim ekranima.</desc>
+  </info>
+
+  <title>Izmenite vašu fotografiju na ekranu za prijavu</title>
+
+  <p>Kada se prijavite ili promenite korisnika, videćete spisak korisnika sa njihovim fotografijama prijavljivanja. Možete da izmenite vašu fotografiju i da postavite uskladištenu ili neku vašu ličnu. Možete čak i da napravite novu fotografijom vašom veb kamericom.</p>
+
+  <p>Potrebna su vam <link xref="user-admin-explain">Administratorska prava</link> za uređivanje korisničkih naloga koji nisu vaši.</p>
+
+  <steps>
+    <item>
+      <p>Otvorite pregled <gui xref="shell-terminology">Aktivnosti</gui> i počnite da kucate <gui>Korisnici</gui>.</p>
+    </item>
+    <item>
+      <p>Kliknite na <gui>Korisnici</gui> da otvorite panel.</p>
+    </item>
+    <item>
+      <p>Ako želite da uredite nekog drugog korisnika, pritisnite <gui style="button">Otključaj</gui> u gornjem desnom uglu i ukucajte vašu lozinku.</p>
+    </item>
+    <item>
+      <p>Kliknite na sliku pored vašeg imena. Biće vam prikazana galerija sa nekim uskladištenim fotografijama za prijavu. Ako vam neka od njih odgovara, kliknite na nju da je upotrebite za vas.</p>
+      <list>
+        <item>
+          <p>Ako ipak želite da koristite sliku koju već imate na računaru, kliknite <gui>Potražite još slika…</gui>.</p>
+        </item>
+        <item>
+          <p>If you have a webcam, you can take a new login photo right now by
+          clicking <gui style="button" its:translate="no"><media type="image" src="figures/camera-photo-symbolic.svg"><span its:translate="yes">camera icon</span></media></gui>. Take your
+          picture, then move and resize the square outline to crop out the
+          parts you do not want. If you do not like the picture you took, click
+          <gui style="button">Take another picture</gui> to try again, or
+          <gui>Cancel</gui> to give up.</p>
+        </item>
+      </list>
+    </item>
+  </steps>
+
+</page>

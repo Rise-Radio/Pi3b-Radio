@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="keyboard-layouts" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="prefs-language"/>
+    <link type="guide" xref="keyboard" group="i18n"/>
+    <link type="guide" xref="keyboard-shortcuts-set"/>
+
+    <revision pkgversion="3.8" version="0.3" date="2013-04-30" status="review"/>
+    <revision pkgversion="3.10" date="2013-10-28" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author copyright">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+      <years>2012</years>
+    </credit>
+    <credit type="author">
+       <name>Julita Inca</name>
+       <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Juanjo Marín</name>
+      <email its:translate="no">juanj.marin@juntadeandalucia.es</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Tastaturbelegungen hinzufügen und zwischen diesen wechseln.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Alternative Tastaturbelegungen verwenden</title>
+
+  <p>Tastaturen gibt es in Hunderten von Tastaturbelegungen für verschiedene Sprachen. Selbst für eine einzelne Sprache gibt es oft mehrere Tastaturbelegungen, etwa die deutsche Dvorak-Tastaturbelegung. Sie können Ihre Tastatur so benutzen, als hätte Sie eine andere Tastaturbelegung, unabhängig von den Buchstaben und Zeichen, die auf den Tasten aufgedruckt sind. Das ist nützlich, wenn Sie häufig zwischen verschiedenen Sprachen wechseln.</p>
+
+  <steps>
+    <item>
+      <p>Öffnen Sie die <gui xref="shell-terminology">Aktivitäten</gui>-Übersicht und tippen Sie <gui>Region und Sprache</gui> ein.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui>Region &amp; Sprache</gui>, um das Panel zu öffnen.</p>
+    </item>
+    <item>
+      <p>Click the <gui>+</gui> button in the <gui>Input Sources</gui> section,
+      select the language which is associated with the layout, then select a
+      layout and press <gui>Add</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="sidebar">
+    <p>Sie können sich eine Vorschau jeder Tastaturbelegung ansehen, wenn Sie sie aus der Liste der <gui>Eingabequellen</gui> auswählen und auf <gui><media its:translate="no" type="image" src="figures/input-keyboard-symbolic.png" width="16" height="16"><span its:translate="yes">Vorschau</span></media></gui> klicken.</p>
+  </note>
+
+  <p>Certain languages offer some extra configuration options. You can
+  identify those languages because they have a
+  <gui><media its:translate="no" type="image" src="figures/system-run-symbolic.svg" width="16" height="16"><span its:translate="yes">preview</span></media></gui> icon next to them. If you want to access
+  these extra parameters, select the language from the <gui>Input Source</gui>
+  list and a new
+  <gui style="button"><media its:translate="no" type="image" src="figures/emblem-system-symbolic.svg" width="16" height="16"><span its:translate="yes">preferences</span></media></gui> button will give you access
+  to the extra settings.</p>
+
+  <p>Wenn Sie mehrere Tastaturbelegungen verwenden, können Sie für alle Fenster dieselbe Belegung verwenden oder unterschiedliche Belegungen für jedes einzelne Fenster. Unterschiedliche Belegungen für jedes Fenster zu verwenden ist zum Beispiel dann nützlich, wenn Sie einen Artikel in einer anderen Sprache in einem Textverarbeitungsfenster schreiben. Ihre Tastaturauswahl wird für jedes Fenster gespeichert, wenn Sie zwischen den Fenstern wechseln. Klicken Sie auf den Knopf <gui style="button">Optionen</gui> und wählen Sie, wie Sie mehrere Belegungen verwalten möchten.</p>
+
+  <p>The top bar will display a short identifier for the current layout, such as
+  <gui>en</gui> for the standard English layout. Click the layout indicator and
+  select the layout you want to use from the menu. If the selected language has
+  any extra settings, they will be shown below the list of available layouts.
+  This gives you a quick overview of your settings. You can also open an image
+  with the current keyboard layout for reference.</p>
+
+  <p>The fastest way to change to another layout is by using the 
+  <gui>Input Source</gui> <gui>Keyboard Shortcuts</gui>. These shortcuts open 
+  the <gui>Input Source</gui> chooser where you can move forward and backward. 
+  By default, you can switch to the next input source with 
+  <keyseq><key xref="keyboard-key-super">Super</key><key>Space</key></keyseq>
+  and to the previous one with
+  <keyseq><key>Shift</key><key>Super</key><key>Space</key></keyseq>. You can
+  change these shortcuts in the <gui>Keyboard</gui> settings.</p>
+
+  <p><media type="image" src="figures/input-methods-switcher.png"/></p>
+
+</page>

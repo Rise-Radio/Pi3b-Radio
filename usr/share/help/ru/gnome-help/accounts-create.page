@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-create" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Создание новой учётной записи с помощью <app>Сетевых учётных записей</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Александр Прокудин</mal:name>
+      <mal:email>alexandre.prokoudine@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Станислав Соловей</mal:name>
+      <mal:email>whats_up@tut.by</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013-2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Создание сетевой учётной записи</title>
+
+  <p>Некоторые поставщики сетевых служб дают возможность создавать учётные записи, добавляя их в <app>Сетевые учётные записи</app>. Это даёт возможность управлять всеми сетевыми учётными записями из одного приложения.</p>
+
+  <!-- Tested with Google -->
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Нажмите кнопку <gui style="button">+</gui>.</p>
+    </item>
+    <item>
+      <p>Выберите тип учётной записи, который вы хотите добавить. Некоторые типы учётных записей могут <link xref="accounts-provider-not-available">быть недоступны</link>.</p>
+    </item>
+    <item>
+      <p>Если служба позволяет создавать учётную запись, будет показана информация о том, как это сделать.</p>
+      <note>
+        <p>Не все поставщики сетевых учётных записей предоставляют возможность создания учётной записи на этом этапе. В этом случае нужно будет использовать альтернативный метод создания учётной записи.</p>
+      </note>
+    </item>
+    <item>
+      <p>Заполните регистрационную форму. Обычно требуется указать некоторые персональные данные, такие как имя пользователя и пароль.</p>
+    </item>
+    <item>
+      <p>Чтобы пользоваться новой сетевой учётной записью из приложения <app>Сетевые учётные записи</app>, необходимо разрешить к ней доступ из рабочей среды GNOME.</p>
+    </item>
+    <item>
+      <p>All services that are offered by an account provider will be enabled
+      by default. <link xref="accounts-disable-service">Switch</link>
+      individual services to <gui>OFF</gui> to disable them.</p>
+    </item>
+  </steps>
+
+</page>

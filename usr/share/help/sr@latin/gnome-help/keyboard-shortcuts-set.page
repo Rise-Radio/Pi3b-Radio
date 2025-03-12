@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/ui/1.0/" type="topic" style="task" version="1.0 ui/1.0" id="keyboard-shortcuts-set" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="keyboard"/>
+    <link type="seealso" xref="shell-keyboard-shortcuts"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-23" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-10-11" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Majkl Hil</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author">
+       <name>Julita Inka</name>
+       <email>yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Huanho Marin</name>
+      <email>juanj.marin@juntadeandalucia.es</email>
+    </credit>
+    <credit type="editor">
+      <name>Šoba Tjagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+
+    <desc>Odredite ili izmenite prečice tastature u podešavanjima <gui>Tastature</gui>.</desc>
+  </info>
+
+  <title>Podesite prečice tastature</title>
+
+<p>Da izmenite taster ili tastere koji će biti pritisnuti za prečicu tastature:</p>
+
+  <steps>
+    <item>
+      <p>Otvorite pregled <gui xref="shell-terminology">Aktivnosti</gui> i počnite da kucate <gui>Tastatura</gui>.</p>
+    </item>
+    <item>
+      <p>Kliknite na <gui>Tastatura</gui> da otvorite panel.</p>
+    </item>
+    <item>
+      <p>Izaberite jezičak <gui>Prečice</gui>.</p>
+    </item>
+    <item>
+      <p>Izaberite kategoriju u levom oknu, i red za željenu radnju sa desne strane. Odrednica trenutne prečice će se izmeniti u <gui>Nova prečica…</gui></p>
+    </item>
+    <item>
+      <p>Pritisnite željenu kombinaciju tastera, ili pritisnite <key>Povratnicu</key> da obrišete.</p>
+    </item>
+  </steps>
+
+
+<section id="defined">
+<title>Predodređene prečice</title>
+  <p>Postoje brojne predodređene prečice koje mogu biti izmenjene, grupisane u ove kategorije:</p>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Pokretači</title>
+  <tr>
+	<td><p>Pokreće pregledač pomoći</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Pokreće kalkulator</p></td>
+	<td><p>Kalkulator</p></td>
+  </tr>
+  <tr>
+	<td><p>Pokreće program za e-poštu</p></td>
+	<td><p>El. pošta</p></td>
+  </tr>
+  <tr>
+	<td><p>Pokreće veb preglednik</p></td>
+	<td><p>Veb</p></td>
+  </tr>
+  <tr>
+	<td><p>Lična fascikla</p></td>
+	<td><p>Pretraživač</p></td>
+  </tr>
+  <tr>
+	<td><p>Tražite</p></td>
+	<td><p>Tražite</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Navigacija</title>
+  <tr>
+	<td><p>Premešta prozor na radni prostor broj 1</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Premešta prozor na radni prostor broj 2</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Premešta prozor na radni prostor broj 3</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Premešta prozor na radni prostor broj 4</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Premešta prozor jedan radni prostor ulevo</p></td>
+	<td><p><keyseq><key>Šift</key><key>Ktrl</key><key>Alt</key><key>←</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Premešta prozor jedan radni prostor udesno</p></td>
+	<td><p><keyseq><key>Šift</key><key>Ktrl</key><key>Alt</key><key>→</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Premešta prozor jedan radni prostor na gore</p></td>
+	<td><p><keyseq><key>Šift</key><key xref="keyboard-key-super">Super</key> <key>Stranica gore</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Premešta prozor jedan radni prostor na dole</p></td>
+	<td><p><keyseq><key>Šift</key><key>Super</key><key>Stranica dole</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Prebacuje programe</p></td>
+	<td><p><keyseq><key>Super</key><key>Tab</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>Prebacuje prozore</p></td>
+  <td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Prebacuje prozor programa</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Prebacuje kontrole sistema</p></td>
+	<td><p><keyseq><key>Ktrl</key><key>Alt</key><key>Tab</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Prebacuje prozore direktno</p></td>
+	<td><p><keyseq><key>Alt</key><key>Izađi</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Prebacuje prozore programa direktno</p></td>
+	<td><p><keyseq><key>Alt</key><key>F6</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Prebacuje kontrole sistema direktno</p></td>
+	<td><p><keyseq><key>Ktrl</key><key>Alt</key><key>Esc</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Skriva sve obične prozore</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Prebacuje se na radni prostor 1</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Prebacuje se na radni prostor 2</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Prebacuje se na radni prostor 3</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Prebacuje se na radni prostor 4</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Premešta na radni prostor levo</p></td>
+	<td><p><keyseq><key>Ktrl</key><key>Alt</key><key>←</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Premešta na radni prostor desno</p></td>
+	<td><p><keyseq><key>Ktrl</key><key>Alt</key><key>→</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Premešta na radni prostor iznad</p></td>
+	<td><p><keyseq><key>Super</key><key>Stranica gore</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Premešta na radni prostor ispod</p></td>
+	<td><p><keyseq><key>Super</key><key>Stranica dole</key></keyseq></p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Snimci ekrana</title>
+  <tr>
+	<td><p>Pravi snimak ekrana</p></td>
+	<td><p><key>Štampaj</key></p></td>
+  </tr>
+  <tr>
+	<td><p>Pravi snimak prozora</p></td>
+	<td><p><keyseq><key>Alt</key><key>Štampaj</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Pravi snimak oblasti</p></td>
+	<td><p><keyseq><key>Šift</key><key>Štampaj</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Umnožava snimak u beležnicu</p></td>
+	<td><p><keyseq><key>Ktrl</key><key>Štampaj</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Umnožava snimak prozora u beležnicu</p></td>
+	<td><p><keyseq><key>Ktrl</key><key>Alt</key><key>Štampaj</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Umnožava snimak oblasti u beležnicu</p></td>
+	<td><p><keyseq><key>Šift</key><key>Ktrl</key><key>Štampaj</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>Snimite radni tok ekrana</p></td>
+  <td><p><keyseq><key>Šift</key><key>Ktrl</key><key>Alt</key><key>R</key> </keyseq></p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Zvuk i mediji</title>
+  <tr>
+	<td><p>Isključuje jačinu zvuka</p></td>
+	<td><p>Isključuje zvuk</p></td>
+  </tr>
+  <tr>
+	<td><p>Smanjuje jačinu zvuka</p></td>
+	<td><p>Umanjuje jačinu zvuka</p></td>
+  </tr>
+  <tr>
+	<td><p>Pojačava jačinu zvuka</p></td>
+	<td><p>Povećava jačinu zvuka</p></td>
+  </tr>
+  <tr>
+	<td><p>Pokreće medijski program</p></td>
+	<td><p>Zvučni diskovi</p></td>
+  </tr>
+  <tr>
+	<td><p>Pušta (ili pušta/pauzira)</p></td>
+	<td><p>Pušta zvuk</p></td>
+  </tr>
+  <tr>
+	<td><p>Pauzira puštanje</p></td>
+	<td><p>Pauzira zvuk</p></td>
+  </tr>
+  <tr>
+	<td><p>Zaustavlja puštanje</p></td>
+	<td><p>Zaustavlja zvuk</p></td>
+  </tr>
+  <tr>
+	<td><p>Prethodna numera</p></td>
+	<td><p>Prethodni zvučna numera</p></td>
+  </tr>
+  <tr>
+	<td><p>Sledeća numera</p></td>
+	<td><p>Sledeća zvučna numera</p></td>
+  </tr>
+  <tr>
+	<td><p>Izbacuje</p></td>
+	<td><p>Izbacuje</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Sistem</title>
+  <tr>
+	<td><p>Prikazuje upit za pokretanje naredbe</p></td>
+	<td><p><keyseq><key>Alt</key><key>F2</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Prikazuje pregled aktivnosti</p></td>
+	<td><p><keyseq><key>Alt</key><key>F1</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Odjavljivanje</p></td>
+	<td><p><keyseq><key>Ktrl</key><key>Alt</key><key>Obriši</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Zaključavanje ekrana</p></td>
+	<td><p><keyseq><key>Super</key><key>L</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>Prikažite fioku poruka</p></td>
+  <td><p><keyseq><key>Super</key><key>M</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>Postavite u žižu radno obaveštenje</p></td>
+  <td><p><keyseq><key>Super</key><key>N</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>Prikaži sve programe</p></td>
+  <td><p><keyseq><key>Super</key><key>A</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>Otvorite izbornik programa</p></td>
+  <td><p><keyseq><key>Super</key><key>F10</key></keyseq></p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Kucanje</title>
+  <tr>
+  <td><p>Prebacite se na sledeći izvor ulaza</p></td>
+  <td><p><keyseq><key>Super</key><key>Razmak</key></keyseq></p></td>
+  </tr>
+
+  <tr>
+  <td><p>Prebacite se na prethodni izvor ulaza</p></td>
+  <td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+  <td><p>Izmenjivači samo prebacuju na sledeći izvor</p></td>
+  <td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+  <td><p>Sastavni taster</p></td>
+  <td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+  <td><p>Tasteri zamenskih znakova</p></td>
+  <td><p>Isključeno</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Univerzalni pristup</title>
+  <tr>
+	<td><p>Uključuje/isključuje uvećanje</p></td>
+	<td><p><keyseq><key>Alt</key><key>Super</key><key>8</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Uvećava</p></td>
+  <td><p><keyseq><key>Alt</key><key>Super</key><key>=</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Umanjuje</p></td>
+  <td><p><keyseq><key>Alt</key><key>Super</key><key>-</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Uključuje/isključuje čitač ekrana</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Uključuje/isključuje ekransku tastaturu</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Uvećavanje veličine teksta</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Smanjivanje veličine teksta</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Uključuje/isključuje veliki kontrast</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+</table>
+
+<table rules="rows" frame="top bottom" ui:expanded="false">
+<title>Prozori</title>
+  <tr>
+	<td><p>Aktivira izbornik prozora</p></td>
+	<td><p><keyseq><key>Alt</key><key>Razmak</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Isključuje/uključuje prikaz preko celog ekrana</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Isključuje/uključuje stanje uvećanja</p></td>
+	<td><p><keyseq><key>Alt</key><key>F10</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Uvećava prozor</p></td>
+	<td><p><keyseq><key>Super</key><key>↑</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Vraća veličinu prozora</p></td>
+  <td><p><keyseq><key>Super</key><key>↓</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Isključuje/uključuje stanje zasenčenosti</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Zatvara prozor</p></td>
+	<td><p><keyseq><key>Alt</key><key>F4</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>Sakrij prozor</p></td>
+  <td><p><keyseq><key>Super</key><key>H</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Premešta prozor</p></td>
+	<td><p><keyseq><key>Alt</key><key>F7</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Menja veličinu prozora</p></td>
+	<td><p><keyseq><key>Alt</key><key>F8</key></keyseq></p></td>
+  </tr>
+  <tr>
+	<td><p>Prikazuje prozor na svim radnim prostorima ili samo na jednom</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Izdiže prozor ukoliko ga drugi prozor zaklanja, u protivnom ga spušta</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Izdiže prozor iznad ostalih prozora</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Spušta prozor ispod ostalih prozora</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Uvećava prozor vertikalno</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+	<td><p>Uvećava prozor horizontalno</p></td>
+	<td><p>Isključeno</p></td>
+  </tr>
+  <tr>
+  <td><p>Prikazuje podelu na levo</p></td>
+  <td><p><keyseq><key>Super</key><key>←</key></keyseq></p></td>
+  </tr>
+  <tr>
+  <td><p>Prikazuje podelu na desno</p></td>
+  <td><p><keyseq><key>Super</key><key>→</key></keyseq></p></td>
+  </tr>
+</table>
+
+</section>
+
+<section id="changing-shorcuts">
+  <title>Izmenite prečice tastature</title>
+  <p>Ovaj odeljak pokazuje kako da izmenite prečice tastature za neki program.</p>
+
+  <steps>
+    <item>
+	<p>Otvorite Terminal.</p>
+     </item>
+    <item><p>Pokrenite naredbu <cmd>gsettings set org.gnome.desktop.interface can-change-accels true</cmd>.</p>
+    </item>
+       <item>
+      <p>Pokrenite program za koji želite da izmenite prečicu tastature.</p>
+    </item>
+  <item>
+      <p>Pronađite stavku izbornika za koji želite da izmenite prečicu tastature.</p>
+    </item>
+<item>
+      <p>Ukucajte prečicu koju želite na tastaturi.</p>
+    </item>
+  </steps>
+
+<note style="note style">
+  <p>Znajte da je ovo podešavanje sveopšte radne površi. Možete da ga isključite nakon što ste načinili izmene pokretanjem naredbe <cmd>gsettings set org.gnome.desktop.interface can-change-accels false</cmd>. Takođe možete da koristite alatku <app>dkonf-uređivača</app>.</p>
+</note>
+</section>
+
+<section id="custom">
+<title>Proizvoljne prečice</title>
+
+<p>Da napravite vaše sopstvene prečice tastature:</p>
+
+  <steps>
+    <item>
+      <p>Izaberite <gui>Proizvoljna prečica</gui> u levom oknu, i kliknite na dugme <gui style="button">+</gui> (ili kliknite na dugme <gui style="button">+</gui> u bilo kojoj kategoriji). Pojaviće se prozor <gui>Proizvoljna prečica</gui>.</p>
+    </item>
+    <item>
+      <p>Upišite <gui>Naziv</gui> za prepoznavanje prečice, i <gui>Naredbu</gui> za pokretanje programa, zatim kliknite <gui>Primeni</gui>. Na primer, ako želite prečicu za otvaranje Ritam mašine, možete je nazvati <input>Muzika</input> a kao naredbu morate staviti <input>rhythmbox</input>.</p>
+    </item>
+    <item>
+      <p>Kliknite na <gui>Isključeno</gui> u redu koji je upravo dodat. Kada se promeni u <gui>Nova prečica…</gui>, držite pritisnutom kombinaciju tastera željene prečice.</p>
+    </item>
+  </steps>
+ <p>Naziv naredbe koji ste upisali mora biti važeća naredba sistema. Možete da proverite da li naredba radi tako što ćete otvoriti terminal i upisati je. Naredba koja otvara program ne može da ima isti naziv kao i sam program.</p>
+
+ <p>Ako želite da izmenite naredbu koja je pridružena proizvoljnoj prečici tastature, kliknite dvaput na <em>naziv</em> prečice. Pojaviće se prozor <gui>Proizvoljna prečica</gui>, u kome ćete moći da izmenite prečicu.</p>
+</section>
+
+</page>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="wacom-multi-monitor" xml:lang="gu">
+  <info>
+
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <link type="guide" xref="wacom"/>
+
+    <credit type="author copyright">
+      <name>માઇકલ હીલ</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>૨૦૧૨</years>
+    </credit>
+
+    <desc>ખાસ મોનિટર સાથે Wacom ટૅબલેટને માપાંકિત કરો.</desc>
+  </info>
+
+  <title>મોનિટર પસંદ કરો</title>
+
+<steps>
+  <item>
+    <p><gui xref="shell-terminology">પ્રવૃત્તિ</gui> ઝાંખીને ખોલો અને <gui>Wacom ટૅબલેટ</gui> ને શરૂ કરો.</p>
+  </item>
+  <item>
+    <p>પેનલને ખોલવા માટે <gui>Wacom ટૅબલેટ</gui> પર ક્લિક કરો.</p>
+
+    <note style="tip"><p>If no tablet is detected, you'll be asked to
+    <gui>Please plug in or turn on your Wacom tablet</gui>. Click the
+    <gui>Bluetooth Settings</gui> link to connect a wireless tablet.</p></note>
+  </item>
+  <item><p><gui>મોનિટર સાથે માપાંકિત કરો…</gui> પર ક્લિક કરો.</p></item>
+  <item><p><gui>એકજ મોનિટર સાથે માપાંકિત કરો</gui>.</p></item>
+  <item><p><gui>આઉટપુટ</gui> ની આગળ, મોનિટરને પસંદ કરો કે તમે તમારા ગ્રાફિક્સ ટેબલેટમાંથી ઇનપુટને પ્રાપ્ત કરવાની ઇચ્છા રાખો છો.</p>
+     <note style="tip"><p>ફક્ત મોનિટરો કે જે રૂપરેખાંકિત થયેલ છે તેને પસંદ કરી શકાય છે.</p></note>
+  </item>
+  <item>
+    <p>Switch <gui>Keep aspect ratio (letterbox)</gui> to <gui>ON</gui> to
+    match the drawing area of the tablet to the proportions of the monitor.
+    Also called <em>force proportions</em>, this setting
+    <em>letterboxes</em> the drawing area on, for instance, a 4:3 tablet to
+    correspond more directly to a widescreen display.</p>
+  </item>
+  <item><p><gui>બંધ કરો</gui> પર ક્લિક કરો.</p></item>
+</steps>
+
+</page>

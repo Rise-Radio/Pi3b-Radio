@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="a11y task" id="a11y-screen-reader" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="a11y#vision" group="blind"/>
+
+    <revision pkgversion="3.13.92" date="2014-09-20" status="incomplete"/>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+
+    <desc>Usare il lettore di schermo <app>Orca</app> per leggere l'interfaccia utente.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luca Ferretti</mal:name>
+      <mal:email>lferrett@gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Flavia Weisghizzi</mal:name>
+      <mal:email>flavia.weisghizzi@ubuntu.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Leggere lo schermo</title>
+
+  <p>Il lettore di schermo disponibile in GNOME, <app>Orca</app>, permette di "leggere" l'interfaccia utente. In base alla propra installazione di GNOME, Orca potrebbe non essere presente. <link href="install:orca">Installare Orca</link>, quindi fare riferimento al <link href="help:orca">manuale di Orca</link> per maggiori informazioni.</p>
+</page>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="ui" id="shell-overview" xml:lang="as">
+
+  <info>
+
+    <link type="guide" xref="index" group="shell-overview"/>
+
+    <title role="trail" type="link">ডেস্কটপ</title>
+
+    <desc><link xref="shell-introduction">পাতনি</link>, <link xref="shell-keyboard-shortcuts">কিবৰ্ড চৰ্টকাটসমূহ</link>, <link xref="clock-calendar">কেলেন্ডাৰ</link>, <link xref="shell-notifications">অধিসূচনাসমূহ</link>…</desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+
+    <credit type="author">
+      <name>GNOME তথ্যচিত্ৰ প্ৰকল্প</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+<title>ডেস্কটপ, এপসমূহ &amp; উইন্ডোসমূহ</title>
+
+<links type="topic" style="2column"/>
+
+<section id="desktop" style="2column">
+ <title>ডেস্কটপ</title>
+</section>
+
+<section id="apps" style="2column">
+ <title>এপ্লিকেচনসমূহ আৰু উইন্ডোসমূহ</title>
+</section>
+
+</page>

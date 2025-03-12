@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-manual" xml:lang="sr">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="guide" xref="net-wireless"/>
+
+    <revision pkgversion="3.4.0" date="2012-02-20" status="final"/>
+    <revision pkgversion="3.10" date="2013-11-11" status="review"/>
+
+    <credit type="author">
+      <name>Фил Бул</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Мајкл Хил</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Ако мрежна подешавања не буду самостално додељена, мораћете да их унесете сами.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>Ручно подесите мрежна подешавања</title>
+
+  <p>Ако ваша мрежа самостално не додели мрежна подешавања вашем рачунару, мораћете сами ручно да унесете подешавања. Ова тема претпоставља да већ знате тачна подешавања за коришћење. Ако не, мораћете да питате администратора ваше мреже или да погледате у подешавањима вашег усмеривача или мрежног пребацивача.</p>
+
+  <steps>
+    <title>Да ручно подесите мрежна подешавања:</title>
+    <item>
+      <p>Отворите преглед <gui xref="shell-terminology">Активности</gui> и почните да куцате <gui>Подешавања</gui>.</p>
+    </item>
+    <item>
+      <p>Кликните на <gui>Подешавања</gui> да отворите панел.</p>
+    </item>
+    <item>
+      <p>Кликните на <gui>Мрежа</gui> да отворите панел.</p>
+    </item>
+    <item>
+      <p>У левом окну, изаберите мрежну везу коју желите ручно да подесите и кликните на дугме <media its:translate="no" type="image" src="figures/emblem-system.png"><span its:translate="yes">подешавања</span></media>. На пример, ако се прикључите на мрежу каблом, кликните <gui>Жичана</gui>. За <gui>Бежичну</gui> везу, дугме <media its:translate="no" type="image" src="figures/emblem-system.png"><span its:translate="yes">подешавања</span></media> ће се налазити поред радне мреже.</p>
+      <p>Уверите се да је ваша бежична картица укључена или да је мрежни кабал прикључен.</p>
+    </item>
+    <item>
+      <p>Кликните <gui>ИПв4</gui> и измените <gui>Адресе</gui> на <gui>Ручно</gui>.</p>
+    </item>
+    <item>
+      <p>Укуцајте <gui>Адресу</gui> и <gui>Мрежни пролаз</gui>, као и одговарајућу <gui>Мрежну маску</gui>.</p>
+      <p>То морају бити <em>ИП адресе</em>; тако је, морају бити у виду четири броја раздвојена тачкама (нпр. 123.45.6.78).</p>
+    </item>
+    <item>
+      <p>In the <gui>DNS</gui> section, switch <gui>Automatic</gui> to
+      <gui>OFF</gui>. Enter the IP address of a DNS server you want to use.
+      Enter additional DNS server addresses using the <gui>+</gui> button.</p>
+    </item>
+    <item>
+      <p>In the <gui>Routes</gui> section, switch <gui>Automatic</gui> to
+      <gui>OFF</gui>. Enter the <gui>Address</gui>, <gui>Netmask</gui>,
+      <gui>Gateway</gui> and <gui>Metric</gui> for a route you want to use.
+      Enter additional routes using the <gui>+</gui> button.</p>
+    </item>
+    <item>
+      <p>Кликните <gui>Примени</gui>. Ако нисте повезани на мрежу, кликните на област стања система на горњој траци и повежите се. Испробајте подешавања мреже тако што ћете покушати да посетите веб сајт или да погледате дељене датотеке на мрежи, на пример.</p>
+    </item>
+  </steps>
+
+</page>

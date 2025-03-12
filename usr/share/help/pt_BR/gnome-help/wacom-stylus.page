@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="wacom-stylus" xml:lang="pt-BR">
+  <info>
+
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <link type="guide" xref="wacom"/>
+
+    <credit type="author copyright">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2012</years>
+    </credit>
+
+    <desc>Defina a sensação de pressão e funções de botões do Wacom stylus.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodolfo Ribeiro Gomes</mal:name>
+      <mal:email>rodolforg@gmail.com</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Ferreira</mal:name>
+      <mal:email>rafael.f.f1@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>João Santana</mal:name>
+      <mal:email>joaosantana@outlook.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Configurando a caneta</title>
+
+<steps>
+  <item>
+    <p>Abra o panorama de <gui xref="shell-terminology">Atividades</gui> e comece a digitar <gui>Tablet Wacom</gui>.</p>
+  </item>
+  <item>
+    <p>Clique em <gui>Tablet Wacom</gui> para abrir o painel.</p>
+
+    <note style="tip"><p>Se nenhum tablet for detectado, você será solicitado a <gui>Por favor conectar ou ligar seu tablet Wacom</gui>. Clique no link <gui>Configurações de Bluetooth</gui> para conectar um tablet sem fio.</p></note>
+  </item>
+  <item><p>A parte inferior do painel contém detalhes e configurações específicas para seu stylus com o nome do dispositivo (a classe de stylus) e diagrama à esquerda. Essas configurações podem ser ajustadas:</p>
+    <list>
+      <item><p><gui>Sensação de pressão da borracha:</gui> use o deslizador para ajustar a "sensação" (como a pressão física é traduzida para valores digitais) entre <gui>Macia</gui> e <gui>Firme</gui>.</p></item>
+      <item><p>Configuração de <gui>botão/rolagem do mouse</gui>  (essas alteram para refletir a stylus). Clique no menu próximo a cada rótulo para selecionar uma das funções: Nenhuma ação, Clique de botão esquerdo do Mouse, Clique de botão do meio do Mouse, Clique de botão direito do mouse, Rolagem para cima, Rolagem para baixo, Rolagem para esquerda, Rolagem para direita, Voltar, Avançar.</p></item>
+      <item><p><gui>Sensação de pressão da ponta:</gui> use o deslizador para ajustar a "sensação" entre <gui>Macia</gui> e <gui>Firme</gui>.</p></item>
+    </list>
+  </item>
+</steps>
+
+<note style="info"><p>Se você tem mais de uma stylus, assim que a stylus adicional se aproximar do tablet, uma notificação será exibida próximo ao nome do dispositivo stylus. Use a notificação para escolher qual stylus deve ser configurado.</p>
+</note>
+
+</page>

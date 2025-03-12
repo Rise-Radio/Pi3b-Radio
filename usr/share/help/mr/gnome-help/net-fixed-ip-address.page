@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-fixed-ip-address" xml:lang="mr">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="seealso" xref="net-findip"/>
+
+    <revision pkgversion="3.4.0" date="2012-03-13" status="final"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>स्टॅटिक IP पत्त्याचा वापर करून संगणकापासून, ठराविक नेटवर्क सर्व्हिसेस पुरवणे सोपे करते.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aniket Deshpande &lt;djaniketster@gmail.com&gt;, 2013; संदिप शेडमाके</mal:name>
+      <mal:email>sshedmak@redhat.com</mal:email>
+      <mal:years>२०१३.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>ठराविक IP पत्त्यासह जोडणी निर्माण करा</title>
+
+  <p>नेटवर्कशी जोडणी करतेवेळी, अनेक नेटवर्क स्वयंरित्या संगणककरिता <link xref="net-what-is-ip-address">IP पत्ता</link> आणि इतर तपशील लागू करतात. हे तपशील वेळोवेळी बदलू शकतात, परंतु तुम्ही संगणकरिता ठराविक IP पत्ता ठरवू शकता जेणेकरून तुम्हाला पत्ता माहिती पडेल (उदाहरणार्थ, ते फाइल सर्व्हर असल्यास).</p> <p>संगणकाला ठराविक (स्टॅटिक) IP पत्ता देणे:</p>
+
+  <steps>
+    <item>
+      <p><gui>शीर्षपट्टी</gui> वरील <gui>नेटवर्क चिन्ह</gui> क्लिक करा आणि <gui>नेटवर्क सेटिंग्ज</gui> निवडा.</p>
+    </item>
+    <item>
+      <p>सूचीपासून (<gui>वायर्ड</gui> किंवा <gui>वायरलेस</gui>)  नेटवर्क जोडणी निवडा आणि <gui>संरचीत करा</gui> क्लिक करा.</p>
+    </item>
+    <item>
+      <p><gui>IPv4 सेटिंग्ज</gui> टॅब क्लिक करा आणि <gui>पद्धतीला</gui> <em>स्वहस्ते</em> करिता बदला.</p>
+    </item>
+    <item>
+      <p><gui>पत्ते</gui> सूचीमध्ये जोडणी माहिती सूचीत दिसत नसल्यास, किंवा नविन जोडणीचे सेटअप करायचे असल्यास, <gui>समाविष्ट करा</gui> क्लिक करा.</p>
+    </item>
+    <item>
+      <p>योग्य पेटीत <em>IP पत्ता</em>, <em>नेटमास्क</em>, आणि <em>गेटवे</em> माहिती द्या. नेटवर्क मांडणीवर आधारित तुमची पंसती ठरते; ठराविक नेटवर्ककरिता कोणते IP पत्ते आणि नेटमास्क्स वैध आहे याकरिता ठराविक नियामक रूल्स आहेत.</p>
+    </item>
+    <item>
+      <p>आवश्यक असल्यास, <gui>DNS सर्व्हर्स</gui> पेटीमध्ये <em>डोमेन नेम सर्व्हर</em> पत्ता द्या. हे सर्व्हरचा IP पत्ता आहे जे डोमेन नेम्स शोधते; बहुतांश कॉरपोरेट नेटवर्क्स आणि इंटरनेट प्रोव्हडर्सकडे समर्पित DNS सर्व्हर्स असते.</p>
+    </item>
+    <item>
+      <p><gui>साठवा</gui> क्लिक करा. नेटवर्क जोडणीकडे आत्ता ठराविक IP पत्ता पाहिजे.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="mouse" xml:lang="el">
+<info>
+    <link type="guide" xref="prefs"/>
+    <link type="guide" xref="hardware"/>
+    <desc><link xref="mouse-lefthanded">αριστερόχειρες</link>, <link xref="mouse-sensitivity">ταχύτητα και ευαισθησία</link>, <link xref="mouse-touchpad-click">πάτημα πινακίδας αφής και κύλιση</link>…</desc>
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+
+    <credit type="author">
+        <name>Tiffany Antopolski</name>
+        <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Ποντίκι</title>
+<links type="topic" style="2column"/>
+
+<section id="problems" style="2column">
+  <info>
+    <title type="link">Κοινά προβλήματα ποντικιού</title>
+    <title type="link" role="trail">Κοινά προβλήματα</title>
+  </info>
+  <title>Κοινά προβλήματα</title>
+</section>
+
+<section id="tips" style="2column">
+ <info>
+   <title type="link">Συμβουλές ποντικιού</title>
+   <title type="link" role="trail">Συμβουλές</title>
+ </info>
+ <title>Συμβουλές</title>
+</section>
+</page>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-views" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-views"/>
+
+    <desc>கோப்பு மேலாளருக்கான முன்னிருப்பு காட்சி வகை, வரிசைப்படுத்தல் விதம் மற்றும் பெரிதாக்கல் நிலைகளைக் குறிப்பிடுதல்.</desc>
+
+    <revision pkgversion="3.8" version="0.2" date="2013-04-03" status="review"/>
+
+    <credit type="author">
+      <name>டிஃபானி அன்ட்டொபோல்ஸ்கி</name>
+      <email>tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>ஷான் மெக்கேன்ஸ்</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>மைக்கேல் ஹில்</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>எக்காட்டெரினா ஜெராசிமோவா</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+<title><app>கோப்புகள்</app> இல் உள்ள முன்னுரிமைகளைக் காட்டும்</title>
+
+<p>நீங்கள் புதிய கோப்புறைகளுக்கான முன்னிருப்பு காட்சி வகையையும் கோப்புகள் மற்றும் கோப்புறைகள் எப்படி வரிசைப்படுத்தப்படும் என்பதையும் சின்னம் மற்றும் சிறு காட்சி வகைகளுக்கான பெரிதாக்கல் நிலையையும் பக்கப்பட்டியில் கோப்புகள் கிளையமைப்புகளாகக் காண்பிக்கப்படுமா வேண்டாமா என்பதையும் மாற்றலாம். <app>கோப்புகள்</app> திறந்திருக்கும் போது <guiseq><gui style="menu">கோப்புகள்</gui> <gui style="menuitem">முன்னுரிமைகள்</gui></guiseq> ஐ தேர்ந்தெடுத்து <gui style="tab">காட்சி வகைகள்</gui> தாவலைத் தேர்ந்தெடுக்கவும்.</p>
+
+<section id="default-view">
+<title>முன்னிருப்பு காட்சிவகை</title>
+<terms>
+  <item>
+    <title><gui>புதிய கோப்புறைகளை இதனைப் பயன்படுத்திக் காண்க</gui></title>
+    <p>முன்னிருப்பாக, புதிய கோப்புறைகள் சின்ன காட்சியில் காட்டப்படும். நீங்கள் பட்டியல் காட்சியை விரும்பினால், நீங்கள் அதை இங்கு முன்னிருப்பு காட்சிவகையாக அமைக்க முடியும். கருவிப்பட்டியில் உள்ள <gui style="button">உருப்படிகளை பட்டியலாகக் காண்பி</gui> அல்லது <gui style="button">உருப்படிகளை சின்ன வலையமைப்பாகக் காண்பி</gui> பொத்தான்களைச் சொடுக்குவதன் மூலம், நீங்கள் உலவும் போது நீங்கள் ஒவ்வொரு கோப்புறைக்கும் வெவ்வேறு காட்சிவகையையும் தேர்ந்தெடுக்க முடியும்.</p>
+  </item>
+  <item>
+    <title><gui>உருப்படிகளை வரிசைப்படுத்துதல்</gui></title>
+    <p>முன்னுரிமைகளில் உள்ள <gui>உருப்படிகளை வரிசைப்படுத்து</gui> கீழ் தோன்று பட்டியலைப் பயன்படுத்தி உருப்படிகளின் பெயர், கோப்பு அளவு, கோப்பு வகை, எப்போது கடைசியாக மாற்றப்பட்டது, கடைசியாக எப்போது அணுகப்பட்டது அல்லது அவை எப்போது குப்பைத் தொட்டிக்கு அனுப்பப்பட்டது என்பவற்றின் படி வரிசைப்படுத்தலாம்.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">கருவிப்பட்டியில் <media its:translate="no" type="image" src="figures/go-down.png">
+    <span its:translate="yes">காட்சி விருப்பங்கள்</span></media> பொத்தானை சொடுக்கி, <gui>பெயரின் படி</gui>, <gui>அளவின் படி</gui>, <gui>வகையின் படி</gui> அல்லது <gui>மாற்றிய தேதிப்படி</gui> ஆகியவற்றைத் தேர்வு செய்வதன் மூலமோ அல்லது பட்டியல் காட்சியில் பட்டியல் நெடுவரிசை தலைப்புகளை சொடுக்குவதன் மூலமோ, ஒரு தனிப்பட்ட கோப்புறையில் கோப்புகள் எப்படி வரிசைப்படுத்தப்படுகின்றன என்பதையும் நீங்கள் மாற்ற முடியும். இந்த மெனு தற்போதுள்ள கோப்புறையை மட்டும் பாதிக்கும்.</p>
+  </item>
+  <item>
+    <title><gui>கோப்புறைகளை கோப்புகளுக்கு முன்பாக வரிசைப்படுத்துதல்</gui></title>
+    <p>முன்னிருப்பாக, கோப்பு மேலாளர் இப்போது அனைத்து கோப்புறைகளையும் கோப்புகளுக்கு முன்பாகக் காட்டுவதில்லை. கோப்புகளுக்கு முன்பாக அனைத்து கோப்புறைகளையும் பட்டியலிட இந்த விருப்பத்தை செயல்படுத்தவும்.</p>
+  </item>
+  <item>
+    <title><gui>மறைக்கப்பட்ட மற்றும் மறுபிரதி கோப்புகளை காட்டு</gui></title>
+    <p>கோப்பு மேலாளர் முன்னிருப்பாக, <link xref="files-hidden">மறைக்கப்பட்ட கோப்புகள்</link> மற்றும் கோப்புறைகளைக் காட்டாது. நீங்கள் இந்த விருப்பத்தை தேர்ந்தெடுப்பதன் மூலம் மறைக்கப்பட்ட கோப்புகளைக் காண்பிக்கச் செய்ய முடியும்.</p>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">கருவிப்பட்டியில் <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">காட்சி விருப்பங்கள்</span></media> மெனுவில் இருந்து <gui>மறைக்கப்பட்ட கோப்புகளைக் காண்பி</gui> ஐ தேர்ந்தெடுப்பதன் மூலம் நீங்கள் ஒரு தனிப்பட்ட சாளரத்தில் உள்ள மறைக்கப்பட்ட கோப்புகளைக் காண்பிக்கச் செய்ய முடியும்.</p>
+  </item>
+</terms>
+</section>
+
+<section id="icon-view-defaults">
+<title>சின்னக் காட்சி முன்னிருப்புகள்</title>
+<terms>
+  <item>
+    <title><gui>முன்னிருப்பு பெரிதாக்கல் நிலை</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">நீங்கள் இந்த விருப்பத்தை பயன்படுத்தி சின்னக் காட்சியில் சின்னங்கள் மற்றும் உரையை முன்னிருப்பாக பெரிதாக அல்லது சிறிதாக அமைக்க முடியும் கருவிப்பட்டியில் <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">காட்சி விருப்பங்கள்</span></media> பொத்தானை சொடுக்கி, <gui>பெரிதாக்கு</gui>, <gui>சிறிதாக்கு</gui> அல்லது <gui>இயல்பான அளவு</gui> ஆகியவற்றைத் தேர்ந்தெடுப்பதன் மூலமும் நீங்கள் ஒரு தனிப்பட்ட கோப்புறைக்கான இந்த அமைப்பை மாற்றலாம். நீங்கள் அடிக்கடி ஒரு பெரிய அல்லது சிறிய பெரிதாக்கல் நிலையைப் பயன்படுத்த விரும்பினால், நீங்கள் இந்த விருப்பத்தைக் கொண்டு அதை முன்னிருப்பாக அமைக்க முடியும்.</p>
+    <p>சின்னக் காட்சியில் உங்கள் பெரிதாக்கல் நிலையைப் பொறுத்து அதிக அல்லது குறைந்த <link xref="nautilus-display#icon-captions">தலைப்புகள்</link> காட்டப்படுகின்றன.</p>
+   </item>
+  </terms>
+</section>
+
+<section id="list-view-defaults">
+<title>பட்டியல் காட்சி முன்னிருப்புகள்</title>
+<terms>
+  <item>
+    <title><gui>முன்னிருப்பு பெரிதாக்கல் நிலை</gui></title>
+    <p its:locNote="TRANSLATORS: use the translation of the tooltip for the     downwards pointing arrow button that opens the preferences menu in the main     window for 'View options'">நீங்கள் இந்த விருப்பத்தை பயன்படுத்தி பட்டியல் காட்சியில் சின்னங்கள் மற்றும்  உரையை பெரிதாக அல்லது சிறிதாக அமைக்க முடியும் கருவிப்பட்டியில் <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">காட்சி விருப்பங்கள்</span></media> பொத்தானை சொடுக்கி, <gui>பெரிதாக்கு</gui>, <gui>சிறிதாக்கு</gui> அல்லது <gui>இயல்பான அளவு</gui> ஆகியவற்றைத் தேர்ந்தெடுப்பதன் மூலமும் நீங்கள் ஒரு தனிப்பட்ட கோப்புறைக்கான இந்த அமைப்பை மாற்றலாம்.</p>
+  </item>
+</terms>
+</section>
+
+</page>

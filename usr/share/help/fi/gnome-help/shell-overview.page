@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="ui" id="shell-overview" xml:lang="fi">
+
+  <info>
+
+    <link type="guide" xref="index" group="shell-overview"/>
+
+    <title role="trail" type="link">Työpöytä</title>
+
+    <desc><link xref="shell-introduction">Johdanto</link>, <link xref="shell-keyboard-shortcuts">pikanäppäimet</link>, <link xref="clock-calendar">kalenteri</link>, <link xref="shell-notifications">ilmoitukset</link>…</desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+
+    <credit type="author">
+      <name>Gnomen dokumentointiprojekti</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Timo Jyrinki</mal:name>
+      <mal:email>timo.jyrinki@iki.fi</mal:email>
+      <mal:years>2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jiri Grönroos</mal:name>
+      <mal:email>jiri.gronroos+l10n@iki.fi</mal:email>
+      <mal:years>2012, 2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Työpöytä, sovellukset ja ikkunat</title>
+
+<links type="topic" style="2column"/>
+
+<section id="desktop" style="2column">
+ <title>Työpöytä</title>
+</section>
+
+<section id="apps" style="2column">
+ <title>Sovellukset ja ikkunat</title>
+</section>
+
+</page>

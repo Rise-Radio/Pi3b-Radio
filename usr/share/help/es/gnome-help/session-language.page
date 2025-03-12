@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="session-language" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="prefs-language"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="candidate"/>
+
+    <credit type="author">
+      <name>Proyecto de documentación de GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Cambiar a un idioma diferente la interfaz de usuario y el texto de la ayuda.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2011 - 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolás Satragno</mal:name>
+      <mal:email>nsatragno@gnome.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Molinero</mal:name>
+      <mal:email>paco@byasl.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Cambiar el idioma que usa</title>
+
+  <p>Puede usar su escritorio y aplicaciones en decenas de idiomas, siempre y cuando tenga instalados en su equipo los paquetes de idiomas apropiados.</p>
+
+  <steps>
+    <item>
+      <p>Abra la vista de <gui xref="shell-terminology">Actividades</gui> y empiece a escribir <gui>Región e idioma</gui>.</p>
+    </item>
+    <item>
+      <p>Pulse en <gui>Región e idioma</gui> para abrir el panel.</p>
+    </item>
+    <item>
+      <p>Pulse <gui>Idioma</gui>.</p>
+    </item>
+    <item>
+      <p>Select your desired region and language. If your region and language
+      are not listed, click
+      <gui><media its:translate="no" type="image" mime="image/svg" src="figures/view-more-symbolic.svg"><span its:translate="yes">...</span></media></gui>
+      at the bottom of the list to select from all available regions and
+      languages.</p>
+    </item>
+    <item>
+      <p>Click <gui style="button">Done</gui> to save.</p>
+    </item>
+    <item>
+      <p>Respond to the prompt, <gui>Your session needs to be restarted for
+      changes to take effect</gui> by clicking
+      <gui style="button">Restart Now</gui>, or click
+      <gui style="button">X</gui> to restart later.</p>
+    </item>
+  </steps>
+
+  <p>Some translations may be incomplete, and certain applications may not
+  support your language at all. Any untranslated text will appear in the
+  language in which the software was originally developed, usually American
+  English.</p>
+
+  <p>Hay algunas carpetas especiales en la carpeta de inicio donde las aplicaciones pueden almacenar cosas como música, imágenes y documentos. Estas carpetas usan nombres estándar de acuerdo a su idioma. Cuando vuelva a entrar, se le preguntará si quiere cambiar el nombre de estas carpetas con los nombres estándar para el idioma seleccionado. Si va a utilizar el nuevo idioma todo el tiempo, debe actualizar los nombres de las carpetas.</p>
+
+</page>

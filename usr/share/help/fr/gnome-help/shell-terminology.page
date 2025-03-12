@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="reference" version="1.0 if/1.0" id="shell-terminology" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="shell-overview#desktop"/>
+
+    <revision pkgversion="3.8.0" version="0.4" date="2013-04-23" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Le projet de documentation GNOME</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Une description des termes utilisés pour décrire les différentes parties du bureau.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Activités, dash, barre supérieure… Qu'est-ce que c'est ?</title>
+
+<!-- THIS SHOULD BE ALPHABETICALLY SORTED… -->
+
+  <terms>
+    <item>
+      <title>La vue d'ensemble des <gui>Activités</gui></title>
+      <p if:test="!platform:gnome-classic">La <em>vue d'ensemble des <gui>Activités</gui></em> est l'écran qui apparaît lorsque vous cliquez sur <gui>Activités</gui> dans le coin supérieur gauche de l'écran.</p>
+      <p if:test="platform:gnome-classic">La <em>vue d'ensemble des <gui>Activités</gui></em> est l'écran qui apparaît lorsque vous sélectionnez <gui>Activités</gui> dans le menu <gui>Applications</gui> du coin supérieur gauche de l'écran.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>Menu applications</title>
+      <p>Le menu <gui>Applications</gui> se trouve dans le coin supérieur gauche de l'écran. Il permet d'accéder aux applications groupées par catégories. La <em>vue d'ensemble des activités</em> est accessible en sélectionnant <gui>Vue d'ensemble des activités</gui> dans le menu.</p>
+    </item>
+    <item>
+      <title>Dash</title>
+      <p>Le <em>dash</em> est la liste de vos applications favorites qui est affichée sur le côté gauche de la vue d'ensemble des <gui>Activités</gui>. Les applications actuellement en cours d'exécution y sont également affichées. Le dash est parfois appelé le <em>dock</em>.</p>
+    </item>
+    <item>
+      <title>Coin actif</title>
+      <p>Le <em>coin actif</em> est le coin supérieur gauche de l'écran. Lorsque vous déplacez le pointeur de la souris vers ce coin, la vue d'ensemble des <gui>Activités</gui> apparaît.</p>
+    </item>
+    <item>
+      <title>Verrouillage de l'écran</title>
+      <p>L'affichage <em>écran verrouillé</em> est un fond d'écran avec des informations sur ce qui s'est passé depuis que vous avez quitté votre ordinateur. Il vous permet aussi de contrôler le lecteur de média sans être obligé de vous reconnecter.</p>
+    </item>
+    <item>
+      <title>Notifications</title>
+      <p><em>Notifications</em> are messages that pop up at the bottom of the
+      screen, telling you that something just happened. For example, when
+      someone chatting with you sends a message, a notification will pop up to
+      tell you. If you don't want to deal with a message right now, it is
+      hidden in your <em>message tray</em>. Move your mouse to the bottom of
+      the screen (or press
+      <keyseq><key xref="keyboard-key-super">Super</key><key>M</key></keyseq>)
+      to see your message tray.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>Menu emplacements</title>
+      <p>Le <em>menu emplacements</em> s'ouvre quand vous cliquez sur <gui>Emplacements</gui> dans la <gui>barre supérieure</gui>. Il permet d'accéder rapidement à certains dossiers, comme par exemple <gui>Téléchargements</gui> ou <gui>Images</gui>.</p>
+    </item>
+    <item>
+      <title>Paramètres</title>
+      <p>Les <em>paramètres systèmes</em> est l'endroit où vous pouvez modifier vos préférences, etc. ; il est similaire au Centre de contrôle sous Windows ou aux Préférences Système sous Mac OS. Cliquez sur le menu système à droite dans la barre supérieure et sélectionnez <gui>Paramètres</gui> pour y accéder. Vous pouvez aussi ouvrir la vue d'ensemble des <gui>Activités</gui>, commencer à saisir <gui>Paramètres</gui> et ensuite ouvrir le panneau <gui>Paramètres</gui>.</p>
+    </item>
+    <item>
+      <title>Sélecteur de fenêtre Logo-Tab</title>
+      <p>Lorsque vous maintenez enfoncée la touche <key xref="keyboard-key-super">Logo</key> puis appuyez sur la touche <key>Tab</key>, un <em>sélecteur de fenêtre</em> apparaît. Il affiche les icônes des applications actuellement ouvertes.</p>
+    </item>
+    <item>
+      <title>Menu système</title>
+      <p>Le <em>menu système</em> se trouve à droite dans la barre supérieure. Vous pouvez y mettre à jour certains de vos paramètres, consulter les informations relatives à votre connexion <gui>Wi-Fi</gui>, changer d'utilisateur, vous déconnecter d'une session et éteindre l'ordinateur.</p>
+    </item>
+    <item>
+      <title>Barre supérieure</title>
+      <p if:test="!platform:gnome-classic">La <em>barre supérieure</em> est la barre qui traverse le haut de l'écran. Le lien <gui>Activités</gui> est à son extrémité gauche et le menu système est de l'autre côté.</p>
+      <p if:test="platform:gnome-classic">La <em>barre supérieure</em> est la barre qui traverse le haut de l'écran. Le lien <gui>Applications</gui> est à son extrémité gauche et le menu système est de l'autre côté.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>Liste des fenêtres</title>
+      <p>La <em>liste des fenêtres</em> est la barre située tout en bas de l'écran et contient les miniatures de toutes vos fenêtres ouvertes.</p>
+    </item>
+    <item>
+      <title>Espace de travail</title>
+      <p>Vous pouvez disposer des fenêtres sur différents <em>espaces de travail</em>. C'est une façon pratique de regrouper et de séparer des fenêtres.</p>
+    </item>
+    <item>
+      <title>Sélecteur d'espace de travail</title>
+      <p>Le <em>sélecteur d'espace de travail</em> est la liste des espaces de travail qui s'affiche sur le côté droit de la vue <gui>Fenêtres</gui> dans la vue d'ensemble des <gui>Activités</gui>.</p>
+    </item>
+  </terms>
+
+</page>

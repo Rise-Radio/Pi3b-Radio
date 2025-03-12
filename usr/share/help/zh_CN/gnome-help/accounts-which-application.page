@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc>应用程序可以使用帐号创建<app>在线帐号</app>和他们想使用的服务。</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>哪些程序使用在线帐号？</title>
+
+  <p><app>在线帐号</app>可以由外部程序自动配置它们。</p>
+
+<section id="accounts-google-services">
+  <title>对于谷歌帐号</title>
+
+  <list>
+    <item>
+      <p><app>Evolution</app> 邮件程序。您的邮件帐号将被 <app>Evolution</app> 自动添加进去，它会收取您的邮件，访问您的联系人，显示您 Google agenda 中的日程安排。</p>
+    </item>
+    <item>
+      <p><app>Empathy</app>, the instant messaging application. Your online
+      account will be added and you will be able to communicate with your
+      friends.</p>
+    </item>
+    <item>
+      <p><app>Contacts</app> 联系人，允许您查看和编辑您的通讯录。</p>
+    </item>
+    <item>
+      <p><app>Documents</app> 允许您访问您的在线文档，显示它们。</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>对于 Windows Live、Facebook 或 Twitter 帐号</title>
+
+  <p><app>Empathy</app> 可以使用这些帐号登录，并与您的联系人、好友和粉丝聊天。</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>With a OneDrive account</title>
+
+  <p><app>Documents</app> can access your online documents in Microsoft
+  OneDrive and display them.</p>
+</section>
+
+<section id="account-exchange">
+  <title>With a Exchange account</title>
+
+  <p>Once you have created an Exchange account, <app>Evolution</app> will start
+  retrieving mails from this account.</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>With a ownCloud account</title>
+
+  <p>When an ownCloud account is set up, <app>Evolution</app> is able to
+  access and edit contacts and calendar appointments.</p>
+
+  <p><app>Files</app> and other applications will be able to list and access
+  your online files stored in the ownCloud installation.</p>
+</section>
+
+</page>

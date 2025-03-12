@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-wireless-troubleshooting" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="net-wireless" group="first"/>
+    <link type="guide" xref="hardware#problems" group="first"/>
+    <link type="next" xref="net-wireless-troubleshooting-initial-check"/>
+
+    <revision pkgversion="3.10" date="2013-11-10" status="review"/>
+
+    <credit type="author">
+      <name>Ubuntu documentation wiki இன் பங்களிப்பாளர்கள்</name>
+    </credit>
+    <credit type="author">
+      <name>GNOME ஆவணமாக்கத் திட்டப்பணி</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>வயர்லெஸ் இணைப்புகளிலான சிக்கல்களைக் கண்டறிந்து சரிசெய்தல்</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>வயர்லெஸ் பிணைய சிக்கல்தீர்வி</title>
+
+  <p>இது, உங்கள் வயர்லெஸ் சிக்கல்களைக் கண்டறிந்து அவற்றை சரி செய்ய உதவும் செயல்படிகள் வரிசையிலமைந்த சிக்கல்தீர்ப்பு வழிகாட்டியாகும். ஏதேனும் காரணத்தால் நீங்கள் வயர்லெஸ் பிணையத்திற்கு இணைக்க முடியாவிட்டால், இங்குள்ள வழிமுறைகளை பின்பற்றி முயற்சிக்கவும்.</p>
+
+  <p>உங்கள் கணினியை இணையத்துடன் இணைப்பதற்கு பின்வரும் செயல்படிகளைச் செய்வோம்:</p>
+
+  <list style="numbered compact">
+    <item>
+      <p>தொடக்க சோதனை செய்தல்</p>
+    </item>
+    <item>
+      <p>உங்கள் வன்பொருள் பற்றிய தகவலைச் சேகரித்தல்</p>
+    </item>
+    <item>
+      <p>உங்கள் வன்பொருளை சோதித்தல்</p>
+    </item>
+    <item>
+      <p>உங்கள் வயர்லெஸ் ரௌட்டருடன் ஒரு இணைப்பை உருவாக்க முயற்சித்தல்</p>
+    </item>
+    <item>
+      <p>உங்கள் மோடம் மற்றும் ரௌட்டரை சோதித்தல்</p>
+    </item>
+  </list>
+
+  <p>தொடங்க, பக்கத்தின் மேல் வலது பக்கமுள்ள <em>அடுத்து</em> இணைப்பை சொடுக்கவும். இந்த இணைப்பும் மற்ற பக்கங்களில் உள்ள இது போன்ற இணைப்புகளும் உங்களை வழிகாட்டியின் ஒவ்வொரு செயல்படிக்கும் கொண்டு செல்லும்.</p>
+
+  <note>
+    <title>கட்டளை வரியைப் பயன்படுத்துதல்</title>
+    <p>இந்த வழிகாட்டியில் உள்ள சில வழிமுறைகள் உங்களை <em>கட்டளை வரி</em> (முனையம்) கட்டளைகளை தட்டச்சு செய்ய அறிவுறுத்தலாம் நீங்கள் கேட்க. முனைய பயன்பாட்டை <gui>செயல்பாடுகள்</gui> மேலோட்டத்தில் கண்டறியலாம்.</p>
+    <p>உங்களுக்கு கட்டளை வரியைப் பயன்படுத்தி பழக்கமில்லையெனில், கவலை வேண்டாம், இந்த வழிகாட்டி உங்களுக்கு ஒவ்வொரு செயல்படிக்கும் வழிமுறை கூறும். கட்டளைகள் பேரெழுத்து சிற்றெழுத்து வித்தியாசம் கொண்டவை என்பதையும் (ஆகவே நீங்கள் கட்டளைகளை <em>சரியாக</em> இங்கே காண்பிக்கப்பட்டுள்ளது போலவே தட்டச்சு செய்ய வேண்டும்) கட்டளையை தட்டச்சு செய்த பிறகு அதை இயக்க <key>Enter</key> ஐ அழுத்த வேண்டும் என்பதையும் மட்டும் நீங்கள் நினைவில் வைத்துக்கொண்டால் போதும்.</p>
+  </note>
+
+</page>

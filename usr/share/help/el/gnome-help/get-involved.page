@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="tip" id="get-involved" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="more-help"/>
+    <desc>Πώς και πού να αναφέρετε προβλήματα με αυτά τα θέματα βοήθειας.</desc>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+  <title>Συμμετοχή για βελτίωση αυτού του οδηγού</title>
+
+  <section id="bug-report">
+   <title>Αναφορά σφάλματος ή βελτίωσης</title>
+   <p>Αυτή η τεκμηρίωση βοήθειας δημιουργείται από μια εθελοντική κοινότητα. Είσαστε καλοδεχούμενος να συμμετάσχετε. Εάν σημειώσατε κάποιο πρόβλημα με αυτές τις σελίδες βοήθειας (όπως τυπογραφικά, εσφαλμένες οδηγίες ή θέματα που πρέπει να καλυφθούν αλλά δεν καλύφτηκαν), μπορείτε να στείλετε μια <em>αναφορά σφάλματος</em>. Για να στείλετε ένα σφάλμα, πηγαίνετε στο <link href="https://bugzilla.gnome.org/">bugzilla.gnome.org</link>.</p>
+   <p>Χρειάζεται να καταχωρηθείτε για να μπορείτε να στέλνετε ένα σφάλμα και να δέχεστε ενημερώσεις με μήνυμα για την κατάσταση του. Εάν δεν έχετε ήδη έναν λογαριασμό, πατήστε τον σύνδεσμο <gui>νέος λογαριασμός</gui> για να δημιουργήσετε έναν.</p>
+   <p>Μόλις έχετε έναν λογαριασμό, συνδεθείτε, πατήστε <guiseq><gui>αποστολή σφάλματος</gui><gui>πυρήνας</gui><gui>έγγραφα χρήστη gnome</gui></guiseq>. Πριν να αναφέρετε ένα σφάλμα, παρακαλώ διαβάστε το <link href="https://bugzilla.gnome.org/page.cgi?id=bug-writing.html">οδηγίες συγγραφής σφάλματος</link> και παρακαλώ <link href="https://bugzilla.gnome.org/browse.cgi?product=gnome-user-docs">περιηγηθείτε</link> για να δείτε εάν κάποιο παρόμοιο σφάλμα υπάρχει ήδη.</p>
+   <p>Για να στείλετε το σφάλμα σας, επιλέξτε το συστατικό στο μενού <gui>συστατικό</gui>. Εάν συμπληρώνετε ένα σφάλμα για αυτήν την τεκμηρίωση θα πρέπει να Επιλέξετε το συστατικό <gui>βοήθεια gnome</gui>. Εάν δεν είσαστε σίγουροι σε ποιο συστατικό το σφάλμα σας αναφέρεται, επιλέξτε <gui>γενικά</gui>.</p>
+   <p>Εάν ζητάτε βοήθεια για ένα θέμα που θεωρείτε ότι δεν καλύφθηκε, επιλέξτε <gui>βελτίωση</gui> στο μενού <gui>σοβαρότητα</gui>. Συμπληρώστε τις ενότητες της περίληψης και περιγραφής και πατήστε <gui>υποβολή</gui>.</p>
+   <p>Στην αναφορά σας θα δοθεί ένας αριθμός ID και η κατάστασή της θα ενημερωθεί όταν θα εξεταστεί. Ευχαριστούμε για τη βοήθειά σας να κάνουμε τη βοήθεια του GNOME καλύτερη!</p>
+   </section>
+
+   <section id="contact-us">
+   <title>Επικοινωνήστε μαζί μας</title>
+   <p>Μπορείτε να στείλετε ένα <link href="mailto:gnome-doc-list@gnome.org">μήνυμα</link> στη λίστα αλληλογραφίας της τεκμηρίωσης GNOME για να μάθετε περισσότερα για το πώς θα εμπλακείτε με την ομάδα τεκμηρίωσης.</p>
+   </section>
+</page>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-which-application" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+    <link type="seealso" xref="accounts-disable-service"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-22" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email its:translate="no">baptistem@gnome.org</email>
+      <years>2012, 2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <desc>Seznam programov, ki lahko uporabijo račune ustvarjene v <app>Spletni računi</app> in storitve, ki jih lahko uporabijo.</desc>
+
+  </info>
+
+<title>Kateri programi uporabljajo podatke spletnih računov?</title>
+
+  <p><app>Spletne račune</app> lahko zunanji programi uporabijo za samodejno nastavitev.</p>
+
+<section id="accounts-google-services">
+  <title>Z računom Google</title>
+
+  <list>
+    <item>
+      <p><app>Evolution</app>, program pošte. Vaš račun e-pošte bo bil samodejno dodan v <app>Evolution</app>, prejeli boste pošto, dostopali boste lahko do svojih stikov in koledar vam bo predstavil predmete iz koledarja Google.</p>
+    </item>
+    <item>
+      <p><app>Empathy</app>, the instant messaging application. Your online
+      account will be added and you will be able to communicate with your
+      friends.</p>
+    </item>
+    <item>
+      <p><app>Stiki</app> omogočajo ogled in urejanje vaših stikov.</p>
+    </item>
+    <item>
+      <p><app>Dokumenti</app> lahko dostopajo in prikažejo vaše spletne dokumente.</p>
+    </item>
+  </list>
+</section>
+
+<section id="accounts-windows-services">
+  <title>Z računomi Windows Live, Facebook ali Twitter</title>
+
+  <p><app>Empathy</app> lahko uporabi te račune za povezavo, ko ste na spletu in klepeta z vašimi stiki, prijatelji in sledilci.</p>
+</section>
+
+<section id="account-windows-skydrive">
+  <title>With a OneDrive account</title>
+
+  <p><app>Documents</app> can access your online documents in Microsoft
+  OneDrive and display them.</p>
+</section>
+
+<section id="account-exchange">
+  <title>With a Exchange account</title>
+
+  <p>Once you have created an Exchange account, <app>Evolution</app> will start
+  retrieving mails from this account.</p>
+</section>
+
+<section id="accounts-ownCloud">
+  <title>With a ownCloud account</title>
+
+  <p>When an ownCloud account is set up, <app>Evolution</app> is able to
+  access and edit contacts and calendar appointments.</p>
+
+  <p><app>Files</app> and other applications will be able to list and access
+  your online files stored in the ownCloud installation.</p>
+</section>
+
+</page>

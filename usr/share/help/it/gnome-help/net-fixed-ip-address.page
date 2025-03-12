@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="net-fixed-ip-address" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="net-wired"/>
+    <link type="seealso" xref="net-findip"/>
+
+    <revision pkgversion="3.4.0" date="2012-03-13" status="final"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Se si utilizza un indirizzo IP statico è più semplice fornire alcuni servizi di rete dal proprio computer.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luca Ferretti</mal:name>
+      <mal:email>lferrett@gnome.org</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Flavia Weisghizzi</mal:name>
+      <mal:email>flavia.weisghizzi@ubuntu.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Creare una connessione con un indirizzo IP statico</title>
+
+  <p>La maggior parte delle reti assegneranno automaticamente al computer un <link xref="net-what-is-ip-address">indirizzo IP</link> e altri dettagli appena verrà stabilita una connessione a Internet. Questi dettagli possono cambiare periodicamente, ma si potrebbe preferire avere un indirizzo IP statico per sapere sempre qual'è l'indirizzo del computer (per esempio, se si tratta di un server di file).</p> <p>Per assegnare al computer un indirizzo IP statico:</p>
+
+  <steps>
+    <item>
+      <p>Click the <gui>network icon</gui> on the <gui>top bar</gui> and select
+      <gui>Network Settings</gui>.</p>
+    </item>
+    <item>
+      <p>Select the network connection from the list (<gui>Wired</gui> or
+      <gui>Wireless</gui>) and click <gui>Configure</gui>.</p>
+    </item>
+    <item>
+      <p>Fare clic sulla scheda <gui>Impostazioni IPv4</gui> e cambiare il <gui>Metodo</gui> in <em>Manuale</em>.</p>
+    </item>
+    <item>
+      <p>Se nell'elenco <gui>Indirizzi</gui> non è presente alcuna informazione sulla connessione, o se si vuole impostarne una nuova, fare clic su <gui>Aggiungi</gui>.</p>
+    </item>
+    <item>
+      <p>Inserire le informazioni relativa a <em>Indirizzo IP</em>, <em>Maschera</em> e <em>Gateway</em> nelle relative caselle. La scelta di questi valori è data dalle impostazioni della propria rete; ci sono regole specifiche che stabiliscono quale indirizzo IP e quale maschera sono validi per quella rete.</p>
+    </item>
+    <item>
+      <p>Se necessario, inserire un indirizzo <em>Domain Name Server</em> nella casella <gui>Server DNS</gui>. Questo è l'indirizzo IP di un server che controlla i nomi del dominio; la maggior parte delle reti aziendali e dei provider Internet hanno server DNS dedicati.</p>
+    </item>
+    <item>
+      <p>Fare clic su <gui>Salva</gui>. La connessione di rete dovrebbe ora avere un indirizzo IP statico.</p>
+    </item>
+  </steps>
+
+</page>

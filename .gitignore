@@ -1,0 +1,16 @@
+# Ignore system directories and device files
+/proc
+/sys
+/dev
+/tmp
+/run
+/mnt
+/media
+/lost+found
+
+# Ignore SSH keys and credentials
+/etc/shadow
+/etc/passwd
+/etc/ssl
+/home/pi/.ssh
+

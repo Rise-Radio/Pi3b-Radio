@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/python-pyparsing
+/usr/share/doc/python-pyparsing/changelog.Debian.gz
+/usr/share/doc/python-pyparsing/copyright
+/usr/share/doc/python-pyparsing/changelog.gz
+/usr/lib
+/usr/lib/python2.7
+/usr/lib/python2.7/dist-packages
+/usr/lib/python2.7/dist-packages/pyparsing-2.0.3.egg-info
+/usr/lib/python2.7/dist-packages/pyparsing.py

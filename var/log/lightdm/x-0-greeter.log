@@ -1,0 +1,10 @@
+
+** (lightdm-gtk-greeter:1438): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(lightdm-gtk-greeter:1438): Gtk-CRITICAL **: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(lightdm-gtk-greeter:1438): Gtk-CRITICAL **: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(lightdm-gtk-greeter:1438): Gtk-CRITICAL **: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+** (lightdm-gtk-greeter:1438): WARNING **: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files

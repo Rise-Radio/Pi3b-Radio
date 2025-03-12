@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="sharing-bluetooth" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="bluetooth"/>
+    <link type="guide" xref="sharing"/>
+    <link type="guide" xref="prefs-sharing"/>
+
+    <revision pkgversion="3.8.2" date="2013-05-13" status="draft"/>
+    <revision pkgversion="3.10" date="2013-11-09" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-08" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-13" status="candidate"/>
+
+    <credit type="author">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2014</years>
+    </credit>
+    <credit type="author">
+      <name>David King</name>
+      <email its:translate="no">davidk@gnome.org</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ļaut augšupielādēt datnes uz jūsu datoru caur Bluetooth.</desc>
+  </info>
+
+  <title>Kontrolēt koplietošanu caur Bluetooth</title>
+
+  <p>You can configure <gui>Bluetooth Sharing</gui> to control access to your
+  <file>Downloads</file> folder for Bluetooth file sharing, and also restrict
+  that access to only <em>trusted devices</em>.  Trusted devices are ones which
+  you have <link xref="bluetooth-connect-device">paired</link> to your computer
+  before.</p>
+
+  <note style="info package">
+    <p>You must have the <app>GNOME User Share</app> package installed for
+    <gui>Bluetooth Sharing</gui> to be visible.</p>
+
+    <if:choose xmlns:if="http://projectmallard.org/if/1.0/">
+      <if:when test="action:install">
+        <p><link action="install:gnome-user-share" style="button">Install GNOME
+        User Share</link></p>
+      </if:when>
+    </if:choose>
+  </note>
+
+  <steps>
+    <title>Ļaut koplietot datnes savā <file>Lejupielāžu</file> mapē</title>
+    <item>
+      <p>Atveriet <link xref="shell-terminology">aktivitāšu</link> pārskatu un sāciet rakstīt <gui>Koplietošana</gui>.</p>
+    </item>
+    <item>
+      <p>Spiediet <gui>Koplietošana</gui>, lai atvērtu paneli.</p>
+    </item>
+    <item>
+      <p>Ja <gui>Koplietošana</gui> ir <gui>◯</gui>, pārslēdziet to uz <gui>|</gui>.</p>
+    </item>
+    <item>
+      <p>Izvēlies <gui>Bluetooth koplietošanu</gui>.</p>
+    </item>
+    <item>
+      <p>Pārslēdziet <gui>Saglabāt saņemtās datnes lejupielādes mapē</gui> uz <gui>|</gui>.</p>
+    </item>
+    <item>
+      <p>Ja vēlaties atļaut tikai uzticamas ierīces, lai piekļūtu mapei <file>Lejupielādes</file>, pārslēdziet uz <gui>Saņemt tikai no uzticamām ierīcēm</gui> uz <gui>|</gui>.</p>
+
+      <note style="tip">
+        <p>Pēc noklusējuma šī opcija ir deaktivēta. Jums to vajadzētu aktivēt, ja vēlaties liegt pieeju savām koplietotajām mapēm tiem, kas izmato tālruņus ar Bluetooth vai līdzīgām ierīcēm.</p>
+      </note>
+
+    </item>
+    <item>
+      <p>Spiediet <gui style="button">Aizvērt</gui>. Ierīces ar Bluetooth tagad varēs sūtīt datnes uz jūsu <file>Lejupielāžu</file> mapi.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Jūs varat <link xref="sharing-displayname">mainīt</link> sava datora nosaukumu, ko redz citas ierīces.</p>
+  </note>
+
+  <p><app>Files</app> allows you to launch the <gui>Sharing</gui> panel
+  directly by clicking the <gui>Preferences</gui> button when you visit the
+  <file>Downloads</file> folder.</p>
+
+</page>

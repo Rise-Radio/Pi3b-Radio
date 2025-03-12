@@ -1,0 +1,14 @@
+/etc
+/etc/pulse
+/etc/pulse/default.pa
+/etc/pulse/system.pa
+/etc/pulse/daemon.conf
+/etc/dbus-1
+/etc/dbus-1/system.d
+/etc/dbus-1/system.d/pulseaudio-system.conf
+/etc/xdg
+/etc/xdg/autostart
+/etc/xdg/autostart/pulseaudio.desktop
+/etc/xdg/autostart/pulseaudio-kde.desktop
+/etc/bash_completion.d
+/etc/bash_completion.d/pulseaudio-bash-completion.sh

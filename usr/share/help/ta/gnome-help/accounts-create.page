@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-create" xml:lang="ta">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author editor">
+      <name>எக்காட்டெரினா ஜெராசிமோவா</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>ஜுலிட்டா இங்கா</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>மைக்கேல் ஹில்</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc><app>ஆன்லைன் கணக்குகளைப்</app> பயன்படுத்தி ஒரு புதிய கணக்கை உருவாக்குதல்.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Shantha kumar,</mal:name>
+      <mal:email>shkumar@redhat.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>ஒரு ஆன்லைன் கணக்கை உருவாக்குதல்</title>
+
+  <p>சில ஆன்லைன் கணக்கு சேவை வழங்குநர்கள், ஆன்லைன் கணக்கை <app>ஆன்லைன் கணக்குகளில்</app> சேர்க்கும் போதே ஒரு கணக்கை உருவாக்கும் வசதியை வழங்குகின்றன. இதன் மூலம் நீங்கள் உங்கள் ஆன்லைன் கணக்குகள் அனைத்தையும் ஒரே பயன்பாட்டிலிருந்து நிர்வகிக்க முடிகிறது.</p>
+
+  <!-- Tested with Google -->
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p><gui style="button">+</gui> ஐ சொடுக்கவும்.</p>
+    </item>
+    <item>
+      <p>நீங்கள் சேர்க்க விரும்பும் கணக்கு வகையைத் தேர்ந்தெடுக்கவும். சில கணக்கு வகைகள் <link xref="accounts-provider-not-available">கிடைக்காது போகலாம்</link>.</p>
+    </item>
+    <item>
+      <p>நீங்கள் கணக்கை உருவாக்க சேவை அனுமதிக்குமெனில், எப்படி உருவாக்குவது என்ற விவரம் காண்பிக்கப்படும்.</p>
+      <note>
+        <p>அனைத்து ஆன்லைன் கணக்கு வழங்குநர்களும் இந்த நிலையில் கணக்கை உருவாக்கும் வசதியை அளிப்பதில்லை. நீங்கள் பதிவு பெற விரும்பும் சேவை இதைப் போன்ற ஒன்று எனில், கணக்கை உருவாக்க நீங்கள் வேறு வழியைப் பயன்படுத்த வேண்டும்.</p>
+      </note>
+    </item>
+    <item>
+      <p>பதிவுப் படிவத்தை நிரப்பவும். கடவுச்சொல் பயனர் பெயர் போன்ற தனிப்பட்ட சில தகவல்களை வழங்குமாறு கேட்கப்படலாம்.</p>
+    </item>
+    <item>
+      <p>உங்கள் புதிய கணக்கை  <app>ஆன்லைன் கணக்குகளுடன்</app> பயன்படுத்த வேண்டுமானால் நீங்கள் GNOME க்கு உங்கள் கணக்குக்கான அணுகலை வழங்க வேண்டியிருக்கும்.</p>
+    </item>
+    <item>
+      <p>All services that are offered by an account provider will be enabled
+      by default. <link xref="accounts-disable-service">Switch</link>
+      individual services to <gui>OFF</gui> to disable them.</p>
+    </item>
+  </steps>
+
+</page>

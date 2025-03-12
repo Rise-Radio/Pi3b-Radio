@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="question" id="power-lowpower" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="power#battery"/>
+    <revision pkgversion="3.4.0" date="2012-02-20" status="review"/>
+
+    <desc>Deixar que a batería se descargue completamente non é bo para ela.</desc>
+    <credit type="author">
+      <name>Proxecto de documentación de GNOME</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Por que se apaga/hiberna o computador cando a batería chega ao 10%?</title>
+
+<p>Cando o nivel de carga da batería está moi baixo, o seu computador <link xref="power-hibernate">hibernarase</link> automaticamente. Isto non asegura que a batería non se descargue por completo, xa que é moi malo para a batería. Se a batería esgotouse, o computador non terá tempo de apagarse de forma segura.</p>
+
+<p>You can change what happens when the battery level gets too low by opening
+<app>Power</app> from the <gui xref="shell-terminology">Activities</gui>
+overview. Look at the <gui>When battery power is critical</gui> setting. You
+can choose for the computer to hibernate or shut down. If you choose shut down,
+your applications and documents <em>will not</em> be saved before the computer
+turns off.</p>
+
+<p>Algúns computadores teñen problemas de hibernación, e poden non ser capaces de recuperar os aplicativos e documentos que tiña abertos cando acenda o computador de novo. Neste caso, é posíbel que poida perder algo do seu traballo, se non o garda antes de que o ordenador se hiberne. Podería ser capaz de <link xref="power-suspendfail">arranxar os problemas coa hibernación</link>.</p>
+
+</page>

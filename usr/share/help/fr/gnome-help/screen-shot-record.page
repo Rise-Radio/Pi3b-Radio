@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="screen-shot-record" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="tips"/>
+
+    <revision pkgversion="3.6.1" date="2012-11-10" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author copyright">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany.antopolski@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author copyright">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+      <years>2012</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Take a picture or record a video of what is happening on your
+    screen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2011-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2011, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2011-12</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>yanngnome</mal:name>
+      <mal:email>yannubuntu@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nicolas Delvaux</mal:name>
+      <mal:email>contact@nicolas-delvaux.org</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Captures d'écran et vidéo d'écran</title>
+
+  <p>You can take a picture of your screen (a <em>screenshot</em>) or record a
+  video of what is happening on the screen (a <em>screencast</em>). This is
+  useful if you want to show someone how to do something on the computer, for
+  example. Screenshots and screencasts are just normal picture and video files,
+  so you can email them and share them on the web.</p>
+
+<section id="screenshot">
+  <title>Prendre une capture d'écran</title>
+
+  <steps>
+    <item>
+      <p>Open <app>Screenshot</app> from the
+      <gui xref="shell-terminology">Activities</gui> overview.</p>
+    </item>
+    <item>
+      <p>In the <app>Screenshot</app> window, select whether to grab the whole
+      screen, the current window, or an area of the screen. Set a delay if you
+      need to select a window or otherwise set up your desktop for the
+      screenshot. Then choose any effects you want.</p>
+    </item>
+    <item>
+       <p>Cliquez sur <gui>Prendre une capture d'écran</gui>.</p>
+       <p>Si vous avez sélectionné <gui>Sélectionner la zone à capturer</gui>, le pointeur devient une croix. Maintenez le bouton gauche de la souris appuyé et faites glisser votre souris afin d'obtenir la zone de capture de votre choix.</p>
+    </item>
+    <item>
+      <p>Dans la fenêtre <gui>Enregistrer la capture d'écran</gui>, saisissez un nom de fichier, choisissez un dossier et cliquez sur <gui>Enregistrer</gui>.</p>
+      <p>Vous pouvez aussi importer la capture d'écran directement dans un éditeur d'image sans avoir besoin de la sauvegarder préalablement. Cliquez sur <gui>Copier dans le presse-papiers</gui> puis collez l'image dans l'autre application, ou faites glisser la miniature de la capture jusqu'à l'application.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <title>Raccourcis clavier</title>
+
+    <p>Vous pouvez prendre rapidement une capture d'écran du bureau, d'une fenêtre ou d'une zone de l'écran en utilisant ces raccourcis clavier :</p>
+
+    <list style="compact">
+      <item>
+        <p><key>Impr. écran</key> pour prendre une capture d'écran du bureau.</p>
+      </item>
+      <item>
+        <p><keyseq><key>Alt</key><key>Impr. écran</key></keyseq> pour prendre une capture d'écran d'une fenêtre.</p>
+      </item>
+      <item>
+        <p><keyseq><key>Maj</key><key>Impr. écran</key></keyseq> pour prendre une capture d'écran d'une zone choisie.</p>
+      </item>
+    </list>
+
+    <p>When you use a keyboard shortcut, the image is automatically saved in
+    your <file>Pictures</file> folder in your home folder with a file name that
+    begins with <file>Screenshot</file> and includes the date and time it was
+    taken.</p>
+    <p>Vous pouvez aussi maintenir appuyée la touche <key>Ctrl</key> avec n'importe-lequel des raccourcis ci-dessus afin de copier la capture d'écran vers le presse-papiers au lieu de la sauvegarder.</p>
+  </note>
+
+</section>
+
+<section id="screencast">
+  <title>Faire une vidéo d'écran</title>
+
+  <p>Vous pouvez faire une vidéo d'écran qui enregistre ce qui ce passe à l'écran :</p>
+
+  <steps>
+    <item>
+      <p>Press
+      <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>R</key></keyseq>
+      to start recording what is on your screen.</p>
+      <p>A red circle is displayed in the bottom right corner of the screen
+      when the recording is in progress.</p>
+    </item>
+    <item>
+      <p>Once you have finished, press
+      <keyseq><key>Ctrl</key><key>Alt</key><key>Shift</key><key>R</key></keyseq>
+      again to stop the recording.</p>
+    </item>
+    <item>
+      <p>The video is automatically saved in your <file>Videos</file> folder
+      in your home folder, with a file name that starts with
+      <file>Screencast</file> and includes the date and time it was taken.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

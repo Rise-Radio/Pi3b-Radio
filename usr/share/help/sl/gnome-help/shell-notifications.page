@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" version="1.0 if/1.0" id="shell-notifications" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="shell-overview#desktop"/>
+
+    <revision pkgversion="3.8.0" version="0.3" date="2013-04-23" status="review"/>
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Marina Zhurakhinskaya</name>
+      <email its:translate="no">marinaz@redhat.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Sporočila se pojavijo na dnu zaslona in vam povejo kdaj se zgodijo določeni dogodki.</desc>
+  </info>
+
+<title>Obvestila in vrstica sporočanja</title>
+
+<section id="what">
+  <title>Kaj je obvestilo?</title>
+
+  <p>V primeru da program ali sestavni del sistema želi vašo pozornost, se bo obvestilo pokazalo na dnu zaslona.</p>
+
+  <p>Na primer, če dobite novo sporočilo klepeta, priklopite zunanjo napravo (kot je ključek USB), so za vaš računalnik na voljo nove posodobitve ali je baterija vašega računalnika skoraj prazna, boste dobili obvestilo o tem.</p>
+
+  <p>Da bi bilo kar najmanj moteče, se bo obvestilo najprej pojavilo kot ena vrstica. Če želite videti polno vsebino, lahko nad njega premaknete miško.</p>
+
+  <media type="image" width="700" src="figures/shell-notification.png"/>
+
+  <p>Other notifications have selectable option buttons. To close one of these
+  notifications without selecting one of its options, click the close
+  button.</p>
+
+  <media type="image" width="500" src="figures/notification-buttons.png"/>
+
+  <p>Clicking the close button on some notifications dismisses them. Others,
+  like Rhythmbox or your chat application, will stay hidden in the message 
+  tray.</p>
+
+</section>
+
+<section id="messagetray">
+
+  <title>Vrstica sporočanja</title>
+
+  <p if:test="!platform:gnome-classic">The message tray gives you a way to get
+  back to your notifications when it is convenient for you. It appears when you
+  move your mouse to the bottom-right corner of the screen, or press
+  <keyseq><key xref="keyboard-key-super">Super</key><key>M</key></keyseq>. The
+  message tray contains all the notifications that you have not acted upon or
+  that permanently reside in it.</p>
+
+  <p if:test="platform:gnome-classic">The message tray gives you a way to get
+  back to your notifications when it is convenient for you. It appears when you
+  move your mouse to the bottom-right corner of the screen, or press <keyseq>
+  <key xref="keyboard-key-super">Super</key><key>M</key></keyseq>. You can also
+  show the message tray by clicking the blue number icon at the right-hand
+  side of the window list. The message tray contains all the notifications that
+  you have not acted upon or that permanently reside in it.</p>
+
+  <p>Obvestila lahko vidite s klikom na predmete vrstice sporočanja. Predmeti v vrstici sporočanja so običajno programi, ki vam pošljejo obvestila. Obvestila o klepetu so obravnavana posebej in predstavljajo stike, ki so vam poslali sporočila klepeta.</p>
+
+  <p>You can close the message tray by pressing
+  <keyseq><key>Super</key><key>M</key></keyseq> again or <key>Esc</key>.</p>
+
+  <note style="tip">
+    <p>If the <link xref="keyboard-osk">on-screen keyboard</link> is open, you
+    will need to click the <gui>tray button</gui> to show the message tray.</p>
+  </note>
+
+</section>
+
+<section id="hidenotifications">
+
+  <title>Skritje obvestil</title>
+
+  <p>If you're working on something and do not want to be bothered, you can
+  switch off notifications.</p>
+
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Notifications</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Notifications</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Switch <gui>Show Pop Up Banners</gui> to <gui>OFF</gui>.</p>
+    </item>
+  </steps>
+
+  <p>When switched off, most notifications will not pop up at the bottom of the
+  screen. Very important notifications, such as when your battery is critically
+  low, will still pop up. Notifications will still be available in the message
+  tray when you display it (by moving your mouse to the bottom of the screen,
+  or by pressing <keyseq><key>Super</key><key>M</key></keyseq>), and they will
+  start popping up again when you switch the toggle to <gui>ON</gui> again.</p>
+
+</section>
+
+</page>

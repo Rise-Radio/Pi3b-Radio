@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="reference" version="1.0 if/1.0" id="shell-terminology" xml:lang="sr-Latn">
+
+  <info>
+    <link type="guide" xref="shell-overview#desktop"/>
+
+    <revision pkgversion="3.8.0" version="0.4" date="2013-04-23" status="outdated"/>
+    <revision pkgversion="3.10" date="2013-11-02" status="review"/>
+    <revision pkgversion="3.13.92" date="2014-09-22" status="review"/>
+
+    <credit type="author">
+      <name>Gnomov projekat dokumentacije</name>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Majkl Hil</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Pregled termina korišćenih za opisivanje različitih delova radne površi.</desc>
+  </info>
+
+  <title>Aktivnosti, poletnik, gornja traka… Šta je to?</title>
+
+<!-- THIS SHOULD BE ALPHABETICALLY SORTED… -->
+
+  <terms>
+    <item>
+      <title>Pregled <gui>Aktivnosti</gui></title>
+      <p if:test="!platform:gnome-classic"><em>Pregled <gui>Aktivnosti</gui></em> je ekran koji se prikazuje kada kliknete <gui>Aktivnosti</gui> u levom gornjem uglu ekrana.</p>
+      <p if:test="platform:gnome-classic"><em>Pregled <gui>Aktivnosti</gui></em> je ekran koji se prikazuje kada izaberete <gui>Pregled aktivnosti</gui> u izborniku <gui>Programi</gui> u levom gornjem uglu ekrana.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>Izbornik programa</title>
+      <p>Izbornik <gui>Programi</gui> možete da pronađete u levom gornjem uglu ekrana. Isti vam daje pristup programima uređenim po kategorijama. <em>Pregled aktivnosti</em> je dostupan biranjem stavke <gui>Pregled aktivnosti</gui> iz izbornika.</p>
+    </item>
+    <item>
+      <title>Poletnik</title>
+      <p><em>Poletnik</em> je spisak vaših omiljenih programa koji se prikazuje na levoj strani pregleda <gui>Aktivnosti</gui>. Programi koji su trenutno pokrenuti se takođe prikazuju ovde. Poletnik se nekada naziva <em>luka</em>.</p>
+    </item>
+    <item>
+      <title>Vrući ugao</title>
+      <p><em>Vrući ugao</em> je gornji levi ugao ekrana. Kada pomerite pokazivač u ovaj ugao, otvara se pregled <gui>Aktivnosti</gui>.</p>
+    </item>
+    <item>
+      <title>Zaključavanje ekrana</title>
+      <p><em>Ekran zaključavanja</em> prikazuje sliku na ekranu dok je računar zaključan. Pruža korisne informacije o tome šta se dešavalo dok ste bili daleko, i omogućava vam da upravljate puštanjem medija a da ne morate da otključate.</p>
+    </item>
+    <item>
+      <title>Obaveštenja</title>
+      <p><em>Obaveštenja</em> su poruke koje se prikazuju pri dnu ekrana, koje vam govore o tome da se nešto upravo dogodilo. Na primer, kada neko ko ćaska s vama pošalje poruku, obaveštenje će biti prikazano koje će vam reći o tome. Ako za sada ne želite da se bavite porukama, one bivaju skrivene u vašoj <em>fioci poruka</em>. Pomerite vašeg na dno ekrana (ili pritisnite <keyseq><key xref="keyboard-key-super">Super</key><key>M</key></keyseq>) da vidite vašu fioku poruka.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>Izbornik mesta</title>
+      <p><em>Izbornik mesta</em> se otvara kada pritisnete <gui>Mesta</gui> na <gui>gornjoj traci</gui>. Isti vam daje brzi pristup važnim fasciklama, na primer <gui>Preuzimanja</gui> ili <gui>Slike</gui>.</p>
+    </item>
+    <item>
+      <title>Podešavanja</title>
+      <p><em>Podešavanja</em> je mesto gde možete da izmenite postavke i ostalo, slično upravljačkoj ploči u Vindouzu ili sistemskim postavkama u Mek OS-u. Kliknite na sistemski izbornik na desnoj strani gornje trake i pritisnite dugme <gui>Podešavanja</gui> da im pristupite. Ili na drugi način, možete da otvorite pregled <gui>Aktivnosti</gui> i počnete da kucate <gui>Podešavanja</gui>, zatim izaberete panel <gui>Podešavanja</gui>.</p>
+    </item>
+    <item>
+      <title>Prebacivač prozora Super-Tab</title>
+      <p>Kada držite pritisnutim taster <key xref="keyboard-key-super">Super</key> i zatim pritisnete <key>Tab</key>, pojavljuje se <em>prebacivač prozora</em>. U njemu su prikazani programi koje ste trenutno otvorili.</p>
+    </item>
+    <item>
+      <title>Sistemski izbornik</title>
+      <p><em>Sistemski izbornik</em> se nalazi na desnoj strani gornje trake. Možete da osvežite neka od vaših podešavanja, pronađete podatke o <gui>bežičnoj</gui> vezi, promenite korisnika, da se odjavite i da isključite računar iz ovog izbornika.</p>
+    </item>
+    <item>
+      <title>Gornja traka</title>
+      <p if:test="!platform:gnome-classic"><em>Gornja traka</em> je traka koja se proteže duž gornje ivice ekrana. Veza <gui>Aktivnosti</gui> se nalazi na levom kraju gornje trake a sistemski izbornik na desnom.</p>
+      <p if:test="platform:gnome-classic"><em>Gornja traka</em> je traka koja se proteže duž gornje ivice ekrana. Izbornik <gui>Programi</gui> se nalazi na levom kraju gornje trake a sistemski izbornik na desnom.</p>
+    </item>
+    <item if:test="platform:gnome-classic">
+      <title>Spisak prozora</title>
+      <p><em>Spisak prozora</em> je traka koja se nalazi na samom dnu ekrana, koja prikazuje dugmad za sve vaše otvorene prozore.</p>
+    </item>
+    <item>
+      <title>Radni prostor</title>
+      <p>Možete da postavite prozore na različite <em>radne prostore</em>. Predstavljaju prikladan način grupisanja i odvajanja prozora.</p>
+    </item>
+    <item>
+      <title>Birač radnog prostora</title>
+      <p><em>Birač radnih prozora</em> je spisak radnih prostora koji se prikazuje na desnoj strani pregleda <gui>Prozora</gui> u pregledu <gui>Aktivnosti</gui>.</p>
+    </item>
+  </terms>
+
+</page>

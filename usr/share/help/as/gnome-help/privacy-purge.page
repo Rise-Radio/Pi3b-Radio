@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-purge" xml:lang="as">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+
+    <revision pkgversion="3.10" date="2013-09-29" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>জিম কেম্পবেল</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>মাইকেল হিল</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>কিমান সঘনে আপোনাৰ আবৰ্জনা আৰু অস্থায়ী ফাইলসমূহ আপোনাৰ কমপিউটাৰৰ পৰা আতৰোৱা হব চাওক।</desc>
+  </info>
+
+  <title>আবৰ্জনা &amp; অস্থায়ী ফাইলসমূহ বাদ দিয়ক</title>
+
+  <p>আপোনাৰ আবৰ্জনা আৰু অস্থায়ী ফাইলসমূহ পৰিষ্কাৰ কৰিলে আপোনাৰ কমপিউটাৰৰ পৰা অপ্ৰয়োজনীয় ফাইলসমূহ আতৰ হয়, আৰু আপোনাৰ হাৰ্ড ড্ৰাইভত অধিক স্থান মুক্ত হয়। আপুনি আপোনাৰ আবৰ্জনা হস্তচালিতভাৱে খালি কৰি আপোনাৰ অস্থায়ী ফাইলসমূহ পৰিষ্কাৰ কৰিব পাৰিব, কিন্তু আপুনি আপোনাৰ কমপিউটাৰক আপোনাৰ বাবে ইয়াক স্বচালিতভাৱে কৰিবলৈ সংহতি কৰিব পাৰিব।</p>
+
+  <steps>
+    <title>এটা নিৰ্দিষ্ট সময়ৰ পিছত আপোনাৰ আবৰ্জনা ৰিক্ত কৰক আৰু আপোনাৰ অস্থায়ী ফাইলসমূহ পৰিষ্কাৰ কৰক।</title>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Privacy</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Privacy</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p><gui>আবৰ্জনা &amp; অস্থায়ী ফাইলসমূহ</gui> বাছক।</p>
+    </item>
+    <item>
+      <p>Set one or both of the <gui>Automatically empty Trash</gui> or
+      <gui>Automatically purge Temporary Files</gui> switches to
+      <gui>ON</gui>.</p>
+    </item>
+    <item>
+      <p><gui>চিহ্নিত সময়ৰ পিছত আতৰাওক</gui> মান সলনি কৰি আপোনাৰ <em>আবৰ্জনা</em> আৰু <em>অস্থায়ী ফাইলসমূহ</em> ক কিমান সঘনে পৰিষ্কাৰ কৰিব খোজে সংহতি কৰক।</p>
+    </item>
+    <item>
+      <p>Use the <gui>Empty Trash</gui> or <gui>Purge Temporary Files</gui>
+      buttons to perform these actions immediately.</p>
+    </item>
+    <item>
+      <p>Click the <gui>X</gui> to close.</p>
+    </item>
+  </steps>
+
+  <note style="warning">
+    <p>Use the <em>Purge After: Immediately</em> setting with caution. Setting
+    your trash to be purged immediately will cause any files you delete to skip
+    your trash and be permanently deleted. Files that are deleted are much more
+    difficult to recover than files that are in your trash.</p>
+
+    <p>যেতিয়ালৈকে আপোনাৰ আবৰ্জনাৰ পৰা ফাইলসমূহ তৎক্ষনাত মচি পেলোৱা প্ৰয়োজনীয়তা নহয়, সাধাৰণত এটা দীঘল <gui>চিহ্নিত সময়ৰ পিছত আতৰাওক</gui> মান সংহতি কৰাটো সুৰক্ষিত।</p>
+  </note>
+
+</page>

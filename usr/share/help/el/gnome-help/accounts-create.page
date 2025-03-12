@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="accounts-create" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="accounts"/>
+
+    <revision pkgversion="3.5.5" date="2012-08-14" status="review"/>
+    <revision pkgversion="3.9.92" date="2013-09-18" status="candidate"/>
+    <revision pkgversion="3.13.92" date="2014-09-20" status="candidate"/>
+
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Δημιουργείστε έναν νέο λογαριασμό χρησιμοποιώντας τους <app>δικτυακούς λογαριασμούς</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Δημιουργία ενός διαδικτυακού λογαριασμού</title>
+
+  <p>Μερικοί πάροχοι υπηρεσιών δικτυακών λογαριασμών επιτρέπουν τη δημιουργία λογαριασμού ενώ τον προσθέτετε στους <app>δικτυακούς λογαριασμούς</app>. Αυτό σας επιτρέπει να διαχειριστείτε όλους τους δικτυακούς λογαριασμούς από μια εφαρμογή.</p>
+
+  <!-- Tested with Google -->
+  <steps>
+    <item>
+      <p>Open the <gui xref="shell-terminology">Activities</gui> overview and
+      start typing <gui>Online Accounts</gui>.</p>
+    </item>
+    <item>
+      <p>Click on <gui>Online Accounts</gui> to open the panel.</p>
+    </item>
+    <item>
+      <p>Κλικ στο <gui style="button">+</gui>.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε τον τύπο του λογαριασμού που θέλετε να προσθέσετε. Μερικοί τύποι λογαριασμού μπορεί <link xref="accounts-provider-not-available">να μην είναι διαθέσιμοι</link>.</p>
+    </item>
+    <item>
+      <p>Αν η υπηρεσία σας επιτρέπει να δημιουργήσετε έναν λογαριασμό, θα πρέπει να δείτε περισσότερες πληροφορίες στο πώς να το κάνετε αυτό.</p>
+      <note>
+        <p>Δεν προσφέρουν όλοι οι πάροχοι δικτυακού λογαριασμού την επιλογή δημιουργίας ενός λογαριασμού σε αυτό το στάδιο. Εάν αυτό είναι αληθές για την υπηρεσία που επιθυμείτε να καταχωρίσετε, θα χρειαστείτε να χρησιμοποιήσετε μια εναλλακτική μέθοδο δημιουργίας λογαριασμού.</p>
+      </note>
+    </item>
+    <item>
+      <p>Συμπληρώστε την φόρμα εγγραφής. Θα ερωτηθείτε τυπικά για κάποιες προσωπικές λεπτομέρειες όπως όνομα χρήστη και κωδικό.</p>
+    </item>
+    <item>
+      <p>Θα χρειαστείτε να παραχωρήσετε την πρόσβαση GNOME στον νέο λογαριασμό σας για να τον χρησιμοποιήσετε με <app>δικτυακούς λογαριασμούς</app>.</p>
+    </item>
+    <item>
+      <p>All services that are offered by an account provider will be enabled
+      by default. <link xref="accounts-disable-service">Switch</link>
+      individual services to <gui>OFF</gui> to disable them.</p>
+    </item>
+  </steps>
+
+</page>

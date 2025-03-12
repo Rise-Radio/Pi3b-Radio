@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="mouse-middleclick" xml:lang="gl">
+
+<info>
+ <desc>Use o botón central para abrir aplicativos, pegar texto, abrir lapelas e máis.</desc>
+
+ <link type="guide" xref="tips"/>
+ <link type="guide" xref="mouse#tips"/>
+
+ <revision pkgversion="3.8.0" version="0.3" date="2013-03-13" status="candidate"/>
+
+ <credit type="author">
+  <name>Tiffany Antopolski</name>
+  <email>tiffany.antopolski@gmail.com</email>
+ </credit>
+ <credit type="author">
+   <name>Shaun McCance</name>
+   <email>shaunm@gnome.org</email>
+ </credit>
+ <credit type="editor">
+   <name>Michael Hill</name>
+   <email>mdhillca@gmail.com</email>
+ </credit>
+ <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Clic central</title>
+
+<p>Moitos ratos e algunhas áreas táctiles teñen un botón central. En ratos que dispoñen de roda de desprazamento, a veces pode premer a roda directamente para facer unha pulsación de botón central. Se non dispón de botón central, pode emulalo premendo os botóns esquerdo e dereito ao mesmo tempo.</p>
+
+<p>En «áreas táctiles» que sexan multitáctiles pode premer con tres dedos á vez para realizar unha pulsación co botón do medio. Para que isto funcione, debe activar <link xref="mouse-touchpad-click">Activar pulsacións do rato coa área táctil</link> na configuración da área táctil.</p>
+
+<p>Moitos aplicativos usan a pulsación central para atallos de pulsación avanzados.</p>
+
+<list>
+  <item><p>Un atallo común é pegar o texto seleccionado. (A veces denomínase «pegado de selección principal.) Seleccione o texto que desexa pegar, a continuación vaia a onde queira pegar e faga unha pulsación central. O texto seleccionado pegarase na posición do rato.</p>
+  <p>Pegar texto co botón central do rato é algo totalmente independentemente de pegalo desde o portapapeis normal. Ao seleccionar texto non se pega ao portapapeis. Este método rápido de pegado só funciona co botón central do rato.</p></item>
+
+  <item><p>En barras de desprazamento e deslizadores, unha pulsación no espazo baleiro móveos unha cantidade determinada (por exemplo, unha páxina) na dirección que premeu. Tamén pode premer co botón central no espazo baleiro para moverse exactamente á localización na que premeu.</p></item>
+
+  <item><p>Na vista xeral de <gui>Actividades</gui> pode abrir rapidamente unha xanela nova para un aplicativo no seu propio espazo de traball novo, premendo co botón do medio. Simplemente prema co botón do medio sobre a icona do aplicativo, xa sexa no taboleiro da esquerda, ou na vista xeral de aplicativos. A vista xeral de aplicativos móstrase empregando o botón da grella desde o panel.</p></item>
+
+  <item><p>Moitos navegadores web permítenlle abrir ligazóns en lapelas rapidamente co botón central do rato. Prema calquera ligazón co botón central e abrirase nunha nova lapela. Pero teña coidado ao premer unha ligazón no navegador web <app>Firefox</app>. En <app>Firefox</app>, se preme o botón central en calquera outro sitio que non sexa unha ligazón, o navegador tentará cargar o seu texto seleccionado como unha URL, como se usara o botón central para pegalo na barra de enderezos e premera <key>Intro</key>.</p></item>
+
+  <item><p>No xestor de ficheiros, o botón central ten dúas funcións. Se preme co botón central nun cartafol, abrirase nunha lapela nova. Este comportamento imita ao dos navegadores web máis importantes. Se preme co botón central sobre un ficheiro, abrirao como se premera dúas veces sobre el.</p></item>
+</list>
+
+<p>Algúns aplicativos especializados permítenlle usar o botón central do rato para outras funcións. Busque na axuda do seu aplicativo algún apartado referente a <em>pulsación central</em> ou <em>botón central do rato</em>.</p>
+</page>

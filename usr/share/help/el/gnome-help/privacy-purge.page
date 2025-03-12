@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="privacy-purge" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="privacy"/>
+
+    <revision pkgversion="3.10" date="2013-09-29" status="review"/>
+    <revision pkgversion="3.12" date="2014-03-23" status="candidate"/>
+    <revision pkgversion="3.14" date="2014-10-12" status="candidate"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <desc>Ορίστε το πόσο συχνά τα προσωρινά αρχεία και τα απορρίμματά σας θα διαγράφονται από τον υπολογιστή σας.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Φώτης Τσάμης</mal:name>
+      <mal:email>ftsamis@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009, 2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Εκκαθάριση απορριμμάτων &amp; προσωρινών αρχείων</title>
+
+  <p>Ο καθαρισμός των Απορριμμάτων και των Προσωρινών αρχείων αφαιρεί ανεπιθύμητα και άχρηστα αρχεία από τον υπολογιστή σας και ελευθερώνει επίσης περισσότερο χώρο στον σκληρό σας δίσκο. Μπορείτε να αδειάσετε χειροκίνητα τα απορρίμματά σας και να καθαρίσετε τα προσωρινά αρχεία σας, αλλά μπορείτε επίσης να ορίσετε να το κάνει αυτό ο υπολογιστής σας αυτόματα για σας.</p>
+
+  <steps>
+    <title>Αυτόματο άδειασμα των απορριμμάτων σας και καθαρισμός των προσωρινών σας αρχείων μετά από μια ορισμένη περίοδο χρόνου:</title>
+    <item>
+      <p>Ανοίξτε την επισκόπηση <gui xref="shell-terminology">Ενέργειες</gui> και αρχίστε να πληκτρολογείτε <gui>Ιδιωτικότητα</gui>.</p>
+    </item>
+    <item>
+      <p>Πατήστε <gui>Ιδιωτικότητα</gui> για να ανοίξετε το φάτνωμα.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε <gui>Καθαρισμός απορριμμάτων &amp; προσωρινών αρχείων</gui>.</p>
+    </item>
+    <item>
+      <p>Set one or both of the <gui>Automatically empty Trash</gui> or
+      <gui>Automatically purge Temporary Files</gui> switches to
+      <gui>ON</gui>.</p>
+    </item>
+    <item>
+      <p>Ορίστε πόσο συχνά θα θέλατε τα <em>Απορρίμματα</em> σας και τα <em>Προσωρινά αρχεία</em> να καθαρίζονται αλλάζοντας την τιμή <gui>Καθαρισμός μετά από</gui>.</p>
+    </item>
+    <item>
+      <p>Χρησιμοποιήστε τα κουμπιά <gui>Άδειασμα απορριμμάτων</gui> ή <gui>Καθαρισμός προσωρινών αρχείων</gui> για να εκτελέσετε αυτές τις ενέργειες άμεσα.</p>
+    </item>
+    <item>
+      <p>Click the <gui>X</gui> to close.</p>
+    </item>
+  </steps>
+
+  <note style="warning">
+    <p>Χρησιμοποιήστε τη ρύθμιση <em>Καθαρισμός μετά από: αμέσως</em> με προσοχή. Ορίζοντας τα απορρίμματα σας να καθαρίζονται αμέσως θα προκαλέσει κάθε αρχείο που διαγράφετε να παραλείπει τα απορρίμματα σας και να διαγράφεται μόνιμα. Τα αρχεία που διαγράφονται είναι πολύ πιο δύσκολο να ανακτηθούν από τα αρχεία που είναι στα απορρίμματα σας.</p>
+
+    <p>Εκτός και έχετε μια ιδιαίτερη ανάγκη να διαγράψετε αμέσως τα αρχεία από τα απορρίμματά σας, είναι προφανώς πιο ασφαλές να ορίσετε μια μεγαλύτερη τιμή στο <gui>Καθαρισμός μετά από</gui>.</p>
+  </note>
+
+</page>

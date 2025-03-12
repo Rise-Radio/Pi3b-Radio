@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="ui" id="nautilus-display" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="nautilus-prefs" group="nautilus-display"/>
+
+    <desc>Controlar as lendas das iconas usados polo xestor de ficheiros.</desc>
+
+    <revision pkgversion="3.5.92" version="0.2" date="2012-09-19" status="review"/>
+
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <its:rules xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" xlink:type="simple" xlink:href="gnome-help.its"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Preferencias do xestor de ficheiros</title>
+
+<p>Pode controlar varios aspectos relativos a como visualiza os ficheiros o xestor de ficheiros. Prema sobre <gui>Ficheiros</gui> na barra superior, seleccione <gui>Preferencias</gui> e seleccione a lapela <gui>Visualización</gui>.</p>
+
+<section id="icon-captions">
+  <title>Lendas das iconas</title>
+  <media type="image" src="figures/nautilus-icons.png" width="250" height="110" style="floatend floatright">
+    <p>Iconas do xestor de ficheiros con títulos</p>
+  </media>
+  <p>Cando se emprega a vista de iconas, pode optar por ter información adicional sobre os ficheiros e cartafoles mostrando unha lenda embaixo de cada icona. Isto é útil, por exemplo, se a miúdo precisa ver que é propietario dun ficheiro ou cando se modificou por última vez.</p>
+  <p>You can zoom in a folder by clicking the
+  <media its:translate="no" type="image" src="figures/go-down.png"><span its:translate="yes">down</span></media> button in the
+  toolbar and choosing one of the <gui>Zoom</gui> options. As you zoom in, the
+  file manager will display more and more information in captions. You can
+  choose up to three things to show in captions. The first will be displayed at
+  most zoom levels. The last will only be shown at very large sizes.</p>
+  <p>A información que pode mostrar nas lendas das iconas é a mesma que a das columnas cando usa a visualización en lista. Vexa <link xref="nautilus-list"/> para obter máis información.</p>
+  <note><p>Se ten unha xanela do xestor de ficheiros aberta debería ter que recargar para ver os cambios nas lendas das iconas. Prema <guiseq><gui>Ver</gui><gui>Recargar</gui></guiseq> ou prema <keyseq><key>Ctrl</key><key>R</key></keyseq>.</p></note>
+</section>
+
+</page>

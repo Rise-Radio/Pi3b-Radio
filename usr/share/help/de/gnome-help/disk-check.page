@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="disk-check" xml:lang="de">
+  <info>
+    <link type="guide" xref="disk"/>
+
+
+    <credit type="author">
+      <name>GNOME-Dokumentationsprojekt</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Natalia Ruz Leiva</name>
+      <email>nruz@alumnos.inf.utfsm.cl</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+
+    <revision pkgversion="3.4.0" date="2012-02-19" status="review"/>
+    <revision pkgversion="3.13.91" date="2014-09-05" status="review"/>
+
+    <desc>Sie können die Festplatte auf Probleme testen, um sicher zu stellen, dass sie »gesund« ist.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hendrik Knackstedt</mal:name>
+      <mal:email>hendrik.knackstedt@t-online.de</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gabor Karsay</mal:name>
+      <mal:email>gabor.karsay@gmx.at</mal:email>
+      <mal:years>2011, 2012.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2011-2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2011-2013.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Überprüfen Ihrer Festplatte auf Probleme</title>
+
+<section id="disk-status">
+ <title>Überprüfen der Festplatte</title>
+  <p>Festplattenlaufwerke verfügen über einen eingebautes Werkzeug zum Gesundheitstest namens <app>SMART</app> (Self-Monitoring, Analysis, and Reporting Technology), welches wiederkehrend die Festplatte auf potenzielle Probleme überprüft. SMART warnt auch, wenn die Festplatte kurz vor dem Defekt steht, so dass der Verlust wichtiger Daten vermieden werden kann.</p>
+
+  <p>Obwohl SMART automatisch ausgeführt wird, können Sie zusätzlich mit der <app>Laufwerksverwaltung</app> die Festplattengesundheit prüfen:</p>
+
+<steps>
+ <title>Überprüfen der Festplattengesundheit mit der Laufwerksverwaltung</title>
+
+  <item>
+    <p>Open <app>Disks</app> from the <gui>Activities</gui> overview.</p>
+  </item>
+  <item>
+    <p>Select the disk you want to check from the list of storage devices on
+    the left. Information and status of the disk will be shown.</p>
+  </item>
+  <item>
+    <p>Click the gear icon and select <gui>SMART Data &amp; Self Tests…</gui>.
+    The <gui>Overall Assessment</gui> should say "Disk is OK".</p>
+  </item>
+  <item>
+    <p>See more information under <gui>SMART Attributes</gui>, or click the
+    <gui style="button">Start Self-test</gui> button to run a self-test.</p>
+  </item>
+
+</steps>
+
+</section>
+
+<section id="disk-not-healthy">
+
+ <title>Was tun, wenn das Laufwerk nicht funktionstüchtig ist?</title>
+
+  <p>Even if the <gui>Overall Assessment</gui> indicates that the disk
+  <em>isn't</em> healthy, there may be no cause for alarm. However, it's better
+  to be prepared with a <link xref="backup-why">backup</link> to prevent data
+  loss.</p>
+
+  <p>Wenn der Status »Vor Versagen« lautet, ist das Laufwerk noch halbwegs funktionstüchtig, aber es wurden Verschleißerscheinungen festgestellt, was bedeutet, dass es in naher Zukunft ausfallen könnte. Wenn Ihre Festplatte (oder Ihr Rechner) einige Jahre alt ist, sehen Sie diese Nachricht wahrscheinlich bei zumindest einigen Fehlerüberprüfungen. Sie sollten <link xref="backup-how">Ihre wichtigen Daten regelmäßig sichern</link> und von Zeit zu Zeit überprüfen, ob sich der Laufwerksstatus nicht verschlechtert hat.</p>
+
+  <p>Wenn sich die Situation verschlechtert, sollten Sie den Rechner/die Festplatte eventuell für eine ausführlichere Diagnose oder Reparatur zu einem Fachmann bringen.</p>
+
+</section>
+
+</page>
