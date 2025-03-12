@@ -1,0 +1,3 @@
+Launching PHP on DoNetConfig.php\n
+No NetConfig.cfg file was found...
+Reboot Request Not Found
