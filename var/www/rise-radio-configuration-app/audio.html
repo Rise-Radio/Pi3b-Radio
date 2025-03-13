@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+  <link rel="manifest" href="icons/manifest.json">
+  <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <title>Audio Unit | Digital Sign</title>
+
+  <!-- Bootstrap -->
+  <link href="./vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="./vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- NProgress -->
+  <link href="./vendors/nprogress/nprogress.css" rel="stylesheet">
+  <!-- iCheck -->
+  <link href="./vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+  <!-- Ion.RangeSlider -->
+  <link href="./vendors/normalize-css/normalize.css" rel="stylesheet">
+  <link href="./vendors/ion.rangeSlider/css/ion.rangeSlider.css" rel="stylesheet">
+  <link href="./vendors/ion.rangeSlider/css/ion.rangeSlider.skinFlat.css" rel="stylesheet">
+
+  <!-- Custom Theme Style -->
+  <link href="./styles/theme.min.css" rel="stylesheet">
+
+  <!-- Custom Rise Radio Style -->
+  <link href="./styles/custom.css" rel="stylesheet">
+  <!-- Loading style when run command -->
+  <link rel="stylesheet" href="./styles/loading.css" >
+</head>
+
+<body onload="loadAudioPage()" class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <div class="col-md-3 left_col">
+        <div class="left_col scroll-view">
+          <div class="navbar nav_title" style="border: 0;">
+            <a href="index.html" style="text-align: center;" class="site_title"><span>Radio & TV</span></a>
+            <a href="index.html" class="site_title site_title--sm"><span>DIBR</span></a>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <!-- menu profile quick info -->
+          <div class="profile clearfix" style="text-align: center;" >
+
+              <img src="images/DIBR-logo-red-bg-horz.jpg" alt="Do It Right">
+
+            <div class="clearfix"></div>
+          </div>
+          <!-- /menu profile quick info -->
+
+          <br />
+
+          <!-- sidebar menu -->
+          <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+            <div class="menu_section">
+              <h3>General</h3>
+              <ul class="nav side-menu">
+                <li><a href="index.html"><i class="fa fa-info-circle"></i> Status</a></li>
+                <li><a href="network.html"><i class="fa fa-globe"></i> Network</a></li>
+                <li><a href="audio.html"><i class="fa fa-volume-up"></i> Audio Unit</a></li>
+                <li><a href="video.html"><i class="fa fa-video-camera"></i> Video Unit</a></li>
+                <li><a href="tools.html"><i class="fa fa-wrench"></i> Tools</a></li>
+              </ul>
+            </div>
+
+          </div>
+          <!-- /sidebar menu -->
+
+          <!-- /menu footer buttons -->
+          <div class="sidebar-footer hidden-small">
+
+            <a data-toggle="tooltip" data-placement="top" title="FullScreen" onclick="openFullscreen()">
+              <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+            </a>
+
+          </div>
+          <!-- /menu footer buttons -->
+        </div>
+      </div>
+
+      <!-- top navigation -->
+      <div class="top_nav">
+        <div class="nav_menu">
+          <nav>
+            <div class="nav toggle">
+              <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+            </div>
+
+
+          </nav>
+        </div>
+      </div>
+      <!-- /top navigation -->
+
+      <!-- page content -->
+      <div class="right_col" role="main">
+        <div class="">
+          <div class="page-title">
+            <div class="title_left">
+              <h3>Audio Unit</h3>
+            </div>
+
+            <div class="title_right">
+
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="row">
+            <div class="col-md-8 col-sm-12 col-xs-12">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h2>Audio Offset (Default 7000)</h2>
+                  <ul class="nav navbar-right panel_toolbox">
+                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <div class="col-md-8 col-sm-8 col-xs-12">
+                    <input id="audio-offset" type="text" class="form-control">
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-12 col-md-offset-3">
+                    <br>
+                    <button type="submit" class="btn btn-success set-audio-offset">Save</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-8 col-sm-12 col-xs-12">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h2>Output Volume</h2>
+                  <ul class="nav navbar-right panel_toolbox">
+                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content range-slider">
+                  <input type="text" class="js-range-slider" value="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-8 col-sm-12 col-xs-12">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h2>Audio Stream</h2>
+                  <ul class="nav navbar-right panel_toolbox">
+                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+
+
+                  <a class="btn btn-app start-audio">
+                    <i class="fa fa-play"></i> Start
+                  </a>
+                  <a class="btn btn-app stop-audio">
+                    <i class="fa fa-stop"></i> Stop
+                  </a>
+                  <div id="start-stop-audio-results"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /page content -->
+
+      <!-- footer content -->
+      <footer>
+        <div class="pull-right">
+          Copyright 2018, Do It Best, All rights reserved.
+        </div>
+        <div class="clearfix"></div>
+      </footer>
+      <!-- /footer content -->
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="./vendors/jquery/dist/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="./vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- FastClick -->
+  <script src="./vendors/fastclick/lib/fastclick.js"></script>
+  <!-- NProgress -->
+  <script src="./vendors/nprogress/nprogress.js"></script>
+  <!-- iCheck -->
+  <script src="./vendors/iCheck/icheck.min.js"></script>
+  <!-- moment.js -->
+  <script src="./vendors/moment/min/moment.min.js"></script>
+  <!-- Ion.RangeSlider -->
+  <script src="./vendors/ion.rangeSlider/js/ion.rangeSlider.min.js"></script>
+
+  <!-- Custom Theme Scripts -->
+  <script src="./js/theme.min.js"></script>
+
+  <!-- Custom Rise Radio Script -->
+  <script src="./js/custom.js"></script>
+</body>
+
+</html>
