@@ -2221,3 +2221,231 @@ Mar 12 15:51:17 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for us
 Mar 12 15:51:27 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
 Mar 12 15:51:35 DIBTVTest1A1 sudo:       pi : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git add .
 Mar 12 15:51:35 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar 12 16:02:21 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 12 16:09:01 DIBTVTest1A1 CRON[2816]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 16:09:02 DIBTVTest1A1 CRON[2816]: pam_unix(cron:session): session closed for user root
+Mar 12 16:17:01 DIBTVTest1A1 CRON[2875]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 16:17:01 DIBTVTest1A1 CRON[2875]: pam_unix(cron:session): session closed for user root
+Mar 12 16:39:01 DIBTVTest1A1 CRON[2915]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 16:39:01 DIBTVTest1A1 CRON[2915]: pam_unix(cron:session): session closed for user root
+Mar 12 16:47:24 DIBTVTest1A1 sudo:       pi : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git commit -m Initial commit excluding system files
+Mar 12 16:47:24 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar 12 16:49:55 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 12 16:56:36 DIBTVTest1A1 sudo:       pi : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git pull origin master
+Mar 12 16:56:36 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar 12 16:56:39 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 12 16:56:46 DIBTVTest1A1 sudo:       pi : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git push origin master
+Mar 12 16:56:46 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar 12 16:56:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 12 16:57:24 DIBTVTest1A1 sudo:       pi : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git pull origin master
+Mar 12 16:57:24 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar 12 16:57:25 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 12 17:01:30 DIBTVTest1A1 sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/mkdir -p /root/.ssh
+Mar 12 17:01:30 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar 12 17:01:30 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 12 17:02:17 DIBTVTest1A1 sudo:       pi : TTY=pts/1 ; PWD=/home/pi/.ssh ; USER=root ; COMMAND=/bin/cp /home/pi/.ssh/id_ed25519 /home/pi/.ssh/id_ed25519.pub /root/.ssh
+Mar 12 17:02:17 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar 12 17:02:17 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 12 17:02:27 DIBTVTest1A1 sudo:       pi : TTY=pts/1 ; PWD=/home/pi/.ssh ; USER=root ; COMMAND=/bin/chown -R root:root /root/.ssh
+Mar 12 17:02:27 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar 12 17:02:27 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 12 17:02:38 DIBTVTest1A1 sudo:       pi : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git push origin master
+Mar 12 17:02:38 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar 12 17:02:43 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 12 17:02:51 DIBTVTest1A1 sudo:       pi : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git pull origin master
+Mar 12 17:02:51 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar 12 17:03:08 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 12 17:03:10 DIBTVTest1A1 sudo:       pi : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git push origin master
+Mar 12 17:03:10 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar 12 17:09:02 DIBTVTest1A1 CRON[3382]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 17:09:03 DIBTVTest1A1 CRON[3382]: pam_unix(cron:session): session closed for user root
+Mar 12 17:11:16 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 12 17:12:19 DIBTVTest1A1 sudo:       pi : TTY=pts/1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git add -A
+Mar 12 17:12:19 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Mar 12 17:12:38 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 12 17:17:01 DIBTVTest1A1 CRON[3464]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 17:17:01 DIBTVTest1A1 CRON[3464]: pam_unix(cron:session): session closed for user root
+Mar 12 17:39:01 DIBTVTest1A1 CRON[3511]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 17:39:02 DIBTVTest1A1 CRON[3511]: pam_unix(cron:session): session closed for user root
+Mar 12 18:09:01 DIBTVTest1A1 CRON[3587]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 18:09:02 DIBTVTest1A1 CRON[3587]: pam_unix(cron:session): session closed for user root
+Mar 12 18:17:01 DIBTVTest1A1 CRON[3647]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 18:17:01 DIBTVTest1A1 CRON[3647]: pam_unix(cron:session): session closed for user root
+Mar 12 18:39:01 DIBTVTest1A1 CRON[3685]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 18:39:01 DIBTVTest1A1 CRON[3685]: pam_unix(cron:session): session closed for user root
+Mar 12 19:09:01 DIBTVTest1A1 CRON[3762]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 19:09:01 DIBTVTest1A1 CRON[3762]: pam_unix(cron:session): session closed for user root
+Mar 12 19:17:01 DIBTVTest1A1 CRON[3821]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 19:17:01 DIBTVTest1A1 CRON[3821]: pam_unix(cron:session): session closed for user root
+Mar 12 19:39:01 DIBTVTest1A1 CRON[3862]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 19:39:02 DIBTVTest1A1 CRON[3862]: pam_unix(cron:session): session closed for user root
+Mar 12 20:09:01 DIBTVTest1A1 CRON[3941]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 20:09:01 DIBTVTest1A1 CRON[3941]: pam_unix(cron:session): session closed for user root
+Mar 12 20:17:01 DIBTVTest1A1 CRON[4001]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 20:17:01 DIBTVTest1A1 CRON[4001]: pam_unix(cron:session): session closed for user root
+Mar 12 20:39:01 DIBTVTest1A1 CRON[4042]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 20:39:01 DIBTVTest1A1 CRON[4042]: pam_unix(cron:session): session closed for user root
+Mar 12 21:09:01 DIBTVTest1A1 CRON[4117]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 21:09:02 DIBTVTest1A1 CRON[4117]: pam_unix(cron:session): session closed for user root
+Mar 12 21:17:01 DIBTVTest1A1 CRON[4177]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 21:17:01 DIBTVTest1A1 CRON[4177]: pam_unix(cron:session): session closed for user root
+Mar 12 21:39:01 DIBTVTest1A1 CRON[4216]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 21:39:01 DIBTVTest1A1 CRON[4216]: pam_unix(cron:session): session closed for user root
+Mar 12 22:09:01 DIBTVTest1A1 CRON[4293]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 22:09:01 DIBTVTest1A1 CRON[4293]: pam_unix(cron:session): session closed for user root
+Mar 12 22:17:01 DIBTVTest1A1 CRON[4349]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 22:17:01 DIBTVTest1A1 CRON[4349]: pam_unix(cron:session): session closed for user root
+Mar 12 22:39:01 DIBTVTest1A1 CRON[4390]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 22:39:02 DIBTVTest1A1 CRON[4390]: pam_unix(cron:session): session closed for user root
+Mar 12 23:09:01 DIBTVTest1A1 CRON[4483]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 23:09:01 DIBTVTest1A1 CRON[4483]: pam_unix(cron:session): session closed for user root
+Mar 12 23:17:01 DIBTVTest1A1 CRON[4541]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 23:17:01 DIBTVTest1A1 CRON[4541]: pam_unix(cron:session): session closed for user root
+Mar 12 23:39:01 DIBTVTest1A1 CRON[4582]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 12 23:39:01 DIBTVTest1A1 CRON[4582]: pam_unix(cron:session): session closed for user root
+Mar 13 00:09:01 DIBTVTest1A1 CRON[4659]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 00:09:02 DIBTVTest1A1 CRON[4659]: pam_unix(cron:session): session closed for user root
+Mar 13 00:17:01 DIBTVTest1A1 CRON[4719]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 00:17:01 DIBTVTest1A1 CRON[4719]: pam_unix(cron:session): session closed for user root
+Mar 13 00:39:01 DIBTVTest1A1 CRON[4757]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 00:39:01 DIBTVTest1A1 CRON[4757]: pam_unix(cron:session): session closed for user root
+Mar 13 01:09:01 DIBTVTest1A1 CRON[4834]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 01:09:01 DIBTVTest1A1 CRON[4834]: pam_unix(cron:session): session closed for user root
+Mar 13 01:10:01 DIBTVTest1A1 CRON[4888]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 01:10:01 DIBTVTest1A1 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/home/pi/midnightcronjob.sh
+Mar 13 01:10:01 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:10:06 DIBTVTest1A1 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/echo 9883
+Mar 13 01:10:06 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:10:06 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:12:49 DIBTVTest1A1 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/usr/bin/pkill iceweasel
+Mar 13 01:12:49 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:12:49 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:12:49 DIBTVTest1A1 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/usr/bin/pkill CheckNSA.sh
+Mar 13 01:12:49 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:12:49 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:12:49 DIBTVTest1A1 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/usr/bin/pkill node
+Mar 13 01:12:50 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:12:50 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:12:50 DIBTVTest1A1 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/usr/bin/php /var/www/html/FTPCodeUpdater.php
+Mar 13 01:12:50 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:12:50 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:13:02 DIBTVTest1A1 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/usr/bin/php /var/www/html/pullmanifest.php
+Mar 13 01:13:02 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:13:02 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:13:32 DIBTVTest1A1 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/shutdown -r now
+Mar 13 01:13:32 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:13:33 DIBTVTest1A1 sshd[2056]: pam_unix(sshd:session): session closed for user pi
+Mar 13 01:13:39 DIBTVTest1A1 systemd-logind[434]: New seat seat0.
+Mar 13 01:13:40 DIBTVTest1A1 sshd[665]: Server listening on 0.0.0.0 port 22.
+Mar 13 01:13:40 DIBTVTest1A1 sshd[665]: Server listening on :: port 22.
+Mar 13 01:13:44 DIBTVTest1A1 lightdm: pam_unix(lightdm-autologin:session): session opened for user pi by (uid=0)
+Mar 13 01:13:44 DIBTVTest1A1 systemd-logind[434]: New session c1 of user pi.
+Mar 13 01:13:44 DIBTVTest1A1 systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Mar 13 01:13:47 DIBTVTest1A1 sudo:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/bin/chmod 777 ./alphascript.sh ./CheckLastUpdate.sh ./DoNetConfig.sh ./immediatecronjob.sh ./instantupdate.sh ./midnightcronjob.sh ./NotifyDoingUpdate.sh ./superscript.sh
+Mar 13 01:13:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:13:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:13:47 DIBTVTest1A1 sudo:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/bin/chmod 777 /var/www/html/CheckNSA.sh /var/www/html/update.sh
+Mar 13 01:13:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:13:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:13:47 DIBTVTest1A1 sudo:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/bin/chmod 777 /home/pi/alphascript.sh /home/pi/CheckLastUpdate.sh /home/pi/didupdate.txt /home/pi/DoNetConfig.php /home/pi/DoNetConfig.sh /home/pi/immediatecronjob.sh /home/pi/instantupdate.sh /home/pi/last30days.txt /home/pi/midnightcronjob.sh /home/pi/netreport.txt /home/pi/NotifyDoingUpdate.sh /home/pi/SplashScreen.mp4 /home/pi/superscript.sh /home/pi/superscript.sh.old
+Mar 13 01:13:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:13:47 DIBTVTest1A1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.9 [lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_GB.UTF-8)
+Mar 13 01:13:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:13:47 DIBTVTest1A1 sudo:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/bin/chmod 777 /home/pi/.config/openbox/
+Mar 13 01:13:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:13:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:13:47 DIBTVTest1A1 sudo:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/bin/chmod 777 /home/pi/.config/gpicview/
+Mar 13 01:13:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:13:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:13:47 DIBTVTest1A1 sudo:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/bin/chmod 777 /home/pi/.config/gpicview/*.*
+Mar 13 01:13:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:13:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:13:47 DIBTVTest1A1 sudo:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/bin/chmod 777 /home/pi/.config/openbox/lxde-pi-rc.xml /home/pi/.config/openbox/lxde-pi-rc.xml.old
+Mar 13 01:13:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:13:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:13:47 DIBTVTest1A1 sudo:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/bin/chmod 777 /var/www/html/aunitfiles2dl.txt /var/www/html/CheckNSA.sh /var/www/html/config.php /var/www/html/DIBsyskey.cfg /var/www/html/DIBTVDEVTESTA1.log /var/www/html/DIBTVTAY1234A1.log /var/www/html/DIBTVTEST1A1.log /var/www/html/DoShutdown.php /var/www/html/FTPCodeUpdater.php /var/www/html/index.php /var/www/html/latest_manifest.json /var/www/html/loadmode.cfg /var/www/html/loadmode.php /var/www/html/loadoffset.php /var/www/html/loadsyskey.php /var/www/html/logData.php /var/www/html/offset.cfg /var/www/html/onlyaudio.cfg /var/www/html/package.json /var/www/html/pis2dl.txt /var/www/html/pullmanifest.php /var/www/html/saveoffset.php /var/www/html/update.sh
+Mar 13 01:13:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:13:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:13:47 DIBTVTest1A1 sudo:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/sntp -s time.google.com
+Mar 13 01:13:47 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:13:54 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:13:59 DIBTVTest1A1 sudo:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/find /var/www/html/assets/videos -depth -iname *.mp4 -type f -atime +7 -delete
+Mar 13 01:13:59 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:13:59 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:13:59 DIBTVTest1A1 sudo:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/find /var/www/html/assets/videos -depth -iname *.jpg -type f -atime +7 -delete
+Mar 13 01:13:59 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:13:59 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:13:59 DIBTVTest1A1 sudo:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/find /var/www/html/assets/videos -depth -iname *.png -type f -atime +7 -delete
+Mar 13 01:13:59 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:13:59 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:14:06 DIBTVTest1A1 login[1221]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar 13 01:14:06 DIBTVTest1A1 systemd-logind[434]: New session c2 of user pi.
+Mar 13 01:14:09 DIBTVTest1A1 sudo:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=./DoNetConfig.sh
+Mar 13 01:14:09 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:14:09 DIBTVTest1A1 sudo:     root : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/php /home/pi/DoNetConfig.php
+Mar 13 01:14:09 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:14:09 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:14:09 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:14:14 DIBTVTest1A1 sudo:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=./CheckLastUpdate.sh
+Mar 13 01:14:14 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:14:14 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:14:15 DIBTVTest1A1 sudo:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/var/www/html/CheckNSA.sh
+Mar 13 01:14:15 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 13 01:14:15 DIBTVTest1A1 sudo: pam_unix(sudo:session): session closed for user root
+Mar 13 01:17:01 DIBTVTest1A1 CRON[1390]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 01:17:01 DIBTVTest1A1 CRON[1390]: pam_unix(cron:session): session closed for user root
+Mar 13 01:39:01 DIBTVTest1A1 CRON[1428]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 01:39:01 DIBTVTest1A1 CRON[1428]: pam_unix(cron:session): session closed for user root
+Mar 13 02:09:01 DIBTVTest1A1 CRON[1500]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 02:09:02 DIBTVTest1A1 CRON[1500]: pam_unix(cron:session): session closed for user root
+Mar 13 02:17:01 DIBTVTest1A1 CRON[1555]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 02:17:01 DIBTVTest1A1 CRON[1555]: pam_unix(cron:session): session closed for user root
+Mar 13 02:39:01 DIBTVTest1A1 CRON[1594]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 02:39:01 DIBTVTest1A1 CRON[1594]: pam_unix(cron:session): session closed for user root
+Mar 13 03:09:01 DIBTVTest1A1 CRON[1666]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 03:09:01 DIBTVTest1A1 CRON[1666]: pam_unix(cron:session): session closed for user root
+Mar 13 03:17:01 DIBTVTest1A1 CRON[1722]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 03:17:01 DIBTVTest1A1 CRON[1722]: pam_unix(cron:session): session closed for user root
+Mar 13 03:39:01 DIBTVTest1A1 CRON[1762]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 03:39:02 DIBTVTest1A1 CRON[1762]: pam_unix(cron:session): session closed for user root
+Mar 13 04:09:01 DIBTVTest1A1 CRON[1836]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 04:09:01 DIBTVTest1A1 CRON[1836]: pam_unix(cron:session): session closed for user root
+Mar 13 04:17:01 DIBTVTest1A1 CRON[1891]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 04:17:01 DIBTVTest1A1 CRON[1891]: pam_unix(cron:session): session closed for user root
+Mar 13 04:39:01 DIBTVTest1A1 CRON[1929]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 04:39:01 DIBTVTest1A1 CRON[1929]: pam_unix(cron:session): session closed for user root
+Mar 13 05:09:01 DIBTVTest1A1 CRON[2003]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 05:09:02 DIBTVTest1A1 CRON[2003]: pam_unix(cron:session): session closed for user root
+Mar 13 05:17:01 DIBTVTest1A1 CRON[2058]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 05:17:01 DIBTVTest1A1 CRON[2058]: pam_unix(cron:session): session closed for user root
+Mar 13 05:39:01 DIBTVTest1A1 CRON[2099]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 05:39:01 DIBTVTest1A1 CRON[2099]: pam_unix(cron:session): session closed for user root
+Mar 13 06:09:01 DIBTVTest1A1 CRON[2172]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 06:09:01 DIBTVTest1A1 CRON[2172]: pam_unix(cron:session): session closed for user root
+Mar 13 06:17:01 DIBTVTest1A1 CRON[2227]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 06:17:01 DIBTVTest1A1 CRON[2227]: pam_unix(cron:session): session closed for user root
+Mar 13 06:25:01 DIBTVTest1A1 CRON[2255]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 06:25:07 DIBTVTest1A1 CRON[2255]: pam_unix(cron:session): session closed for user root
+Mar 13 06:39:01 DIBTVTest1A1 CRON[2484]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 06:39:02 DIBTVTest1A1 CRON[2484]: pam_unix(cron:session): session closed for user root
+Mar 13 07:09:01 DIBTVTest1A1 CRON[2555]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 07:09:01 DIBTVTest1A1 CRON[2555]: pam_unix(cron:session): session closed for user root
+Mar 13 07:17:01 DIBTVTest1A1 CRON[2609]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 07:17:01 DIBTVTest1A1 CRON[2609]: pam_unix(cron:session): session closed for user root
+Mar 13 07:39:01 DIBTVTest1A1 CRON[2649]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 07:39:01 DIBTVTest1A1 CRON[2649]: pam_unix(cron:session): session closed for user root
+Mar 13 08:09:01 DIBTVTest1A1 CRON[2720]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 08:09:02 DIBTVTest1A1 CRON[2720]: pam_unix(cron:session): session closed for user root
+Mar 13 08:17:01 DIBTVTest1A1 CRON[2773]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 08:17:01 DIBTVTest1A1 CRON[2773]: pam_unix(cron:session): session closed for user root
+Mar 13 08:39:01 DIBTVTest1A1 CRON[2812]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 08:39:01 DIBTVTest1A1 CRON[2812]: pam_unix(cron:session): session closed for user root
+Mar 13 09:09:01 DIBTVTest1A1 CRON[2884]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 09:09:01 DIBTVTest1A1 CRON[2884]: pam_unix(cron:session): session closed for user root
+Mar 13 09:17:01 DIBTVTest1A1 CRON[2937]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 13 09:17:01 DIBTVTest1A1 CRON[2937]: pam_unix(cron:session): session closed for user root
+Mar 13 09:27:18 DIBTVTest1A1 sshd[2967]: Accepted password for pi from fe80::bd88:1437:6c05:7f5c%eth0 port 52585 ssh2
+Mar 13 09:27:18 DIBTVTest1A1 sshd[2967]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Mar 13 09:27:18 DIBTVTest1A1 systemd-logind[434]: New session c3 of user pi.
+Mar 13 09:28:05 DIBTVTest1A1 sudo:       pi : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git add -A
+Mar 13 09:28:05 DIBTVTest1A1 sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)

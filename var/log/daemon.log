@@ -8996,3 +8996,604 @@ Mar 12 15:40:36 DIBTVTest1A1 rngd[480]: stats: Time spent starving for entropy: 
 Mar 12 15:46:09 DIBTVTest1A1 systemd[1]: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 2753 (git)
 Mar 12 15:46:09 DIBTVTest1A1 systemd[1]: Mounting Arbitrary Executable File Formats File System...
 Mar 12 15:46:09 DIBTVTest1A1 systemd[1]: Mounted Arbitrary Executable File Formats File System.
+Mar 12 16:09:37 DIBTVTest1A1 wpa_supplicant[495]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 12 16:40:36 DIBTVTest1A1 rngd[480]: stats: bits received from HRNG source: 240064
+Mar 12 16:40:36 DIBTVTest1A1 rngd[480]: stats: bits sent to kernel pool: 191776
+Mar 12 16:40:36 DIBTVTest1A1 rngd[480]: stats: entropy added to kernel pool: 191776
+Mar 12 16:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 successes: 12
+Mar 12 16:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 failures: 0
+Mar 12 16:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 12 16:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 12 16:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 12 16:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 12 16:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 12 16:40:36 DIBTVTest1A1 rngd[480]: stats: HRNG source speed: (min=662.773; avg=802.822; max=871.075)Kibits/s
+Mar 12 16:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS tests speed: (min=6.992; avg=8.724; max=14.149)Mibits/s
+Mar 12 16:40:36 DIBTVTest1A1 rngd[480]: stats: Lowest ready-buffers level: 2
+Mar 12 16:40:36 DIBTVTest1A1 rngd[480]: stats: Entropy starvations: 0
+Mar 12 16:40:36 DIBTVTest1A1 rngd[480]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 12 17:09:37 DIBTVTest1A1 wpa_supplicant[495]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 12 17:40:36 DIBTVTest1A1 rngd[480]: stats: bits received from HRNG source: 280064
+Mar 12 17:40:36 DIBTVTest1A1 rngd[480]: stats: bits sent to kernel pool: 223072
+Mar 12 17:40:36 DIBTVTest1A1 rngd[480]: stats: entropy added to kernel pool: 223072
+Mar 12 17:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 successes: 14
+Mar 12 17:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 failures: 0
+Mar 12 17:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 12 17:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 12 17:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 12 17:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 12 17:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 12 17:40:36 DIBTVTest1A1 rngd[480]: stats: HRNG source speed: (min=662.773; avg=808.181; max=871.075)Kibits/s
+Mar 12 17:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS tests speed: (min=6.871; avg=8.784; max=14.149)Mibits/s
+Mar 12 17:40:36 DIBTVTest1A1 rngd[480]: stats: Lowest ready-buffers level: 2
+Mar 12 17:40:36 DIBTVTest1A1 rngd[480]: stats: Entropy starvations: 0
+Mar 12 17:40:36 DIBTVTest1A1 rngd[480]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 12 18:09:37 DIBTVTest1A1 wpa_supplicant[495]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 12 18:40:36 DIBTVTest1A1 rngd[480]: stats: bits received from HRNG source: 300064
+Mar 12 18:40:36 DIBTVTest1A1 rngd[480]: stats: bits sent to kernel pool: 253312
+Mar 12 18:40:36 DIBTVTest1A1 rngd[480]: stats: entropy added to kernel pool: 253312
+Mar 12 18:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 successes: 15
+Mar 12 18:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 failures: 0
+Mar 12 18:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 12 18:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 12 18:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 12 18:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 12 18:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 12 18:40:36 DIBTVTest1A1 rngd[480]: stats: HRNG source speed: (min=662.773; avg=809.199; max=871.075)Kibits/s
+Mar 12 18:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS tests speed: (min=6.871; avg=8.632; max=14.149)Mibits/s
+Mar 12 18:40:36 DIBTVTest1A1 rngd[480]: stats: Lowest ready-buffers level: 2
+Mar 12 18:40:36 DIBTVTest1A1 rngd[480]: stats: Entropy starvations: 0
+Mar 12 18:40:36 DIBTVTest1A1 rngd[480]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 12 19:09:37 DIBTVTest1A1 wpa_supplicant[495]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 12 19:40:36 DIBTVTest1A1 rngd[480]: stats: bits received from HRNG source: 340064
+Mar 12 19:40:36 DIBTVTest1A1 rngd[480]: stats: bits sent to kernel pool: 283072
+Mar 12 19:40:36 DIBTVTest1A1 rngd[480]: stats: entropy added to kernel pool: 283072
+Mar 12 19:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 successes: 17
+Mar 12 19:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 failures: 0
+Mar 12 19:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 12 19:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 12 19:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 12 19:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 12 19:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 12 19:40:36 DIBTVTest1A1 rngd[480]: stats: HRNG source speed: (min=662.773; avg=815.836; max=871.697)Kibits/s
+Mar 12 19:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS tests speed: (min=6.871; avg=9.045; max=14.149)Mibits/s
+Mar 12 19:40:36 DIBTVTest1A1 rngd[480]: stats: Lowest ready-buffers level: 2
+Mar 12 19:40:36 DIBTVTest1A1 rngd[480]: stats: Entropy starvations: 0
+Mar 12 19:40:36 DIBTVTest1A1 rngd[480]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 12 20:09:37 DIBTVTest1A1 wpa_supplicant[495]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 12 20:40:36 DIBTVTest1A1 rngd[480]: stats: bits received from HRNG source: 360064
+Mar 12 20:40:36 DIBTVTest1A1 rngd[480]: stats: bits sent to kernel pool: 313312
+Mar 12 20:40:36 DIBTVTest1A1 rngd[480]: stats: entropy added to kernel pool: 313312
+Mar 12 20:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 successes: 18
+Mar 12 20:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 failures: 0
+Mar 12 20:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 12 20:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 12 20:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 12 20:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 12 20:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 12 20:40:36 DIBTVTest1A1 rngd[480]: stats: HRNG source speed: (min=662.773; avg=815.747; max=871.697)Kibits/s
+Mar 12 20:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS tests speed: (min=6.854; avg=8.887; max=14.149)Mibits/s
+Mar 12 20:40:36 DIBTVTest1A1 rngd[480]: stats: Lowest ready-buffers level: 2
+Mar 12 20:40:36 DIBTVTest1A1 rngd[480]: stats: Entropy starvations: 0
+Mar 12 20:40:36 DIBTVTest1A1 rngd[480]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 12 21:09:37 DIBTVTest1A1 wpa_supplicant[495]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 12 21:40:36 DIBTVTest1A1 rngd[480]: stats: bits received from HRNG source: 400064
+Mar 12 21:40:36 DIBTVTest1A1 rngd[480]: stats: bits sent to kernel pool: 343072
+Mar 12 21:40:36 DIBTVTest1A1 rngd[480]: stats: entropy added to kernel pool: 343072
+Mar 12 21:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 successes: 20
+Mar 12 21:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 failures: 0
+Mar 12 21:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 12 21:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 12 21:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 12 21:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 12 21:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 12 21:40:36 DIBTVTest1A1 rngd[480]: stats: HRNG source speed: (min=662.773; avg=820.408; max=871.697)Kibits/s
+Mar 12 21:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS tests speed: (min=6.854; avg=9.230; max=14.160)Mibits/s
+Mar 12 21:40:36 DIBTVTest1A1 rngd[480]: stats: Lowest ready-buffers level: 2
+Mar 12 21:40:36 DIBTVTest1A1 rngd[480]: stats: Entropy starvations: 0
+Mar 12 21:40:36 DIBTVTest1A1 rngd[480]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 12 22:09:37 DIBTVTest1A1 wpa_supplicant[495]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 12 22:40:36 DIBTVTest1A1 rngd[480]: stats: bits received from HRNG source: 420064
+Mar 12 22:40:36 DIBTVTest1A1 rngd[480]: stats: bits sent to kernel pool: 373312
+Mar 12 22:40:36 DIBTVTest1A1 rngd[480]: stats: entropy added to kernel pool: 373312
+Mar 12 22:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 successes: 21
+Mar 12 22:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 failures: 0
+Mar 12 22:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 12 22:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 12 22:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 12 22:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 12 22:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 12 22:40:36 DIBTVTest1A1 rngd[480]: stats: HRNG source speed: (min=662.773; avg=820.019; max=871.697)Kibits/s
+Mar 12 22:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS tests speed: (min=6.854; avg=9.091; max=14.160)Mibits/s
+Mar 12 22:40:36 DIBTVTest1A1 rngd[480]: stats: Lowest ready-buffers level: 2
+Mar 12 22:40:36 DIBTVTest1A1 rngd[480]: stats: Entropy starvations: 0
+Mar 12 22:40:36 DIBTVTest1A1 rngd[480]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 12 23:09:37 DIBTVTest1A1 wpa_supplicant[495]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 12 23:40:36 DIBTVTest1A1 rngd[480]: stats: bits received from HRNG source: 460064
+Mar 12 23:40:36 DIBTVTest1A1 rngd[480]: stats: bits sent to kernel pool: 403584
+Mar 12 23:40:36 DIBTVTest1A1 rngd[480]: stats: entropy added to kernel pool: 403584
+Mar 12 23:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 successes: 23
+Mar 12 23:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 failures: 0
+Mar 12 23:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 12 23:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 12 23:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 12 23:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 12 23:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 12 23:40:36 DIBTVTest1A1 rngd[480]: stats: HRNG source speed: (min=662.773; avg=821.268; max=871.697)Kibits/s
+Mar 12 23:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS tests speed: (min=6.854; avg=9.116; max=14.160)Mibits/s
+Mar 12 23:40:36 DIBTVTest1A1 rngd[480]: stats: Lowest ready-buffers level: 2
+Mar 12 23:40:36 DIBTVTest1A1 rngd[480]: stats: Entropy starvations: 0
+Mar 12 23:40:36 DIBTVTest1A1 rngd[480]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 13 00:09:37 DIBTVTest1A1 wpa_supplicant[495]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 13 00:40:36 DIBTVTest1A1 rngd[480]: stats: bits received from HRNG source: 480064
+Mar 13 00:40:36 DIBTVTest1A1 rngd[480]: stats: bits sent to kernel pool: 433824
+Mar 13 00:40:36 DIBTVTest1A1 rngd[480]: stats: entropy added to kernel pool: 433824
+Mar 13 00:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 successes: 24
+Mar 13 00:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2 failures: 0
+Mar 13 00:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 13 00:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 13 00:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 13 00:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 13 00:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 13 00:40:36 DIBTVTest1A1 rngd[480]: stats: HRNG source speed: (min=662.773; avg=819.078; max=871.697)Kibits/s
+Mar 13 00:40:36 DIBTVTest1A1 rngd[480]: stats: FIPS tests speed: (min=6.836; avg=8.991; max=14.160)Mibits/s
+Mar 13 00:40:36 DIBTVTest1A1 rngd[480]: stats: Lowest ready-buffers level: 2
+Mar 13 00:40:36 DIBTVTest1A1 rngd[480]: stats: Entropy starvations: 0
+Mar 13 00:40:36 DIBTVTest1A1 rngd[480]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 13 01:09:37 DIBTVTest1A1 wpa_supplicant[495]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 13 01:13:32 DIBTVTest1A1 systemd[1]: Started Turns off Raspberry Pi display backlight on shutdown/reboot.
+Mar 13 01:13:32 DIBTVTest1A1 systemd[1]: Started Synchronise Hardware Clock to System Clock.
+Mar 13 01:13:32 DIBTVTest1A1 systemd[1]: Stopping Session c3 of user pi.
+Mar 13 01:13:32 DIBTVTest1A1 systemd[1]: Stopping Session c2 of user pi.
+Mar 13 01:13:32 DIBTVTest1A1 systemd[1]: Stopping Session c1 of user pi.
+Mar 13 01:13:32 DIBTVTest1A1 systemd[1]: Stopping Bluetooth.
+Mar 13 01:13:32 DIBTVTest1A1 systemd[1]: Stopped target Bluetooth.
+Mar 13 01:13:39 DIBTVTest1A1 systemd-modules-load[75]: Inserted module 'fuse'
+Mar 13 01:13:39 DIBTVTest1A1 systemd-modules-load[75]: Inserted module 'i2c_dev'
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Load Kernel Modules.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started udev Coldplug all Devices.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Restore / save the current clock.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Time has been changed
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Mounting Configuration File System...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Apply Kernel Variables...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Mounting FUSE Control File System...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Mounted FUSE Control File System.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Mounted Configuration File System.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Create Static Device Nodes in /dev.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting udev Kernel Device Manager...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started File System Check on Root Device.
+Mar 13 01:13:39 DIBTVTest1A1 fake-hwclock[74]: Thu 13 Mar 06:13:36 UTC 2025
+Mar 13 01:13:39 DIBTVTest1A1 systemd-fsck[82]: e2fsck 1.43.3 (04-Sep-2016)
+Mar 13 01:13:39 DIBTVTest1A1 systemd-fsck[82]: /dev/mmcblk0p2: clean, 133615/937280 files, 1323405/3800576 blocks
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started udev Kernel Device Manager.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Copy rules generated while the root was ro...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting LSB: Tune IDE hard disks...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting LSB: Set preliminary keymap...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Copy rules generated while the root was ro.
+Mar 13 01:13:39 DIBTVTest1A1 hdparm[114]: Setting parameters of disc: (none).
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started LSB: Tune IDE hard disks.
+Mar 13 01:13:39 DIBTVTest1A1 keyboard-setup[115]: Setting preliminary keymap...done.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started LSB: Set preliminary keymap.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Show Plymouth Boot Screen.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Dispatch Password Requests to Console Directory Watch.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Paths.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Reached target Paths.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Remount Root and Kernel File Systems...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Found device /dev/ttyS0.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Remount Root and Kernel File Systems.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Various fixups to make systemd work better on Debian.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Load/Save Random Seed...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Local File Systems (Pre).
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Reached target Local File Systems (Pre).
+Mar 13 01:13:39 DIBTVTest1A1 systemd-udevd[200]: failed to execute '/lib/udev/mtp-probe' 'mtp-probe /sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2 1 4': No such file or directory
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Load/Save Random Seed.
+Mar 13 01:13:39 DIBTVTest1A1 systemd-udevd[201]: failed to execute '/lib/udev/mtp-probe' 'mtp-probe /sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1 1 3': No such file or directory
+Mar 13 01:13:39 DIBTVTest1A1 systemd-udevd[215]: failed to execute '/lib/udev/mtp-probe' 'mtp-probe /sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.4 1 5': No such file or directory
+Mar 13 01:13:39 DIBTVTest1A1 systemd-udevd[221]: failed to execute '/lib/udev/mtp-probe' 'mtp-probe /sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.5 1 6': No such file or directory
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Found device /dev/mmcblk0p1.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting File System Check on /dev/mmcblk0p1...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Sound Card.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Reached target Sound Card.
+Mar 13 01:13:39 DIBTVTest1A1 systemd-fsck[226]: fsck.fat 3.0.27 (2014-11-12)
+Mar 13 01:13:39 DIBTVTest1A1 systemd-fsck[226]: /dev/mmcblk0p1: 90 files, 2555/7673 clusters
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started File System Check on /dev/mmcblk0p1.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Mounting /boot...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Mounted /boot.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Local File Systems.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Reached target Local File Systems.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Create Volatile Files and Directories...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting LSB: Raise network interfaces....
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Remote File Systems.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Reached target Remote File Systems.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Trigger Flushing of Journal to Persistent Storage...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting LSB: Prepare console...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Trigger Flushing of Journal to Persistent Storage.
+Mar 13 01:13:39 DIBTVTest1A1 kbd[243]: Setting console screen modes.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Create Volatile Files and Directories.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting system-ifup.slice.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Created slice system-ifup.slice.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting system-systemd\x2drfkill.slice.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Created slice system-systemd\x2drfkill.slice.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Load/Save RF Kill Switch Status of rfkill0...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Load/Save RF Kill Switch Status of rfkill0.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Mar 13 01:13:39 DIBTVTest1A1 kbd[243]: setterm: $TERM is not defined.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started LSB: Prepare console.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting LSB: Set console font and keymap...
+Mar 13 01:13:39 DIBTVTest1A1 networking[241]: Configuring network interfaces...done.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started LSB: Raise network interfaces..
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting ifup for wlan0...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started ifup for wlan0.
+Mar 13 01:13:39 DIBTVTest1A1 console-setup[310]: Setting up console font and keymap...done.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started LSB: Set console font and keymap.
+Mar 13 01:13:39 DIBTVTest1A1 wpa_supplicant[396]: Successfully initialized wpa_supplicant
+Mar 13 01:13:39 DIBTVTest1A1 wpa_supplicant[399]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=USER type=COUNTRY alpha2=US
+Mar 13 01:13:39 DIBTVTest1A1 raspi-config[244]: Checking if shift key is held down: No. Switching to ondemand scaling governor.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting System Initialization.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Reached target System Initialization.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Avahi mDNS/DNS-SD Stack Activation Socket.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting D-Bus System Message Bus Socket.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Listening on D-Bus System Message Bus Socket.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Sockets.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Reached target Sockets.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Daily Cleanup of Temporary Directories.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Timers.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Reached target Timers.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Manage Sound Card State (restore and store).
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Restore Sound Card State...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Basic System.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Reached target Basic System.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting System Logging Service...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting dhcpcd on all interfaces...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Configure Bluetooth Modems connected by UART...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Regular background program processing daemon...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Regular background program processing daemon.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Turn on SSH if /boot/ssh is present.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started getty on tty2-tty6 if dbus and logind are not available.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Login Service...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting D-Bus System Message Bus...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started D-Bus System Message Bus.
+Mar 13 01:13:39 DIBTVTest1A1 dhcpcd[430]: version 6.7.1 starting
+Mar 13 01:13:39 DIBTVTest1A1 dhcpcd[430]: dev: loaded udev
+Mar 13 01:13:39 DIBTVTest1A1 dhcpcd[430]: eth0: adding address fe80::67e7:8692:ea57:d86d
+Mar 13 01:13:39 DIBTVTest1A1 dhcpcd[430]: forked to background, child pid 455
+Mar 13 01:13:39 DIBTVTest1A1 wpa_supplicant[399]: wlan0: Trying to associate with SSID 'RiseNet'
+Mar 13 01:13:39 DIBTVTest1A1 avahi-daemon[428]: Found user 'avahi' (UID 105) and group 'avahi' (GID 110).
+Mar 13 01:13:39 DIBTVTest1A1 avahi-daemon[428]: Successfully dropped root privileges.
+Mar 13 01:13:39 DIBTVTest1A1 avahi-daemon[428]: avahi-daemon 0.6.31 starting up.
+Mar 13 01:13:39 DIBTVTest1A1 avahi-daemon[428]: Successfully called chroot().
+Mar 13 01:13:39 DIBTVTest1A1 avahi-daemon[428]: Successfully dropped remaining capabilities.
+Mar 13 01:13:39 DIBTVTest1A1 avahi-daemon[428]: Loading service file /services/udisks.service.
+Mar 13 01:13:39 DIBTVTest1A1 avahi-daemon[428]: Joining mDNS multicast group on interface wlan0.IPv6 with address fe80::ba27:ebff:fefa:6630.
+Mar 13 01:13:39 DIBTVTest1A1 avahi-daemon[428]: New relevant interface wlan0.IPv6 for mDNS.
+Mar 13 01:13:39 DIBTVTest1A1 avahi-daemon[428]: Network interface enumeration completed.
+Mar 13 01:13:39 DIBTVTest1A1 avahi-daemon[428]: Registering new address record for fe80::ba27:ebff:fefa:6630 on wlan0.*.
+Mar 13 01:13:39 DIBTVTest1A1 avahi-daemon[428]: Registering HINFO record with values 'ARMV7L'/'LINUX'.
+Mar 13 01:13:39 DIBTVTest1A1 dbus[435]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting LSB: triggerhappy hotkey daemon...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting (null)...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting LSB: Autogenerate and use a swap file...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting (null)...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started System Logging Service.
+Mar 13 01:13:39 DIBTVTest1A1 listen-for-shutdown.sh[498]: Starting listen-for-shutdown.py
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Restore Sound Card State.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started dhcpcd on all interfaces.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started (null).
+Mar 13 01:13:39 DIBTVTest1A1 rngd[515]: rngd 2-unofficial-mt.14 starting up...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started (null).
+Mar 13 01:13:39 DIBTVTest1A1 dphys-swapfile[499]: Starting dphys-swapfile swapfile setup ...
+Mar 13 01:13:39 DIBTVTest1A1 rng-tools[501]: Starting Hardware RNG entropy gatherer daemon: rngd.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Login Service.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Network.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Reached target Network.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting vsftpd FTP server...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting OpenBSD Secure Shell server...
+Mar 13 01:13:39 DIBTVTest1A1 rngd[515]: entropy feed to the kernel ready
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting /etc/rc.local Compatibility...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Permit User Sessions...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Network is Online.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Reached target Network is Online.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting LSB: Start NTP daemon...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting LSB: Apache2 web server...
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started vsftpd FTP server.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started LSB: triggerhappy hotkey daemon.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started Permit User Sessions.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Starting Light Display Manager...
+Mar 13 01:13:39 DIBTVTest1A1 wpa_supplicant[399]: wlan0: Associated with 04:42:1a:40:fb:00
+Mar 13 01:13:39 DIBTVTest1A1 wpa_supplicant[399]: wlan0: WPA: Key negotiation completed with 04:42:1a:40:fb:00 [PTK=CCMP GTK=CCMP]
+Mar 13 01:13:39 DIBTVTest1A1 wpa_supplicant[399]: wlan0: CTRL-EVENT-CONNECTED - Connection to 04:42:1a:40:fb:00 completed [id=0 id_str=]
+Mar 13 01:13:39 DIBTVTest1A1 wpa_supplicant[399]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=COUNTRY_IE type=COUNTRY alpha2=US
+Mar 13 01:13:39 DIBTVTest1A1 dphys-swapfile[499]: want /var/swap=100MByte, checking existing: keeping it
+Mar 13 01:13:39 DIBTVTest1A1 ntpd[571]: ntpd 4.2.6p5@1.2349-o Mon Jul 25 22:35:28 UTC 2016 (1)
+Mar 13 01:13:39 DIBTVTest1A1 ntp[539]: Starting NTP server: ntpd.
+Mar 13 01:13:39 DIBTVTest1A1 ntpd[608]: proto: precision = 0.521 usec
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started LSB: Start NTP daemon.
+Mar 13 01:13:39 DIBTVTest1A1 ntpd[608]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Mar 13 01:13:39 DIBTVTest1A1 ntpd[608]: Listen and drop on 1 v6wildcard :: UDP 123
+Mar 13 01:13:39 DIBTVTest1A1 ntpd[608]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Mar 13 01:13:39 DIBTVTest1A1 ntpd[608]: Listen normally on 3 lo ::1 UDP 123
+Mar 13 01:13:39 DIBTVTest1A1 ntpd[608]: Listen normally on 4 wlan0 fe80::ba27:ebff:fefa:6630 UDP 123
+Mar 13 01:13:39 DIBTVTest1A1 ntpd[608]: peers refreshed
+Mar 13 01:13:39 DIBTVTest1A1 ntpd[608]: Listening on routing socket on fd #21 for interface updates
+Mar 13 01:13:39 DIBTVTest1A1 dphys-swapfile[499]: done.
+Mar 13 01:13:39 DIBTVTest1A1 systemd[1]: Started LSB: Autogenerate and use a swap file.
+Mar 13 01:13:40 DIBTVTest1A1 ntpd[608]: Deferring DNS for 0.debian.pool.ntp.org 1
+Mar 13 01:13:40 DIBTVTest1A1 ntpd[608]: Deferring DNS for 1.debian.pool.ntp.org 1
+Mar 13 01:13:40 DIBTVTest1A1 ntpd[608]: Deferring DNS for 2.debian.pool.ntp.org 1
+Mar 13 01:13:40 DIBTVTest1A1 ntpd[608]: Deferring DNS for 3.debian.pool.ntp.org 1
+Mar 13 01:13:40 DIBTVTest1A1 ntpd[658]: signal_no_reset: signal 17 had flags 4000000
+Mar 13 01:13:40 DIBTVTest1A1 avahi-daemon[428]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::67e7:8692:ea57:d86d.
+Mar 13 01:13:40 DIBTVTest1A1 avahi-daemon[428]: New relevant interface eth0.IPv6 for mDNS.
+Mar 13 01:13:40 DIBTVTest1A1 avahi-daemon[428]: Registering new address record for fe80::67e7:8692:ea57:d86d on eth0.*.
+Mar 13 01:13:40 DIBTVTest1A1 dhcpcd[455]: eth0: waiting for carrier
+Mar 13 01:13:40 DIBTVTest1A1 dhcpcd[455]: wlan0: waiting for carrier
+Mar 13 01:13:40 DIBTVTest1A1 dhcpcd[455]: wlan0: carrier acquired
+Mar 13 01:13:40 DIBTVTest1A1 dhcpcd[455]: DUID 00:01:00:01:1e:7e:80:3b:b8:27:eb:d1:a2:bb
+Mar 13 01:13:40 DIBTVTest1A1 dhcpcd[455]: wlan0: IAID eb:fa:66:30
+Mar 13 01:13:40 DIBTVTest1A1 systemd[1]: Started OpenBSD Secure Shell server.
+Mar 13 01:13:40 DIBTVTest1A1 dhcpcd[455]: wlan0: soliciting an IPv6 router
+Mar 13 01:13:40 DIBTVTest1A1 dhcpcd[455]: wlan0: rebinding lease of 10.1.10.85
+Mar 13 01:13:40 DIBTVTest1A1 lightdm[565]: ** (lightdm:565): WARNING **: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Mar 13 01:13:41 DIBTVTest1A1 avahi-daemon[428]: Server startup complete. Host name is DIBTVTest1A1.local. Local service cookie is 2105360278.
+Mar 13 01:13:41 DIBTVTest1A1 systemd[1]: Started Light Display Manager.
+Mar 13 01:13:41 DIBTVTest1A1 apache2[541]: Starting web server: apache2AH00557: apache2: apr_sockaddr_info_get() failed for DIBTVTest1A1
+Mar 13 01:13:41 DIBTVTest1A1 apache2[541]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Mar 13 01:13:41 DIBTVTest1A1 dhcpcd[455]: eth0: carrier acquired
+Mar 13 01:13:41 DIBTVTest1A1 dhcpcd[455]: eth0: IAID eb:af:33:65
+Mar 13 01:13:41 DIBTVTest1A1 dhcpcd[455]: eth0: using static address 10.1.10.136/24
+Mar 13 01:13:41 DIBTVTest1A1 avahi-daemon[428]: Joining mDNS multicast group on interface eth0.IPv4 with address 10.1.10.136.
+Mar 13 01:13:41 DIBTVTest1A1 avahi-daemon[428]: New relevant interface eth0.IPv4 for mDNS.
+Mar 13 01:13:41 DIBTVTest1A1 avahi-daemon[428]: Registering new address record for 10.1.10.136 on eth0.IPv4.
+Mar 13 01:13:41 DIBTVTest1A1 dhcpcd[455]: eth0: adding route to 10.1.10.0/24
+Mar 13 01:13:41 DIBTVTest1A1 dhcpcd[455]: eth0: adding default route via 10.1.10.1
+Mar 13 01:13:42 DIBTVTest1A1 ntpd_intres[658]: host name not found: 0.debian.pool.ntp.org
+Mar 13 01:13:42 DIBTVTest1A1 ntpd_intres[658]: host name not found: 1.debian.pool.ntp.org
+Mar 13 01:13:42 DIBTVTest1A1 ntpd_intres[658]: host name not found: 2.debian.pool.ntp.org
+Mar 13 01:13:42 DIBTVTest1A1 ntpd_intres[658]: host name not found: 3.debian.pool.ntp.org
+Mar 13 01:13:42 DIBTVTest1A1 dhcpcd[455]: eth0: soliciting an IPv6 router
+Mar 13 01:13:42 DIBTVTest1A1 apache2[541]: .
+Mar 13 01:13:42 DIBTVTest1A1 systemd[1]: Started LSB: Apache2 web server.
+Mar 13 01:13:42 DIBTVTest1A1 avahi-daemon[428]: Service "DIBTVTest1A1" (/services/udisks.service) successfully established.
+Mar 13 01:13:43 DIBTVTest1A1 btuart[431]: bcm43xx_init
+Mar 13 01:13:43 DIBTVTest1A1 btuart[431]: Flash firmware /lib/firmware/BCM43430A1.hcd
+Mar 13 01:13:43 DIBTVTest1A1 btuart[431]: Set BDADDR UART: b8:27:eb:05:99:cf
+Mar 13 01:13:43 DIBTVTest1A1 btuart[431]: Set Controller UART speed to 921600 bit/s
+Mar 13 01:13:43 DIBTVTest1A1 btuart[431]: Device setup complete
+Mar 13 01:13:43 DIBTVTest1A1 systemd[1]: Started Configure Bluetooth Modems connected by UART.
+Mar 13 01:13:43 DIBTVTest1A1 systemd[1]: Starting Load/Save RF Kill Switch Status of rfkill1...
+Mar 13 01:13:43 DIBTVTest1A1 systemd[1]: Starting Bluetooth service...
+Mar 13 01:13:43 DIBTVTest1A1 systemd[1]: Started Load/Save RF Kill Switch Status of rfkill1.
+Mar 13 01:13:44 DIBTVTest1A1 bluetoothd[803]: Bluetooth daemon 5.23
+Mar 13 01:13:44 DIBTVTest1A1 systemd[1]: Started Bluetooth service.
+Mar 13 01:13:44 DIBTVTest1A1 systemd[1]: Starting Bluetooth.
+Mar 13 01:13:44 DIBTVTest1A1 systemd[1]: Reached target Bluetooth.
+Mar 13 01:13:44 DIBTVTest1A1 bluetoothd[803]: Starting SDP server
+Mar 13 01:13:44 DIBTVTest1A1 bluetoothd[803]: Bluetooth management interface 1.9 initialized
+Mar 13 01:13:44 DIBTVTest1A1 dbus[435]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Mar 13 01:13:44 DIBTVTest1A1 bluetoothd[803]: Sap driver initialization failed.
+Mar 13 01:13:44 DIBTVTest1A1 bluetoothd[803]: sap-server: Operation not permitted (1)
+Mar 13 01:13:44 DIBTVTest1A1 systemd[1]: Starting Hostname Service...
+Mar 13 01:13:44 DIBTVTest1A1 systemd-hostnamed[807]: Warning: nss-myhostname is not installed. Changing the local hostname might make it unresolveable. Please install nss-myhostname!
+Mar 13 01:13:44 DIBTVTest1A1 dbus[435]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Mar 13 01:13:44 DIBTVTest1A1 systemd[1]: Started Hostname Service.
+Mar 13 01:13:44 DIBTVTest1A1 lightdm[565]: ** (process:812): WARNING **: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Mar 13 01:13:44 DIBTVTest1A1 systemd[1]: Starting user-1000.slice.
+Mar 13 01:13:44 DIBTVTest1A1 systemd[1]: Created slice user-1000.slice.
+Mar 13 01:13:44 DIBTVTest1A1 systemd[1]: Starting User Manager for UID 1000...
+Mar 13 01:13:44 DIBTVTest1A1 systemd[1]: Starting Session c1 of user pi.
+Mar 13 01:13:44 DIBTVTest1A1 systemd[1]: Started Session c1 of user pi.
+Mar 13 01:13:44 DIBTVTest1A1 systemd[823]: Starting Paths.
+Mar 13 01:13:44 DIBTVTest1A1 systemd[823]: Reached target Paths.
+Mar 13 01:13:44 DIBTVTest1A1 systemd[823]: Starting Timers.
+Mar 13 01:13:44 DIBTVTest1A1 systemd[823]: Reached target Timers.
+Mar 13 01:13:44 DIBTVTest1A1 systemd[823]: Starting Sockets.
+Mar 13 01:13:44 DIBTVTest1A1 systemd[823]: Reached target Sockets.
+Mar 13 01:13:44 DIBTVTest1A1 systemd[823]: Starting Basic System.
+Mar 13 01:13:44 DIBTVTest1A1 systemd[823]: Reached target Basic System.
+Mar 13 01:13:44 DIBTVTest1A1 systemd[823]: Starting Default.
+Mar 13 01:13:44 DIBTVTest1A1 systemd[823]: Reached target Default.
+Mar 13 01:13:44 DIBTVTest1A1 systemd[823]: Startup finished in 32ms.
+Mar 13 01:13:44 DIBTVTest1A1 systemd[1]: Started User Manager for UID 1000.
+Mar 13 01:13:44 DIBTVTest1A1 ntpd[608]: Listen normally on 5 eth0 10.1.10.136 UDP 123
+Mar 13 01:13:44 DIBTVTest1A1 ntpd[608]: Listen normally on 6 eth0 fe80::67e7:8692:ea57:d86d UDP 123
+Mar 13 01:13:44 DIBTVTest1A1 ntpd[608]: peers refreshed
+Mar 13 01:13:47 DIBTVTest1A1 ntpd_intres[658]: DNS 0.debian.pool.ntp.org -> 162.159.200.123
+Mar 13 01:13:47 DIBTVTest1A1 ntpd_intres[658]: DNS 1.debian.pool.ntp.org -> 172.233.153.85
+Mar 13 01:13:47 DIBTVTest1A1 ntpd_intres[658]: DNS 2.debian.pool.ntp.org -> 147.135.15.159
+Mar 13 01:13:47 DIBTVTest1A1 ntpd_intres[658]: DNS 3.debian.pool.ntp.org -> 198.199.14.18
+Mar 13 01:13:47 DIBTVTest1A1 dbus[435]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkitd.service'
+Mar 13 01:13:47 DIBTVTest1A1 systemd[1]: Starting Authenticate and Authorize Users to Run Privileged Tasks...
+Mar 13 01:13:47 DIBTVTest1A1 polkitd[897]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Mar 13 01:13:47 DIBTVTest1A1 dbus[435]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Mar 13 01:13:47 DIBTVTest1A1 systemd[1]: Started Authenticate and Authorize Users to Run Privileged Tasks.
+Mar 13 01:13:47 DIBTVTest1A1 sntp[1037]: Started sntp
+Mar 13 01:13:54 DIBTVTest1A1 systemd[1]: Time has been changed
+Mar 13 01:13:54 DIBTVTest1A1 systemd[823]: Time has been changed
+Mar 13 01:13:54 DIBTVTest1A1 systemd[823]: Time has been changed
+Mar 13 01:13:54 DIBTVTest1A1 systemd[1]: Time has been changed
+Mar 13 01:13:54 DIBTVTest1A1 systemd[1]: Time has been changed
+Mar 13 01:13:54 DIBTVTest1A1 systemd[823]: Time has been changed
+Mar 13 01:13:54 DIBTVTest1A1 dbus[435]: [system] Activating via systemd: service name='org.freedesktop.UDisks2' unit='udisks2.service'
+Mar 13 01:13:54 DIBTVTest1A1 systemd[823]: Time has been changed
+Mar 13 01:13:54 DIBTVTest1A1 systemd[1]: Time has been changed
+Mar 13 01:13:54 DIBTVTest1A1 systemd[1]: Starting Disk Manager...
+Mar 13 01:13:54 DIBTVTest1A1 udisksd[1045]: udisks daemon version 2.1.3 starting
+Mar 13 01:13:54 DIBTVTest1A1 dbus[435]: [system] Successfully activated service 'org.freedesktop.UDisks2'
+Mar 13 01:13:54 DIBTVTest1A1 udisksd[1045]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Mar 13 01:13:54 DIBTVTest1A1 systemd[1]: Started Disk Manager.
+Mar 13 01:13:56 DIBTVTest1A1 dhcpcd[455]: wlan0: leased 10.1.10.85 for 86400 seconds
+Mar 13 01:13:56 DIBTVTest1A1 dhcpcd[455]: wlan0: adding route to 10.1.10.0/24
+Mar 13 01:13:56 DIBTVTest1A1 dhcpcd[455]: wlan0: adding default route via 10.1.10.1
+Mar 13 01:13:56 DIBTVTest1A1 avahi-daemon[428]: Joining mDNS multicast group on interface wlan0.IPv4 with address 10.1.10.85.
+Mar 13 01:13:56 DIBTVTest1A1 avahi-daemon[428]: New relevant interface wlan0.IPv4 for mDNS.
+Mar 13 01:13:56 DIBTVTest1A1 avahi-daemon[428]: Registering new address record for 10.1.10.85 on wlan0.IPv4.
+Mar 13 01:13:58 DIBTVTest1A1 ntpd[608]: Listen normally on 7 wlan0 10.1.10.85 UDP 123
+Mar 13 01:13:58 DIBTVTest1A1 ntpd[608]: peers refreshed
+Mar 13 01:13:58 DIBTVTest1A1 dhcpcd[455]: wlan0: no IPv6 Routers available
+Mar 13 01:14:01 DIBTVTest1A1 dhcpcd[455]: eth0: no IPv6 Routers available
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Started /etc/rc.local Compatibility.
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Starting Wait for Plymouth Boot Screen to Quit...
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Starting Terminate Plymouth Boot Screen...
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Started Wait for Plymouth Boot Screen to Quit.
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Starting Getty on tty1...
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Started Getty on tty1.
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Starting Serial Getty on ttyS0...
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Started Serial Getty on ttyS0.
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Starting Login Prompts.
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Reached target Login Prompts.
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Started Terminate Plymouth Boot Screen.
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Starting Multi-User System.
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Reached target Multi-User System.
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Starting Graphical Interface.
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Reached target Graphical Interface.
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Startup finished in 1.258s (kernel) + 25.561s (userspace) = 26.820s.
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Starting Session c2 of user pi.
+Mar 13 01:14:06 DIBTVTest1A1 systemd[1]: Started Session c2 of user pi.
+Mar 13 01:28:40 DIBTVTest1A1 systemd[1]: Starting Cleanup of Temporary Directories...
+Mar 13 01:28:40 DIBTVTest1A1 systemd[1]: Started Cleanup of Temporary Directories.
+Mar 13 02:09:37 DIBTVTest1A1 wpa_supplicant[399]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 13 02:13:45 DIBTVTest1A1 rngd[515]: stats: bits received from HRNG source: 80064
+Mar 13 02:13:45 DIBTVTest1A1 rngd[515]: stats: bits sent to kernel pool: 35360
+Mar 13 02:13:45 DIBTVTest1A1 rngd[515]: stats: entropy added to kernel pool: 35360
+Mar 13 02:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2 successes: 4
+Mar 13 02:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2 failures: 0
+Mar 13 02:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 13 02:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 13 02:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 13 02:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 13 02:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 13 02:13:45 DIBTVTest1A1 rngd[515]: stats: HRNG source speed: (min=646.131; avg=716.585; max=817.686)Kibits/s
+Mar 13 02:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS tests speed: (min=7.109; avg=11.030; max=14.108)Mibits/s
+Mar 13 02:13:45 DIBTVTest1A1 rngd[515]: stats: Lowest ready-buffers level: 2
+Mar 13 02:13:45 DIBTVTest1A1 rngd[515]: stats: Entropy starvations: 0
+Mar 13 02:13:45 DIBTVTest1A1 rngd[515]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 13 03:09:37 DIBTVTest1A1 wpa_supplicant[399]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 13 03:13:45 DIBTVTest1A1 rngd[515]: stats: bits received from HRNG source: 120064
+Mar 13 03:13:45 DIBTVTest1A1 rngd[515]: stats: bits sent to kernel pool: 65120
+Mar 13 03:13:45 DIBTVTest1A1 rngd[515]: stats: entropy added to kernel pool: 65120
+Mar 13 03:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2 successes: 6
+Mar 13 03:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2 failures: 0
+Mar 13 03:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 13 03:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 13 03:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 13 03:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 13 03:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 13 03:13:45 DIBTVTest1A1 rngd[515]: stats: HRNG source speed: (min=646.131; avg=744.005; max=817.686)Kibits/s
+Mar 13 03:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS tests speed: (min=6.982; avg=9.263; max=14.108)Mibits/s
+Mar 13 03:13:45 DIBTVTest1A1 rngd[515]: stats: Lowest ready-buffers level: 2
+Mar 13 03:13:45 DIBTVTest1A1 rngd[515]: stats: Entropy starvations: 0
+Mar 13 03:13:45 DIBTVTest1A1 rngd[515]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 13 04:09:37 DIBTVTest1A1 wpa_supplicant[399]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 13 04:13:45 DIBTVTest1A1 rngd[515]: stats: bits received from HRNG source: 140064
+Mar 13 04:13:45 DIBTVTest1A1 rngd[515]: stats: bits sent to kernel pool: 95360
+Mar 13 04:13:45 DIBTVTest1A1 rngd[515]: stats: entropy added to kernel pool: 95360
+Mar 13 04:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2 successes: 7
+Mar 13 04:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2 failures: 0
+Mar 13 04:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 13 04:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 13 04:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 13 04:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 13 04:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 13 04:13:45 DIBTVTest1A1 rngd[515]: stats: HRNG source speed: (min=646.131; avg=753.903; max=819.298)Kibits/s
+Mar 13 04:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS tests speed: (min=6.982; avg=8.884; max=14.108)Mibits/s
+Mar 13 04:13:45 DIBTVTest1A1 rngd[515]: stats: Lowest ready-buffers level: 2
+Mar 13 04:13:45 DIBTVTest1A1 rngd[515]: stats: Entropy starvations: 0
+Mar 13 04:13:45 DIBTVTest1A1 rngd[515]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 13 05:09:37 DIBTVTest1A1 wpa_supplicant[399]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 13 05:13:45 DIBTVTest1A1 rngd[515]: stats: bits received from HRNG source: 180064
+Mar 13 05:13:45 DIBTVTest1A1 rngd[515]: stats: bits sent to kernel pool: 125120
+Mar 13 05:13:45 DIBTVTest1A1 rngd[515]: stats: entropy added to kernel pool: 125120
+Mar 13 05:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2 successes: 9
+Mar 13 05:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2 failures: 0
+Mar 13 05:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 13 05:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 13 05:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 13 05:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 13 05:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 13 05:13:45 DIBTVTest1A1 rngd[515]: stats: HRNG source speed: (min=646.131; avg=766.763; max=819.298)Kibits/s
+Mar 13 05:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS tests speed: (min=6.976; avg=8.394; max=14.108)Mibits/s
+Mar 13 05:13:45 DIBTVTest1A1 rngd[515]: stats: Lowest ready-buffers level: 2
+Mar 13 05:13:45 DIBTVTest1A1 rngd[515]: stats: Entropy starvations: 0
+Mar 13 05:13:45 DIBTVTest1A1 rngd[515]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 13 06:09:37 DIBTVTest1A1 wpa_supplicant[399]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 13 06:13:45 DIBTVTest1A1 rngd[515]: stats: bits received from HRNG source: 200064
+Mar 13 06:13:45 DIBTVTest1A1 rngd[515]: stats: bits sent to kernel pool: 155360
+Mar 13 06:13:45 DIBTVTest1A1 rngd[515]: stats: entropy added to kernel pool: 155360
+Mar 13 06:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2 successes: 10
+Mar 13 06:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2 failures: 0
+Mar 13 06:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 13 06:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 13 06:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 13 06:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 13 06:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 13 06:13:45 DIBTVTest1A1 rngd[515]: stats: HRNG source speed: (min=646.131; avg=771.227; max=819.298)Kibits/s
+Mar 13 06:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS tests speed: (min=6.976; avg=8.232; max=14.108)Mibits/s
+Mar 13 06:13:45 DIBTVTest1A1 rngd[515]: stats: Lowest ready-buffers level: 2
+Mar 13 06:13:45 DIBTVTest1A1 rngd[515]: stats: Entropy starvations: 0
+Mar 13 06:13:45 DIBTVTest1A1 rngd[515]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 13 06:25:06 DIBTVTest1A1 systemd[1]: Reloading LSB: Apache2 web server.
+Mar 13 06:25:07 DIBTVTest1A1 apache2[2404]: Reloading web server: apache2.
+Mar 13 06:25:07 DIBTVTest1A1 systemd[1]: Reloaded LSB: Apache2 web server.
+Mar 13 07:09:37 DIBTVTest1A1 wpa_supplicant[399]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 13 07:13:45 DIBTVTest1A1 rngd[515]: stats: bits received from HRNG source: 240064
+Mar 13 07:13:45 DIBTVTest1A1 rngd[515]: stats: bits sent to kernel pool: 185120
+Mar 13 07:13:45 DIBTVTest1A1 rngd[515]: stats: entropy added to kernel pool: 185120
+Mar 13 07:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2 successes: 12
+Mar 13 07:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2 failures: 0
+Mar 13 07:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 13 07:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 13 07:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 13 07:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 13 07:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 13 07:13:45 DIBTVTest1A1 rngd[515]: stats: HRNG source speed: (min=610.409; avg=758.157; max=819.298)Kibits/s
+Mar 13 07:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS tests speed: (min=6.936; avg=7.995; max=14.108)Mibits/s
+Mar 13 07:13:45 DIBTVTest1A1 rngd[515]: stats: Lowest ready-buffers level: 2
+Mar 13 07:13:45 DIBTVTest1A1 rngd[515]: stats: Entropy starvations: 0
+Mar 13 07:13:45 DIBTVTest1A1 rngd[515]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 13 08:09:37 DIBTVTest1A1 wpa_supplicant[399]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 13 08:13:45 DIBTVTest1A1 rngd[515]: stats: bits received from HRNG source: 260064
+Mar 13 08:13:45 DIBTVTest1A1 rngd[515]: stats: bits sent to kernel pool: 215360
+Mar 13 08:13:45 DIBTVTest1A1 rngd[515]: stats: entropy added to kernel pool: 215360
+Mar 13 08:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2 successes: 13
+Mar 13 08:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2 failures: 0
+Mar 13 08:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 13 08:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 13 08:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 13 08:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 13 08:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 13 08:13:45 DIBTVTest1A1 rngd[515]: stats: HRNG source speed: (min=610.409; avg=762.552; max=819.573)Kibits/s
+Mar 13 08:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS tests speed: (min=6.936; avg=7.913; max=14.108)Mibits/s
+Mar 13 08:13:45 DIBTVTest1A1 rngd[515]: stats: Lowest ready-buffers level: 2
+Mar 13 08:13:45 DIBTVTest1A1 rngd[515]: stats: Entropy starvations: 0
+Mar 13 08:13:45 DIBTVTest1A1 rngd[515]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 13 09:09:37 DIBTVTest1A1 wpa_supplicant[399]: wlan0: WPA: Group rekeying completed with 04:42:1a:40:fb:00 [GTK=CCMP]
+Mar 13 09:13:45 DIBTVTest1A1 rngd[515]: stats: bits received from HRNG source: 300064
+Mar 13 09:13:45 DIBTVTest1A1 rngd[515]: stats: bits sent to kernel pool: 245120
+Mar 13 09:13:45 DIBTVTest1A1 rngd[515]: stats: entropy added to kernel pool: 245120
+Mar 13 09:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2 successes: 15
+Mar 13 09:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2 failures: 0
+Mar 13 09:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Monobit: 0
+Mar 13 09:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Poker: 0
+Mar 13 09:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Runs: 0
+Mar 13 09:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Long run: 0
+Mar 13 09:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS 140-2(2001-10-10) Continuous run: 0
+Mar 13 09:13:45 DIBTVTest1A1 rngd[515]: stats: HRNG source speed: (min=610.409; avg=766.444; max=819.573)Kibits/s
+Mar 13 09:13:45 DIBTVTest1A1 rngd[515]: stats: FIPS tests speed: (min=6.634; avg=7.743; max=14.108)Mibits/s
+Mar 13 09:13:45 DIBTVTest1A1 rngd[515]: stats: Lowest ready-buffers level: 2
+Mar 13 09:13:45 DIBTVTest1A1 rngd[515]: stats: Entropy starvations: 0
+Mar 13 09:13:45 DIBTVTest1A1 rngd[515]: stats: Time spent starving for entropy: (min=0; avg=0.000; max=0)us
+Mar 13 09:27:18 DIBTVTest1A1 systemd[1]: Starting Session c3 of user pi.
+Mar 13 09:27:18 DIBTVTest1A1 systemd[1]: Started Session c3 of user pi.

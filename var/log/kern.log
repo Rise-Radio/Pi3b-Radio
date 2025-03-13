@@ -7501,3 +7501,322 @@ Mar 12 13:21:43 DIBTVTest1A1 kernel: [ 9672.251059] usb 1-1.5: Product: Optical 
 Mar 12 13:21:43 DIBTVTest1A1 kernel: [ 9672.257751] input: Optical Mouse as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.5/1-1.5:1.0/0003:04F3:0235.0005/input/input4
 Mar 12 13:21:43 DIBTVTest1A1 kernel: [ 9672.258385] hid-generic 0003:04F3:0235.0005: input,hidraw4: USB HID v1.11 Mouse [Optical Mouse] on usb-3f980000.usb-1.5/input0
 Mar 12 15:47:31 DIBTVTest1A1 kernel: [18419.487548] Bits 55-60 of /proc/PID/pagemap entries are about to stop being page-shift some time soon. See the linux/Documentation/vm/pagemap.txt for details.
+Mar 12 17:04:46 DIBTVTest1A1 kernel: [23054.495996] brcmfmac: brcmf_sdio_hdparse: seq 180: sequence number error, expect 179
+Mar 12 17:04:46 DIBTVTest1A1 kernel: [23054.496080] brcmfmac: brcmf_sdio_hdparse: seq 179: sequence number error, expect 181
+Mar 12 17:04:46 DIBTVTest1A1 kernel: [23054.497442] brcmfmac: brcmf_sdio_hdparse: seq 181: sequence number error, expect 180
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] Initializing cgroup subsys cpu
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] Linux version 4.1.19-v7+ (dc4@dc4-XPS13-9333) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ) #858 SMP Tue Mar 15 15:56:00 GMT 2016
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] Machine model: Raspberry Pi 3 Model B Rev 1.2
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] cma: Reserved 8 MiB at 0x2e400000
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] Memory policy: Data cache writealloc
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] On node 0 totalpages: 192512
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80880fc0, node_mem_map add64000
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 1692 pages used for memmap
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 0 pages reserved
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000]   Normal zone: 192512 pages, LIFO batch:31
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] [bcm2709_smp_init_cpus] enter (9420->f3003010)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] [bcm2709_smp_init_cpus] ncores=4
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] PERCPU: Embedded 12 pages/cpu @aefb0000 s20416 r8192 d20544 u49152
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 190820
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] Kernel command line: 8250.nr_uarts=1 dma.dmachans=0x7f35 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2709.boardrev=0xa02082 bcm2709.serial=0x50af3365 smsc95xx.macaddr=B8:27:EB:AF:33:65 bcm2708_fb.fbswap=1 bcm2709.uart_clock=48000000 vc_mem.mem_base=0x3dc00000 vc_mem.mem_size=0x3f000000  dwc_otg.lpm_enable=0 console=ttyS0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait logo.nologo quiet
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] Memory: 744496K/770048K available (6064K kernel code, 534K rwdata, 1664K rodata, 444K init, 757K bss, 17360K reserved, 8192K cma-reserved)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] Virtual kernel memory layout:
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000]     vmalloc : 0xaf800000 - 0xff000000   (1272 MB)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000]     lowmem  : 0x80000000 - 0xaf000000   ( 752 MB)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000]     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000]       .text : 0x80008000 - 0x807945f0   (7730 kB)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000]       .init : 0x80795000 - 0x80804000   ( 444 kB)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000]       .data : 0x80804000 - 0x80889b10   ( 535 kB)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000]        .bss : 0x8088c000 - 0x809497dc   ( 758 kB)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] Hierarchical RCU implementation.
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] 	Additional per-CPU info printed with stalls.
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] NR_IRQS:608
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] Architected cp15 timer(s) running at 19.20MHz (phys).
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000000] clocksource arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000008] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000026] Switching to timer-based delay loop, resolution 52ns
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000241] Console: colour dummy device 80x30
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000440] console [tty1] enabled
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000473] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000493] pid_max: default: 32768 minimum: 301
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000792] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.000806] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.001770] Initializing cgroup subsys blkio
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.001796] Initializing cgroup subsys memory
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.001821] Initializing cgroup subsys devices
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.001842] Initializing cgroup subsys freezer
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.001869] Initializing cgroup subsys net_cls
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.001919] CPU: Testing write buffer coherency: ok
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.001985] ftrace: allocating 20313 entries in 60 pages
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.047325] CPU0: update cpu_capacity 1024
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.047358] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.047371] [bcm2709_smp_prepare_cpus] enter
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.047502] Setting up static identity map for 0x8240 - 0x8274
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.049239] [bcm2709_boot_secondary] cpu:1 started (0) 16
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.049436] [bcm2709_secondary_init] enter cpu:1
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.049478] CPU1: update cpu_capacity 1024
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.049485] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.049875] [bcm2709_boot_secondary] cpu:2 started (0) 17
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.050040] [bcm2709_secondary_init] enter cpu:2
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.050062] CPU2: update cpu_capacity 1024
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.050069] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.050432] [bcm2709_boot_secondary] cpu:3 started (0) 17
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.050563] [bcm2709_secondary_init] enter cpu:3
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.050583] CPU3: update cpu_capacity 1024
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.050589] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.050653] Brought up 4 CPUs
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.050677] SMP: Total of 4 processors activated (153.60 BogoMIPS).
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.050685] CPU: All CPU(s) started in HYP mode.
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.050692] CPU: Virtualization extensions available.
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.051374] devtmpfs: initialized
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.070090] VFP support v0.3: implementor 41 architecture 3 part 40 variant 3 rev 4
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.070328] clocksource jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.071145] pinctrl core: initialized pinctrl subsystem
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.071674] NET: Registered protocol family 16
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.076741] DMA: preallocated 4096 KiB pool for atomic coherent allocations
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.077760] bcm2709.uart_clock = 48000000
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.081815] bcm2709: Mini UART enabled
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.081863] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.081874] hw-breakpoint: maximum watchpoint size is 8 bytes.
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.082025] Serial: AMBA PL011 UART driver
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.082069] uart-pl011 3f201000.uart: could not find pctldev for node /soc/gpio@7e200000/uart0_pins, deferring probe
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.082225] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.148081] bcm2708-dmaengine 3f007000.dma: DMA legacy API manager at f3007000, dmachans=0xf35
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.148112] bcm2708-dmaengine 3f007000.dma: Initialized 7 DMA channels (+ 1 legacy)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.148669] bcm2708-dmaengine 3f007000.dma: Load BCM2835 DMA engine driver
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.148682] bcm2708-dmaengine 3f007000.dma: dma_debug:0
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.149233] SCSI subsystem initialized
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.149422] usbcore: registered new interface driver usbfs
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.149514] usbcore: registered new interface driver hub
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.149613] usbcore: registered new device driver usb
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.150133] raspberrypi-firmware soc:firmware: Attached to firmware from 2016-03-15 14:47
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.177235] Switched to clocksource arch_sys_counter
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.218610] FS-Cache: Loaded
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.218876] CacheFiles: Loaded
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.228210] NET: Registered protocol family 2
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.229158] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.229275] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.229464] TCP: Hash tables configured (established 8192 bind 8192)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.229557] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.229605] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.229911] NET: Registered protocol family 1
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.230212] RPC: Registered named UNIX socket transport module.
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.230222] RPC: Registered udp transport module.
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.230231] RPC: Registered tcp transport module.
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.230239] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.231205] hw perfevents: enabled with armv7_cortex_a7 PMU driver, 7 counters available
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.232239] futex hash table entries: 1024 (order: 4, 65536 bytes)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.245599] VFS: Disk quotas dquot_6.6.0
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.245909] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.248013] FS-Cache: Netfs 'nfs' registered for caching
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.248910] NFS: Registering the id_resolver key type
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.248952] Key type id_resolver registered
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.248962] Key type id_legacy registered
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.251014] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.251139] io scheduler noop registered
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.251159] io scheduler deadline registered (default)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.251428] io scheduler cfq registered
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.253680] BCM2708FB: allocated DMA memory ee800000
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.253705] BCM2708FB: allocated DMA channel 0 @ f3007000
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.280162] Console: switching to colour frame buffer device 228x61
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.296155] Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.297664] console [ttyS0] disabled
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.297721] 3f215040.uart: ttyS0 at MMIO 0x3f215040 (irq = 29, base_baud = 50000000) is a 16550
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.298262] console [ttyS0] enabled
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.299180] vc-cma: Videocore CMA driver
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.299191] vc-cma: vc_cma_base      = 0x00000000
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.299200] vc-cma: vc_cma_size      = 0x00000000 (0 MiB)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.299209] vc-cma: vc_cma_initial   = 0x00000000 (0 MiB)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.299383] vc-mem: phys_addr:0x00000000 mem_base=0x3dc00000 mem_size:0x3f000000(1008 MiB)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.310852] brd: module loaded
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.317899] loop: module loaded
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.318727] vchiq: vchiq_init_state: slot_zero = 0xae880000, is_master = 0
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.320178] Loading iSCSI transport class v2.0-870.
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.320827] usbcore: registered new interface driver smsc95xx
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.320877] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.521157] Core Release: 2.80a
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.521171] Setting default values for core params
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.521205] Finished setting default values for core params
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.721548] Using Buffer DMA mode
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.721559] Periodic Transfer Interrupt Enhancement - disabled
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.721567] Multiprocessor Interrupt Enhancement - disabled
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.721577] OTG VER PARAM: 0, OTG VER FLAG: 0
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.721591] Dedicated Tx FIFOs mode
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.721882] WARN::dwc_otg_hcd_init:1047: FIQ DMA bounce buffers: virt = 0xae814000 dma = 0xee814000 len=9024
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.721913] FIQ FSM acceleration enabled for :
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.721913] Non-periodic Split Transactions
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.721913] Periodic Split Transactions
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.721913] High-Speed Isochronous Endpoints
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.721933] dwc_otg: Microframe scheduler enabled
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.721978] WARN::hcd_init_fiq:412: FIQ on core 1 at 0x80417288
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.721992] WARN::hcd_init_fiq:413: FIQ ASM at 0x804175f8 length 36
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.722006] WARN::hcd_init_fiq:438: MPHI regs_base at 0xaf89c000
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.722041] dwc_otg 3f980000.usb: DWC OTG Controller
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.722077] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.722109] dwc_otg 3f980000.usb: irq 32, io mem 0x00000000
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.722160] Init: Port Power? op_state=1
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.722168] Init: Power Port (0)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.722363] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.722379] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.722391] usb usb1: Product: DWC OTG Controller
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.722403] usb usb1: Manufacturer: Linux 4.1.19-v7+ dwc_otg_hcd
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.722415] usb usb1: SerialNumber: 3f980000.usb
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.723071] hub 1-0:1.0: USB hub found
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.723114] hub 1-0:1.0: 1 port detected
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.723489] dwc_otg: FIQ enabled
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.723498] dwc_otg: NAK holdoff enabled
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.723505] dwc_otg: FIQ split-transaction FSM enabled
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.723539] Module dwc_common_port init
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.723802] usbcore: registered new interface driver usb-storage
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.723984] mousedev: PS/2 mouse device common for all mice
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.724660] bcm2835-cpufreq: min=600000 max=1200000
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.724936] sdhci: Secure Digital Host Controller Interface driver
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.724945] sdhci: Copyright(c) Pierre Ossman
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.725223] sdhost: log_buf @ ae813000 (ee813000)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.797271] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.819675] mmc-bcm2835 3f300000.mmc: mmc_debug:0 mmc_debug2:0
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.819690] mmc-bcm2835 3f300000.mmc: DMA channel allocated
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.857341] sdhci-pltfm: SDHCI platform and OF driver helper
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.857689] ledtrig-cpu: registered to indicate activity on CPUs
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.857818] hidraw: raw HID events driver (C) Jiri Kosina
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.858009] usbcore: registered new interface driver usbhid
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.858018] usbhid: USB HID core driver
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.858317] mmc0: host does not support reading read-only switch, assuming write-enable
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.858441] Initializing XFRM netlink socket
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.858474] NET: Registered protocol family 17
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.858588] Key type dns_resolver registered
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.859072] Registering SWP/SWPB emulation handler
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.859696] registered taskstats version 1
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.859887] vc-sm: Videocore shared memory driver
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.859902] [vc_sm_connected_init]: start
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.861165] mmc0: new high speed SDHC card at address 59b4
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.861328] [vc_sm_connected_init]: end - returning 0
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.861584] mmcblk0: mmc0:59b4 SMTC  14.6 GiB 
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.862723] 3f201000.uart: ttyAMA0 at MMIO 0x3f201000 (irq = 83, base_baud = 0) is a PL011 rev2
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.863918]  mmcblk0: p1 p2
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.879792] mmc1: queuing unknown CIS tuple 0x80 (2 bytes)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.880987] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.881032] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.881347] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.881806] devtmpfs: mounted
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.882506] Freeing unused kernel memory: 444K (80795000 - 80804000)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.882899] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.885681] mmc1: queuing unknown CIS tuple 0x80 (7 bytes)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.917331] Indeed it is in host mode hprt0 = 00021501
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    0.976598] mmc1: new high speed SDIO card at address 0001
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.097287] usb 1-1: new high-speed USB device number 2 using dwc_otg
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.097434] Indeed it is in host mode hprt0 = 00001101
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.297569] usb 1-1: New USB device found, idVendor=0424, idProduct=9514
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.297589] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.298292] hub 1-1:1.0: USB hub found
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.298389] hub 1-1:1.0: 5 ports detected
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.322431] random: systemd urandom read with 46 bits of entropy available
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.491323] NET: Registered protocol family 10
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.577307] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.677575] usb 1-1.1: New USB device found, idVendor=0424, idProduct=ec00
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.677597] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.680299] smsc95xx v1.0.4
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.740629] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, b8:27:eb:af:33:65
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.817287] usb 1-1.2: new low-speed USB device number 4 using dwc_otg
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.936662] usb 1-1.2: New USB device found, idVendor=1c4f, idProduct=0026
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.936684] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.936696] usb 1-1.2: Product: USB Keyboard
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.936708] usb 1-1.2: Manufacturer: SIGMACHIP
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.946732] input: SIGMACHIP USB Keyboard as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2/1-1.2:1.0/0003:1C4F:0026.0001/input/input0
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    1.997553] hid-generic 0003:1C4F:0026.0001: input,hidraw0: USB HID v1.10 Keyboard [SIGMACHIP USB Keyboard] on usb-3f980000.usb-1.2/input0
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.009512] input: SIGMACHIP USB Keyboard as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2/1-1.2:1.1/0003:1C4F:0026.0002/input/input1
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.067600] hid-generic 0003:1C4F:0026.0002: input,hidraw1: USB HID v1.10 Device [SIGMACHIP USB Keyboard] on usb-3f980000.usb-1.2/input1
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.130681] fuse init (API version 7.23)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.225583] i2c /dev entries driver
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.307321] usb 1-1.4: new full-speed USB device number 5 using dwc_otg
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.418610] usb 1-1.4: New USB device found, idVendor=1997, idProduct=2433
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.418633] usb 1-1.4: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.418646] usb 1-1.4: Product: mini keyboard
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.418660] usb 1-1.4: Manufacturer:  
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.428937] input:   mini keyboard as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.4/1-1.4:1.0/0003:1997:2433.0003/input/input2
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.487601] hid-generic 0003:1997:2433.0003: input,hidraw2: USB HID v1.01 Keyboard [  mini keyboard] on usb-3f980000.usb-1.4/input0
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.498610] input:   mini keyboard as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.4/1-1.4:1.1/0003:1997:2433.0004/input/input3
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.557769] hid-generic 0003:1997:2433.0004: input,hidraw3: USB HID v1.01 Mouse [  mini keyboard] on usb-3f980000.usb-1.4/input1
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.797350] usb 1-1.5: new low-speed USB device number 6 using dwc_otg
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.901696] usb 1-1.5: New USB device found, idVendor=04f3, idProduct=0235
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.901722] usb 1-1.5: New USB device strings: Mfr=0, Product=2, SerialNumber=0
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.901735] usb 1-1.5: Product: Optical Mouse
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.913003] input: Optical Mouse as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.5/1-1.5:1.0/0003:04F3:0235.0005/input/input4
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.913693] hid-generic 0003:04F3:0235.0005: input,hidraw4: USB HID v1.11 Mouse [Optical Mouse] on usb-3f980000.usb-1.5/input0
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    2.926359] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    3.179735] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    3.351591] cfg80211: Calling CRDA to update world regulatory domain
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    3.434118] brcmfmac: brcmf_sdio_drivestrengthinit: No SDIO Drive strength init done for chip 43430 rev 1 pmurev 24
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    3.438803] usbcore: registered new interface driver brcmfmac
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    3.585832] brcmfmac: brcmf_c_preinit_dcmds: Firmware version = wl0: Aug  7 2017 00:46:29 version 7.45.41.46 (r666254 CY) FWID 01-f8a78378
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    3.588867] random: nonblocking pool is initialized
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    3.613957] brcmfmac: brcmf_cfg80211_reg_notifier: not a ISO3166 code
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    3.848659] bcm2835-rng 3f104000.rng: hwrng registered
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.232809] brcmfmac: brcmf_cfg80211_reg_notifier: not a ISO3166 code
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.232837] cfg80211: World regulatory domain updated:
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.232846] cfg80211:  DFS Master region: unset
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.232854] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.232868] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.232883] cfg80211:   (2457000 KHz - 2482000 KHz @ 20000 KHz, 92000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.232895] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (N/A, 2000 mBm), (N/A)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.232910] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.232924] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.232937] cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2000 mBm), (0 s)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.232949] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.232961] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.564705] brcmfmac: brcmf_add_if: ERROR: netdev:wlan0 already exists
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.564732] brcmfmac: brcmf_add_if: ignore IF event
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.570166] brcmfmac: power management disabled
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.977321] cfg80211: Calling CRDA for country: US
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.997491] cfg80211: Regulatory domain changed to country: US
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.997526] cfg80211:  DFS Master region: FCC
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.997541] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.997557] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 3000 mBm), (N/A)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.997572] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2300 mBm), (N/A)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.997586] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2300 mBm), (0 s)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.997599] cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2300 mBm), (0 s)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.997612] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 3000 mBm), (N/A)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    4.997629] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 4000 mBm), (N/A)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    5.536766] uart-pl011 3f201000.uart: no DMA platform data
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    6.081741] cfg80211: Calling CRDA for country: US
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    6.095249] cfg80211: Regulatory domain changed to country: US
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    6.095267] cfg80211:  DFS Master region: FCC
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    6.095275] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    6.095283] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 3000 mBm), (N/A)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    6.095301] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2300 mBm), (N/A)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    6.095311] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2300 mBm), (0 s)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    6.095327] cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2300 mBm), (0 s)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    6.095335] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 3000 mBm), (N/A)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    6.095342] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 4000 mBm), (N/A)
+Mar 13 01:13:39 DIBTVTest1A1 kernel: [    6.194601] Adding 102396k swap on /var/swap.  Priority:-1 extents:3 across:1773568k SSFS
+Mar 13 01:13:40 DIBTVTest1A1 kernel: [    6.318614] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+Mar 13 01:13:40 DIBTVTest1A1 kernel: [    6.319166] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Mar 13 01:13:40 DIBTVTest1A1 kernel: [    6.938388] gpiomem-bcm2835 3f200000.gpiomem: gpiomem device opened.
+Mar 13 01:13:41 DIBTVTest1A1 kernel: [    7.921407] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Mar 13 01:13:41 DIBTVTest1A1 kernel: [    7.923810] smsc95xx 1-1.1:1.0 eth0: link up, 100Mbps, full-duplex, lpa 0xCDE1
+Mar 13 01:13:43 DIBTVTest1A1 kernel: [   10.013304] Bluetooth: Core ver 2.20
+Mar 13 01:13:43 DIBTVTest1A1 kernel: [   10.013361] NET: Registered protocol family 31
+Mar 13 01:13:43 DIBTVTest1A1 kernel: [   10.013366] Bluetooth: HCI device and connection manager initialized
+Mar 13 01:13:43 DIBTVTest1A1 kernel: [   10.013383] Bluetooth: HCI socket layer initialized
+Mar 13 01:13:43 DIBTVTest1A1 kernel: [   10.013394] Bluetooth: L2CAP socket layer initialized
+Mar 13 01:13:43 DIBTVTest1A1 kernel: [   10.013419] Bluetooth: SCO socket layer initialized
+Mar 13 01:13:43 DIBTVTest1A1 kernel: [   10.058643] Bluetooth: HCI UART driver ver 2.3
+Mar 13 01:13:43 DIBTVTest1A1 kernel: [   10.058656] Bluetooth: HCI UART protocol H4 registered
+Mar 13 01:13:43 DIBTVTest1A1 kernel: [   10.058661] Bluetooth: HCI UART protocol Three-wire (H5) registered
+Mar 13 01:13:43 DIBTVTest1A1 kernel: [   10.058666] Bluetooth: HCI UART protocol BCM registered
+Mar 13 01:13:44 DIBTVTest1A1 kernel: [   10.364847] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Mar 13 01:13:44 DIBTVTest1A1 kernel: [   10.364862] Bluetooth: BNEP filters: protocol multicast
+Mar 13 01:13:44 DIBTVTest1A1 kernel: [   10.364878] Bluetooth: BNEP socket layer initialized

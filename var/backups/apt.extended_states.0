@@ -1880,7 +1880,7 @@ Auto-Installed: 1
 
 Package: git
 Architecture: armhf
-Auto-Installed: 1
+Auto-Installed: 0
 
 Package: libpulse0
 Architecture: armhf
