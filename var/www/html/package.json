@@ -9,7 +9,7 @@
   }],
   "main": "nodeserver/main.js",
   "dependencies": {
-    "jquery": "2.2.0"
+    "jquery": "3.5.0"
   },
   "preferGlobal": true,
   "private": true,
