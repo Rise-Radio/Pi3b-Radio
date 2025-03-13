@@ -1,0 +1,66 @@
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0; }
+
+#rise-radio-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1; }
+  #rise-radio-title h1 {
+    color: #bfbfbf;
+    font: 42px arial, sans-serif;
+    text-align: center;
+    width: 300px;
+    margin: 19% auto 0; }
+  #rise-radio-title #songtitle {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font: 26px arial, sans-serif;
+    color: #636363; }
+  #rise-radio-title #headerinfotitle {
+    margin: 25px auto 5px;
+    width: 530px;
+    color: #636363;
+    font: 16px arial, sans-serif; }
+  #rise-radio-title #headerinfo {
+    padding: 15px;
+    width: 500px;
+    display: block;
+    color: #636363;
+    margin: auto;
+    border: 1px solid #464646;
+    font-family: monospace;
+    float: left; }
+  #rise-radio-title #debug-area {
+    width: 1608px;
+    height: 280px;
+    margin: auto; }
+  #rise-radio-title #adlog {
+    padding: 15px;
+    width: 500px;
+    max-height: 250px;
+    display: block;
+    color: #636363;
+    margin: auto;
+    border: 1px solid #464646;
+    font-family: monospace;
+    float: left;
+    margin-right: 30px; }
+
+#adcont {
+  width: 480px;
+  height: 270px;
+  float: left;
+  border: 1px solid #464646;
+  margin-right: 30px; }
+
+#ad {
+  width: 480px;
+  height: 270px; }
+
+/*# sourceMappingURL=styles.css.map */

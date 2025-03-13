@@ -1,0 +1,4 @@
+﻿# Hash is a comment. 
+# Each file must have path info included. All files MUST have .new appended to each filename--removed after DL.
+
+/var/www/html/assets/js/bootCheck.js.new

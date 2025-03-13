@@ -1,0 +1,4 @@
+# Hash is a comment. Use ALLPISMAYDL as the key for all pis to download. Must be FIRST entry in list.
+
+#ALLPISMAYDL
+

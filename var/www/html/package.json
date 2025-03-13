@@ -1,0 +1,17 @@
+{
+  "name": "riseradioadsync",
+  "version": "1.0.0",
+  "description": "A streaming audio ad syncing application for Rise Radio, LLC. Written by White Sunrise, LLC.",
+  "author": "Allen <allen@whitesunrise.com>",
+  "contributors": [{
+    "name": "Adam",
+    "email": "adam@whitesunrise.com"
+  }],
+  "main": "nodeserver/main.js",
+  "dependencies": {
+    "jquery": "2.2.0"
+  },
+  "preferGlobal": true,
+  "private": true,
+  "license": "MIT"
+}
